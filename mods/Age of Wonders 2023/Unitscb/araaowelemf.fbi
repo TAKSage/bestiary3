@@ -1,0 +1,156 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 0 0;
+	bloodcolor2 = 150 0 0;
+	bloodcolor3 = 100 0 0;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 9000;
+	buildtime = 600;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ARA MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = firespirit;
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 50;
+	ghost = 1;
+	healtime = 0.7;
+	maneuverleashlength = 500;
+	maxdamage = 12350;
+	maxvelocity = 1.7;
+	maxmana = 1000;
+	manarechargerate = 23;
+	mogriumincome = -15;
+	movementclass = GROUND2;
+	name = Fire Elemental;
+	objectname = ARAAOWELEMF;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 545;
+	soundcategory = AOWELEMF;
+	soundclass = AOWELEMF;
+	standingunitorder = 2;
+	tedclass = Creature;
+	totalallowed = 1;
+	turninplacerate = 4000;
+	turnrate = 3000;
+	unitname = ARAAOWELEMF;
+	unitnumber = 42661;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.1;
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	damagetype = fire;
+	edgeeffectiveness = 0.75;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Fire Strike;
+	range = 30;
+	reloadtime = 2.65;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1225;
+		azrac = 0.75;
+		demon = 0.5;
+		dragon = 0.5;
+		spirit = 0.5;
+		firespirit = 0.25;
+		syron = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	areaofeffect = 475;
+	builduptime = 0.2;
+	decaytime = 0.9;
+	damagetype = fire;
+	edgeeffectiveness = 0.75;
+	explosionclass = megaflame;
+	firestarter = 1;
+	manapershot = 1000;
+	name = Call Flames;
+	range = 550;
+	reloadtime = 8;
+	soundhit = flame2;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 4000;	
+		spirit = 0.5;
+		firespirit = 0;
+		syron = 01;
+		azrac = 0.75;
+		lizard = 1.25;
+		frostling = 1.1;
+		dragon = 0.25;
+		demon = 0.25; 
+		spirit = 0.75;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 150;
+	damagetype = fire;
+	edgeeffectiveness = 0.6;
+	explosionclass = megaflame;
+	firestarter = 1;
+	name = Ignition;
+	range = 250;
+	reloadtime = 2;
+	soundhit = firewood;
+	type = Ballistic;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 2500;
+		spirit = 0.5;
+		firespirit = 0;	
+		syron = 0.5;
+		azrac = 0.75;
+		demon = 0.75;	
+		dragon = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+

@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	buildcost = 1150;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRETORT_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 26;
+	fireatwillrandom = 1;
+	healtime = 0.77083;
+	maneuverleashlength = 500;
+	maxdamage = 4251;
+	maxvelocity = 1.1;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND3;
+	name = Mobile Crossbow;
+	objectname = crebalistic;
+	pitchscale = 1.8;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 160;
+	soundcategory = CRELOCO;
+	soundclass = CRELOCO;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turnrate = 400;
+	unitname = crebalistic;
+	unitnumber = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1550;
+	areaofeffect = 24;
+	explosionclass = medium dust puff;
+	minrange = 50;
+	model = cregatl1;
+	name = Arrow;
+	range = 500;
+	reloadtime = 2.0;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 595;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}

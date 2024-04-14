@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 478;
+	buildtime = 213;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 8;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.25757575;
+	maxdamage = 5680;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 14;
+	mogriumstorage = 1000;
+	name = Lodestone;
+	objectname = tarlode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = tarlode;
+	soundclass = tarlode;
+	tedclass = Taros;
+	unitname = tarlode;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

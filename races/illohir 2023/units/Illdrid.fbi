@@ -1,0 +1,186 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 0 175 0;
+bloodcolor2 = 10 140 70;
+bloodcolor3 = 5 100 5;
+bmcode = 1;
+bodytype = scale;
+brakerate = 10;
+buildcost = 3047;//2947
+buildtime = 539;//419
+canattack = 1;
+cancapture = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+category = ILL MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illdrid_dead;
+damagecategory = Monster;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 30;
+floater = 0;
+frozen = IllDrid_frozen;
+healtime =  1.7458;
+immunetoparalyzer = 1;
+maneuverleashlength = 500;
+maxdamage = 3700;
+maxmana = 1000;
+manarechargerate = 15;
+maxvelocity = 1.35;
+//mobilestandorders = 1;
+movementclass = GROUND3;
+name = DrowDrider;
+objectname = ILLDRID;
+roadmultiplier = 1.35;
+//radardistance = 480;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 200;
+soundcategory = TARDRID;
+soundclass = TARDRID;
+standingunitorder = 2;
+stone = IllDrid_stone;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 3;
+turninplacerate = 2400;
+turnrate = 1200;
+unitname = ILLDRID;
+unitnumber = 100022;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.75;
+weaponswitching = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 50;
+buttonimagedisabled = FireBallGPU;
+buttonimagedown = FireBallGPU;
+buttonimageselected = FireBallGSBh;
+buttonimageup = FireBallGSB;
+damagetype = fire;
+edgeeffectiveness = 1;
+explosionclass = small explosion;
+firestarter = 1;
+gravityadjustment = 2.5;
+//manapershot = 150;
+model = ChaosBolt;//RED1B;
+name = ChaosEnergy;
+nimbus = 1;
+range = 900;
+reloadtime = 2.4;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = orbhit;
+soundwater = splash;
+spinroll = 4500;
+turnrate = 360;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weaponart = fireballa;
+weaponvelocity = 600;
+tracks = 1;
+guidance = 1;
+
+[DAMAGE]
+{
+default = 225;
+dragon = 0.5;
+airship = 0.75;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+naval = 0.5;
+
+}
+
+}
+[WEAPON2]
+{
+buttonimagedisabled = seduce_down;
+buttonimagedown = seduce_down;
+buttonimageselected = seduce_selected;
+buttonimageup = seduce_up;
+aimtolerance = 2048;
+//areaofeffect = 50;
+explosionclass = mind control;
+lightmap = small;
+manapershot = 450;
+model = DominateBlue;//redcrystal;
+name = Entrance;
+nimbus = 1;
+range = 310;//300
+reloadtime = 2.65;
+smoketrail = 1;
+smokedelay = 4.5;
+soundhit = DriderDom;
+subtype = mindcontrol;
+type = Line of Sight;
+unitsonly = 1;
+weaponart = FireBallCa;
+weaponvelocity = 260;
+
+[DAMAGE]
+{
+default = 1;
+lodestone = 0;
+monarch = 0;
+god = 0;
+//dragon = 0;
+fort = 0;
+factory = 0;
+}
+}
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 125;
+builduptime = 0.25;
+buttonimagedisabled = MeteorPU;
+buttonimagedown = MeteorPU;
+buttonimageselected = MeteorSBh;
+buttonimageup = MeteorSB;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = fireball explosion;
+firestarter = 1;
+lightmap = medium;
+manapershot = 950;
+name = Lolth's Wrath;
+range = 350;
+reloadtime = 5.0;
+type = Remote Effect;
+waterexplosionclass = medium water explosion;
+weaponart = FireballA;//FireBallB;
+weaponvelocity = 500;
+subtype = hailstorm;
+duration = 3;
+edgeeffectiveness = 0.5;
+nimbus = 1;
+particlespersecond = 10;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhitclass = fire;
+soundwater = splash;
+
+[DAMAGE]
+{
+default = 275;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+mechanical = 0.5;
+}
+}

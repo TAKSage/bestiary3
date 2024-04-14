@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 677;
+//	original buildtime = 125; 73
+	buildtime = 80;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tararch_dead;
+	//original damagecategory = undead;
+	damagecategory = archer;
+	defaultmissiontype = Standby;
+	description = Taros;
+	//original experiencepoints = 13;
+	experiencepoints = 30;
+	frozen = tararch_frozen;
+	fireatwillrandom = 1;
+	healtime = 0.520833;
+	maneuverleashlength = 500;
+	//original maxdamage = 900;
+	maxdamage = 2000;
+	maxvelocity = 1.4;
+	//original movementclass = GROUND2;
+	movementclass = GROUND2B;
+	name = Skeleton Archer;
+	objectname = TARARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	//original sightdistance = 240
+	sightdistance = 270;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 1000;
+	unitname = TARARCH;
+	unitnumber = 70;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = araarrow2;
+	name = Flame Arrow;
+	//original range = 450; 550
+	range = 510;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+//		original default = 355; 415
+		default = 370;  //dmg = 137/s
+//		these are new
+		airship = 1.18;
+		archer = 2;
+		archer2 = 0.93;
+		fly = 1.4; //dmg = 221/s
+		god = 0.5;
+		dragon = 1.2;
+		fort = 0.15;
+		fort2 = 0.15;
+		factory = 0.15;
+		lodestone = 0;
+		magic = 0.5;
+		monarch = 0.7;
+		stalwart = 0.7;
+		support = 0.55;
+		undead = 0.85;
+	}
+}

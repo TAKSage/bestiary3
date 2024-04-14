@@ -1,0 +1,165 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 36670;
+	buildtime = 6074;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmagus_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 260;
+	healtime = 10.058333333;
+	manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 12200;
+	maxmana = 1000;
+	maxvelocity = 2.8;
+	movementclass = GROUND3;
+	name = Zadok Hellbringer;
+	objectname = TARMAGUS;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 235;
+	soundcategory = TARMAGUS;
+	soundclass = TARMAGUS;
+	standingunitorder = 2;
+	stone = tarmagus_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 500;
+	turnrate = 600;
+	unitname = TARMAGUS;
+	unitnumber = 37785;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1;
+	weaponswitching = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Fire Ball;
+	nimbus = 1;
+	range = 420;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = Line of Sight;
+	weaponart = FireballA;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 490;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1000;
+	areaofeffect = 80;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	builduptime = 0.5;
+	damagetype = explosion;
+	decaytime = 0.9;
+	edgeeffectivness = 1.0;
+	explosionclass = Volcblast;
+	hweffect = fire;
+	manapershot = 50;
+	name = Fire Vent;
+	noairweapon = 1;
+	range = 1000;
+	reloadtime = 0.7;
+	soundhitclass = cannon;
+	type = Remote Effect;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 5;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	damagetype = fire;
+	decaytime = 4.9;
+	edgeeffectivness = 1.0;
+	gravityadjustment = 3.2;
+	hweffect = fire;
+	lobpreferred = 1;
+	manapershot = 1001;
+	name = Apocalypse;
+	nimbus = 1;
+	noairweapon = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 1200;
+	reloadtime = 8.1;
+	ringcount = 8;
+	ringdelay = 0.25;
+	ringduration = 3.2;
+	shotart = FireballA;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 24;
+	subtype = Ballistic;
+	type = Remote Effect;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		dragon = 0;
+		factory = 16000;
+		fort = 16000;
+		god = 0;
+		lodestone = 9000;
+		monarch = 0;
+		naval = 5000;
+	}
+}

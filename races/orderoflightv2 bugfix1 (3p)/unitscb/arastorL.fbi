@@ -1,0 +1,41 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 15000;
+	buildtime = 3000;
+  	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arastorL_dead;
+	description = Light;
+	damagecategory = lodestone;
+	experiencepoints = 100;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = .01;
+	maxdamage = 250;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	//mogriumincome = 5;
+	mogriumstorage = 5000;
+	name = Mana Temple;
+	objectname = ARASTORL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = ARASTORL;
+	soundclass = ARASTORL;
+	tedclass = Light;
+        totalallowed = 3;
+	unitname = ARASTORL;
+	unitnumber = 97979731;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+}

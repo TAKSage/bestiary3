@@ -1,0 +1,156 @@
+[UNITINFO]
+{
+	acceleration = .5;
+	bloodcolor1 = 180 35 5;
+	bloodcolor2 = 190 40 10;
+	bloodcolor3 = 200 50 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .3;
+	//original buildcost = 100000
+	buildcost = 195000;
+	//original buildtime = 30000; 61000; 
+	buildtime = 250000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = god;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 1000;
+	ghost = 1;
+	healtime = 50;
+	maneuverleashlength = 2000;
+	//original maxdamage = 29999;
+	maxdamage = 32000;
+	//original maxvelocity = 1.50;
+	maxvelocity = 1.4;
+	movementclass = HOVER2;
+	name = Ghost of Garacaius;
+	noshadow = 1;
+	noveteran = 1;
+	objectname = CREGOD;
+	//original radardistance = 10000;
+	radardistance = 3000;
+	roadmultiplier = 1.0;
+	shootme = 1;
+	side = CRE;
+	//original sightdistance = 2500;
+	sightdistance = 650;
+	soundcategory = CREGOD;
+	soundclass = CREGOD;
+	standingunitorder = 2;
+	tedclass = Creon;
+	totalallowed = 1;
+	turninplacerate = 1600;
+	turnrate = 600;
+	unitname = CREGOD;
+	unitnumber = 193;
+	upright = 1;
+	version = 1;
+	waterline = 65;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 200;
+	edgeeffectiveness = 0.25;
+	name = Supernatural Staff;
+	//original range = 1000;
+	range = 350;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 5000;
+		default = 10460;
+		monarch = 0.01;
+		fort2 = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 1.5;
+	decaytime = 1.5;
+	edgeeffectiveness = 0.4;
+	name = Earthquakes;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	//original range = 500;
+	range = 150;
+	//original reloadtime = 5.0;
+	reloadtime = 4.0;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = crestormhit4;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		//original default = 2500;
+		default = 5125;
+		monarch = 0.01;
+		lodestone = 2.0;
+		fort2 = 0.75;
+		stalwart = 0.1;
+		support = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 1.8;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	name = Ice Storm;
+	nimbus = 1;
+	particlespersecond = 8;
+	range = 500;
+	//original reloadtime = 2.0;
+	reloadtime = 10.0;
+	soundhit = crehailhit1;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.01;
+		fort = 0.5;
+		fort2 = 0.5;
+		stalwart = 0.2;
+		support = 0.25;
+	}
+}

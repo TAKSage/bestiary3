@@ -1,0 +1,37 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 490;
+//	mogriumbounty = 490;
+	buildtime = 160;
+	cantbecaptured = 0;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Zhon;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .48;
+	maxdamage = 10700;
+	maxslope = 10;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Lodestone;
+	objectname = zonlode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 175;
+	soundcategory = zonlode;
+	soundclass = zonlode;
+	tedclass = Zhon;
+	unitname = zonlode;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = S;
+}

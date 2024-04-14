@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.25;
+	buildcost = 1770;
+//	mogriumbounty = 177;
+	buildtime = 145;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = seamonster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 27;
+	floater = 1;
+	healtime = .604166667;
+	maneuverleashlength = 500;
+	maxdamage = 4100;
+	maxvelocity = 4.1;
+	movementclass = WATER4;
+	name = Kraken;
+	objectname = ZONKRAK;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONKRAK;
+	soundclass = ZONKRAK;
+	standingunitorder = 2;
+	stone = zonkrak_stone;
+	tedclass = Zhon;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = ZONKRAK;
+	unitnumber = 172;
+	version = 1;
+	waterline = 5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = WaterBallExp;
+	name = Water Ball;
+	range = 400;
+	reloadtime = 2.1;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+	weaponart = WaterBall;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 500;
+		flamedemon = 2;
+		antikingflamedemon = 2;
+		giantflamedemon = 2;
+		seamonster = 0.75;
+	}
+}

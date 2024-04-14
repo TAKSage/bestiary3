@@ -1,0 +1,37 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 100;
+	buildtime = 1;
+	cantbefrozen = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAWALL;
+	damagecategory = fort;
+	description = Aramon;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+        ghost = 0;
+	healtime = .01;
+	isfeature = 0;
+	maxdamage = 10000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Reclaimable Wall;
+	noshadow = 1;
+	objectname = ARAWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = ARAWALL;
+	soundclass = ARAWALL;
+	tedclass = Aramon;
+	unitname = ARAWALL;
+	unitnumber = 42;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

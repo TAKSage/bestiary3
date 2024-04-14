@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 2559;
+	buildtime = 169;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.469444444;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxmana = 1000;
+	maxvelocity = 3.7;
+	maxwaterdepth = 0;
+	name = Abigorian;
+	objectname = TARDAB;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = TARDAB;
+	unitnumber = 168;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	decaytime = 1;
+	duration = 1;
+	manapershot = 100;
+	maxvariation = 5;
+	name = Fire Vortex;
+	nimbus = 1;
+	range = 200;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}

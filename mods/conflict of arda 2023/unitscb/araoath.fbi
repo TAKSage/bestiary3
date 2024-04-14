@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1581;
+	buildtime = 685;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = ARA;
+	experiencepoints = 7;
+	ghost = 1;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 2354;
+	maxvelocity = 2.4;
+	movementclass = HOVER2;
+	name = Oathbreaker;
+	objectname = araoath;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 2;
+	stone = NPCLEIM_stone;
+	tedclass = ARA;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = araoath;
+	unitnumber = 62240;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = zonterspear;
+	name = spear;
+	range = 422;
+	reloadtime = 2.9;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = zonterspearvet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 400;
+		tarmumakil = 2.5;
+	}
+}

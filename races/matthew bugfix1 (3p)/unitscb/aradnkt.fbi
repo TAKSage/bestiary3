@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ARA Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = ARA;
+	economybonus = 30;
+	experiencepoints = 135;
+	healtime = 0.041666667;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 15750;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	movementclass = GROUND2;
+	name = Darien Knight;
+	noveteran = 1;
+	objectname = ARADNKT;
+	radardistance = 650;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 232;
+	soundcategory = ARADNKT;
+	soundclass = ARADNKT;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ARADNKT;
+	unitnumber = 665;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 255;
+	reloadtime = 3.0;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 240;
+
+	[DAMAGE]
+	{
+		default = 610;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.4;
+	explosionclass = large explosion;
+	gravityadjustment = 2.0;
+	lobpreferred = 1;
+	manapershot = 180;
+	name = Mortar;
+	noairweapon = 1;
+	range = 1200;
+	reloadtime = 2.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 640;
+
+	[DAMAGE]
+	{
+		default = 1207;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = EnergyBlastPU;
+	buttonimagedown = EnergyBlastPU;
+	buttonimageselected = EnergyBlastSBh;
+	buttonimageup = EnergyBlastSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Energy Blast;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = ring_fx_whiteA;
+	range = 120;
+	reloadtime = 1.5;
+	ringcount = 3;
+	ringdelay = 0.12;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = crestormlaunch7;
+	spritecount = 40;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;
+	}
+}

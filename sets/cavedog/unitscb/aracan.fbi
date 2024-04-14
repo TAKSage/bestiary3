@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.2;
+	buildcost = 2009;
+	buildtime = 285;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aracan_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 32;
+	fireatwillrandom = 1;
+	healtime = 1.1875;
+	maneuverleashlength = 500;
+	maxdamage = 2600;
+	maxvelocity = 0.55;
+	movementclass = GROUND5;
+	name = Cannoneer;
+	notargetcategory = FLY;
+	objectname = ARACAN;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowart = shadow09;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = ARACAN;
+	soundclass = ARACAN;
+	standingunitorder = 1;
+	stone = aracan_stone;
+	tedclass = Aramon;
+	turninplacerate = 450;
+	turnrate = 200;
+	unitname = ARACAN;
+	unitnumber = 6;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 48;
+	areaofeffect = 90;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = large explosion;
+	name = Cannon;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 4.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		fort = 1.25;
+		factory = 1.25;
+		god = 0.5;
+		monarch = 0.5;
+	}
+}

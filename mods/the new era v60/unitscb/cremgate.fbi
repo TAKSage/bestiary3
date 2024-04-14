@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 400;
+	buildtime = 300;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cremgate_dead;
+	damagecategory = fort;
+	description = Creon;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 14;
+	frozen = cremgate_frozen;
+	gate = 1;
+	healtime = 0.3520833;
+	maxdamage = 16531;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = East/West Gate;
+	objectname = cremgate;
+	onoffable = 1;
+	radardistance = 500;
+	shadowgaf = shadows;
+	//shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREGATE;
+	soundclass = CREGATE;
+	stone = cremgate_stone;
+	tedclass = Creon;
+	unitname = cremgate;
+	unitnumber = 8007;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	//yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+	yardmap = oooo oooo oooo oooo oooo cccc cccc cccc oooo oooo oooo oooo oooo oooo;
+}

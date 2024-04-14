@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+	acceleration = 0.56;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 0.28;
+	buildcost = 2055;
+	buildtime = 788;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	cantransport = 1;
+	cancloak = 1;
+	category = VER BOAT BALLISTIC ATTACK;
+	corpse = VERNAUT_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 0.55;
+	manarechargerate = 5;
+	maxmana = 100;
+	cloakcost = 5;
+	cloakcostmoving = 5;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 3.0;
+	movementclass = WATER5;
+	name = Nautilus;
+	objectname = VERNAUT;
+	radardistance = 515;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 201;
+	soundcategory = VERNAUT;
+	soundclass = VERNAUT;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	transportcapacity = 12;
+	transportdistance = 500;
+	transportsize = 9;
+	transportsizecapacity = 16;
+	turnrate = 175;
+	unitname = VERNAUT;
+	unitnumber = 3438;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	edgeeffectivness = 0.5;
+	explosionclass = large explosion;
+	minrange = 50;
+	model = Vernaut_torp;
+	name = Torpedo;
+	noairweapon = 1;
+	range = 500;
+	reloadtime = 4.5;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 999;
+		monster = 1.45;
+		naval = 2.5;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectivness = 0.5;
+	explosionclass = large explosion;
+	gravityadjustment = 2.3;
+	lobpreferred = 1;
+	name = Artillery;
+	noairweapon = 1;
+	range = 900;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+                soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1800;
+	}
+}

@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration=10;
+	bloodcolor1=247 249 239;
+	bloodcolor2=0 0 0;
+	bloodcolor3=255 223 5;
+	bmcode=1;
+	bodytype=armor;
+	brakerate=10;
+	buildcost=7500;
+	buildtime=850;
+	canattack=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	category=TAR MELEE ATTACK MAGIC;
+	corpse=TarDknightSKEL_dead;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory=Undead;
+	defaultmissiontype=Standby;
+	description=TAROS;
+	experiencepoints=27;
+	healtime=2;
+	manarechargerate=12;
+	maneuverleashlength=500;
+	maxdamage=4500;
+	maxmana=1000;
+	maxvelocity=4.5;
+	movementclass=GROUND3;
+	name= Undead Mage Rider;
+	objectname=TarDknightSKEL;
+	shadowart=shadow10;
+	shootme=1;
+	side=TAR;
+	sightdistance=200;
+	soundclass=TarDknightSKEL;
+	soundcategory=TarDknightSKEL;
+	standingunitorder=2;
+	stone=TarDknightSKEL_stone;
+	tedclass=Death Knight;
+	turnrate=1000;
+	unitname=TarDknightSKEL;
+	unitnumber=100775;
+	upright=1;
+	version=1;
+	watermultiplier=0.75;
+	weaponswitching=1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	explosionclass = composite04flame;
+	firestarter = 1;
+	manapershot = 200;
+	name = Hell Fire;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 2;
+	soundhit = TarDknightata2;
+	turnrate = 180;
+	type = Line of sight;
+	model = araarrow2;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 350;
+	}
+}

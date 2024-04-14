@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2750;
+	buildtime = 340;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahlfcent_dead;
+	damagecategory = halfling;
+	defaultmissiontype = Standby;
+	description = Halfling;
+	experiencepoints = 39;
+	healtime = 0.85;
+	maneuverleashlength = 500;
+	maxdamage = 13275;
+	maxvelocity = 3.1;
+	mogriumincome = -5;
+	movementclass = GROUND3;
+	name = Centaur;
+	objectname = ARAHLFCENT;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 365;
+	soundcategory = VERCEN;
+	soundclass = VERCEN;
+	standingunitorder = 2;
+	tedclass = Halfling;
+	turnrate = 1000;
+	unitname = ARAHLFCENT;
+	unitnumber = 42538;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	uttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 110;
+	reloadtime = 2.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1350;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = aowelfarrow;
+	name = Bow and Arrows;
+	range = 550;
+	reloadtime = 6;
+	soundhitclass = arrow;
+	type = Ballistic;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		undead = 0.5;
+		firespirit = 0.5;	
+		spirit = 0.5;
+		mechanical = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+	}
+}
+

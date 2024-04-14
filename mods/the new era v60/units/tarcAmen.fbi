@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 7500;
+	buildtime = 500;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcamen_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	frozen = tarcamen_frozen;
+	healtime = 1.270833333;
+	maxdamage = 9500;
+	maxslope = 15;
+	//maxwaterdepth = 0;
+	name = Petrifier;
+	objectname = tarcamen;
+	radardistance = 1000;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = tarcamen;
+	soundclass = tarcamen;
+	stone = tarcamen_stone;
+	tedclass = Taros;
+	unitname = tarcamen;
+	unitnumber = 803;
+	version = 1.2;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+                areaofeffect = 100;
+	edgeeffectiveness = 1;
+    buttonimagedisabled = StoneGazePU;
+    buttonimagedown = StoneGazePU;
+    buttonimageselected = StoneGazeSBh;
+    buttonimageup = StoneGazeSB;
+	//areaofeffect = 100;
+	//damagetype = paralyzer;
+	explosionclass = green_shockring;
+	model = shstar.3do;
+	//minrange = 50;
+	name = Stone Gaze;
+	range = 600; 
+	reloadtime = 5;
+	soundhitclass = fire;
+	spinheading = 150;
+	spinpitch = -3000;
+    subtype = turntostone;
+    type = line of sight;
+	unitsonly = 1;
+	noairweapon = 1;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 450;
+		factory = 0;
+		fort = 0;
+		god = 0;
+	}
+}

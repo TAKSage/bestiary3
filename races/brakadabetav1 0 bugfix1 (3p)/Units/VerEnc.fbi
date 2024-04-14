@@ -1,0 +1,146 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4410;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1380;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+                  cantbecaptured = 1;
+	category = VER BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERENC_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 29;
+                  floater = 0;
+	healtime = 1.795833;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 5357;
+	maxmana = 2000;
+	maxvelocity = 1.51;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Enchanter;
+	objectname = VERENC;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 220;
+	soundcategory = VERENC;
+	soundclass = VERENC;
+	standingunitorder = 1;
+	stone = verenc_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERENC;
+	unitnumber = 1831;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+                  weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+                  buttonimageisabled = sworddown;
+                  buttonimagedown = sworddown;
+                  buttonimageselected = swordsel;
+                  buttonimageup = swordup;
+                  egeeffectiveness = 1;
+                  name = Trident;
+                  noairweapon = 1;
+                  range = 75;
+                  reloadtime = 2.1;
+                  soundhitclass = sword;
+                  type = melee;
+
+	[DAMAGE]
+	{
+		default = 563;
+	}
+}
+
+[WEAPON2]
+{
+                 aimtolerance = 1024;
+                 areofeffect = 90;
+                 buttonimagedisabled = lighthousestunpu;
+                 buttonimagedown = lighthousestunpu;
+                 buttonimageselected = lighthousestunsbh;
+                 buttonimageup = lighthousestunsb;
+                 damagetype = paralyzer;
+                 explosionclass = green_shockring;
+                 manapershot = 450;
+                 model = VerLight2;
+                 name = Painless Action;
+                 nimbus = 1;
+                 range = 500;
+                 reloadtime = 1.8;
+                 soundhit = arrow08;
+                 turnrate = 290;
+                 type = guided;
+                 weaponvelocity = 790;
+
+                 [DAMAGE]
+                 {
+                                default = 120;
+                 }
+}
+
+[WEAPON3]
+{
+                 areaofeffect = 300;
+                 builduptime = 1.75;
+                 buttonimagedisabled = bighoppu;
+                 buttonimagedown = bighoppu;
+                 buttonimageselected = bighopsbh;
+                 buttonimageup = bighopsb;
+                 decaytime = 1;
+                 manapershot = 1600;
+                 model = bird;
+                 name = Faith of Lihr;
+                 nimbus = 1;
+                 radiusart0 = tsunamiexplode;
+                 radiusart1 = tsunamiexplode;
+                 radiusart2 = tsunamiexplode;
+                 range = 400;
+                 reloadtime = 3;
+                 ringcount = 10;
+                 ringdelay = 0.60;
+                 ringduration = 1.25;
+                 showeffect = 0;
+                 soundhit = arrow08;
+                 spritecount = 25;
+                 subtype = mindcontrol;
+                 type = remote effect;
+                 unitsonly = 1;
+                 weaponvelocity = 100;
+
+                 [DAMAGE]
+                 {
+                               default = 200;
+                 }
+}

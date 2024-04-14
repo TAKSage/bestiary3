@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2877;
+	buildtime = 425;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR ATTACK BALLISTIC;
+	cloakcost = 11;
+	cloakcostmoving = 14;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarotherorc_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 33;
+	healtime = 1.570833333;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1100;
+	maxmana = 1000;
+	maxvelocity = 2;
+	mincloakdistance = 80;
+	movementclass = GROUND2;
+	name = Goblin Man;
+	objectname = targoblinman;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 700;
+	soundcategory = ARASPY;
+	soundclass = ARASPY;
+	standingunitorder = 1;
+	stone = araspy_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = targoblinman;
+	unitnumber = 34;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Standard Arrow;
+	range = 525;
+	reloadtime = 3.1;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 410;
+	}
+}

@@ -1,0 +1,40 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 100;
+	buildtime = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelmwallL;
+	damagecategory = fort;
+	description = Light;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+        ghost = 1;
+	healtime = 2;
+	isfeature = 1;
+	maxdamage = 10000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Wall;
+	noshadow = 1;
+	objectname = aradelmwallL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = aradelmwallL;
+	tedclass = Light;
+	unitname = aradelmwallL;
+	unitnumber = 97979716;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

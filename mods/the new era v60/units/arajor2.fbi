@@ -1,0 +1,132 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1600;
+	buildtime = 225;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantransport = 1;
+	//cantbestoned = 1;
+	//cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAJOR2_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 20;
+	frozen = npcjor2_frozen;
+	fireatwillrandom = 1;
+	healtime = 3.058333333;
+	isairbase = 1;
+	maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxvelocity = 3.7;
+	movementclass = HOVER3;
+	name = Joreth of Heldain;
+	objectname = ARAJOR2;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = arajor2;
+	soundclass = arajor2;
+	standingunitorder = 1;
+	stone = npcjor2_stone;
+	tedclass = Aramon;
+	transmaxunits = 1;
+	transportcapacity = 1;
+	transportdistance = 200;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	totalallowed = 1.1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARAJOR2;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.7;
+	waterline = 3;
+	//weaponswitching = 1;
+
+	[AdjustAttack]
+	{
+		adjustment = 1;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.9;
+		radius = 500;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	name = Sword;
+	range = 200;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 700;
+		monarch = .5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 32;
+	name = Sword;
+	range = 200;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 700;
+		monarch = .5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.9;
+	//areaofeffect = 30;
+	explosionclass = medium dust puff;
+	minrange = 100;
+	model = jorsword;
+	name = Throwing Sword;
+	noairweapon = 1;
+	range = 400;
+	reloadtime = 3.5;
+	shadowgaf = shadows;
+	soundhitclass = sword;
+	//subtype = guided;
+	type = Ballistic;
+	veteranlevel = 6;
+	veteranmodel = jorsword_10;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 500;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+	}
+}

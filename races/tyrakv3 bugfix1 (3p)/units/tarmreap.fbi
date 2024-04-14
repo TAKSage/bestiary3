@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 125 125 125;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1899;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR ATTACK MELEE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 8;
+	healtime = 1;
+	maxmana = 1000;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3100;
+	maxvelocity = 1.2;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Reaper;
+	objectname = TARMREAP;
+	roadmultiplier = 1.2;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARTB;
+	soundclass = TARTB;
+	standingunitorder = 1;
+	stone = tarmreap_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMREAP;
+	unitnumber = 69693;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	wind = 1;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	explosionclass = blood explosion;
+	name = Scythe;
+	range = 55;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+		tier1 = 2.4;
+		monarch = 0.1;
+		lodestone = 1.5; 
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2024;
+	edgeeffectiveness = 0.7;
+	explosionclass = blood explosion;
+	model = tarmscythe;
+	manapershot = 120;
+	name = Flying Scythe;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = sword;
+	spinheading = 300;
+	spinpitch = -3000;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = tarmscythe10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 750;
+		tier1 = 1.9;
+		monarch = 0.1;
+		lodestone = 2.5; 
+	}
+}

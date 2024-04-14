@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 648;
+	buildtime = 98;
+	canattack = 1;
+	cancloak = 1;
+        canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//Copyright 1999 Phoenix Design Group. All rights reserved.
+	corpse = aradelny_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 2;
+	healtime = 1.462;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 1380;
+	maxmana = 1000;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Magi;
+	objectname = aradelsor;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 150;
+	soundcategory = verliege;
+	soundclass = verliege;
+	standingunitorder = 1;
+	stone = aradelsor_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aradelsor;
+	unitnumber = 8001;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+        weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 250;
+	model = araarrow3;
+	name = Power Word Stun;
+	nimbus = 1;
+	range = 800;
+	reloadtime = 3.65;
+	soundhit = arrow08;
+	type = ballistic;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 900;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 20;
+	builduptime = 1;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	explosionclass = green_shockring;
+        damagetype = paralyzer;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 1000;
+	name = Hold Person;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 1000;
+	reloadtime = 5;
+	ringcount = 10;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	firetstarter = 1;
+	soundhitclass = fire;
+	spritecount = 30;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

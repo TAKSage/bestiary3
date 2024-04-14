@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 150 75 0;
+	bloodcolor3 = 100 100 100;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	//original buildcost = 301;
+	buildcost = 710;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	//original no canhover
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREAUTO_dead;
+	//original damagecategory = undead;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Creon;
+	//original experiencepoints = 10;
+	experiencepoints = 30;
+	//original no floater;
+	floater = 1;
+	healtime = 0.44167;
+	maneuverleashlength = 500;
+	//original maxdamage = 2905;
+	maxdamage = 3590;
+	//original maxvelocity = 0.85; 2.6
+	maxvelocity = 3.6;
+	//original movementclass = GROUND2;
+	movementclass = HOVER2;
+	name = (M)Automaton;
+	objectname = CREAUTO;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	//original sightdistance = 145;
+	sightdistance = 185;
+	soundcategory = CREAUTO;
+	soundclass = CREAUTO;
+	standingunitorder = 2;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREAUTO;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	//original no waterline;
+	waterline = 26;
+	//original watermultiplier = 0.81;
+	watermultiplier = 0.41;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	//original reloadtime = 1.9;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 405;
+		fort = 1.5;
+		//original factory  = 0.5;
+		//original stalwart = 0.5;
+		factory = 1.6;
+		builder = 0.7;
+		magic = 0.5;
+		//These are new
+		archer = 3.0;    //dmg = 688
+		archer2 = 3.0;   //dmg = 688
+		lodestone = 1.5;
+		fort = 1.5;      //dmg = 607
+		fort2 = 2.34;    //dmg = 950
+		monarch = 0.5;
+		support = 0.3;
+		siege = 1.62;    //dmg = 653
+		siege2 = 3.5;    //dmg = 
+		stalwart = 0.6;  //dmg = 243
+		god = 0.3;
+	}
+}

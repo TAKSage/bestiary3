@@ -1,0 +1,125 @@
+[UNITINFO]
+{
+	animatetype = TARCSKWA;	
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	buildcost = 6261;
+	buildtime = 1600;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcskki_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 35;
+	healtime = 6.261;
+                manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+                maxmana = 1000;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Abyss King;
+	objectname = tarcskki;
+	roadmultiplier = 1.25;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 244;
+	soundcategory = tarcskki;
+	soundclass = tarcskki;
+	standingunitorder = 1;
+	stone = tarcskki_stone;
+	tedclass = Taros;
+	turninplacerate = 1800;
+	turnrate = 1600;
+	unitname = tarcskki;
+	unitnumber = 854;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 35;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.3;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 45;
+	hweffect = green lightning;
+	innercolor = 140 240 0;
+	lightmap = medium;
+	middlecolor = 85 220 0;
+	name = Lightning;
+	manapershot = 100;
+	outercolor = 45 140 7;
+	range = 450;
+	reloadtime = 2.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1800;
+
+	[DAMAGE]
+	{
+		default = 690;
+	}
+}
+
+
+[WEAPON2]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = DBladePU;
+	buttonimagedown = DBladePU;
+	buttonimageselected = DBladeSBh;
+	buttonimageup = DBladeSB;
+	edgeeffectiveness = 0.7;
+	name = Dark Blade;
+	noairweapon = 1;
+	range = 30;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}

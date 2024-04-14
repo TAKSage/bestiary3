@@ -1,0 +1,130 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 60500;
+	buildtime = 11854;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 23;
+	healtime = 38;
+	maneuverleashlength = 300;
+	maxdamage = 29999;
+	maxvelocity = 2.9;
+	movementclass = GROUND2;
+	name = Balrog;
+	noveteran = 1;
+	objectname = tarbalrog;
+	radardistance = 25000;
+	roadmultiplier = 1.01;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 930;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	standingunitorder = 2;
+	stone = tardemon_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarbalrog;
+	unitnumber = 77;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustJoy]
+	{
+		adjustment = 75;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 550;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 66;
+	edgeeffectiveness = 1;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	name = Sword;
+	range = 100;
+	reloadtime = 1.333;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3000;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	decaytime = 1;
+	duration = 2;
+	firestarter = 1;
+	maxvariation = 5;
+	name = Fire Vortex;
+	nimbus = 1;
+	range = 250;
+	reloadtime = 1.9;
+	soundhit = arrow08;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 200;
+		monarch = 0.01;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 120;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Udun Fire;
+	range = 345;
+	reloadtime = 5.0;
+	soundhitclass = creflame;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 5000;
+	}
+}

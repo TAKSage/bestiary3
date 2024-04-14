@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	acceleration = 0.16;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 1830;
+	buildtime = 622;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREFIRE_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 19;
+	fireatwillrandom = 1;
+	frozen = creeng_frozen;
+	healtime = 1.2958333;
+	maneuverleashlength = 500;
+	maxdamage = 9100;
+	maxvelocity = 1.11;
+	movementclass = GROUND3;
+	name = Dragon Engine;
+	objectname = CREENG;
+	pitchscale = 1.5;
+                radardistance = 400;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 210;
+	soundcategory = CREDRAG;
+	soundclass = CREDRAG;
+	standingunitorder = 1;
+	stone = creeng_stone;
+	tedclass = Creon;
+	turnrate = 200;
+	unitname = CREENG;
+	unitnumber = 6;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue fire;
+	range = 425;
+	reloadtime = 2.5;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Destruction;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.5;
+	}
+}

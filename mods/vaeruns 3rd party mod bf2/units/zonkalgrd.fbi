@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1024;
+	buildtime = 175;
+	canheal = 1;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+                canhover =1;
+	canmove = 1;
+                canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	cloakcost = 15;
+	cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkalgrd_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 25;
+                floater = 0;
+                 frozen = zonkalgrd_frozen;
+	healtime = 0.49452;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 3024;
+	maxmana = 1000;
+	maxvelocity = 2.1;
+	mincloakdistance = 100;
+	movementclass = HOVER3;
+	name = Kaliste Guard;
+	objectname = zonkalgrd;
+	radardistance = 900;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = zonspider;
+	soundclass = zonspider;
+	standingunitorder = 1;
+	stone = zonkalgrd_stone;
+	tedclass = Zhon;
+	totalallowed = 40;
+	turninplacerate = 3452;
+	turnrate = 2782;
+	unitname = zonkalgrd;
+	unitnumber = 1431;
+	upright = 1;
+	version = 1;
+                waterline = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = spiderweb;
+	name = Webbing;
+	range = 400;
+	reloadtime = 1.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = spiderwebvet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 175;
+		//dragon = 1;
+		//factory = 110;
+		/fort = 110;
+		//god = .11;
+		//monarch = .71;
+		//naval = 100;
+	}
+}

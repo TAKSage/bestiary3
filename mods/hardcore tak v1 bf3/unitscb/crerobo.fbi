@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 150 75 0;
+	bloodcolor3 = 100 100 100;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	//original buildcost = 2138
+	buildcost = 500;
+	//original buildtime = 306;
+	buildtime = 80;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 20;
+	healtime = 1.2167;
+	maneuverleashlength = 500;
+	//original maxdamage = 6843; 4822
+	maxdamage = 5067;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	//original name = Robotic Reaper;
+	name = Roboreaper;
+	objectname = CREROBO;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 154;
+	soundcategory = CREROBO;
+	soundclass = CREROBO;
+	standingunitorder = 2;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREROBO;
+	unitnumber = 4837;
+	upright = 1;
+	version = M.1.0;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	//original areaofeffect = 24;
+	areaofeffect = 40;
+	edgeeffectiveness = 1;
+	name = Sword;
+	//original range = 300;
+	range = 130;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 630;
+		archer = 3.81;		//dmg = 2400
+		archer2 = 3.81;		//dmg = 2400
+		fort = 0.5;
+		factory = 0.5;
+		melee = 0.7;
+		siege = 1.08;		//dmg = 680
+		siege2 = 2.0;
+		support = 0.2;
+		stalwart = 0.6;
+		tier1 = 2.5;            //dmg = 1575 (1313/s)
+	}
+}
+
+
+[EXPLODEAS]
+{
+	//original areaofeffect = 100;
+	areaofeffect = 70;
+	damagetype = explosion;
+	edgeeffectiveness = 1;
+        explosionclass = small explosion;
+        firestarter = 1;
+	name = robodie;
+        soundhit = dierobo;
+	type = ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 350;
+	}
+}
+
+

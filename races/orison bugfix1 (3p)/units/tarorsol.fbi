@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1300;
+	buildtime = 211;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARORSOL_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 16;
+	healtime = 0.6125;
+	maneuverleashlength = 500;
+	maxdamage = 4420;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = Alien Soldier;
+	objectname = TARORSOL;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 135;
+	soundcategory = TARORSOL;
+	soundclass = TARORSOL;
+	standingunitorder = 2;
+	stone = TARORSOL_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARORSOL;
+	unitnumber = 318;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 629;
+	}
+}

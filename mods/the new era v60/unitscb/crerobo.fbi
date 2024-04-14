@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 150 75 0;
+	bloodcolor3 = 100 100 100;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	//original buildcost = 2138
+	buildcost = 800;
+	//original buildtime = 306;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbestoned = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crerobo_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 12;
+	fireatwillrandom = 1;
+	frozen = crerobo_frozen;
+	healtime = .8;
+	maneuverleashlength = 500;
+	maxdamage = 3900;
+	maxvelocity = 2.7;
+	movementclass = GROUND2;
+	name = Robotic Reaper;
+	objectname = CREROBO;
+	roadmultiplier = 1.61;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREROBO;
+	soundclass = CREROBO;
+	standingunitorder = 2;
+	stone = crerobo_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREROBO;
+	unitnumber = 4837;
+	upright = 1;
+	version = M.1.0;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 27;
+	edgeeffectiveness = 1;
+	name = Sword;
+	//original range = 300;
+	range = 30;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 440;
+	}
+}
+

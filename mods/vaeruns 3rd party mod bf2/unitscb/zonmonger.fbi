@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	//attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1690;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 525;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON ATTACK MELEE BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonmonger_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 25;
+                frozen = zonmonger_frozen;
+	healtime = 3.62;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 4000;
+	//maxmana = 1000;
+	maxvelocity = 2.9;
+	mogriumincome = 2;
+	mogriumstorage = 400;
+	movementclass = GROUND3;
+	name = Warmonger;
+	objectname = ZONMONGER;
+	radardistance = 350;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 145;
+	soundcategory = zonMONGER;
+	soundclass = zonMONGER;
+	standingunitorder = 1;
+	stone = zonMONGER_stone;
+	tedclass = Zhon;
+	//totalallowed = 30;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONMONGER;
+	unitnumber = 12015;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	//weaponswitching = 1;
+	workertime = 15;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	//aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	edgeeffectiveness = 1;
+	//explosionclass = Water Splash;
+	//lightmap = large;
+	//manapershot = 5;
+	name = Scythe;
+	//nimbus = 1;
+	range = 100;
+	reloadtime = 3;
+	soundhitclass = hammer;
+	type = melee;
+	//weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}
+

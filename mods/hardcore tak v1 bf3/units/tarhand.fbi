@@ -1,0 +1,96 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARLICH;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2693; //171% x crusader
+	builddistance = 400;
+	//original buildtime = 325
+	buildtime = 167;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarhand_dead;
+	//original damagecategory = undead;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Taros;
+	//original experiencpoints = 31;
+	experiencepoints = 36;
+	healtime = 2.1875;
+	maneuverleashlength = 500;
+	//original maxdamage = 4544; 5453
+	maxdamage = 5180;
+	//original maxvelocity = 1.4;
+	maxvelocity = 1.12;
+	movementclass = GROUND2;
+	name = Dark Hand;
+	objectname = tarhand;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 131;
+	soundcategory = tarhand;
+	soundclass = tarhand;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarhand;
+	unitnumber = 116;
+	upright = 1;
+	//original version Cavedog TAK CB 3.0
+	version = 1;
+	watermultiplier = 0.81;
+	//workertime = 30;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	//original areaofeffect = 48; 78
+	areaofeffect = 58;
+	edgeeffectiveness = 1;
+	name = Swinging Melee;
+	//original range = 150;
+	range = 150;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 13000;
+		dragon = 0.08;
+		factory = 0.275;   //dmg = 3575
+		fort = 0.104; 	   //dmg = 1352      
+		fort2 = 0.186;	   //dmg = 2418
+		god = 0.08;
+		monarch = 0.08;    //dmg = 1040
+		naval = 0.08;
+		melee = 0.27;	   //dmg = 3510
+		siege = 0.22;	   //dmg = 2860
+		siege2 = 0.2;
+		stalwart = 0.15;   //dmg = 1962 (1308/s)
+		support = 0.2;	   //dmg = 2600 (1368/s)
+		tier1 = 0.29;      //dmg = 3770
+		airship = 0.08;
+		archer = 0.22;
+		fly = 0.08;
+	}
+}

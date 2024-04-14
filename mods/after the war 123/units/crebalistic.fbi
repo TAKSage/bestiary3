@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	buildcost = 4510;
+//mogriumbounty = 451;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crebalistic_dead;
+	damagecategory = wood;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 45;
+	fireatwillrandom = 1;
+	healtime = 0.77083;
+	maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxvelocity = 0.6;
+	movementclass = GROUND3;
+	name = Mobile tower;
+	objectname = crebalistic;
+	pitchscale = 1.8;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 450;
+	soundcategory = CREBALISTIC;
+	soundclass = CREBALISTIC;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turnrate = 150;
+	unitname = crebalistic;
+	unitnumber = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1550;
+	areaofeffect = 30;
+	explosionclass = medium dust puff;
+	model = arabolt;
+	name = Mounted Ballista;
+	range = 525;
+	reloadtime = 3.8;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+	waterweapon = 1;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		factory = 0.75;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		steelnaval = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		dragon = 2;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		steel = 0.5;
+		seamonster = 1.25;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+	}
+}

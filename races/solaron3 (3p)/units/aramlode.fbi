@@ -1,0 +1,37 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 6964;
+	buildtime = 1450;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 15;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 4.175;
+	maxdamage = 15092;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 20;
+	mogriumstorage = 2000;
+	name = Sacred Lodestone;
+	objectname = aramlode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 135;
+	soundcategory = aratlode;
+	soundclass = aratlode;
+	tedclass = Aramon;
+	totalallowed=7;
+	unitname = aramlode;
+	unitnumber = 315;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

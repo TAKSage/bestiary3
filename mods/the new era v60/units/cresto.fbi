@@ -1,0 +1,165 @@
+[UNITINFO]
+{
+	acceleration = 0.3;
+	attackrunlength = 125;
+	bankscale = 1.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.005;
+	buildcost = 17000;
+	buildtime = 2800;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	immunetoparalyzer = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cresto_dead;
+	cruisealt = 200;
+	damagecategory = airship;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 2;
+	//maneuverleashlength = 500;
+	maxdamage = 10000;
+      	//maxmana = 2000;
+	maxvelocity = 4;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 2;
+	name = Storm Bringer;
+	objectname = CRESTO;
+	pitchscale = 1.1;
+	radardistance = 300;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREAERI;
+	soundclass = CREAERI;
+	standingunitorder = 2;
+	totalallowed = 1.1;
+	tedclass = Creon;
+	turnrate = 300;
+	unitname = CRESTO;
+	unitnumber = 1960;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 20;
+	hweffect = lightning;
+	name = Lightning;
+      innercolor = 255 255 255;
+      middlecolor = 230 230 255;
+      outercolor = 200 200 255;
+	range = 500;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = line of sight;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 32000;
+	areaofeffect = 400;
+      builduptime = 0.5;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	name = Ball Lightning;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+      range = 300;
+	reloadtime = 4;
+	ringcount = 5;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 30;
+	type = Remote Effect;
+	//unitsonly = 1;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		fort = 0.9;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 32000;
+	areaofeffect = 500;
+	builduptime = 1;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	name = Gail force;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 300;
+	reloadtime = 5;
+	ringcount = 7;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 40;
+	type = Remote Effect;
+	//unitsonly = 0;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.55;
+		fort = 0.9;
+      }
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	amagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = xlarge explosion;
+	name = Storm Explosion;
+                shakeduration = 3;
+               shakemagnitude = 9;
+                soundhit = bomb2;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 100;
+		monarch = 0.5;
+	}
+}

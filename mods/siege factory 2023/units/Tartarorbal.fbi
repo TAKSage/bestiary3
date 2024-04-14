@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = .03;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.03;
+	buildcost = 3000;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Tar BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Aratarorbal_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 25;
+	frozen = Aratarorbal_frozen;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxvelocity = 2.25;
+	movementclass = GROUND3;
+	name = Light Ballista;
+	objectname = TarTARORBAL;
+	pitchscale = 1.5;
+	roadmultplier = 2;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 200;
+	soundcategory =AraTARORBAL;
+	soundclass = AraTARORBAL;
+	standingunitorder = 2;
+	stone = Aratarorbal_stone;
+	tedclass = Siege;
+	totalallowed = 4;
+	turninplacerate = 300;
+	turnrate = 200;
+	unitname = TarTARORBAL;
+	unitnumber = 12121216;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 25;
+	damagetype = explosion;
+	explosionclass = small dust puff;
+	model = tarorbal1;
+	name = Ballista Arrow;
+	range = 500;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = tarorbal1_vet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 760;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monarch = .25;
+		fort = 2;
+		factory = 2;
+		lodestone = 2;
+		naval = 2;
+		Air = 2;
+		siege = .25;
+	}
+}

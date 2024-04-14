@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 1359;
+	buildtime = 199;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 25;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.552777777;
+	maneuverleashlength = 500;
+	maxdamage = 1721;
+	maxvelocity = 3.7;
+	maxwaterdepth = 0;
+	name = Gryphon;
+	objectname = ZONGRYP;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONGRYP;
+	soundclass = ZONGRYP;
+	standingunitorder = 2;
+	stone = zongryp_stone;
+	tedclass = Zhon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZONGRYP;
+	unitnumber = 168;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 20;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = araarrow2;
+	name = Flaming spear;
+	range = 510;
+	reloadtime = 3.4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 875;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 1.1;
+	}
+}

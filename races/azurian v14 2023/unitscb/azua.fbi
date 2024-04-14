@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	animatetype = AZUSNB;
+	cananimate = 1;
+	canreclaim = 1;
+	builddistance = 350;
+	workertime = 100;
+
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 2550;
+	buildtime = 550;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = AZU BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Azurian;
+	experiencepoints = 45;
+	healtime = 1.1;
+	maneuverleashlength = 500;
+	maxdamage = 4200;
+	maxvelocity = 0.85;
+	movementclass = GROUND3;
+	name = Avalanche;
+	objectname = AZUA;
+	radardistance = 0;
+	roadmultiplier = 1.2;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 200;
+	soundcategory = AZUGOL;
+	soundclass = AZUGOL;
+	standingunitorder = 2;
+	tedclass = Azurian;
+	turninplacerate = 1500;
+	turnrate = 550;
+	unitname = AZUA;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = medium dust puff;
+	model = ABSnowball;
+	name = Flying Stones;
+	minrange = 55;
+	range = 850;
+	reloadtime = 4.5;
+	spinheading = 100;
+	spinpitch = -2000;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = ballistic;
+	veteranlevel = 10;
+	veteranmodel = ABSnowball5;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 850;
+		human = 1.25;
+		dragon = 0.5;
+		monarch = 0.25;
+	}
+}

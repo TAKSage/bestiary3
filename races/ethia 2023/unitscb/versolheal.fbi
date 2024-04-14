@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildcost = 3907;
+	buildtime = 701;
+              cantbecaptured = 1;
+              cantbefrozen = 1;
+	cantbestoned = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	description = Veruna;
+	experiencepoints = 5;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.104166667;
+	maxdamage = 1450;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Power Crystal;
+	noshadow = 1;
+	objectname = arasolheal;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 130;
+	soundcategory = arasolheal;
+	soundclass = arasolheal;
+	tedclass = Veruna;
+	unitname = versolheal;
+	unitnumber = 10308;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+	[AdjustAttack]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 400;
+	}
+}

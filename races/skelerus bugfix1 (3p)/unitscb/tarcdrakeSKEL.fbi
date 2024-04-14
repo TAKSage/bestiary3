@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.1;
+	buildcost = 6000;
+	buildtime = 450;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = undead;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 27;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	name = Bone Drake;
+	objectname = TARCDRAKESKEL;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 144;
+	soundcategory = ZONDRAKE;
+	soundclass = ZONDRAKE;
+	standingunitorder = 2;
+	stone = TARCDRAKESKEL_stone;
+	tedclass = Taros;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = TARCDRAKESKEL;
+	unitnumber = 3243425;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 400;
+	reloadtime = 3;
+	soundhitclass = fire;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}

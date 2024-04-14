@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1650;
+	buildtime = 400;
+	canfly = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = halfling;
+	defaultmissiontype = VTOL_standby;
+	description = Halfling;
+	experiencepoints = 32;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.4;
+	maneuverleashlength = 500;
+	maxdamage = 6950;
+	maxvelocity = 4.3;
+	maxwaterdepth = 0;
+	mogriumincome = -5;
+	moverate1 = 5;
+	moverate2 = 10;
+	name = Eagle Rider;
+	noveteran = 1;		// crashes when it reaches veteran status due to scripting bug.. will be fixed later
+	objectname = ARAHLFEAGLE;
+	radardistance = 800;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 620;
+	soundcategory = ARAFAST;
+	soundclass = ARAFAST;
+	standingunitorder = 2;
+	tedclass = Halfling;
+	turninplacerate = 800;
+	turnrate = 2600;
+	unitname = ARAHLFEAGLE;
+	unitnumber = 42539;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = halflingspear;
+	name = Spear;
+	range = 400;
+	reloadtime = 8.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1305;
+		spirit = 0.5;
+		undead = 0.5;
+		firespirit = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+
+
+

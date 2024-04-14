@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 3500;
+	buildtime = 550;
+              cantbecaptured = 1;
+              cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = arasolstor_dead;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.4;
+	maxdamage = 6500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 10000;
+	name = Mana Vault;
+	objectname = ARASOLSTOR;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 125;
+	soundcategory = arasolstor;
+	soundclass = arasolstor;
+	tedclass = Aramon;
+	totalallowed=2;
+	unitname = ARASOLSTOR;
+	unitnumber = 101087;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+}

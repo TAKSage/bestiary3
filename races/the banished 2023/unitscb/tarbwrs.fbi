@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	ailimit = 25;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3600;
+	buildtime = 999;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 3;
+	healtime = 1.4375;
+	maneuverleashlength = 500;
+	maxdamage = 3704;
+	maxvelocity = 3.9;
+	movementclass = GROUND3;
+	name = Wolf Pack;
+	noveteran = 1;
+	objectname = TARBWRS;
+	roadmultiplier = 1.25;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = TARBWRS;
+	soundclass = TARBWRS;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARBWRS;
+	unitnumber = 54;
+	upright = 1;
+	version = 1.2;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	name = Claws;
+	range = 250;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2005;
+	}
+}

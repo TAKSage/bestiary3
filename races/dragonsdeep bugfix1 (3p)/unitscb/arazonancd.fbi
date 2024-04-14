@@ -1,0 +1,184 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 0.3;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 40000;
+	buildtime = 7000;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = Ara FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = Air;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 1500;
+	footprintx = 13;
+	footprintz = 13;
+	healtime = 6;
+	hoverattack = 1;
+	hoverattackdistance = 300;
+	immunetoparalyzer = 1;
+	manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 25000;
+	maxmana = 1000;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Rachinthar;
+	objectname = AraZONANCD;
+	radardistance = 650;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 425;
+	soundcategory = AraZONANCD;
+	soundclass = AraZONANCD;
+	standingunitorder = 2;
+	stone = Arazondrag_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = AraZONANCD;
+	unitnumber = 990993;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 500;
+	reloadtime = 2;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2000;
+                monarch = 1.25;
+                fort = 0.25;
+		Hero = 1.25;
+		factory = .5;
+		lodestone = .5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	manapershot = 400;
+	name = Fire Breath;
+	range = 500;
+	reloadtime = 2;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2500;
+                monarch = 1.25;
+                fort = 0.25;
+		Hero = 1.25;
+		factory = .5;
+		lodestone = .5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	manapershot = 600;
+	name = Fire Breath;
+	range = 500;
+	reloadtime = 2;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 3000;
+                monarch = 1.25;
+                fort = 0.25;
+		Hero = 1.25;
+		factory = .5;
+		lodestone = .5;
+	}
+}

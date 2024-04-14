@@ -1,0 +1,158 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = VERMIN;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6734;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1008;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = VER BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VerHigh_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 28;
+	frozen = crechie_frozen;
+	healtime = 1.46167;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3998;
+	maxmana = 1000;
+	maxvelocity = 1.47;
+	mogriumincome = 1;
+	mogriumstorage = 300;
+	movementclass = GROUND2;
+	name = High Magus;
+	objectname = VERHIGH;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 212;
+	soundcategory = ARAPRIES;
+	soundclass = ARAPRIES;
+	standingunitorder = 1;
+	stone = CRECHIE_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERHIGH;
+	unitnumber = 27;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	edgeeffectiveness = 1;
+	emittime = 100;
+                  explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	middlecolor = 230 230 255;
+	outercolor = 200 200 255;
+	lightmap = small;
+	name = Lightning Bolt;
+	range = 450;
+	reloadtime = 2.1;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 670;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+                  areaofeffect = 200;
+                  builduptime = 1;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+                  decaytime = 0.9;
+                  edgeeffectiveness = 1;
+                  manapershot = 450;
+	name = Combustion;
+                  nimbus = 1;
+                  radiusart0 = ring_fx_whiteA;
+                  radiusart1 = ring_fx_whiteB;
+                  radiusart2 = ring_fx_whiteC;
+	range = 25;
+	reloadtime = 7;
+                  ringcount = 25;
+                  ringdelay = 0.45;
+                  ringduration = 1.2;
+                  showeffect = 0;
+	soundhitclass = fire;
+                  spritecount = 25;
+	type = remote effect;
+                  unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1035;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 2000;
+                  areofeffect = 400;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+                  explosionclass = xlarge explosion;
+                  gravityadjustment = 3.5;
+                  lobpreferred = 1;
+	manapershot = 900;
+                  model = Comet.3do;
+	name = Comet;
+	range = 450;
+	reloadtime = 2.1;
+	soundhit = nuke1;
+	type = Line of Sight;
+                  waterexplosionclass = large water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 3000;
+		dragon = 1.1;
+		factory = 1.4;
+		fort = 1.4;
+                                    tier1 = 1.2;
+	}
+}

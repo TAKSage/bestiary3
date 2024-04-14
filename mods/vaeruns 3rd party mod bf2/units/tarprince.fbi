@@ -1,0 +1,203 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                activatewhenbuilt = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 72989;
+	buildtime = 15111;
+	canattack = 1;
+	canguard = 1;
+                 canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+                cantbetransported = 1;
+	category = TAR MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 230;
+                fireatwillrandom = 1;
+                floater = 0;
+	healtime = 29.666;
+                immunetoexplosion = 1;
+                immunetofire = 1;
+                immunetoparalyzer = 1;
+                manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 30000;
+                maxmana = 1500;
+	maxvelocity = 1.6;
+	movementclass = HOVER4;
+	name = Demon Lord;
+              //  noveteran = 1;
+	objectname = TARPRINCE;
+                radardistance = 2000;
+	roadmultiplier = 1.25;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 288;
+	soundcategory = TARPRINCE;
+	soundclass = TARPRINCE;
+	standingunitorder = 2;
+	stone = tarprince_stone;
+	tedclass = Taros;
+                totalallowed = 3;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = TARPRINCE;
+	unitnumber = 6977790;
+	upright = 1;
+	version = 1;
+                waterline = 64;
+	watermultiplier = 0.81;
+               // weaponswitching = 1;
+
+                [AdjustArmor]
+	{
+		adjustment = 0.25;
+		affectsenemy = 1;
+		edgeeffectiveness = 1;
+		radius = 500;
+	}
+                               
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+                buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.5;
+                explosionclass = VolcBlast;
+	firestarter = 1;
+	name = Orcus Wand;
+                noairweapon = 1;
+	range = 60;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	                default = 4800;
+                                monarch = 0.2;
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 33000;
+	areaofeffect = 300;
+	builduptime = 0.9;
+                buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 0.5;
+	manapershot = 200;
+	name = Feel the Burn;
+	nimbus = 1;
+	radiusart0 = FireBallA;
+	radiusart1 = FireBallB;
+	radiusart2 = FireBallA;
+	range = 400;
+	reloadtime = 3.0;
+	ringcount = 6;
+	ringdelay = 0.5;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 30;
+              //subtype = mindcontrol;
+	type = Remote Effect;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1500;
+                               // tar = 0.1;
+                                monarch = 0.1;
+                                dragon = 1.25;
+                                monster = 1.25;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+
+}
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 300;
+                builduptime = 0.9;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+                damagetype = fire;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 200;
+	name = Hell Rain;
+	range = 400;
+	reloadtime = 3.0;
+	soundhitclass = fire;
+	type = Remote Effect;
+                waterexplosionclass = medium water explosion;
+	weaponart = meteor;
+	weaponvelocity = 1350;
+                subtype = hailstorm;
+                duration = 2;
+                edgeeffectiveness = 0.5;
+                nimbus = 1;
+                particlespersecond = 15; 
+              
+
+	[DAMAGE]
+	{
+		default = 250;
+		dragon = 0.5;
+                                monarch = 0.1;
+                                monster = 0.7;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = megaflame;
+	name = Go back to Justy's Home;
+//	range = 600;
+//	reloadtime = 6.5;
+                shakeduration = 2;
+                 shakemagnitude = 6;
+                soundhit = TARSHIPDIE5;
+	type = Ballistic;
+//	waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 7500;
+		monarch = 0.5;
+	}
+}

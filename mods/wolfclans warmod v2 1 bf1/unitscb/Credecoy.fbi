@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 5895;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 704;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE decoy;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 55;
+        floater = 1;
+	healtime = 0.1;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 7899;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	mogriumstorage = 1000;
+	movementclass = HOVER2;
+	name = The Sage;
+	noveteran = 1;
+	objectname = CREDECOY;
+	radardistance = 550;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 232;
+	soundcategory = CREDECOY;
+	soundclass = CREDECOY;
+	standingunitorder = 1;
+	tedclass = Creon;
+	totalallowed = 4;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CREDECOY;
+	unitnumber = 3915;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.4;
+        waterline = 2;
+	workertime = 8;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 60;
+	mogriumincome = -100;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 255;
+	reloadtime = 2.0;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 240;
+
+	[DAMAGE]
+	{
+		default = 805;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 220;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.25;
+	}
+}

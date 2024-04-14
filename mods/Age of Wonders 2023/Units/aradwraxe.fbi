@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 435;
+	buildtime = 80;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = dwarf;
+	defaultmissiontype = Standby;
+	description = Dwarf;
+	experiencepoints = 12;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 6700;
+	maxvelocity = 1.025;
+	mogriumincome = -2;
+	movementclass = MOUNTAIN2;
+	name = Dwarf Axeman;
+	objectname = ARADWRAXE;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = DWRAXE;
+	soundclass = DWRAXE;
+	standingunitorder = 2;
+	tedclass = Dwarf;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARADWRAXE;
+	unitnumber = 42552;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.7;
+	name = Axe;
+	range = 35;
+	reloadtime = 3.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 995;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}

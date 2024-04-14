@@ -1,0 +1,38 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 0;
+	buildcost = 1525;
+	mogriumbounty = 75;
+	buildtime = 385;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = wood;
+	description = Creon;
+	experiencepoints = 8;
+	footprintx = 3;
+	footprintz = 2;
+	healtime = .625;
+	maxdamage = 1100;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Observer;
+	objectname = CREBALL;
+	radardistance = 1280;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 750;
+	soundcategory = CREBALL;
+	soundclass = CREBALL;
+	tedclass = Creon;
+	unitname = CREBALL;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = c;
+}

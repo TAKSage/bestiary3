@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 28880;
+	buildtime = 5420;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradragslay_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 275;
+                frozen = aradragslay_frozen;
+	healtime = 69.92;
+                immunetofire = 1;
+	maneuverleashlength = 500;
+	maxdamage = 25100;
+	maxvelocity = 4.2;
+	movementclass = GROUND3;
+	name = Dragon Slayer;
+	objectname = aradragslay;
+                radardistance = 600;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 288;
+	soundcategory = ARAPAL;
+	soundclass = ARAPAL;
+	standingunitorder = 2;
+	stone = aradragslay_stone;
+	tedclass = Aramon;
+                totalallowed = 9;
+	turnrate = 1400;
+	unitname = aradragslay;
+	unitnumber = 444545;
+	upright = 1;
+	version = 1.1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+                edgeeffectiveness = 0.5;
+	explosionclass = medium dust puff;
+	model = araspear;
+	name = Dragonslaying spear;
+	range = 640;
+	reloadtime = 3.5;
+	soundhitclass = arrow;
+	//subtype = guided;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = araspear_10;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1550;
+		dragon = 1.5;
+		airship = 1.5;
+                                monarch = 0.25;
+                                monster = 1.5;
+                                human = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+                edgeeffectiveness = 0.5;
+	explosionclass = medium dust puff;
+	model = araspear;
+	name = Dragonslaying spear;
+	range = 640;
+	reloadtime = 3.7;
+	soundhitclass = arrow;
+	//subtype = guided;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = araspear_10;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1950;
+		dragon = 1.5;
+		airship = 1.5;
+                                monarch = 0.25;
+                                monster = 1.5;
+                                human = 1.15;
+	}
+}

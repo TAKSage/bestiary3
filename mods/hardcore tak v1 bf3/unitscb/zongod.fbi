@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	//original buildcost = 100000;
+	buildcost = 185000;
+	//original buildtime = 30000; 61000; 
+	buildtime = 245000;
+	canattack = 1;
+	canfly = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	//original damagecategory = God;
+	damagecategory = FlyGod;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 999;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 50;
+	maneuverleashlength = 500;
+	maxdamage = 23500;
+	//original maxvelocity = 4.5;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Wrath of Tammuz;
+	noveteran = 1;
+	objectname = ZONGOD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	//original sightdistance = 294;
+	sightdistance = 350;
+	soundcategory = ZONGOD;
+	soundclass = ZONGOD;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	totalallowed = 1;
+	//original turninplacerate = 550;
+	turninplacerate = 1000;
+	//turnrate = 320;
+	turnrate = 640;
+	unitname = ZONGOD;
+	unitnumber = 600;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	decaytime = 1;
+	//original duration = 9;
+	duration = 6.5;
+	maxvariation = 5;
+	name = Hurricane;
+	nimbus = 1;
+	range = 200;
+	reloadtime = 1;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = hurricaneend;
+	wanderloopart = hurricaneloop;
+	wanderstartart = hurricanestart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 2400;
+		archer = 0.5;
+		fort = 0.5;
+		monarch = 0.01;
+		stalwart = 0.3;
+		support = 0.4;
+	}
+}

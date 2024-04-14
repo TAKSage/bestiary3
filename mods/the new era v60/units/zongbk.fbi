@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3900;
+	buildtime = 550;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+	cantbetransported = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ZON MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zongbk_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	healtime = 2;
+	frozen = zongbk_frozen;
+        manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 10000;
+        maxmana = 1000;
+	maxvelocity = 2.7;
+    	movementclass = HOVER4;
+	name = The Goblin King;
+	objectname = ZONGBK;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ZONGBK;
+	soundclass = ZONGBK;
+	standingunitorder = 2;
+	stone = zongbk_stone;
+	tedclass = Zhon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ZONGBK;
+	unitnumber = 1825;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+        weaponswitching = 1;
+	waterline = 3;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+        buttonimagedisabled = normalmancpu;
+	buttonimagedown = normalmancpu;
+	buttonimageselected = normalmancbh;
+	buttonimageup = normalmancsb;
+	edgeeffectiveness = 0.7;
+	name = Foul Sceptre;
+	range = 50;
+	reloadtime = 1.5;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 999;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 50;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 100;
+	model = araarrow3;
+	name = Bloodfrost;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 0.25;
+	soundhit = arrow08;
+	type = Guided;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 100;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 50;
+        buttonimagedisabled = fireballpu;
+	buttonimagedown = fireballpu;
+	buttonimageselected = fireballsbh;
+	buttonimageup = fireballsb;
+        explosionclass = fireball explosion;
+	firestarter = 1;
+        manapershot = 100;
+	name = Deathspit;
+	range = 500;
+	reloadtime = 0.25;
+	soundhitclass = fire;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponart = fireballA;
+        weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		god = 0.5;
+		air = 2;
+	}
+}
+

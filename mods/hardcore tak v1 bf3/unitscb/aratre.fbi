@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	accuracy = 0.2;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bodytype = wood;
+	buildangle = 4096;
+//	default buildcost = 11194; 24627;
+	buildcost = 20000;
+//	default buildtime = 675; 1350; 
+	buildtime = 1688;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratre_dead;
+	damagecategory = siege2;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 61;
+	fireatwillrandom = 10;
+	footprintx = 7;
+	footprintz = 7;
+	healtime = 1.40625;
+	//original maxdamage = 2975; Now (120%)
+	maxdamage = 3272;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = (M) Trebuchet;
+	notargetcategory = FLY;
+	noveteran = 1;
+	objectname = ARATRE;
+	pitchscale = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+//	original sightdistance = 200; Now (200%)
+	sightdistance = 400;
+	soundcategory = ARATRE;
+	soundclass = ARATRE;
+	spreadchance = 10;     //test / new
+	standingunitorder = 1;
+	stone = aratre_stone;
+	tedclass = Aramon;
+	unitname = ARATRE;
+	unitnumber = 41;
+//	Original Version Cavedog's Darien Crusades 3.0
+	version = M.1.0;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 0;
+	areaofeffect = 100;
+	damagetype = explosion;
+	//original no dontleadtargets
+	dontleadtargets = 1;
+//	original edgeeffectiveness = 0.1;
+	edgeeffectiveness = 0.4;
+	explosionclass = large dust puff;
+//	original gravityadjustment = 4.2; 2.0;
+	gravityadjustment = 1.0;
+	istargetingupgrade = 1;  //test / new
+//	overadjust = 1;    //test / new
+	minrange = 500;
+	name = Cannon;
+	noairweapon = 1;
+	notlocked = 1;  //test / new
+//	original range = 2700; 3300; 2160
+	range = 3000;
+//	original reloadtime = 7;
+	reloadtime = 10;
+	shadowart = weaponshad02;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = cannbmed;
+	//original weaponvelocity = 1150; Now (52%)
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		// original default = 2001;
+		default = 667;
+		// These are new
+		fort = 4.0;     //dmg = 2668
+		fort2 = 4.0;
+		factory = 4.0;
+		lodestone = 3.0;
+		magic = 0;
+		siege = 0.75;
+		siege2 = 1.2;
+	}
+}

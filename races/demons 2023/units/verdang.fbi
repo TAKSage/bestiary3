@@ -1,0 +1,148 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 12000;
+	buildtime = 2800;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLYING ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Human;
+	defaultmissiontype = VTOL_Standby;
+	description = Veruna;
+	economybonus = 30;
+	experiencepoints = 151;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.583333333;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 8000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 10;
+	mogriumstorage = 100;
+	name = Angel of Light;
+	noveteran = 1;
+	objectname = VERDANG;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 275;
+	soundcategory = TARMANA;
+	soundclass = TARMANA;
+	standingunitorder = 1;
+	tedclass = Veruna;
+	turninplacerate = 1000;
+	turnrate = 400;
+	unitname = VERDANG;
+	unitnumber = 999;
+	upright = 1;
+	version = 1;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	firestarter = 1;
+	hweffect = lightning;
+	innercolor = 0 0 255;
+	lightmap = medium;
+	middlecolor = 0 0 200;
+	name = Holy Lightening;
+	nimbus = 1;
+	outercolor = 0 0 150;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 666;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 10;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	explosionclass = fireball explosion;
+	manapershot = 300;
+	name = Holy Fire;
+	nimbus = 1;
+	range = 1200;
+	reloadtime = 4;
+	soundhitclass = fire;
+	turnrate = 200;
+	type = Guided;
+	weaponart = fireballB;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 900;
+	name = Frost Storm;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 300;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 555;
+	}
+}

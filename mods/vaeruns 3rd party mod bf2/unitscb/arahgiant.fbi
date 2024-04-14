@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4990;
+	buildtime = 1440;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	category = ARA MELEE ATTACK;
+	corpse = AraHGiant_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 45;
+                frozen = arahgiant_frozen;
+	healtime = 1.37;
+	maneuverleashlength = 500;
+	maxdamage = 28500;
+	maxvelocity = 1.4;
+	movementclass = GROUND5;
+	name = Hill Giant;
+	objectname = AraHGiant;
+                radardistance = 300;
+	roadmultiplier = 1.25;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 150;
+	soundcategory = AraHGiant;
+	soundclass = AraHGiant;
+	standingunitorder = 2;
+	stone = AraHGiant_stone;
+	tedclass = Aramon;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = AraHGiant;
+	unitnumber = 100781;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.5;
+	explosionclass = medium dust puff;
+	name = Stone Club;
+	range = 150;
+	reloadtime = 3.5;
+	soundhit = AraHGiantata1;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3900;
+		fort = 0.5;
+		factory = 0.5;
+	}
+}

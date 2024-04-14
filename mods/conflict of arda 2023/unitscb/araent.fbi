@@ -1,0 +1,102 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 3732;
+	buildtime = 1151;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 43;
+	healtime = 2.170833333;
+	maneuverleashlength = 500;
+	maxdamage = 19110;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Ent Elder;
+	objectname = araent;
+	radardistance = 800;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 430;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = araent;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 5.25;
+	lobpreferred = 1;
+	model = zonrock.3do;
+	name = Hurl Rock;
+	noairweapon = 1;
+	range = 930;
+	reloadtime = 8.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 950;
+
+	[DAMAGE]
+	{
+		default = 1800;
+		factory = 1.25;
+		fort = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 58;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = large dust puff;
+	name = Crush Rock;
+	range = 95;
+	reloadtime = 2.75;
+	soundhitclass = rock;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1950;
+	}
+}

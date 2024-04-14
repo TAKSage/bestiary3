@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 695;
+	buildtime = 70;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verhghsword_dead;
+	damagecategory = highman;
+	defaultmissiontype = Standby;
+	description = Highman;
+	experiencepoints = 10;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxvelocity = 1.4;
+	mogriumincome = -2;
+	movementclass = GROUND2;
+	name = Highman Swordsman;
+	objectname = VERHGHSWORD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = HGHSWORD;
+	soundclass = HGHSWORD;
+	standingunitorder = 2;
+	tedclass = Highman;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERHGHSWORD;
+	unitnumber = 42562;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}

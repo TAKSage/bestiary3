@@ -1,0 +1,168 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bloodcolor1 = 160 40 20;
+	bloodcolor2 = 170 0 60;
+	bloodcolor3 = 0 10 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .2;
+	buildcost = 3000;
+	buildtime = 600;
+                canattack = 1;
+	canguard = 1;
+        canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+ 	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+        cantbetransported = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarefret_dead;                
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+                flamable = 1;
+	frozen = tarefret_frozen;
+	healtime = 1;
+                immunetofire = 1;
+                immunetoparalyzer = 1;
+                immunetoexplosion = 1;
+                manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 6800;
+                maxmana = 1000;
+	maxvelocity = 1.2;
+    	movementclass = HOVER4;
+	name = Efreet;
+	objectname = TAREFRET;
+                radardistance = 600;
+                shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TAREFRET;
+	soundclass = TAREFRET;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = tarefret_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TAREFRET;
+	unitnumber = 46032;
+                upright = 1;
+	version = 1;
+        waterline = 3;
+                watermultiplier = 0.9;
+                weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+                buttonimagedisabled = skullPU;
+	buttonimagedown = skullPU;
+	buttonimageselected = skullSBh;
+	buttonimageup = skullSB;
+               damagetype = fire;
+               edgeeffectiveness = 0.75;
+	explosionclass = megaflame;
+                firestarter = 1;
+               gravityadjustment = 0.45;
+               //guidance = 1;
+               model = skull;
+	name = Skullbomb;
+	noairweapon = 1;
+	nimbus = 1;
+	range = 900;
+	reloadtime = 4;
+               smoketrail = 1;
+               smokedelay = 5.5;
+	soundhit = boom3;
+               spinheading = 4500;
+               soundwater = splash;
+                tracks = 1;
+	turnrate = 360;
+	type = Ballistic;
+                waterexplosionclass = large water explosion;
+                weaponart = fireballb;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 1600;
+                monarch = 0.3;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 5000;
+	areaofeffect = 700;
+	builduptime = 1;
+	buttonimagedisabled = sandPU;
+	buttonimagedown = sandPU;
+	buttonimageselected = sandSBh;
+	buttonimageup = sandSB;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Desert Heat;
+	nimbus = 1;
+	radiusart0 = dustpuffc;
+	radiusart1 = fireballa;
+	radiusart2 = dustpuffc;
+	range = 400;
+	reloadtime = 3;
+	ringcount = 3;
+	ringdelay = 0.3;
+	ringduration = 2;
+              shotart = whirlwindloop;
+              smoketrail = 1;
+              smokedelay = 0.5;
+	soundhit = Wind;
+	spritecount = 25;
+	//turnrate = 250;
+	type = Remote Effect;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 1500;
+                monarch = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = fire;
+	edgeeffectiveness = 0.5;
+	explosionclass = megaflame;
+	name = Efreet Banished;
+                shakeduration = 1;
+               shakemagnitude = 2;
+                soundhit = TARSHIPDIE1;
+	type = Ballistic;
+	waterexplosionclass = megaflame;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monarch = 0.5;
+	}
+}
+
+

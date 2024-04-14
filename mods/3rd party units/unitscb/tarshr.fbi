@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 3108;
+	buildtime = 1899;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarshr_dead;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 12;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 3.165;
+	maxdamage = 1800;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Shire;
+	objectname = tarshr;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = verpill;
+	soundclass = verpill;
+	tedclass = Taros;
+	unitname = tarshr;
+	unitnumber = 4317;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+
+	[AdjustJoy]
+	{
+		adjustment = 90;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 650;
+	}
+}

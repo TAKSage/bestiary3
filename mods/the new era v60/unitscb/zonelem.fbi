@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.14;
+	buildcost = 3000;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantransport = 1;
+	cantbeparalyzed = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = MON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = monelem_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = .9;
+	isairbase = 1;
+	maneuverleashlength = 314;
+	maxdamage = 9000;
+	maxvelocity = 1.7;
+	movementclass = WATER4;
+	name = Sea Serpent;
+	objectname = MONELEM;
+	pitchscale = 1.5;
+	radardistance = 905;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = MONELEM;
+	soundclass = MONELEM;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = ZONELEM;
+	unitnumber = 165;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	edgeeffectiveness = 0.5;
+	explosionclass = WaterBallExp;
+	gravityadjustment = 2.5;
+	name = Water Ball;
+	range = 600;
+	reloadtime = 3;
+	soundhit = monelemhit1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		god = 0.5;
+	}
+}

@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildcost = 2500;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkgh_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 3;
+	frozen = tarkgh_frozen;
+	healtime = 0.3125;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 2;
+	movementclass = GROUND2;
+	name = Ghoul;
+	objectname = tarkgh;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 101;
+	soundcategory = TARZOM;
+	soundclass = TARZOM;
+	standingunitorder = 2;
+	stone = tarkgh_stone;
+	tedclass = Taros;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = tarkgh;
+	unitnumber = 116;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.5;
+	name = Knuckle Samwich;
+	range = 50;
+	reloadtime = 1;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 666;
+	}
+}

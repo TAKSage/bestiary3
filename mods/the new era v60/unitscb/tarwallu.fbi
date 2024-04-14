@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 100;
+	buildtime = 50;
+	//canguard = 1;
+	//canmove = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	//canpatrol = 1;
+	//canstop = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARWALL;
+	description = Taros;
+	experiencepoints = 1;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .5;
+	//isfeature = 1;
+	maxdamage = 10000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall;
+	objectname = TARWALL;
+	shadowgaf = shadows;
+	//shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARWALL;
+	soundclass = TARWALL;
+	tedclass = Taros;
+	unitname = TARWALLU;
+	unitnumber = 113;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	admultiplier = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 900;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardamt_dead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 4;
+	frozen = tardamt_frozen;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxvelocity = 2;
+	movementclass = GROUND3;
+	name = Ammit;
+	noveteran = 1;
+	objectname = TARDAMT;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = LIFSABER;
+	soundclass = LIFSABER;
+	standingmoveorder = 2;
+	stone = tardamt_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDAMT;
+	unitnumber = 51;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	name = Claws;
+	range = 300;
+	reloadtime = 1.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}

@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	//attackrunlength = 150;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 27450;
+	buildtime = 3120;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Human;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	experiencepoints = 199;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 88.47;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 26999;
+	maxmana = 1000;
+	maxvelocity = 7.5;
+	maxwaterdepth = 0;
+	name = Valor;
+	objectname = VerValor;
+	radardistance = 1200;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ver;
+	sightdistance = 277;
+	soundcategory = TARDRAG;
+	soundclass = TARDRAG;
+	standingunitorder = 2;
+	stone = aradrag_stone;
+	tedclass = VERUNA;
+	totalallowed = 12;
+	turnrate = 700;
+	unitname = VERVALOR;
+	unitnumber = 993209;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 55;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = green_shockring;
+	//damagetype = paralyzer;
+	hweffect = creon paralyzer;
+                //manapershot = 150;
+	nimbus = 1;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 10 200 10;
+	name = Light of Heaven;
+	outercolor = 0 255 0;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 1420;
+
+
+	[DAMAGE]
+	{
+		default = 1545;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	buttonimagedisabled = meteorPU;
+	buttonimagedown = meteorPU;
+	buttonimageselected = meteorSBh;
+	buttonimageup = meteorSB;
+               edgeeffectiveness = 0.5;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 200;
+	model = Holyrock.3do;
+	name = Holy Meteor;
+	range = 700;
+	reloadtime = 1.5;
+	soundhitclass = fire;
+                turnrate = 180;
+	type = Guided;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 3250;
+		dragon = 1.5;
+		undead = 1.5;
+                                monster = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+                 aimtolerance = 33000;
+	areaofeffect = 700;
+	builduptime = 0.7;
+	buttonimagedisabled = FireRingTPU;
+	buttonimagedown = FireRingTPU;
+	buttonimageselected = FireRingTSBh;
+	buttonimageup = FireRingTSB;
+	decaytime = 3;
+	edgeeffectiveness = 1;
+	manapershot = 800;
+	name = Apocalypse;
+	nimbus = 1;
+	radiusart0 = ltngball_2a;
+	radiusart1 = ltngball_1a;
+	radiusart2 = ltngball_2a;
+	range = 450;
+	reloadtime = 4;
+	ringcount = 4;
+	ringdelay = 0.25;
+	ringduration = 1.4;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 100;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3100;
+		undead = 1.2;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+}

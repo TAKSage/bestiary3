@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 970;
+	buildcost = 873;
+	buildtime = 120;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonbug_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 10;
+	healtime = 1.7375;
+	maneuverleashlength = 500;
+	maxdamage = 1275;
+	maxvelocity = 1.0;
+	movementclass = GROUND3;
+	name = Bugbear;
+	notargetcategory = FLY;
+	objectname = ZONBUG;
+	radardistance = 500;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONBUG;
+	soundclass = ZONBUG;
+	standingunitorder = 2;
+	stone = zonbug_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONBUG;
+	unitnumber = 4995;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+        areaofeffect = 30;
+        damagetype = explosion;
+        explosionclass = medium dust puff;
+	//old gravityadjustment = 2.5;
+        gravityadjustment = 1.5;
+        lobpreferred = 1;
+	minrange = 120;
+	model = stone1.3do;
+	name = sling;
+	noairweapon = 1;
+	//original range = 740; 592
+	range = 615;
+	reloadtime = 2.0;
+	soundhitclass = rock;
+	spinheading = 2500;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 380;
+
+	[DAMAGE]
+	{
+		default = 154;
+		archer = 0;
+		fort = 1.08;
+		fort2 = 2.0;
+		factory = 2.67;
+		god = 0.3;
+		lodestone = 1.6;
+		siege = 0.45;
+		siege2 = 2.1;
+		stalwart = 0;
+		tier1 = 0;
+	}
+}

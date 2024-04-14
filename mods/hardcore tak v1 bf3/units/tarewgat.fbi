@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	//original buildcost = 421;
+	buildcost = 450;
+	//original buildtime = 165;
+	buildtime = 200;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//copyright = Copyright 1999 Z-TA. All rights reserved.;
+	corpse = tarewgat_dead;
+	damagecategory = fort2;
+	description = Taros;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 14;
+	gate = 1;
+	healtime = 0.34375;
+	//original maxdamage = 15666; 25066
+	maxdamage = 28066;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Side Gate;
+	objectname = tarewgat;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 300;
+	soundcategory = TARNGATE;
+	soundclass = TARNGATE;
+	tedclass = Taros;
+	unitname = tarewgat;
+	unitnumber = 8006;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+	ai_weight = weight tarewgat 0;
+	ai_limit = limit tarewgat 0;
+}

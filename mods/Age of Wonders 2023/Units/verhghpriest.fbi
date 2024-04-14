@@ -1,0 +1,156 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1700;
+	buildtime = 280;
+	builddistance = 100;
+	builder = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BUILDER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verhghpriest_dead;
+	damagecategory = highman;
+	defaultmissiontype = Standby;
+	description = Highman;
+	experiencepoints = 15;
+	healtime = 1.10;
+	manarechargerate = 13;
+	maneuverleashlength = 500;
+	maxdamage = 6950;
+	maxmana = 1000;
+	maxvelocity = 1.15;
+	mogriumincome = -4;
+	movementclass = GROUND2;
+	name = Highman Saint;
+	objectname = VERHGHPRIEST;
+	radardistance = 600;
+	shootme = 1;
+	side = VER;
+	sightdistance = 420;
+	soundcategory = ARAPRIES;
+	soundclass = ARAPRIES;
+	standingunitorder = 1;
+	tedclass = Highman;
+	turnrate = 2500;
+	unitname = VERHGHPRIEST;
+	unitnumber = 42565;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 20;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = small explosion;
+	lightmap = small;
+	name = Holy Strike;
+	range = 30;
+	reloadtime = 2.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+		spirit = 1.25;
+		firespirit = 1.25;
+		syron = 0.5;
+		highman = 0.75;
+		undead = 1.5;
+		darkelf = 1.15;
+		orc = 1.15;
+		goblin = 1.15;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = magicbolt_down;
+	buttonimagedown = magicbolt_down;
+	buttonimageselected = magicbolt_selected;
+	buttonimageup = magicbolt_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = small explosion;
+	hweffect = yellow lightning;
+	lightmap = large;
+	manapershot = 200;
+	name = Holy Bolt;
+	range = 350;
+	reloadtime = 6;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1300;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0;
+		highman = 0.75;
+		undead = 1.5;
+		orc = 1.15;
+		goblin = 1.15;
+		darkelf = 1.15;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = turnundead_down;
+	buttonimagedown = turnundead_down;
+	buttonimageselected = turnundead_selected;
+	buttonimageup = turnundead_up;
+	areaofeffect = 25;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.75;
+	explosionclass = yellow_shockring;
+	lightmap = large;
+	manapershot = 700;
+	name = Turn Undead;
+	range = 35;
+	reloadtime = 6;
+	soundhit = turnund;
+	type = Melee;
+
+
+	[DAMAGE]
+	{
+		default = 1;
+		undead = 4200;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		naval = 0;
+		mechanical = 0;
+	}
+}
+

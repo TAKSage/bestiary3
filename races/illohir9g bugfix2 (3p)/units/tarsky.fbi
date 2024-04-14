@@ -1,0 +1,180 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+                //airtoairdistance = 150;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	buildcost = 3975;
+	buildtime = 377;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+               cantbefrozen = 1;
+	category = TAR MAGIC FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	damagecategory = Stalwart;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 36;
+	footprintx = 3;
+	footprintz = 3;
+	healtime =  0.909444444;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+                manarechargerate = 11;
+                maxmana = 1000;
+	maxdamage = 4166;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	moverate1 = 2;
+	moverate2 = 8;
+	name = ChaosFiend;
+	objectname = TARSKY;
+                ovradjust = 1;
+                scale = 1;
+	radardistance = 655;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 288;
+	soundcategory = TARSKY;
+	soundclass = TARSKY;
+	standingfireorder = 2;
+                standingmoveorder = 1;
+	standingunitorder = 2;
+                mobilestandorders = 1;
+                stealth = 1;
+	tedclass = Taros;
+               ThreeD = 1;
+	turninplacerate = 800;
+	turnrate = 600;
+	unitname = TARSKY;
+	unitnumber = 211008;
+	upright = 1;
+	version = 1;
+                weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+
+[WEAPON1]
+{            
+               aimtolerance = 1024;
+               areaofeffect = 50;
+               buttonimagedisabled = redLightningPU;
+	buttonimagedown = redLightningPU;
+	buttonimageselected = redLightningSBh;
+	buttonimageup = redLightningSB;
+                boltcount = 3;
+               damagetype = fire;
+               emittime = 30;
+              edgeeffectiveness = 0.5;
+              explosionclass = light1;
+              firestarter = 1;
+	hweffect = redbeamweapon;
+                 jagginess = 1;
+	innercolor = 255 255 165;
+	lightmap = small;
+	middlecolor = 255 255 0;
+	name = Infernal Light;
+                nimbus = 1;
+	outercolor = 255 0 0;
+	range = 450;
+	reloadtime = 3.55;
+               showeffect = 1;
+               smoketrail = 1;
+               smokedelay = 5.5;
+               soundhitclass = lightning;
+                soundwater = splash;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+                //weaponart = ltngball_2a;
+	weaponvelocity = 1500;
+           
+
+              [DAMAGE]
+	{
+		default = 850;
+                            stalwart = 0.4;
+                             fort = 0.4;
+                             factory = 0.3;
+                            siege = 0.5;
+                            mechanical = 1.5;
+                            dragon = 0.5;
+                            airship = 0.5;
+                            god = 0.5;
+                           monarch = 0.4;
+                           Tier1 = 1.6;
+                             human = 1.6;
+                            undead = 0.4;
+                            monster = 0.4;
+		
+	}
+}
+           
+[WEAPON2]
+{
+                aimtolerance = 33000;
+	areaofeffect = 250;
+	builduptime = 0.2;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	decaytime = 3;
+                damagetype = fire;
+	edgeeffectiveness = 1;
+	manapershot = 990;
+	name = Flame Pit;
+	nimbus = 1;
+	radiusart0 = pillaroflight;
+	radiusart1 = ring_fx_redb;
+	radiusart2 = meteor;
+	range = 250;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.25;
+	ringduration = 1.4;
+	shakeduration = 1;
+	shakemagnitude = 1;
+	showeffect = 0;
+	soundhit = FireA;
+	spritecount = 200;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1500;
+                fort = 0.5;
+                factory = 0.25;
+                monarch = 0.15;
+                lodestone = 0.5;
+                dragon = 0.25;
+                god = 0.2;
+                airship = 0.55;
+                stalwart = 0.4;
+                  human = 1.3;
+                            undead = 0.4;
+                            monster = 0.4;
+                            Tier1 = 1.3;
+                siege = 1.4;
+	mechanical = 1.6;	
+                
+	}
+
+}

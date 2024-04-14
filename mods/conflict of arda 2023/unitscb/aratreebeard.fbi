@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 39000;
+	buildtime = 6500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 35;
+	healtime = 2.1;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 17500;
+	maxmana = 1000;
+	maxdamage = 28710;
+	maxvelocity = 1.45;
+	movementclass = GROUND3;
+	name = Treebeard;
+	noveteran = 1;
+	objectname = aratreebeard;
+	radardistance = 600;
+	roadmultiplier = 1.5;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 730;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 550;
+	unitname = aratreebeard;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.25;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 175;
+	}
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 5.25;
+	lobpreferred = 1;
+	model = zonrock.3do;
+	name = Hurl Rock;
+	noairweapon = 1;
+	range = 930;
+	reloadtime = 7.9;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 950;
+
+	[DAMAGE]
+	{
+		default = 2150;
+		factory = 1.25;
+		fort = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 58;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = large dust puff;
+	name = Crush Rock;
+	range = 95;
+	reloadtime = 2.75;
+	soundhitclass = rock;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2950;
+	}
+}
+
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 7.25;
+	lobpreferred = 1;
+	manapershot = 750;
+	model = zonrock.3do;
+	name = Fine Hit;
+	noairweapon = 1;
+	range = 990;
+	reloadtime = 3.1;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 950;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		factory = 1.25;
+		fort = 1.25;
+	}
+}

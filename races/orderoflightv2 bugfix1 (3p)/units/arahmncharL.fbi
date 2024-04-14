@@ -1,0 +1,142 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5000;
+	buildtime = 500;
+	//builddistance = 100;
+	//builder = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//canreclaim = 1;
+	//canbuild = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahmncharL_dead;
+	damagecategory = Spellcaster;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 60;
+	healtime = 1;
+	manarechargerate = 20;
+	maneuverleashlength = 200;
+	maxdamage = 3000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 0;
+	movementclass = GROUND2;
+	name = Wizard;
+	objectname = ARAHMNCHARL;
+	roadmultiplier = 1.4;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = arahmncharL;
+	soundclass = arahmncharL;
+	standingunitorder = 1;
+	tedclass = Light;
+	totalallowed = 3;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = ARAHMNCHARL;
+	unitnumber = 97979723;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	//workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 150;
+	name = Ball of Light;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = lightning;
+	turnrate = 100;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 450;
+		Conjured = 2;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = green_shockring;
+        manapershot = 250;
+	model = grenorb;
+	name = Petrify;
+        nimbus = 1;
+	noairweapon = 1;
+	range = 400;
+	reloadtime = 4;
+        smoketrail = 1;
+        smokedelay = .01;
+	soundhitclass = arrow;
+	subtype = turntostone;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+	type = Line of Sight;
+	
+        [DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 150;
+        buttonimagedisabled = thunderboltPU;
+	buttonimagedown = thunderboltPU;
+	buttonimageselected = thunderboltSBh;
+	buttonimageup = thunderboltSB;
+	duration = 2;
+ 	edgeeffectiveness = 1;
+	explosionclass = lightning explosion;
+	manapershot = 800;
+	name = Energy Storm;
+	particlespersecond = 20;
+	range = 500;
+	reloadtime = 8;
+	soundhitclass = lightning;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = ltngball_2a;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 40;
+		Conjured = 2;
+	}
+}

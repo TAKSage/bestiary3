@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.72;
+	buildcost = 2667;
+	buildtime = 351;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verbal_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 32;
+	frozen = verbal_frozen;
+	healtime = 1.412;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 0.70;
+	movementclass = GROUND5;
+	name = Ballista;
+	objectname = VERBAL;
+	pitchscale = 1.5;
+	roadmultplier = 1.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 195;
+	soundcategory = VERBAL;
+	soundclass = VERBAL;
+	standingunitorder = 1;
+	stone = verbal_stone;
+	tedclass = Veruna;
+	turninplacerate = 390;
+	turnrate = 390;
+	unitname = VERBAL;
+	unitnumber = 147;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 20;
+	damagetype = explosion;
+	explosionclass = medium dust puff;
+	model = verbal1;
+	name = Bolt;
+	//range = 650;
+	  range = 813;  //+25%
+	reloadtime = 3.4;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = verbal1_vet;
+	waterexplosionclass = small water explosion;
+	//weaponvelocity = 350;
+	  weaponvelocity = 700;  //+100%
+
+	[DAMAGE]
+	{
+		default = 900;
+		fort = 0.5;
+		factory = 0.5;
+		mechanical = 0.75;
+		naval = 0.5;
+	}
+}

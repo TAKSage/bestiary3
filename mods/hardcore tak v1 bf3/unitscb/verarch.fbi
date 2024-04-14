@@ -1,0 +1,96 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 300;
+	buildcost = 345;
+//	original buildtime = 104; 52; 60
+	buildtime = 82;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verarch_dead;
+//	original damagecategory = tier1;
+	damagecategory = archer;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	frozen = verarch_frozen;
+	healtime = 0.43333;
+	maneuverleashlength = 1500;
+	maxdamage = 1600;
+	maxvelocity = 1.375;
+	//original movementclass = GROUND2;
+	movementclass = GROUND2B;
+	name = (M) Crossbowman;
+	objectname = VERARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	//original sightdistance = 180;
+	sightdistance = 195;
+	soundcategory = VERARCH;
+	soundclass = VERARCH;
+	standingunitorder = 1;
+	stone = verarch_stone;
+	tedclass = Veruna;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = VERARCH;
+	unitnumber = 117;
+	upright = 1;
+	//Based on Cavedog's Crusades Balance;
+	version = M.1.0;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	//original no gravadjust
+	gravityadjustment = 5.6;
+	model = araarrow;
+	name = Bolt;
+	//original range = 431; 390; 380 (+8%)
+	range = 410;
+	//reloadtime = 4.7; (+20%)
+	reloadtime = 5.64;
+	soundhitclass = arrow;
+	type = Line Of Sight;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 655;
+	weaponvelocity = 540;
+
+	[DAMAGE]
+	{
+		//original default = 293; 410 (Now dmg=70/s)
+		default = 395;  //dmg=70/s
+		airship = 0.8;  //
+		archer = 0.9;
+		archer2 = 0.6;
+		factory = 0;
+		fort = 0;
+		fort2 = 0;
+		fly = 1;     
+		lodestone = 0;
+		magic = 0.2;
+		melee = 0.5;
+		monarch = 0.55;
+		siege = 0.5;    //dmg=
+		stalwart = 0.15;
+		support = 0.2;
+		undead = 0.85;
+	}
+}

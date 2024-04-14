@@ -1,0 +1,163 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 0.3;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 450000;
+	buildtime = 50010;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+              // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 1610;
+	footprintx = 13;
+	footprintz = 13;
+	healtime = 5746.67;
+	hoverattack = 1;
+	hoverattackdistance = 300;
+                immunetoparalyzer = 1;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 32000;
+	maxmana = 1000;
+	maxvelocity = 7.5;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Elder Dragon;
+	objectname = ZONANCD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 600;
+	soundcategory = ZONANCD;
+	soundclass = ZONANCD;
+	standingunitorder = 2;
+	stone = zondrag_stone;
+	tedclass = Zhon;
+	totalallowed = 1;
+	turninplacerate = 400;
+	turnrate = 400;
+	unitname = ZONANCD;
+	unitnumber = 990993;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 500;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 625;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 4250;
+                god = 0.5;
+                monarch = 0.25;
+                fort = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 350;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	manapershot = 150;
+	name = Lightning Ball;
+	range = 700;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	turnrate = 180;
+	type = Guided;
+                waterexplosionclass = large water explosion;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 6990;
+		dragon = 0.5;
+                god = 0.5;
+                monarch = 0.25;
+                airship = 0.5;
+                fort = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 950;
+	builduptime = 0.25;
+	buttonimagedisabled = WindWavetPU;
+	buttonimagedown = WindWavetPU;
+	buttonimageselected = WindWavetSBh;
+	buttonimageup = WindWavetSB;
+	decaytime = 1;
+	edgeeffectiveness = 0.55;
+	manapershot = 700;
+	name = Shockring;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 450;
+	reloadtime = 3.5;
+	ringcount = 9;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = arrow08;
+	spritecount = 65;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3990;
+                                monarch = 0.25;
+                               fort = 0.25;
+	}
+}

@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 789;
+	buildtime = 130;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarormaul_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	healtime = 1.0375;
+	maneuverleashlength = 500;
+	maxdamage = 2750;
+	maxvelocity = 2.55;
+	movementclass = GROUND2;
+	name = Mauler;
+	objectname = tarormaul;
+	roadmultiplier = 1.4;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 90;
+	soundcategory = tarormaul;
+	soundclass = tarormaul;
+	standingunitorder = 2;
+	stone = tarormaul_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarormaul;
+	unitnumber = 314;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	name = Axe;
+	range = 25;
+	reloadtime = 0.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 395;
+	}
+}

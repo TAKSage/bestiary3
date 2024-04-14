@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = .50;
+	bloodcolor1 = 88 41 253;
+	bloodcolor2 = 91 112 249;
+	bloodcolor3 = 29 5 165;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4000;
+//	mogriumbounty = 400;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+cantbecaptured = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VerSGolem_dead;
+	damagecategory = steel;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 35;
+	healtime = 0.550833333;
+	maneuverleashlength = 500;
+	maxdamage = 10000;
+	maxvelocity = 1.85;
+	movementclass = GROUND2;
+	name = Steel Golem;
+	objectname = VerSGolem;
+	roadmultiplier = 1;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 250;
+	soundcategory = VerSGolem;
+	soundclass = VerSGolem;
+	standingunitorder = 2;
+	stone = VerSGolem_stone;
+	tedclass = Veruna;
+	turnrate = 1200;
+	turninplacerate = 1200;
+	unitname = VerSGolem;
+	unitnumber = 100777;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.4;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Steel Fist;
+	range = 30;
+	reloadtime = 2;
+	type = Melee;
+	soundhit = VerSGolemAta1;
+	[DAMAGE]
+	{
+		default = 1200;
+		stone = 2.0;
+		factory = 2.0;
+		wood = 1.5;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		mini = 2;
+		shielded = 2;
+		skeleton = 2;
+		kingkiller = 2;
+		hardscale = 0.5;
+	}
+}

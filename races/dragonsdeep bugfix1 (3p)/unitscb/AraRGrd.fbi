@@ -1,0 +1,142 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 14000;
+	buildtime = 1800;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraRGrd_dead;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 55;
+	healtime = 3;
+	immunetoexplosion = 1;
+	immunetofire = 1;
+	immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 2.5;
+	movementclass = GROUND3;
+	name = Sark;
+	// noveteran = 1;
+	objectname = ARARGRD;
+	roadmultiplier = 1.25;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = ARARGRD;
+	soundclass = ARARGRD;
+	standingunitorder = 1;
+	stone = AraRGrd_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 1;
+	unitname = AraRGrd;
+	unitnumber = 37008909;
+	upright = 1;
+	weaponswitching = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	buttonimagedisabled = DaggerDown;
+	buttonimagedown = DaggerDown;
+	buttonimageselected = DaggerSelected;
+	buttonimageup = DaggerUp;
+	edgeeffectiveness = 0.5;
+	name = Twohanded Sword;
+	range = 50;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 1.25;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 5;
+	buttonimagedisabled = ArrowDown;
+	buttonimagedown = ArrowDown;
+	buttonimageselected = ArrowSelected;
+	buttonimageup = ArrowUp;
+	aimtolerance = 1024;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	firestarter = 1;
+	model = araarrowB;
+	name = Arrow bomb;
+	range = 400;
+	reloadtime = 4;
+	soundhit = bomb2;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monarch = 1.25;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

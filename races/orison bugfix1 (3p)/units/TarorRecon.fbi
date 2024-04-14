@@ -1,0 +1,55 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 300;
+	buildtime = 300;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TarorRecon_DEAD;
+	cruisealt = 200;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 30;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.5416;
+	maneuverleashlength = 250;
+	maxdamage = 20;
+	maxvelocity = 5;
+	movementclass = GROUND2;
+	name = Recon Craft;
+	objectname = TARORRECON;
+	pitchscale = 1.8;
+	radardistance = 600;
+	roadmultiplier = 1.21;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 210;
+	soundcategory = TARORRECON;
+	soundclass = TARORRECON;
+	standingunitorder = 0;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 900;
+	unitname = TARORRECON;
+	unitnumber = 307;
+	version = 1;
+	watermultiplier = 0.81;
+}
+

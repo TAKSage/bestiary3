@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = 0.16;
+	bankscale = 1.2;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 1500;
+//	mogriumbounty = 75;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crewee_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 4;
+	//fireatwillrandom = 1;
+	frozen = crewee_frozen;
+	healtime = 1.4958333;
+	maneuverleashlength = 500;
+	maxdamage = 500;
+	maxvelocity = 5.5;
+	movementclass = GROUND2;
+	name = suicide wheeler;
+	objectname = crewee;
+	pitchscale = 1.5;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 160;
+	soundcategory = crewee;
+	soundclass = crewee;
+	standingunitorder = 1;
+	stone = crewee_stone;
+	tedclass = Creon;
+	turnrate = 300;
+	unitname = crewee;
+	unitnumber = 294009;
+	version = 1;
+	watermultiplier = 0.5;
+selfdestructcountdown = 0;
+}
+
+[WEAPON1]
+{
+	name = saw;
+	noairweapon = 1;
+	range = 30;
+	reloadtime = 2.5;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 250;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Die;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		monarch = 0.5;
+		steel = 0.5;
+	}
+}
+
+[SELFDESTRUCTAS]
+{
+	areaofeffect = 250;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Die;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		monarch = 0.5;
+		steel = 0.5;
+	}
+}
+
+

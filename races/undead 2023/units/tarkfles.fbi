@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1069;
+	buildtime = 196;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkfles_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 16;
+	frozen = tarkfles_frozen;
+	healtime = 0.816666667;
+	maneuverleashlength = 500;
+	maxdamage = 4325;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Flesh Golem;
+	objectname = TARKFLES;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 135;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 2;
+	stone = tarkfles_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARKFLES;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 80;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 615;
+	}
+}

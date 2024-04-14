@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 4096;
+	builddistance = 200;
+	builder = 1;
+	buildcost = 10300;
+	buildtime = 1850;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canattack = 1;
+              cantbecaptured = 1;
+              cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ARA ATTACK FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arasolmt_dead;
+	corpseadjustx = 1;
+	corpseadjustz = 6;
+	damagecategory = factory;
+	description = Aramon;
+	experiencepoints = 200;
+	fireatwillrandom = 1;
+	footprintx = 12;
+	footprintz = 23;
+	healtime = 3.5;
+	maxdamage = 32000;
+	maxslope = 12;
+	maxwaterdepth = 0;
+	mogriumincome = 4;
+	mogriumstorage = 1000;
+	name = Mage Castle;
+	objectname = ARASOLMT;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 275;
+	soundcategory = ARASOLMT;
+	soundclass = ARASOLMT;
+	tedclass = Aramon;
+	totalallowed=5;
+	unitname = ARASOLMT;
+	unitnumber = 321501;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ............ ............ ............ ............ oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow Nest;
+	range = 350;
+	reloadtime = 1.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 240;
+	}
+}

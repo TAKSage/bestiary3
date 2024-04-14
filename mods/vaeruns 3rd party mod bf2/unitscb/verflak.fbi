@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	buildangle = 0;
+	bodytype = stone;
+	buildcost = 13650;
+	buildtime = 1231;
+	canattack = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verflak_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 155;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.2;
+	maneuverleashlength = 500;
+	maxdamage = 29500;
+	maxslope = 8;
+	maxwaterdepth = 0;
+	name = Harpoon Tower;
+	objectname = VERFLAK;
+	radardistance = 800;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 650;
+	soundcategory = VERAT;
+	soundclass = VERAT;
+	tedclass = Veruna;
+	unitname = VERFLAK;
+	unitnumber = 3209;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2048;
+	areaofeffect = 300;
+               edgeeffectiveness = 0.5;
+	explosionclass = medium dust puff;
+	model = arabolt1;
+	name = Tower Harpoons;
+	range = 1000;
+	reloadtime = 7.3;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 3600;
+		dragon = 1.25;
+                airship = 1.5;
+                mechanical = 1.5;
+                naval = 2.0;
+                god = 0.5;
+                monster = 1.5;
+	}
+}

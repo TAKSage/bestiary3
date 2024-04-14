@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapalL_dead;
+	damagecategory = Mounted;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 45;
+	healtime = 3;
+	maneuverleashlength = 350;
+	maxdamage = 8000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name = Knight;
+	objectname = ARAPALL;
+	roadmultiplier = 1.4;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 225;
+	soundcategory = ARAPALL;
+	soundclass = ARAPALL;
+	standingunitorder = 2;
+	stone = arapalL_stone;
+	tedclass = Light;
+	turninplacerate = 900;
+	turnrate = 700;
+	unitname = ARAPALL;
+	unitnumber = 97979726;
+	totalallowed = 10;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Longsword;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 1.75;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

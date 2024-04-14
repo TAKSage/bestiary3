@@ -1,0 +1,54 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 311;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = orc;
+	defaultmissiontype = VTOL_standby;
+	description = Creature;
+	experiencepoints = 20;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.2;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxvelocity = 5.5;
+	maxwaterdepth = 0;
+	mogriumincome = -4;
+	moverate1 = 5;
+	moverate2 = 10;
+	name = Giant Bat;
+	objectname = ARAAOWBAT;
+	radardistance = 900;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 700;
+	soundcategory = ZONBAT;
+	soundclass = ZONBAT;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 1500;
+	turnrate = 3000;
+	unitname = ZONAOWBAT;
+	unitnumber = 42958;
+	upright = 1;
+	version = 1;
+}
+

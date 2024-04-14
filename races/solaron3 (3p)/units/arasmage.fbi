@@ -1,0 +1,155 @@
+[UNITINFO]
+{
+	acceleration =   13;
+	activatewhenbuilt = 1;
+	attractsgods = 1;
+	bloodcolor1 =   160 35 0;
+	bloodcolor2 =   170 40 0;
+	bloodcolor3 =  180 30 5;
+	bmcode =  1;
+	bodytype = flesh;
+	brakerate =   10;
+	buildcost =   2561;
+	builder = 1;
+	builderlimited = 1;
+	buildtime =   373;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA ATTACK MAGIC ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =  arasmage_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description =  Aramon;
+	description =  Aramon;
+	experiencepoints =   9;
+	fireatwillrandom = 1;
+	healtime =   3.42;
+	manarechargerate =   11;
+	maxdamage =   5000;
+	maxmana =   600;
+	maxvelocity =   2;
+	mogriumincome =   1;
+	mogriumstorage =   10;
+	movementclass = GROUND2;
+	name =  Fire Elemental;
+	objectname =   arasmage;
+	roadmultiplier =   2.96;
+	shadowgaf =   shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance =  165;
+	soundcategory =   arasmage;
+	soundclass =   aramage;
+	standingunitorder = 2;
+	tedclass =   Aramon;
+	totalallowed=7;
+	turninplacerate =   2500;
+	turnrate =   2500;
+	unitname =   arasmage;
+	unitnumber =   99943826;
+	unitstandorders = 2;
+	upright = 1;
+	version =   1;
+	watermultiplier =   0;
+	weaponswitching = 1;
+	yardmap =   S;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Flame Strike;
+	nimbus = 1;
+	range = 420;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = Line of Sight;
+	weaponart = FireballA;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+        areaofeffect = 480;
+        buttonimagedisabled = nukePU;
+        buttonimagedown = nukePU;
+        buttonimageselected = nukeSBh;
+        buttonimageup = nukeSB;
+        damagetype = explosion;
+        edgeeffectiveness = 0.4;
+	explosionclass = megaflame;
+        firestarter = 1;
+	lightmap = medium;
+	manapershot = 350;
+	name = Sun Flare;
+	range = 900;
+	reloadtime = 1.7;
+        shakeduration = 2;
+        shakemagnitude = 5;
+	soundhit = nuke1;
+        turnrate = 180;
+	type = guided;
+        waterexplosionclass = large water explosion;
+	weaponart = meteor;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}
+
+[WEAPON3]
+{
+     areaofeffect = 250;
+     builduptime = 3;
+     buttonimagedisabled = EarthQuakePU;
+     buttonimagedown = EarthQuakePU;
+     buttonimageselected = EarthQuakeSBh;
+     buttonimageup = EarthQuakeSB;
+     decaytime = 3;
+     edgeeffectiveness = 0.2;
+     manapershot = 600;
+     name = Hell Fire;
+     nimbus = 1;
+     radiusart0 = megaflame;
+     radiusart1 = megaflame;
+     radiusart2 = megaflame;
+     range = 250;
+     reloadtime = 5;
+     ringcount = 2;
+     ringdelay = 0.45;
+     ringduration = 1.2;
+     shakeduration = 1;
+     shakemagnitude = 3;
+     shotart = cannbsm;
+     showeffect = 0;
+     soundhit = firerept;
+     spritecount = 8;
+     subtype = Earthquake;
+     type = Remote Effect;
+     weaponvelocity = 200;
+
+     [DAMAGE]
+     {
+          default = 950;
+          }
+}

@@ -1,0 +1,98 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+              //amphibious = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 1182;
+	buildtime = 297;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;
+	category = TAR BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarss_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby_wander;
+	description = Taros;
+	experiencepoints = 14;
+                floater = 1;
+	healtime = 0.579166667;
+	maneuverleashlength = 1000;
+	maxdamage = 4884;
+	maxvelocity = 3;
+	movementclass = WATER3;
+	name =  Garpacuda;
+	objectname = TARSS;
+                radardistance = 690;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 302;
+                sonardistance = 503;
+	soundcategory = TARSS;
+	soundclass = TARSS;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = verserp_stone;
+	tedclass = TAR;
+                ThreeD = 1;
+	turninplacerate = 1200;
+	turnrate = 600;
+	unitname = TARSS;
+	unitnumber = 12400;
+	version = 1;
+	waterline = 9;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	edgeeffectiveness = 0.5;
+	explosionclass = TsunamiExp;
+                gravityadjustment = 0.9;
+                guidance = 1;
+                model = redcrystal1;
+	name = Water Ball;
+	range = 550;
+	reloadtime = 3.5;
+	soundhit = monelemhit1;
+                soundwater = splash;
+                spinheading = 6000;
+                turnrate = 720;
+                tracks = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = tsunamisprite;
+	weaponvelocity = 850;
+
+	[DAMAGE]
+	{
+		default = 700;
+	               dragon = 1.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 0.4;
+                god = 1.4;
+                airship = 1.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 0.4;
+                monster = 0.5;
+                human = 0.4;
+                undead = 1.4;
+                naval = 1.5;
+                siege = 0.4;	
+	}
+}

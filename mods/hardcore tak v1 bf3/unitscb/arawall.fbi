@@ -1,0 +1,41 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 75;
+//	buildtime = 65; 75; 38
+	buildtime = 65;
+	category = ARA;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAWALL;
+	damagecategory = wall;
+	description = Aramon;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.416666667;
+	isfeature = 1;
+//	original maxdamage = 4000;
+	maxdamage = 3000;
+//	original maxslope = 15
+	maxslope = 20;
+// 	original maxwaterdepth = 0
+	maxwaterdepth = 5;
+	name = (M) Wall;
+	noshadow = 1;
+	objectname = ARAWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 45;
+	soundcategory = ARAWALL;
+	soundclass = ARAWALL;
+	tedclass = Aramon;
+	unitname = ARAWALL;
+	unitnumber = 42;
+	unitstandorders = 0;
+	//based on Cavedog's version = 1;
+	version = M1.0;
+	yardmap = o;
+}

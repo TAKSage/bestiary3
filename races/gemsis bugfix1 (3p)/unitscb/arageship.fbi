@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.062;
+	buildcost = 2656;
+	buildtime = 185;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	CANTBEFROZEN = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 30;
+	floater = 1;
+	healtime = 0.970833333;
+	maneuverleashlength = 500;
+	maxdamage = 6630;
+	maxvelocity = 3.1;
+	movementclass = WATER4;
+	name = Lightning Ship;
+	objectname = Arageship;
+	pitchscale = 1.2;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 278;
+	soundcategory = arageship;
+	soundclass = arageship;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	transportcapacity = 20;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 80;
+	turnrate = 186;
+	unitname = ARAGESHIP;
+	unitnumber = 141;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 75;
+        damagetype = explosion;
+        edgeeffectiveness = 0.1;
+	explosionclass = mind control;
+        firestarter = 1;
+	lightmap = medium;
+	name = Lightning Blast;
+	range = 830;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	turnrate = 190;
+	type = Ballistic;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 330;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}

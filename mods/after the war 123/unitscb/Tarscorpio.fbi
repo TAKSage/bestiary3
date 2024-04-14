@@ -1,0 +1,141 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 3500;
+mogriumbounty = 350;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	cantbestoned=1;
+	cantbecaptured = 1;
+	cancloak = 1;
+	cloakcost = 10;
+	cloakcostmoving = 1000;
+frozen = tarscorpio_frozen;	
+stealth = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarscorpio_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 35;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxmana = 10;
+	manarechargerate = 10;
+	mincloakdistance = 100;
+	maxvelocity = 1.3;
+	movementclass = GROUND3;
+	name = black scorpion;
+	objectname = TARSCORPIO;
+	radardistance = 500;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 230;
+	soundcategory = TARSCORPIO;
+	soundclass = TARSCORPIO;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = TARSCORPIO;
+	unitnumber = 3295;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+Init_Cloaked = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	aimtolerance = 1024;
+	explosionclass = green_shockring;
+	damagetype = paralyzer;
+	hweffect = creon paralyzer;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 10 200 10;
+	name = Paralyze sting;
+	outercolor = 0 255 0;
+	range = 126;
+	reloadtime = 2.9;
+	soundhit = arrow08;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1400;//1420;
+
+	[DAMAGE]
+	{
+		default = 95;
+		dragon = 0.5;
+		stone = 0.1;
+		factory = 0.1;
+		wood = 0.1;
+		mechanical = 0.1;
+		antikingmechanical = 0.1;
+		giant = 0.1;
+		giantflamedemon = 0.1;
+		giantundead = 0.1;
+		steel = 0.1;
+		naval = 0.1;
+		steelnaval = 0.1;
+		god = 0.1;
+		monarch = 0.1;
+
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 30;
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;//Volcblast;
+	nimbus=1;
+//	hweffect = lightning;
+	manapershot = 5;
+	lightmap = small;
+	name = scorpion sting;
+	range = 123;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+//	soundhit = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1400;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		giant = 1.75;
+		giantundead = 1.5;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		mounted = 2;
+		antikingmounted = 2;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		shielded = 0.75;
+		steel = 0.75;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+		giantflamedemon = 1.5;
+		hardscale = 1.25;
+
+	}
+}

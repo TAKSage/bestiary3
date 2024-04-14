@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 10250;
+	buildtime = 3200;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.519444444;
+	hoverattack = 1;
+	hoverattackdistance = 175;
+	maneuverleashlength = 1000;
+	maxdamage = 15500;
+	maxvelocity = 5.2;
+	maxwaterdepth = 0;
+	name = Nazgul;
+	noveteran = 1;
+	objectname = tarnazgul;
+	radardistance = 666;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 666;
+	soundcategory = TARKNIGH;
+	soundclass = TARKNIGH;
+	standingunitorder = 2;
+	stone = tarknigh_stone;
+	tedclass = Taros;
+	totalallowed = 8;
+	transmaxunits = 1;
+	turninplacerate = 1000;
+	turnrate = 200;
+	unitname = tarnazgul;
+	unitnumber = 88;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 80;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	model = araarrowI.3do;	
+	name = Fell Beast;
+	range = 185;
+	reloadtime = 3.52;
+	soundhitclass = rock;
+	type = Ballistic;
+	wapongaf = projectiles;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 321;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	damagetype = paralyzer;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	name = Shriek;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 120;
+	reloadtime = 5.5;
+	ringcount = 3;
+	ringdelay = 0.12;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 40;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Wraith Strike;
+	range = 185;
+	reloadtime = 2.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 321;
+
+	[DAMAGE]
+	{
+		default = 1325;
+	}
+}

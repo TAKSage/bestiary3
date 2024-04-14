@@ -1,0 +1,61 @@
+[UNITINFO]
+{
+	name = Cloud;
+	buildcost = 360;
+	buildtime = 90;
+
+	healtime = 0.5;
+	maxdamage = 50;
+
+	maxmana = 100;
+	manarechargerate = 1;
+
+	mincloakdistance = 40;
+	cloakcost = 2;
+	cloakcostmoving = 5;
+
+	ghost = 1;
+	acceleration = 0.2;
+	bankscale = 3;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = AZU FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 140;
+	defaultmissiontype = VTOL_standby;
+	description = Azurians;
+	experiencepoints = 25;
+	footprintx = 3;
+	footprintz = 3;
+	maneuverleashlength = 150;
+	maxvelocity = 5.5;
+	maxwaterdepth = 0;
+	objectname = AZUCLD;
+	radardistance = 750;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 290;
+	soundcategory = verlode;
+	soundclass = verlode;
+	standingunitorder = 0;
+	tedclass = Azurians;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = AZUCLD;
+	unitnumber = 3209;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+}

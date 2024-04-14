@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 125 125 125;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 26000;
+	buildtime = 1100;
+	//buildcost = 500;
+	//buildtime = 50;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TarcrypgSKEL_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 30;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 26000;
+	maxvelocity = 2.5;
+	movementclass = GROUND3;
+	name = Bone Demon;
+	objectname = TARcrypgSKEL;
+	roadmultiplier = 1.1;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 150;
+	soundcategory = TARcrypgSKEL;
+	soundclass = TARcrypgSKEL;
+	standingunitorder = 2;
+	stone = tarcrypgSKEL_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = TARcrypgSKEL;
+	unitnumber = 123888;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 1;
+	name = Demon Axe;
+	range = 90;
+	reloadtime = 3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2600;
+	}
+}

@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5477;
+	buildtime = 1311;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+             // cantbeparalyzed = 1;
+               cantbestoned = 1;
+	category = VER MELEE ATTACK;
+                cloakcost = 5;
+                cloakcostmoving = 11;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verelg_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 75;
+                floater = 0;
+	healtime = 6.431;
+                immunetoexplosion = 1;
+                immunetofire = 1;
+                immunetoparalyzer = 1;
+                manarechargerate = 10;
+	maneuverleashlength = 500;
+                maxmana = 1000;
+	maxdamage = 17000;
+	maxvelocity = 1.8;
+                mincloakdistance = 100;
+	movementclass = HOVER4;
+	name = Elite Guard;
+	objectname = VERELG;
+                radardistance = 400;
+	roadmultiplier = 1.15;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 140;
+	soundcategory = VERELG;
+	soundclass = VERELG;
+	standingunitorder = 2;
+	stone = verelg_stone;
+	tedclass = Veruna;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = VERELG;
+	unitnumber = 191875;
+	upright = 1;
+	version = 1;
+	waterline = 32;
+	watermultiplier = 2.0;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.5;
+	name = Axe/Sword;
+                noairweapon = 1;
+	range = 100;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 999;
+	}
+}

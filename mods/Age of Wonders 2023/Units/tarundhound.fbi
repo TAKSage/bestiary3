@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 200 5 5;
+	bloodcolor2 = 220 70 0;
+	bloodcolor3 = 235 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1250;
+	buildtime = 155;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundhound_dead;
+	damagecategory = demon;
+	defaultmissiontype = Standby;
+	description = Undead;
+	experiencepoints = 18;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 3095;
+	maxvelocity = 2.865;
+	mogriumincome = -5;
+	movementclass = GROUND3;
+	name = Hellhound;
+	objectname = TARUNDHOUND;
+	roadmultiplier = 1.25;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 230;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	standingunitorder = 2;
+	tedclass = Undead;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = TARUNDHOUND;
+	unitnumber = 42524;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 55;
+	damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Fire Strike;
+	range = 250;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1682;
+		syron = 0.5;
+		firespirit = 0.25;
+		spirit = 0.5;
+		azrac = 0.75;
+		demon = 0.5;
+		dragon = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 65;
+	damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = mediflame;
+	firestarter = 1;
+	name = Boom;
+	range = 250;
+	reloadtime = 2;
+	soundhit = flame1;
+	type = Ballistic;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 650;
+		spirit = 0.5;
+		firespirit = 0;
+		syron = 0.5;
+		azrac = 0.75;
+		demon = 0.75;	
+		dragon = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration = 0.3;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 1300;
+	buildtime = 150;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ara ATTACK;
+	cloakcost = 15;
+	cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 15;
+	healtime = 1.45;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxmana = 2000;
+	maxdamage = 100;
+	maxvelocity = 2;
+	frozen = aragetnt_frozen;
+	mincloakdistance = 50;
+	movementclass = GROUND2;
+	name = Turqois TNT;
+	objectname = aragetnt;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 135;
+	soundcategory = aragetnt;
+	soundclass = aragetnt;
+	standingunitorder = 1;
+	stone = aragetnt_stone;
+	tedclass = aramon;
+	turnrate = 200;
+	unitname = aragetnt;
+	unitnumber = 5125;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Bite;
+	range = 500;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 50;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 253;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 8000;
+		tier1 = 2;
+		monarch = 0.5;
+
+	}
+}

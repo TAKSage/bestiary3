@@ -1,0 +1,111 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 11756;
+	buildtime = 2448;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarholyshit_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 145;
+	fireatwillrandom = 1;
+	healtime = 42.420833;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 11000;
+	maxmana = 1000;
+	maxvelocity = 2.2;
+	mogriumstorage = 1000;
+	movementclass = GROUND2;
+	name = Ethian Guardian;
+	objectname = tarholyshit;
+	radardistance = 600;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 660;
+	soundcategory = tarholyshit;
+	soundclass = tarholyshit;
+	standingunitorder = 2;
+	tedclass = Ethia;
+	totalallowed = 5;
+	turninplacerate = 1600;
+	turnrate = 800;
+	unitname = Araholyshit;
+	unitnumber = 61803;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	damagetype = explosion;
+	edgeeffectiveness = 1.0;
+	explosionclass = medium explosion;
+	firestarter = 1;
+	model = tarshitshoot;
+	name = Hell Arrow;
+	range = 800;
+	reloadtime = 4.55;
+	soundhit = tarhitshoot;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 1915;
+
+	[DAMAGE]
+	{
+		default = 1375;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	explosionclass = large explosion;
+	manapershot = 500;
+	model = araarrow2;
+	name = Arrow of Death;
+	nimbus = 1;
+	range = 850;
+	reloadtime = 3.65;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 2075;
+	}
+}

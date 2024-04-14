@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1275;
+	buildtime = 235;
+	builddistance = 100;
+	builder = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BUILDER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundpriest_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = undead;
+	experiencepoints = 18;
+	healtime = 1.5;
+	manarechargerate = 11;
+	maneuverleashlength = 500;
+	maxdamage = 6870;
+	maxmana = 1000;
+	maxvelocity = 1;
+	mogriumincome = -4;
+	movementclass = GROUND2;
+	name = Doom Priest;
+	objectname = TARUNDPRIEST;
+	radardistance = 550;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 275;
+	soundcategory = UNDPRIEST;
+	soundclass = UNDPRIEST;
+	standingunitorder = 1;
+	tedclass = Undead;
+	turnrate = 2500;
+	unitname = TARUNDPRIEST;
+	unitnumber = 42525;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = small smoke explosion;
+	name = Death Strike;
+	range = 30;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 850;
+		syron = 0.5;
+		spirit = 0.35;
+		firespirit = 0.35;
+		highman = 0.75;
+		undead = 0.5;
+		mechanical = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		spirit = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathray_down;
+	buttonimagedown = deathray_down;
+	buttonimageselected = deathray_selected;
+	buttonimageup = deathray_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = medium smoke explosion;
+	hweffect = black lightning;
+	manapershot = 300;
+	name = Black Bolt;
+	range = 350;
+	reloadtime = 6.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1400;
+		spirit = 0.75;
+		firespirit = 0.75;
+		syron = 0;
+		highman = 0.75;
+		undead = 0.5;
+		mechanical = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		spirit = 0.75;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 975;
+	name = Dominate;
+	noairweapon = 1;
+	range = 125;
+	reloadtime = 2.5;
+	soundhit = dominate;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		mechanical = 0;
+		naval = 0;	
+		spirit = 0;
+		firespirit = 0;
+		syron = 0;
+		undead = 0;
+	}
+}

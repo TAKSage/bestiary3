@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 2751;
+	buildtime = 300;
+	canattack = 1;
+	canstop = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardat_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 21;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.625;
+	maxdamage = 4700;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Twisted Tower;
+	objectname = TARDAT;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	tedclass = Taros;
+	unitname = TARDAT;
+	unitnumber = 35;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 25;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 150 0 150;
+	lightmap = small;
+	middlecolor = 100 0 100;
+	name = lightning;
+	outercolor = 50 20 50;
+	range = 500;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	emittime = 25;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 150 0 150;
+	lightmap = small;
+	middlecolor = 100 0 100;
+	name = lightning;
+	outercolor = 50 20 50;
+	range = 500;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}

@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 1497
+	buildcost = 1697;  //108% x crusader
+//	original buildtime = 245; 163
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = monster;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	//original experiencepoints = 20;
+	experiencepoints = 40;
+	healtime = 1.0208333;
+	maneuverleashlength = 750;
+	//original maxdamage = 8612; 6612
+	maxdamage = 5200;
+	//original maxvelocity = 1.3; 1.4
+	maxvelocity = 1.3;
+	movementclass = GROUND3;
+	name = (M) Jungle Orc;
+	objectname = ZONORC;
+//	original roadmultiplier = 1.21; Now (110%)
+	roadmultiplier = 1.33; 
+	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+//	original sightdistance = 200; 300
+	sightdistance = 270;
+	soundcategory = ZONORC;
+	soundclass = ZONORC;
+	standingunitorder = 2;
+	stone = zonorc_stone;
+	tedclass = Zhon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ZONORC;
+	unitnumber = 178;
+	upright = 1;
+	//based on Cavedog's Crusades Balance (retune.ufo);
+	version = M.1.0;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+	edgeeffectiveness = 0.7;
+	name = South Paw Sally;
+	//original range = 50;
+	range = 60;
+	//original reloadtime = 1.75;
+	reloadtime = 2.1;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 999;
+		default = 420;
+		// These are new
+		stalwart = 3.78;  //dmg = 1592 (838/s)
+		support = 6.19;	  //dmg = 2600 (1368/s)
+		tier1 = 5.0;
+		archer = 5.0;     //dmg = 2100
+		fort = 1.57;
+		fort2 = 1.86;
+		factory = 2.14;
+		undead = 2;
+	}
+}

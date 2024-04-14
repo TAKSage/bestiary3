@@ -1,0 +1,145 @@
+[UNITINFO]
+{
+	animatetype = TARCSKWA;	
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	buildcost = 14000;
+	buildtime = 1800;
+	cananimate = 0;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	category = Ara MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AratarcskkiL_dead;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 225;
+	healtime = 3;
+	manarechargerate = 15;
+	maneuverleashlength = 325;
+	maxdamage = 12000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Commander;
+	objectname = AratarcskkiL;
+	roadmultiplier = 1.4;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 250;
+	soundcategory = AratarcskkiL;
+	soundclass = AratarcskkiL;
+	standingunitorder = 2;
+	stone = AratarcskkiL_stone;
+	tedclass = Light;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = AratarcskkiL;
+	unitnumber = 97979732;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 35;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	buttonimagedisabled = DBladePU;
+	buttonimagedown = DBladePU;
+	buttonimageselected = DBladeSBh;
+	buttonimageup = DBladeSB;
+	edgeeffectiveness = 0.7;
+	name = Great Sword;
+	noairweapon = 1;
+	range = 50;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 1.25;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 50;
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowDown;
+	buttonimagedown = ArrowDown;
+	buttonimageselected = ArrowSelected;
+	buttonimageup = ArrowUp;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	firestarter = 1;
+	model = araarrowB;
+	name = Bow;
+	range = 400;
+	reloadtime = 4;
+	soundhit = bomb2;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monarch = 1.25;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

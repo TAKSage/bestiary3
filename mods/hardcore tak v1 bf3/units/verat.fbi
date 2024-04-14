@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	//original buildcost = 2598; T-mod cost = 650 
+	buildcost = 2338;
+	//original buildtime = 287; 172; 86; now (40%)
+	buildtime = 115;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = VER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verat_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	//original experiencepoints = 31; now (250%)
+	experiencepoints = 78;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5979166;
+	maxdamage = 4700;
+	//original maxslope = 15;
+	maxslope = 25;
+	maxwaterdepth = 0;
+	name = Guard Tower;
+	//original no notargetcategory
+	notargetcategory = scout;
+	objectname = VERAT;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 350;
+	soundcategory = VERAT;
+	soundclass = VERAT;
+	tedclass = Veruna;
+	unitname = VERAT;
+	unitnumber = 35;
+	//based on Cavedog's version = 1;
+	version = T0.2.4;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+//	original range = 480;
+	range = 505;
+//	original reloadtime = 2.2
+	reloadtime = 1.8;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 900;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+//		original default = 200; 
+		default = 275;  //dmg = 153/s
+		airship = 1.55; //dmg = 
+		archer = 1.5;
+		archer2 = 1.5;
+		dragon = 1.5;   //dmg = 413 (229/s)
+		fly = 1.8;      //dmg = 360 (275/s)
+		flygod = 1.8;
+		fort = 0.25;
+		factory = 0.25;
+		monarch = 1.2;
+		monster = 0.5;
+		stalwart = 0.25;
+//		original tier1 = 2.0;
+		tier1 = 2.92;    //dmg = 
+		undead = 0.85;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 480;
+//	original reloadtime = 2.1; 1.6
+	reloadtime = 1;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 900;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+//			original = 200; now (133%)
+		default = 275;  //dmg = 172/s
+		airship = 1.5;	//damage = 385
+		archer = 2;		
+		archer2 = 2;
+		dragon = 1.6;	//damage = 440
+		fort = 0.25;
+		factory = 0.25;
+		fly = 2.0;	//damage = 550
+		flygod = 2.0;
+		monarch = 1.2;
+		monster = 0.5;
+		stalwart = 0.25;
+		tier1 = 2.92;   //dmg = 
+		undead = 0.85;
+	}
+}

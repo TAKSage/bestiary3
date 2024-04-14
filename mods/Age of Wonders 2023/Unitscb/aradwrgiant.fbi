@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 325;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	corpse = aradwrgiant_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = dwarf;
+	defaultmissiontype = Standby;
+	description = Dwarf;
+	experiencepoints = 27;
+	healtime = 0.9;
+	maneuverleashlength = 500;
+	maxdamage = 10500;
+	maxvelocity = 0.9;
+	mogriumincome = -6;
+	movementclass = MOUNTAIN3;
+	name = Giant;
+	objectname = ARADWRGIANT;
+	roadmultiplier = 1.35;
+	radardistance = 525;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 420;
+	soundcategory = DWRGIANT;
+	soundclass = DWRGIANT;
+	standingunitorder = 2;
+	tedclass = Dwarf;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARADWRGIANT;
+	unitnumber = 42557;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.7;
+	explosionclass = medium dust puff;
+	name = Club;
+	range = 100;
+	reloadtime = 3.1;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1975;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.325;
+		factory = 0.325;
+		fort = 0.325;
+		building = 0.325;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 25;
+	damagetype = explosion;
+	edgeeffectiveness = 0.2;
+	explosionclass = large smoke explosion;
+	model = boulder1;
+	name = Boulder;
+	noairweapon = 1;
+	range = 750;
+	reloadtime = 11;
+	soundhitclass = rock;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 775;
+
+	[DAMAGE]
+	{
+		default = 2300;
+		spirit = 0.5;
+		firespirit = 0.5;
+	}
+}
+

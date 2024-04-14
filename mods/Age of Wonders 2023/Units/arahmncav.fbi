@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3500;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahmncav_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Human;
+	experiencepoints = 40;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 15750;
+	maxvelocity = 3.25;
+	mogriumincome = -10;
+	movementclass = GROUND3;
+	name = Cavalier;
+	objectname = ARAHMNCAV;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 385;
+	soundcategory = ARAPAL;
+	soundclass = ARAPAL;
+	standingunitorder = 2;
+	tedclass = Human;
+	turnrate = 1000;
+	unitname = ARAHMNCAV;
+	unitnumber = 42509;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1975;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 16580;
+	buildtime = 4225;
+                canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 25;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 288;
+	footprintx = 6;
+	footprintz = 6;
+                hoverattack = 1;
+                hoverattackdistance = 200;
+	healtime = 61.551;
+	maneuverleashlength = 500;
+	maxdamage = 26970;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	name = Lammasu;
+               noveteran = 1;
+	objectname = ZONLAM;
+	radardistance = 466;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 222;
+	soundcategory = ZONLAM;
+	soundclass = ZONLAM;
+	standingunitorder = 2;
+	stone = zonlam_stone;
+	tedclass = Zhon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ZONLAM;
+	unitnumber = 164668;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;
+	model = araarrow;
+	name = Tracking Arrow;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 4.5;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1076;
+                monarch = 0.01;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Desert fire one;
+	range = 475;
+	reloadtime = 3.8;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1910;
+                monarch = 0.01;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Desert fire two;
+	range = 475;
+	reloadtime = 3.7;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1910;
+                monarch = 0.01;
+	}
+}

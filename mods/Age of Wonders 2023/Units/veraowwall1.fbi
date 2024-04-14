@@ -1,0 +1,34 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 0;
+	buildcost = 50;
+	buildtime = 25;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAAOWWALL1;
+	description = Aramon;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.4;
+	isfeature = 1;
+	maxdamage = 3000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Palisade;
+	noshadow = 1;
+	objectname = ARAAOWWALL1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 30;
+	soundcategory = ARAAOWWALL1;
+	soundclass = ARAAOWWALL1;
+	tedclass = Buildings;
+	unitname = VERAOWWALL1;
+	unitnumber = 43051;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

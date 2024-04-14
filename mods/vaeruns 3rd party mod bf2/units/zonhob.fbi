@@ -1,0 +1,102 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 7500;
+	buildtime = 1250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                //cantbecaptured = 1;
+                cantbefrozen = 1;
+               //  cantbeparalyzed = 1;
+	cantbestoned = 1;
+                cantbetransported = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = zonhob_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 155;
+	healtime = 46.78;
+                immunetoexplosion = 1;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 28000;
+	maxvelocity = 1.4;
+	movementclass = GROUND5;
+	name = Hobgoblin;
+	objectname = ZONHOB;
+                radardistance = 500;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONHOB;
+	soundclass = ZONHOB;
+	standingunitorder = 2;
+	stone = zonhob_stone;
+	tedclass = Zhon;
+                totalallowed = 25;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONHOB;
+	unitnumber = 4300;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 60;
+	edgeeffectiveness = 0.7;
+               explosionclass = blood explosion;
+	name = Big mace;
+	range = 160;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1999;
+                monarch = 0.2;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = blood explosion;
+	name = death;
+                range = 100;
+       // reloadtime = 6.5;
+                soundhitclass = diehob;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2200;
+		monarch = 0.2;
+	}
+}
+
+
+
+
+
+
+

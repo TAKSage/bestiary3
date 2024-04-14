@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	//buildcost = 1142; 1530
+	buildcost = 1720;
+	//orig buildtime = 185; 93; Now original
+	buildtime = 185;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapal_dead;
+	//original damagecategory = HUMAN;
+	damagecategory = melee;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 27;
+	healtime = 0.770833333;
+	maneuverleashlength = 500;
+	//maxdamage = 5911; 4111
+	maxdamage = 4900;
+	//original maxvelocity = 3.3; 2.7
+	maxvelocity = 3.9;
+	//original movementclass = GROUND3;
+	movementclass = GROUND2;
+	name = Knight;
+	objectname = ARAPAL;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+//	original sightdistance = 215; 230
+	sightdistance = 240;
+	soundcategory = ARAPAL;
+	soundclass = ARAPAL;
+	standingunitorder = 2;
+	stone = arapal_stone;
+	tedclass = Aramon;
+	turnrate = 1000;
+	unitname = ARAPAL;
+	unitnumber = 22;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	//original areaofeffect = 32;
+	areaofeffect = 50;
+	edgeeffectiveness = 1;    //orig = 0.5;
+	name = Sword;
+	noairweapon = 1;
+	//original range = 100;
+	range = 150;
+	//original reloadtime = 2; 1.6
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 750; 625
+		default = 781;  //dmg = 459/s
+		builder = 0.5;
+		fort = 0.75;
+		fort2 = 1.4;    //dmg = 
+		factory = 0.25;
+		lodestone = 0.25;
+		magic = 0.4;
+		melee = 1.05;
+		monarch = 0.25;
+		archer = 1.53;
+		siege = 1.2;    //dmg = 780
+		siege2 = 1.4;   //dmg = 910
+		stalwart = 0.8;
+		tier1 = 1.59;
+	}
+}

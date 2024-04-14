@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4444;
+	buildtime = 871;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+                damagemodifier = 0.05;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 50;
+                floater = 0;
+	healtime = 1.32122;
+	maneuverleashlength = 500;
+	maxdamage = 6200;
+	maxvelocity = 1.35;
+                mogriumincome = -5;
+                mogriumstorage = -500;
+	movementclass = GROUND3;
+	name = Bone Fiend;
+	objectname = TARHORN;
+                radardistance = 400;
+	roadmultiplier = 1.15;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 175;
+	soundcategory = TARHORN;
+	soundclass = TARHORN;
+                standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = tarhorn_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARHORN;
+	unitnumber = 63977;
+	upright = 1;
+	version = 1;
+                waterline = 3;
+	watermultiplier = 0.81;
+               ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+                buttonimagedisabled = sworddown;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+                explosionclass = small explosion;
+	edgeeffectiveness = 1;
+	firestarter = 1;
+	name = Molydei Axe;
+                noairweapon = 1;
+	range = 100;
+	reloadtime = 2.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	            default = 450;
+                            dragon = 0.4;
+                            airship = 0.6;
+                            god = 4.0;
+                            monarch = 3.0;
+                            stalwart = 0.3;
+	            tier1 = 0.4;
+                            fort = 0.4;
+                            factory = 0.4;
+                            human = 0.4;
+                            undead = 4.0;
+                            monster = 4.0;
+                            mechanical = 4.0;
+                            siege = 0.4;
+                            naval = 0;
+                            lodestone = 0.4;
+	}
+}
+
+
+
+

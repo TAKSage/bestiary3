@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 480;
+//	mogriumbounty = 24;
+	buildtime = 180;
+	cantbecaptured = 0;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+cancloak = 1;
+mincloakdistance = 100;
+cloakcost = 10;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .283333333;
+	maxdamage = 2850;
+	maxslope = 15;
+	maxwaterdepth = 0;
+maxmana = 10;
+manarechargerate = 10;
+mogriumstorage = 100;
+	name = Fake Lodestone;
+	objectname = ARALODE;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 175;
+	soundcategory = ARALODE;
+	soundclass = ARALODE;
+	tedclass = Aramon;
+	unitname = ARALODEF;
+	unitnumber = 187186;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+selfdestructcountdown = 0;
+Init_Cloaked = 1;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = large explosion;
+	name = mogrium overcharge;
+	//range = 150;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.5;
+	}
+
+}
+
+[SELFDESTRUCTAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = large explosion;
+	name = mogrium overcharge;
+	//range = 150;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.5;
+
+	}
+}

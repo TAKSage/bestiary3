@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+bmcode = 0;
+bodytype = stone;
+buildcost = 37777;
+buildtime = 4156;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+cantransport = 1;
+category = ARA FACTORY;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = aratel_dead;
+damagecategory = fort;
+description = Aramon;
+experiencepoints = 50;
+footprintx = 12;
+footprintz = 10;
+healtime = 1.9645;
+maxdamage = 12146;
+maxslope = 15;
+maxwaterdepth = 0;
+name = Stargate;
+objectname = ARATEL;
+shadowgaf = shadows;
+shootme = 1;
+side = ARA;
+sightdistance = 325;
+soundcategory = araTEL;
+soundclass = araTEL;
+tedclass = Ethia;
+totalallowed = 1;
+transportcapacity = 100;
+transportdistance = 4200;
+transportsize = 20;
+transportsizecapacity = 400;
+unitname = ARATEL;
+unitnumber = 4277;
+unitstandorders = 0;
+version = 1;
+wind = 1;
+yardmap = o;
+}

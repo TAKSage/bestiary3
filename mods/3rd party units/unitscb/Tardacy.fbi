@@ -1,0 +1,173 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6210;
+	builddistance = 75;
+	buildtime = 1108;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Tardacy_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	healtime = 4.416666667;
+	manarechargerate = 13;
+	maneuverleashlength = 500;
+	maxdamage = 3500;
+	maxmana = 1300;
+	maxvelocity = 2.1;
+	mogriumincome = 1;
+	mogriumstorage = 300;
+	movementclass = GROUND2;
+	name = Dark Acolyte;
+	objectname = Tardacy;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 312;
+	soundcategory = Tardacy;
+	soundclass = Tardacy;
+	standingunitorder = 1;
+	stone = Tardacy_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = Tardacy;
+	unitnumber = 4221;
+	upright = 1;
+	version = 1.2;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 80;
+	buttonimagedisabled = FireballPU;
+	buttonimagedown = FireballPU;
+	buttonimageselected = FireballSBh;
+	buttonimageup = FireballSB;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 500;
+	name = Fire Ball;
+	range = 750;
+	reloadtime = 1.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballCa;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		default = 825;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = captureareapu;
+	buttonimagedown = captureareapu;
+	buttonimageselected = captureareasbh;
+	buttonimageup = captureareasb;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 700;
+	name = Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 1.0;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 220;
+
+	[DAMAGE]
+	{
+		airship = 0;
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+     areaofeffect = 250;
+     builduptime = 3;
+     buttonimagedisabled = FireRingPU;
+     buttonimagedown = FireRingPU;
+     buttonimageselected = FireRingSBh;
+     buttonimageup = FireRingSB;
+     decaytime = 3;
+     edgeeffectiveness = 0.2;
+     manapershot = 1100;
+     name = Fire ring;
+     nimbus = 1;
+     radiusart0 = megaflame;
+     radiusart1 = megaflame;
+     radiusart2 = megaflame;
+     range = 600;
+     reloadtime = 5;
+     ringcount = 2;
+     ringdelay = 0.45;
+     ringduration = 1.2;
+     shakeduration = 1;
+     shakemagnitude = 3;
+     shotart = cannbsm;
+     showeffect = 0;
+     soundhit = firerept;
+     spritecount = 8;
+     subtype = Earthquake;
+     type = Remote Effect;
+     weaponvelocity = 200;
+
+     [DAMAGE]
+     {
+          default = 1200;
+          dragon = 0;
+          factory = .5;
+          fort = .5;
+          god = 0;
+          monarch = .2;
+          naval = .2;
+      }
+}
+

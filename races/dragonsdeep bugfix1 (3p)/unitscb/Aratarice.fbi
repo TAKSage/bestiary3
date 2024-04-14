@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5000;
+	buildtime = 500;
+        canattack = 1;
+	canguard = 1;
+        canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Ara MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraTARICE_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 18;
+        floater = 0;
+	healtime = 1;
+        manarechargerate = 22;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+        maxmana = 1000;
+	maxvelocity = 2.5;
+	movementclass =  HOVER2;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	name = Clespar Wizard;
+	objectname = AraTARICE;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 200;
+	soundcategory = AraTARICE;
+	soundclass = AraTARICE;
+	standingunitorder = 1;
+	stone = Aratarice_stone;
+	tedclass = Aramon;
+        turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 3;
+	unitname = AraTARICE;
+	unitnumber = 4077;
+	upright = 1;
+	version = 1;
+        waterline = 1;
+        weaponswitching = 1;
+}
+
+[WEAPON1]
+{       
+        aimtolerance = 1024;
+        areaofeffect = 100;
+	buttonimagedisabled = BeastBoltPU;
+	buttonimagedown = BeastBoltPU;
+	buttonimageselected = BeastBoltSBh;
+	buttonimageup = BeastBoltSB;
+        damagetype = explosion;
+        edgeeffectiveness = 0.4;
+	explosionclass = iceballexp;
+	lightmap = medium;
+        manapershot = 150;
+	name = Snowball;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = rock;
+        turnrate = 180;
+	type = guided;
+        waterexplosionclass = large water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 390;
+
+	[DAMAGE]
+	{
+		default = 450;
+		Conjured = 2;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = IceBallDown;
+	buttonimagedown = IceBallDown;
+	buttonimageselected = IceBallSelected;
+	buttonimageup = IceBallUp;
+	explosionclass = iceballexp;
+	lightmap = small;
+	name = Ice Ball;
+	noairweapon = 1;
+	manapershot = 250;
+	range = 400;
+	reloadtime = 4;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+        waterexplosionclass = large water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 390;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 150;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2;
+	edgeeffectiveness = 1;
+	explosionclass = iceballexp;
+	manapershot = 800;
+	name = Snow Storm;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 500;
+	reloadtime = 8;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 40;
+		Conjured = 2;
+	}
+}
+

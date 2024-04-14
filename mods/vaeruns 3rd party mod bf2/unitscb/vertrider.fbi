@@ -1,0 +1,114 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2788;
+	buildtime = 681;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+                frozen = vertrider_frozen;
+	experiencepoints = 35;
+                floater = 0;
+	healtime = 1.133;
+	maneuverleashlength = 500;
+	maxdamage = 5800;
+	manarechargerate = 10;
+	maxmana = 500;
+	maxvelocity = 1.75;
+	movementclass = HOVER4;
+	roadmultiplier = 0.8;
+	name = Water Mage;
+	//nochasecategory = FLY;
+	objectname = VERTRIDER;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 155;
+	soundcategory = VERTRIDER;
+	soundclass = VERTRIDER;
+	standingunitorder = 1;
+	stone = VERTRIDER_stone;
+	tedclass = Veruna;
+	turninplacerate = 410;
+	turnrate = 350;
+	unitname = VERTRIDER;
+	unitnumber = 3220;
+	upright = 1;
+	version = 1;
+                waterline = 24;
+	watermultiplier = 1.75;
+	weaponswitching = 1;
+	cantbetransported = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	explosionclass = WaterBallExp;
+	name = Aqua;
+	range = 400;
+	reloadtime = 0.1;
+	manapershot = 50;
+	soundhitclass = arrow08;
+	turnrate = 180;
+	type = Guided;
+                 waterexplosionclass = small water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 340;
+		monarch = 0.4;
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 33000;
+	areaofeffect = 200;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 3;
+	edgeeffectiveness = 0.5;
+	explosionclass = iceballexp;
+	manapershot = 250;
+	name = Aqua Rake;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 250;
+                                monarch = 0.2;
+	}
+}

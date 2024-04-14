@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = scale;
+brakerate = 10;
+buildcost = 1064;
+buildtime = 235;
+canattack = 1;
+//cancloak = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+category = ARA MAGIC ATTACK;
+//cantbestoned = 1;
+//cloakcost = 13;
+//cloakcostmoving = 17;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = arascorpio_dead;
+damagecategory = monster;
+defaultmissiontype = Standby;
+description = Aramon;
+experiencepoints = 15;
+healtime = 1.48020833;
+immunetoparalyzer = 1;
+manarechargerate = 15;
+maneuverleashlength = 500;
+maxdamage = 2125;
+maxmana = 1000;
+maxvelocity = 1.35;
+//mincloakdistance = 100;
+movementclass = GROUND3;
+name = Sand Scorpion;
+objectname = ARASCORPIO;
+radardistance = 400;
+shootme = 1;
+side = ARA;
+sightdistance = 175;
+soundcategory = ARASCORPIO;
+soundclass = ARASCORPIO;
+stone = arascorpio_stone;
+standingunitorder = 2;
+tedclass = Ethia;
+turninplacerate = 750;
+turnrate = 500;
+unitname = ARASCORPIO;
+unitnumber = 32956;
+upright = 1;
+version = 1;
+watermultiplier = 0.8;
+weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+areaofeffect = 65;
+buttonimagedisabled = BeastClawsPU;
+buttonimagedown = BeastClawsPU;
+buttonimageselected = BeastClawsSBh;
+buttonimageup = BeastClawsSB;
+edgeeffectiveness = 0.7;
+name = Beast Claws;
+range = 150;
+reloadtime = 1.75;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 378;
+monarch = 0.5;
+stalwart = 0.5;
+god = 0.5;
+dragon = 0.5;
+}
+}
+
+[WEAPON2]
+{
+//areaofeffect = 55;
+aimtolerance = 1024;
+buttonimagedisabled = paralyzestingpu;
+buttonimagedown = paralyzestingpu;
+buttonimageselected = paralyzestingSBh;
+buttonimageup = paralyzestingSB;
+explosionclass = green_shockring;
+damagetype = paralyzer;
+hweffect = green lightning;
+manapershot = 350;
+nimbus=1;
+innercolor = 255 255 255;
+lightmap = small;
+middlecolor = 10 200 10;
+name = Paralyze Bolt;
+outercolor = 0 255 0;
+range = 450;
+reloadtime = 2.45;
+soundhitclass = lightning;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 600;
+lodestone = 0;
+factory = 0;
+fort = 0;
+monarch = 0;
+god = 0;
+dragon = 0;
+undead = 0.5;
+}
+}

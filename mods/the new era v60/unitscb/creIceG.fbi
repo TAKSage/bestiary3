@@ -1,0 +1,132 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 0;
+	bloodcolor2 = 235 215 0;
+	bloodcolor3 = 215 235 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3500;
+	buildtime = 550;
+	canattack = 1;
+                canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	immunetoparalyzer = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+        cantbetransported = 1;
+	category = CRE MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+        corpse = creIceG_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+                floater = 0;
+	healtime = 1;
+                //immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+                manarechargerate = 10;
+	maxdamage = 11000;
+                maxmana = 1000;
+	maxvelocity = 2;
+	movementclass = HOVER4;
+	name = Ice Giant;
+	objectname = CreIceG;
+	radardistance = 500;
+                roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Cre;
+	sightdistance = 400;
+	soundcategory = CREICEG;
+	soundclass = CREICEG;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stone = CreIceG_stone;
+	tedclass = Creon;
+                ThreeD = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CREICEG;
+	unitnumber = 11193099;
+	upright = 1;
+	version = 1;
+                waterline = 1;
+                watermultiplier = 0.9;
+                 weaponswitching = 1;
+                 ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 80;
+	edgeeffectiveness = 1.0;
+	buttonimagedisabled = psychmancpu;
+	buttonimagedown = psychmancpu;
+	buttonimageselected = psychmancbh;
+	buttonimageup = psychmancsb;
+                explosionclass = iceballexp;
+	name = Icy Mace;
+                nimbus = 1;
+	range = 200;
+	reloadtime = 1.7;
+	soundhit = IGWACK;
+	type = Melee;
+
+	[DAMAGE]
+	{
+                default = 950;
+                monarch = 0.3;
+                Tier1 = 1.5; 
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 3000;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	buttonimagedisabled = FreezeStormPU;
+	buttonimagedown = FreezeStormPU;
+	buttonimageselected = FreezeStormSBh;
+	buttonimageup = FreezeStormSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 800;
+	name =  Blizzard;
+                noairweapon = 1;
+	radiusart0 = ring_fx_iceA;
+	radiusart1 = ring_fx_iceB;
+	radiusart2 = ring_fx_iceC;
+	range = 500;
+	reloadtime = 4.0;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 50;
+                type = Remote Effect;
+	subtype = turntofrozen;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 450;
+                            fort = 0;
+                            factory = 0;
+                            lodestone = 0;
+                            monarch = 0;
+                            god = 0;
+                            dragon = 0;
+                            airship = 0;
+	}
+}

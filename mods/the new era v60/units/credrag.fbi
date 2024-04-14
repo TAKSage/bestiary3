@@ -1,0 +1,183 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+        airtoairdistance = 100;
+	attackrunlength = 150;
+	bankscale = 0.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 150 75 0;
+	bloodcolor3 = 100 100 100;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 8756;
+	buildtime = 875;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantransport = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = credrag_dead;
+	cruisealt = 150;
+	damagecategory = mechanical;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 35;
+	fireatwillrandom = 1;
+	footprintx = 2;
+	footprintz = 2;
+	frozen = credrag_frozen;
+	healtime = 2.91;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	isairbase = 1;
+	manarechargerate = 27;
+	//maneuverleashlength = 500;
+	maxdamage = 6435;
+	maxmana = 1000;
+	maxvelocity = 5;
+	maxwaterdepth = 0;
+	name = Neo Dragon;
+	objectname = CREDRAG;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREDRAG;
+	soundclass = CREDRAG;
+	standingunitorder = 2;
+	stone = credrag_stone;
+	tedclass = Creon;
+	transmaxunits = 1;
+	transportcapacity = 1;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	turnrate = 600;
+	unitname = CREDRAG;
+	unitnumber = 9;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 600;
+	reloadtime = 3;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 330;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	manapershot = 250;
+	name = Freezing Breath;
+	noairweapon = 1;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponart = iceburst;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 180;
+	builduptime = 1.0;
+	buttonimagedisabled = FreezeStormPU;
+	buttonimagedown = FreezeStormPU;
+	buttonimageselected = FreezeStormSBh;
+	buttonimageup = FreezeStormSB;
+	decaytime = 1.0;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Freezing Storm;
+	radiusart0 = ring_fx_iceA;
+	radiusart1 = ring_fx_iceB;
+	radiusart2 = ring_fx_iceC;
+	range = 290;
+	reloadtime = 4.0;
+	ringcount = 1;
+	ringdelay = 10.0;
+	ringduration = 1.0;
+	showeffect = 0;
+	soundhit = crefreezehit1;
+	spritecount = 50;
+	subtype = turntofrozen;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 0.25;
+		factory = 0.25;
+
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Storm Explosion;
+	range = 200;
+	reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 100;
+	}
+}

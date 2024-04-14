@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 7258;
+	buildtime = 695;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragecan_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 57;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.447916667;
+	maxdamage = 18500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Cristal Blaster;
+	objectname = ARAgecan;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 500;
+	soundcategory = ARAgecan;
+	soundclass = ARAgecan;
+	tedclass = Aramon;
+	unitname = ARagecan;
+	unitnumber = 4585;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = iceballexp;
+	minrange = 180;
+	name = cristal blast;
+	range = 600;
+	reloadtime = 4;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	model = AAsteroid;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1125;
+	}
+}

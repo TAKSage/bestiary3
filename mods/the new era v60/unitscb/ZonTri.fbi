@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.07;
+	buildcost = 1300;
+	buildtime = 270;
+	builddistance = 200;
+	builderlimited = 1;
+	builder = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canheal = 1;
+	canreclaim = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ZON BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verharp_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 12;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 6200;
+	maxvelocity = 3;
+	movementclass = WATER4;
+	name = T1 Canoe;
+	objectname = ZONTRI;
+	pitchscale = 1.5;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = VERHARP;
+	soundclass = VERHARP;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	transportcapacity = 16;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 64;
+	turninplacerate = 210;
+	turnrate = 210;
+	unitname = ZONTRI;
+	unitnumber = 135;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = GreenRing;
+	emittime = 60;
+	firestarter = 1;
+	//model = smallbolt;
+	firestarter = 1;
+	hweffect = green lightning;
+	name = Lighting;
+	range = 450;
+	reloadtime = 3;
+	soundhit = lightning;
+	subtype = lightning;
+	type = line of sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 650;
+		fort = 0.5;
+		factory = 0.5;
+		stalwart = 0.5;
+	}
+}

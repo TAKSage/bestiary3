@@ -1,0 +1,111 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2200;
+	buildtime = 325;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canhover = 1;
+	cancloak = 1;
+	cloakcostmoving = 10;
+	cloakcost = 5;
+	category = VER MELEE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verelfranger_dead;
+	damagecategory = elf;
+	defaultmissiontype = Standby;
+	description = Elf;
+	experiencepoints = 35;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 10500;
+	maxvelocity = 2.35;
+	maxmana = 1000;
+	manarechargerate = 7;
+	mogriumincome = -8;
+	movementclass = RANGER;
+	name = Ranger;
+	objectname = VERELFRANGER;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 450;
+	soundcategory = ELFPRIEST;
+	soundclass = ELFPRIEST;
+	standingunitorder = 2;
+	tedclass = Elf;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERELFRANGER;
+	unitnumber = 42549;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	waterline = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 32;
+	reloadtime = 1.25;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1025;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = aowelfarrow;
+	name = Bow and Arrows;
+	range = 550;
+	reloadtime = 6;
+	soundhitclass = arrow;
+	type = Ballistic;
+	weaponvelocity = 625;
+
+	[DAMAGE]
+	{
+		default = 1350;
+		undead = 0.5;
+		firespirit = 0.5;
+		spirit = 0.5;
+		mechanical = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+	}
+}
+

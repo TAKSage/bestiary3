@@ -1,0 +1,144 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 20000;
+	//builddistance = 75;
+	//builder = 1;
+	//builderlimited = 1;	
+	buildtime = 2000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 27;
+	healtime = 5;
+	maneuverleashlength = 500;
+	maxdamage = 23000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name = Kalandria;
+	objectname = ARALEYLANDDD;
+	roadmultiplier = 1.5;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = AraLeylandDD;
+	soundclass = AraLeylandDD;
+	standingunitorder = 2;
+	stone = arapal_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 900;
+	turnrate = 700;
+	unitname = ARALEYLANDDD;
+	unitnumber = 2120;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.25;
+	wind = 1;
+	weaponswitching = 1;
+	//workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = DaggerDown;
+	buttonimagedown = DaggerDown;
+	buttonimageselected = DaggerSelected;
+	buttonimageup = DaggerUp;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 1.25;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 5;
+	buttonimagedisabled = ArrowDown;
+	buttonimagedown = ArrowDown;
+	buttonimageselected = ArrowSelected;
+	buttonimageup = ArrowUp;
+	aimtolerance = 1024;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	firestarter = 1;
+	model = araarrowB;
+	name = Arrow bomb;
+	range = 400;
+	reloadtime = 4;
+	soundhit = bomb2;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monarch = 1.25;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

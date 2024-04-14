@@ -1,0 +1,145 @@
+[UNITINFO]
+{
+	acceleration = 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	//original buildcost = 100000; 95500; Now (170%)
+	buildcost = 177350;
+	//original buildtime = 30000; 59000; 
+	buildtime = 235000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 1005;
+	floater = 1;
+	healtime = 50;
+	maneuverleashlength = 500;
+	//original maxdamage = 28987; 
+	maxdamage = 32767;
+	//original maxvelocity = 1.5;
+	maxvelocity = 1.65;
+	movementclass = HOVER2;
+	name = Angel of Lihr;
+	noveteran = 1;
+	objectname = VERGOD;
+	//original radardistance = 2000;
+	radardistance = 4000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	//original sightdistance = 292;
+	sightdistance = 550;
+	soundcategory = VERGOD;
+	soundclass = VERGOD;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERGOD;
+	unitnumber = 500;
+	upright = 1;
+	version = 1;
+	waterline = 34;
+	watermultiplier = 1.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 0.7;
+	explosionclass = tsunamiexp;
+	name = Trident of the Angel;
+	//original range = 40;
+	range = 200;
+	reloadtime = 2.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 5600
+		default = 22500;
+		monarch = 0.01;
+		fort2 = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	//original areaofeffect = 30;
+	areaofeffect = 45;
+	builduptime = 2.25;
+	decaytime = 1;
+	//original duration = 9;
+	duration = 6.5;
+	maxvariation = 5;
+	name = Water Vortex;
+	nimbus = 1;
+	//original range = 150;
+	range = 350;
+	reloadtime = 2;
+	soundhit = arrow08;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = seaspoutend;
+	wanderloopart = seaspoutloop;
+	wanderstartart = seaspoutstart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		//original default = 4400;
+		default = 10000;
+		monarch = 0.01;
+		fort2 = 0.5;
+		stalwart = 0.1;
+		support = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 512;
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	minrange = 120;
+	name = Magical Sword;
+	noairweapon = 0;
+	range = 620;
+	reloadtime = 2.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		// original default = 1225; now (300%)
+		default = 10000;
+		siege = 0.33;
+		god = 0.33;	 //dmg = 1213
+		fort2 = 2.7;
+		stalwart = 0.2;
+		support = 0.25;
+	}
+}
+

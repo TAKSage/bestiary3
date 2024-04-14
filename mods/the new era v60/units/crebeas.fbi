@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 3520;
+	buildtime = 422;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREBEAS_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 30;
+	frozen = crebeas_frozen;
+	fireatwillrandom = 1;
+	healtime = 0.59583;
+	//maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxvelocity = 1.6;
+	movementclass = GROUND3;
+	name = Beast Rider;
+	objectname = CREBEAS;
+	pitchscale = 1.9;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREBEAS;
+	soundclass = CREBEAS;
+	standingunitorder = 2;
+	stone = CREBEAS_stone;
+	tedclass = Creon;
+	turnrate = 250;
+	unitname = CREBEAS;
+	unitnumber = 4;
+	version = 1;
+	watermultiplier = 0.81;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = CannonPU;
+	buttonimagedown = CannonPU;
+	buttonimageselected = CannonSBh;
+	buttonimageup = CannonSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	minrange = 100;	
+	name = Cannon;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 3.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 615;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		monarch = 0.5;
+		god = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = .8;
+	name = Beast Claws;
+	range = 100;
+	reloadtime = 1.75;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		fort = 0.5;
+		god = 0.5;
+		factory = 0.5;
+	}
+}

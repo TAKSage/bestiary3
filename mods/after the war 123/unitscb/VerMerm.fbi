@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1100;
+	mogriumbounty = 110;
+	buildtime = 180;
+	canhover = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER ATTACK BOAT BALLISTIC MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERMERM_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 21;
+	floater = 1;
+	healtime = .958333333;
+	maneuverleashlength = 500;
+	maxdamage = 3300;
+	maxvelocity = 1.2;
+	maxwaterdepth = 1;
+	movementclass = HOVER2;
+	name = mermaid;
+	objectname = VERMERM;
+	roadmultiplier = 1;
+shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 220;
+	soundcategory = VERMERM;
+	soundclass = VERMERM;
+	standingunitorder = 2;
+	stone = vermerm_stone;
+	tedclass = Veruna;
+	turninplacerate = 1000;
+	turnrate = 1000;
+	unitname = VERMERM;
+	unitnumber = 1090;
+	upright = 1;
+	version = 1;
+	waterline = 10;
+	watermultiplier = 2.4;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	buttonimagedisabled = Tstab_down;
+	buttonimagedown = Tstab_down;
+	buttonimageselected = Tstab_use;
+	buttonimageup = Tstab_up;
+	edgeeffectiveness = 0.5;
+	name = Trident stab;
+	range = 50;
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monster = 1.25;
+		giant = 1.25;
+		mechanical = 1.25;
+		antikingmechanical = 1.25;
+		mounted = 1.25;
+		antikingmounted = 1.25;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		shielded = 0.75;
+		seamonster = 1.5;
+		steel = 0.75;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+		giantflamedemon = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+//	aimtolerance = 1024;
+	areaofeffect = 32;
+	edgeeffectiveness = 1;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	duration = 0.4;
+//	emittime = 15;
+	explosionclass = lightning explosion;
+//	hweffect = lightning;
+	name = Invoke lightning;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 400;
+	reloadtime = 3.5;
+	soundhitclass = lightning;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = blue_shockring;
+	weaponart = LtngBall_2a;
+	weaponvelocity = 1000000;
+	smoketrail = 1;
+	smokedelay = 100;
+
+	[DAMAGE]
+	{
+		default = 150;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+	}
+}

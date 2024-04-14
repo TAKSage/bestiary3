@@ -1,0 +1,149 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.2;
+	buildcost = 28590;
+	buildtime = 6598;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+                cantbetransported = 1;
+                cantbestoned = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpee_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 175;
+	fireatwillrandom = 1;
+	healtime = 1.5875;
+	maneuverleashlength = 500;
+	maxdamage = 25550;
+	maxvelocity = 1.2;
+	movementclass = GROUND5;
+	name = Peewee;
+	objectname = VERPEE;
+	pitchscale = 1.5;
+                radardistance = 700;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 222;
+	soundcategory = VERPEE;
+	soundclass = VERPEE;
+	standingunitorder = 1;
+	stone = verpee_stone;
+	tedclass = Veruna;
+	turninplacerate = 450;
+	turnrate = 200;
+	unitname = VERPEE;
+	unitnumber = 4634;
+	version = 1;
+	//watermultiplier = 0.5;
+                weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1864;
+	areaofeffect = 50;
+                buttonimagedisabled = marrowPU;
+	buttonimagedown = marrowPU;
+	buttonimageselected = marrowSBh;
+	buttonimageup = marrowSB;
+               edgeeffectiveness - 0.5;
+	explosionclass = teeny explosion;
+                 firestarter = 1;
+                 lightmap = medium;
+	model = greenlaser;
+	name = Magic arrows;
+                 nimbus = 1;
+	range = 600;
+	reloadtime = 2.4;
+	soundhit = laserhit;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+	type = Ballistic;
+	
+[DAMAGE]
+	{
+		default = 1280;
+                dragon = 1.2;
+                monarch = 0.7;
+                god = 0.7;
+                tier1 = 1.2;
+		
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 100;
+               buttonimagedisabled = mcannonPU;
+	buttonimagedown = mcannonPU;
+	buttonimageselected = mcannonSBh;
+	buttonimageup = mcannonSB;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = large explosion;
+	name = Cannon;
+	range = 1000;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 3500;
+                dragon = 1.2;
+                monarch = 0.5;
+                god = 0.7;
+                factory = 1.4;
+                fort = 1.4;
+                naval = 1.2;
+                siege = 1.2;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 270;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	name = die2;
+       // range = 200;
+       // reloadtime = 6.5;
+        shakeduration = 2;
+        shakemagnitude = 6;
+        soundhit = die;
+	type = Ballistic;
+        waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 850;
+		monarch = 0.5;
+	}
+}
+

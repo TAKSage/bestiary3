@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2650;
+	buildtime = 898;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ararider_dead;
+	damagecategory = Animal;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxvelocity = 3.1;
+	movementclass = GROUND3;
+	name = Horsemaster;
+	objectname = tarkhandmaster;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 245;
+	soundcategory = TARTROOP;
+	soundclass = TARTROOP;
+	standingunitorder = 2;
+	stone = araknigh_stone;
+	tedclass = Taros;
+	turnrate = 1000;
+	unitname = tarkhandmaster;
+	unitnumber = 16;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+
+	[AdjustJoy]
+	{
+		adjustment = 15;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 60;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	range = 100;
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 550;
+		aragonsol = 0.5;
+	}
+}

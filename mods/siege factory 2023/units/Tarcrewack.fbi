@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 0.02;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 3750;
+	buildtime = 425;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Tar ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraCREWACK_dead;
+	damagecategory = Siege;
+	defaultmissiontype = standby;
+	description = Siege;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	frozen = Aracrewack_frozen;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxvelocity = 2.25;
+	movementclass = GROUND4;
+	name = Building Crusher;
+	objectname = TarCREWACK;
+	pitchscale = 1.5;
+	roadmultiplier = 2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 200;
+	soundcategory = AraCREWACK;
+	soundclass = AraCREWACK;
+	standingunitorder = 2;
+	stone = AraCREWACK_stone;
+	totalallowed = 3;
+	tedclass = Siege;
+	turninplacerate = 225;
+	turnrate = 125;
+	unitname = TarCREWACK;
+	unitnumber = 1212127;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	name = Bulldozer;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 3;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .25;
+		fort = 5;
+		factory = 5;
+		lodestone = 35;
+		naval = 5;
+                siege = 5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = .25;
+		fort = 5;
+		factory = 5;
+		lodestone = 5;
+		naval = 5;
+                siege = 5;
+	}
+}

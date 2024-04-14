@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 43944;
+	buildtime = 8755;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 300;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 9.8756;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 23946;
+	maxmana = 1000;
+	maxvelocity = 9;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 5;
+	name = Vampire Lord;
+	objectname = TARKLORD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 224;
+	soundcategory = ARASPY;
+	soundclass = ARASPY;
+	standingunitorder = 2;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = TARKLORD;
+	unitnumber = 6666;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 50 0 50;
+	lightmap = medium;
+	middlecolor = 100 0 100;
+	name = Lightning;
+	nimbus = 1;
+	outercolor = 150 0 150;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1031;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	manapershot = 300;
+	name = Lightning Ball;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1455;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = FireRingTPU;
+	buttonimagedown = FireRingTPU;
+	buttonimageselected = FireRingTSBh;
+	buttonimageup = FireRingTSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Wind Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 150;
+	reloadtime = 1.5;
+	ringcount = 3;
+	ringdelay = 0.15;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 5000;
+	}
+}

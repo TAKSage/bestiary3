@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	attackrunlength = 150;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.05;
+	//original buildcost = 1563; Now (125%)
+	buildcost = 1953; //82% x Dirigible
+//	original buildtime = 302; 151
+	buildtime = 251;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;	
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	//original damagecategory = monster;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 18;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 1.159087564;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 250;
+	// original maxdamage = 920; 1224; 1724
+	maxdamage = 1465;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = (M) Iron Beak;
+	objectname = TARBEAK;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARBEAK;
+	soundclass = TARBEAK;
+	standingunitorder = 2;
+	stone = tarbeak_stone;
+	tedclass = Taros;
+	//original no totalallowed
+	totalallowed = 40;
+	turninplacerate = 1000;
+	turnrate = 700;
+	unitname = TARBEAK;
+	unitnumber = 72;
+	upright = 1;
+	//based on Cavedog's version = 1;
+	version = M.1.0;
+}
+
+[WEAPON1]
+{
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = medium explosion;
+	lightmap = small;
+	model = tareggbomb.3do;
+	name = Egg Bomb;
+//	original = 200; now (25%) more
+	range = 250;
+	reloadtime = 3.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 10;
+
+	[DAMAGE]
+	{
+		default = 807;	//dmg = 252/s
+		//These are new
+		airship = 1.2;
+		archer = 0.65;
+		fort = 1.2;	//damage = 302/s
+		fort2 = 1.6;    //damage = 403/s
+		factory = 1.5;
+		fly = 0.5;
+		flygod = 0.3;
+		god = 0.15;
+		monarch = 0.2;
+	}
+}

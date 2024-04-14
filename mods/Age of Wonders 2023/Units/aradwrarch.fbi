@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 555;
+	buildtime = 75;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = dwarf;
+	defaultmissiontype = Standby;
+	description = Dwarf;
+	experiencepoints = 12;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 5660;
+	maxvelocity = 1.15;
+	mogriumincome = -3;
+	movementclass = MOUNTAIN2;
+	name = Dwarf Crossbowman;
+	objectname = ARADWRARCH;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = DWRAXE;
+	soundclass = DWRAXE;
+	standingunitorder = 2;
+	tedclass = Dwarf;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = ARADWRARCH;
+	unitnumber = 42553;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = aowdwarfarrow;
+	name = Crossbow;
+	range = 482;
+	reloadtime = 5.15;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 815;
+		undead = 0.5;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+

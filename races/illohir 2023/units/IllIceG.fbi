@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 255 255 0;
+bloodcolor2 = 235 215 0;
+bloodcolor3 = 215 235 0;
+bmcode = 1;
+bodytype = armor;
+brakerate = 10;
+buildcost = 1697;//1497
+buildtime = 290;//245
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+category = ILL MELEE ATTACK MAGIC;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Monster;
+damagemodifier = 0.3;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 100;
+floater = 0;
+healtime = 1.0208333;
+immunetoparalyzer = 1;
+maneuverleashlength = 1000;
+manarechargerate = 5;
+maxdamage = 8612;
+maxmana = 1000;
+maxvelocity = 1.35;
+movementclass = GROUND4;
+name = ChaosGiant;
+objectname = IllIceG;
+//radardistance = 450;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 200;
+soundcategory = TARICEG;
+soundclass = TARICEG;
+standingunitorder = 2;
+stone = IllIceG_stone;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 3;
+turninplacerate = 2500;
+turnrate = 2500;
+unitname = ILLICEG;
+unitnumber = 100028;
+upright = 1;
+version = 1;
+waterline = 5;
+watermultiplier = 0.81;
+weaponswitching = 1;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+areaofeffect = 75;
+edgeeffectiveness = 0.5;
+buttonimagedisabled = Hamdown;
+buttonimagedown = Hamdown;
+buttonimageselected = Hamsel;
+buttonimageup = Hamup;
+explosionclass = Volcblast;
+name = Fiery Mace;
+nimbus = 1;
+range = 150;//90;
+reloadtime = 2.75;
+soundhit = IGWACK;
+type = Melee;
+
+[DAMAGE]
+{
+default = 1600;
+monarch = 0.5;
+god = 0.5;
+Tier1 = 0.5;
+mechanical = 0.5;
+fort = 1.5;
+naval = 0;
+siege = 1.5;
+
+}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 150;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+    edgeeffectiveness = 0.5;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = medium;
+	manapershot = 950;
+	name = Meteors;
+	range = 250;
+	reloadtime = 3.5;
+	soundhitclass = fire;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 600;
+    subtype = hailstorm;
+    duration = 2.5;
+    nimbus = 1;
+    particlespersecond = 15; 
+    waterexplosionclass = medium water explosion;
+              
+
+	[DAMAGE]
+	{
+		default = 150;
+		monarch = 0.5;
+		god = 0.5;
+		dragon = 0.5;
+		stalwart = 0.5;
+	}
+}

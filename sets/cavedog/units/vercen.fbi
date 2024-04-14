@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 713;
+	buildtime = 130;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vercen_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	frozen = vercen_frozen;
+	healtime = 0.54167;
+	maneuverleashlength = 500;
+	maxdamage = 3050;
+	maxvelocity = 1.24;
+	movementclass = GROUND3;
+	name = Centaur;
+	objectname = VERCEN;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 215;
+	soundcategory = VERCEN;
+	soundclass = VERCEN;
+	standingunitorder = 1;
+	stone = vercen_stone;
+	tedclass = Veruna;
+	turninplacerate = 2100;
+	turnrate = 1900;
+	unitname = VERCEN;
+	unitnumber = 117;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Bow and Arrows;
+	range = 605;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = Line Of Sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 580;
+
+	[DAMAGE]
+	{
+		default = 278;
+	}
+}

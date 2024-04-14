@@ -1,0 +1,185 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	//animatetype = aradelenfL;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 26000;
+	builddistance = 100;
+	//builder = 1;
+	//buildtime = 5000;
+	buildtime = 1;
+	//cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	//canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = Ara MELEE MAGIC ATTACK GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Conjured;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 300;
+	healtime = 5;
+	immunetoparalyzer = 1;
+	mogriumincome = -75;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 30000;
+	maxmana = 1000;
+	maxvelocity = 1;
+	movementclass = GROUND2;
+	name = Holy Guardian;
+	noveteran = 1;
+	objectname = AraVERULTI;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 225;
+	soundcategory = AraVerUlti;
+	soundclass = AraVerUlti;
+	standingunitorder = 2;
+	tedclass = Light;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 300;
+	unitname = AraVERULTI;
+	unitnumber = 97979750;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	//workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 150;
+	name = Ball of Light;
+	nimbus = 1;
+	range = 450;
+	reloadtime = 1.75;
+	soundhitclass = lightning;
+	turnrate = 100;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		undead = 1.5;
+		monarch = 1.25;
+		Hero = 1.25;
+		Conjured = .5;
+		god = 2;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 70;
+	buttonimagedisabled = DaggerDown;
+	buttonimagedown = DaggerDown;
+	buttonimageselected = DaggerSelected;
+	buttonimageup = DaggerUp;
+	edgeeffectiveness = 1;
+	name = Massive Sword;
+	range = 60;
+	reloadtime = 2.3;
+	soundhitclass = Sword;
+	type = melee;
+
+	[DAMAGE]
+	{
+		default = 2500;
+		undead = 1.5;
+		monarch = 1.25;
+		Hero = 1.25;
+		Conjured = .5;
+		god = 2;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 300;
+	builduptime = 0.5;
+	buttonimagedisabled = BlueDoomDown;
+	buttonimagedown = BlueDoomDown;
+	buttonimageselected = BlueDoomSelected;
+	buttonimageup = BlueDoomUp;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 950;
+	name = Holy Immolation;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 120;
+	reloadtime = 2.5;
+	ringcount = 5;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 750;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		undead = 1.5;
+		monarch = 1.25;
+		Hero = 1.25;
+		Conjured = .5;
+		god = 2;
+	}
+}

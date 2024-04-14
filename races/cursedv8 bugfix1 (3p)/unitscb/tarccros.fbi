@@ -1,0 +1,60 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 32000;
+	buildcost = 2695;
+	buildtime = 285;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarccros_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 26;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.59375;
+	maxdamage = 4608;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Cross;
+	objectname = tarccros;
+	radardistance = 1000;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = tarccros;
+	soundclass = tarccros;
+	tedclass = Taros;
+	unitname = tarccros;
+	unitnumber = 804;
+	version = 1.2;
+	yardmap = o;
+}
+
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = small explosion;
+	model = crsh.3do;
+	name = Soul;
+	range = 460;
+	reloadtime = 2.3;
+	soundhitclass = arrow;
+	turnrate = 400;
+	type = Guided;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 150;
+
+	[DAMAGE]
+	{
+		default = 330;
+	}
+}

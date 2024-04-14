@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1406;
+	buildtime = 272;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = Ara BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araethchara_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 18;
+	fireatwillrandom = 1;
+	healtime = 0.745833333;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxvelocity = 3.7;
+	movementclass = GROUND4;
+	name = Chariot Archer;
+	objectname = Araethchara;
+	//shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = TARBLACK;
+	soundclass = TARBLACK;
+	standingunitorder = 2;
+	stone = araethchara_stone;
+	tedclass = Ethia;
+	turninplacerate = 600;
+	turnrate = 500;
+	unitname = Araethchara;
+	unitnumber = 1817;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = Araarrow;
+	name = Bow and Arrows;
+	range = 500;
+	reloadtime = 2.4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 670;
+		tier1 = 2.0;
+	}
+}

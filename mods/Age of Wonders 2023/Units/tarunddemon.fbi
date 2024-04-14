@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.04;
+	bankscale = 1;
+	bloodcolor1 = 200 5 5;
+	bloodcolor2 = 220 70 0;
+	bloodcolor3 = 235 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.175;
+	buildcost = 2750;
+	buildtime = 275;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 135;
+	damagecategory = demon;
+	defaultmissiontype = VTOL_Standby;
+	description = Undead;
+	experiencepoints = 42;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.675;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 16500;
+	maxvelocity = 3.2;
+	maxwaterdepth = 0;
+	moverate1 = 5;
+	moverate2 = 10;
+	name = Demon;
+	objectname = TARUNDDEMON;
+	radardistance = 450;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = UNDDEMON;
+	soundclass = UNDDEMON;
+	standingunitorder = 2;
+	tedclass = Undead;
+	turninplacerate = 1800;
+	turnrate = 1000;
+	unitname = TARUNDDEMON;
+	unitnumber = 42527;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = volcblast;
+	name = Fireball;
+	range = 300;
+	reloadtime = 6;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = fireballa;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1670;
+		azrac = 0.75;
+		demon = 0.25;
+		spirit = 0.5;
+		firespirit = 0;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 1.2;
+		naval = 0.5;
+	}
+}
+

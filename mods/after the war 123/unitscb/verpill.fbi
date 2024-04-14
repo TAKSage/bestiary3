@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	mogriumbounty = 409.6;
+	buildcost = 1200;
+	buildtime = 700;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	canattack = 1;
+	canstop = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpill_dead;
+	damagecategory = lodestone;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 10;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.525;
+	maxdamage = 2000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Pillar of Light;
+	objectname = verpill;
+                onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 175;
+	soundcategory = verpill;
+	soundclass = verpill;
+	tedclass = Veruna;
+	unitname = verpill;
+	unitnumber = 26;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+	weaponswitching = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 8;//80;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 550;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 550;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 550;
+	}
+
+}

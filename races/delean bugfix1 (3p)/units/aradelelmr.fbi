@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4800;
+	buildtime = 460;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 28;
+	healtime = 1.4375;
+	manarechargerate = 17;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxmana = 1000;
+	maxvelocity = 3.9;
+	movementclass = GROUND3;
+	name = Elven Mage Rider;
+	objectname = aradelelmr;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = ARADELELR;
+	soundclass = ARADELELR;
+	standingunitorder = 1;
+	stone = aradelelmr_stone;
+	tedclass = Aramon;
+	turninplacerate = 400;
+	turnrate = 2500;
+	unitname = aradelelmr;
+	unitnumber = 4339;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+
+[WEAPON1]
+{
+        explosionclass = blood explosion;
+	name = Claws;
+	range = 270;
+	reloadtime = 1.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 560;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+        buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.3;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Drainor Orb;
+	range = 600;
+	reloadtime = 5.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 350;
+	[DAMAGE]
+	{
+		default = 380;
+
+	}
+}
+
+
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireballPU;
+	buttonimagedown = FireballPU;
+	buttonimageselected = FireballSBh;
+	buttonimageup = FireballSB;
+	explosionclass = green_shockring;
+	manapershot = 25;
+	model = araarrow3;
+	name = Magic Missle;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 0.1;
+	soundhit = arrow08;
+	type = ballistic;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 100;
+		
+	}
+}

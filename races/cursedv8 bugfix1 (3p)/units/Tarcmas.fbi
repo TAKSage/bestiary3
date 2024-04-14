@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	animatetype = TARZOM;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 935;
+	builddistance = 280;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 160;
+	canattack = 1;
+	canbuild = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cananimate = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARCMAS_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 10;
+	healtime = 0.433333334;
+	maneuverleashlength = 500;
+	maxdamage = 3750;
+	maxvelocity = 1.7;
+	movementclass = GROUND3;
+	name = Dark Master;
+	objectname = tarcmas;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = tarcmas;
+	soundclass = tarcmas;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = tarcmas;
+	unitnumber = 827;
+	upright = 1;
+	version = 1;
+	waterline = 10;
+	watermultiplier = 0.6;
+	workertime = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 45;
+	explosionclass = medium smoke explosion;
+	hweffect = deathray;
+	innercolor = 0 0 0;
+	lightmap = medium;
+	middlecolor = 0 0 0;
+	name = Death Ray;
+	outercolor = 0 0 0;
+	range = 400;
+	reloadtime = 4;
+	smoketrail = 1;
+	smokedelay = .02;
+	soundhitclass = cremdcan;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1800;
+
+	[DAMAGE]
+	{
+		default = 410;
+	}
+}

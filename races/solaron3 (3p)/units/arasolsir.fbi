@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2648;
+	buildtime = 658;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;.
+	corpse = arasolsir_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 19;
+	fireatwillrandom = 1;
+	healtime = 1.462;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1380;
+	maxmana = 1000;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Sirine;
+	objectname = arasolsir;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 150;
+	soundcategory = arasolsir;
+	soundclass = arasolsir;
+	standingunitorder = 1;
+	stone = arasolsir_stone;
+	tedclass = Aramon;
+	totalallowed=7;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = arasolsir;
+	unitnumber = 8001;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+	}
+}

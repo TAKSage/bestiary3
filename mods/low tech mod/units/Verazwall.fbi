@@ -1,0 +1,38 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 75;
+	buildtime = 45;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERAZWALL; // It's supposed to just disappear
+	description = Veruna;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.25;
+	isfeature = 1;
+	maxdamage = 3200;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall of Ice;
+	noshadow = 1;
+	objectname = VERAZWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 100;
+	soundcategory = VERWALL;
+	tedclass = Veruna;
+	unitname = VERAZWALL;
+	unitnumber = 3510;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

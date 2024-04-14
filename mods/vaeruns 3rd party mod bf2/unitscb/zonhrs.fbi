@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 900;
+	buildtime = 255;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonhrs_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 15;
+	healtime = 4.44;
+                frozen = zonhrs_frozen;
+	maneuverleashlength = 500;
+	maxdamage = 3700;
+	maxvelocity = 4.85;
+	movementclass = GROUND3;
+	name = Nomad Horseman;
+	noveteran = 1;
+	objectname = ZONHRS;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 111;
+	soundcategory = ZONHRS;
+	soundclass = ZONHRS;
+	standingunitorder = 1;
+	stone = zonhrs_stone;
+	tedclass = Mission;
+	turnrate = 1000;
+	unitname = ZONHRS;
+	unitnumber = 3797;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	name = Staff;
+	range = 70;
+	reloadtime = 1.8;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 360;
+	}
+}

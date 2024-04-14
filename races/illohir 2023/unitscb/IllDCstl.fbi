@@ -1,0 +1,53 @@
+[UNITINFO]
+{
+BMCode = 0;
+bodytype = stone;
+buildangle = 0;//5460;//6370;
+buildcost = 15376;
+builddistance = 200;
+builder = 1;
+buildtime = 2766;
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL FACTORY;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Fort;
+description = ILLOHIR;
+experiencepoints = 400;
+floater = 0;
+footprintx = 9;
+footprintz = 13;//12
+healtime = 3.841667;
+maxdamage = 29941;
+maxslope = 15;
+maxwaterdepth = 5;
+mogriumincome = 5;
+mogriumstorage = 200;
+name = ChaosKeep;
+objectname = ILLDCSTL;
+radardistance = 300;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 250;
+soundcategory = TARDCSTL;
+soundclass = TARDCSTL;
+standingunitorder = 2;
+tedclass = Illohir;
+ThreeD = 1;
+unitname = ILLDCSTL;
+unitnumber = 100010;
+unitstandorders = 0;
+version = 1;
+workertime = 5;
+waterline = 2;
+yardmap = ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo oocccccoo oocccccoo oocccccoo;
+ZBuffer = 1;
+}
+

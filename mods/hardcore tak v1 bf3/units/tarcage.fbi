@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	//original buildcost = 2695; T-mod cost = 674; 3100; 
+	buildcost = 2695;
+	//original buildtime = 285; 142; 71; now (30%)
+	buildtime = 86;
+	canattack = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcage_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	//original experiencepoints = 26; Now (150%)
+	experiencepoints = 39;
+	footprintx = 3;
+	footprintz = 3;
+	//put the healtime back!
+	healtime = 0;
+	//maxdamage = 5100; Now (145%) 
+	maxdamage = 7395;
+	//original maxslope = 15;
+	maxslope = 20;
+	maxwaterdepth = 0;
+	name = Caged Demon;
+	//original no notargetcategory
+	notargetcategory = scout;
+	objectname = TARCAGE;
+	radardistance = 1000;
+	shootme = 1;
+	side = TAR;
+//	original = 250; now (108%)
+	//original sightdistance = 270;
+	sightdistance = 320;
+	soundcategory = TARCAGE;
+	soundclass = TARCAGE;
+	tedclass = Taros;
+	unitname = TARCAGE;
+	unitnumber = 166;
+	//based on Cavedog's Crusade's Balance;
+	version = M.1.0;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	//original aimtolerance = 1024;
+	aimtolerance = 512;
+	//original areaofeffect = 20;
+	areaofeffect = 10;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	//original no gravadjust
+	gravityadjustment = 5;
+	name = fireball;
+// 		original = 450
+	range = 520;
+//		original = 2.3
+	reloadtime = 1.5;
+	soundhitclass = fire;
+//	original type = ballistic;
+	type = line of sight;
+	weaponart = FireballA;
+//	original weaponvelocity = 1000;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		// original default = 295; now (110%)
+		default = 325;
+		airship = 2.06;  //damage = 670 (ex 2.4)
+		archer = 5.68;		//dmg = 1846
+		archer2 = 5.68;		//dmg = 1846
+		dragon = 2;	 //damage = 975
+		fly = 3.52;	 //damage = 2320
+		flygod = 3.9;
+		god = 0.5;
+		monarch = 1.3;
+		melee = 0.5;     //damage = 293
+		scout = 0.2;
+		stalwart = 0.25;
+		tier1 = 4.5;            //dmg = 
+	}
+}

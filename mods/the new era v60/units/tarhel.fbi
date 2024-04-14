@@ -1,0 +1,165 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 6000;
+	buildtime = 2000;
+	builddistance = 150;
+	builder = 1;
+	builderlimited = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	cancloak = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR BUILDER;
+	cloakcost = 25;
+	cloakcostmoving = 50;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarhel_dead;
+	damagecategory = armor;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 15;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	frozen = tarhel_frozen;
+	healtime = 6.05;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 12400;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	mincloakdistance = 50;
+	//mogriumincome = 5;
+	//mogriumstorage = 2500;
+	movementclass = GROUND2;
+	name = Priest Heligrin;
+	objectname = TARHEL;
+	radardistance = 520;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARHEL;
+	soundclass = TARHEL;
+	standingunitorder = 1;
+	stone = tarhel_stone;
+	tedclass = Taros;
+	totalallowed = 1.1;
+	turninplacerate = 2300;
+	turnrate = 2200;
+	unitname = TARHEL;
+	unitnumber = 94;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	model = fireball;
+	name = Fire Comet;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monarch = 0.3;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	manapershot = 200;
+	name = Guided Fire Ball;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 1.5;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 280;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.4;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 600;
+	builduptime = .9;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	decaytime = 1.0;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Fire Wave;
+	nimbus = 1;
+	radiusart0 = fireballa;
+	radiusart1 = fireballb;
+	radiusart2 = megaflame;
+	range = 400;
+	reloadtime = 1.5;
+	ringcount = 4;
+	ringdelay = 0.4;
+	ringduration = 1.1;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 28;
+	type = Remote Effect;
+	//unitsonly = 1;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1500;
+                monarch = 0.3;
+	}
+}

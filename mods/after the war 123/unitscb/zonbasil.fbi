@@ -1,0 +1,131 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 5;
+	buildcost = 1785;
+	mogriumbounty = 178.5;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ZON ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonbasil_dead;
+	damagecategory = hardscale;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 20;
+	frozen = zonbasil_frozen;
+	healtime = 1.129166667;
+	manarechargerate = 125;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	movementclass = GROUND5;
+	name = Basilisk;
+	nochasecategory = FLY;
+	objectname = ZONBASIL;
+	shadowart = shadow15;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 230;
+	soundcategory = ZONBASIL;
+	soundclass = ZONBASIL;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 600;
+	turnrate = 450;
+	unitname = ZONBASIL;
+	unitnumber = 157;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	wpri_badtargetcategory = FLY;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = blue_shockring;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	lightmap = small;
+	manapershot = 999;
+	name = Turn To Stone (300);
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = fireballA;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 20;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 1.0;
+	name = Bite;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 2.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+		stone = 0.75;
+		factory = 0.75;
+		steel = 0.75;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	explosionclass = blue_shockring;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	lightmap = small;
+	manapershot = 999;
+	name = FOR THE AI;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = fireballA;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

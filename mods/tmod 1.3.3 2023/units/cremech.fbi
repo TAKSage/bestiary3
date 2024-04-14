@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 825;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 195;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = CRE BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREMECH_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 14;
+	frozen = cremech_frozen;
+	healtime = 1.266;
+	maneuverleashlength = 500;
+	maxdamage = 1203;
+	maxvelocity = 1.30;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Mechanic;
+	objectname = CREMECH;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 180;
+	soundcategory = CREMECH;
+	soundclass = CREMECH;
+	standingunitorder = 1;
+	stone = CREMECH_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREMECH;
+	unitnumber = 5;
+	upright = 1;
+	version = T1.3.3;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	edgeeffectiveness = 1;
+	emittime = 100;
+	hweffect = creon lightning;
+	innercolor = 255 255 255;
+	middlecolor = 230 230 255;
+	outercolor = 200 200 255;
+	lightmap = medium;
+	name = Taser;
+	range = 220;
+	reloadtime = 2.0;
+	soundhitclass = cretaser;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 218;
+		mechanical = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Freeze Beam;
+	noairweapon = 1;
+	range = 280;
+	reloadtime = 4.0;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponart = iceburst;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}

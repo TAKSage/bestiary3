@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+	acceleration = 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	buildcost = 100000;
+	buildtime = 30000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	immunetoparalyzer = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 1005;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 600;
+	maneuverleashlength = 500;
+	maxdamage = 32000;
+	maxvelocity = 2.8;
+	movementclass = HOVER5;
+	name = Angel of Lihr;
+	noveteran = 1;
+	objectname = VERGOD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 1000;
+	soundcategory = VERGOD;
+	soundclass = VERGOD;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERTGOD;
+	unitnumber = 500;
+	upright = 1;
+	version = 1;
+	waterline = 34;
+	watermultiplier = 1.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 1;
+	explosionclass = tsunamiexp;
+	name = Trident of the Angel;
+	range = 80;
+	reloadtime = 2.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 5600;
+		monarch = 0.05;
+		God = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	decaytime = 1;
+	duration = 9;
+	maxvariation = 5;
+	name = Water Vortex;
+	nimbus = 1;
+	range = 700;
+	reloadtime = 2;
+	soundhit = FIREMETL;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = seaspoutend;
+	wanderloopart = seaspoutloop;
+	wanderstartart = seaspoutstart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 2200;
+		monarch = 0.05;
+		God = 0.1;
+	}
+}
+[EXPLODEAS]
+{
+areaofeffect = 600;
+damagetype = explosion;
+edgeeffectiveness = 0.8;
+explosionclass = TsunamiExp;
+name = Explosion;
+        shakeduration = 3;
+        shakemagnitude = 700;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 10000;
+		monarch = 0.05;
+		God = 0.2;
+}
+}

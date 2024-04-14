@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 788;
+	buildtime = 211;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+               corpse = TarUAscourge_dead;
+	damagecategory = Tier1;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 14;
+                frozen = taruascourge_frozen;
+                floater = 0;
+	healtime =  0.783333333;
+                //immunetoparalyzer = 1;
+	manarechargerate = 3;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxmana = 100;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;//MANTIS6;
+	name = Scourge;
+	objectname = TARUASCOURGE;
+                radardistance = 380;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 185;
+	soundcategory = TARUASCOURGE;
+	soundclass = TARUASCOURGE;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = taruascourge_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARUASCOURGE;
+	unitnumber = 5647384756;
+	upright = 1;
+	version = 1;
+                waterline = 4;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+                ZBuffer = 1;
+
+         [AdjustAttack]
+        {
+                adjustment = 1.2;
+                affectsenemy = 0;
+                edgeeffectiveness = 1;
+                radius = 140;
+        }
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = DeathswordPU;
+	buttonimagedown = DeathswordPU;
+	buttonimageselected = DeathswordsBh;
+	buttonimageup = DeathswordsB;
+                explosionclass = small smoke explosion;
+	name = Chaos Scythe;
+                nimbus = 1;
+	range = 100;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 300;
+                       dragon = 1.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 1.4;
+                god = 1.4;
+                airship = 1.5;
+                stalwart = 0.4;
+                Tier1 = 1.4;
+                mechanical = 0.5;
+                monster = 1.5;
+                human = 0.4;
+                undead = 0.4;
+                naval = 0;
+                siege = 0.4;                 	                
+		
+		
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	explosionclass = Medium smoke explosion;
+                firestarter = 1;
+                gravityadjustment = 0.6;
+	manapershot = 90;
+                model = redcrystal;
+                nimbus = 1;
+                noairweapon = 1;
+	name = Chaos Flame;
+	range = 480;
+	reloadtime = 3.5;
+               smoketrail = 1;
+               smokedelay = 6.5;
+	soundhitclass = fire;
+                soundwater = splash;
+	turnrate = 360;
+	type = Guided;
+                waterexplosionclass = small water explosion;
+	weaponart = fireballca;
+	weaponvelocity = 650;
+         
+
+	[DAMAGE]
+	{
+		default = 400;
+                          dragon = 1.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 1.4;
+                god = 1.4;
+                airship = 1.5;
+                stalwart = 0.4;
+                Tier1 = 1.4;
+                mechanical = 0.5;
+                monster = 1.5;
+                human = 0.4;
+                undead = 0.4;
+                naval = 0.5;
+                siege = 0.4;                 	                     
+                                
+	}
+}

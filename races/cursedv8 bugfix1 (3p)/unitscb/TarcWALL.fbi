@@ -1,0 +1,34 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 64000;
+	buildcost = 75;
+	buildtime = 65;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcwall;
+	description = Taros;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.416666667;
+	isfeature = 1;
+	maxdamage = 4000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall;
+	noshadow = 1;
+	objectname = tarcwall;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 45;
+	soundcategory = ARAWALL;
+	soundclass = ARAWALL;
+	tedclass = Taros;
+	unitname = tarcwall;
+	unitnumber = 832;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

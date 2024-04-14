@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 809;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 129;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araethemb_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 5;
+	healtime = 0.583333333;
+	manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 1469;
+	maxmana = 800;
+	maxvelocity = 1.65;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Embalmer;
+	objectname = ARAETHEMB;
+	radardistance = 350;
+	roadmultiplier = 1.31;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = ZONTRAIN;
+	soundclass = ZONTRAIN;
+	standingunitorder = 1;
+	stone = Araethemb_stone;
+	tedclass = Ethia;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARAETHEMB;
+	unitnumber = 802;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.91;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Siphon;
+	range = 180;
+	reloadtime = 3.2;
+	soundhitclass = fire;
+	type = Line of Sight;
+	subtype = fire;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 196;
+		lodestone = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 200;
+	builduptime = 3;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	decaytime = 3;
+	edgeeffectiveness = 0.2;
+	firestarter = 1;
+	manapershot = 750;
+	name = Fire Bomb;
+	nimbus = 1;
+	radiusart0 = FireballB;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = FireballA;
+	range = 250;
+	reloadtime = 5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 1;
+	shotart = cannbsm;
+	showeffect = 1;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}

@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2100;
+	buildtime = 550;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zondev_dead;
+	defaultmissiontype = Standby;
+	description = Monster;
+	experiencepoints = 66;
+               frozen = zondev_frozen;
+	healtime = 11.4375;
+	maneuverleashlength = 500;
+	maxdamage = 12745;
+	maxvelocity = 2.1;
+	movementclass = GROUND4;
+	name = Devourer;
+	noveteran = 1;
+	objectname = ZONDEV;
+	roadmultiplier = 1.1;
+	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 100;
+	soundcategory = ZONDEV;
+	soundclass = ZONDEV;
+	standingunitorder = 2;
+	stone = zondev_stone;
+	tedclass = Zhon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ZONDEV;
+	unitnumber = 110089;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.7;
+	name = Claw Attack;
+	noairweapon = 1;
+	range = 70;
+	reloadtime = 1.6;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 760;
+                monarch = 0.01;
+	}
+}

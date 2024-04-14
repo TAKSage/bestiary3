@@ -1,0 +1,154 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1900;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = VER BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verazdur_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 99;
+	healtime = 4;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 2200;
+	maxmana = 2000;
+	maxvelocity = 1.3;
+	mogriumincome = 2;
+	mogriumstorage = 400;
+	movementclass = GROUND2;
+	name = Azdurain;
+	objectname = VERAZDUR;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 260;
+	soundcategory = VERAZDUR;
+	soundclass = VERAZDUR;
+	standingunitorder = 1;
+	stone = Verazdur_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERAZDUR;
+	unitnumber = 3201;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 200;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	edgeeffectiveness = 0.25;
+	explosionclass = Water Splash;
+	lightmap = large;
+	manapershot = 125;
+	name = Water Ball;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 2.2;
+	soundhit = arrow08;
+	type = line of sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 200;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 3;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 600;
+	name = Blizzaga;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 400;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 90;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	manapershot = 1200;
+	model = zonrock.3do;
+	name = Meteor;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 1.5;
+	soundhitclass = rock;
+	spinheading = 100;
+	spinpitch = 300;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 2500;
+	}
+}

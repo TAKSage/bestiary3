@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 155 75;
+	bloodcolor2 = 0 120 60;
+	bloodcolor3 = 0 100 25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 585;
+	buildtime = 85;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canhover = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verlizjav_dead;
+	damagecategory = lizard;
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 10;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 1.2;
+	mogriumincome = -3;
+	movementclass = HOVER2;
+	name = Lizard Javelineer;
+	objectname = VERLIZJAV;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 290;
+	soundcategory = VERMER;
+	soundclass = VERMER;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIZJAV;
+	unitnumber = 42583;
+	upright = 1;
+	version = 1;
+	waterline = 25;	
+	watermultiplier = 1.4;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = lizardjavelin;
+	name = Javelin;
+	range = 500;
+	reloadtime = 8;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 900;
+		undead = 0.5;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		naval = 0.5;
+		mechanical = 0.5;
+	}
+}

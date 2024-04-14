@@ -1,0 +1,117 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 44000;
+	buildtime = 8800;
+	standingunitorder = 1;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 750;
+	manarechargerate = 1;
+	maxmana = 1000;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = 1.35;
+	maxdamage = 17000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Armaggeddon Tower;
+	noveteran = 1;
+	objectname = tarbat;
+	radardistance = 1200;
+	totalallowed = 1;
+	shootme = 1;
+	side = VER;
+	sightdistance = 800;
+	soundcategory = tarsh;
+	soundclass = tarsh;
+	tedclass = Veruna;
+	unitname = tarbat;
+	unitnumber = 3554;
+	version = 1;
+	yardmap = o;
+	weaponswitching = 1;
+	
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 275;
+	}
+
+	[AdjustJoy]
+	{
+		adjustment = 275;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 275;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 25;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 200 230 255;
+	name = lightning;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 3.8;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1350;
+	}
+}
+
+[WEAPON2]
+	{
+	aimtolerance = 1024;
+	areaofeffect = 999;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 10;
+	edgeeffectiveness = 0.3;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 1000;
+	name = Fire Storm;
+	nimbus = 1;
+	particlespersecond = 55;
+	range = 25447;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 111;
+		monarch = 0.75;
+		fort = 1.2;
+		tier1 = 3.0; 
+
+	}
+}

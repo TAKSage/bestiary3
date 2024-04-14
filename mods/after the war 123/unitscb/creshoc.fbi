@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	mogriumbounty = 100;
+	buildtime = 160;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = shocky;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 23;
+	fireatwillrandom = 1;
+	frozen = creshoc_frozen;
+	healtime = .708333333;
+	maneuverleashlength = 500;
+	maxdamage = 2350;
+	maxvelocity = 1.1;
+	movementclass = GROUND2;
+	name = Shock Trooper;
+	objectname = CRESHOC;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 300;
+	soundcategory = CRESHOC;
+	soundclass = CRESHOC;
+	standingunitorder = 1;
+	stone = CRESHOC_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CRESHOC;
+	unitnumber = 3;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1000;
+	areaofeffect = 50;
+	edgeeffectiveness = 1;
+	emittime = 50;
+	hweffect = creon lightning;
+	innercolor = 255 255 255;
+	middlecolor = 230 230 255;
+	outercolor = 200 200 255;
+	lightmap = medium;
+	name = Taser;
+	range = 400;
+	reloadtime = 2.8;
+	soundhitclass = cretaser;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1700;
+
+	[DAMAGE]
+	{
+		default = 450;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 189;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 500;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+		shocky = 0;
+	}
+}

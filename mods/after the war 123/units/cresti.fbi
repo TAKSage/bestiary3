@@ -1,0 +1,184 @@
+[UNITINFO]
+{
+acceleration = 0.5;
+attackrunlength = 450;//550;//900;
+bankscale = 4.5;
+bmcode = 1;
+bodytype = wood;
+brakerate = 0.025;
+buildcost = 3250;
+	//mogriumbounty = 235;
+buildtime = 205;
+canattack = 1;
+canfly = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbetransported = 1;
+cantbefrozen = 1;
+category = CRE FLY BALLISTIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 100;
+damagecategory = naval;
+defaultmissiontype = VTOL_standby;
+description = Creon;
+experiencepoints = 40;
+footprintx = 4;
+footprintz = 4;
+healtime = .25694;
+hoverattack = 0;
+maneuverleashlength = 750;
+maxdamage = 3000;//3700;
+	maxmana = 60;
+	manarechargerate = 10;
+maxvelocity = 4;
+maxwaterdepth = 0;
+moverate1 = 1;  //acceleration?
+moverate2 = 2; //bankscale?
+name = Stinger bomber;
+objectname = CRESTI;
+radardistance = 1000;
+shadowgaf = shadows;
+shootme = 1;
+side = CRE;
+sightdistance = 300;
+soundcategory = CRESTI;
+soundclass = CRESTI;
+standingunitorder = 2;
+tedclass = Creon;
+turnrate = 500;
+unitname = CRESTI;
+unitnumber = 1251996;
+upright = 1;
+version = 1.1;
+
+}
+
+[WEAPON1]
+{
+
+aimtolerance = 2048;
+areaofeffect = 50;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = small Explosion;//miniflame;
+gravityadjustment = 1.5;
+model = AirBolt;
+name = Steamrocket;
+range = 450;
+reloadtime = 6;
+soundwater = splash;
+soundhitclass = cremdcan;
+type = Ballistic;
+unitsonly = 1;
+waterexplosionclass = medium explosion;
+TurnRate = 360;
+smoketrail = 1;
+smokedelay = 4.5;
+weaponvelocity = 400;
+startvelocity=50;
+weaponacceleration=50;
+//toairweapon = 1;
+
+[DAMAGE]
+{
+default = 300;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		shielded = 2;
+		steel = 2;
+		steelnaval = 1.25;
+		naval = 1.25;
+		hardscale = 1.25;
+
+}
+}
+
+[WEAPON2]
+{
+
+aimtolerance = 2048;
+areaofeffect = 50;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = small Explosion;//miniflame;
+gravityadjustment = 1.5;
+model = AirBolt;
+name = Steamrocket;
+range = 450;
+reloadtime = 6;
+soundwater = splash;
+soundhitclass = cremdcan;
+type = Ballistic;
+unitsonly = 1;
+waterexplosionclass = medium explosion;
+TurnRate = 360;
+smoketrail = 1;
+smokedelay = 4.5;
+weaponvelocity = 400;
+startvelocity=50;
+weaponacceleration=50;
+//toairweapon = 1;
+
+[DAMAGE]
+{
+default = 300;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		shielded = 2;
+		steel = 2;
+		steelnaval = 1.25;
+		naval = 1.25;
+		hardscale = 1.25;
+
+}
+}
+
+
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 150;
+burst = 5;
+burstrate = 0.2;
+damagetype = explosion;
+dontleadtargets = 0;
+edgeeffectiveness = 1;
+explosionclass = large explosion;
+model = Bomb1;
+name = carpet bombing;
+	manapershot = 60;
+noairweapon = 1;
+range = 140;
+reloadtime = 6;
+shadowart = weaponshad01;
+shadowgaf = shadows;
+soundhitclass = creballcan;
+soundwater = splash;
+subtype = Dropped;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weapontimer = 0.05;//1.15;
+weaponart = cannbmed;
+weaponvelocity = 100;
+	gravityadjustment = 10;
+	manapershot = 60;
+
+[DAMAGE]
+{
+default = 300;
+		stone = 1.75;
+		factory = 1.5;
+		wood = 1.25;
+		god = 0.5;
+		monarch = 0.5;
+		hardscale = 0.5;
+		skeleton = 2;
+		kingkiller = 2;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		naval = 1.25;
+}
+}

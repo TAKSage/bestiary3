@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = bone;
+	brakerate = 0.02;
+	buildcost = 1000;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundram_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Machine;
+	experiencepoints = 40;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 6500;
+	maxvelocity = 0.7;
+	mogriumincome = -6;
+	movementclass = GROUND4;
+	name = Bone Ram;
+	objectname = TARUNDRAM;
+	pitchscale = 1.5;
+	roadmultiplier = 1.75;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = VERASY;
+	soundclass = VERASY;
+	standingunitorder = 1;
+	tedclass = Undead;
+	turninplacerate = 225;
+	turnrate = 225;
+	unitname = TARUNDRAM;
+	unitnumber = 42612;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 45;
+	edgeeffectiveness = 0.1;
+	explosionclass = medium dust puff;
+	name = Bone Battering Ram;
+	range = 150;
+	reloadtime = 9;
+	soundhitclass = rock;
+	type = Ballistic;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 350;
+		city = 8;
+		fort = 8;
+		factory = 8;
+		building = 8;
+	}
+}
+
+

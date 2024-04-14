@@ -1,0 +1,98 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 722;       //buildcost = 201% x verarch
+//	original buildtime = 203; 102
+	buildtime = 152;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarblack_dead;
+//	original damagecategory = tier1;
+	damagecategory = archer;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 8;
+	fireatwillrandom = 1;
+	healtime = 0.845833333;
+	maneuverleashlength = 500;
+	//original maxdamage = 2100;
+	maxdamage = 2400;
+	//original maxvelocity = 2.9; 3.05; 3.15; 2.7
+	maxvelocity = 3.4;
+	movementclass = GROUND3;
+	name = (M) Black Knight;
+	objectname = TARBLACK;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	// original sightdistance = 200; now (25%) more
+	sightdistance = 250;
+	soundcategory = TARBLACK;
+	soundclass = TARBLACK;
+	standingunitorder = 1;
+	stone = tarblack_stone;
+	tedclass = Taros;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = TARBLACK;
+	unitnumber = 73;
+	upright = 1;
+	//original version Cavedog's Crusade's Balance;
+	version = M1.0;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	//original no gravadjust
+	gravityadjustment = 5.6;
+	model = Araarrow;
+	name = Bow and Arrows;
+	//original range = 300;
+	range = 325;
+	//original reloadtime = 2.8; 3.36
+	reloadtime = 2.9;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 800;
+	weaponvelocity = 540;
+
+	[DAMAGE]
+	{
+		//original default = 289; (Now 74/s)
+		default = 276;	  //dmg = 82/s
+		archer = 2.21;	  //dmg = 610 (248/s)
+		archer2 = 1.2;
+		airship = 1;      //
+		builder = 0.7;
+		//original factory = 0.25
+		factory = 0;
+		fort = 0;
+		fort2 = 0;
+		fly = 1.2;        //
+		lodestone = 0;
+		magic = 0.5;
+		melee = 0.9;
+		monarch = 0.55;
+		monster = 1.15;
+		stalwart = 0.25;
+		siege2 = 1.15;
+		support = 0.2;
+		tier1 = 0.8;
+		undead = 0.85;
+	}
+}

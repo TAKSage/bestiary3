@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 0.66;
+	bankscale = 2.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.33;
+	buildcost = 2898;
+	buildtime = 378;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 28;
+	frozen = tarcan_frozen;
+	healtime = 1.426;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 1.25;
+	movementclass = HOVER2;
+	name = Rictus;
+	objectname = TARCAN;
+	pitchscale = 2.4;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 150;
+	soundcategory = TARCAN;
+	soundclass = TARCAN;
+	standingunitorder = 1;
+	stone = tarcan_stone;
+	tedclass = Taros;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = TARCAN;
+	unitnumber = 91;
+	version = T1.3.3;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 100;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fireball;
+	range = 500;
+	reloadtime = 2.20;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponart = FireballA;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 817;
+		undead = 0.2;
+	}
+}

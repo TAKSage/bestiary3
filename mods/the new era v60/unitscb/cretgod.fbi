@@ -1,0 +1,166 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	bloodcolor1 = 180 35 5;
+	bloodcolor2 = 190 40 10;
+	bloodcolor3 = 200 50 15;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 8;
+	builder = 1;
+	buildcost = 50000;
+	buildtime = 30000;
+	builddistance = 140;
+	canattack = 1;
+	canguard = 1;
+	//canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	canreclaim = 1;
+	canresurrect = 1;
+	immunetoparalyzer = 1;
+	//cantbetransported = 1;
+	category = CRE Monarch;
+	cloakcost = 20;
+	cloakcostmoving = 50;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cretgod_dead;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 350;
+	economybonus = 30;
+	fireatwillrandom = 1;
+	footprintx = 2;
+	footprintz = 2;
+	frozen = cretgod_frozen;
+	healtime = 220;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxmana = 1000;
+	maxdamage = 16000;
+	maxvelocity = 2;
+	mincloakdistance = 50;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Garacaius;
+	objectname = CRETGOD;
+	radardistance = 700;
+	roadmultiplier = 1.1;
+	shadowgaf = shadows;
+	shootme = 1;
+	shadowgaf = shadows;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CRETGOD;
+	soundclass = CRETGOD;
+	standingunitorder = 2;
+	stone = cretgod_stone;
+	tedclass = Creon;
+	totalallowed = 1;
+	turninplacerate = 1600;
+	turnrate = 600;
+	unitname = CRETGOD;
+	unitnumber = 193;
+	upright = 1;
+	version = 1;
+	//waterline = 65;
+	watermultiplier = 1.0;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 60;
+	edgeeffectiveness = 1;
+	buttonimagedisabled = normalmancpu;
+	buttonimagedown = normalmancpu;
+	buttonimageselected = normalmancbh;
+	buttonimageup = normalmancsb;
+	name = Supernatural Staff;
+	range = 100;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1400;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 200;
+	builduptime = 1.5;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	decaytime = 1.5;
+	edgeeffectiveness = 0.4;
+	manapershot = 300;
+	name = Earthquakes;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 400;
+	reloadtime = 3.5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = crestormhit4;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 3;
+	edgeeffectiveness = 0.9;
+	explosionclass = iceballexp;
+	manapershot = 999;
+	name = Ice Storm;
+	nimbus = 1;
+	particlespersecond = 9;
+	range = 400;
+	reloadtime = 2.0;
+	soundhit = crehailhit1;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1400;
+
+	[DAMAGE]
+	{
+		default = 100;
+		monarch = .8;
+	}
+}
+

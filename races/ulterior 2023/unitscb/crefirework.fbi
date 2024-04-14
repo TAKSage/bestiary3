@@ -1,0 +1,160 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 675;
+	buildtime = 181;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crefirework_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	healtime = 0.43333;
+	manarechargerate = 15;
+	maneuverleashlength = 1500;
+	maxdamage = 1700;
+	maxmana = 1000;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Fireworker;
+	objectname = crefirework;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 180;
+	soundcategory = creult1;
+	soundclass = creult1;
+	standingunitorder = 1;
+	stone = verarch_stone;
+	tedclass = Creon;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = crefirework;
+	unitnumber = 117;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 90;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	damagetype = fire;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	manapershot = 200;
+	model = araarrow2;
+	name = Tracking Arrow;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 8.65;
+	soundhit = firework;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 110;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 500;
+	model = araarrow3;
+	name = Paralyze Arrow;
+	nimbus = 1;
+	range = 650;
+	reloadtime = 8.65;
+	soundhitclass = cannon;
+	type = ballistic;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 600;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 130;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	explosionclass = large explosion;
+	firestarter = 1;
+	manapershot = 1000;
+	model = araarrow2;
+	name = Large Arrow;
+	nimbus = 1;
+	range = 700;
+	reloadtime = 9.65;
+	soundhitclass = cannon;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 1006;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 210;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 185;
+		monarch = 0.5;
+	}
+}

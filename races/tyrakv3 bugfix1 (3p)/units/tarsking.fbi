@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARUND;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	builderlimited = 1;
+	bodytype = armor;
+	brakerate = 1;
+	buildcost = 3468;
+	builddistance = 400;
+	builder = 1;
+	buildtime = 400;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarsking_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	healtime = 0.220833333;
+	maneuverleashlength = 500;
+	maxdamage = 7471;
+	maxvelocity = 1.3;
+	movementclass = GROUND2;
+	name = Skeleton King;
+	noveteran = 1;
+	objectname = TARSKING;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 190;
+	soundcategory = TARSKING;
+	soundclass = TARSKING;
+	standingunitorder = 1;
+	stone = tarsking_stone;
+	tedclass = Taros;
+	turninplacerate = 1800;
+	turnrate = 1600;
+	unitname = TARSKING;
+	unitnumber = 1094;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 14;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 15;
+	explosionclass = teeny explosion;
+	hweffect = red lightning;
+	innercolor = 255 255 255;
+	middlecolor = 170 40 0;
+	name = Lightning;
+	outercolor = 180 30 5;
+	range = 250;
+	reloadtime = 5.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1050;
+	}
+}

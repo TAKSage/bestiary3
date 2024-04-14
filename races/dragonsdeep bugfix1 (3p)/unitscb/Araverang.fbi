@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.5;
+	builder = 1;
+	buildcost = 8000;
+	builddistance = 100;
+	buildtime = 1200;
+	builderlimited = 1;
+	canattack = 1;
+	canfly = 1;
+	canbuild = 1;
+	canreclaim = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Ara FLY ATTACK BALLISTIC MAGIC BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 140;
+	damagecategory = Air;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 55;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 3;
+	hoverattack = 1;
+	hoverattackdistance = 240;
+	//manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 8500;
+	//maxmana = 500;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	name = Zephyr;
+	objectname = AraVERANG;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 300;
+	soundcategory = TARWITCH;
+	soundclass = TARWITCH;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	totalallowed = 3;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = AraVERANG;
+	unitnumber = 170;
+	upright = 1;
+	version = 1;
+	workertime = 3;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+    aimtolerance = 2024;
+	buttonimagedisabled = FireSpearDown;
+	buttonimagedown = FireSpearDown;
+	buttonimageselected = FireSpearSelected;
+	buttonimageup = FireSpearUp;
+    areaofeffect = 30;
+    explosionclass = Volcblast;
+    edgeeffectiveness = 0.7;
+    firestarter = 1;
+    model = fireball;
+    name = Flame Spear;
+    range = 400;
+    reloadtime = 2;
+    soundhitclass = arrow;
+    type = Ballistic;
+    veteranlevel = 10;
+    veteranmodel = fireball5;
+    waterexplosionclass = medium water explosion;
+    weaponvelocity = 520;
+
+    [DAMAGE]
+    {
+        default = 1000;
+	monarch = .5;
+	fort = .5;
+	factory = .5;
+	lodestone = .5;
+    }
+}

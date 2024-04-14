@@ -1,0 +1,131 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 8000;
+	buildtime = 1500;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+        cantransport = 1;
+	cloakcost = 20;
+	cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelrDD_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 31;
+	healtime = 3;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxmana = 1000;
+	maxvelocity = 3;
+	mincloakdistance = 20;
+	movementclass = GROUND2;
+	name = Rogue;
+	noveteran = 1;
+	objectname = aradelrDD;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = aradelrDD;
+	soundclass = aradelrDD;
+	standingunitorder = 0;
+	stone = aradelrDD_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 3;
+        transportcapacity = 1;
+        transportdistance = 350;
+        transportsize = 25;
+        transportsizecapacity = 100;
+	unitname = aradelrDD;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	builduptime = 1;
+        buttonimagedisabled = CaptureAreaPU;
+        buttonimagedown = CaptureAreaPU;
+        buttonimageselected = CaptureAreaSBh;
+        buttonimageup = CaptureAreaSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 500;
+	name = Kidnap;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1;
+		factory = 0;
+		Air = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	builduptime = 1;
+	model = aradag;
+        buttonimagedisabled = DaggerDown;
+        buttonimagedown = DaggerDown;
+        buttonimageselected = DaggerSelected;
+        buttonimageup = DaggerUp;
+	name = Assassinate;
+	range = 350;
+	reloadtime = 15;
+	soundhitclass = arrow;
+	spinheading = 50;
+	spinpitch = -2950;
+	subtype = Guided;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = aradag10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 25000;
+		fort = 0;
+		factory = 0;
+		lodestone = 0;
+		siege = 0;
+		naval = 0;
+		monarch = 0;
+	}
+}

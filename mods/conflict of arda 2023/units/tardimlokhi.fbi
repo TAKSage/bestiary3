@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2135;
+	buildtime = 682;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = TAR;
+	experiencepoints = 15;
+	ghost = 1;
+	healtime = 4.4375;
+	manarechargerate = 5;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxmana = 900;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = Dimlokhi;
+	noveteran = 1;
+	objectname = tardimlokhi;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARSHIP;
+	soundclass = TARSHIP;
+	standingunitorder = 2;
+	stone = NPCLEIM_stone;
+	tedclass = TAR;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tardimlokhi;
+	unitnumber = 62240;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = Orcblade_disabled;
+	buttonimagedown = Orcblade_down;
+	buttonimageselected = Orcblade_selected;
+	buttonimageup = Orcblade_up;
+	name = Melee;
+	range = 30;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 350;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 8000;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = Soul Stealer;
+	firestarter = 1;
+	manapershot = 900;
+	name = Drain;
+	range = 190;
+	reloadtime = 4.0;
+	soundhitclass = arrow08;
+	turnrate = 600;
+	type = guided;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		human = 1.0;
+		monster = 1.0;
+		undead = 1.0;
+		airship = 0;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+		siege = 1.0;
+	}
+}

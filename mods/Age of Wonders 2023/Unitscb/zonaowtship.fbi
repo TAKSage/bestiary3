@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 1250;
+	buildtime = 200;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ZON BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowtship_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Ship;
+	experiencepoints = 26;
+	floater = 1;
+	healtime = 0.675;
+	maneuverleashlength = 500;
+	maxdamage = 15500;
+	maxvelocity = 2.3;
+	movementclass = WATER4;
+	name = Transport Ship;
+	objectname = ARAAOWTSHIP;
+	pitchscale = 1.5;
+	radardistance = 425;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 275;
+	soundcategory = VERTRANS;
+	soundclass = VERTRANS;
+	standingunitorder = 2;
+	tedclass = Ship;
+	transportcapacity = 25;
+	transportdistance = 350;
+	transportsize = 16;
+	transportsizecapacity = 256;
+	turnrate = 150;
+	unitname = ZONAOWTSHIP;
+	unitnumber = 45023;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

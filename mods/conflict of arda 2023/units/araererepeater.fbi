@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = .36;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.72;
+	buildcost = 2950;
+	buildtime = 371;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarsiege_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 27;
+	frozen = verbal_frozen;
+	healtime = .93125;
+	maneuverleashlength = 500;
+	maxdamage = 3721;
+	maxvelocity = 0.90;
+	movementclass = GROUND3;
+	name = Repeater;
+	objectname = araererepeater;
+	pitchscale = 1.5;
+	roadmultplier = 1.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 255;
+	soundcategory = VERBAL;
+	soundclass = VERBAL;
+	standingunitorder = 1;
+	stone = verbal_stone;
+	tedclass = Aramon;
+	turninplacerate = 390;
+	turnrate = 390;
+	unitname = araererepeater;
+	unitnumber = 147;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 17;
+	explosionclass = small dust puff;
+	model = araarrowBIG.3do;
+	name = Bolt;
+	range = 600;
+	reloadtime = 1.9;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = araarrowBIG.3do;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 760;
+
+	[DAMAGE]
+	{
+		default = 215;
+	}
+}

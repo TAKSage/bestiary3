@@ -1,0 +1,185 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = MONGHOUL;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cananimate = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcmon_dead;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 1200;
+                fireatwillrandom = 1;
+                floater = 0;
+	economybonus = 30;
+	healtime = 0.041666667;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 20000;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	movementclass = HOVER4;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Necromagus;
+	noveteran = 1;
+	objectname = TARCMON;
+	radardistance = 650;
+	roadmultiplier = 1.12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 232;
+	soundcategory = TARCMON;
+	soundclass = TARCMON;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = TARCMON;
+	unitnumber = 828;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	buttonimagedisabled = HammerPU;
+	buttonimagedown = HammerPU;
+	buttonimageselected = HammerSBh;
+	buttonimageup = HammerSB;
+	edgeeffectiveness = 0.1;
+	name = Soul Hammer;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 1.9;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = HammerFPU;
+	buttonimagedown = HammerFPU;
+	buttonimageselected = HammerFSBh;
+	buttonimageup = HammerFSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = medium dust puff;
+	manapershot = 200;
+	model = hshoot;
+	name = Hammer Throw;
+	range = 450;
+	reloadtime = 2;
+	soundhitclass = rock;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = medium explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 950;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = bloodexPU;
+	buttonimagedown = bloodexPU;
+	buttonimageselected = bloodexSBh;
+	buttonimageup = bloodexSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Bloodbath;
+	nimbus = 1;
+	radiusart0 = bloodlarge;
+	radiusart1 = bloodmedium;
+	radiusart2 = bloodsmall;
+	range = 130;
+	reloadtime = 1.5;
+	ringcount = 6;
+	ringdelay = 0.1;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 48;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5500;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 400;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 8000;
+	}
+}

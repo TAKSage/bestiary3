@@ -1,0 +1,176 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                animatetype = TARLICH;
+                attractsgods = 1;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5887;
+	buildtime = 633;
+	builddistance = 200;
+	builder = 1;
+                builderlimited = 1;
+                cananimate = 1;
+                canattack = 1;
+                cantbecaptured = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+                canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarnecrom_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 55;
+                floater = 0;
+                frozen = tarnecrom_frozen;
+	healtime =  3.3425;
+	manarechargerate = 12;
+	maneuverleashlength = 300;
+	maxdamage = 4870;
+	maxmana = 1000;
+	maxvelocity = 0.9;
+	mogriumincome = 10;//5;
+                mogriumstorage = 1000;//100;
+	movementclass = HOVER2;
+	name = Necromicon;
+	objectname = TARNECROM;
+	radardistance = 575;
+               shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = TARNECROM;
+	soundclass = TARNECROM;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stone = tarnecrom_stone;
+	tedclass = Taros;
+               ThreeD = 1;
+               turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARNECROM;
+	unitnumber = 412525;
+	upright = 1;
+	version = 1;
+                waterline = 2;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 30;//9;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{	
+	buttonimagedisabled = deathstrike_down;
+	buttonimagedown = deathstrike_down;
+	buttonimageselected = deathstrike_selected;
+	buttonimageup = deathstrike_up;
+	//areaofeffect = 35;
+	//edgeeffectiveness = 0.75;
+                explosionclass = small smoke explosion;
+	name = Death Strike;
+               nimbus = 1;
+	range = 90;
+	reloadtime = 2.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+                           default = 650;
+                            dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.6;
+                            Tier1 = 1.5;
+		
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathbolt_down;
+	buttonimagedown = deathbolt_down;
+	buttonimageselected = deathbolt_selected;
+	buttonimageup = deathbolt_up;
+	aimtolerance = 512;
+                boltcount = 3;
+	emittime = 30;
+	explosionclass = Death;
+               damagetype = fire;
+               edgeeffectiveness = 0.5;
+               firestarter = 1;
+	hweffect = BlueBlocker1;
+               // jagginess = 1;
+	innercolor = 255 0 0;
+	lightmap = small;
+	middlecolor = 255 0 0;
+	outercolor = 255 255 255;
+	manapershot = 300;
+	name =  Death Gaze;
+                nimbus = 1;
+	range = 450;
+	reloadtime = 3;
+                showeffect = 1;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+                weaponart = ltngball_2a;
+
+	[DAMAGE]
+	{
+	            default = 700;
+                            Tier1 = 1.5;
+                            dragon = 0.5;
+                            airship = 0.7;
+                            god = 0.4;
+                            monarch = 0.5;
+                            stalwart = 0.5;
+	
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = dominate_down;
+	buttonimagedown = dominate_down;
+	buttonimageselected = dominate_selected;
+	buttonimageup = dominate_up;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 500;
+	name = Dominate;
+             nimbus = 1;
+	//noairweapon = 1;
+	range = 300;
+	reloadtime = 2.5;
+	soundhit = dominate;
+	subtype = mindcontrol;
+	type = line of sight;
+              weaponart = FireballCa;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1;
+                            monarch = 0;
+                             fort = 0;
+                            factory = 0;
+                            lodestone = 0;
+                           dragon = 0;
+                           god = 0;
+		
+	}
+}

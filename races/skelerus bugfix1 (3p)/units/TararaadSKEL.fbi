@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration=0.2;
+	attackrunlength=150;
+	bankscale=0.4;
+	bloodcolor1=160 35 0;
+	bloodcolor2=170 40 0;
+	bloodcolor3=180 30 5;
+	bmcode=1;
+	bodytype=scale;
+	brakerate=0.15;
+	buildcost=28000;
+	buildtime=2200;
+	canattack=1;
+	canfly=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbecaptured=1;
+	cantbetransported=1;
+	cantbestoned=1;
+	category=Tar ATTACK FLY MAGIC;
+	corpse=TararaadSKEL_dead;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt=150;
+	damagecategory=Dragon;
+	defaultmissiontype=VTOL_standby;
+	description=Taros;
+	experiencepoints=50;
+	fireatwillrandom = 1;
+	footprintx=4;
+	footprintz=4;
+	healtime=4;
+	hoverattack=1;
+	hoverattackdistance=151;
+	manarechargerate=25;
+	maneuverleashlength=500;
+	maxdamage=29000;
+	maxmana=1000;
+	maxvelocity=6.5;
+	maxwaterdepth=0;
+	name=Carcass Dragon;
+	objectname=TarARAADSKEL;
+	radardistance=400;
+	shootme=1;
+	side=Tar;
+	sightdistance=230;
+	soundclass=TarARAADSKEL;
+	soundcategory=TarARAADSKEL;
+	standingunitorder=2;
+	stone=araad_stone;
+	tedclass=Taros;
+	totalallowed=3;
+	turnrate=500;
+	unitname=TarARAADSKEL;
+	unitnumber=2868;
+	upright=1;
+	version=1;
+	weaponswitching=1;
+	yardmap=oooooooooo;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	builduptime = 1.5;
+        buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+        explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot = 250;
+	name = Scare to Stone;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+        noairweapon = 1;
+	range = 300;
+	reloadtime = 4;
+	ringcount = 4;
+        ringdelay = 0.44;
+	ringduration = 1.2;
+        showeffect = 0;
+        soundhit = Explode6;
+	spritecount = 30;
+        subtype = turntostone;
+	type = Line of Sight;
+	weaponart = LtngBall_1a;
+        unitsonly = 1;
+        weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 200;
+	}
+}
+
+// created by TDFEdit

@@ -1,0 +1,150 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+              attackrunlength = 250;
+              bankscale = 1.6;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 756;
+	buildtime = 148;
+                canattack = 1;
+                canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+	category = TAR MAGIC FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                cruisealt = 50;
+                damagecategory = Monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 12;
+                footprintx = 2;
+                footprintz = 2;
+                floater = 0;
+	healtime = 0.65342;
+                manarechargerate = 5;
+	maneuverleashlength = 400;
+	maxdamage = 1000;
+                maxmana = 400;
+	maxvelocity = 3;
+	name = Mephit Imp;
+	objectname = TARGHASTT;
+                pitchscale = 0.3;
+                radardistance = 444;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 211;
+                shadowgaf = shadows;
+	soundcategory = TARGHASTT;
+	soundclass = TARGHASTT;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 1000;
+	turnrate = 500;
+	unitname = TARGHASTT;
+	unitnumber = 560112;
+                upright = 1;
+	version = 1;
+                watermultiplier = 0.81;
+                weaponswitching = 1;
+                 ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+                aimtolerance = 8000;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = small explosion;
+	firestarter = 1;
+	name = Claws;
+                nimbus = 1;
+	range = 100;
+	reloadtime = 2.4;
+                smoketrail = 1;
+                smokedelay = 0.5;
+	soundhitclass = arrow08;
+	turnrate = 600;
+	type = guided;
+              waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+	[DAMAGE]
+	{
+		default = 250;
+                              dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            fort = 0.5;
+                            factory = 0.5;
+                            undead = 1.5;
+                            monster = 1.5;
+                            human = 1.5;
+                            mechanical = 0.4;
+                            siege = 1.5;
+                            naval = 0.5;
+                               
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 50;
+                buttonimagedisabled = windwavePU;
+	buttonimagedown = windwavePU;
+	buttonimageselected = windwaveSBH;
+	buttonimageup = windwaveSB;
+	randomdecay = 1;
+	duration = 15;
+                edgeeffectiveness = 1.0;
+               explosionclass = small smoke explosion;
+               firestarter = 1;
+                manapershot = 350;
+	name = Chaos Vortex;
+	nimbus = 1;
+                noairweapon = 1;
+	range = 400;
+	reloadtime = 4;
+	soundhit = imp1;
+	type = wandering;
+	wanderendart = flamevortexend;
+	wanderloopart = hurricaneloop;
+	wanderstartart = flamevortexstart;
+	weaponvelocity = 50;
+
+	[DAMAGE]
+	{
+		default = 25;
+		  dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            fort = 0.5;
+                            factory = 0.5;
+                            undead = 1.5;
+                            monster = 0.5;
+                            human = 1.5;
+                            mechanical = 0.4;
+                            siege = 1.5;
+                            naval = 1.5;
+	}
+}

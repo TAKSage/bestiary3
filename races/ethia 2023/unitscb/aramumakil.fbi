@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 0.05;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1.5;
+	buildcost = 13664;
+	buildtime = 2891;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aramumakil_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 150;
+	healtime = 10.25;
+	isairbase = 1;
+	maneuverleashlength = 500;
+	maxdamage = 28500;
+	maxvelocity = 2.1;
+	movementclass = GROUND6;
+	name = Siege Elephant;
+	objectname = aramumakil;
+	radardistance = 600;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	//shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 530;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 2;
+	tedclass = Ethia;
+	transportcapacity = 10;
+	transportdistance = 300;
+	transportsize = 5;
+	transportsizecapacity = 35;
+	turninplacerate = 1200;
+	turnrate = 300;
+	unitname = aramumakil;
+	unitnumber = 1265;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 0.5;
+	name = Tusks;
+	range = 200;
+	reloadtime = 1.75;
+	soundhitclass = fist;
+	type = Melee;
+	
+	[DAMAGE]
+	{
+		default = 2040;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 6000;
+	areaofeffect = 100;
+	model = araarrowI;
+	name = Tusks;
+	range = 350;
+	reloadtime = 2.75;
+	soundhit = RHITRK05;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 1750;
+	}
+}

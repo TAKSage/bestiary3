@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 15;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5292;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1011;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Arapries_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 29;
+              frozen = arapries_frozen;
+	fireatwillrandom = 1;
+	floater = 0;
+	healtime = 3.795833;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 6500;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = HOVER2;
+	name = UnderTaker;
+	objectname = ARAUNDER;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 220;
+	soundcategory = ARAUNDER;
+	soundclass = ARAUNDER;
+	standingunitorder = 1;
+	stone = arapries_stone;
+	tedclass = Aramon;
+	totalallowed=7;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARAUNDER;
+	unitnumber = 139;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = Death;
+	model = arascul.3do;
+	name = Flying Skull;
+	range = 900;
+	reloadtime = 3.8;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1269;
+		}
+}

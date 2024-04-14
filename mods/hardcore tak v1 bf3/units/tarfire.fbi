@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildangle = 4096;
+	//original buildcost = 1889;
+	buildcost = 1750;
+//	original buildtime = 264; 
+	buildtime = 132;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarfire_dead;
+	//original damagecategory = monster;
+	damagecategory = siege2;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 32;
+	frozen = tarfire_frozen;
+	healtime = 1.1;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	//original maxvelocity = 1;
+	maxvelocity = 0.85;
+	//original movementclass = GROUND3;
+	movementclass = GROUND3B;
+	name = (M) Fire Demon;
+	objectname = TARFIRE;
+	//original roadmultiplier = 1.21;
+	roadmultiplier = 1.15;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 156;
+	soundcategory = TARFIRE;
+	soundclass = TARFIRE;
+	standingunitorder = 1;
+	stone = tarfire_stone;
+	tedclass = Taros;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = TARFIRE;
+	unitnumber = 84;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 31;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	// orig explosionclass = large dust puff;
+	explosionclass = fireball explosion;
+	lobpreferred = 1;
+	//model = zonrock.3do;
+	gravityadjustment = 8; //orig no gravadj
+	name = Fire Ball of Gloom;
+	noairweapon = 1; 	 //orig no noairweap
+	range = 680; 		 //orig = 900; 750
+	reloadtime = 4.8; 	 //orig = 3.8; 4.1
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 800;  	 //orig = 500; 400
+	weaponart = FireballA;
+
+	[DAMAGE]
+	{
+		default = 600;     //dmg = 125/s
+		//these are new
+		archer = 0;
+		archer2 = 0;
+		factory = 2.2;     //321/s
+		fort = 1.335;      //195/s
+		fort2 = 2.1;       //307/s
+		god = 0.3;
+		lodestone = 1.6;   //234/s
+		magic = 0;
+		naval = 1.16;
+		siege = 0.25;	   //
+		siege2 = 0.5;
+		stalwart = 0.25;
+		support = 0.18;
+		undead = 0;
+	}
+}

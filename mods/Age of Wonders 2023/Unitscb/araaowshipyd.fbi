@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildcost = 4000;
+	builddistance = 225;
+	builder = 1;
+	buildtime = 500;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ARA FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowshipyd_dead;
+	corpseadjustz = 4;
+	damagecategory = factory;
+	description = Building;
+	experiencepoints = 60;
+	footprintx = 6;
+	footprintz = 18;
+	healtime = 1;
+	maxdamage = 17500;
+	maxwaterdepth = 0;
+	mogriumincome = 6;
+	mogriumstorage = 500;
+	name = Shipyard;
+	noshadow = 1;
+	objectname = ARAAOWSHIPYD;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 420;
+	soundcategory = AOWBGUILD;
+	soundclass = AOWBGUILD;
+	tedclass = Building;
+	unitname = ARAAOWSHIPYD;
+	unitnumber = 42005;
+	unitstandorders = 0;
+	version = 1;
+	waterline = 1;
+	workertime = 10;
+	yardmap = ...... ...... ...... ...... wwwwww wwwwww wwwwww wwwwww wwwwww wwwwww wwwwww wwwwww wwwwww CCCCCC CCCCCC CCCCCC CCCCCC CCCCCC;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

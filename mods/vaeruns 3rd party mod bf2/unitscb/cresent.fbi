@@ -1,0 +1,130 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 19879;
+	buildtime = 4435;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+              //  cantbeparalyzed = 1;
+	cantbetransported = 1;
+	category = CRE MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Mechanical;
+	defaultmissiontype = Standby;
+	description = creon;
+	experiencepoints = 255;
+                floater = 0;
+	healtime = 49.44;
+                immunetoparalyzer = 1;
+                manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 24970;
+	maxmana = 1400;
+                maxvelocity = 1.3;
+	movementclass = HOVER4;
+	name = Sentinel;
+	noveteran = 1;
+	objectname = CreSent;
+	radardistance = 356;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Cre;
+	sightdistance = 133;
+	soundcategory = CRESENT;
+	soundclass = CRESENT;
+	standingunitorder = 1;
+	tedclass = Creon;
+	//totalallowed = 40;
+                turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CRESENT;
+	unitnumber = 1000;
+	upright = 1;
+	version = 1;
+	waterline = 25;
+                weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.5;
+                buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	name = Hand Blades;
+                noairweapon = 1;
+	range = 90;
+	reloadtime = 3.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3700;
+		monarch = 0.2;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+                 buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+                damagetype = explosion;
+                edgeeffectiveness = 0.5;
+	explosionclass = mind control;
+                 firestarter = 1;
+	lightmap = medium;
+                minrange = 100;
+                 manapershot = 225;
+	name = Sentinel Bomb;
+	range = 600;
+	reloadtime = 2.0;
+	soundhitclass = lightning;
+	turnrate = 190;
+	type = Guided;
+                waterexplosionclass = medium water explosion;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 4400;
+                dragon = 1.25;
+                airship = 1.25;
+                monster = 1.25;
+	}
+}
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = megaflame;
+	name = boom;
+                shakeduration = 2;
+                shakemagnitude = 6;
+                soundhit = TARSHIPDIE5;
+	type = Ballistic;
+                waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2500;
+		monarch = 0.5;
+	}
+}

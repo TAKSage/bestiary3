@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = 0.02;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 5000;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Tar ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREFIRE_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 45;
+	fireatwillrandom = 1;
+	frozen = crefire_frozen;
+	healtime = 3;
+	maneuverleashlength = 500;
+	maxdamage = 8000;
+	maxvelocity = 2.25;
+	movementclass = GROUND3;
+	name = Building Burner;
+	objectname = TarCREFIRE;
+	pitchscale = 1.5;
+	roadmultiplier = 2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 200;
+	soundcategory = AraCREFIRE;
+	soundclass = AraCREFIRE;
+	standingunitorder = 2;
+	stone = AraCREFIRE_stone;
+	tedclass = Siege;
+	totalallowed = 2;
+	turninplacerate = 200;
+	turnrate = 100;
+	unitname = TarCREFIRE;
+	unitnumber = 1212125;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Flame Thrower;
+	range = 200;
+	reloadtime = 4;
+	soundhitclass = creflame;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monarch = .25;
+		fort = 5;
+		factory = 5;
+		lodestone = 5;
+		naval = 5;
+		siege = 5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 3000;
+		monarch = .25;
+		fort = 5;
+		factory = 5;
+		lodestone = 5;
+		naval = 5;
+		siege = 5;
+	}
+}

@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 800;
+	buildtime = 225;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahlfrider_dead;
+	damagecategory = halfling;
+	defaultmissiontype = Standby;
+	description = Halfling;
+	experiencepoints = 20;
+	healtime = 0.7;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 3.1;
+	mogriumincome = -5;
+	movementclass = GROUND3;
+	name = Halfling Pony Rider;
+	objectname = ARAHLFRIDER;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 265;
+	soundcategory = HLFSWORD;
+	soundclass = HLFSWORD;
+	standingunitorder = 2;
+	tedclass = Halfling;
+	turnrate = 1000;
+	unitname = ARAHLFRIDER;
+	unitnumber = 42536;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Spear;
+	noairweapon = 1;
+	range = 120;
+	reloadtime = 2;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 685;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

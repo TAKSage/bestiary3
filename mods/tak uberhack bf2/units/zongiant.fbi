@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 2451;
+	buildtime = 385;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zongiant_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 43;
+	healtime = 1.770833333;
+	maneuverleashlength = 500;
+	maxdamage = 10310;
+	maxvelocity = 0.8;
+	movementclass = GROUND4;
+	name = Stone Giant;
+	objectname = ZONGIANT;
+	radardistance = 600;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 230;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = ZONGIANT;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	model = zonrock.3do;
+	name = Flying Stones;
+	noairweapon = 0;
+	range = 900;
+	reloadtime = 3.8;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1269;
+		dragon = 0.3;
+		fly = 0.5;
+		monarch = 0.1;
+	}
+}

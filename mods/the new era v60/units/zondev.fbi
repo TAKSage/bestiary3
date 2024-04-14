@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1142;
+	buildtime = 185;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = MON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = mondev_dead;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	frozen = mondev_frozen;
+	healtime = 0.8375;
+	//isairbase = 1;
+	maneuverleashlength = 500;
+	maxdamage = 5900;
+	maxvelocity = 3.5;
+	movementclass = GROUND3;
+	name = Devourer;
+	//noveteran = 1;
+	objectname = MONDEV;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = MONDEV;
+	soundclass = MONDEV;
+	standingunitorder = 2;
+	stone = mondev_stone;
+	tedclass = Zhon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ZONDEV;
+	unitnumber = 56;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 54;
+	edgeeffectiveness = 0.7;
+	name = Arms;
+	range = 100;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}

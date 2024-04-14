@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	buildangle = 0;
+	bodytype = stone;
+	buildcost = 2921;
+	buildtime = 317;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creultrocket_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Creon ;
+	experiencepoints = 55;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.2;
+	maneuverleashlength = 500;
+	maxdamage = 4800;
+	maxslope = 8;
+	maxwaterdepth = 0;
+	name = Rocket Tower;
+	objectname = creultrocket;
+	radardistance = 1000;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREULTANY;
+	soundclass = CREULTANY;
+	tedclass = Creon;
+	unitname = creultrocket;
+	unitnumber = 3209;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 90;
+	damagetype = fire;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	model = araarrow2;
+	name = Fireworks;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 9.65;
+	soundhit = firework;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}

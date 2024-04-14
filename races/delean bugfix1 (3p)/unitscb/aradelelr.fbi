@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelelr_dead;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 3;
+	healtime = 1.4375;
+	maneuverleashlength = 500;
+	maxdamage = 1600;
+	maxvelocity = 3.9;
+	movementclass = GROUND3;
+	name = Elven Wolf Rider;
+	noveteran = 1;
+	objectname = ARADELELR;
+	roadmultiplier = 1.25;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARADELELR;
+	soundclass = ARADELELR;
+	standingunitorder = 2;
+	stone = aradelelr_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARADELELR;
+	unitnumber = 54;
+	upright = 1;
+	version = 1.2;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	name = Claws;
+	range = 250;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 727;
+	}
+}

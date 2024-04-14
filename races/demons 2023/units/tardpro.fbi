@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3000;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 450;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardpro_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 5;
+	frozen = tardpro_frozen;
+	healtime = 0.583333333;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 1703;
+	maxmana = 1000;
+	maxvelocity = 1.35;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Profane Mage;
+	objectname = TARDPRO;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARMAGE;
+	soundclass = TARMAGE;
+	standingunitorder = 1;
+	stone = tardpro_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDPRO;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	wind = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 50 50 50;
+	lightmap = medium;
+	middlecolor = 25 25 25;
+	name = lightning;
+	outercolor = 0 0 0;
+	range = 500;
+	reloadtime = 3.0;
+	soundclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 416;
+	}
+}
+

@@ -1,0 +1,134 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 5;
+	buildcost = 1100;
+//mogriumbounty = 110;
+	buildtime = 170;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonsal_dead;
+stone = zonsal_stone;
+	damagecategory = hardscale;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 14;
+	healtime = 1.129166667;
+        maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxvelocity = 1.7;
+	movementclass = GROUND2;
+	name = Salamander;
+	objectname = zonsal;
+	shadowart = shadow15;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 230;
+	soundcategory = ZONBASIL;
+	soundclass = ZONBASIL;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 600;
+	turnrate = 450;
+	unitname = zonsal;
+	unitnumber = 157;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = fire;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	firestarter = 1;
+	name = fireball;
+	range = 255;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponvelocity = 300;
+	weaponart = FireballA;
+	explosionclass = fireball explosion;
+
+	[DAMAGE]
+	{
+		default = 600;
+		wood = 2;
+		naval = 1.5;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		stone = 0.5;
+		steelnaval = 1.25;
+		steel = 1.25;
+	}
+} 
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = fireringpu;
+	buttonimagedown = fireringpu;
+	buttonimageselected = fireringsbh;
+	buttonimageup = fireringsb;
+	firestarter = 1;
+	builduptime = 0.3;
+	decaytime = 2;
+	edgeeffectiveness = 1;
+	explosionclass = flamestrike;
+	name = scorching flame;
+	nimbus = 1;
+	radiusart0 = flamestrike;//ring_fx_redA;
+	radiusart1 = flamestrike;//ring_fx_redB;
+	radiusart2 = flamestrike;//ring_fx_redC;
+	range = 255;
+	reloadtime = 3;
+	ringcount = 1;
+	ringdelay = 0.5;
+	ringduration = 1.75;
+//	shakeduration = 0;
+//	shakemagnitude = 0;
+	shotart = FireballA;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 6;
+//	subtype = Earthquake;
+	type = Remote Effect;
+//	weaponart = FireballA;
+	weaponvelocity = 300;
+              smoketrail = 1;
+              smokedelay = 8;
+
+	[DAMAGE]
+	{
+		default = 500;
+		wood = 2;
+		naval = 1.5;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		stone = 0.5;
+		steelnaval = 1.25;
+		steel = 1.25;
+		hardscale = 0.2;
+	}
+}

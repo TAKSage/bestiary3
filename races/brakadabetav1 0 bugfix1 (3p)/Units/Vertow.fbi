@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 640;
+	buildcost = 8755;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 1240;
+	canattack = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = VER FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verh_dead;
+	corpseadjustz = 2;
+	damagecategory = factory;
+	description = Veruna;
+	experiencepoints = 110;
+	footprintx = 7;
+	footprintz = 12;
+	healtime = 1.25;
+	maxdamage = 18500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	name = Tower of Dyn;
+	objectname = VERTOW;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 250;
+	soundcategory = VERTOW;
+	soundclass = VERTOW;
+	tedclass = Veruna;
+	unitname = VERTOW;
+	unitnumber = 14;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}

@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	buildcost = 512;
+	buildtime = 151;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crefour_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 13;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 2171;
+	maxvelocity = 1;
+	movementclass = GROUND2;
+	name = Fourier;
+	objectname = crefour;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 190;
+	soundcategory = creult2;
+	soundclass = creult2;
+	standingunitorder = 2;
+	stone = crefour_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = crefour;
+	unitnumber = 4;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Razorpike;
+	range = 55;
+	reloadtime = 1.45;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 485;
+	}
+}

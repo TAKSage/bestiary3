@@ -1,0 +1,176 @@
+[UNITINFO]
+{
+	acceleration = 0.6;
+        bankscale = 2.75;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.05;
+	buildcost = 3900;
+	buildtime = 600;
+	canattack = 1;
+        canfly = 1;
+	canguard = 1;
+        canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+        cantbecaptured = 1;
+        cantbestoned = 1;
+        cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+        cruisealt = 9;
+	corpse = tarrider_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 60;
+        fireatwillrandom = 1;
+        //floater = 0;
+                flamable = 1;
+	frozen = tarrider_frozen;
+        ghost = 1;
+	healtime = 2;
+        hoverattack = 1;
+        hoverattackdistance = 30;
+        manarechargerate = 15;
+	//maneuverleashlength = 500;
+	maxdamage = 10000;
+        maxmana = 1000;
+	maxvelocity = 2.7;
+        movementclass = HOVER3;
+	name = Ghostrider;
+        noshadow = 1;
+	objectname = TARRIDER;
+        pitchscale = 1.5;
+        radardistance = 700;
+        shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARRIDER;
+	soundclass = TARRIDER;
+	standingunitorder = 2;
+	stone = tarrider_stone;
+	tedclass = Taros;
+        turninplacerate = 500;
+	turnrate = 500;
+	unitname = TARRIDER;
+	unitnumber = 4266;
+	version = 1;
+        weaponswitching = 1;
+        //wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+        areaofeffect = 48;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = Volcblast;
+	name = Dark blade;
+	range = 100;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 700;
+		monarch = .6;
+	}
+}
+
+[WEAPON2]
+{
+        aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+        damagetype = explosion;
+        edgeeffectiveness = 0.7;
+        explosionclass = large explosion;
+	firestarter = 1;
+        lightmap = medium;
+        manapershot = 200;
+	name = Hellfire;
+	range = 800;
+	reloadtime = 2;
+	soundhit = bomb2;
+	turnrate = 180;
+	type = guided;
+        waterexplosionclass = small water explosion;
+	weaponart = fireballB;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 900;
+		monarch = .5;
+	}
+}
+
+[WEAPON3]
+{       
+        aimtolerance = 1024;
+        areaofeffect = 400;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+        damagetype = explosion;
+        edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+        firestarter = 1;
+	lightmap = medium;
+	manapershot = 250;
+	name = Armageddon;
+	range = 900;
+	reloadtime = 2;
+        shakeduration = 2;
+        shakemagnitude = 5;
+	soundhit = nuke1;
+        turnrate = 180;
+	type = guided;
+        waterexplosionclass = large water explosion;
+	weaponart = meteor;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1100;
+                monarch = 0.4;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 400;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	name = boom;
+	range = 300;
+	reloadtime = 3;
+        shakeduration = 2;
+        shakemagnitude = 6;
+        soundhit = death;
+	type = Ballistic;
+	//waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.3;
+	}
+}

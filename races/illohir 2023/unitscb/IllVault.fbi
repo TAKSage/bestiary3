@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+
+bodytype = stone;
+buildangle = 30000;
+buildcost = 5566;
+buildtime = 1011;
+category = ILL;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = lodestone;
+description = ILLohir;
+experiencepoints = 20;
+floater = 0;
+footprintx = 3;
+footprintz = 3;
+healtime = 2.175;
+immunetoparalyzer = 1;
+maxdamage = 12092;
+maxslope = 15;
+maxwaterdepth = 5;
+mogriumincome = 5;
+mogriumstorage = 5500;
+name = ChaosVault;
+objectname = ILLVAULT;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 125;
+soundcategory = TARVAULT;
+soundclass = TARVAULT;
+tedclass = ILLohir;
+ThreeD = 1;
+totalallowed = 5;
+unitname = ILLVAULT;
+unitnumber = 100017;
+unitstandorders = 0;
+version = 1;
+wind = 1;
+waterline = 2;
+yardmap = o;
+ZBuffer = 1;
+}

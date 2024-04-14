@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	buildcost = 1600;
+	buildtime = 235;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabroad_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 23;
+	healtime = 1.00833333;
+	maneuverleashlength = 500;
+	maxdamage = 4971;
+	maxvelocity = 1.3;
+	movementclass = GROUND2;
+	name = Minion of Light;
+	objectname = VERMIN;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 190;
+	soundcategory = VERMIN;
+	soundclass = VERMIN;
+	standingunitorder = 2;
+	stone = arabroad_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERMIN;
+	unitnumber = 4;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 55;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 640;
+                                    undead = 1.5;
+	}
+}

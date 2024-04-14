@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 297;
+	buildtime = 100;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelmil_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 9;
+	healtime = 1;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 1612;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	name = Militia;
+	objectname = aradelmil;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = arasword;
+	soundclass = arasword;
+	standingunitorder = 1;
+	stone = aradelmil_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aradelmil;
+	unitnumber = 12008;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 20;
+	edgeeffectiveness = 1;
+	//explosionclass = Water Splash;
+	//lightmap = large;
+	//manapershot = 5;
+	name = Mace;
+	//nimbus = 1;
+	range = 100;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = melee;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+
+

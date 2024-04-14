@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	attackrunlength = 100;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 15424;
+	buildtime = 4545;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 160;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 280;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 24.86944;
+	hoverattack = 1;
+	hoverattackdistance = 90;
+	maneuverleashlength = 400;
+	maxdamage = 11988;
+	maxvelocity = 4.7;
+	maxwaterdepth = 0;
+	name = Emador Griffin;
+	objectname = ARADELGOA;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARADELGOA;
+	soundclass = ARADELGOA;
+	standingunitorder = 2;
+	stone = aradelgoa_stone;
+	tedclass = Aramon;
+	totalallowed = 2;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ARADELGOA;
+	unitnumber = 12168;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 20;
+	explosionclass = small dust puff;
+	model = dragonspear;
+	name = DragonSlayer Spear;
+	range = 1000;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 675;
+
+	[DAMAGE]
+	{
+		default = 940;
+		aradrag = 4540;
+		aragod = 10;
+		araking = 300;
+		tardrag = 4540;
+		targod = 10;
+		tarknight = 3500;
+		tarnecro = 300;
+		verdrag = 4540;
+		vergod = 10;
+		vermage = 300;
+		zondrag = 4540;
+		zondrake = 2600;
+		zongod = 10;
+		zonhunt = 300;
+	}
+}

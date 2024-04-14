@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                  bloodcolor1 = 160 35 0;
+                  bloodcolor2 = 170 40 0;
+                  bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 696;
+	buildtime = 159;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ara MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragehors_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = aramon;
+	experiencepoints = 18;
+	healtime = 1.03125;
+        maneuverleashlength = 500;
+	maxdamage = 2916;
+        maxvelocity = 2.7;
+	movementclass = GROUND2;
+	name = Horse Rider;
+	frozen = aragehors_frozen;
+	objectname = aragehors;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 135;
+	soundcategory = aragehors;
+	soundclass = aragehors;
+	standingunitorder = 2;
+	stone = aragehors_stone;
+	tedclass = aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aragehors;
+	unitnumber = 4587;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 695;
+                undead = 1.5;
+	}
+}

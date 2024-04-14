@@ -1,0 +1,128 @@
+[UNITINFO]
+{
+	acceleration = .50;
+	bankscale = 2.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = .25;
+	buildcost = 10000;
+//	mogriumbounty = 1000;
+	buildtime = 1200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+cantbecaptured = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARASIEGE_dead;
+	damagecategory = wood;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 47;
+	healtime = 1.447916667;
+	maneuverleashlength = 500;
+	maxdamage = 16000;
+	maxvelocity = 0.55;
+	movementclass = GROUND5;
+	name = Rolling Tower;
+	objectname = ARASIEGE;
+	pitchscale = 2.5;
+	radardistance = 850;
+	roadmultiplier = 2.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 525;
+	soundcategory = ARASIEGE;
+	soundclass = ARASIEGE;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	transportcapacity = 4;
+	transportdistance = 200;
+	transportsize = 9;
+	transportsizecapacity = 16;
+	turnrate = 140;
+	unitname = ARASIEGE;
+	unitnumber = 35;
+	version = 1;
+	watermultiplier = 0.25;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1600;
+	areaofeffect = 30;
+	explosionclass = medium dust puff;
+	model = arabolt;
+	name = Mounted Ballista;
+	range = 525;
+	reloadtime = 4.00;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+	waterweapon = 1;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		factory = 0.75;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		steelnaval = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		dragon = 2;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		steel = 0.5;
+		seamonster = 1.25;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Anti-Air Arrows;
+	range = 510;
+	reloadtime = 1.4;
+	soundhitclass = arrow;
+	type = line of sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 550;
+		stone = 0.25;
+		factory = 0.25;
+		wood = 0.25;
+		mechanical = 0.5;
+		antikingmechanical = 0.5;
+		naval = 0.5;
+		shielded = 0.5;
+		steelnaval = 0.25;
+		skeleton = 0.75;
+		kingkiller = 0.5;
+		giant = 0.25;
+		giantflamedemon = 0.25;
+		giantundead = 0.25;
+		lodestone = 0.5;
+		steel = 0.25;
+		dragon = 0.75;
+		hardscale = 0.75;
+	}
+}

@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+                bloodcolor4 = 50 130 50;
+                 bloodcolor5 = 40 140 40;
+                 bloodcolor6 = 30 150 30;
+                 bloodcolor7 = 50 130 50;
+                bloodcolor8 = 40 140 40;
+                 bloodcolor9 = 30 150 30;
+                 bloodcolor10 = 50 130 50;
+                 bloodcolor11 = 40 140 40;
+                 bloodcolor12 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1988;
+	buildtime = 691;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+               // cantbeparalyzed = 1;
+                cantbestoned = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+               // corpse = zongob_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 45;
+                floater = 0;
+	healtime = 7.63;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 5430;
+	maxvelocity = 2.5;
+	movementclass = HOVER3;
+	name = Golden Goblin;
+                //noveteran = 1;
+	objectname = ZONHGOB;
+	roadmultiplier = 1.21;
+	//shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 100;
+	soundcategory = ZONHGOB;
+	soundclass = ZONHGOB;
+	standingunitorder = 2;
+	stone = zonhgob_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONHGOB;
+	unitnumber = 1676;
+	upright = 1;
+	version = 1;
+                waterline = 12;
+	watermultiplier = 0.81;
+                // economybonus = 200;
+               // totalallowed = 1;
+              
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.5;
+	name = Golden Spear;
+	range = 100;
+	reloadtime = 3.5;
+	soundhitclass = hammer;
+	type = Melee;
+                  
+                 
+	[DAMAGE]
+	{                 
+	              default = 1898;
+                               undead = 1.2;
+                              god = 2.5;
+	} 
+}                   
+                   
+
+              

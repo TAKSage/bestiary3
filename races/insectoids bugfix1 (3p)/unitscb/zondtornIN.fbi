@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 2598;
+	buildtime = 100;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonglyph_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 35;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.270833333;
+	manarechargerate = 85;
+	maxdamage = 4432;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Stinger Tower;
+	objectname = ZONDTORNIN;
+	radardistance = 750;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 300;
+	soundcategory = ZONGLYPH;
+	soundclass = ZONGLYPH;
+	tedclass = Zhon;
+	totalallowed = 15;
+	unitname = ZONDTORNIN;
+	unitnumber = 1515158;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass = small dust puff;
+	manapershot = 150;
+	model = zondspike2;
+	name = Black thorn;
+	range = 450;
+	reloadtime = 1;
+	soundhitclass = arrow;
+	turnrate = 1200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}

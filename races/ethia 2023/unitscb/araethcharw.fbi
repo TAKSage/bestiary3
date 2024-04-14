@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1609;
+	buildtime = 375;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araethcharw_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 27;
+	healtime = 0.770833333;
+	maneuverleashlength = 500;
+	maxdamage = 5811;
+	maxvelocity = 3.75;
+	movementclass = GROUND4;
+	name = Chariot Warrior;
+	objectname = ARAETHCHARW;
+	roadmultiplier = 1.25;
+	//shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 215;
+	soundcategory = ARAPAL;
+	soundclass = ARAPAL;
+	standingunitorder = 2;
+	stone = araethcharw_stone;
+	tedclass = Ethia;
+	turnrate = 500;
+	unitname = ARAETHCHARW;
+	unitnumber = 812;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Bronze Spear;
+	noairweapon = 1;
+	range = 125;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 580;
+		tier1 = 3.0;
+	}
+}

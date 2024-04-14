@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1175;
+	buildtime = 302;
+	builddistance = 100;
+	builder = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BUILDER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardrkpriest_dead;
+	damagecategory = darkelf;
+	defaultmissiontype = Standby;
+	description = Dark Elf;
+	experiencepoints = 18;
+	healtime = 1.2;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 5850;
+	maxmana = 1000;
+	maxvelocity = 1.05;
+	mogriumincome = -4;
+	movementclass = GROUND2;
+	name = Storm Priest;
+	objectname = TARDRKPRIEST;
+	radardistance = 800;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 560;
+	soundcategory = TARMIND;
+	soundclass = TARMIND;
+	standingunitorder = 1;
+	tedclass = Dark Elf;
+	turnrate = 2500;
+	unitname = TARDRKPRIEST;
+	unitnumber = 42575;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 20;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Strike;
+	range = 30;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.5;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = lightning_down;
+	buttonimagedown = lightning_down;
+	buttonimageselected = lightning_selected;
+	buttonimageup = lightning_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	manapershot = 450;
+	name = Lightning;
+	range = 400;
+	reloadtime = 7.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1900;
+		spirit = 0.75;
+		firespirit = 0.75;
+		syron = 0;
+		darkelf = 0.75;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = turnundead_down;
+	buttonimagedown = turnundead_down;
+	buttonimageselected = turnundead_selected;
+	buttonimageup = turnundead_up;
+	areaofeffect = 25;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.75;
+	explosionclass = yellow_shockring;
+	lightmap = large;
+	manapershot = 700;
+	name = Turn Undead;
+	range = 35;
+	reloadtime = 6;
+	soundhit = turnund;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1;
+		undead = 2500;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		naval = 0;
+		mechanical = 0;
+	}
+
+}
+

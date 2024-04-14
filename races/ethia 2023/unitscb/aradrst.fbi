@@ -1,0 +1,130 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	//attackrunlength = 160;
+	bankscale = 1.25;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 8859;
+	buildtime = 1569;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 160;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 185;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 5.86944;
+	hoverattack = 1;
+	hoverattackdistance = 160;
+	manarechargerate = 12;
+	maneuverleashlength = 800;
+	maxdamage = 8911;
+	maxmana = 1000;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	mogriumincome = 2;
+	mogriumstorage = 200;
+	name = Sand Gryphon;
+	objectname = ARADRST;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARADRST;
+	soundclass = ARADRST;
+	standingunitorder = 2;
+	stone = aradrs_stone;
+	tedclass = Ethia;
+	totalallowed = 6;
+	turninplacerate = 1200;
+	turnrate = 650;
+	unitname = ARADRST;
+	unitnumber = 11092;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 6000;
+	areaofeffect = 75;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass = small dust puff;
+	model = araspear1;
+	spinroll = 4500;
+	turnrate = 360;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = araspear1_10;
+	name = Slayer Spear;
+	range = 600;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 675;
+
+	[DAMAGE]
+	{
+		default = 1240;
+		god = 0.5;
+		monarch = 0.5;
+		stalwart = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 8000;
+	areaofeffect = 125;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+    edgeeffectiveness = 0.5;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = medium;
+	manapershot = 1000;
+	name = Sand Meteors;
+	range = 300;
+	reloadtime = 3.5;
+	soundhitclass = fire;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 750;
+    subtype = hailstorm;
+    duration = 2;
+    nimbus = 1;
+    particlespersecond = 15; 
+    waterexplosionclass = medium water explosion;
+              
+
+	[DAMAGE]
+	{
+		default = 100;
+		//dragon = 2;
+	}
+}
+

@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 610;
+	buildtime = 76;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorcarch_dead;
+	damagecategory = Orc;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 10;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 3650;
+	maxvelocity = 1.05;
+	mogriumincome = -3;
+	movementclass = GROUND2;
+	name = Orc Archer;
+	objectname = ZONORCARCH;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 340;
+	soundcategory = ORCSWORD;
+	soundclass = ORCSWORD;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = ZONORCARCH;
+	unitnumber = 42513;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = aoworcarrow;
+	name = Bow and Arrows;
+	range = 505;
+	reloadtime = 4.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 720;
+
+	[DAMAGE]
+	{
+		default = 475;
+		undead = 0.5;
+		firespirit = 0.5;
+		spirit = 0.5;	
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+

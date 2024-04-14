@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 25;
+	bloodcolor2 = 100 100 20;
+	bloodcolor3 = 150 100 25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 2000;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verlizsalam_dead;
+	damagecategory = demon;		// not a demon, but fire immune
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 10;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 10200;
+	maxvelocity = 1.45;
+	mogriumincome = -6;
+	movementclass = GROUND2;		
+	name = Salamander;
+	objectname = VERLIZSALAM;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 350;
+	soundcategory = VERMER;
+	soundclass = VERMER;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIZSALAM;
+	unitnumber = 42587;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.35;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Flaming Sword;
+	range = 30;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1950;
+		spirit = 0.5;
+		firespirit = 0.25;
+		syron = 0.5;
+		azrac = 0.75;
+		dragon = 0.5;
+		demon = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		naval = 0.75;
+	}
+}

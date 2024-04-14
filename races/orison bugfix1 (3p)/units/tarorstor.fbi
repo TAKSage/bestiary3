@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 2500;
+	buildtime = 450;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarorstor_dead;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.4;
+	maxdamage = 6500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 10000;
+	name = Mana Vault;
+	objectname = TARORSTOR;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = tarorstor;
+	soundclass = tarorstor;
+	tedclass = Taros;
+	unitname = TARORSTOR;
+	unitnumber = 101087;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+}

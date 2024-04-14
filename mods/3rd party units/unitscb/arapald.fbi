@@ -1,0 +1,139 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2442;
+	buildtime = 385;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapald_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 35;
+	healtime = 0.770833333;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 7911;
+	maxmana = 850;
+	maxvelocity = 2.4;
+	movementclass = GROUND3;
+	name = Paladin;
+	objectname = ARAPALD;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 255;
+	soundcategory = ARAPALD;
+	soundclass = ARAPALD;
+	standingunitorder = 2;
+	stone = arapald_stone;
+	tedclass = Aramon;
+	turninplacerate = 600;
+	turnrate = 1000;
+	unitname = ARAPALD;
+	unitnumber = 1093;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.4;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 250;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.1;
+	name = Paladin Sword;
+	noairweapon = 1;
+	range = 120;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+		undead = 2.0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 15;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	manapershot = 150;
+	middlecolor = 200 230 255;
+	name = Holy Bolt;
+	outercolor = 180 200 255;
+	range = 350;
+	reloadtime = 2.0;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 750;
+		undead = 2.0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = mind control;
+	lightmap = medium;
+	manapershot = 750;
+	name = Stone Ball;
+	nimbus = 1;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

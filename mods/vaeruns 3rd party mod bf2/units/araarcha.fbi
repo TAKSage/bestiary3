@@ -1,0 +1,169 @@
+[UNITINFO]
+{
+	acceleration = 0.3;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 73210;
+	buildtime = 14050;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                 cantbefrozen = 1;
+       // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	damagetype = Human;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 250;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = 277.64;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+                immunetoparalyzer = 1;
+	//manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 20800;
+	maxvelocity = 8.5;
+	maxwaterdepth = 0;
+	name = ArchAngel;
+	objectname = AraArchA;
+	radardistance = 1500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 500;
+	soundcategory = AraArchA;
+	soundclass = AraArchA;
+	standingunitorder = 2;
+	stone = AraArchA_stone;
+	tedclass = Aramon;
+                totalallowed = 3;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = AraArchA;
+	unitnumber = 111786;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = Volcblast;
+	hweffect = red lightning;
+	innercolor = 248 247 104;
+	lightmap = medium;
+	middlecolor = 238 196 0;
+	name = Lightning Bolt;
+	nimbus = 1;
+	outercolor = 250 165 0;
+	range = 600;
+	reloadtime = 2.4;
+                soundhit = AraLAngelAta1;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1400;
+		monarch = 0.25;
+		god = 1.5;
+                dragon = 1.5;
+                airship = 1.5;
+                monster = 1.5;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = Volcblast;
+	hweffect = yellow lightning;
+	innercolor = 248 247 104;
+	lightmap = medium;
+	middlecolor = 238 196 0;
+	name = Lightning Bolt;
+	nimbus = 1;
+	outercolor = 250 165 0;
+	range = 600;
+	reloadtime = 2.5;
+	soundhit = AraLAngelAta1;
+	subtype = lightning;
+	type = Line of Sight;
+                  waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monarch = 0.25;
+		god = 1.75;
+                dragon = 1.75;
+                airship = 1.75;
+                monster = 1.75;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = Volcblast;
+	hweffect = lightning;
+	innercolor = 248 247 104;
+	lightmap = medium;
+	middlecolor = 238 196 0;
+	name = Lightning Bolt;
+	nimbus = 1;
+	outercolor = 250 165 0;
+	range = 600;
+	reloadtime = 2.6;
+	soundhit = AraLAngelAta1;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1600;
+		monarch = 0.25;
+		god = 2.0;
+                dragon = 2.0;
+                airship = 2.0;
+                monster = 2.0;
+	}
+}

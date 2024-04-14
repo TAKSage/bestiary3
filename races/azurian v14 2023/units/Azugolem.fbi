@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	name = Fortress Golem;
+	buildcost = 8000;
+	buildtime = 2000;
+
+	healtime = 1.25;
+	maxdamage = 22000;	
+
+	totalallowed = 5;
+
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = AZU;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 120;
+	maneuverleashlength = 500;
+	maxvelocity = 0.45;
+	movementclass = GROUND4;
+	objectname = AZUGOLEM;
+	radardistance = 600;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 230;
+	soundcategory = AZUGOLEM;
+	soundclass = AZUGOLEM;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turninplacerate = 1500;
+	turnrate = 550;
+	unitname = AZUGOLEM;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.0;
+	workertime = 20;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.4;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Golem Hammer;
+	range = 90;
+	reloadtime = 4.0;	//Double reload time
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;	//Quadruple damage
+		monster = 1.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 0.5;
+		monarch = 1.0;
+		god = 1.0;
+	}
+}

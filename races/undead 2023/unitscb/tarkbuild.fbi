@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 443;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 140;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkbuild_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 5;
+	frozen = tarkbuild_frozen;
+	healtime = 0.583333333;
+	maneuverleashlength = 500;
+	maxdamage = 1703;
+	maxvelocity = 1.35;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Zombie Master;
+	objectname = TARKBUILD;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 1;
+	stone = tarkbuild_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARKBUILD;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	wind = 1;
+	workertime = 10;
+}
+[WEAPON1]
+{
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 64 0 64;
+	lightmap = medium;
+	middlecolor = 128 0 128;
+	name = Dark Lightning;
+	outercolor = 200 0 200;
+	range = 500;
+	reloadtime = 3;
+	soundclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}

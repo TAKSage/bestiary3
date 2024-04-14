@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 545;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 145;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 6;
+	healtime = 0.595833;
+	maneuverleashlength = 500;
+	maxdamage = 1755;
+	maxvelocity = 1.1;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Dark Summoner;
+	objectname = TARYTTBD;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = TARYEYE;
+	soundclass = TARYEYE;
+	standingunitorder = 1;
+	stone = TARYTTBD_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARYTTBD;
+	unitnumber = 66605;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 15;
+	explosionclass = blood explosion;
+	hweffect = red lightning;
+	innercolor = 255 255 255;
+	middlecolor = 170 40 0;
+	name = Soul Drain;
+	outercolor = 180 30 5;
+	range = 300;
+	reloadtime = 2;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 100;
+	explosionclass = Volcblast;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	firestarter = 1;
+	name = Exploding Death;
+	range = 100;
+	lightmap = large;
+	reloadtime = 1;
+	type = Remote Effect;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 100;
+		monarch = 0.5;
+	}
+}

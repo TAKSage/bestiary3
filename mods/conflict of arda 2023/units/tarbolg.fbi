@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 9750;
+	buildtime = 2600;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 16;
+	healtime = 0.916666667;
+	maneuverleashlength = 500;
+	maxdamage = 18250;
+	maxvelocity = 1.9;
+	mogriumincome = 15;
+	movementclass = GROUND2;
+	name = Bolg;
+	noveteran = 1;
+	objectname = tarbolg;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 790;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	stone = vercrus_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = tarbolg;
+	unitnumber = 125;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 70;
+	edgeeffectiveness = 0.7;
+	name = Longaxe;
+	range = 80;
+	reloadtime = 1.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1315;
+		animal  = 1.5;
+		monarch = 1.5;
+		god = 1.5;
+	}
+}

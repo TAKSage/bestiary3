@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = wood;
+	buildcost = 214;
+	buildtime = 100;
+	cantbestoned = 1;
+	category = ara;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragefire_dead;
+	description = Aramon;
+	experiencepoints = 5;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.104166667;
+	maxdamage = 845;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Cristal Fire;
+	noshadow = 1;
+	objectname = aragefire;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 130;
+	soundcategory = zonfire;
+	soundclass = zonfire;
+	tedclass = Aramon;
+	unitname = aragefire;
+	unitnumber = 4526;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 90;
+	}
+}

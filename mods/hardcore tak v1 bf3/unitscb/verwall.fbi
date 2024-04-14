@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 89;
+//	original buildtime = 45; 65;
+	buildtime = 33;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERWALL;
+	damagecategory = wall;
+	description = Veruna;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.1875;
+	isfeature = 1;
+//	original maxdamage = 4000;
+	maxdamage = 3000;
+//	original maxslope = 15
+	maxslope = 20;
+// 	original maxwaterdepth = 0
+	maxwaterdepth = 2;
+	name = Wall;
+	noshadow = 1;
+	objectname = VERWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 100;
+	soundcategory = VERWALL;
+	tedclass = Veruna;
+	unitname = VERWALL;
+	unitnumber = 155;
+	unitstandorders = 0;
+	//based on Cavedog's version = 1;
+	version = T0.1.0;
+	yardmap = o;
+}

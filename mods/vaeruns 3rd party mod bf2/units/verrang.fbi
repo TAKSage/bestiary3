@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2677;
+	buildtime = 310;
+	canattack = 1;
+                cancapture = 1;
+	//cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC MAGIC ATTACK;
+	//cloakcost = 20;
+	//cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VerRang_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 35;
+	fireatwillrandom = 1;
+                frozen = verrang_frozen;
+	healtime = 0.708333333;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxmana = 1200;
+	maxvelocity = 3.5;
+	//mincloakdistance = 100;
+	movementclass = GROUND2;
+	name = Elven Ranger;
+	objectname = VERRANG;
+                radardistance = 500;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 388;
+	soundcategory = ARABOW;
+	soundclass = ARABOW;
+	standingunitorder = 1;
+	stone = verrang_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERRANG;
+	unitnumber = 3489;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = Normalarrow;
+	name = Normal Arrow;
+	range = 520;
+	reloadtime = 2.45;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 676;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	manapershot = 100;
+	model = Magicarrow;
+	name = Tracking Arrow;
+	nimbus = 1;
+	range = 620;
+	reloadtime = 2.85;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1525;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	//areaofeffect = 100;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = Mind Control;
+	lightmap = small;
+	manapershot = 400;
+	//model = Magicarrow;
+	name = Charm;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 3.05;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = Line of Sight;
+	weaponart = FireballCa;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 55;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+                                lodestone = 0;
+	}
+}

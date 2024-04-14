@@ -1,0 +1,166 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = VER MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = elf;
+	defaultmissiontype = Standby;
+	description = Elf;
+	experiencepoints = 525;
+	healtime = 65;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 28500;
+	maxmana = 1000;
+	maxvelocity = 1.85;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = High King;
+	noveteran = 1;
+	objectname = VERELFLEAD;
+	radardistance = 700;
+	roadmultiplier = 1.35;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 565;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Elf;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = VERELFLEAD;
+	unitnumber = 42541;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.25;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1425;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+[WEAPON2]
+{
+	buttonimagedisabled = solarflare_down;
+	buttonimagedown = solarflare_down;
+	buttonimageselected = solarflare_selected;
+	buttonimageup = solarflare_up;
+	aimtolerance = 1024;
+	areaofeffect = 75;
+	emittime = 60;
+	edgeeffectiveness = 0.4;
+	explosionclass = volcblast;
+	hweffect = solarflare;
+	manapershot = 150;
+	name = Solar Flare;
+	range = 350;
+	reloadtime = 8;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 2150;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.1;
+		highman = 0.75;
+		undead = 1.5;
+		orc = 1.15;
+		goblin = 1.15;
+		darkelf = 1.15;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 180;
+	builduptime = 0.5;
+	buttonimagedisabled = WaterBurstTPU;
+	buttonimagedown = WaterBurstTPU;
+	buttonimageselected = WaterBurstTSBh;
+	buttonimageup = WaterBurstTSB;
+	decaytime = 1;
+	edgeeffectiveness = 0.8;
+	manapershot = 800;
+	name = Water Spout;
+	nimbus = 1;
+	radiusart0 = TsunamiExplode;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 400;
+	reloadtime = 5;
+	ringcount = 4;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = arrow08;
+	spritecount = 25;
+	turnrate = 250;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5650;
+		lizard = 0.75;
+		syron = 0.25;
+		spirit = 1.5;
+		firespirit = 3;
+	}
+}

@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.5;
+	buildcost = 1411;
+	buildtime = 550;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = VER FLY ATTACK BALLISTIC MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 140;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	experiencepoints = 55;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.36;
+	hoverattack = 1;
+	hoverattackdistance = 240;
+	//manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 4400;
+	//maxmana = 500;
+	maxvelocity = 5.5;
+	maxwaterdepth = 0;
+	name = White Angel;
+	objectname = VERANG;
+	radardistance = 400;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 220;
+	soundcategory = TARWITCH;
+	soundclass = TARWITCH;
+	standingunitorder = 2;
+	tedclass = Veruna;
+                totalallowed = 25;
+	turninplacerate = 700;
+	turnrate = 700;
+	unitname = VERANG;
+	unitnumber = 170;
+	upright = 1;
+	version = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Ghost Cannon;
+	range = 475;
+	reloadtime = 1.6;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = lightning;
+	type = Ballistic;
+                 waterexplosionclass = medium water explosion;
+	weapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 430;
+		god = 5.5;
+                monarch = 0.15;
+                dragon = 1.2;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Ghost Cannon;
+	range = 475;
+	reloadtime = 1.7;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = lightning;
+	type = Ballistic;
+                waterexplosionclass = medium water explosion;
+	weapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 450;
+		god = 4.5;
+                monarch = 0.1;
+                dragon = 1.2;
+                undead = 1.2;
+	}
+}

@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1750;
+	buildtime = 175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Ara BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraverelfarchL_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 200;
+	healtime = 2;
+	maneuverleashlength = 200;
+	maxdamage = 5500;
+	maxvelocity = 2.75;
+	mogriumincome = 0;
+	movementclass = GROUND2;
+	name = Ranger;
+	objectname = AraVERELFARCHL;
+	radardistance = 1200;
+	//roadmultiplier = 1.4;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 300;
+	soundcategory = AraVERELFARCHL;
+	soundclass = AraVERELFARCHL;
+	standingunitorder = 2;
+	tedclass = Light;
+	totalallowed = 3;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = AraVERELFARCHL;
+	unitnumber = 97979737;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = Normalarrow;
+	name = Bow;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 450;
+		dragon = 1.5;
+		airship = 1.5;
+		factory = .5;
+		fort = .5;
+		lodestone = .5;
+		naval = .5;
+	}
+}

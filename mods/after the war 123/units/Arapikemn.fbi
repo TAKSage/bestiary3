@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 300;
+//	mogriumbounty = 30;
+	buildtime = 100;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =arapikemn_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 10;
+	healtime = .650;
+	maneuverleashlength = 500;
+	maxdamage = 2750;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	name = Pikeman;
+	objectname = ARAPIKEMN;
+	roadmultiplier = 1.2;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 185;
+	soundcategory = ARASWORD;
+	soundclass = ARASWORD;
+	standingunitorder = 2;
+	stone = arapikemn_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARAPIKEMN;
+	unitnumber = 3437;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	edgeeffectiveness = 1;
+	name = Pike;
+	range = 75;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 350;
+		monster = 1.25;
+		antikingmonster = 1.25;
+		giant = 1.5;
+		giantundead = 1.25;
+		mechanical = 0.5;
+		antikingmechanical = 0.5;
+		mounted = 2;
+		antikingmounted = 2;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.5;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		shielded = 0.75;
+		steel = 0.5;
+		giantflamedemon = 1.25;
+	}
+}

@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+//	original buildcost = 1444; 1588; 1733
+	buildcost = 1653;	//
+//	original buildtime = 254; 127; 200 (-10%)
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+//	original no canhover
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = monster;
+	damagecategory = melee;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 23;
+	//original no floater
+	floater = 1;
+	//original healtime = 1.058333333;
+	healtime = 0.75;
+	//original maneuverleashlength = 300;
+	maneuverleashlength = 500;
+	//original maxdamage = 7500; 3600
+	maxdamage = 4320;
+	//original maxvelocity = 1.9; 1.8
+	maxvelocity = 2.9;
+	//original movementclass = GROUND2;
+	movementclass = HOVER2;
+	name = (M) Blade Demon;
+	objectname = TARDEMON;
+//	original roadmultiplier = 1.21; Now (110%)
+	roadmultiplier = 1.33;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 130;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	standingunitorder = 2;
+	stone = tardemon_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDEMON;
+	unitnumber = 77;
+	upright = 1;
+	//original version Cavedog Crusades Balance
+	version = M.1.0;
+//	original no waterline
+	waterline = 26;
+	//original watermultiplier = 0.81;
+	watermultiplier = 0.31578;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 36;
+	edgeeffectiveness = 1;
+	firestarter = 1;
+	name = Sword;
+	range = 100;
+	//original reloadtime = 1.333;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 570;
+		default = 620;		//dmg = 477/s
+		//original tier1 = 2.0;
+		archer = 3.68;		//dmg = 2100 
+		archer2 = 2.76;		//dmg = 1573
+		builder = 0.4;
+		factory = 1.5;
+		fort = 1.3;     	//dmg = 741;
+		fort2 = 1.2;		//dmg = 684;
+		lodestone = 0.8;
+		melee = 0.8;		//dmg = 496 (382/s)
+		monarch = 0.6;
+		siege = 2.4;    	//dmg = 1368
+		siege2 = 3.0;
+		stalwart = 0.82;
+		support = 0.5;
+		tier1 = 3.0;            //dmg = 1710
+	}
+}

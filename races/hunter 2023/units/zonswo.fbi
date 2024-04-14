@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 7500;
+	buildtime = 1200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonswo_dead;
+	damagecategory = MONSTER;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 35;
+	frozen = zonswo_frozen;
+	healtime = 0.4125;
+	maneuverleashlength = 500;
+	maxdamage = 16002;
+	maxvelocity = 1.1;
+	movementclass = GROUND2;
+	name = Undead Knight;
+	objectname = ZONSWO;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 135;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 2;
+	stone = zonswo_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONSWO;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}

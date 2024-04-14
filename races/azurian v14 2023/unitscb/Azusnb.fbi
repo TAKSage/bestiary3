@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	name = Snowballer;
+	buildcost = 120;
+	buildtime = 30;
+
+	healtime = 1.25;
+	maxdamage = 550;
+
+	acceleration = 10;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = AZU BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Azusnb_dead;
+	stone = Azusnb_stone;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 3;
+	maneuverleashlength = 500;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	objectname = AZUSNB;
+	roadmultiplier = 1.2;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 100;
+	soundcategory = AZUSNB;
+	soundclass = AZUSNB;
+	standingunitorder = 1;
+	tedclass = Azurians;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = AZUSNB;
+	unitnumber = 3300;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Snowball;
+	range = 225;
+	reloadtime = 1.5;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = ASnowball10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 110;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}

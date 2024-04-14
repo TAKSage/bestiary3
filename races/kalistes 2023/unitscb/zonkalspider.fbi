@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1024;
+	buildtime = 175;
+	canheal = 1;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+ 	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	cloakcost = 15;
+	cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkalspider_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 25;
+	floater = 0;
+	frozen = zonkalspider_frozen;
+	//healtime = 0.49452;
+	healtime = 0.729166666;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxmana = 1000;
+	maxvelocity = 2.1;
+	mincloakdistance = 100;
+	movementclass = HOVER3;
+	name = Kaliste's Pet;
+	objectname = zonkalspider;
+	radardistance = 500;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = zonkalspider;
+	soundclass = zonkalspider;
+	standingunitorder = 1;
+	stone = zonkalspider_stone;
+	tedclass = Zhon;
+	totalallowed = 40;
+	turninplacerate = 3452;
+	turnrate = 2782;
+	unitname = zonkalspider;
+	unitnumber = 1424;
+	upright = 1;
+	waterline = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = paralyzer;
+	explosionclass = large dust puff;
+	manapershot = 200;
+	model = zonkalspike2;
+	name = Spider Bite;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 2.0;
+	soundhitclass = arrow08;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 200;
+		factory = 0;
+		lodestone = 0;
+	}
+}

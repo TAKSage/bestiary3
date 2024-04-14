@@ -1,0 +1,205 @@
+[UNITINFO]
+{
+bodytype = stone;
+buildangle = 30000;
+buildcost = 2755;
+buildtime = 310;
+canattack = 1;
+canstop = 1;
+cancloak = 1;
+cloakcost = 25;
+//cloakcostmoving = 10;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illoobi_dead;
+damagecategory = fort;
+defaultmissiontype = guard_nomove;
+description = Illohir;
+experiencepoints = 35;
+floater = 0;
+footprintx = 3;
+footprintz = 3;
+healtime = 0.625;
+init_cloaked = 1;
+//kamikaze = 1;
+manarechargerate = 15;
+mincloakdistance = 100;
+maxmana = 5000;
+StandingFireOrder = 2;
+standingunitorder = 2;
+maxdamage = 4800;
+maxslope = 15;
+maxwaterdepth = 5;
+name = ChaosObelisk;
+objectname = Illoobi;
+radardistance = 550;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 350;
+soundcategory = TARILLODE;
+soundclass = TARILLODE;
+stealth = 1;
+tedclass = Illohir;
+ThreeD = 1;
+unitname = Illoobi;
+unitnumber = 100036;
+version = 1;
+yardmap = o;
+waterline = 2;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 25;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+firestarter = 1;
+gravityadjustment = 4.5;
+guidance = 1;
+model = Tflame5;//spiker;
+name = Crystal Sting1;
+nimbus = 1;
+range = 510;
+reloadtime = 2.2;
+smoketrail = 1;
+smokedelay = 3.5;
+soundhitclass = fire;
+soundwater = splash;
+spinheading = 5000;
+tracks = 1;
+turnrate = 180;
+type = Ballistic;
+unitsonly = 1;
+waterexplosionclass = medium water explosion;
+weaponart = tarosbuild;
+weaponvelocity = 800;
+
+
+[DAMAGE]
+{
+default = 155;
+dragon = 1.5;
+airship = 1.5;
+monster = 1.5;
+}
+}
+[WEAPON2]
+{
+aimtolerance = 2048;
+areaofeffect = 25;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+firestarter = 1;
+gravityadjustment = 4.5;
+guidance = 1;
+model = Tflame5;//spiker;
+name = Crystal Sting2;
+nimbus = 1;
+range = 510;
+reloadtime = 2.3;
+smoketrail = 1;
+smokedelay = 3.5;
+soundhitclass = arrow;
+soundwater = splash;
+spinheading = 5000;
+tracks = 1;
+turnrate = 180;
+type = Ballistic;
+unitsonly = 1;
+waterexplosionclass = medium water explosion;
+weaponart = verunabuild;
+weaponvelocity = 800;
+
+
+[DAMAGE]
+{
+default = 155;
+Tier1 = 1.5;
+
+}
+}
+[WEAPON3]
+{
+aimtolerance = 2048;
+areaofeffect = 25;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+firestarter = 1;
+gravityadjustment = 4.5;
+guidance = 1;
+model = Tflame5;//spiker;
+name = Crystal Sting3;
+nimbus = 1;
+range = 510;
+reloadtime = 2.4;
+smoketrail = 1;
+smokedelay = 3.5;
+soundhitclass = arrow;
+soundwater = splash;
+spinheading = 5000;
+tracks = 1;
+turnrate = 180;
+type = Ballistic;
+unitsonly = 1;
+waterexplosionclass = medium water explosion;
+weaponart = aramonbuild;
+weaponvelocity = 800;
+
+
+[DAMAGE]
+{
+default = 155;
+stalwart = 1.5;
+}
+}
+
+[SELDESTRUCTAS]
+{
+areaofeffect = 400;
+damagetype = fire;
+explosionclass = megaflame;
+edgeeffectiveness = 1;
+firestarter = 1;
+name = This will Hurt a little;
+soundhit = VERLIGHTDIE1;
+type = Ballistic;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 500;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 250;
+damagetype = fire;
+edgeeffectiveness = 0.25;
+explosionclass = Large Explosion;
+name = Explosion;
+soundhit = VERLIGHTDIE1;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 500;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+lodestone = 2.0;
+
+}
+}

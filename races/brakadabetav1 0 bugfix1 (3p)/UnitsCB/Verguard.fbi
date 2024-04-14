@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 3351;
+	buildtime = 290;
+	canattack = 1;
+	canstop = 1;
+	category = VER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verat_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 27;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.725;
+	maxdamage = 5300;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Guardians;
+	objectname = VERGUARD;
+	radardistance = 1250;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 325;
+	soundcategory = ARAAT;
+	soundclass = ARAAT;
+	tedclass = Veruna;
+	unitname = VERGUARD;
+	unitnumber = 35;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerence = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 325;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 500;
+	reloadtime = 2.4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 325;
+	}
+}

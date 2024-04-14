@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 5450;
+	buildtime = 1025;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;
+               // cantbeparalyzed = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraRGrd_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 55;
+	healtime = 17.88;
+                immunetoexplosion = 1;
+                immunetofire = 1;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 26500;
+	maxvelocity = 1.9;
+	movementclass = GROUND3;
+	name = Royal Guard;
+             // noveteran = 1;
+	objectname = ARARGRD;
+                radardistance = 300;
+	roadmultiplier = 1.25;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 133;
+	soundcategory = ARARGRD;
+	soundclass = ARARGRD;
+	standingunitorder = 1;
+	stone = AraRGrd_stone;
+	tedclass = Aramon;
+                totalallowed = 40;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = AraRGrd;
+	unitnumber = 37008909;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+                edgeeffectiveness = 0.5;
+	name = Sword;
+	range = 100;
+	reloadtime = 2.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3500;
+                                Tier1 = 1.5;
+	}
+}

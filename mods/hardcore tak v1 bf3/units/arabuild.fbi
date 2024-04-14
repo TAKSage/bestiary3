@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 643;
+	//original builddistance = 75;
+	builddistance = 90;
+	builder = 1;
+	builderlimited = 1;
+	//orig buildtime = 175;
+	buildtime = 88;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabuild_dead;
+	//original damagecategory = Human;
+	damagecategory = builder;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 5;
+	frozen = arabuild_frozen;
+	healtime = 1.166666666;
+	maneuverleashlength = 500;
+	maxdamage = 1703;
+	//original maxvelocity = 1.35; 1.5
+	maxvelocity = 1.8;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Mage Builder;
+	objectname = ARABUILD;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = ARABUILD;
+	soundclass = ARABUILD;
+	standingunitorder = 1;
+	stone = arabuild_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARABUILD;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	wind = 1;
+	//original workertime = 10;
+	workertime = 6.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	explosionclass = small dust puff;
+	model = araham;
+	name = Hammer of the Masonic Temple;
+	range = 200;
+	reloadtime = 3.8;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = araham10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 250;
+		lodestone = 1.5;
+	}
+}

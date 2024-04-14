@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 2562;
+	buildtime = 333;
+	canattack = 1;
+	cancapture = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR  FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagetype = undead;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 15;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 250;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 913;
+	maxmana = 1000;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Spectre;
+	objectname = TARCSPEC;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 190;
+	soundcategory = TARCSPEC;
+	soundclass = TARCSPEC;
+	standingunitorder = 2;
+	stone = tarpries_stone;
+	tedclass = Taros;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = TARCSPEC;
+	unitnumber = 826;
+	upright = 1;
+	version = 1;
+	weaponswitching=1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;
+	duration = 9;
+	manapershot = 100;
+	maxvariation = 5;
+	name = Tornado;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 4;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = tornadoend;
+	wanderloopart = tornadoloop;
+	wanderstartart = tornadostart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 50;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot = 600;
+	name = Turn To Stone;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = fireballA;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		airship = 0;
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

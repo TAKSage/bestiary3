@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 700;
+	buildtime = 90;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcwolfSKEL_dead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 3;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 1000;
+	maxvelocity = 3;
+	movementclass = GROUND3;
+	name = Bone Dog;
+	objectname = tarcwolf;
+	roadmultiplier = 1.25;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = tarcwolfSKEL;
+	soundclass = tarcwolfSKEL;
+	standingunitorder = 2;
+	stone = tarcwolfSKEL_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarcwolfSKEL;
+	unitnumber = 833;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	name = Claws;
+	range = 25;
+	reloadtime = 1;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}

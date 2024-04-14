@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 325;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonarch_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	frozen = zonarch_frozen;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 1100;
+	maxvelocity = 1.25;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND2;
+	name = Cow Archer;
+	objectname = ZONARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 180;
+	soundcategory = LIFCOW;
+	soundclass = LIFCOW;
+	standingunitorder = 1;
+	stone = zonarch_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONARCH;
+	unitnumber = 1;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Bow and Arrows;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 213;
+	}
+}

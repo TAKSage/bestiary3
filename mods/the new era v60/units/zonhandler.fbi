@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 643;
+	builddistance = 140;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 175;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonhandler_dead;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 10;
+	fireatwillrandom = 1;
+	frozen = zonhandler_frozen;
+	healtime = 1.895833333;
+	maneuverleashlength = 500;
+	manarechargerate = 10;
+	maxmana = 1000;	
+	maxdamage = 1703;
+	maxvelocity = 1.6;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = T2 Beast Handler;
+	objectname = ZONHAND;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ZONHAND;
+	soundclass = ZONHAND;
+	standingunitorder = 1;
+	stone = zonhandler_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2450;
+	unitname = ZONHANDLER;
+	unitnumber = 169;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 10;
+	weaponswitching = 1;	
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = acidballgpu;
+	buttonimagedown = acidballgpu;
+	buttonimageselected = acidballgsbh;
+	buttonimageup = acidballgsb;	
+	damagetype = paralyzer;	
+	explosionclass = green_shockring;	
+	edgeeffectiveness = 0.8;
+	name = Whip;
+	firestarter = 1;
+	manapershot = 550;
+	range = 100;
+	reloadtime = 2;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 115;
+		airship = 0;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

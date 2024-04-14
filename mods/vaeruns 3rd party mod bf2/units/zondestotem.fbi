@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 8199;
+	buildtime = 7310;
+	canattack = 1;
+	canstop = 1;
+                 cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZonDestotem_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 135;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.270833333;
+	maxdamage = 17999;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Destruction Totem;
+	objectname = ZonDestotem;
+	radardistance = 1200;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 640;
+	soundcategory = ZonDestotem;
+	soundclass = ZonDestotem;
+	tedclass = Zhon;
+	unitname = ZonDestotem;
+	unitnumber = 4202;
+	version = 1.2;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 150;
+                edgeeffectiveness = 0.5;
+	explosionclass = Volcblast;
+	hweffect = lightning;
+	innercolor = 250 77 52;
+	lightmap = medium;
+	middlecolor = 211 47 18;
+	name = lightning;
+	outercolor = 237 64 33;
+	range = 1000;
+	reloadtime = 6;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 1520;
+
+	[DAMAGE]
+	{
+		default = 1500;
+                dragon = 1.5;
+                mechanical = 1.5;
+                airship = 1.5;
+                naval = 1.5;
+                god = 0.5;
+                monster = 1.5;
+	}
+}

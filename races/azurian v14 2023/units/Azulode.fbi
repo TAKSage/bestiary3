@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	name = Lodestone;
+	buildcost = 300;
+	buildtime = 75;
+
+	healtime = 1.5;
+	maxdamage = 5500;
+
+	mogriumincome = 5;
+	mogriumstorage = 1000;
+
+	bodytype = stone;
+	cantbestoned = 1;
+	category = AZU;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	description = Azurians;
+	experiencepoints = 6;
+	footprintx = 2;
+	footprintz = 2;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	objectname = Azulode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 325;
+	soundcategory = Azulode;
+	soundclass = Azulode;
+	tedclass = Azurians;
+	unitname = Azulode;
+	unitnumber = 3301;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

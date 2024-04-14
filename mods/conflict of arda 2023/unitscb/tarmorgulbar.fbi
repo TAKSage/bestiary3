@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 5192;
+	builddistance = 200;
+	builder = 1;
+	buildtime = 1155;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabuilding_dead;
+	corpseadjustx = 1;
+	corpseadjustz = 6;
+	damagecategory = factory;
+	description = Taros;
+	experiencepoints = 200;
+	footprintx = 8;
+	footprintz = 20;
+	healtime = 3.4479166;
+	maxdamage = 28852;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 200;
+	name = Morgul Citadel;
+	objectname = tarmorgulbar;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 275;
+	soundcategory = VERCASTL;
+	soundclass = VERCASTL;
+	tedclass = Taros;
+	unitname = tarmorgulbar;
+	unitnumber = 1241;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ........ ........ ........ ........ oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo cccccccc cccccccc cccccccc cccccccc;
+}

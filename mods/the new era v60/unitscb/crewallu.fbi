@@ -1,0 +1,41 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 100;
+	buildtime = 50;
+	//canmove = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	//canpatrol = 1;
+	//canstop = 1;
+	category = CRE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREWALL;
+	description = Creon;
+	experiencepoints = 1;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.5;
+	//isfeature = 1;
+	maxdamage = 10000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall;
+	//noshadow = 1;
+	objectname = CREWALL;
+	shadowgaf = shadows;
+	//shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	
+	soundcategory = CREWALL;
+	soundclass = CREWALL;
+	tedclass = Creon;
+	unitname = CREWALLU;
+	unitnumber = 42;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

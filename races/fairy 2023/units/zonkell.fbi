@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1403;
+	buildtime = 232;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkell_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 22;
+	frozen = zonkell_frozen;
+	healtime = 0.96667;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1000;
+	maxmana = 1000;
+	maxvelocity = 1.35;
+	movementclass = GROUND2;
+	name = Dryad;
+	objectname = zonkell;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARWITCH;
+	soundclass = TARWITCH;
+	standingunitorder = 1;
+	stone = zonkell_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = zonkell;
+	unitnumber = 114;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2.6;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 250;
+	builduptime = 1.75;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 500;
+	name = Area Mind Control;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 199;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 25;
+	subtype = mindcontrol;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

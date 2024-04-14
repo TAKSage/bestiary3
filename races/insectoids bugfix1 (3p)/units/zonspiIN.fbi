@@ -1,0 +1,98 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1300;
+	buildtime = 170;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	corpse = zonspiIN_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby_wander;
+	description = Zhon;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxvelocity = 2.5;
+	movementclass = HOVER3;
+	name = Tarantula;
+	objectname = ZONSPIIN;
+	radardistance = 250;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 215;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turnrate = 1000;
+	unitname = ZONSPIIN;
+	unitnumber = 15151518;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	builduptime = 0.2;
+	damagetype = paralyzer;
+	decaytime = 5;
+	edgeeffectiveness = 0.1;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 100;
+	reloadtime = 15;
+	ringcount = 3;
+	ringdelay = 2;
+	ringduration = 5;
+	showeffect = 1;
+	soundhit = Lightng3;
+	spritecount = 9;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponswitching = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 250;
+		dragon = 125;
+		factory = 0;
+		fort = 50;
+		god = 0;
+		monarch = 0;
+		naval = 50;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 40;
+	edgeeffectiveness = 0.1;
+	noairweapon = 1;
+	range = 50;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}

@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+	name = Mana Vault;
+	buildcost = 600;
+	buildtime = 150;
+
+	healtime = 0.5;
+	maxdamage = 6500;
+
+	mogriumincome = 1;
+	mogriumstorage = 10000;
+
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 0;
+	cantbestoned = 1;
+	category = AZU;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Azumv_dead;
+	damagecategory = fort;
+	description = Azurians;
+	experiencepoints = 25;
+	footprintx = 6;
+	footprintz = 6;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	objectname = Azumv;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 145;
+	soundcategory = AZUMV;
+	soundclass = AZUMV;
+	tedclass = Azurians;
+	unitname = Azumv;
+	unitnumber = 3503;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 1;
+	yardmap = o;
+}

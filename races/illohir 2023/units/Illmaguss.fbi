@@ -1,0 +1,174 @@
+[UNITINFO]
+{
+acceleration = 10;
+animatetype = ILLHAND;
+attractsgods = 1;
+bloodcolor1 = 70 10 0;
+bloodcolor2 = 90 15 2;
+bloodcolor3 = 50 5 1;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 3640;
+buildtime = 889;
+builddistance = 500;
+builder = 1;
+builderlimited = 1;
+cananimate = 1;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canreclaim = 1;
+//cantbecaptured = 1;
+canpatrol = 1;
+canstop = 1;
+category = ILL BUILDER;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illmaguss_dead;
+damagecategory = Human;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 25;
+floater = 0;
+frozen = Illmaguss_frozen;
+healtime = 3.2875;
+manarechargerate = 15;
+maneuverleashlength = 500;
+maxdamage = 2851;
+maxmana = 1000;
+maxvelocity = 1.25;
+//mobilestandorders = 1;
+mogriumincome = 2;
+mogriumstorage = 150;
+movementclass = HOVER2;
+name = ChaosMagii;
+objectname = ILLMAGUSS;
+radardistance = 225;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 220;
+soundcategory = TARMAGUSS;
+soundclass = TARMAGUSS;
+standingunitorder = 2;
+stone = Illmaguss_stone;
+tedclass = Illohir;
+ThreeD = 1;
+turninplacerate = 2500;
+turnrate = 2500;
+unitname = ILLMAGUSS;
+unitnumber = 100003;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.4;
+weaponswitching = 1;
+workertime = 9;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+buttonimagedisabled = magicstrike_down;
+buttonimagedown = magicstrike_down;
+buttonimageselected = magicstrike_selected;
+buttonimageup = magicstrike_up;
+areaofeffect = 35;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+lightmap = small;
+name = Magic Strike;
+nimbus = 1;
+range = 90;
+reloadtime = 3.2;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 490;
+stalwart = 0.5;
+Tier1 = 1.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 50;
+edgeeffectiveness = 1.0;
+buttonimagedisabled = lightning_down;
+buttonimagedown = lightning_down;
+buttonimageselected = lightning_selected;
+buttonimageup = lightning_up;
+boltcount = 3;
+damagetype = fire;
+emittime = 30;
+edgeeffectiveness = 0.5;
+explosionclass = fireball explosion;
+firestarter = 1;
+hweffect = redbeamweapon;
+jagginess = 1;
+innercolor = 255 255 165;
+lightmap = small;
+manapershot = 300;
+middlecolor = 255 255 0;
+name = Chaos Light;
+nimbus = 1;
+outercolor = 255 0 0;
+range = 375;
+reloadtime = 2.5;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhitclass = lightning;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 1500;
+
+[DAMAGE]
+{
+default = 900;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+}
+}
+
+[WEAPON3]
+{
+buttonimagedisabled = turnundead_down;
+buttonimagedown = turnundead_down;
+buttonimageselected = turnundead_selected;
+buttonimageup = turnundead_up;
+areaofeffect = 50;
+damagetype = paralyzer;
+explosionclass = yellow_shockring;
+lightmap = large;
+manapershot = 900;
+name = Immobilize;
+nimbus = 1;
+range = 100;
+reloadtime = 2;
+soundhit = turnund;
+type = Melee;
+
+[DAMAGE]
+{
+default = 1000;
+fort = 0;
+factory = 0;
+lodestone = 0;
+monarch = 0.25;
+god = 0.25;
+naval = 0;
+undead = 0.25;
+}
+}
+

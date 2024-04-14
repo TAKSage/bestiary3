@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 6000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 1200;
+	canattack = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ZON FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowcity2_dead;
+	corpseadjustz = 2;
+	damagecategory = city;
+	description = Azrac;
+	experiencepoints = 300;
+	footprintx = 16;
+	footprintz = 10;
+	healtime = 0.65;
+	maxdamage = 16000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 12;
+	mogriumstorage = 1000;
+	name = Town;
+	objectname = ZONAZRCITY2;
+	radardistance = 600;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = AOWNORMALCITY;
+	soundclass = AOWNORMALCITY;
+	tedclass = Azrac;
+	totalallowed = 3;
+	unitname = ZONAZRCITY2;
+	unitnumber = 42092;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = xlarge smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

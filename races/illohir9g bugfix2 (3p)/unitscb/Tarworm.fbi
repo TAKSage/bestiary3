@@ -1,0 +1,128 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                //activatewhenbuilt = 0;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 2984;
+	buildtime = 360;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+                cloakcost = 4;
+                cloakcostmoving = 28;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = TARWORM_dead;
+	damagecategory = Monster;
+                damagemodifer = 0.05;
+	defaultmissiontype = Standby_wander;
+	description = Taros;
+                digger = 1;
+	experiencepoints = 148;
+                floater = 0;
+	frozen = zonamoe_frozen;
+	healtime = 1.3311;
+                immunetoparalyzer = 1;
+                init_cloaked = 1;
+                manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 5900;
+                maxmana = 2000;
+	maxvelocity = 0.65;
+                mincloakdistance = 130;
+	movementclass = GHOST;
+	name = Gravoid;
+                noshadow = 1;
+	objectname = TARWORM;
+                radardistance = 525;
+	roadmultiplier = 3;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 255;
+	soundcategory = TARWORM;
+	soundclass = TARWORM;
+	standingunitorder = 2;
+                stealth = 1;
+	stone = zonamoe_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 1800;
+	turnrate = 1200;
+	unitname = TARWORM;
+	unitnumber = 11571;
+	upright = 1;
+	version = 1;
+                waterline = 2;
+	watermultiplier = 1.5;
+                ZBuffer = 1;
+            
+}
+
+[WEAPON1]
+{
+                //areaofeffect = 100;
+                //edgeeffectiveness = 0.5;
+                explosionclass = bloodlarge;
+	name = Bite;
+	noairweapon = 1;
+	range = 125;
+	reloadtime = 5;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3000;
+	               dragon = 0.2;
+                               monarch = 0.15;
+                               fort = 2.0;
+                              factory = 2.0;
+                              god = 0.2;
+                             airship = 0.25;
+                             stalwart = 0.2;
+                             Tier1 = 0.25;
+                             mechanical = 1.5;
+                            monster = 0.2;
+                             human = 0.2;
+                             undead = 0.2;
+                            naval = 2.0;
+                            siege = 2.0;   
+                            lodestone = 2.0;              	
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	explosionclass = xlarge smoke explosion;
+	name = Worm Guts;
+                soundhit = TARPRIESDIE1; 
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		dragon = 0.4;
+                            airship = 0.4;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.6;
+                            fort = 0.5;
+                            factory = 0.5;
+	}
+}

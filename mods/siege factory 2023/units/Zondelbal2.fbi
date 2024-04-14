@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 3000;
+	buildtime = 300;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = Zon FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 350;
+	damagecategory = Air;
+	defaultmissiontype = VTOL_standby;
+	description = Siege;
+	experiencepoints = 20;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxvelocity = 5;
+	maxwaterdepth = 0;
+	moverate1 = 0.02;
+	moverate2 = 0.04;
+	name = Balloon Bomber;
+	objectname = ZonDELBAL2;
+	roadmultiplier = 2;
+	radardistance = 400;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 275;
+	soundcategory = ARADELBAL2;
+	soundclass = ARADELBAL2;
+	standingunitorder = 2;
+	tedclass = Siege;
+	totalallowed = 3;
+	turninplacerate = 500;
+	turnrate = 300;
+	unitname = ZonDELBAL2;
+	unitnumber = 1212128;
+	upright = 1;
+	version = 1;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = large dust puff;
+	name = Drop Bomb;
+	noairweapon = 1;
+	range = 350;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .25;
+		fort = 4;
+		factory = 4;
+		lodestone = 4;
+		naval = 4;
+                siege = 4;
+	}
+}

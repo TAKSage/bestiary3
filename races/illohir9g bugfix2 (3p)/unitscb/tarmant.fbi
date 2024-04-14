@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1499;
+	buildtime = 284;
+                canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmant_dead;
+                damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 35;
+                floater = 0;
+                frozen = tarmant_frozen;
+	healtime = 0.4375;
+	maneuverleashlength = 500;
+                maxmana = 1500;
+                manarechargerate = 30;
+	maxdamage = 3100;
+	maxvelocity = 3;
+	movementclass = HOVER3;
+	name = Death Mantis;
+	objectname = TARMANT;
+                radardistance = 541;
+	roadmultiplier = 1.41;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 211;
+	soundcategory = TARMAN;
+	soundclass = TARMAN;
+                standingmoveorder = 2;
+                standingfireorder = 2;
+	standingunitorder = 2;
+	stone = tarmant_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMANT;
+	unitnumber = 14106;
+	upright = 1;
+	version = 1;
+                waterline = 16;
+	watermultiplier = 0.81;
+                weaponswitching = 1;
+                ZBuffer = 1;
+
+                [AdjustArmor]
+               {
+                adjustment = 1.2;
+                affectsenemy = 0;
+                edgeeffectiveness = 1;
+                radius = 150;
+               }
+}
+
+[WEAPON1]
+{
+                buttonimagedisabled = sworddown;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	areaofeffect = 20;
+	edgeeffectiveness = 0.5;
+                explosionclass = bloodmedium;
+	name = Mantis Slice;
+	range = 100;
+	reloadtime = 1.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	            default = 960;
+                            dragon = 0.4;
+                            airship = 0.5;
+                            god = 2.0;
+                            monarch = 1.5;
+                            stalwart = 1.5;
+	            tier1 = 0.4;
+                            fort = 0.4;
+                            factory = 0.4;
+                            human = 2.0;
+                            undead = 2.0;
+                            monster = 2.0;
+                            naval = 0.3;
+                            mechanical = 0.4;
+                            siege = 0.4;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+                edgeeffectiveness = 0.55;
+                explosionclass = FireBall explosion;
+	firestarter = 1;
+	model = redcrystal;
+                manapershot = 300;
+	name = Mantis Spit;
+	range = 600;
+	reloadtime = 2.75;
+                smoketrail = 1;
+                smokedelay = 4.5;
+	soundhitclass = creflame;
+	spinpitch = 5000;
+                turnrate = 180;
+	type = Ballistic;
+                weaponart = fireBalla;
+	weaponvelocity = 500;
+
+
+	[DAMAGE]
+	{
+                            default = 500;
+                            monarch = 0.4;
+                            dragon = 1.4;
+                            airship = 1.5;
+                            god = 0.3;
+                            siege = 0.4;
+                            fort = 1.5;
+                            factory = 0.3;
+                            lodestone = 2.0;
+                            naval = 1.4;
+                            Tier1 = 0.3;
+                            stalwart = 2.0;
+                            human = 1.4;
+                            undead = 0.4;
+                            mechanical = 0.4;
+                            monster = 0.4;
+                          
+	}
+}

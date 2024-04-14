@@ -1,0 +1,123 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 1984;//1784
+buildtime = 371;//271
+canattack = 1;
+canhover = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+category = ILL MELEE MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illmedu_dead;
+damagecategory = Monster;
+damagemodifier = 0.25;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 45;
+floater = 0;
+frozen = Illmedu_frozen;
+healtime = 1.41458334;
+manarechargerate = 12;
+maneuverleashlength = 500;
+maxmana = 1000;
+maxdamage = 1900;
+maxvelocity = 1.45;
+movementclass = HOVER3;
+name = ChaosGorgon;
+objectname = Illmedu;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 166;
+soundcategory = tarmedu;
+soundclass = tarmedu;
+standingunitorder = 2;
+stone = Illmedu_stone;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 3;
+turninplacerate = 2200;
+turnrate = 2000;
+unitname = Illmedu;
+unitnumber = 100033;
+upright = 1;
+version = 1;
+waterline = 14;
+watermultiplier = 1.15;
+weaponswitching = 1;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+//areaofeffect = 30;
+edgeeffectiveness = 0.5;
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+explosionclass = teeny explosion;
+name = Ochre Sword;
+nimbus = 1;
+range = 90;
+reloadtime = 2.0;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 400;
+Tier1 = 1.5;
+Stalwart = 0.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 100;
+buttonimagedisabled = MeduPU;
+buttonimagedown = MeduPU;
+buttonimageselected = MeduSB;
+buttonimageup = MeduSBH;
+explosionclass = green_shockring;
+manapershot = 325;
+model = grenorb;
+name = Glare;
+nimbus = 1;
+noairweapon = 1;
+range = 350;
+reloadtime = 3.5;
+soundhit = drkspiderdie1;
+subtype = turntostone;
+waterexplosionclass = small water explosion;
+weaponvelocity = 500;
+type = Line of Sight;
+unitsonly = 1;
+weaponart = verunabuild;
+
+[DAMAGE]
+{
+default = 1;
+monarch = 0;
+fort = 0;
+factory = 0;
+lodestone = 0;
+naval = 0;
+god = 0;
+dragon = 0;
+airship = 0;
+
+}
+}

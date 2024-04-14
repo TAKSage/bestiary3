@@ -1,0 +1,184 @@
+[UNITINFO]
+{
+acceleration = 1;
+attractsgods = 1;
+bloodcolor1 = 70 10 0;
+bloodcolor2 = 90 15 2;
+bloodcolor3 = 50 5 1;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 9904;//4599
+buildtime = 1980;//705
+builddistance = 500;
+builder = 1;
+canresurrect = 1;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canreclaim = 1;
+canpatrol = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+category = ILL BUILDER;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Human;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 45;
+floater = 0;
+frozen = Illmaguss_frozen;
+healtime = 5.65624995;
+immunetoparalyzer = 1;
+manarechargerate = 15;
+maneuverleashlength = 400;
+maxdamage = 2841;
+maxmana = 1000;
+maxvelocity = 1.55;
+mogriumincome = -5;
+mogriumstorage = -500;
+movementclass = HOVER2;
+name = ChaosSavant;
+objectname = ILLMAGUS1;
+radardistance = 225;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 220;
+soundcategory = TARMAGUSS;
+soundclass = TARMAGUSS;
+standingunitorder = 1;
+stone = Illmagus1_stone;
+tedclass = Illohir;
+ThreeD = 1;
+totalallowed = 12;
+turninplacerate = 2400;
+turnrate = 2400;
+unitname = ILLMAGUS1;
+unitnumber = 100002;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.4;
+weaponswitching = 1;
+workertime = 4;//3;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+areaofeffect = 30;
+edgeeffectiveness = 1;
+buttonimagedisabled = magicstrike_down;
+buttonimagedown = magicstrike_down;
+buttonimageselected = magicstrike_selected;
+buttonimageup = magicstrike_up;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+lightmap = small;
+name = Magi Staff;
+nimbus = 1;
+range = 90;
+reloadtime = 3;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 390;
+stalwart = 0.5;
+Tier1 = 1.5;
+}
+}
+[WEAPON2]
+{
+areaofeffect = 50;
+edgeeffectiveness = 0.5;
+aimtolerance = 1024;
+buttonimagedisabled = FireBallPU;
+buttonimagedown = FireBallPU;
+buttonimageselected = FireBallSBh;
+buttonimageup = FireBallSB;
+damagetype = fire;
+explosionclass = Death;
+firestarter = 1;
+gravityadjustment = 3.0;
+model = Blue1F;
+manapershot = 300;
+nimbus = 1;
+name = Chaos Sphere;
+range = 500;
+reloadtime = 3.5;
+smoketrail = 1;
+smokedelay = 0.01;
+soundhitclass = fire;
+tracks = 1;
+guidance = 1;
+spinheading = 4500;
+turnrate = 360;
+type = Ballistic;
+waterexplosionclass = small water explosion;
+weaponart = ltngball_1a;
+weaponvelocity = 800;
+
+
+[DAMAGE]
+{
+default = 750;
+dragon = 1.5;
+airship = 1.5;
+god = 1.5;
+monarch = 0.5;
+stalwart = 1.5;
+Tier1 = 0.5;
+monster = 0.5;
+mechanical = 0.5;
+
+
+}
+}
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 100;
+builduptime = 0.2;
+buttonimagedisabled = CaptureAreaPU;
+buttonimagedown = CaptureAreaPU;
+buttonimageselected = CaptureAreaSBh;
+buttonimageup = CaptureAreaSB;
+decaytime = 3;
+damagetype = paralyzer;
+edgeeffectiveness = 1.0;
+manapershot = 1100;
+name = Word of Anharat;
+nimbus = 1;
+radiusart0 = green_shockring;
+radiusart1 = ring_fx_greena;
+radiusart2 = ring_fx_blueb;
+range = 300;
+reloadtime = 4;
+ringcount = 3;
+ringdelay = 0.25;
+ringduration = 1.4;
+shotart = manabomb;
+showeffect = 0;
+soundhit = Explode6;
+spritecount = 100;
+type = Remote Effect;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 400;
+fort = 0.25;
+factory = 0.25;
+monarch = 0.25;
+lodestone = 0;
+god = 0.25;
+dragon = 0.25;
+
+}
+
+}

@@ -1,0 +1,218 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	//original buildcost = 1074; 9500
+	buildcost = 11500;
+	//original buildtime = 190; 380
+	buildtime = 420;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	//original no cantbetransported
+	cantbetransported = 1;
+	category = ARA ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAGREN_dead;
+	//damagecategory = Human;
+	damagecategory = siege2;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 33;
+//	frozen = aragren_frozen;
+	healtime = 0.791;
+	maneuverleashlength = 500;
+	//original maxdamage = 1649; Now (170%)
+	maxdamage = 2803;
+	//original maxvelocity = 1.4;
+	maxvelocity = 0.9;
+	movementclass = GROUND2;
+	name = Grenadier;
+	objectname = ARAGREN;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARAGREN;
+	soundclass = ARAGREN;
+	standingunitorder = 1;
+	stone = ARAGREN_stone;
+	tedclass = Aramon;
+	//turninplacerate = 2500;
+	//original no totalallowed
+	totalallowed = 3;
+	turninplacerate = 1250;
+	//turnrate = 1500;
+	turnrate = 900;
+	unitname = ARAGREN;
+	unitnumber = 34;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	//original aimtolerance = 512;
+	aimtolerance = 2048;
+	//original areaofeffect = 100; 200
+	areaofeffect = 300;
+	buttonimagedisabled = GrenadeExplosivePU;
+	buttonimagedown = GrenadeExplosivePU;
+	buttonimageselected = GrenadeExplosiveSBh;
+	buttonimageup = GrenadeExplosiveSB;
+	damagetype = explosion;
+	//original no edgeeff
+	edgeeffectiveness = 0.9;
+	//original explosionclass = small explosion;
+	explosionclass = large explosion;
+	//original gravityadjustment = 6.5;
+	//original lobpreferred = 1;
+	model = aragren2;
+	//original name = Explosive;
+	name = Poisonous;
+	noairweapon = 1;
+	//original range = 503; 520
+	range = 402;
+	//original reloadtime = 2.9; 7
+	reloadtime = 4.5;
+	soundhitclass = cannon;
+	spinheading = -100;
+	spinpitch = 1000;
+	type = Ballistic;
+	vetmodel = aragren1_vet;
+	//original waterexplosionclass = small water explosion;
+	waterexplosionclass = medium water explosion;
+	//original no weaponart
+	//weaponart = cannbmed;
+	//original weaponvelocity = 600
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		//original default = 1003; 3300
+		default = 6000;
+		god = 0.2;
+		monarch = 0.1;
+		stalwart = 0.58; //dmg = 3500
+		support = 0.83;  //dmg = 5000
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	areaofeffect = 50;
+	buttonimagedisabled = GrenadeIncendiaryPU;
+	buttonimagedown = GrenadeIncendiaryPU;
+	buttonimageselected = GrenadeIncendiarySBh;
+	buttonimageup = GrenadeIncendiarySB;
+	damagetype = fire;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	//original gravityadjustment = 6.5;
+	gravityadjustment = 2.4;
+	lobpreferred = 1;
+	model = aragren3;
+	name = Incendiary;
+	noairweapon = 1;
+	//original range = 503; 1000
+	range = 900;
+	//original reloadtime = 
+	reloadtime = 12.0;
+	soundhitclass = cannon;
+	spinheading = -100;
+	spinpitch = 1000;
+	type = Ballistic;
+	vetmodel = aragren1_vet;
+	//original waterexplosionclass = small water explosion;
+	waterexplosionclass = medium water explosion;
+	//original weaponvelocity = 600;
+	weaponvelocity = 640;
+
+	[DAMAGE]
+	{
+		
+		// original default = 1284; Now (50%)
+		default = 642;
+		fort = 10.02;     //dmg = 6430 (1x = D.Totem)
+		fort2 = 13.7;     //dmg = 8774 (3x = S.hold)
+		factory = 8.92;   //dmg = 5727 (3x = Barracks)
+		lodestone = 6.66; //dmg = 4275 (4x = A. Divine)
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 512;
+	//original areaofeffect = 140; 350
+	areaofeffect = 250;
+	buttonimagedisabled = GrenadeConcussionPU;
+	buttonimagedown = GrenadeConcussionPU;
+	buttonimageselected = GrenadeConcussionSBh;
+	buttonimageup = GrenadeConcussionSB;
+	damagetype = paralyzer;
+	explosionclass = blue_shockring;
+	//original gravityadjustment = 6.5;
+	gravityadjustment = 2.0;
+	//original lobpreferred = 1;
+	model = aragren1;
+	name = Stun;
+	noairweapon = 1;
+	range = 503;
+	//original reloadtime = 2.9
+	reloadtime = 4.0;
+	soundhit = arrow08;
+	spinheading = -100;
+	spinpitch = 1000;
+	type = Ballistic;
+	vetmodel = aragren1_vet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		//original default = 228; Now (200%)
+		default = 456;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+		stalwart = 0.5;
+		support = 0.2;
+		//This is new
+		fort2 = 0;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 189;
+	damagetype = explosion;
+	edgeeffectiveness = 0.6;
+	explosionclass = medium explosion;
+	name = Explosion;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1023;
+		monarch = 0.5;
+		siege = 0.35;   //dmg = 358
+	}
+}

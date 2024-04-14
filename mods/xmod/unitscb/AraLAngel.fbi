@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.75;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 3270;
+	buildtime = 500;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canhover = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagetype = Human;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 20;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2100;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Angel;
+	objectname = AraLAngel;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = AraLAngel;
+	soundclass = AraLAngel;
+	standingunitorder = 2;
+	stone = AraLAngel_stone;
+	tedclass = Aramon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = AraLAngel;
+	unitnumber = 100786;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 200 230 255;
+	name = Lightning Bolt;
+	nimbus = 1;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 2;
+	soundhit = AraLangelata1;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 450;
+		undead = 1.2;
+		monarch = .5;
+		god = .25;
+	}
+}

@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 1277;
+	buildtime = 495;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TarorTow_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 35;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.447916667;
+	maxdamage = 3500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Guard Tower;
+	objectname = TarorTow;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = TARORTOW;
+	soundclass = TARORTOW;
+	tedclass = Taros;
+	unitname = TARORTOW;
+	unitnumber = 10350;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.2;
+	explosionclass = large explosion;
+	minrange = 120;
+	name = ARASSH Cannonballs;
+	range = 350;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 550;
+		tier1 = 2.0;
+	}
+}

@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	buildcost = 30125;
+	buildtime = 6500;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 35;
+	floater = 0;
+	healtime = 0;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 26000;
+	maxmana = 1000;
+	maxvelocity = 1.23;
+	movementclass = GROUND3;
+	name = Scatha;
+	noveteran = 1;
+	objectname = Tarscatha;
+	radardistance = 25000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance =  800;
+	soundcategory = TARDRAG;
+	soundclass = TARDRAG;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 1600;
+	turnrate = 1700;
+	unitname = Tarscatha;
+	unitnumber = 913;
+	upright = 1;
+	version = 1;
+	waterline = 34;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 160;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	explosionclass = Volcblast;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Udun Fire;
+	range = 305;
+	reloadtime = 5.0;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 4000;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	manapershot = 300;
+	name = Guided Fire Ball;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 0.2;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1020;
+	}
+}

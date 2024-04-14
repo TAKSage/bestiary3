@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	bodytype = stone;
+//	original buildcost = 109;
+	buildcost = 69;
+//	original buildtime = 95; 80; 40;
+	buildtime = 60;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARWALL;
+	damagecategory = wall;
+	description = Taros;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.1875;
+	isfeature = 1;
+//	original maxdamage = 4000;
+	maxdamage = 3000;
+//	original maxslope = 15
+	maxslope = 20;
+// 	original maxwaterdepth = 0
+	maxwaterdepth = 2;
+	name = (M) Wall;
+	objectname = TARWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARWALL;
+	soundclass = TARWALL;
+	tedclass = Taros;
+	unitname = TARWALL;
+	unitnumber = 113;
+	unitstandorders = 0;
+	//based on Cavedog's version = 1;
+	version = M.1.0;
+	yardmap = o;
+}

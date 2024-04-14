@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 20000;
+	buildtime = 3000;
+	standingunitorder = 1;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = Ara MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=AraVerazhopL_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Light;
+	experiencepoints = 250;
+	//manarechargerate = 1;
+	//maxmana = 750;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = .5;
+	maxdamage = 1250;
+	maxslope = 100;
+	maxwaterdepth = 20;
+	name = Scrying Tower;
+	noveteran = 1;
+	objectname = AraVERAZHOPL;
+	radardistance = 5000;
+	totalallowed = 1;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 100;
+	soundcategory = AraVERAZHOPL;
+	soundclass = AraVERAZHOPL;
+	tedclass = Light;
+	totalallowed = 3;
+	unitname = AraVERAZHOPL;
+	unitnumber = 97979735;
+	version = 1;
+	yardmap = o;
+	//weaponswitching = 1;
+}

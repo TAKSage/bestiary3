@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2762;
+	buildtime = 333;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantransport = 1;
+	//cantbestoned = 1;
+	//cantbefrozen = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARADERN_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	frozen = aradern_frozen;
+	healtime = 2.5;
+	isairbase = 1;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxmana = 1000;
+	manarechargerate = 10;	
+	maxvelocity = 3.1;
+	movementclass = GROUND3;
+	name = Mage of Dernhest;
+	objectname = ARADERN;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = NPCDERN;
+	soundclass = NPCDERN;
+	stone = aradern_stone;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	transmaxunits = 1;
+	transportcapacity = 1;
+	transportdistance = 200;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	//totalallowed = 1;
+	turninplacerate = 900;
+	turnrate = 1000;
+	unitname = ARADERN;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	firestarter = 1;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 200;
+	name = Individual Mind Control;
+	range = 300;
+	reloadtime = 2;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}

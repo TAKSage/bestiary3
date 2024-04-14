@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 3200;
+	buildtime = 600;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowflame_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Machine;
+	experiencepoints = 25;
+	healtime = 0.2;
+	maneuverleashlength = 500;
+	maxdamage = 8500;
+	maxvelocity = 0.5;
+	mogriumincome = -6;
+	movementclass = GROUND4;
+	name = Flamethrower;
+	objectname = ARAAOWFLAME;
+	pitchscale = 1.5;
+	roadmultiplier = 1.75;
+	shootme = 1;
+	side = VER;
+	sightdistance = 300;
+	soundcategory = CREFIRE;
+	soundclass = CREFIRE;
+	standingunitorder = 1;
+	tedclass = Machine;
+	turninplacerate = 225;
+	turnrate = 225;
+	unitname = VERAOWFLAME;
+	unitnumber = 43604;
+	version = 1;
+	watermultiplier = 0.4;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = fire;
+	emittime = 85;
+	firestarter = 1;
+	hweffect = fire;
+	name = Flamethrower;
+	range = 190;
+	reloadtime = 8;
+	subtype = fire;
+	soundhitclass = creflame;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 4750;
+		syron = 0.1;
+		spirit = 0.5;
+		firespirit = 0;
+		dragon = 0.25;
+		demon = 0.25;
+		azrac = 0.75;
+		lizard = 1.25;
+		frostling = 1.1;
+		mechanical = 1.2;
+		city = 0.75;
+		factory = 0.75;
+		fort = 0.75;
+		building = 0.75;	
+	}
+}
+
+[EXPLODEAS]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	damagetype = fire;
+	edgeeffectiveness = 0.5;
+	explosionclass = composite04flame;
+	firestarter = 1;
+	name = Explosion;
+	range = 175;
+	soundhit = chitwd02;
+	type = Line of Sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 700;
+		mechanical = 5;		// Discourages flamethrower rushes :)
+		syron = 0.1;
+		spirit = 0.5;
+		firespirit = 0;
+		azrac = 0.75;
+		demon = 0.25;
+		lizard = 1.25;
+		frostling = 1.1;
+	}
+}
+
+

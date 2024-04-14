@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2600;		
+	buildtime = 420;		
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verhghtitan_dead;
+	damagecategory = highman;
+	defaultmissiontype = Standby;
+	description = Highman;
+	experiencepoints = 28;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 14650;
+	maxvelocity = 1.1;
+	mogriumincome = -7;
+	movementclass = GROUND2;
+	name = Titan;
+	objectname = VERHGHTITAN;
+	roadmultiplier = 1.35;
+	radardistance = 675;
+	shootme = 1;
+	side = VER;
+	sightdistance = 600;
+	soundcategory = ARAGOD;
+	soundclass = ARAGOD;
+	standingunitorder = 2;
+	tedclass = Highman;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERHGHTITAN;
+	unitnumber = 42567;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 62;
+	edgeeffectiveness = 0.65;
+	name = Sword;
+	range = 120;		
+	reloadtime = 2.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1975;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

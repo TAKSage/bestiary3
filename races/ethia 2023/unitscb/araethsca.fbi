@@ -1,0 +1,126 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 1;
+	buildcost = 231;
+	buildtime = 110;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	cloakcost = 17;
+	cloakcostmoving = 29;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Araethsca_dead;
+	damagecategory = Tier1;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 6;
+	healtime = 0.8125;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 1510;
+	maxmana = 1500;
+	maxvelocity = 1.55;
+	mincloakdistance = 105;
+	movementclass = GROUND2;
+	name = Scarab;
+	objectname = ARAETHSCA;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	kamikaze = 1;
+	//kamikazedistance = 100;
+	SELFDESTRUCTAS = Scarab Death;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 120;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	stone = ARAETHSCA_stone;
+	standingunitorder = 2;
+	stone = tarspout_stone;
+	tedclass = Ethia;
+	turninplacerate = 2400;
+	turnrate = 2200;
+	unitname = ARAETHSCA;
+	unitnumber = 4807;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.91;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 1.0;
+	name = Quick Bite;
+	range = 100;
+	reloadtime = 2.5;
+	//soundhitclass = lightning;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 100;
+	}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 150;
+damagetype = explosion;
+edgeeffectiveness = 1.0;
+explosionclass = fireball explosion;
+name = Scarab Guts;
+shakeduration = 1;
+shakemagnitude = 1;
+soundhit = TARSHIPDIE5;
+type = Ballistic;
+waterexplosionclass = composite04flame;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+	default = 1000;
+	monarch = 0.5;
+    god = 0.5;
+    dragon = 0.5;
+    Stalwart = 0.5;
+	fort = 1.5;
+}
+}
+
+[SELDESTRUCTAS]
+{
+areaofeffect = 150;
+damagetype = fire;
+explosionclass = megaflame;
+edgeeffectiveness = 1;
+firestarter = 1;
+name = Scarab Death;
+soundhit = DEATH11;
+type = Ballistic;
+waterexplosionclass = megaflame;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 1000;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+fort = 1.5;
+}
+}

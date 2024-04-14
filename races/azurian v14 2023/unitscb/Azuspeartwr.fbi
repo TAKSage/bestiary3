@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	name = Spear Tower;
+	buildcost = 1000;
+	buildtime = 250;
+
+	healtime = 0.5;
+	maxdamage = 6200;
+
+	manarechargerate = 1;
+	maxmana = 50;
+
+	bodytype = stone;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	buildangle = 0;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = AZU ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Azuspeartwr_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	fireatwillrandom = 1;
+	description = Azurians;
+	experiencepoints = 31;
+	footprintx = 3;
+	footprintz = 3;
+	maxslope = 12;
+	maxwaterdepth = 0;
+	objectname = AZUSPEARTWR;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 350;
+	soundcategory = AZUSPEARTWR;
+	soundclass = AZUSPEARTWR;
+	tedclass = Azurians;
+	unitname = AZUSPEARTWR;
+	unitnumber = 3299;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+
+	buttonimagedisabled = spearstandardpu;
+	buttonimagedown = spearstandardpu;
+	buttonimageselected = spearstandardsbh;
+	buttonimageup = spearstandardsb;
+
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Spear;
+	range = 550;
+	reloadtime = 2.1;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{	
+		default = 420;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON2]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+
+	buttonimagedisabled = speartrackingpu;
+	buttonimagedown = speartrackingpu;
+	buttonimageselected = speartrackingsbh;
+	buttonimageup = speartrackingsb;
+	manapershot = 10;
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Tracking Spear;
+	range = 550;
+	reloadtime = 2.1;
+	soundhitclass = arrow;
+	type = Guided;
+	veteranlevel = 10;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{	
+		default = 610;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}

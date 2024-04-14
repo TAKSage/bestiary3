@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 451;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 150;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cantbecaptured = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarotherorc_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 5;
+	healtime = 0.583333333;
+	maneuverleashlength = 500;
+	maxdamage = 1403;
+	maxvelocity = 1.55;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Orc Builder;
+	objectname = tarisenbuild;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARTROOP;
+	soundclass = TARTROOP;
+	standingunitorder = 1;
+	stone = arabuild_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarisenbuild;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	wind = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Woodaxe;
+	range = 30;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 230;
+	}
+}

@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	ailimit = 25;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2300;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canhover = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = TAROS;
+	experiencepoints = 10;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxvelocity = 2.4;
+	movementclass = ground3;
+	name = Flame Beast;
+	noveteran = 1;
+	objectname = tarbbb;
+	roadmultiplier = 1.25;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = LIFWOLF;
+	soundclass = LIFWOLF;
+	standingunitorder = 2;
+	tedclass = Animal;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarbbb;
+	unitnumber = 936;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = BBQ;
+	range = 300;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+
+[WEAPON2]
+{
+	name = Skull Smash;
+	range = 150;
+	reloadtime = 1.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}
+

@@ -1,0 +1,176 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 15500;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 3250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA Monarch;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 30;
+	experiencepoints = 151;
+	healtime = 0.015;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 16500;
+	maxmana = 1000;
+	maxvelocity = 2.1;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Galadriel;
+	noveteran = 1;
+	objectname = aragaladriel;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 962;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = aragaladriel;
+	unitnumber = 15000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 95;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 210;
+	}
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	aimtolerance = 2000;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	emittime = 80;
+	hweffect = creon lightbeam;
+	innercolor = 255 255 150;
+	manapershot = 100;
+	middlecolor = 230 230 145;
+	outercolor = 200 200 140;
+	lightmap = large;
+	minrange = 66;
+	name = Starfire;
+	range = 410;
+	reloadtime = 3.4;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 950;
+		tarwitchking  = 7.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 200;
+	builduptime = 3;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 0.2;
+	manapershot = 700;
+	name = Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 250;
+	reloadtime = 5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	shotart = cannbsm;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 600;
+		tarwitchking  = 7.5;
+	}
+}
+
+
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 600;
+	builduptime = 1;
+	buttonimagedisabled = WaterBurstPU;
+	buttonimagedown = WaterBurstPU;
+	buttonimageselected = WaterBurstSBh;
+	buttonimageup = WaterBurstSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 1000;
+	name = Power Blast;
+	nimbus = 1;
+	radiusart0 = TsunamiExplode;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 120;
+	reloadtime = 1.5;
+	ringcount = 2;
+	ringdelay = 0.15;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 23;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		tarwitchking  = 7.5;
+	}
+}

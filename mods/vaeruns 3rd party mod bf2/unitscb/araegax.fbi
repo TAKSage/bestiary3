@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 500;
+	buildtime = 150;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//copyright = Copyright 1999 Z-TA. All rights reserved.;
+	corpse = araegax_dead;
+	damagecategory = fort;
+	description = Aramon;
+	experiencepoints = 10;
+	footprintx = 4;
+	footprintz = 14;
+	gate = 1;
+	healtime = 0;
+	maxdamage = 24000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Side Gate;
+	objectname = araegax;
+	onoffable = 1;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = ARANGATE;
+	soundclass = ARANGATE;
+	tedclass = Aramon;
+	unitname = araegax;
+	unitnumber = 8005;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+	ai_weight = weight araegax 0;
+	ai_limit = limit araegax 0;
+}

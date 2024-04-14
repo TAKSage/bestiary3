@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.14;
+	//buildcost = 2750;
+	buildcost = 3820; // ~+39%
+	buildtime = 344;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araserp_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 48;
+	floater = 1;
+	healtime = 0.958;
+	maneuverleashlength = 314;
+	maxdamage = 6250;
+	maxvelocity = 4.3;
+	movementclass = WATER4;
+	name = Sea Serpent;
+	objectname = ARASERP;
+	pitchscale = 1.5;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 270;
+	soundcategory = ARASERP;
+	soundclass = ARASERP;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	turninplacerate = 380;
+	turnrate = 310;
+	unitname = ARASERP;
+	unitnumber = 165;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1300;
+	areaofeffect = 48;
+	edgeeffectiveness = 0.5;
+	explosionclass = WaterBallExp;
+	name = Water Ball;
+	range = 600;
+	reloadtime = 4.0;
+	soundhit = monelemhit1;
+	subtype = guided;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 800;
+		//naval = 1.6;
+		naval = 1.4;
+		rictus = .75;
+		  fort = .66;
+		  factory = .66;
+		  monarch = .25;
+	}
+}

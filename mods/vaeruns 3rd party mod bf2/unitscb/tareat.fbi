@@ -1,0 +1,114 @@
+[UNITINFO]
+{
+	acceleration = 0.66;
+	bankscale = 2.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.33;
+	buildcost = 4566;
+	buildtime = 1250;
+	weaponswitching = 1;
+	canattack = 1;
+	//cancloak = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	//cloakcost = 25;
+	//cloakcostmoving = 50;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 45;
+	frozen = tareat_frozen;
+	healtime = 0.66;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxmana = 2000;
+	maxvelocity = 1.5;
+	//mincloakdistance = 50;
+	movementclass = HOVER2;
+	name = Soul Eater;
+	objectname = TAReat;
+	pitchscale = 2.4;
+	roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 222;
+	soundcategory = TAReat;
+	soundclass = TAReat;
+	standingunitorder = 1;
+	stone = tareat_stone;
+	tedclass = Taros;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = TAREAT;
+	unitnumber = 91;
+	totalallowed = 9;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 150;
+	buttonimagedisabled = stonegazePU;
+	buttonimagedown = stonegazePU;
+	buttonimageselected = stonegazeSBh;
+	buttonimageup = stonegazeSB;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Stone Gaze;
+ 	noairweapon = 1;
+	range = 800;
+	reloadtime = 3.6;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = FireballA;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisable = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+ 	explosionclass = flamestrike;
+	firestarter = 1;
+	manapershot = 400;
+	name =  Death Stare;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = fire;
+	type = line of sight;
+	weaponart = fireballA;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 2500;
+                monarch = 0.1;
+	}
+}

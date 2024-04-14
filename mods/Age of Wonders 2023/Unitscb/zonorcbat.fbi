@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1100;
+	buildtime = 310;
+	canfly = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = orc;
+	defaultmissiontype = VTOL_standby;
+	description = Orc;
+	experiencepoints = 25;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.3;
+	maneuverleashlength = 500;
+	maxdamage = 2450;
+	maxvelocity = 4.2;
+	maxwaterdepth = 0;
+	moverate1 = 5;
+	moverate2 = 10;
+	mogriumincome = -5;
+	name = Doom Bat;
+	objectname = ZONORCBAT;
+	radardistance = 700;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 500;
+	soundcategory = ZONBAT;
+	soundclass = ZONBAT;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 800;
+	turnrate = 2600;
+	unitname = ZONORCBAT;
+	unitnumber = 42519;
+	upright = 1;
+	version = 1;
+
+	[AdjustArmor]		// Cause Fear
+	{
+		adjustment = 0.75;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.5;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = small smoke explosion;
+	hweffect = deathray;
+	name = Doom Gaze;
+	range = 450;
+	reloadtime = 7.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1100;
+
+	[DAMAGE]
+	{
+		default = 790;
+		spirit = 0.75;
+		firespirit = 0.75;
+		syron = 0;
+		highman = 0.75;
+		undead = 0.1;
+		mechanical = 0.5;
+		naval = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+

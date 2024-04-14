@@ -1,0 +1,141 @@
+[UNITINFO]
+{
+	name = Aquaeon;
+	buildcost = 26000;
+	buildtime = 6500;
+
+	healtime = 9.0;
+	maxdamage = 22750;	
+
+	maxmana = 1000;
+	manarechargerate = 30;
+
+	totalallowed = 1;
+
+	acceleration = 0.25;
+	bankscale = 0.45;
+	bloodcolor1 = 0 0 45;
+	bloodcolor2 = 0 0 75;
+	bloodcolor3 = 0 0 105;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = AZU FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 155;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Azurians;
+	experiencepoints = 325;
+	footprintx = 4;
+	footprintz = 4;
+	hoverattack = 1;
+	hoverattackdistance = 165;
+	maneuverleashlength = 500;
+	maxvelocity = 8.35;
+	maxwaterdepth = 0; 
+	moverate1 = 1.5;
+	moverate2 = 7.5;
+	objectname = AZUDRAG;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 210;
+	soundcategory = AZUDRAG;
+	soundclass = AZUDRAG;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turninplacerate = 800;
+	turnrate = 450;
+	unitname = AZUDRAG;
+	unitnumber = 3274;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 75;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	explosionclass = WaterBallExp;
+	name = Aqua Breath;
+	range = 250;
+	reloadtime = 0.2;	// A tenth the reload time of the Aramon Dragon
+	manapershot = 0;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+	weaponart = WaterBall;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 80;	//A fifth the damage of the Aramon Dragon
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 600;
+	builduptime = 0.45;
+	buttonimagedisabled = Cataclysmdisabled;
+	buttonimagedown = Cataclysmdisabled;
+	buttonimageselected = Cataclysmselected;
+	buttonimageup = Cataclysmup;
+	decaytime = 3.5;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Cataclysm;
+	nimbus = 1;
+	radiusart0 = ring_fx_redC;
+	radiusart1 = ring_fx_whiteC;
+	radiusart2 = TsunamiExplode;
+	range = 450;
+	reloadtime = 5.0;
+	ringcount = 5;
+	ringdelay = 0.35;
+	ringduration = 1.35;
+	shakeduration = 2.2;
+	shakemagnitude = 3.5;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 40;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}

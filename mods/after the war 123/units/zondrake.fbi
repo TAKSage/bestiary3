@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.1;
+	buildcost = 2505;
+//	mogriumbounty = 250.5;
+	buildtime = 300;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = dragon;
+	defaultmissiontype = VTOL_Standby;
+	description = Zhon;
+	experiencepoints = 27;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .836111111;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	name = Drake;
+	objectname = ZONDRAKE;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONDRAKE;
+	soundclass = ZONDRAKE;
+	standingunitorder = 2;
+	stone = zondrake_stone;
+	tedclass = Zhon;
+	turninplacerate = 1000;
+	turnrate = 200;
+	unitname = ZONDRAKE;
+	unitnumber = 162;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 500;
+	reloadtime = 3.25;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 725;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}

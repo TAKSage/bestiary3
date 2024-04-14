@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 25000;
+	buildtime = 2500;
+	//buildcost = 1;
+	//buildtime = 1;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantransport = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+        cantransport = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragarrL_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Light;
+	experiencepoints = 250;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = .07;
+	maxdamage = 32500;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Forward Keep;
+	objectname = ARAGARRL;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = ARAGARRL;
+	soundclass = ARAGARRL;
+	tedclass = Light;
+	totalallowed = 4;
+	transportcapacity = 25;
+	transportdistance = 150;
+	transportsize = 30;
+	transportsizecapacity = 300;
+	unitname = ARAGARRL;
+	unitnumber = 97979721;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	minrange = 100;
+	name = Cannon;
+	range = 300;
+	reloadtime = 5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		factory = 0;
+		fort = 0;
+	}
+}
+

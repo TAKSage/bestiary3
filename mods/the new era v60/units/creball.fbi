@@ -1,0 +1,47 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 0;
+	buildcost = 3600;
+	buildtime = 430;
+	cantransport = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creball_dead;
+	damagecategory = fort;
+	description = Creon;
+	experiencepoints = 15;
+	footprintx = 3;
+	footprintz = 2;
+	frozen = creball_frozen;
+	healtime = 0.725;
+	isairbase = 1;
+	maxdamage = 10000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Observer;
+	objectname = CREBALL;
+	radardistance = 1100;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 700; 
+	soundcategory = CREBALL;
+	soundclass = CREBALL;
+	stone = creball_stone;
+	tedclass = Creon;
+	transmaxunits = 1;
+	transportcapacity = 1;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	unitname = CREBALL;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = c;
+}

@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scales;
+	brakerate = 0.2;
+	buildcost = 1888;
+	buildtime = 822;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+               cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.469444444;
+               hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 4970;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Sand Wyrm;
+	objectname = ZONSWYRM;
+	radardistance = 300;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 115;
+	soundcategory = ZONSWYRM;
+	soundclass = ZONSWYRM;
+	standingunitorder = 2;
+	stone = zonswyrm_stone;
+	tedclass = Zhon;
+	turninplacerate = 1000;
+	turnrate = 400;
+	unitname = ZONSWYRM;
+	unitnumber = 174968;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 30;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 45;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 248 254 203;
+	name = Lightning;
+	outercolor = 197 251 153;
+	range = 500;
+	reloadtime = 4.9;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1431;
+                                monarch = 0.2;
+	}
+}

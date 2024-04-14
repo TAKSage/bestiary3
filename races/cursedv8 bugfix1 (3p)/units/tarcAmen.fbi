@@ -1,0 +1,61 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 7255;
+	buildtime = 655;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcamen_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 30;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.270833333;
+	maxdamage = 18000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Eraser;
+	objectname = tarcamen;
+	radardistance = 1000;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 580;
+	soundcategory = tarcamen;
+	soundclass = tarcamen;
+	tedclass = Taros;
+	unitname = tarcamen;
+	unitnumber = 803;
+	version = 1.2;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	explosionclass = green_shockring;
+	model = shstar.3do;
+	minrange = 100;
+	name = Amen;
+	range = 600;
+	reloadtime = 1.7;
+	soundhitclass = fire;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 650;
+		dragon = 0.5;
+	}
+}

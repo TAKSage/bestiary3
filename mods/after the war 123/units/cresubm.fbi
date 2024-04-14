@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration = 0.51;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.15;
+	buildcost = 2155;
+//	mogriumbounty = 215.5;
+	buildtime = 290;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE BOAT ATTACK BALLISTIC;
+	cancloak = 1;
+	cloakcost = 15;
+	cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRESUBM_dead;
+	damagecategory = steelnaval;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 19;
+	floater = 1;
+	healtime = 1.2083;
+	maneuverleashlength = 500;
+	maxdamage = 3700;
+	maxmana = 1000;
+	manarechargerate = 10;
+	mincloakdistance = 100;
+	maxvelocity = 1.9;
+	movementclass = WATER2;
+	name = Submersible;
+	objectname = CRESUBM;
+	pitchscale = 1.5;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 200;
+radardistance = 550;
+	soundcategory = CRESUBM;
+	soundclass = CRESUBM;
+	standingunitorder = 2;
+	tedclass = Creon;
+	turnrate = 85;
+	unitname = CRESUBM;
+	unitnumber = 43;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 40;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	gravityadjustment = 2.8;
+	lobpreferred = 1;
+	minrange = 180;
+	name = Marine Mortar;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 2.8;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 520;
+
+	[DAMAGE]
+	{
+		default = 850;
+		stone = 1.25;
+		factory = 1.25;
+		steelnaval = 0.75;
+		hardscale = 0.5;
+	}
+}

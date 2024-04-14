@@ -1,0 +1,142 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 20000;
+	buildtime = 2000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = Ara MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraVerlan_dead;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 275;
+	healtime = 5;
+	maneuverleashlength = 400;
+	maxdamage = 23000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name = Champion Knight;
+	objectname = AraVERLAN;
+	roadmultiplier = 1.4;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 350;
+	soundcategory = AraVerLan;
+	soundclass = AraVerLan;
+	standingunitorder = 2;
+	stone = arapal_stone;
+	tedclass = Light;
+	turninplacerate = 900;
+	turnrate = 700;
+	totalallowed = 1;
+	unitname = AraVERLAN;
+	unitnumber = 97979740;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = DaggerDown;
+	buttonimagedown = DaggerDown;
+	buttonimageselected = DaggerSelected;
+	buttonimageup = DaggerUp;
+	edgeeffectiveness = .1;
+	name = Lance;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 1.25;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2024;
+	areaofeffect = 30;
+	buttonimagedisabled = FireSpearDown;
+	buttonimagedown = FireSpearDown;
+	buttonimageselected = FireSpearSelected;
+	buttonimageup = FireSpearUp;
+	explosionclass = Volcblast;
+	edgeeffectiveness = 0.7;
+	firestarter = 1;
+	model = fireball;
+	name = Flame Spear;
+	range = 600;
+	reloadtime = 4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = fireball5;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+    [DAMAGE]
+    {	
+		default = 600;
+		monarch = 1.25;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+    }
+}

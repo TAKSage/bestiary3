@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	attackrunlength = 150;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.05;
+	buildcost = 3600;
+	buildtime = 400;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 18;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.977777778;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3513;
+	maxmana = 1200;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Flying Terror;
+	objectname = TARBDP;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARBEAK;
+	soundclass = TARBEAK;
+	standingunitorder = 2;
+	stone = tarbeak_stone;
+	tedclass = Taros;
+	turninplacerate = 1000;
+	turnrate = 700;
+	unitname = TARBDP;
+	unitnumber = 72;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	manapershot = 500;
+	name = Steely Glare;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = fireballA;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Confusion;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		airship = 0;
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 320;
+	builduptime = 0.6;
+	decaytime = 1.0;
+	edgeeffectiveness = 1;
+	explosionclass = blue_shockring;
+	manapershot = 1100;
+	name = Dark Storm;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_blueC;
+	range = 300;
+	nimbus = 1;
+	noairweapon = 1;
+	reloadtime = 4.0;
+	ringcount = 1;
+	ringdelay = 10.0;
+	ringduration = 1.0;
+	showeffect = 1;
+	soundhit = arrow08;
+	spritecount = 50;
+	subtype = turntostone;
+	type = Line of sight;
+	unitsonly = 1;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

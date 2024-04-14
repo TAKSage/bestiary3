@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.3;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.06;
+	buildcost = 1491;
+	buildtime = 244;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpult_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 32;
+	healtime = 0.6625;
+	maneuverleashlength = 500;
+	maxdamage = 1600;
+	maxvelocity = 1.05;
+	movementclass = GROUND4;
+	name = Catapult;
+	notargetcategory = FLY;
+	objectname = ARAETHPULT;
+	pitchscale = 1.5;
+	roadmultplier = 1.6;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 160;
+	soundcategory = VERPULT;
+	soundclass = VERPULT;
+	standingunitorder = 1;
+	stone = verpult_stone;
+	tedclass = Ethia;
+	turninplacerate = 350;
+	turnrate = 350;
+	unitname = ARAETHPULT;
+	unitnumber = 811;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 260;
+	damagetype = explosion;
+	explosionclass = large dust puff;
+	gravityadjustment = 4;
+	lobpreferred = 1;
+	model = Sandstone.3do;
+	name = Sandstone;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 6.7;
+	shadowgaf = shadows;
+	spinheading = 100;
+	spinpitch = 300;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 860;
+
+	[DAMAGE]
+	{
+		default = 1213;
+	}
+}

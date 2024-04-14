@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 2000;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 200;
+	canfly = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbetransported = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	cruisealt = 100;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxvelocity = 5;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 100;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Flying Slug;
+	objectname = ZONFBUIN;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = ;
+	soundclass = ZONDRAKE;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	totalallowed = 8;
+	turninplacerate = 550;
+	turnrate = 500;
+	unitname = ZONFBUIN;
+	unitnumber = 1515159;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 25;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+
+}

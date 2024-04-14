@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 2497;
+	buildtime = 1249;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 22;
+	healtime = 1.2125;
+	maneuverleashlength = 750;
+	maxdamage = 18225;
+	maxvelocity = 1.6;
+	movementclass = GROUND3;
+	name = Ent Avenger;
+	objectname = araentaveng;
+	roadmultiplier = 1.21;
+	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 270;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 2;
+	stone = zonorc_stone;
+	tedclass = Aramon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = araentaveng;
+	unitnumber = 178;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 88;
+	edgeeffectiveness = 0.7;
+	name = Ent Fist;
+	range = 95;
+	reloadtime = 2.75;
+	soundhitclass = rock;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1100;
+	}
+}

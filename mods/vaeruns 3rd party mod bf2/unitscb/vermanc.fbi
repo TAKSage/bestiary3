@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1440;
+	buildtime = 390;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vermanc_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 15;
+                frozen = vermanc_frozen;
+	healtime = 0.45;
+	maxmana = 100;
+	manarechargerate = 3;
+	maneuverleashlength = 500;
+	maxdamage = 3200;
+	maxvelocity = 3.1;
+	movementclass = GROUND2;
+	name = Maniac;
+	objectname = VERMANC;
+	roadmultiplier = 1.5;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 120;
+	soundcategory = VERBERS;
+	soundclass = VERBERS;
+	standingunitorder = 2;
+	stone = vermanc_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERMANC;
+	unitnumber = 3215;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 15;
+	buttonimagedisabled = NormalmancBH;
+	buttonimagedown = NormalmancPU;
+	buttonimageselected = NormalmancBh;
+	buttonimageup = NormalmancSB;
+	//manapershot = 1;
+	nimbus = 1;
+	edgeeffectiveness = 0.9;
+	name = Normal;
+	range = 50;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = PsychmancPU;
+	buttonimagedown = PsychmancPU;
+	buttonimageselected = PsychmancBh;
+	buttonimageup = PsychmancSB;
+	manapershot = 25;
+	nimbus = 1;
+	edgeeffectiveness = 0.5;
+	name = Psycho;
+	range = 70;
+	reloadtime = 0.7;
+	soundhitclass = sword;
+	type = Melee;
+
+[DAMAGE]
+	{
+		default = 1900;
+	}
+}

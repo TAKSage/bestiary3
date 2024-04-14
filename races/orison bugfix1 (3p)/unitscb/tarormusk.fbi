@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3350;
+	buildtime = 380;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarormusk_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 20;
+	fireatwillrandom = 1;
+	frozen = tarormusk_frozen;
+	healtime = 0.508333333;
+	maneuverleashlength = 500;
+	maxdamage = 1800;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Renegade;
+	objectname = tarormusk;
+	radardistance = 780;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 260;
+	soundcategory = tarormusk;
+	soundclass = tarormusk;
+	standingunitorder = 1;
+	stone = tarormusk_stone;
+	tedclass = Taros;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = tarormusk;
+	unitnumber = 311;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Devestator;
+	range = 1000;
+	reloadtime = 7.5;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1300;
+		tier1 = 2.0;
+	}
+}

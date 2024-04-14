@@ -1,0 +1,40 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	//buildcost = 15000;
+	//buildtime = 5000;
+	buildcost = 8000;
+	buildtime = 2000;
+	cantbestoned = 1;
+	category = ARA;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Light;
+	experiencepoints = 100;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .01;
+	maxdamage = 250;
+	maxslope = 100;
+	maxwaterdepth = 0;
+	//mogriumincome = 40;
+	mogriumincome = 25;
+	mogriumstorage = 2000;
+	name = Mana Monolith;
+	objectname = aradelmanaL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = aradelmanaL;
+	soundclass = aradelmanaL;
+	tedclass = Light;
+	totalallowed = 3;
+	unitname = aradelmanaL;
+	unitnumber = 97979713;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 255 255 255;
+bloodcolor2 = 0 0 0;
+bloodcolor3 = 0 0 0;
+bmcode = 1;
+bodytype = armor;
+brakerate = 5;
+buildcost = 936;
+buildtime = 178;
+canattack = 1;
+cancloak = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+category = ILL MELEE ATTACK;
+cloakcost = 15;
+cloakcostmoving = 23;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLundw_dead;
+damagecategory = undead;
+defaultmissiontype = Standby;
+description = ILLohir;
+experiencepoints = 29;
+floater = 0;
+frozen = ILLundw_frozen;
+init_cloaked = 1;
+healtime = 1.0;
+manarechargerate = 20;
+maneuverleashlength = 250;
+maxdamage = 3738;
+maxmana = 1000;
+maxvelocity = 1.25;
+mincloakdistance = 80;
+movementclass = HOVER2;
+name = ChaosSkeletal;
+objectname = ILLUNDW;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 140;
+soundcategory = TARUNDW;
+soundclass = TARUNDW;
+standingunitorder = 2;
+stone = ILLundw_stone;
+ThreeD = 1;
+tedclass = ILLohir;
+turninplacerate = 2000;
+turnrate = 2000;
+unitname = ILLUNDW;
+unitnumber = 1000464;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.85;
+}
+
+[WEAPON1]
+{
+areaofeffect = 15;
+edgeeffectiveness = 0.5;
+name = DeathBlade;
+range = 70;
+reloadtime = 1.3;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 679;
+monarch = 1.5;
+stalwart = 1.5;
+god = 1.5;
+Tier1 = 0.5;
+undead = 0.25;
+human = 1.5;
+
+}
+}

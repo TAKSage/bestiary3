@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 255;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3000;
+//	mogriumbounty = 300;
+	buildtime = 305;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+cantbecaptured = 1;
+	category = CRE BALLISTIC ATTACK;
+	cloakcost = 15;
+	cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creadrone_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 33;
+	footprintx = 12;
+	footprintz = 12;
+	healtime = .72917;
+        manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3050;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mincloakdistance = 50;
+	movementclass = SPIDER3S;
+	name = Spiderdrone;
+	objectname = CREADRONE;
+	radardistance = 500;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 220;
+	soundcategory = CREADRONE;
+	soundclass = CREADRONE;
+	standingunitorder = 1;
+	tedclass =Creon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = CREADRONE;
+	unitnumber = 12047;
+	upright = 1;
+	version = 1;
+	waterline = 4;
+        watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2048;
+	areaofeffect = 40;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = small Explosion;
+	gravityadjustment = 1.5;
+	model = AirBolt;
+	name = Steammissile;
+	range = 650;
+	reloadtime = 4;
+	soundwater = splash;
+	soundhitclass = cremdcan;
+	type = Guided;
+	//unitsonly = 1;
+	waterexplosionclass = medium explosion;
+	TurnRate = 360;
+	smoketrail = 1;
+	smokedelay = 4.5;
+	weaponvelocity = 400;
+	startvelocity=50;
+	weaponacceleration=50;
+	guidance = 1;
+	nimbus = 1;
+	tracks = 1;
+
+	[DAMAGE]
+	{
+		default = 1050;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		shielded = 2;
+		steel = 2;
+		steelnaval = 1.25;
+		naval = 1.25;
+		hardscale = 1.25;
+	}
+}

@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 300;
+	buildtime = 90;
+    cantbecaptured = 1;
+    cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ILL;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Illohir;
+	experiencepoints = 7;
+    floater = 0;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.25757575;
+    immunetoparalyzer = 1;
+	maxdamage = 5680;
+	maxslope = 30;
+	maxwaterdepth = 5;
+	mogriumincome = 11;//15;
+	mogriumstorage = 1100;//1500;
+	name = ChaosLode;
+	objectname = ILLLODE;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ILL;
+	sightdistance = 125;
+	soundcategory = tarillode;
+	soundclass = tarillode;
+	tedclass = Illohir;
+    ThreeD = 1;
+	unitname = ILLLODE;
+	unitnumber = 100011;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+    waterline = 2;
+	yardmap = S;
+    ZBuffer = 1;
+}

@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 350;
+	buildtime = 130;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cretshoc_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 8;
+	fireatwillrandom = 1;
+	frozen = cretshoc_frozen;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 1200;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Shock Trooper;
+	objectname = CRESHOC;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CRESHOC;
+	soundclass = CRESHOC;
+	standingunitorder = 1;
+	stone = CRETSHOC_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = cretshoc;
+	unitnumber = 3;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 45;
+	edgeeffectiveness = 1;
+	emittime = 50;
+        firestarter = 1;
+	hweffect = creon lightning;
+	innercolor = 255 255 255;
+	middlecolor = 230 230 255;
+	outercolor = 200 200 255;
+	lightmap = medium;
+	name = Taser;
+	range = 450;
+	reloadtime = 2.6;
+	soundhitclass = cretaser;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 260;
+                dragon = 1.1;
+		factory = 1.2;
+		fort = 1.2;
+		god = 0.8;
+		monarch = 0.7;
+		naval = 1.2;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.6;
+	explosionclass = lightning explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 100;
+	}
+}

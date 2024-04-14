@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.1;
+	buildcost = 3704;
+	buildtime = 419;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+                  cantbefrozen = 1;
+	category = VER FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Veruna;
+	experiencepoints = 37;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.052777778;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 17.5;
+	maneuverleashlength = 500;
+	maxdamage = 3486;
+	maxmana = 1000;
+	maxvelocity = 3.95;
+	maxwaterdepth = 0;
+	name = Thunder Drake;
+	objectname = VERBRATHU;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 184;
+	soundcategory = ZONDRAKE;
+	soundclass = ZONDRAKE;
+	standingunitorder = 2;
+	stone = zondrake_stone;
+	tedclass = Veruna;
+	turninplacerate = 1000;
+	turnrate = 200;
+	unitname = VERBRATHU;
+	unitnumber = 162;
+	upright = 1;
+	version = 1;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1524;
+	name = Thunder Breath;
+	model = Lightning;
+	range = 575;
+	reloadtime = 0.6;
+	soundhitclass = lightning;
+	type = Line of Sight;
+	weaponart = ltngball_2a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 176;
+	}
+}
+
+[WEAPON2]
+{
+                  aimtolerance = 1024;
+	areaofeffect = 150;
+	damagetype = paralyzer;
+	explosionclass = blue_shockring;
+	manapershot = 235;
+	name = Paralyzing Blast;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 4;
+	soundhit = lightning;
+	type = ballistic;
+	weaponart = Ltngball_1a;
+	weaponvelocity = 390;
+
+	[DAMAGE]
+	{
+	               default = 100;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 120;
+	duration = 5;
+	edgeeffectiveness = 1;
+	explosionclass = blue_shockring;
+	manapershot = 999;
+	name = Rage;
+	nimbus = 1;
+	particlespersecond = 30;
+	range = 450;
+	reloadtime = 6;
+	soundhitclass = lightning;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = Ltngball_1a;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+	              default = 30;
+	}
+}

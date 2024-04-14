@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	//original buildcost = 1344; now (170%)
+	buildcost = 2285; //145% x crusader
+	//original buildtime = 215; now (140%)
+	//orig buildtime = 300;
+	buildtime = 150;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arasmith_dead;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	//original experiencepoints = 21; 41
+	experiencepoints = 50;
+	healtime = 0.895833333;
+	maneuverleashlength = 500;
+//	original maxdamage = 3999; 5600
+	maxdamage = 5900;
+	maxvelocity = 1.05;
+	movementclass = GROUND2;
+	name = (M) Titan;
+	objectname = ARASMITH;
+//	original roadmultiplier = 1.21; now 10% more
+	roadmultiplier = 1.33;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+//	original sightdistance = 190; (now 60% more)
+	sightdistance = 290;
+	soundcategory = ARASMITH;
+	soundclass = ARASMITH;
+	standingunitorder = 2;
+	stone = arasmith_stone;
+	tedclass = Aramon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ARASMITH;
+	unitnumber = 4;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustArmor]
+	{
+		//original adjustment = 1.4;
+		adjustment = 1.3;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Hammer;
+	//original range = 55;
+	range = 69;
+	reloadtime = 1.2;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 12500;
+		dragon = 0.08;
+		factory = 0.275;   //dmg = 3433
+		fort = 0.104; 	   //dmg = 1300
+		fort2 = 0.18;	   //dmg = 2256
+		god = 0.08;
+		monarch = 0.08;    //dmg = 1000
+		naval = 0.08;
+		melee = 0.28;	   //dmg = 3500
+		siege = 0.22;	   //dmg = 2750
+		siege2 = 0.2;
+		stalwart = 0.11;   //dmg = 1375 (1146/s)
+		support = 0.28;    //dmg = 3500 (2916/s)
+		tier1 = 0.29;      //dmg = 3625
+		airship = 0.08;
+		archer = 0.22;
+		archer2 = 0.22;
+		fly = 0.08;
+	}
+}

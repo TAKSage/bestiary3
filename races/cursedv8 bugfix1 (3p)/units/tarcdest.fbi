@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.35;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 3700;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcdest_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 30;
+	floater = 1;
+	healtime = 1.6583333;
+	maneuverleashlength = 500;
+	maxdamage = 9000;
+	maxvelocity = 2.8;
+	movementclass = WATER3;
+	name = Water Plaque;
+	objectname = TARCDEST;
+	pitchscale = 1.35;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = TARCDEST;
+	soundclass = TARCDEST;
+	standingunitorder = 1;
+	tedclass = Taros;
+	transportcapacity = 12;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 48;
+	turnrate = 155;
+	unitname = TARCDEST;
+	unitnumber = 816;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 120;
+	edgeeffectiveness = .25;
+	explosionclass = lightning explosion;
+	firestarter = 1;
+	name = Soul Ball;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = fire;
+	turnrate = 300;
+	type = Guided;
+	weaponart = fireballCa;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		lodestone = 1.2;
+		monarch = 0.5;
+	}
+}

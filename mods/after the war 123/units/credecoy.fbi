@@ -1,0 +1,265 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = creauto;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+//	mogriumbounty = 2000;
+	builddistance = 100;
+	builder = 1;
+	Builderlimited = 1;
+	buildtime = 1200;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = CRE BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = antikingmechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 60;
+	healtime = 12.5;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 7500;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mogriumincome = 1;
+	mogriumstorage = 300;
+	movementclass = GROUND2;
+	name = Sage replica;
+	noveteran = 1;
+	objectname = CRESAGE;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 275;
+	soundcategory = CRESAGE;
+	soundclass = CRESAGE;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CREDECOY;
+	unitnumber = 15001;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = greenfire_down;
+	buttonimagedown = greenfire_down;
+	buttonimageselected = greenfire_use;
+	buttonimageup = greenfire_up;
+	damagetype = fire;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = greenfire;
+	name = burning gas;
+	range = 255;
+	reloadtime = 3.0;
+	soundhitclass = creflame;
+	subtype = fire;//bluefire;
+	type = Line of Sight;
+	weaponvelocity = 240;
+	smoketrail = 1;
+	smokedelay = 4;
+	//innercolor = 76 255 0;
+	//middlecolor = 80 255 0;
+	//outercolor = 72 255 0;
+
+	[DAMAGE]
+	{
+		default = 600;
+		wood = 1.5;
+		naval = 1.25;
+		stone = 0.75;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+		unshielded = 2;
+		antikingunshielded = 2;
+		berserker = 2;
+		shocky = 2;
+		monster = 2;
+		antikingmonster = 2;
+		shielded = 1.5;
+		hardscale = 1.5;
+		mini = 2;
+		giant = 2;
+		antikingmounted = 2;
+		mounted = 2;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	buttonimagedisabled = gasM_down;
+	buttonimagedown = gasM_down;
+	buttonimageselected = gasM_use;
+	buttonimageup = gasM_up;
+	//damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = xlarge smoke explosion;
+	gravityadjustment = 2.0;
+	lobpreferred = 1;
+	manapershot = 180;
+	minrange = 150;
+	name = gas mortar (180);
+	noairweapon = 1;
+	range = 750;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 640;
+	smoketrail = 1;
+	smokedelay = 8;
+burst = 3;
+burstrate = 0.25;
+weapontimer = 0.05;
+
+
+	[DAMAGE]
+	{
+		default = 400;
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		steelnaval = 0;
+		naval = 0;
+		//flamedemon = 0.25;
+		//antikingflamedemon = 0.25;
+		unshielded = 1.5;
+		antikingunshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		shielded = 1.5;
+		hardscale = 1.5;
+		mini = 1.5;
+		giant = 1.5;
+		antikingmounted = 1.5;
+		mounted = 1.5;
+		mechanical = 0;
+		antikingmechanical = 0;
+		undead = 0;
+		giantundead = 0;
+		skeleton = 0;
+		kingkiller = 0;
+		lodestone = 0;
+		steel = 0;
+	}
+
+		
+}
+
+[WEAPON3]
+{
+	areaofeffect = 350;
+	buttonimagedisabled = ELEblast_down;
+	buttonimagedown = ELEblast_down;
+	buttonimageselected = ELEblast_use;
+	buttonimageup = ELEblast_up;
+	builduptime = 0.5;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Electrical blast (900);
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 60;
+	reloadtime = 2.7;
+	ringcount = 3;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		monarch = 0.5;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+	}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 300;
+damagetype = explosion;
+edgeeffectiveness = 0.75;
+explosionclass =  megaflame;//xlarge smoke explosion
+name = Explooosion;
+	firestarter = 1;
+        shakeduration = 1;
+        shakemagnitude = 2;
+	soundhit = nuke1;//ARAFCANHIT1;
+type = Ballistic;
+waterexplosionclass = megaflame;//large water explosion
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 3500;
+monarch = 0.25;
+		wood = 1.5;
+		naval = 1.25;
+		stone = 0.75;
+		flamedemon = 0.75;
+		antikingflamedemon = 0.57;
+		giantflamedemon = 0.75;
+		steel = 1.25;
+		unshielded = 2;
+		antikingunshielded = 2;
+		berserker = 2;
+		shocky = 2;
+		monster = 2;
+		antikingmonster = 2;
+		shielded = 1.5;
+		hardscale = 1.5;
+		mini = 2;
+		antikingmounted = 2;
+		mounted = 2;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+}
+}

@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 400;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 108;
+	canattack = 1;
+	canbuild = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcpries_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 7;
+	frozen = tarcpries_frozen;
+	healtime = 0.266666667;
+	maneuverleashlength = 500;
+	maxdamage = 2300;
+	maxvelocity = 1.1;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Necromancer;
+	objectname = TARCPRIES;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = TARCPRIES;
+	soundclass = TARCPRIES;
+	standingunitorder = 1;
+	stone = tarcpries_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARCPRIES;
+	unitnumber = 829;
+	upright = 1;
+	version = 1;
+	waterline = 10;
+	watermultiplier = 0.75;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = lightning explosion;
+	name = Energy Shoot;
+	range = 300;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	turnrate = 400;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponart = LtngBall_2a;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 180;
+	}
+}
+
+

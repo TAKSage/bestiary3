@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	//buildangle = 16000;
+	buildcost = 6500;
+	buildtime = 800;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = taroobi_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+                //digger = 1;
+	experiencepoints = 80;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	frozen = taroobi_frozen;
+	healtime = 1.2;
+	maxdamage = 5000;
+	maxslope = 15;
+	//maxwaterdepth = 0;
+	name = Shadow Obelisk;
+	objectname = TAROOBI;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+              soundcategory = TARILLODE;
+	soundclass = TARILLODE;
+	stone = taroobi_stone;
+	tedclass = Taros;
+              //ThreeD = 1;
+	unitname = TAROOBI;
+	unitnumber = 905;
+	version = 1;
+	yardmap = o;
+                //waterline = 3;
+              //ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+               areaofeffect = 100;
+               edgeeffectiveness = 0.5;
+	explosionclass = Mindspin;
+                firestarter = 1;
+	gravityadjustment = 0.6;
+                guidance = 1;
+	model = spiker;
+	name = Crystal Sting;
+	//nimbus = 1;
+	range = 800;
+	minrange = 50;
+	reloadtime = 2.0;
+                smoketrail = 1;
+               smokedelay = 3.5;
+               soundhitclass = cannon;
+               soundwater = splash;
+               spinheading = 5000;
+               tracks = 1;
+               turnrate = 360;
+	toairweapon = 1;
+	type = Ballistic;
+              waterexplosionclass = medium water explosion;
+               weaponart = ltngball_2a;
+	weaponvelocity = 1200;
+            
+
+	[DAMAGE]
+	{
+		default = 3000;
+ 		dragon = 1.25;
+                airship = 1.5;
+                mechanical = 1.5;
+                god = 0.5;
+                monster = 1.5;
+	}
+}

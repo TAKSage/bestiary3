@@ -1,0 +1,158 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 200 135 0;
+	bloodcolor2 = 150 100 0;
+	bloodcolor3 = 180 80 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 21500;
+	buildtime = 700;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonazrav_dead;
+	damagecategory = azrac;
+	defaultmissiontype = Standby;
+	description = Azrac;
+	experiencepoints = 100;
+	healtime = 2.2;
+	manarechargerate = 21;
+	maneuverleashlength = 500;
+	maxdamage = 32000;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mogriumincome = -10;
+	movementclass = GROUND2;
+	name = Yaka Avatar;
+	objectname = ZONAZRAV;
+	roadmultiplier = 1.35;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 750;
+	soundcategory = VERGOD;
+	soundclass = VERGOD;
+	standingunitorder = 2;
+	tedclass = Azrac;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONAZRAV;
+	unitnumber = 42600;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 40;
+	damagetype = fire;
+	edgeeffectiveness = 0.4;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Fire Strike;
+	range = 125;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2650;
+		spirit = 0.5;
+		firespirit = 0.25;
+		syron = 0.75;
+		azrac = 0.75;
+		demon = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = magicbolt_down;
+	buttonimagedown = magicbolt_down;
+	buttonimageselected = magicbolt_selected;
+	buttonimageup = magicbolt_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = mindspin;
+	hweffect = magicbolt;
+	lightmap = large;
+	manapershot = 200;
+	name = Magic Bolt;
+	range = 450;
+	reloadtime = 6.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 2050;
+		syron = 0;
+		spirit = 2;
+		firespirit = 2;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 800;
+	name = Dominate;
+	range = 200;
+	reloadtime = 2.5;
+	soundhit = dominate;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		mechanical = 0;
+		naval = 0;	
+		spirit = 0;
+		firespirit = 0;
+		syron = 0;
+		undead = 0;
+	}
+}

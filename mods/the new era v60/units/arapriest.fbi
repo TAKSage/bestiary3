@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1500;
+	builddistance = 150;
+	builder = 1;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	//cantbefrozen = 1;
+	//cantbestoned = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapriest_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	footprintx = 2;
+	footprintz = 2;
+	frozen = arapriest_frozen;
+	healtime = 2.95;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxmana = 1000;
+	maxvelocity = 1.8;
+	mogriumincome = 5;
+	mogriumstorage = 300;
+	movementclass = GROUND2;
+	name = T3 Acolyte;
+	objectname = ARAPRIES;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARAPRIES;
+	soundclass = ARAPRIES;
+	standingunitorder = 1;
+	stone = arapriest_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARAPRIEST;
+	unitnumber = 27;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 200;
+	builduptime = 3;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 0.2;
+	manapershot = 400;
+	name = Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 250;
+	reloadtime = 3;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	shotart = cannbsm;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot = 200;
+	name = Turn To Stone;
+	nimbus = 1;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 3;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = fireballA;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 200;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.5;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 900;
+	name = Hail Shower;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 400;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 150;
+	}
+}

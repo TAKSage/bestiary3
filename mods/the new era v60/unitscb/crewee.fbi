@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 0.16;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 820;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crewee_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 20;
+	fireatwillrandom = 1;
+	frozen = crewee_frozen;
+	healtime = .6;
+	maneuverleashlength = 500;
+	maxdamage = 4100;
+	maxvelocity = 2.5;
+	movementclass = GROUND3;
+	notargetcategory = FLY;
+	name = Wheel Warrior;
+	objectname = crewee;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = crewee;
+	soundclass = crewee;
+	standingunitorder = 2;
+	stone = crewee_stone;
+	tedclass = Creon;
+	turninplacerate = 1000;
+	turnrate = 1000;
+	unitname = crewee;
+	unitnumber = 294009;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+	edgeeffectiveness = 1.0;
+	name = saw;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = .5;
+	soundhitclass = sword;
+                smoketrail = 1;
+                smokedelay = 2.5;
+	spinheading = 6500;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 200;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 32;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Die;
+	range = 100;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 35;
+	}
+}

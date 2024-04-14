@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = bone;
+	brakerate = 10;
+	buildcost = 1195;
+	buildtime = 150;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundhorror_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Undead;
+	experiencepoints = 35;
+	healtime = 1.75;
+	maneuverleashlength = 500;
+	maxdamage = 14000;
+	maxvelocity = 0.85;
+	mogriumincome = -2;
+	movementclass = GROUND3;
+	name = Bone Horror;
+	objectname = TARUNDHORROR;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = TARCAN;
+	soundclass = TARCAN;
+	standingunitorder = 2;
+	tedclass = Undead;
+	turninplacerate = 1700;
+	turnrate = 1700;
+	unitname = TARUNDHORROR;
+	unitnumber = 42528;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 55;
+	edgeeffectiveness = 0.525;
+	explosionclass = small smoke explosion;
+	name = Death Strike;
+	range = 250;
+	reloadtime = 3;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1815;
+		firespirit = 0.5;
+		spirit = 0.5;
+		undead = 0.75;
+		highman = 0.75;
+		syron = 0.5;
+		city = 0.475;		// more effective vs structures than other non-siege units
+		factory = 0.475;
+		fort = 0.475;
+		building = 0.475;
+		mechanical = 0.75;
+		naval = 0.75;
+	}
+}

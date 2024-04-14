@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	acceleration = .36;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.72;
+	buildcost = 980;
+	buildtime = 285;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 27;
+	frozen = verbal_frozen;
+	healtime = .73125;
+	maneuverleashlength = 500;
+	maxdamage = 3500;
+	maxvelocity = 0.90;
+	movementclass = GROUND3;
+	name = Dreadbolt;
+	objectname = credread;
+	pitchscale = 1.5;
+	roadmultplier = 1.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 195;
+	soundcategory = creult3;
+	soundclass = creult3;
+	standingunitorder = 1;
+	stone = verbal_stone;
+	tedclass = Creon;
+	turninplacerate = 390;
+	turnrate = 390;
+	unitname = credread;
+	unitnumber = 147;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 90;
+	damagetype = fire;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	model = araarrow2;
+	name = Fireworks;
+	nimbus = 1;
+	range = 750;
+	reloadtime = 9.65;
+	soundhit = firework;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 210;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 285;
+		monarch = 0.5;
+	}
+}

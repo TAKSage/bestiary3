@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2500;
+	buildtime = 435;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkmum_dead;
+	defaultmissiontype = Standby;
+	description = TAR;
+	experiencepoints = 3;
+	frozen = tarkmum_frozen;
+	healtime = 3.4375;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 4700;
+	maxmana = 1000;
+	maxvelocity = 1.4;
+	movementclass = GROUND3;
+	name = Mummy;
+	objectname = TARKMUM;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = MONMUM;
+	soundclass = MONMUM;
+	standingunitorder = 2;
+	stone = tarkmum_stone;
+	tedclass = TAR;
+	turnrate = 2500;
+	unitname = TARKMUM;
+	unitnumber = 65;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 64;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	edgeeffectiveness = 1.0;
+	name = Lightning Punch;
+	range = 300;
+	reloadtime = .75;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1784;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	areaofeffect = 450;
+	damagetype = paralyzer;
+	buttonimagedisabled = LongTermStunPU;
+	buttonimagedown = LongTermStunPU;
+	buttonimageselected = LongTermStunSBh;
+	buttonimageup = LongTermStunSB;
+	emittime = 50;
+	hweffect = creon paralyzer;
+	innercolor = 0 0 75;
+	middlecolor = 0 0 100;
+	outercolor = 0 0 128;
+	lightmap = medium;
+	manapershot = 200;
+	name = Stunner;
+	range = 450;
+	reloadtime = 2.1;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+	}
+}

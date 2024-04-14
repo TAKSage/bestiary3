@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 2150;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 775;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = VER FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelenc_dead;
+	corpseadjustz = 4;
+	damagecategory = factory;
+	description = Aramon;
+	experiencepoints = 100;
+	footprintx = 5;
+	footprintz = 14;
+	healtime = 1.34;
+	maxdamage = 9900;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	name = Encampment;
+	objectname = aradelenc;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = aradelbuilding1;
+	soundclass = aradelbuilding1;
+	tedclass = Aramon;
+	unitname = aradelenc;
+	unitnumber = 1396;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 8;
+	yardmap = ..... ..... ..... ..... ooooo ooooo ooooo ooooo ooooo ooooo ccccc ccccc ccccc ccccc;
+}

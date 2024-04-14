@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+     acceleration = 0.5;
+     bankscale = 1;
+     bloodcolor1 = 160 35 0;
+     bloodcolor2 = 170 40 0;
+     bloodcolor3 = 180 30 5;
+     bmcode = 1;
+     bodytype = scale;
+     brakerate = 0.1;
+     buildcost = 45000;
+     buildtime = 4250;
+     canattack = 1;
+     canfly = 1;
+     canguard = 1;
+     canmove = 1;
+     canpatrol = 1;
+     canstop = 1;
+    // cantbecaptured = 1;
+     cantbefrozen = 1;
+    // cantbeparalyzed = 1;
+     cantbestoned = 1;
+     cantbetransported = 1;
+     category = ZON FLY ATTACK MAGIC BALLISTIC;
+     copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+     cruisealt = 100;
+     damagecategory = monster;
+     defaultmissiontype = VTOL_Standby;
+     description = Zhon;
+     experiencepoints = 190;
+     footprintx = 6;
+     footprintz = 6;
+     healtime = 68.88;
+    // hoverattack = 1;
+    // hoverattackdistance = 200;
+     immunetoparalyzer = 1;
+     maneuverleashlength = 500;
+     manarechargerate = 30;
+     maxdamage = 26000;
+     maxvelocity = 6.5;
+     maxwaterdepth = 0;
+     maxmana = 1000;
+     name = Master Drake;
+     objectname = ZONMASTERD;
+     radardistance = 900;
+     shadowgaf = shadows;
+     shootme = 1;
+     side = ZON;
+     sightdistance = 254;
+     soundcategory = ZONMASTERD;
+     soundclass = ZONMASTERD;
+     standingunitorder = 2;
+     stone = zonmasterd_stone;
+     tedclass = Zhon;
+     totalallowed = 12;
+     turninplacerate = 1000;
+     turnrate = 200;
+     unitname = ZONMASTERD;
+     unitnumber = 99008;
+     upright = 1;
+     version = 1;
+     weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+    aimtolerance = 1024;
+    areaofeffect = 20;
+    buttonimagedisabled = FireBallPU;
+    buttonimagedown = FireBallPU;
+    buttonimageselected = FireBallSBh;
+    buttonimageup = FireBallSB;
+    damagetype = fire;
+    explosionclass = Volcblast;
+    edgeeffectiveness = 0.5;
+    firestarter = 1;
+    manapershot = 20;
+    model = fireball;
+    name = Fire Beam;
+    range = 500;
+    reloadtime = 0.01;
+    soundhitclass = fire;
+    type = Ballistic;
+    veteranlevel = 10;
+    veteranmodel = fireball5;
+    waterexplosionclass = small water explosion;
+    weaponvelocity = 700;
+
+    [DAMAGE]
+    {
+        default = 250;
+        monarch = 0.15;
+        dragon = 0.5;
+        god = 0.5;
+        airship = 0.5;
+        fort = 0.5;
+        monster = 0.5;
+        factory = 0.5;
+    }
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.75;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 500;
+	name = Fire Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 600;
+	reloadtime = 2.5;
+	ringcount = 4;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 14;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 6900;
+		fort = 1.25;
+		factory = 1.25;
+		monarch = 0.25;
+                dragon = 1.5;
+                god = 1.5;
+                airship = 1.5;
+                tier1 = 2.0;
+	}
+}

@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 1950;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 595;
+	canattack = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarorkeep_dead;
+	corpseadjustz = 2;
+	damagecategory = factory;
+	description = Taros;
+	experiencepoints = 200;
+	footprintx = 7;
+	footprintz = 12;
+	healtime = 1.25;
+	maxdamage = 17162;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	name = Implant Center;
+	objectname = TARORKEEP;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = TARORKEEP;
+	soundclass = TARORKEEP;
+	tedclass = Taros;
+	unitname = TARORKEEP;
+	unitnumber = 303;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}

@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 155 75;
+	bloodcolor2 = 0 120 60;
+	bloodcolor3 = 0 100 25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1500;
+	buildtime = 140;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canhover = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verlizrider_dead;
+	damagecategory = lizard;
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 15;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 8000;
+	maxvelocity = 2.8;
+	mogriumincome = -6;
+	movementclass = HOVER2;
+	name = Frog Rider;
+	objectname = VERLIZRIDER;
+	roadmultiplier = 1.25;
+	shootme = 1;
+	side = VER;
+	sightdistance = 300;
+	soundcategory = AOWFROG;
+	soundclass = AOWFROG;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIZRIDER;
+	unitnumber = 42686;
+	upright = 1;
+	version = 1;
+	waterline = 10;
+	watermultiplier = 1.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Trident;
+	range = 220;
+	reloadtime = 2.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+		naval = 0.75;
+	}
+}

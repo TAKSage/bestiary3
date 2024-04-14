@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 410;
+	buildtime = 75;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verelfsword_dead;
+	damagecategory = elf;
+	defaultmissiontype = Standby;
+	description = Elf;
+	experiencepoints = 10;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 3985;
+	maxvelocity = 1.325;
+	mogriumincome = -2;
+	movementclass = GROUND2;
+	name = Elf Swordsman;
+	objectname = VERELFSWORD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 325;
+	soundcategory = ELFSWORD;
+	soundclass = ELFSWORD;
+	standingunitorder = 2;
+	stone = verelfsword_stone;
+	tedclass = Elf;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERELFSWORD;
+	unitnumber = 42542;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 32;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 485;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}

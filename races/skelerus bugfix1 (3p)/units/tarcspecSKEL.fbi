@@ -1,0 +1,122 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 3500;
+	buildtime = 350;
+	canattack = 1;
+	cancapture = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR  FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagetype = undead;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 15;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 913;
+	maxmana = 1000;
+	maxvelocity = 3;
+	maxwaterdepth = 0;
+	name = Ghost Skeleton;
+	objectname = TARCSPECSKEL;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 190;
+	soundcategory = TARCSPECSKEL;
+	soundclass = TARCSPECSKEL;
+	standingunitorder = 2;
+	stone = tarpries_stone;
+	tedclass = Taros;
+	turninplacerate = 400;
+	totalallowed = 5;
+	turnrate = 300;
+	unitname = TARCSPECSKEL;
+	unitnumber = 826;
+	upright = 1;
+	version = 1;
+	weaponswitching=1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		airship = 0;
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	manapershot = 200;
+	name = Fire Ball;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = Line of Sight;
+	weaponart = FireballA;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}

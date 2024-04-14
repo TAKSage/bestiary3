@@ -1,0 +1,118 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.07;
+	buildcost = 2620;
+	buildtime = 338;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR BOAT BALLISTIC ATTACK;
+	cloakcost = 10;
+	cloakcostmoving = 30;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = npcbotl_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 37;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 1.4;
+	isairbase = 1;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 6527;
+	maxmana = 1000;
+	maxvelocity = 3;
+	mincloakdistance = 100;
+	movementclass = WATER4;
+	name = Sea Shadow;
+	objectname = NPCBOTL;
+	pitchscale = 1.5;
+	radardistance = 720;
+	shadowart = shadow02;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = NPCBOTL;
+	soundclass = NPCBOTL;
+	standingunitorder = 1;
+	tedclass = Taros;
+	transportcapacity = 18;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 72;
+	turnrate = 210;
+	unitname = TARBOTL;
+	unitnumber = 37;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	damagetype = fire;
+	edgeeffectiveness = 0.8;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	model = fireball;
+	name = Fire Comet;
+	nimbus = 1;
+	range = 460;
+	reloadtime = 3.5;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 800;
+		air = .5;
+		airship = .5;
+		dragon = .5;	
+	}
+}
+
+//[WEAPON1]
+//{
+//	aimtolerance = 1024;
+//	areaofeffect = 70;
+//	damagetype = explosion;
+//	explosionclass = medium explosion;
+//	name = Cannon;
+//	noairweapon = 1;
+//	range = 500;
+//	reloadtime = 3.7;
+//	soundhitclass = cannon;
+//	type = Ballistic;
+//	waterexplosionclass = medium water explosion;
+//	weaponart = cannbsm;
+//	weaponvelocity = 600;
+//
+//	[DAMAGE]
+//	{
+//		default = 1088;
+//	}
+//}

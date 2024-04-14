@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = .36;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.72;
+	buildcost = 10105;
+	buildtime = 1001;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarsiege_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 27;
+	frozen = verbal_frozen;
+	healtime = .73125;
+	maneuverleashlength = 500;
+	maxdamage = 10689;
+	maxvelocity = 0.80;
+	movementclass = GROUND3;
+	name = Warmachine;
+	objectname = aradwarfmachine;
+	pitchscale = 1.5;
+	roadmultplier = 1.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 495;
+	soundcategory = VERBAL;
+	soundclass = VERBAL;
+	standingunitorder = 1;
+	stone = verbal_stone;
+	tedclass = Aramon;
+	turninplacerate = 230;
+	turnrate = 230;
+	unitname = aradwarfmachine;
+	unitnumber = 147;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = explosion;
+	explosionclass = medium dust puff;
+	model = aragear;
+	name = Sawblade;
+	range = 1050;
+	reloadtime = 22.9;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = aragear;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 560;
+
+	[DAMAGE]
+	{
+		default = 2538;
+		monster = 1.25;
+		wood = 1.5;
+	}
+}

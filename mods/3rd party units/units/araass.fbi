@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 1956;
+	builddistance = 100;
+	buildtime = 275;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Ara Melee Attack;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 170;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 3;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .45;
+	hoverattack = 1;
+	hoverattackaltitude = 170;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 1044;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	name = Cloud Warrior;
+	objectname = ARAASS;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 275;
+	soundcategory = ARAASS;
+	soundclass = ARAASS;
+	standingunitorder = 1;
+	tedclass = Ara;
+	turninplacerate = 1000;
+	turnrate = 400;
+	unitname = ARAASS;
+	unitnumber = 1405;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Musket;
+	range = 450;
+	reloadtime = 2.2;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 423;
+	}
+}

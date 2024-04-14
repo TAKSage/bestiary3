@@ -1,0 +1,117 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 175 0;
+	bloodcolor2 = 10 140 70;
+	bloodcolor3 = 5 100 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 500;
+	buildtime = 100;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = goblin;
+	defaultmissiontype = Standby;
+	description = Goblin;
+	experiencepoints = 10;
+	healtime = 0.4;
+	maneuverleashlength = 500;
+	maxdamage = 1400;
+	maxvelocity = 1.25;
+	mogriumincome = -3;
+	movementclass = GROUND2;
+	name = Goblin Bomber;
+	objectname = ZONGOBBOMB;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 360;
+	soundcategory = ZONGOB;
+	soundclass = ZONGOB;
+	standingunitorder = 2;
+	tedclass = Goblin;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONGOBBOMB;
+	unitnumber = 42544;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.5;
+	name = Fists;
+	range = 30;
+	reloadtime = 3.25;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 300;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = xlarge explosion;
+	name = Kaboom;
+	range = 150;
+	soundhit = blast;
+	type = Ballistic;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1900;
+		spirit = 0.75;
+		firespirit = 0.5;
+		azrac = 0.85;
+		demon = 0.5;
+		dragon = 0.5;
+	}
+}
+
+[SELFDESTRUCTAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = xlarge explosion;
+	name = Kaboom;
+	range = 150;
+	soundhit = blast;
+	type = Ballistic;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1900;
+		spirit = 0.75;
+		firespirit = 0.5;
+		azrac = 0.85;
+		demon = 0.5;
+		dragon = 0.5;
+	}
+}
+

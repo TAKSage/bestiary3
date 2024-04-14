@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 720;
+//mogriumbounty = 144;
+	buildtime = 205;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarblack_dead;
+	damagecategory = Tier1;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 8;
+	fireatwillrandom = 1;
+	healtime = .845833333;
+	maneuverleashlength = 500;
+	maxdamage = 2100;
+	maxvelocity = 2.9;
+	movementclass = GROUND3;
+	name = Black Knight;
+	objectname = TARBLACK;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = TARBLACK;
+	soundclass = TARBLACK;
+	standingunitorder = 1;
+	stone = tarblack_stone;
+	tedclass = Taros;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = TARBLACK;
+	unitnumber = 73;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Bow and Arrows;
+	range = 300;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 450;
+		stone = 0.25;
+		factory = 0.25;
+		wood = 0.25;
+		mechanical = 0.5;
+		antikingmechanical = 0.5;
+		naval = 0.5;
+		shielded = 0.5;
+		steelnaval = 0.25;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		giant = 0.25;
+		giantflamedemon = 0.25;
+		giantundead = 0.25;
+		lodestone = 0.5;
+		steel = 0.25;
+		dragon = 0.75;
+		hardscale = 0.75;
+	}
+}

@@ -1,0 +1,35 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 74;
+	buildtime = 65;
+	cantbefrozen = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAGEWALL;
+	description = ARAMON;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.4167;
+	isfeature = 1;
+	maxdamage = 4000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall Of Dead;
+	noshadow = 1;
+	objectname = ARAGEWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 45;
+	soundcategory = ARAGEWALL;
+	soundclass = ARAGEWALL;
+	tedclass = ARAMON;
+	unitname = ARAGEWALL;
+	unitnumber = 4542;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

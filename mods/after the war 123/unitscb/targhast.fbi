@@ -1,0 +1,184 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 1610;
+mogriumbounty = 161;
+	buildtime = 320;
+                canattack = 1;
+                canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+		cantbetransported = 1;
+	category = TAR MAGIC FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+               // corpse = targhast_dead;
+                cruisealt = 30;
+                damagecategory = flamedemon;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 18;
+                footprintx = 3;
+                footprintz = 3;
+//		fireatwillrandom = 1;
+                floater = 0;
+	healtime = 0.65342;
+                hoverattack = 1;
+                hoverattackdistance = 30;
+	maneuverleashlength = 100;
+	maxdamage = 2400;
+maxmana = 60;
+manarechargerate = 10;
+	maxvelocity = 3;
+	name = Fire Imp;
+	objectname = TARGHAST;
+                radardistance = 311;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 225;
+                shadowgaf = shadows;
+	soundcategory = TARGHAST;
+	soundclass = TARGHAST;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = TARGHAST;
+	unitnumber = 560112;
+                upright = 1;
+	version = 1;
+                watermultiplier = 0.81;
+             //   weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = fireball;
+	range = 350;
+	reloadtime = 6;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponart = FireballA;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 600;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 10;
+	aimtolerance = 8024;
+	edgeeffectiveness = 0.2;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = blood explosion;
+	name = Claws;
+	range = 60;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = guided;
+	turnrate = 999999;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 300;
+                stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		steel = 0.75;
+		unshielded = 1.5;
+		antikingunshielded = 1.5;
+		berserker = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 10;
+	aimtolerance = 8024;
+	edgeeffectiveness = 0.2;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = mediflame;//yellow_shockring;
+	name = burning bite;
+	firestarter = 1;
+	manapershot = 60;
+	soundhitclass = fire;
+	range = 60;
+	reloadtime = 1;
+	type = guided;
+	turnrate = 999999;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 300;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	aimtolerance = 999999;
+	areaofeffect = 150;
+	damagetype = fire;
+	edgeeffectiveness = 0.75;
+	explosionclass = Volcblast;
+	name = burning vengeance;
+	range = 100;
+	soundhitclass = fire;
+	type = Ballistic;
+	weaponart = FireballB;
+	weaponvelocity = 999;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+
+}

@@ -1,0 +1,128 @@
+[UNITINFO]
+{
+	name = Crystal Galleon;
+	buildcost = 2000;
+	buildtime = 500;
+
+	healtime = 1.0;
+	maxdamage = 9000;
+
+	acceleration = 0.3;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 0.25;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	cantransport = 1;
+	//ghost = 1;
+	category = AZU BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 65;
+	fireatwillrandom = 1;
+	floater = 1;
+	maneuverleashlength = 500;
+	maxvelocity = 2.0;
+	movementclass = WATER8;
+	objectname = AZUCG;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 500;
+	soundcategory = AZUCG;
+	soundclass = AZUCG;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	transportcapacity = 20;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 80;
+	turnrate = 200;
+	unitname = AZUCG;
+	unitnumber = 3513;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 15;
+	edgeeffectiveness = 0.7;
+	buttonimagedisabled = snowballpu;
+	buttonimagedown = snowballpu;
+	buttonimageselected = snowballsbh;
+	buttonimageup = snowballsb;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Snowball;
+	range = 600;
+	nimbus = 1;
+	reloadtime = 0.5;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Line of Sight;
+	veteranlevel = 10;
+	veteranmodel = ASnowball10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 170;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON2]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = spearstandardpu;
+	buttonimagedown = spearstandardpu;
+	buttonimageselected = spearstandardsbh;
+	buttonimageup = spearstandardsb;
+	explosionclass = medium dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Spear;
+	range = 800;
+	reloadtime = 3.6;
+	soundhitclass = arrow;
+	type = Line of Sight;
+	veteranlevel = 5;
+	veteranmodel = verspear_10;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}

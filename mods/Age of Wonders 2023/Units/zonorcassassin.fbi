@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3500;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cancloak = 1;
+	cloakcost = 9;
+	cloakcostmoving = 4;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorcassassin_dead;
+	damagecategory = orc;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 40;
+	healtime = 0.3;
+	maneuverleashlength = 500;
+	maxdamage = 4250;
+	maxvelocity = 2.2;
+	maxmana = 1000;
+	manarechargerate = 5;
+	mogriumincome = -8;
+	movementclass = GROUND2;
+	name = Assassin;
+	objectname = ZONORCASSASSIN;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ORCLEAD;
+	soundclass = ORCLEAD;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = ZONORCASSASSIN;
+	unitnumber = 42518;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.2;
+	name = Poisoned Sword;
+	range = 75;
+	reloadtime = 6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 4500;
+		spirit = 0.35;
+		firespirit = 0.35;
+		syron = 0.5;
+		goblin = 0.75;
+		dwarf = 0.75;
+		lizard = 0.9;
+		undead = 0.5;
+		wyvern = 0.5;
+		demon = 0.5;
+		dragon = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	explosionclass = green_shockring;
+	model = poisondart;
+	name = Poison Darts;
+	range = 310;
+	reloadtime = 5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 2800;
+		spirit = 0.35;
+		firespirit = 0.35;	
+		syron = 0.5;
+		goblin = 0.75;
+		dwarf = 0.75;
+		lizard = 0.9;
+		undead = 0.25;
+		wyvern = 0.5;
+		demon = 0.5;
+		dragon = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.35;
+		naval = 0.35;
+	}
+}
+

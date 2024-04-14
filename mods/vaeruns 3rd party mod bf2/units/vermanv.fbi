@@ -1,0 +1,41 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 4500;
+	buildtime = 1200;
+	cantbestoned = 1;
+	category = VER;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpill_dead;
+	damagecategory = lodestone;
+	description = Veruna;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.4;
+	maxdamage = 6750;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 5;
+	mogriumstorage = 15000;
+	name = Mana Vault;
+	objectname = Vermanv;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 145;
+	soundcategory = vermanv;
+	soundclass = vermanv;
+	tedclass = Veruna;
+        totalallowed = 10;
+	unitname = Vermanv;
+	unitnumber = 3209;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+}

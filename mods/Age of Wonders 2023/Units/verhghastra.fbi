@@ -1,0 +1,93 @@
+[UNITINFO]
+{
+	acceleration = 8;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 8;
+	buildcost = 7800;
+	buildtime = 525;
+	builder = 1;
+	builddistance = 250;
+	builderlimited = 1;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = highman;
+	defaultmissiontype = VTOL_standby;
+	description = Highman;
+	experiencepoints = 51;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 1.5;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 200;
+	maneuverleashlength = 500;
+	maxdamage = 16200;
+	maxvelocity = 3.1;
+	maxwaterdepth = 0;
+	mogriumincome = -8;
+	moverate1 = 5;
+	moverate2 = 10;
+	name = Astra;
+	objectname = VERHGHASTRA;
+	shootme = 1;
+	side = VER;
+	sightdistance = 650;
+	soundcategory = HGHASTRA;
+	soundclass = HGHASTRA;
+	standingunitorder = 2;
+	tedclass = Highman;
+	turnrate = 1750;
+	unitname = VERHGHASTRA;
+	unitnumber = 42570;
+	upright = 1;
+	version = 1;
+	workertime = 15;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = small explosion;
+	hweffect = yellow lightning;
+	lightmap = small;
+	name = Holy Bolt;
+	range = 390;
+	reloadtime = 5;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 2400;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0;
+		highman = 0.75;
+		undead = 1.5;
+		orc = 1.2;
+		goblin = 1.2;
+		darkelf = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

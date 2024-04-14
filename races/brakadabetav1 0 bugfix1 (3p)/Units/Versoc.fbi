@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 523;
+	buildtime = 152;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 22;
+	healtime = 0.66667;
+	maneuverleashlength = 500;
+	maxdamage = 850;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Sorceress;
+	objectname = VERSOC;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 200;
+	soundcategory = TARWITCH;
+	soundclass = TARWITCH;
+	standingunitorder = 1;
+	stone = Tarwitch_stone;
+	tedclass = Veruna;
+	turninplacerate = 1000;
+	turnrate = 750;
+	unitname = VERSOC;
+	unitnumber = 114;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+                  explosionclass = Blue_shockring;
+                  lightmap = small;
+	name = Ball of Light;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 4.6;
+                  soundhitclass = Lightning;
+                  turnrate = 200;
+	type = Guided;
+                  weaponart = LtngBall_1a;
+	weaponvelocity = 425;
+
+	[DAMAGE]
+	{
+		default = 486;
+	}
+}

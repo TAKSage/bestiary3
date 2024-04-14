@@ -1,0 +1,136 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.2;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	buildcost = 29955;
+	buildtime = 4822;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 266;
+	fireatwillrandom = 1;
+	healtime = 31.39;
+	maneuverleashlength = 500;
+	maxdamage = 28500;
+	maxvelocity = 0.9;
+	//mogriumincome = 0;
+	//mogriumstorage = 0;
+	movementclass = GROUND5;
+	name = Iron Juggernaut;
+	objectname = CREIRONJ;
+	pitchscale = 1.2;
+                radardistance = 450;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 210;
+	soundcategory = CREIRONJ;
+	soundclass = CREIRONJ;
+	standingunitorder = 1;
+	tedclass = Creon;
+                totalallowed = 4;
+	turnrate = 250;
+	unitname = CREIRONJ;
+	unitnumber = 423090;
+	version = 1;
+	upright = 1;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 16;
+	watermultiplier = 0.35;
+	totalallowed = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Cannonball;
+	noairweapon = 1;
+	minrange = 80;
+	range = 1200;
+	reloadtime = 5.3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = nuke1;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 3550;
+		tier1 = 1.2;
+		monarch = 0.25;
+                                fort = 2.0;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Cannonball;
+	noairweapon = 1;
+	minrange = 80;
+	range = 1200;
+	reloadtime = 5.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = nuke1;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 3550;
+		tier1 = 1.2;
+		monarch = 0.25;
+                                fort = 2.0;
+	}
+}
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = megaflame;
+	name = boom;
+                shakeduration = 2;
+                shakemagnitude = 6;
+                soundhit = TARSHIPDIE5;
+	type = Ballistic;
+                waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 6500;
+		monarch = 0.5;
+	}
+}

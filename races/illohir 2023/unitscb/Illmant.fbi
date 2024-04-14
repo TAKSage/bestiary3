@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 2509;//825
+buildtime = 477;//169
+canattack = 1;
+cancloak = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+category = ILL MELEE ATTACK;
+cloakcost = 12;
+Cloakcostmoving = 22;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illmant_dead;
+damagecategory = Monster;
+damagemodifier = 0.25;//0.15;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 45;
+floater = 0;
+frozen = Illmant_frozen;
+healtime = 0.4375;
+init_cloaked = 1;
+maneuverleashlength = 500;
+maxmana = 1500;
+manarechargerate = 15;
+maxdamage = 2500;
+maxvelocity = 3.75;
+mincloakdistance = 75;
+mogriumincome = -1;
+mogriumstorage = -250;
+movementclass = HOVER4;
+name = ChaosMantii;
+objectname = ILLMANT;
+roadmultiplier = 1.41;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 211;
+soundcategory = TARMAN;
+soundclass = TARMAN;
+standingunitorder = 2;
+stone = Illmant_stone;
+stealth = 1;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 4;
+turninplacerate = 2400;
+turnrate = 1200;
+unitname = ILLMANT;
+unitnumber = 100032;
+upright = 1;
+version = 1;
+waterline = 25;
+watermultiplier = 0.5;
+ZBuffer = 1;
+
+
+}
+
+[WEAPON1]
+{
+//areaofeffect = 50;
+edgeeffectiveness = 1.0;
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+explosionclass = teeny explosion;
+name = Mantis Slice1;
+range = 100;
+reloadtime = 1.4;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 470;
+god = 0.5;
+monarch = 0.5;
+stalwart = 1.25;
+tier1 = 0.5;
+fort = 0.5;
+factory = 0.5;
+lodestone = 1.5;
+}
+}
+
+[WEAPON2]
+{
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+areaofeffect = 50;
+edgeeffectiveness = 1.0;
+explosionclass = medium explosion;
+name = Mantis Slice2;
+range = 100;//120
+reloadtime = 1.3;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 870;
+god = 0.5;
+monarch = 0.5;
+stalwart = 1.25;
+tier1 = 0.5;
+siege = 1.25;
+monster = 1.5;
+}
+}
+[WEAPON3]
+{
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+areaofeffect = 100;
+edgeeffectiveness = 1.0;
+explosionclass = VolcBlast;
+name = Mantis Slice3;
+range = 100;
+reloadtime = 1.2;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 1270;
+stalwart = 1.25;
+naval = 1.25;
+mechanical = 1.25;
+siege = 1.25;
+human = 1.5;
+god = 0.5;
+monarch = 0.5;
+}
+}
+
+

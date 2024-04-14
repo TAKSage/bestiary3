@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 173;
+	//old buildtime=78;
+	buildtime = 57;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 3;
+	healtime = 0.325;
+	maneuverleashlength = 500;
+	//old maxdamage=1211;
+	maxdamage = 1131;
+	//old maxvelocity=1.4
+	maxvelocity = 1.7;
+	movementclass = GROUND2;
+	name = Goblin-C;
+	objectname = ZONGOB;
+	roadmultiplier = 1.21;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 110;
+	soundcategory = ZONGOB;
+	soundclass = ZONGOB;
+	standingunitorder = 2;
+	stone = zongob_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONGOB;
+	unitnumber = 167;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Dead Guy Bone;
+	range = 50;
+	reloadtime = 1.15;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 181;
+	}
+}

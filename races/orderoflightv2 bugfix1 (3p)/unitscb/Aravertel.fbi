@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+        bmcode = 0;
+	bodytype = stone;
+	buildcost = 9000;
+	// buildtime = 1250; before WT was 20
+	// buildtime = 2500;
+	cantbestoned = 1;
+        cantransport = 1;
+	category = Ara FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Aravertel_dead;
+        damagecategory = factory;
+	description = Light;
+	experiencepoints = 300;
+	footprintx = 12;
+	footprintz = 10;
+	healtime = .01;
+	maxdamage = 30000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Sanctuary;
+	objectname = AraVERTEL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 100;
+	soundcategory = AraVERTEL;
+	soundclass = AraVERTEL;
+	tedclass = Light;
+        transportcapacity = 1;
+        transportdistance = 300;
+        transportsize = 30;
+        transportsizecapacity = 200;
+	totalallowed = 100;
+	unitname = AraVERTEL;
+        unitnumber = 97979748;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}

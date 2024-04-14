@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	attackrunlength = 0;
+	bankscale = 1.75;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 0.25;
+	buildcost = 280000;
+	builddistance = 200;
+	builderlimited = 1;
+	buildtime = 28000;
+	cananimate = 1;
+	canattack = 1;
+	cancloak = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canresurrect = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE ATTACK MAGIC GOD;
+	cloakcost = 0;
+	cloakcostmoving = 10;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = god;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 100;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	manarechargerate = 9;
+	maneuverleashlength = 500;
+	maxdamage = 29999;
+	maxmana = 10;
+	maxvelocity = 0.95;
+	mincloakdistance = 50;
+	mogriumincome = 200;
+	mogriumstorage = 200;
+	name = Monodivinitus;
+	objectname = cremonogod;
+	pitchscale = 0.25;
+	radardistance = 25000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 2000;
+	soundcategory = cremonolith;
+	soundclass = cremonolith;
+	standingunitorder = 1;
+	tedclass = Creon;
+	totalallowed = 1;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = cremonogod;
+	unitnumber = 114;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 105;
+	builduptime = 2.25;
+	decaytime = 1;
+	duration = 9;
+	maxvariation = 5;
+	name = Divine Storm;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 0.55;
+	soundhit = monolith;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = hurricaneend;
+	wanderloopart = hurricaneloop;
+	wanderstartart = hurricanestart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 10000;
+		monarch = 0.01;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 400;
+	builduptime = 1.5;
+	decaytime = 1.5;
+	edgeeffectiveness = 0.4;
+	name = Divine Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 100;
+	reloadtime = 5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 13077;
+		monarch = 0.01;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 1500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = tsunamiexp;
+	name = Explosion;
+	shakeduration = 3;
+	shakemagnitude = 4;
+	soundhit = monolith;
+	subtype = Earthquake;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 13500;
+		monarch = 0.2;
+	}
+}

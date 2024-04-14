@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 700;
+	buildtime = 150;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+                cloakcost = 5;
+                cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERSAR_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 25;
+	floater = 0;
+	fireatwillrandom = 1;
+                frozen = VERSAR_frozen;
+	healtime = 0.54;
+	maneuverleashlength = 1500;
+                manarechargerate = 10;
+	maxdamage = 5700;
+                maxmana = 1000;
+	maxvelocity = 1.5;
+                mincloakdistance = 100;
+	movementclass = HOVER3;
+	name = Mer Shark;
+	objectname = VERSAR;
+	roadmultiplier = 1.25;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 150;
+	soundcategory = VERSAR;
+	soundclass = VERSAR;
+	standingunitorder = 2;
+	stone = VERSAR_stone;
+	tedclass = Veruna;
+	turninplacerate = 1300;
+	turnrate = 900;
+	unitname = VERSAR;
+	unitnumber = 1170;
+	upright = 1;
+	version = 1;
+	waterline = 26;
+	watermultiplier = 1.90;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.5;
+                explosionclass = blood explosion;
+	name = Shark Blade;
+	range = 100;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 840;
+	}
+}

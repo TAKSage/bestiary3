@@ -1,0 +1,130 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 3150;
+	buildtime = 280;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 220;
+	damagecategory = mechanical;
+	defaultmissiontype = VTOL_standby;
+	description = Dwarf;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 10000;
+	maxvelocity = 2.05;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Dwarven Balloon;
+	objectname = ARADWRAIRSHIP;
+	radardistance = 800;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 520;
+	soundcategory = VERBALL;
+	soundclass = VERBALL;
+	standingunitorder = 2;
+	tedclass = Dwarf;
+	turninplacerate = 0;
+	turnrate = 135;
+	transportcapacity = 5;
+	transportdistance = 400;
+	transportsize = 16;
+	transportsizecapacity = 80;
+	unitname = ARADWRAIRSHIP;
+	unitnumber = 42560;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = aowdwarfarrow;
+	name = Anti-Air Arrows;
+	range = 450;
+	reloadtime = 3.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 600;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = aowdwarfarrow;
+	name = Anti-Air Arrows;
+	range = 450;
+	reloadtime = 3.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 600;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 75;
+	damagetype = explosion;
+	edgeeffectivness = 0.35;
+	explosionclass = xlarge explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = blast;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 800;
+		mechanical = 2;
+	}
+}

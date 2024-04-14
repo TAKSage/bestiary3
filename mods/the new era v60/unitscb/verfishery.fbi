@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 5000;
+	builddistance = 700;
+	//builder = 1;
+	buildtime = 729;
+	//canmove = 1;
+	//canpatrol = 1;
+	//canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabuilding2_dead;
+	corpseadjustz = 4;
+	damagecategory = Fort;
+	description = Veruna;
+	experiencepoints = 100;
+	footprintx = 7;
+	footprintz = 10;
+	healtime = 3;
+	manarechargerate = 10;
+	maxdamage = 25000;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Fishery;
+	objectname = verfishery;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = VER;
+	sightdistance = 800;
+	soundcategory = VERKEEP;
+	soundclass = VERKEEP;
+	tedclass = Veruna;
+	transmaxunits = 15;
+	transportcapacity = 30;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 120;
+	totalallowed =  3;
+	unitname = verfishery;
+	unitnumber = 136;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	//workertime = 10;
+	yardmap = ..... ..... ..... ..... ooooo ooooo ooooo ooooo ooooo ooooo ccccc ccccc ccccc ccccc;
+
+	[AdjustJoy]
+	{
+		adjustment = 20;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 120;
+	}
+}

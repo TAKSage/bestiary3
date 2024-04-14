@@ -1,0 +1,200 @@
+[UNITINFO]
+{
+	//original acceleration = 10;
+	acceleration = 5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 2323; 2788
+	buildcost = 2288;
+	//original buildtime = 230;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//original no cantbetransported
+	cantbetransported = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vercen_dead;
+	//original damagecategory = Monster;
+	damagecategory = archer2;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 30;
+	//original fireatwillrandom = 1;
+	frozen = vercen_frozen;
+	healtime = 0.94;
+	manarechargerate = 20;
+	maneuverleashlength = 2500;
+	//original maxdamage = 5550;
+	maxdamage = 1750;
+	maxmana = 1000;
+	//original maxvelocity = 2.1;
+	maxvelocity = 2.5;
+	movementclass = GROUND3;
+	name = Centaur;
+	objectname = VERCEN;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	//original sightdistance = 215;
+	sightdistance = 340;
+	soundcategory = VERCEN;
+	soundclass = VERCEN;
+	standingunitorder = 1;
+	stone = vercen_stone;
+	tedclass = Veruna;
+	//original turninplacerate = 2100;
+	turninplacerate = 1600;
+	//original turnrate = 1900; 1200;
+	turnrate = 1400;
+	unitname = VERCEN;
+	unitnumber = 117;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	//default aimtolerance = 1024;
+	aimtolerance = 512;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	explosionclass = teeny explosion;
+	manapershot = 100;
+	model = araarrow2;
+	name = Tracking Arrow;
+	nimbus = 1;
+	//original range = 550; 500
+	range = 500;
+	//original reloadtime = 3.65;
+	reloadtime = 3.2;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 750;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		//original default = 576
+		default = 802; //dmg = 220/s
+		airship = 1.4; //dmg = 1122
+		archer = 2;
+		archer2 = 2;   //dmg = 1604
+		fly = 1.6;
+		dragon = 1.2;
+		fort = 0.15;
+		factory = 0.15;
+		lodestone = 0;
+		magic = 0.5;
+		monarch = 0.3;
+		stalwart = 0.8;
+		support = 0.6;
+		undead = 0.85;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 500;
+	model = araarrow3;
+	name = Paralyze Arrow;
+	nimbus = 1;
+	//original range = 550;
+	range = 350;
+	reloadtime = 3.5;
+	soundhit = arrow08;
+	type = ballistic;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		airship = 1.35;
+		//original default = 500; Now (120%)
+		default = 800;
+		archer = 2;	//dmg = 1600;
+		archer2 = 0.8;
+		dragon = 0;
+		factory = 0;
+		fly = 1.6;	//dmg=
+		fort = 0;
+		fort2 = 0;
+		god = 0.1;
+		lodestone = 0;
+		magic = 0.1;
+		monster = 0.5;
+		monarch = 0;
+		naval = 0;
+		siege = 0.75;
+		siege2 = 1.25;
+		stalwart = 0.15;
+		support = 0.5;
+		undead = 0.85;
+	}
+}
+
+[WEAPON3]
+{
+	//default aimtolerance = 1024;
+	aimtolerance = 512;
+	buttonimagedisabled = ArrowSnipingPU;
+	buttonimagedown = ArrowSnipingPU;
+	buttonimageselected = ArrowSnipingSBh;
+	buttonimageup = ArrowSnipingSB;
+	explosionclass = teeny explosion;
+	manapershot = 350;
+	model = versarrow;
+	name = Sniping Arrow;
+	nimbus = 1;
+	//original range = 550; 500
+	range = 620;
+	//original reloadtime = 3.65;
+	reloadtime = 5;
+	soundhitclass = arrow;
+	turnrate = 180;
+	//type = Guided;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 750; 550
+	weaponvelocity = 480;
+
+	[DAMAGE]
+	{
+		//original default = 576
+		default = 1202;  //dmg = 240/s
+		archer = 1.66;
+		archer2 = 0.4;   //dmg = 480
+		fort = 0;	 //can't target
+		fort2 = 0;
+		factory = 0;
+		god = 0.2;
+		flygod = 0.2;
+		lodestone = 0;
+		magic = 0.3;	 //dmg = 360
+		monarch = 0.2;
+		stalwart = 0.4;  //dmg = 
+		support = 0.2;  //dmg = 
+		undead = 0.85;
+	}
+}

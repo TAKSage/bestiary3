@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 0.01;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.01;
+	buildcost = 10000;
+	buildtime = 1000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Zon BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRETORT_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 45;
+	fireatwillrandom = 1;
+	healtime = 3;
+	maneuverleashlength = 150;
+	maxdamage = 8000;
+	maxvelocity = 1.5;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND3;
+	name = Turret Ballista;
+	objectname = Zoncrebalistic;
+	pitchscale = 1.8;
+	radardistance = 450;
+	roadmultiplier = 2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 200;
+	soundcategory = AraSiegeL;
+	soundclass = AraSiegeL;
+	standingunitorder = 2;
+	tedclass = Siege;
+	totalallowed = 2;
+	turninplacerate = 100;
+	turnrate = 50;
+	unitname = Zoncrebalistic;
+	unitnumber = 1212122;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1550;
+	areaofeffect = 25;
+	explosionclass = large dust puff;
+	minrange = 50;
+	model = cregatl1;
+	name = Ballista Arrow;
+	range = 700;
+	reloadtime = 5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 595;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		airship = 2;
+		dragon = 2;
+		monarch = .25;
+		fort = 2;
+		factory = 2;
+		lodestone = 2;
+		naval = 2;
+		siege = .25;
+	}
+}

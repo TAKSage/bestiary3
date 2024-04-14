@@ -1,0 +1,144 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1800;
+	buildtime = 650;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ZON BALLISTIC MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Zonearch_dead;
+                damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 35;
+	fireatwillrandom = 1;
+	healtime = 4.337;
+	manarechargerate = 3.5;
+	maneuverleashlength = 500;
+	maxdamage = 6800;
+	maxmana = 600;
+	maxvelocity = 3.5;
+	movementclass = GROUND2;
+	name = Silvanesti;
+	objectname = ZONEARCH;
+	roadmultiplier = 1.3;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 388;
+	soundcategory = ZONEARCH;
+	soundclass = ZONEARCH;
+	standingunitorder = 1;
+	stone = Zonearch_stone;
+	tedclass = Zhon;
+	turninplacerate = 3000;
+	turnrate = 2500;
+	unitname = ZONEARCH;
+	unitnumber = 3208;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+                areaofeffect = 50;
+	buttonimagedisabled = TripleArrowPU;
+	buttonimagedown = TripleArrowPU;
+	buttonimageselected = TripleArrowSBh;
+	buttonimageup = TripleArrowSB;
+                edgeeffectiveness = 0.5;
+                explosionclass = blood explosion;
+	model = Zonearcharrow;
+	name = Triple Arrow;
+	//original range = 550;
+	range = 490;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 540;
+
+	[DAMAGE]
+	{
+		default = 541; 
+		
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+                areaofeffect = 100;
+	buttonimagedisabled = TripleArrowTrackingPU;
+	buttonimagedown = TripleArrowTrackingPU;
+	buttonimageselected = TripleArrowTrackingSBh;
+	buttonimageup = TripleArrowTrackingSB;
+               edgeeffectiveness = 0.5;
+	explosionclass = small explosion;
+	manapershot = 125;
+	model = Zonearchtarrow;
+	name = Tracking Triple Arrow;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	turnrate = 220;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		default = 1100;  
+		
+	}
+}
+
+[WEAPON3]
+{
+	//default aimtolerance = 1024;
+	aimtolerance = 512;
+                areaofeffect = 30;
+	buttonimagedisabled = TripleArrowSnipingPU;
+	buttonimagedown = TripleArrowSnipingPU;
+	buttonimageselected = TripleArrowSnipingSBh;
+	buttonimageup = TripleArrowSnipingSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	manapershot = 300;
+	model = zonearchsarrow;
+	name = Sniping Arrow;
+	nimbus = 1;
+	//original range = 550; 500
+	range = 1200;
+	//original reloadtime = 3.65;
+	reloadtime = 3.5;
+	soundhitclass = arrow;
+	//turnrate = 180;
+	//type = Guided;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 750; 550
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+	         default = 1576;
+		
+	}
+}

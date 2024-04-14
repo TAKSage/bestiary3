@@ -1,0 +1,138 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 247 249 239;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 223 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3888;
+	buildtime = 1067;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TarDknight_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = TAROS;
+	experiencepoints = 55;
+                frozen = tardknight_frozen;
+	healtime = 0.783333333;
+	manarechargerate = 12;
+	maxmana = 1000;
+	maneuverleashlength = 500;
+	maxdamage = 9999;
+	maxvelocity = 3;
+	movementclass = GROUND3;
+	name = Death Knight;
+	objectname = TarDknight;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TarDknight;
+	soundclass = TarDknight;
+	standingunitorder = 2;
+	stone = TarDknight_stone;
+	tedclass = Taros;
+	turnrate = 1000;
+	unitname = TarDknight;
+	unitnumber = 100775;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	//wpri_badtargetcategory = FLY;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	explosionclass = small dust puff;
+	firestarter = 1;
+	edgeeffectiveness = 0.1;
+	name = Decapitator;
+	range = 100;
+	reloadtime = 1.6;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+                monarch = 0.01;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+               edgeeffectiveness = 0.5;
+	explosionclass = composite04flame;
+	firestarter = 1;
+	manapershot = 200;
+                minrange = 100;
+	name = Hell Fire;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 2.0;
+	soundhit = TarDknightata2;
+	turnrate = 180;
+	type = Line of sight;
+	model = araarrow2;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1300;
+                monarch = 0.01;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 300;
+	buttonimagedisabled = JOLPU;
+	buttonimagedown = JOLPU;
+	buttonimageselected = JOLSBh;
+	buttonimageup = JOLSB;
+	edgeeffectiveness = 1;
+	explosionclass = redburst1;
+	manapershot = 500;
+                minrange = 100;
+	model = JOL.3do;
+	noairweapon = 1;
+	name = Jack O Lantern;
+	nimbus = 1;
+	range = 500;
+	firestarter = 1;
+	reloadtime = 3.0;
+	soundhit = TarDknightATA1;
+	spinheading = 100;
+	spinpitch = 300;
+	type = Guided;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 2500;
+		monarch = 0.02;
+		god = 0.5;
+	}
+}

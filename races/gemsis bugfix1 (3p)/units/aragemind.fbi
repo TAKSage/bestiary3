@@ -1,0 +1,105 @@
+[UNITINFO]
+{
+	acceleration = 0.22;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.06;
+	buildcost = 8000;
+	buildtime = 1619;
+	canattack = 1;
+	canguard = 1;
+	canreclaim = 1;
+	canresurrect = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAgemind_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = ARAMON;
+	experiencepoints = 24;
+	healtime = 1.7458;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 5800;
+	maxmana = 2000;
+	maxvelocity = 1.15;
+	movementclass = GROUND3;
+	name = Curser;
+	objectname = ARAGEMIND;
+	pitchscale = 1.5;
+	radardistance = 420;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = TARMIND;
+	soundclass = TARMIND;
+	standingunitorder = 1;
+	stone = ARAGEmind_stone;
+	frozen = ARAGEmind_frozen;
+	tedclass = ARAMon;
+	turninplacerate = 500;
+	turnrate = 350;
+	unitname = ARAGEMIND;
+	unitnumber = 4592;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 45;
+	edgeeffectiveness = 0.7;
+	name = Cursed Sword;
+	range = 85;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.6;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Curse;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2.6;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

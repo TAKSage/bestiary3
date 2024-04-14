@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 16;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 90000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 3400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim =0;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE Attack;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Attack;
+	defaultmissiontype = Standby;
+	description = Creon;
+	economybonus = 30;
+	experiencepoints = 160;
+	healtime = 0.041666667;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 15750;
+	maxmana = 1500;
+	maxvelocity = 1.6;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Doom Golem;
+	noveteran = 1;
+	objectname = CREDGOLEM;
+	radardistance = 650;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 255;
+	soundcategory = CRESAGE;
+	soundclass = CRESAGE;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CREDGOLEM;
+	unitnumber = 15;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1356;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Dark Flame;
+	range = 275;
+	reloadtime = 2.1;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 240;
+
+	[DAMAGE]
+	{
+		default =1220;
+	                  undead=2;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1589;
+	areaofeffect = 100;
+	buttonimagedisabled = LightningballPU;
+	buttonimagedown =LightningballPU;
+	buttonimageselected =LightningballSBh;
+	buttonimageup = LightningballSB;
+	edgeeffectiveness = 0.4;
+	explosionclass = large explosion;
+	manapershot = 140;
+	name = Storm Ball;
+	range = 1840;
+	reloadtime = 1.7;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	weaponart = Ltngball_1a;
+	weaponvelocity = 640;
+                  nimbus = 1;
+                  lightmap = small;
+
+	[DAMAGE]
+	{
+		default = 1935;
+	                  undead= 2;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = FreezeStormPU;
+	buttonimagedown = FreezeStormPU;
+	buttonimageselected = FreezeStormSBh;
+	buttonimageup = FreezeStormSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot =800;
+	name = Death Burst;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 150;
+	reloadtime = 1.5;
+	ringcount = 7;
+	ringdelay = 0.12;
+	ringduration = 1.8;
+	showeffect = 0;
+	soundhit = crestormlaunch7;
+	spritecount = 75;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default =6850;
+	                  undead =2;
+		god = 0;
+	}
+}

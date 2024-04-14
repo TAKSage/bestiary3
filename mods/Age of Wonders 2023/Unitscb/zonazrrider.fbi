@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1175;
+	buildtime = 240;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonazrrider_dead;
+	damagecategory = azrac;
+	defaultmissiontype = Standby;
+	description = Azrac;
+	experiencepoints = 20;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxvelocity = 4;
+	mogriumincome = -5;
+	movementclass = GROUND3;
+	name = Azrac Rider;
+	objectname = ZONAZRRIDER;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 320;
+	soundcategory = AZRSWORD;
+	soundclass = AZRSWORD;
+	standingunitorder = 2;
+	tedclass = Azrac;
+	turnrate = 1000;
+	unitname = ZONAZRRIDER;
+	unitnumber = 42596;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Scimitar;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 2.35;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1208;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

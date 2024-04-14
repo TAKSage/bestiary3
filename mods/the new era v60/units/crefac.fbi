@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	bodytype = armor;
+	buildangle = 0;
+	buildcost = 4000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 1000;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	category = CRE FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crefac_dead;
+	damagecategory = factory;
+	description = Creon;
+	experiencepoints = 180;
+	footprintx = 9;
+	footprintz = 9;
+	healtime = 3.17083;
+	maxdamage = 26104;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 200;
+	name = T2 Factory;
+	objectname = CREFAC;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CRESMIT;
+	soundclass = CRESMIT;
+	tedclass = Creon;
+	transmaxunits = 15;
+	transportcapacity = 15;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 60;
+	unitname = CREFAC;
+	unitnumber = 7;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = ..ooooo.. ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo oocccccoo oocccccoo oocccccoo;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 210;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 180;
+		monarch = 0.5;
+	}
+}

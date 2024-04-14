@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8000;
+	buildcost = 5531;
+	buildtime = 750;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crelens_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Creon;
+	experiencepoints = 52;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 3.12;
+	maxdamage = 3830;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Apricor Lens;
+	objectname = crelens;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 220;
+	soundcategory = CREULTANY;
+	soundclass = CREULTANY;
+	tedclass = Creon;
+	unitname = crelens;
+	unitnumber = 35;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 130;
+	emittime = 80;
+	explosionclass = large explosion;
+	firestarter = 1;
+	hweffect = creon lightbeam;
+	innercolor = 20 20 140;
+	middlecolor = 25 25 150;
+	outercolor = 145 30 15;
+	lightmap = large;
+	minrange = 96;
+	name = Lightbeam;
+	range = 560;
+	reloadtime = 1.5;
+	soundhitclass = creballcan;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}

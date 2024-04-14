@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 16384;
+	buildcost = 9204;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 1922;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabuilding_dead;
+	corpseadjustz = 4;
+	damagecategory = factory;
+	description = Taros;
+	experiencepoints = 100;
+	footprintx = 9;
+	footprintz = 15;
+	healtime = 1.039583333;
+	maxdamage = 23116;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 200;
+	name = Haradrim Citadel;
+	objectname = tarharadbar;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = VERKEEP;
+	soundclass = VERKEEP;
+	tedclass = Taros;
+	totalallowed = 3;
+	unitname = tarharadbar;
+	unitnumber = 136;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ..... ..... ..... ..... ooooo ooooo ooooo ooooo ooooo ooooo ccccc ccccc ccccc ccccc;
+}

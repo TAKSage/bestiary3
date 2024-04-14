@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 0.51;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.15;
+	buildcost = 2231;
+	buildtime = 290;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRESUBM_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 19;
+	floater = 1;
+	healtime = 1.2083;
+	maneuverleashlength = 500;
+	maxdamage = 3674;
+	maxvelocity = 2.05;
+	movementclass = WATER4;
+	name = Dwarven Plunger;
+	objectname = aradelplung;
+	pitchscale = 1.5;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 80;
+	soundcategory = VERNAUT;
+	soundclass = VERNAUT;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	turnrate = 85;
+	unitname = aradelplung;
+	unitnumber = 43;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 25;
+	edgeeffectivness = 0.2;
+	explosionclass =  large dust puff;
+	gravityadjustment = 1.9;
+	lobpreferred = 1;
+	model = verhpoon.3do;
+	name = Lob Harpoon;
+	noairweapon = 1;
+	range = 550;
+	reloadtime = 5.2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 690;
+
+	[DAMAGE]
+	{
+		default = 1200;
+	}
+}

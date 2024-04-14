@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = Flesh;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AHGiant_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 25;
+	healtime = 0.895833333;
+	maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxvelocity = 1;
+	movementclass = GROUND2;
+	name = Hill Giant;
+	objectname = AHGiant;
+	roadmultiplier = 1;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 225;
+	soundcategory = AHgiant;
+	soundclass = AHgiant;
+	standingunitorder = 2;
+	stone = AHGiant_stone;
+	tedclass = Aramon;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = AHGiant;
+	unitnumber = 937;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Fist;
+	range = 55;
+	reloadtime = 1.2;
+	soundhitclass = rock;
+	type = Melee;
+	explosionclass = large dust puff;
+	
+	[DAMAGE]
+	{
+		default = 1200;
+	}
+}

@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.2;
+	buildcost = 4515;
+	buildtime = 600;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	immunetoparalyzer = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+        cantbetransported = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verribaud_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	frozen = verribaud_frozen;
+	healtime = 1.1875;
+	maneuverleashlength = 500;
+	//manarechargerate = 27;
+	maxdamage = 3800;
+	//maxmana = 1000;
+	maxvelocity = 1.0;
+    	movementclass = HOVER5;
+	name = Ribaud;
+	notargetcategory = FLY;
+	objectname = verribaud;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowart = shadow09;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = verult2;
+	soundclass = verult2;
+	standingunitorder = 1;
+	stone = verribaud_stone;
+	tedclass = Veruna;
+	turninplacerate = 450;
+	turnrate = 250;
+	unitname = verribaud;
+	unitnumber = 6;
+	version = 1;
+	watermultiplier = 0.9;
+	waterline = 3;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	areaofeffect = 40;
+	explosionclass = teeny explosion;
+	//manapershot = 100;
+	name = Ribuadequin;
+	noairweapon = 1;
+	range = 700;
+	reloadtime = 4;
+	soundhit = gatlshot;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		god = 0.5;
+		monarch = 0.5;
+	}
+}

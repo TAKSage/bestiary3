@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.1;
+	buildcost = 2500;
+	buildtime = 1100;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Zhon;
+	experiencepoints = 90;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.052777778;
+	hoverattack = 1;
+	//hoverattackaltitude = 150;
+	hoverattackdistance = 1400;
+	maneuverleashlength = 500;
+	maxdamage = 2786;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Cockatrice;
+	objectname = ZONCOCK;
+	radardistance = 650;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = ZONCOCK;
+	soundclass = ZONCOCK;
+	standingunitorder = 2;
+	stone = zoncock_stone;
+	tedclass = Zhon;
+	turninplacerate = 500;
+	turnrate = 200;
+	unitname = ZONCOCK;
+	unitnumber = 184162;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+                aimtolerance = 1024;
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large dust puff;
+	gravityadjustment = 4.2;
+	minrange = 200;
+	name = Gaze of the Cockatrice;
+	noairweapon = 1;
+	range = 1400;
+	reloadtime = 14.5;
+	shadowart = weaponshad02;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = fireballB;
+	weaponvelocity = 1150;
+
+	[DAMAGE]
+	{
+		default = 3500;
+	}
+}

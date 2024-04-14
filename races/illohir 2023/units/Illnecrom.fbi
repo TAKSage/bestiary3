@@ -1,0 +1,181 @@
+[UNITINFO]
+{
+acceleration = 10;
+animatetype = ILLALIC;
+attractsgods = 1;
+bloodcolor1 = 15 15 15;
+bloodcolor2 = 25 25 25;
+bloodcolor3 = 40 40 40;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 6087;
+buildtime = 685;
+builddistance = 500;
+builder = 1;
+builderlimited = 1;
+cananimate = 1;
+canattack = 1;
+cantbecaptured = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canreclaim = 1;
+canstop = 1;
+category = Ill BUILDER;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illnecrom_dead;
+damagecategory = Undead;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 39;
+floater = 0;
+frozen = Illnecrom_frozen;
+healtime =  3.795833;
+manarechargerate = 12;
+maneuverleashlength = 350;
+maxdamage = 4370;
+maxmana = 1000;
+maxvelocity = 1.1;
+//mobilestandorders = 1;
+mogriumincome = 2;
+mogriumstorage = 150;
+movementclass = HOVER2;
+name = Necromicon;
+objectname = ILLNECROM;
+radardistance = 225;
+shadowgaf = shadows;
+shootme = 1;
+side = Ill;
+sightdistance = 220;
+soundcategory = TARNECROM;
+soundclass = TARNECROM;
+standingunitorder = 2;
+stone = Illnecrom_stone;
+tedclass = Illohir;
+ThreeD = 1;
+turninplacerate = 2500;
+turnrate = 2500;
+unitname = IllNECROM;
+unitnumber = 100005;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.4;
+weaponswitching = 1;
+workertime = 8;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+buttonimagedisabled = deathstrike_down;
+buttonimagedown = deathstrike_down;
+buttonimageselected = deathstrike_selected;
+buttonimageup = deathstrike_up;
+areaofeffect = 60;
+edgeeffectiveness = 0.5;
+explosionclass = small smoke explosion;
+name = Death Strike;
+nimbus = 1;
+range = 90;
+reloadtime = 2.5;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 650;
+god = 1.5;
+monarch = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+undead = 0.25;
+human = 1.25;
+
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 90;
+edgeeffectiveness = 1;
+buttonimagedisabled = deathbolt_down;
+buttonimagedown = deathbolt_down;
+buttonimageselected = deathbolt_selected;
+buttonimageup = deathbolt_up;
+boltcount = 3;
+damagetype = fire;
+emittime = 30;
+edgeeffectiveness = 0.5;
+explosionclass = fireball explosion;
+firestarter = 1;
+hweffect = redbeamweapon;
+jagginess = 1;
+innercolor = 255 255 165;
+lightmap = small;
+manapershot = 300;
+middlecolor = 255 255 0;
+name = Infernal Light;
+nimbus = 1;
+outercolor = 255 0 0;
+range = 375;
+reloadtime = 2.5;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhitclass = lightning;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 1500;
+
+[DAMAGE]
+{
+default = 700;
+god = 1.5;
+monarch = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+undead = 0.25;
+human = 1.5;
+dragon = 1.5;
+
+}
+}
+
+[WEAPON3]
+{
+buttonimagedisabled = dominate_down;
+buttonimagedown = dominate_down;
+buttonimageselected = dominate_selected;
+buttonimageup = dominate_up;
+aimtolerance = 1024;
+explosionclass = mind control;
+manapershot = 500;
+name = Dominate;
+nimbus = 1;
+range = 300;
+reloadtime = 2.5;
+soundhit = dominate;
+subtype = mindcontrol;
+type = line of sight;
+//weaponart = FireballCa;
+weaponvelocity = 400;
+
+[DAMAGE]
+{
+default = 1;
+monarch = 0;
+fort = 0;
+factory = 0;
+lodestone = 0;
+dragon = 0;
+god = 0;
+
+}
+}

@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	//original acceleration = 0.5;
+	acceleration = 0.65;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+//	original buildcost = 3221; 3543
+	buildcost = 2970;
+//	original buildtime = 331; 166
+	buildtime = 266;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = fly;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.919444444;
+	hoverattack = 1;
+	hoverattackdistance = 175;
+//	original maneuverleashlength = 1000;
+	maneuverleashlength = 500;
+	maxdamage = 4012;
+	//original maxvelocity = 3.5; 3.4
+	maxvelocity = 4.2;
+	maxwaterdepth = 0;
+	name = (M) Sky Knight;
+	objectname = TARKNIGH;
+	radardistance = 666;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARKNIGH;
+	soundclass = TARKNIGH;
+	standingunitorder = 2;
+	stone = tarknigh_stone;
+	tedclass = Taros;
+	//original no totalallowed
+	totalallowed = 30;
+	transmaxunits = 1;
+	//turninplacerate = 1000;
+	turninplacerate = 2000;
+	//turnrate = 200;
+	turnrate = 600;
+	unitname = TARKNIGH;
+	unitnumber = 88;
+	upright = 1;
+	// Based on Cavedog's Crusades balance
+	version = M.1.0;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = fire_breath;
+	//original range = 600;
+	range = 550;
+	reloadtime = 3;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		//original default = 790
+		default = 850;
+		airship = 0.6;
+		fly = 0.75;      //637
+		god = 0.3;
+		flygod = 0.3;
+		support = 0.6;
+		melee = 1.2;
+		monarch = 0.5;
+		naval = 1.2;
+		siege = 1.1;
+		siege2 = 1.3;
+		stalwart = 1.1;  //935
+		tier1 = 2.0;
+	}
+}

@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1280;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = taruruk_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 5;
+	healtime = 0.583333333;
+	maneuverleashlength = 500;
+	maxdamage = 4803;
+	maxvelocity = 1.55;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Uruk Slaver;
+	objectname = tarurukslaver;
+	radardistance = 380;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARTROOP;
+	soundclass = TARTROOP;
+	standingunitorder = 1;
+	stone = arabuild_stone;
+	tedclass = Taros;
+	totalallowed = 5;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarurukslaver;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	wind = 1;
+	workertime = 10;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.3;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 160;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Whip;
+	range = 100;
+	reloadtime = 2;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 230;
+	}
+}

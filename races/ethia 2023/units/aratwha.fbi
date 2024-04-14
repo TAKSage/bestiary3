@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+acceleration = 10;
+bankscale = 4;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = scale;
+brakerate = 10;
+buildcost = 2682;
+buildtime = 795;
+canattack = 1;
+canhover = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+cantbetransported = 1;
+category = ARA MELEE BALLISTIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = aratwha_dead;
+damagecategory = monster;
+defaultmissiontype = Standby;
+description = Aramon;
+experiencepoints = 21;
+floater = 0;
+healtime = 0.89583;
+maneuverleashlength = 500;
+manarechargerate = 15;
+maxdamage = 6300;
+maxmana = 1000;
+maxvelocity = 1.23;
+movementclass = HOVER4;
+name = Tera Whale;
+objectname = ARATWHA;
+pitchscale = 1.9;
+roadmultiplier = 1.21;
+shadowgaf = shadows;
+shootme = 3;
+side = ARA;
+sightdistance = 250;
+soundcategory = araTWHA;
+soundclass = araTWHA;
+standingunitorder = 2;
+stone = aratwha_stone;
+tedclass = Ethia;
+turnrate = 250;
+unitname = ARATWHA;
+unitnumber = 22914;
+upright = 1;
+version = 1;
+waterline= 36;
+watermultiplier = 1.81;
+weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2000;
+areaofeffect = 60;
+buttonimagedisabled = CannonPU;
+buttonimagedown = CannonPU;
+buttonimageselected = CannonSBh;
+buttonimageup = CannonSB;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = large explosion;
+name = Cannon;
+range = 700;
+reloadtime = 2.5;
+shadowart = weaponshad01;
+shadowgaf = shadows;
+soundhitclass = cremdcan;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weaponart = cannbsm;
+weaponvelocity = 615;
+
+[DAMAGE]
+{
+default = 425;
+}
+}
+
+[WEAPON2]
+{
+areaofeffect = 28;
+buttonimagedisabled = BeastClawsPU;
+buttonimagedown = BeastClawsPU;
+buttonimageselected = BeastClawsSBh;
+buttonimageup = BeastClawsSB;
+edgeeffectiveness = 0.7;
+name = Beast Claws;
+range = 300;
+reloadtime = 1.75;
+soundhitclass = fist;
+type = Melee;
+
+[DAMAGE]
+{
+default = 999;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 175;
+builduptime = 1;
+buttonimagedisabled = WaterBurstPU;
+buttonimagedown = WaterBurstPU;
+buttonimageselected = WaterBurstSBh;
+buttonimageup = WaterBurstSB;
+decaytime = 0.9;
+edgeeffectiveness = 1;
+manapershot = 900;
+name = Area Drown;
+nimbus = 1;
+radiusart0 = TsunamiExplode;
+radiusart1 = TsunamiExplode;
+radiusart2 = TsunamiExplode;
+range = 200;
+reloadtime = 1.5;
+ringcount = 2;
+ringdelay = 0.15;
+ringduration = 0.6;
+showeffect = 0;
+soundhit = arrow08;
+spritecount = 23;
+type = Remote Effect;
+unitsonly = 1;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 999;
+monarch = 0.25;
+fort = 0.25;
+factory = 0.25;
+}
+}

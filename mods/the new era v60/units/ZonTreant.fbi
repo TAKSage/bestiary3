@@ -1,0 +1,138 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 2000;
+	buildtime = 500;
+	builddistance = 100;	
+	builder = 1;
+	builderlimited = 1;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canreclaim = 1;	
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	//cantransport = 1;
+	//cantbetransported = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZonTreant_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	//defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	//footprintx = 3;
+	//footprintz = 3;
+	frozen = zontreant_frozen;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 4000;
+	manarechargerate = 20;
+	maxmana = 1000;
+	maxvelocity = 2;
+	movementclass = HOVER3;
+	maxwaterdepth = 0;
+	maxslope = 15;
+	name = Tree of Life;
+	objectname = ZonTreant;
+	roadmultiplier = 1.1;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ZonTreant;
+	soundclass = ZonTreant;
+	standingunitorder = 1;
+	stone = zontreant_stone;
+	tedclass = Zhon;
+	//transmaxunits = 2;
+	//transportcapacity = 2;
+	//transportdistance = 300;
+	//transportsize = 4;
+	//transportsizecapacity = 8;
+	turninplacerate = 1500;
+	totalallowed = 1.1;	
+	turnrate = 800;
+	unitname = ZonTreant;
+	unitnumber = 100790;
+	upright = 1;
+	version = 1;
+    waterline = 1;
+    watermultiplier = 0.9;
+	yardmap = o;
+	weaponswitching = 1;
+	workertime = 15;	
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 1;
+	buttonimagedisabled = TripleArrowPU;
+	buttonimagedown = TripleArrowPU;
+	buttonimageselected = TripleArrowSBH;
+	buttonimageup = TripleArrowSB;
+	name = Branch Swat;
+	range = 200;
+	reloadtime = 1.7;
+	type = Melee;
+	soundhitclass = fist;
+	
+	[DAMAGE]
+	{
+		default = 650;
+                monarch = 0.3;
+                Tier1 = 1.5; 
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 300;
+	builduptime = 1;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 0.8;
+	manapershot = 550;
+	name = Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 400;
+	reloadtime = 3;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	//shotart = cannbsm;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 700;
+                monarch = 0.3;
+		fort = .3;
+                Tier1 = 1.3; 
+	}
+}

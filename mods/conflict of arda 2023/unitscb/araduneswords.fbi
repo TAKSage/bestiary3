@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 988;
+	buildtime = 291;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	cloakcost = 11;
+	cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahuman_dead;
+	defaultmissiontype = Standby;
+	description = ARA;
+	experiencepoints = 7;
+	healtime = 0.520833333;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2454;
+	maxmana = 1000;
+	maxvelocity = 1.75;
+	mincloakdistance = 70;
+	movementclass = GROUND2;
+	name = Dunedain Stalker;
+	objectname = araduneswords;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARASWORD;
+	soundclass = ARASWORD;
+	standingunitorder = 2;
+	stone = NPCLEIM_stone;
+	tedclass = ARA;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = araduneswords;
+	unitnumber = 62240;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	name = Sword;
+	range = 30;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 490;
+		tarmordororc = 2.5;
+		tarudunorc = 2.5;
+		tarosgorc = 2.5;
+		tarangmarorc = 2.5;
+		tarmoriagolbin = 2.5;
+		tarmoriaarch = 2.5;
+		tarmoriaaxe = 2.5;
+		tarmoriakey = 2.5;
+		tarmoriasword = 2.5;
+		tarmorgulorc = 2.5;
+		tarmorgulspear = 2.5;
+		tareasternorc = 2.5;
+		tarnurnorc = 2.5;
+	}
+}

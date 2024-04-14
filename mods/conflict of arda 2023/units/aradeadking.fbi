@@ -1,0 +1,160 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = ARASLEEP;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 42800;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 8880;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA Monarch;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 30;
+	experiencepoints = 151;
+	ghost = 1;
+	healtime = 0.095;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 23500;
+	maxmana = 1000;
+	maxvelocity = 2.4;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = HOVER2;
+	name = King of the Dead;
+	noveteran = 1;
+	objectname = aradeadking;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 732;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = aradeadking;
+	unitnumber = 15000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 75;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 550;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1800;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	damagetype = paralyzer;
+	manapershot = 300;
+	model = VerLight2;
+	name = Bestow Fear;
+	range = 480;
+	reloadtime = 2.9;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 695;
+
+	[DAMAGE]
+	{
+		default = 175;
+		airship = 0;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		tarmumakil = 2.5;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 145;
+	builduptime = 0.25;
+	buttonimagedisabled = WindWavetPU;
+	buttonimagedown = WindWavetPU;
+	buttonimageselected = WindWavetSBh;
+	buttonimageup = WindWavetSB;
+	decaytime = 1;
+	edgeeffectiveness = 0.55;
+	manapershot = 900;
+	name = Mountain Wind;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 450;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = arrow08;
+	spritecount = 25;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1300;
+		tarmumakil = 2.5;
+	}
+}
+
+
+[WEAPON3]
+{
+	areaofeffect = 65;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	edgeeffectiveness = 0.7;
+	manapershot = 100;
+	name = Spectral Swing;
+	range = 300;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1825;
+		tarmumakil = 5.5;
+	}
+}

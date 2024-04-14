@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 550;
+	buildtime = 108;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Zondarch_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 31;
+                frozen = zondarch_frozen;
+	//fireatwillrandom = 1;
+	healtime = 1.05;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1400;
+	//maxmana = 1000;
+	maxvelocity = 2.2;
+	movementclass = GROUND2;
+	name = Quill Bearer;
+	objectname = ZONDARCH;
+	roadmultiplier = 1.3;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 245;
+	soundcategory = ZONHUNT;
+	soundclass = ZONHUNT;
+	standingunitorder = 1;
+	stone = Zondarch_stone;
+	tedclass = Zhon;
+	totalallowed = 35;
+	turninplacerate = 3000;
+	turnrate = 2500;
+	unitname = ZONdARCH;
+	unitnumber = 12011;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass = small dust puff;
+	model = Zondarcharrow;
+	name = Triple Arrow;
+	range = 800;
+	reloadtime = 4.25;
+	soundhitclass = arrow;
+	turnrate = 1200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 780;
+
+	[DAMAGE]
+	{
+		default = 460;
+	}
+}

@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1280;
+	buildtime = 128;
+	canattack = 1;
+        cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+        cloakcost = 14.444;
+	cloakcostmoving = 21.111;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 17;
+	healtime = 0.325;
+        manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 500;
+        maxmana = 500;
+	maxvelocity = 1.75;
+        mincloakdistance = 50;
+	movementclass = GROUND2;
+	name = Halfling Trooper;
+	objectname = aradelht;
+	roadmultiplier = 1.21;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = aradelha;
+	soundclass = aradelha;
+	standingunitorder = 2;
+	stone = aradelht_stone;
+	tedclass = Aramon;
+        turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = aradelht;
+	unitnumber = 1825;
+	upright = 1;
+	version = 1.2;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.7;
+	name = Club;
+	range = 50;
+	reloadtime = 1;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+                monarch = 0.1;
+                fort = 0.001;
+                factory = 0.001;
+	}
+}

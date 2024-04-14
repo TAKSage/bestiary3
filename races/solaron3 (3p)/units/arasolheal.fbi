@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildcost = 950;
+	buildtime = 388;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	description = Aramon;
+	experiencepoints = 5;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.104166667;
+	maxdamage = 1450;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Healing Crystal;
+	noshadow = 1;
+	objectname = arasolheal;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 130;
+	soundcategory = arasolheal;
+	soundclass = arasolheal;
+	tedclass = Aramon;
+	totalallowed=7;
+	unitname = arasolheal;
+	unitnumber = 10308;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 90;
+	}
+}

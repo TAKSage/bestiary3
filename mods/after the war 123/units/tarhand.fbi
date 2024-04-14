@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARLICH;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2695;
+//mogriumbounty = 269.5;
+	builddistance = 400;
+	buildtime = 320;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarhand_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 31;
+	healtime = 2.1875;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = Dark Hand;
+	objectname = tarhand;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = tarhand;
+	soundclass = tarhand;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarhand;
+	unitnumber = 116;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 30;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	buttonimagedisabled = nunchaku_down;
+	buttonimagedown = nunchaku_down;
+	buttonimageselected = nunchaku_use;
+	buttonimageup = nunchaku_up;
+	edgeeffectiveness = 1;
+	name = nunchaku strike;
+	range = 150;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 700;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		shielded = 2;
+		skeleton = 1.5;
+		kingkiller = 1.5;
+		hardscale = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 80;
+	buttonimagedisabled = bnunchaku_down;
+	buttonimagedown = bnunchaku_down;
+	buttonimageselected = bnunchaku_use;
+	buttonimageup = bnunchaku_up;
+	edgeeffectiveness = 1;
+	explosionclass = yellow_shockring;
+	name = AOE strike;
+	range = 150;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 700;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		shielded = 2;
+		skeleton = 1.5;
+		kingkiller = 1.5;
+		hardscale = 0.75;
+	}
+}

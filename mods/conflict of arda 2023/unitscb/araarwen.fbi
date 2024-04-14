@@ -1,0 +1,147 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 6500;
+	buildtime = 2350;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Animal;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 13;
+	healtime = 0.520833333;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 17500;
+	maxmana = 1000;
+	maxvelocity = 3.6;
+	movementclass = GROUND3;
+	name = Arwen;
+	noveteran = 1;
+	objectname = araarwen;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 795;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	stone = araknigh_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turnrate = 1000;
+	unitname = araarwen;
+	unitnumber = 16;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.25;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	buttonimagedisabled = Orcblade_disabled;
+	buttonimagedown = Orcblade_down;
+	buttonimageselected = Orcblade_selected;
+	buttonimageup = Orcblade_up;
+	edgeeffectiveness = 0.1;
+	name = Elven Blade;
+	range = 100;
+	reloadtime = 2.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		tarwitchking  = 7.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = green_shockring;
+	lightmap = small;
+	manapershot = 250;
+	name = Elven Magic;
+	range = 475;
+	reloadtime = 2.3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 321;
+
+	[DAMAGE]
+	{
+		default = 595;
+		tarwitchking  = 7.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 200;
+	builduptime = 1;
+	buttonimagedisabled = WaterBurstPU;
+	buttonimagedown = WaterBurstPU;
+	buttonimageselected = WaterBurstSBh;
+	buttonimageup = WaterBurstSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Water Blast;
+	nimbus = 1;
+	radiusart0 = TsunamiExplode;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 120;
+	reloadtime = 1.5;
+	ringcount = 2;
+	ringdelay = 0.15;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 23;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		tarwitchking  = 7.5;
+	}
+}

@@ -1,0 +1,169 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 1450;
+//	mogriumbounty = 145;
+	buildtime = 235;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapult_dead;
+	damagecategory = wood;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 25;
+	frozen = arapult_frozen;
+	healtime = 0.9791667;
+	maneuverleashlength = 500;
+	maxdamage = 1400;
+	maxvelocity = 0.85;
+	movementclass = GROUND5;
+	name = Catapult;
+	notargetcategory = FLY;
+	objectname = ARAPULT;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = ARAPULT;
+	soundclass = ARAPULT;
+	standingunitorder = 1;
+	stone = arapult_stone;
+	tedclass = Aramon;
+	turninplacerate = 250;
+	turnrate = 250;
+	unitname = ARAPULT;
+	unitnumber = 28;
+	version = 1;
+	watermultiplier = 0.5;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = cata_down;
+	buttonimagedown = cata_down;
+	buttonimageselected = cata_use;
+	buttonimageup = cata_up;
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	minrange = 180;
+	name = Cannonball;
+	noairweapon = 1;
+	range = 750;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannblg;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1250;
+		stone = 1.25;
+		factory = 1.25;
+		steelnaval = 0.75;
+		hardscale = 0.5;
+		
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = cataSH_down;
+	buttonimagedown = cataSH_down;
+	buttonimageselected = cataSH_use;
+	buttonimageup = cataSH_up;
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = large explosion;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	minrange = 180;
+	name = Shrapnel bomb;
+	noairweapon = 1;
+	range = 750;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.5;
+		wood = 0.5;
+		stone = 0.5;
+		factory = 0.5;
+		naval = 0.5;
+		steelnaval = 0.25;
+		steel = 0.25;
+		hardscale = 0.5;
+		
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	minrange = 180;
+	name = FOR THE AI;
+	noairweapon = 1;
+	range = 750;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannblg;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1250;
+		stone = 1.25;
+		factory = 1.25;
+		steelnaval = 0.75;
+		hardscale = 0.5;
+		
+	}
+}

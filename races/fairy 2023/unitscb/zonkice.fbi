@@ -1,0 +1,144 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2308;
+	buildtime = 328;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 28;
+	healtime = 1.3666666;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3500;
+	maxmana = 1000;
+	maxvelocity = 1.9;
+	movementclass = GROUND4;
+	name = Winter Beast;
+	objectname = zonkice;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = zondrake;
+	soundclass = zondrake;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	turnrate = 350;
+	unitname = Zonkice;
+	unitnumber = 91;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 600;
+	reloadtime = 3;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 821;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	manapershot = 400;
+	name = Freezing Breath;
+	noairweapon = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponart = iceburst;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 290;
+	builduptime = 1.0;
+	buttonimagedisabled = FreezeStormPU;
+	buttonimagedown = FreezeStormPU;
+	buttonimageselected = FreezeStormSBh;
+	buttonimageup = FreezeStormSB;
+	decaytime = 1.0;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Freezing Storm;
+	radiusart0 = ring_fx_iceA;
+	radiusart1 = ring_fx_iceB;
+	radiusart2 = ring_fx_iceC;
+	range = 290;
+	reloadtime = 4.0;
+	ringcount = 1;
+	ringdelay = 10.0;
+	ringduration = 1.0;
+	showeffect = 0;
+	soundhit = crefreezehit1;
+	spritecount = 50;
+	subtype = turntofrozen;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

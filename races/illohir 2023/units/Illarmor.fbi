@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = Flesh;
+brakerate = 10;
+buildcost = 1109;
+buildtime = 235;
+canattack = 1;
+cancloak = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbefrozen = 1;
+category = ILL MELEE ATTACK;
+cloakcost = 18;
+cloakcostmoving = 27;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagemodifier = 0.4;
+damagecategory = Undead;
+defaultmissiontype = StandBy;
+description = Illohir;
+experiencepoints = 35;
+floater = 1;
+healtime = 1.57;
+immunetoparalyzer = 1;
+init_cloaked = 1;
+//onoffable = 1;
+manarechargerate = 20;
+maneuverleashlength = 500;
+maxdamage = 1750;
+maxmana = 1500;
+maxvelocity = 2;
+mincloakdistance = 125;
+//mobilestandorders = 1;
+movementclass = HOVER2;
+name = ChaosFallen;
+objectname = ILLARMOR;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+stealth = 1;
+shootme = 1;
+side = ILL;
+sightdistance = 205;
+soundcategory = TarArmor;
+soundclass = TARARMOR;
+standingunitorder = 2;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 2;
+turninplacerate = 2400;
+turnrate = 2400;
+unitname = ILLArmor;
+unitnumber = 100019;
+upright = 1;
+version = 1;
+waterline = 1;
+watermultiplier = 0.35;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+//areaofeffect = 30;
+//edgeeffectiveness = 0.5;
+explosionclass = teeny explosion;
+name = Ghost Sword;
+nimbus = 1;
+range = 90;
+reloadtime = 1.15;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 450;
+human = 2.0;
+mechanical = 0.5;
+lodestone = 2.5;
+stalwart = 1.5;
+God = 1.5;
+monarch = 0.5;
+Tier1 = 0.25;
+undead = 0.25;
+}
+}
+
+

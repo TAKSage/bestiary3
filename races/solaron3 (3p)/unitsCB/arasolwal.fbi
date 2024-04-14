@@ -1,0 +1,37 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 75;
+	buildtime = 65;
+              cantbecaptured = 1;
+              cantbefrozen = 1;
+              cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAWALL;
+	description = Aramon;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.416666667;
+	isfeature = 1;
+	maxdamage = 4000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall;
+	noshadow = 1;
+	objectname = ARASOLWAL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 45;
+	soundcategory = ARASOLWAL;
+	soundclass = ARASOLWAL;
+	tedclass = Aramon;
+	unitname = ARASOLWAL;
+	unitnumber = 42;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

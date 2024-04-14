@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+    acceleration = 10;
+    bloodcolor1 = 160 35 0;
+    bloodcolor2 = 170 40 0;
+    bloodcolor3 = 180 30 5;
+    bmcode = 1;
+    bodytype = armor;
+    brakerate = 10;
+    buildcost = 20000;
+    buildtime = 1000;
+    canattack = 1;
+   // cancloak = 1;
+    canguard = 1;
+   // canhover = 1;
+    canmove = 1;
+    canpatrol = 1;
+    canstop = 1;
+    category = TAR ATTACK BALLISTIC;
+    copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+    corpse = tarfamSKEL_dead;
+    damagecategory = undead;
+    defaultmissiontype = Standby;
+    description = Taros;
+    experiencepoints = 44;
+   // floater = 0;
+    frozen = tarfamSKEL_frozen;
+    healtime = 5;
+    maneuverleashlength = 325;
+    maxdamage = 20000;
+    maxvelocity = 4.5;
+    movementclass = GROUND3;
+    name = Skeleton Champion;
+    objectname = TARFAMSKEL;
+    roadmultiplier = 1.21;
+    radardistance = 750;
+    shadowart = shadow10;
+    shadowgaf = shadows;
+    shootme = 1;
+    side = TAR;
+    sightdistance = 222;
+    soundcategory = TARFAMSKEL;
+    soundclass = TARFAMSKEL;
+    standingunitorder = 2;
+    stone = tarfamSKEL_stone;
+    tedclass = Taros;
+    turnrate = 1000;
+	totalallowed = 1;
+    unitname = TARFAMSKEL;
+    unitnumber = 99001;
+    upright = 1;
+    version = 1;
+   // waterline = 1;
+	//weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+    aimtolerance = 2024;
+    areaofeffect = 50;
+    explosionclass = Volcblast;
+    edgeeffectiveness = 0.7;
+    firestarter = 1;
+    model = fireball;
+    name = Flame Spike;
+    range = 520;
+    reloadtime = 1.5;
+    soundhitclass = fire;
+    type = Ballistic;
+    veteranlevel = 10;
+    veteranmodel = fireball5;
+    waterexplosionclass = medium water explosion;
+    weaponvelocity = 520;
+
+    [DAMAGE]
+    {
+        default = 2000;
+        undead = 0.2;
+    }
+}

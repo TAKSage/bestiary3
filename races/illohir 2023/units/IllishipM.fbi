@@ -1,0 +1,207 @@
+[UNITINFO]
+{
+acceleration = 0.1;
+//airtoairdistance = 200;
+amphibious = 1;
+attackrunlength = 1500;
+bankscale = 1.15; //2.85;
+bmcode = 1;
+bodytype = armor;
+brakerate = 0.010;
+buildcost = 16598;
+buildtime = 2147;
+canattack = 1;
+canguard = 1;
+canhover = 0;
+canfly = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantransport = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+cantbetransported = 1;
+category = ILL ATTACK FLY MAGIC;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 250;
+damagecategory = Siege;
+defaultmissiontype = VTOL_Standby;
+description = Illohir;
+experiencepoints = 78;
+floater = 0;
+footprintx = 5;
+footprintz = 8;
+healtime = 0.1116745;
+hoverattack = 0;
+isairbase = 1;
+maneuverleashlength = 1500;
+maxdamage = 17950;
+maxvelocity = 1.55;
+maxwaterdepth = 255;
+mogriumincome = -5;
+mogriumstorage = -750;
+mogriumbounty = 500;
+name = ChaosWarArk;
+objectname = ILLISHIPM;
+pitchscale = 0.25;//1.95;
+radardistance = 470;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 425;
+soundcategory = TARHSHIP;
+soundclass = TARHSHIP;
+standingunitorder = 2;
+tedclass = Illohir;
+ThreeD = 1;
+transmaxunits = 4;
+transportcapacity = 12;
+transportdistance = 250;
+transportsize = 6;
+transportsizecapacity = 72;
+turnrate = 175;
+unitname = IllISHIPM;
+unitnumber = 100031;
+version = 1;
+waterline = 2;
+wind = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2000;
+areaofeffect = 100;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = flamestrike;
+firestarter = 1;
+gravityadjustment = 2.5;
+model = skullshot;//Blue1CD;//Blue1D
+name = Fire Rock;
+nimbus = 1;
+range = 500;
+reloadtime = 2.5;
+smoketrail = 1;
+smokedelay = 3.5;
+soundhitclass = fire;
+soundwater = splash;
+spinheading = 4000;
+//toairweapon = 1;
+turnrate = 180;
+tracks = 1;
+guidance = 1;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weaponart = fireballa;
+weaponvelocity = 750;
+
+
+[DAMAGE]
+{
+default = 590;
+airship = 1.5;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+fort = 0.5;
+factory = 0.5;
+naval = 1.5;
+Tier1 = 1.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 2000;
+areaofeffect = 100;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = flamestrike;
+firestarter = 1;
+gravityadjustment = 2.5;
+model = skullshot;//Blue1CD;//Blue1D
+name = Fire Shot;
+nimbus = 1;
+range = 500;
+reloadtime = 2.7;
+smoketrail = 1;
+smokedelay = 3.5;
+soundhitclass = fire;
+soundwater = splash;
+spinheading = 4000;
+//toairweapon = 1;
+turnrate = 180;
+tracks = 1;
+guidance = 1;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weaponart = fireballa;
+weaponvelocity = 750;
+
+
+[DAMAGE]
+{
+default = 595;
+airship = 1.5;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+fort = 0.5;
+factory = 0.5;
+naval = 1.5;
+Tier1 = 1.5;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 4000;
+areaofeffect = 200;
+burst = 3;
+burstrate = 0.2;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = large explosion;
+firestarter = 1;
+gravityadjustment = 3.5;
+//holdtime = 1.75;
+model = skullshot;
+name = SkullBombs;
+noairweapon = 1;
+nimbus = 1;
+randomdecay = 0.2;
+range = 50;
+reloadtime = 3;
+smoketrail = 1;
+smokedelay = 10.5;
+soundhitclass = fire;
+soundwater = splash;
+spinheading = 4000;
+turnrate = 180;
+//tracks = 1;
+//guidance = 1;
+subtype = Dropped;
+type = Ballistic;
+weapontimer = 1.25;
+waterexplosionclass = medium water explosion;
+weaponart = fireballa;
+weaponvelocity = 25;
+
+
+[DAMAGE]
+{
+default = 600;
+dragon = 1.5;
+god = 1.5;
+monarch = 0.5;
+stalwart = 0.5;
+fort = 0.5;
+factory = 0.5;
+naval = 1.5;
+Tier1 = 0.5;
+}
+}
+

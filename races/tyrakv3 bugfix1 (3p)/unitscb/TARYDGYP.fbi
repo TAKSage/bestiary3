@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 125 125 125;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 869;
+	buildtime = 169;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	hoverattack = 1;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.469444444;
+	maneuverleashlength = 500;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maxdamage = 2511;
+	maxvelocity = 3.6;
+	maxwaterdepth = 0;
+	name = Dark Gryphon;
+	objectname = TARYDGYP;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = ZONGRYP;
+	soundclass = ZONGRYP;
+	standingunitorder = 2;
+	stone = zongryp_stone;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = TARYDGYP;
+	unitnumber = 66611;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 20;
+	explosionclass = small dust puff;
+	model = TARYFSPR;
+	name = Lance of Fire;
+	firestarter = 1;
+	range = 600;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 875;
+
+	[DAMAGE]
+	{
+		default = 340;
+	}
+}

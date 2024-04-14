@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1820;
+	buildtime = 1215;
+	canattack = 1;
+	canhover = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1; 	
+	cantbestoned = 1;
+               cantbetransported = 1;
+	category = VER MELEE ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vertwha_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 21;
+	floater = 0;
+               healtime = 0.89583;
+	maneuverleashlength = 500;
+	manarechargerate = 30;
+               maxdamage = 5900;
+	maxmana = 1000;
+	maxvelocity = 1.4;
+	movementclass = HOVER4;
+	name = Tera Whale;
+	objectname = VERTWHA;
+	pitchscale = 1.9;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 200;
+	soundcategory = VERTWHA;
+	soundclass = VERTWHA;
+	standingunitorder = 2;
+	tedclass = Veruna;
+                totalallowed = 36;
+	turnrate = 250;
+	unitname = VERTWHA;
+	unitnumber = 21914;
+	upright = 1;
+	version = 1;
+                waterline = 36;
+                watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 100;
+	buttonimagedisabled = CannonPU;
+	buttonimagedown = CannonPU;
+	buttonimageselected = CannonSBh;
+	buttonimageup = CannonSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+                 manapershot = 225;
+                 minrange = 150;
+	name = Cannon;
+	range = 900;
+	reloadtime = 2.25;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 615;
+
+	[DAMAGE]
+	{
+		default = 2900;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Beast Claws;
+                noairweapon = 1;
+	range = 150;
+	reloadtime = 2.0;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 999;
+	}
+}

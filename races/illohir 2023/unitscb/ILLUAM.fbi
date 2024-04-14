@@ -1,0 +1,191 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 255 255 255;
+bloodcolor2 = 0 0 0;
+bloodcolor3 = 0 0 0;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 1177;//977
+buildtime = 220;//170
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+category = ILL BALLISTIC ATTACK MAGIC;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLuam_dead;
+damagecategory = Undead;
+damagemodifier = 0.45;
+defaultmissiontype = Standby;
+description = ILLohir;
+experiencepoints = 45;
+floater = 0;
+frozen = ILLuam_frozen;
+healtime = 1.808333333;
+manarechargerate = 12;
+maneuverleashlength = 500;
+maxdamage = 1550;
+maxmana = 1000;
+maxvelocity = 1.5;
+movementclass = GROUND2;
+name = KhazraArcher;
+objectname = ILLUAM;
+roadmultiplier = 1.2;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 300;
+soundcategory = TARARCH;
+soundclass = TARARCH;
+standingunitorder = 2;
+mobilestandorders=1;
+stone = ILLuam_stone;
+tedclass = ILLohir;
+ThreeD = 1;
+turninplacerate = 2400;
+turnrate = 1200;
+unitname = ILLUAM;
+unitnumber = 100043;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.85;
+weaponswitching = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+//areaofeffect = 50;
+edgeeffectiveness = 1.0;
+aimtolerance = 1024;
+buttonimagedisabled = ArrowStandardPU;
+buttonimagedown = ArrowStandardPU;
+buttonimageselected = ArrowStandardSBh;
+buttonimageup = ArrowStandardSB;
+explosionclass = blue_shockring;
+gravityadjustment = 2.75;
+guidance = 1;
+model = Plasma5A;//BPulse5;
+name = ChaosBolt;
+nimbus = 1;
+range = 555;
+reloadtime = 2.65;
+smoketrail = 1;
+smokedelay = 6.5;
+soundhitclass = lightning;
+soundwater = splash;
+tracks = 1;
+turnrate = 180;
+type = Guided;
+//unitsonly = 1;
+weaponart = ltngball_2a;
+waterexplosionclass = small water explosion;
+weaponvelocity = 700;
+
+[DAMAGE]
+{
+default = 500;
+dragon = 0.5;
+monarch = 0.5;
+god = 0.5;
+airship = 1.25;
+Tier1 = 1.25;
+undead = 0.25;
+
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 512;
+buttonimagedisabled = ArrowTrackingPU;
+buttonimagedown = ArrowTrackingPU;
+buttonimageselected = ArrowTrackingSBh;
+buttonimageup = ArrowTrackingSB;
+explosionclass = yellow_shockring;
+damagetype = fire;
+gravityadjustment = 2.75;
+guidance = 1;
+manapershot = 550;
+model = Plasma9A;//BPulse6;
+name = SniperBolt;
+nimbus = 1;
+//nimbustime = 3.25;
+firestarter = 1;
+range = 900;
+reloadtime = 3.75;
+smoketrail = 1;
+smokedelay = 6.5;
+soundhitclass = fire;
+soundwater = splash;
+tracks = 1;
+turnrate = 180;
+type = Guided;
+unitsonly = 1;
+waterexplosionclass = small water explosion;
+weaponart = ltngball_2a;//zhonbuild;
+weaponvelocity = 700;
+
+[DAMAGE]
+{
+default = 305;
+dragon = 0.5;
+monarch = 0.5;
+god = 0.5;
+airship = 1.25;
+mechanical = 1.25;
+Tier1 = 0.5;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 3000;
+areaofeffect = 200;
+buttonimagedisabled = FireBallPU;
+buttonimagedown = FireBallPU;
+buttonimageselected = FireBallSBh;
+buttonimageup = FireBallSB;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = Large Explosion;
+burst = 3;
+burstrate = 0.07;
+burnblow = 1;
+gravityadjustment = 2.0;
+guidance = 1;
+manapershot = 1100;
+model = Plasma7B;//BPulse7;
+firestarter = 1;
+name = ExplosiveBolts;
+nimbus = 1;
+noautorange = 1;
+range = 455;
+randomdecay = 0.05;
+reloadtime = 4.75;
+soundhit = Boom3;
+soundwater = splash;
+tracks = 1;
+turnrate = 90;
+type = Ballistic;
+weapontimer = 1;
+weaponart = ltngball_2a;//aramonbuild;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 1000;//1100;
+dragon = 0.5;
+monarch = 0.5;
+god = 0.5;
+siege = 1.5;
+stalwart = 0.5;
+factory = 1.5;
+fort = 1.5;
+
+}
+}

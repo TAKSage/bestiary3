@@ -1,0 +1,40 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 399;
+	buildtime = 169;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardgats_dead;
+	damagecategory = fort;
+	description = Taros;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 14;
+	gate = 1;
+	healtime = 0.3520833;
+	maxdamage = 17000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Side Gate;
+	objectname = TARDGATS;
+	onoffable = 1;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 210;
+	soundcategory = VERNGATE;
+	soundclass = VERNGATE;
+	tedclass = Taros;
+	unitname = TARDGATS;
+	unitnumber = 8007;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+}

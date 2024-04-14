@@ -1,0 +1,47 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 2500;
+	buildtime = 350;
+	cancloak = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ZON;
+	cloakcost = 30;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonstor_dead;
+	damagecategory = lodestone;
+	description = Zhon;
+	experiencepoints = 20;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = .5;
+	manarechargerate = 25;
+	maxdamage = 11498;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mincloakdistance = 20;
+	mogriumincome = 5;
+	mogriumstorage = 5000;
+	name = Mana Jars;
+	objectname = ZONSTOR;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = zonlode;
+	soundclass = zonlode;
+	tedclass = Zhon;
+	totalallowed =  3;
+	unitname = ZONSTOR;
+	unitnumber = 1087;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

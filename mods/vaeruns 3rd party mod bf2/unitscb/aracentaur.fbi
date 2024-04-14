@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = Scale;
+	brakerate = 10;
+	buildcost = 2270;
+	buildtime = 933;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	category = ARA ATTACK;
+	corpse = aracentaur_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 48;
+                frozen = AraCentaur_frozen;
+	healtime = 0.8625;
+	maneuverleashlength = 325;
+	maxdamage = 6000;
+	maxvelocity = 3.2;
+	movementclass = GROUND4;
+	name = Centaur;
+	objectname = AraCentaur;
+	roadmultiplier = 1.2;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 250;
+	soundcategory = AraCentaur;
+	soundclass = AraCentaur;
+	standingunitorder = 2;
+	stone = AraCentaur_stone;
+	tedclass = Aramon;
+	turnrate = 1000;
+	unitname = AraCentaur;
+	unitnumber = 100783;
+	upright = 1;
+	version = 1;
+	//waterline = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+                edgeeffectiveness = 0.5;
+	explosionclass = medium dust puff;
+	model = Arahalberd;
+	name = Halberd;
+	range = 400;
+	reloadtime = 2.5;
+	soundhitclass = Sword;
+	type = Line of Sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 900;
+                                monarch = 0.2;
+	}
+}

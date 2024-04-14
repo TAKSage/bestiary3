@@ -1,0 +1,201 @@
+[UNITINFO]
+{
+	acceleration = 8;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1488;
+	buildtime = 235;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 29;
+                floater = 0;
+	healtime = 0.96667;
+                immunetoparalyzer = 1;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 1250;
+	maxmana = 2000;
+	maxvelocity = 1.35;
+	movementclass = HOVER2;
+	name = Banshee;
+	objectname = TARUABAN;
+                radardistance = 433;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARWITCH;
+	soundclass = TARWITCH;
+	   standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = tarwitch_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARUABAN;
+	unitnumber = 102939201;
+	upright = 1;
+	version = 1;
+                waterline = 3;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+                damagetype = fire;
+	explosionclass = VolcBlast;
+                firestarter = 1;
+                gravityadjustment = 0.95;
+                guidance = 1;
+	model = Shazer;//Electric1;
+	name = Witching Bolt;
+                nimbus = 1;
+	range = 550;
+	reloadtime = 2.5;
+               smoketrail = 1;
+                smokedelay = 6.5;
+	soundhitclass = fire;
+                soundwater = splash;
+               spinroll = 4000;
+                tracks = 1;
+                turnrate = 360;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+               weaponart = ltngball_2a;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 800;
+                           dragon = 0.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 0.4;
+                god = 1.4;
+                airship = 0.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 1.5;
+                monster = 1.5;
+                human = 1.5;
+                undead = 1.4;
+                naval = 0.5;
+                siege = 0.4;
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 1024;
+	areaofeffect = 70;
+                buttonimagedisabled = paralyzestingpu;
+	buttonimagedown = paralyzestingpu;
+	buttonimageselected = paralyzestingSBh;
+	buttonimageup = paralyzestingSB;
+               damagetype = paralyzer;
+               edgeeffectiveness = 1;
+	explosionclass = green_shockring;
+                gravityadjustment = 0.85;
+                manapershot = 525;
+	model = wpulse;//greencrystal;
+	name = Scream;
+                nimbus = 1;
+	range = 450;
+	reloadtime = 10;
+                smoketrail = 1;
+                smokedelay = 0.1;
+	soundhit = Scream11;
+                spinroll = 3000;
+	waterexplosionclass = small water explosion;
+                weaponart = ltngball_2a;
+	weaponvelocity = 850;
+                guidance = 1;
+                tracks = 1;
+                TurnRate = 360;
+	type = Ballistic;
+         
+	
+              [DAMAGE]
+	{
+		default = 900;
+                            monarch = 0.25;
+                            fort = 0;
+                           factory = 0;
+                           lodestone = 0;
+                           god = 0.25;
+                           dragon = 0.25;
+                           airship = 0.3;
+                           stalwart = 0.3;
+		
+	}
+}
+
+[WEAPON3]
+{
+             aimtolerance = 33000;
+	areaofeffect = 450;
+	builduptime = 0.2;
+	buttonimagedisabled = FireStingPU;
+	buttonimagedown = FireStingPU;
+	buttonimageselected = FireStingSBh;
+	buttonimageup = FireStingSB;
+                damagetype = paralyzer;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+                firestarter = 1;
+	manapershot = 1900;
+	name = Freezing Scream;
+                nimbus = 1;
+              //noairweapon = 1;
+	radiusart0 = ring_sunburst_b;
+	radiusart1 = ring_fx_iceB;
+	radiusart2 = ring_sunburst_c;
+	range = 300;
+	reloadtime = 12;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Bansheescream1;
+	spritecount = 50;
+                type = Remote Effect;
+	//subtype = turntofrozen;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 450;
+                fort = 0;
+                factory = 0;
+                lodestone = 0;
+                monarch = 0.25;
+                god = 0.25;
+                dragon = 0.25;
+                airship = 0.3;
+                stalwart = 0.3;
+              }
+}

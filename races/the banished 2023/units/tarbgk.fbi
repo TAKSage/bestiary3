@@ -1,0 +1,135 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 9483;
+	buildtime = 657;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 180;
+	healtime = 4.7;
+        manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 16500;
+        maxmana = 1000;
+	maxvelocity = 2.3;
+	movementclass = GROUND2;
+	name = Goblin King;
+	objectname = TARBGK;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = TARBGK;
+	soundclass = TARBGK;
+	standingunitorder = 2;
+	tedclass = Zhon;
+        totalallowed = 3;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = TARBGK;
+	unitnumber = 1825;
+	upright = 1;
+	version = 1.2;
+	watermultiplier = 0.81;
+        weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+        buttonimagedisabled = default_disabled;
+	buttonimagedown = default_down;
+	buttonimageselected = default_selected;
+	buttonimageup = default_up;
+	edgeeffectiveness = 0.7;
+	name = Foul Sceptre;
+	range = 50;
+	reloadtime = 1.15;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 999;
+		monarch = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 25;
+	model = araarrow3;
+	name = Bloodfrost;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 0.1;
+	soundhit = arrow08;
+	type = ballistic;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 500;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 504;
+        buttonimagedisabled = fireballpu;
+	buttonimagedown = fireballpu;
+	buttonimageselected = fireballsbh;
+	buttonimageup = fireballsb;
+        explosionclass = fireball explosion;
+        manapershot = 25;
+	name = Deathspit;
+	range = 550;
+	reloadtime = 0.01;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = fireballA;
+        weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 754;
+		monarch = 0.5;
+		fort = 0.5;
+		factory = 0.5;
+		lodestone = 0.5;
+		naval = 0.5;
+		mechanical = 0.75;
+	}
+}
+

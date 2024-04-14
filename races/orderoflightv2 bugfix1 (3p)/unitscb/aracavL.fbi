@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2300;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aracavL_dead;
+	damagecategory = Mounted;
+	defaultmissiontype = Standby;
+	description = Light;
+	frozen = aracavL_frozen;
+	experiencepoints = 40;
+	healtime = 1;
+	maneuverleashlength = 200;
+	maxdamage = 3000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name = Scout;
+	objectname = aracavL;
+	radardistance = 1250;
+	roadmultiplier = 1.4;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 375;
+	soundcategory = aracavL;
+	soundclass = aracavL;
+	standingunitorder = 2;
+	stone = aracavL_stone;
+	totalallowed = 3;
+	tedclass = Light;
+	turnrate = 1000;
+	unitname = aracavL;
+	unitnumber = 97979704;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	edgeeffectiveness = 0.5;
+	explosionclass = small dust puff;
+	model = throwaxe;
+	name = Woodsman Axe;
+	range = 475;
+	reloadtime = 3.2;
+	// shadowgaf = shadows;
+	soundhitclass = sword;
+	spinheading = 50;
+	spinpitch = -3950;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = throwaxe_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 500;
+		Infantry = 1.5;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		//lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

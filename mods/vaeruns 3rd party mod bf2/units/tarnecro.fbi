@@ -1,0 +1,174 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 200;
+	builder = 1;
+	buildtime = 100000;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR Monarch;
+	cloakcost = 25;
+	cloakcostmoving = 100;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 350;
+	healtime = 216.67;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 26000;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mincloakdistance = 50;
+	mogriumincome = 20;
+	mogriumstorage = 25000;
+	movementclass = GROUND2;
+	name = Lokken;
+	noveteran = 1;
+	objectname = TARNECRO;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARNECRO;
+	soundclass = TARNECRO;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = TARNECRO;
+	unitnumber = 94;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 20;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Fire Ball;
+	nimbus = 1;
+	range = 420;
+	reloadtime = 2.0;
+	soundhitclass = fire;
+	type = Line of Sight;
+	weaponart = FireballA;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2100;
+                dragon = 2.0;
+                god = 1.5;
+                airship = 2.0;
+                tier1 = 2.0;
+                monarch = 0.15;
+                 monster = 2.0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	manapershot = 150;
+	name = Guided Fire Ball;
+	nimbus = 1;
+	range = 520;
+	reloadtime = 1.25;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 3920;
+		dragon = 2.0;
+                god = 1.5;
+                airship = 2.0;
+                tier1 = 2.0;
+                 monarch = 0.15;
+                monster = 2.0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 1000;
+	builduptime = 0.25;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 850;
+	name = Fire Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 150;
+	reloadtime = 2.5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 14;
+	type = Remote Effect;
+	//unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 8000;
+		fort = 0.25;
+		factory = 0.25;
+		monarch = 0.15;
+                dragon = 0.5;
+                god = 0.5;
+                airship = 0.5;
+                tier1 = 2.0;
+	}
+}

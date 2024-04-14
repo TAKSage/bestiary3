@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1381;
+	buildtime = 221;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarotherorc_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 8;
+	healtime = 0.354166;
+	maneuverleashlength = 500;
+	maxdamage = 3725;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Morannon Orc;
+	objectname = targatesol;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 135;
+	soundcategory = ZONTROLL;
+	soundclass = ZONTROLL;
+	standingunitorder = 2;
+	stone = versword_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = targatesol;
+	unitnumber = 149;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = Orcblade_disabled;
+	buttonimagedown = Orcblade_down;
+	buttonimageselected = Orcblade_selected;
+	buttonimageup = Orcblade_up;
+	edgeeffectiveness = 0.7;
+	name = Orc Polearm;
+	range = 30;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+
+[WEAPON2]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = Orcblade_disabled;
+	buttonimagedown = Orcblade_down;
+	buttonimageselected = Orcblade_selected;
+	buttonimageup = Orcblade_up;
+	edgeeffectiveness = 0.7;
+	name = Flurry;
+	range = 30;
+	reloadtime = 0.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 200;
+		human = 1.75;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = Orcblade_disabled;
+	buttonimagedown = Orcblade_down;
+	buttonimageselected = Orcblade_selected;
+	buttonimageup = Orcblade_up;
+	edgeeffectiveness = 0.7;
+	name = Bash;
+	range = 30;
+	reloadtime = 2.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monster = 1.75;
+	}
+}

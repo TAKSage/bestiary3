@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4760;
+	buildtime = 580;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERZEL_dead;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 73;
+	healtime = 2.2727273;
+	maneuverleashlength = 500;
+	maxdamage = 9085;
+	maxvelocity = 1.9;
+	movementclass = GROUND2;
+	name = Zealot;
+	objectname = VERZEL;
+	roadmultiplier = 1.25;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 230;
+	soundcategory = VERZEL;
+	soundclass = VERZEL;
+	standingunitorder = 1;
+	stone = VERZEL_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERZEL;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 72;
+	explosionclass = blue_shockring;
+	name = Sword;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 691;
+		human = 0.0;
+		undead = 2.0;
+		mechanical = 0.5;
+		monarch = 0.5;
+		monster = 3.0;
+		stalwart = 2.0;
+		god = 2.0;
+		rictus = 2.0;
+		amphib = 3.0;
+		gate = 0.0;
+		lodestone = 0.0;
+		fort = 0.0;
+		factory = 0.0;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 175;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = mind control;
+	lightmap = small;
+	name = Vengeance;
+	nimbus = 1;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = remote effect;
+	unitsonly = 1;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+

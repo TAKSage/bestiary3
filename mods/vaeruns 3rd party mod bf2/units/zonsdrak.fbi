@@ -1,0 +1,150 @@
+[UNITINFO]
+{
+	acceleration=0.35;
+	bankscale=0.4;
+	bloodcolor1=0 0 0;
+	bloodcolor2=85 85 85;
+	bloodcolor3=153 153 153;
+	bmcode=1;
+	bodytype=scales;
+	brakerate=0.1;
+	buildcost=4210;
+	buildtime=1005;
+	canattack=1;
+	cancloak=1;
+	canfly=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbecaptured=1;
+                cantbefrozen = 1;
+	cantbestoned=1;
+	cantbetransported=1;
+	category=ZON ATTACK FLY BALLISTIC MAGIC;
+	cloakcost=15;
+	cloakcostmoving=20;
+	//corpse=zonsdrak;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt=100;
+	damagecategory=monster;
+	defaultmissiontype=VTOL_Standby;
+	description=zhon;
+	experiencepoints=55;
+	footprintx=3;
+	footprintz=3;
+	ghost = 1;
+	healtime=1.052777778;
+	hoverattack=1;
+	//hoverattackaltitude=150;
+	hoverattackdistance=150;
+	manarechargerate=20;
+	maneuverleashlength=500;
+	maxdamage=11000;
+	maxmana=1000;
+	maxvelocity=4.5;
+	maxwaterdepth=0;
+	mincloakdistance=70;
+	name=Shadow Drake;
+	noshadow=1;
+	objectname=zonsdrak;
+	radardistance=350;
+	shootme=1;
+	side=ZON;
+	sightdistance=200;
+	soundclass=ZONDRAKE;
+	soundcategory=ZONDRAKE;
+	standingunitorder=3;
+	stone=zonsdrak;
+	tedclass=Zhon;
+	turninplacerate=2000;
+	turnrate=200;
+	unitname=zonsdrak;
+	unitnumber=4121;
+	upright=1;
+	version=1;
+	weaponswitching=1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 25;
+                explosionclass = volcblast;
+	//emittime = 30;
+	model = shaspine;
+	name = Shadow spine;
+	range = 650;
+	reloadtime = 3.5;
+	soundhitclass = fire;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		fort = 0.25;
+		factory = 0.25;
+		monarch = 0.15;
+		dragon = 0.5;
+		god = 0.15;
+		naval = 0.5;
+	}
+}
+[WEAPON2]
+{	areaofeffect = 100;
+	aimtolerance = 1024;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 250;
+	model = araarrow3;
+	name = Gaze;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 2.0;
+	soundhit = arrow08;
+	type = ballistic;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 250;
+                                lodestone = 0;
+                                factory = 0;
+		
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+                areaofeffect = 150;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = green_shockring;
+	lightmap = small;
+	manapershot = 500;
+	name = Medusa Gaze;
+	noairweapon = 1;
+	range = 400;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = LtngBall_2a;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 10000;
+	buildcost = 11024;
+	buildtime = 3679;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Tar;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	description = Illohir;
+	experiencepoints = 36;
+    floater = 0;
+	footprintx = 7.5;
+	footprintz = 7.5;
+	healtime = 3.176;
+	maxdamage = 3600;
+	maxslope = 15;
+	maxwaterdepth = 5;
+	mogriumincome = -10;
+	mogriumstorage = -2000;
+	name = ChaosFocus;
+	objectname = Illbloo;
+	radardistance = 550;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ILL;
+	sightdistance = 250;
+	soundcategory = Tarlode;
+	soundclass = Tarlode;
+	tedclass = Illohir;
+    ThreeD = 1;
+    totalallowed = 10;
+	unitname = Illbloo;
+	unitnumber = 100008;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+    waterline = 2;
+    ZBuffer = 1;
+
+    [AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 1.0;
+		radius = 410;
+	}
+
+    [AdjustJoy]
+	{
+		adjustment = 25;
+		affectsenemy = 0;
+		edgeeffectiveness = 1.0;
+		radius = 420;
+	}
+        
+    [AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 1.0;
+		radius = 400;
+	}
+              
+
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 750;
+	edgeeffectiveness = 0.5;
+    explosionclass = MegaFlame;
+    damagetype = fire;
+    firestarter = 1;
+	name = Fire Wave;
+	nimbus = 1;
+	soundhit =  TARBLOOD1;//TREX4;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+	     default = 1000;
+         dragon = 0.5;
+         monarch = 0.5;
+         stalwart = 0.5;
+         god = 0.5;
+               
+	}
+}

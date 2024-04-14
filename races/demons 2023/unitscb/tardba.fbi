@@ -1,0 +1,125 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 6552;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1282;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = HUman;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 151;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 4.6167;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxmana = 2500;
+	maxvelocity = 2.5;
+	mogriumincome = 2;
+	mogriumstorage = 200;
+	name = Baphometite;
+	noveteran = 1;
+	objectname = TARDBA;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 275;
+	soundcategory = TARMANA;
+	soundclass = TARMANA;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 1000;
+	turnrate = 400;
+	unitname = TARDBA;
+	unitnumber = 666;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 0 0 255;
+	lightmap = medium;
+	middlecolor = 0 0 255;
+	name = Lightning;
+	nimbus = 1;
+	outercolor = 0 0 255;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+[WEAPON2]
+{
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 900;
+	name = Ice Storm;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 300;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 555;
+	}
+}
+

@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 88 41 253;
+	bloodcolor2 = 91 112 249;
+	bloodcolor3 = 29 5 165;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2300;
+	buildtime = 250;
+	canattack = 1;
+	canhover = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	category = VER ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 48;
+	floater = 0;
+                frozen = verunicorn_frozen;
+	healtime = 0.8625;
+	maneuverleashlength = 325;
+	maxdamage = 7500;
+	maxvelocity = 3.5;
+	movementclass = HOVER2;
+	name = Unicorn;
+	objectname = verunicorn;
+	roadmultiplier = 1.5;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 272;
+	soundcategory = verunicorn;
+	soundclass = verunicorn;
+	standingunitorder = 2;
+	stone = verunicorn_stone;
+	tedclass = Veruna;
+	turnrate = 1000;
+	unitname = verunicorn;
+	unitnumber = 100782;
+	upright = 1;
+	version = 1;
+	waterline = 12;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = lightning explosion;
+	hweffect = yellow lightning;
+	innercolor = 54 168 255;
+	lightmap = medium;
+	middlecolor = 2 28 202;
+	name = lightning Bolt;
+	outercolor = 24 10 104;
+	range = 600;
+	reloadtime = 2;
+	soundhit = VERUNICORNATA1;
+	subtype = lightning;
+	type = Line of Sight;
+                  waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1900;
+	}
+}
+

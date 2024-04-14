@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 0;
+	bloodcolor2 = 235 215 0;
+	bloodcolor3 = 215 235 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	//original buildcost = 100000
+	buildcost = 185000;
+	//original buildtime = 30000; 60000; 
+	buildtime = 240000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 1011;
+	healtime = 50;
+	maneuverleashlength = 500;
+	//original maxdamage = 28999; Now (109%)
+	maxdamage =  32767;
+	//original maxvelocity = 1.55;
+	maxvelocity = 1.75;
+	movementclass = HOVER2;
+	name = Avatar of Anu;
+	noveteran = 1;
+	objectname = ARAGOD;
+	radardistance = 2000;
+	//original no roadmultiplier
+	roadmultiplier = 1.1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	//original sightdistance = 289;
+	sightdistance = 550;
+	soundcategory = ARAGOD;
+	soundclass = ARAGOD;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	totalallowed = 1;
+	//original turninplacerate = 1500;
+	turninplacerate = 2500;
+	//original turnrate = 500;
+	turnrate = 2500;
+	unitname = ARAGOD;
+	unitnumber = 193;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 0.7;
+	name = Magical Sword;
+	//original range = 40;
+	range = 200;
+	//original reloadtime = 3.6;
+	reloadtime = 1.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 6300
+		default = 22000;
+		monarch = 0.01;
+		fort2 = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 400;
+	builduptime = 1.5;
+	decaytime = 1.5;
+	edgeeffectiveness = 0.4;
+	name = Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	//original range = 500;
+	range = 550;
+	//original reloadtime = 5;
+	reloadtime = 2.5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		//original default = 3077
+		default = 10000;
+		lodestone = 2.0;
+		monarch = 0.01;
+		fort2 = 0.75;
+		support = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 512;
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	minrange = 120;
+	name = Magical Sword;
+	noairweapon = 0;
+	range = 620;
+	reloadtime = 2.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		// original default = 1225; now (300%)
+		default = 10000;
+		stalwart = 0.75;
+		siege = 0.33;
+		support = 0.25;
+		god = 0.33;	 //dmg = 1213
+		fort2 = 2.7;
+	}
+}

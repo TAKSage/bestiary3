@@ -1,0 +1,223 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 243976;
+	buildtime = 46894;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+	category = TAR MELEE MAGIC ATTACK GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = GOD;
+                damagemodifier = 0.05;
+	defaultmissiontype = Standby_Wander;
+	description = Taros;
+	experiencepoints = 9000;
+                floater = 0;
+	healtime = 1.68;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 17000;
+	maxvelocity = 1.15;
+	movementclass = GDEVIL;
+	name = Astaroth;
+                noveteran = 1;
+	objectname = TARPRINCE1;
+                radardistance = 5000;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 215;
+	soundcategory = TARPRINCE1;
+	soundclass = TARPRINCE1;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = tarprince_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+                totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARPRINCE1;
+	unitnumber = 61977790;
+	upright = 1;
+	version = 1;
+                 waterline = 12;
+	watermultiplier = 0.4;
+                ZBuffer = 1;
+                               
+}
+
+[WEAPON1]
+{
+	areaofeffect = 500;
+                buttonimagedisabled = sworddown;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.5;
+                explosionclass = VolcBlast;      
+	firestarter = 1;
+	name = Orcus Wand;
+                noairweapon = 1;
+	range = 90;
+	reloadtime = 3;
+	soundhit = flame1;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	              default = 4000;
+                            dragon = 0.4;
+                            airship = 0.5;
+                            god = 0.25;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            fort = 0.4;
+                            factory = 0.4;
+                            human = 1.4;
+                            Tier1 = 1.4;
+                             monster = 1.3;
+                            undead = 0.3;
+                            naval = 0.6;
+                            mechanical = 1.4;
+                            siege = 0.4;
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 33000;
+                areaofeffect = 550;
+	decaytime = 1.5;
+	edgeeffectiveness = 1;
+                firestarter = 1;
+	name = Feel the Burn;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenb;
+	radiusart1 = flamevortexloop;
+                radiusart2 = manabomb;
+	range = 600;
+	reloadtime = 4;
+	ringcount = 3;
+	ringdelay = 0.5;
+	ringduration = 1.5;
+               shakeduration = 1;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = storm1;
+	spritecount = 250;
+                subtype = Earthquake;
+	type = Remote Effect;
+               // unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 5000;
+                            dragon = 0.4;
+                            airship = 0.5;
+                            god = 0.25;
+                            monarch = 0.3;
+                            stalwart = 0.5;
+                            fort = 0.4;
+                            factory = 0.4;
+                            human = 1.4;
+                            Tier1 = 1.4;
+                            monster = 0.4;
+                            undead = 1.3;
+                            naval = 0.6;
+                            mechanical = 1.4;
+                            siege = 0.3;
+              
+	}
+
+}
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 400;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+               damagetype = fire;
+	explosionclass = Large1a;
+	firestarter = 1;
+	lightmap = large;
+	//manapershot = 250;
+	name = Banishment;
+	range = 400;
+	reloadtime = 6.5;
+	soundhit = flame1;
+	type = Remote Effect;
+                waterexplosionclass = medium water explosion;
+	weaponart = manabomb;//meteor;
+	weaponvelocity = 250;
+                subtype = hailstorm;
+                duration = 2.5;
+                edgeeffectiveness = 0.5;
+                nimbus = 1;
+                particlespersecond = 20; 
+              
+
+	[DAMAGE]
+	{
+		default = 350;
+		dragon = 0.4;
+                            airship = 0.5;
+                            god = 0.25;
+                            monarch = 0.3;
+                            stalwart = 0.5;
+                            fort = 0.4;
+                            factory = 0.4;
+                            human = 1.2;
+                            Tier1 = 1.4;
+                            monster = 0.4;
+                            undead = 0.3;
+                            naval = 0.6;
+                            mechanical = 1.4;
+                            siege = 0.3;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 3000;
+	damagetype = fire;
+	explosionclass = composite04flame;
+	edgeeffectiveness = 1;
+                firestarter = 1;
+	name = This will Hurt;
+                shakeduration = 2;
+                shakemagnitude = 4;
+                soundhit = DEATH11;
+	subtype = Earthquake;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monarch = 0.4;
+                                god = 0.5;
+                                dragon = 0.5;
+                                factory = 0.5;
+                                fort = 0.5;
+                                stalwart = 0.5;
+	}
+}

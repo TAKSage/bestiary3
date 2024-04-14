@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 4096;
+	buildcost = 3608;
+	buildtime = 374;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = VER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verfltwr_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 35;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = 0.779166667;
+	maxdamage = 9147;
+	name = Floating Tower;
+	noshadow = 1;
+	objectname = VERFLTWR;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 500;
+	soundcategory = VERFLTWR;
+	soundclass = VERFLTWR;
+	tedclass = Veruna;
+	unitname = VERFLTWR;
+	unitnumber = 132;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+	yardmap = w;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 500;
+	areaofeffect = 32;
+	explosionclass = medium dust puff;
+	minrange = 150;
+	model = verhpoon;
+	name = harpoon;
+	range = 710;
+	reloadtime = 3;
+	shadowgaf = shadows;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1089;
+	}
+}

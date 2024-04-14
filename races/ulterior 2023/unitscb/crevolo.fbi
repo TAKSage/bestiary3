@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 0.06;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 497;
+	buildtime = 390;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Creon;
+	experiencepoints = 43;
+	fireatwillrandom = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.513888889;
+	maneuverleashlength = 500;
+	maxdamage = 675;
+	maxvelocity = 5;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Volo Machine;
+	objectname = crevolo;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 254;
+	soundcategory = CREBARN;
+	soundclass = CREBARN;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 0;
+	turnrate = 300;
+	unitname = crevolo;
+	unitnumber = 121;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 80;
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = medium explosion;
+	name = bomb;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 5.75;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}

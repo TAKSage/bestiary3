@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4900;
+	buildtime = 510;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardrkexec_dead;
+	damagecategory = darkelf;
+	defaultmissiontype = Standby;
+	description = Dark Elf;
+	experiencepoints = 69;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 17275;
+	maxvelocity = 3.675;
+	mogriumincome = -8;
+	movementclass = GROUND3;
+	name = Executioner;
+	objectname = TARDRKEXEC;
+	radardistance = 1425;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 890;
+	soundcategory = DRKEXEC;
+	soundclass = DRKEXEC;
+	standingunitorder = 2;
+	tedclass = Dark Elf;
+	turnrate = 1000;
+	unitname = TARDRKEXEC;
+	unitnumber = 42577;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+
+	[AdjustArmor]		// Cause Fear
+	{
+		adjustment = 0.75;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.5;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 45;
+	edgeeffectiveness = 0.5;
+	explosionclass = redburst;
+	name = Sword of Life Stealing;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2119;
+		undead = 0.7;
+		darkelf = 0.9;
+		orc = 0.9;
+		goblin = 0.9;
+		highman = 1.3;
+		elf = 1.25;
+		halfling = 1.25;
+		dwarf = 1.25;
+		human = 1.1;
+		azrac = 1.1;
+		frostling = 1.1;
+		lizard = 1.1;
+		spirit = 0.5;
+		firespirit = 0.5;
+		syron = 0.75;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

@@ -1,0 +1,163 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildtime = 150000;
+	builddistance = 120;
+	builder = 1;
+	buildtime = 150000;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = VER Monarch;
+	commander = 1;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	economybonus = 30;
+	experiencepoints = 400;
+	healtime = 200.0;
+	manarechargerate = 22;
+	maneuverleashlength = 500;
+	maxdamage = 18000;
+	maxmana = 1000;
+	maxvelocity = 1.45;
+	mogriumincome = 12;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Lord Azdurain;
+	noveteran = 1;
+	objectname = VERAZMON;
+	radardistance = 650;
+	roadmultiplier = 1.2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 225;
+	soundcategory = TARNECRO;
+	soundclass = TARNECRO;
+	standingunitorder = 1;
+	tedclass = Veruna;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname =VERAZMON;
+	unitnumber = 3250;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 12;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	nimbus=1;
+	edgeeffectiveness = 0.7;
+	explosionclass = Water Splash;
+	firestarter = 1;
+	name = Ice Ball;	
+	nimbus = 1;
+	range = 420;
+	reloadtime = 2.2;
+	soundhitclass = rock;
+	type = Line of Sight;
+	weaponart = iceballspin;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 999;
+		monarch = 0.75;
+		mechanical = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 160;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 400;
+	name = Acid Rain;
+	nimbus = 1;
+	particlespersecond = 15;
+	range = 400;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 200;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 280;
+	builduptime = 0.25;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 650;
+	name = Area Mind Harness;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 150;
+	reloadtime = 5;
+	ringcount = 5;
+	ringdelay = 0.35;
+	ringduration = 0.8;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 25;
+	subtype = mindcontrol;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

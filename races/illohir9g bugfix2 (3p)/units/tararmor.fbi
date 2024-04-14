@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = Flesh;
+	brakerate = 10;
+	buildcost = 982;
+	buildtime = 191;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	cloakcost = 2;
+	Cloakcostmoving = 14;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Undead;
+	defaultmissiontype = StandBy;
+	description = Taros;
+	experiencepoints = 21;
+                floater = 0;
+	healtime = 1.57;
+                immunetoparalyzer = 1;
+                init_cloaked = 1;
+	manarechargerate = 16;
+	maneuverleashlength = 300;
+	maxdamage = 2060;
+	maxmana = 1200;
+	maxvelocity = 2.35;
+	mincloakdistance = 95;
+	movementclass = HOVER2;
+	name = Fallen;
+	objectname = TARARMOR;
+                radardistance = 545;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+                stealth = 1;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 211;
+	soundcategory = TARArmor;
+	soundclass = TARARMOR;
+                standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TArArmor;
+	unitnumber = 987656789;
+	upright = 1;
+	version = 1;
+                waterline = 1;
+	watermultiplier = 0.75;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	//areaofeffect = 33;
+	//edgeeffectiveness = 1;
+                explosionclass = small smoke explosion;
+	name = Ghost Sword;
+                nimbus = 1;
+	range = 90;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+		Tier1 = 2.0;
+		fort = 2.0;
+		factory = 0.4;
+		god = 2.5;
+                               stalwart = 2.5;
+                               naval = 0.5;
+                               lodestone = 2.5;
+                               monarch = 0.3;
+                               monster = 0.4;
+                               undead = 0.4;
+                               mechanical = 0.3;
+                               human = 0.4;
+                               siege = 0.3;
+	}
+}
+
+[SELDESTRUCTAS]
+{
+	areaofeffect = 200;
+	damagetype = fire;
+	explosionclass = medium explosion;
+	edgeeffectiveness = 1;
+                firestarter = 1;
+	name = This will Hurt a little;
+                soundhit = DEATH11;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 300;
+		monarch = 0.4;
+                                god = 0.5;
+                                dragon = 0.5;
+	}
+}

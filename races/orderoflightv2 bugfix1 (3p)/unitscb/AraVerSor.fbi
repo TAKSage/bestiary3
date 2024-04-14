@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	builder = 1;
+	buildcost = 4000;
+	buildtime = 300;
+	builddistance = 100;
+	builderlimited = 1;
+	canattack = 1;
+	canbuild = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canresurrect = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = Ara BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Araversor_dead;
+	damagecategory = Mounted;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 85;
+	healtime = 3;
+	//manarechargerate = 20;
+	maneuverleashlength = 300;
+	maxdamage = 5000;
+	//maxmana = 1000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name =  Paladin;
+	objectname = AraVERSOR;
+	roadmultiplier = 1.4;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 225;
+	soundcategory = AraVERSOR;
+	soundclass = AraVERSOR;
+	standingunitorder = 2;
+	stone = Araversor_stone;
+	tedclass = Light;
+	turninplacerate = 900;
+	turnrate = 700;
+	totalallowed = 3;
+	unitname = AraVERSOR;
+	unitnumber = 97979747;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 0;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	buttonimageselected = warSBh;
+	buttonimageup = warSB;
+	edgeeffectiveness = 0.1;
+	name  = Sacred Hammer;
+	range = 100;
+	reloadtime = 1.75;
+	soundhitclass = hammer;
+	type = melee;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+		undead = 2;
+	}
+}

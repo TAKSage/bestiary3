@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+	acceleration = 0.66;
+	bankscale = 2.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.33;
+	//original buildcost = 2898; 2950
+	buildcost = 3300;
+//	original buildtime = 378; 189
+	buildtime = 348;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = undead;
+	damagecategory = support;
+	defaultmissiontype = Standby;
+	description = Taros;
+	//original experiencepoints = 28;84
+	experiencepoints = 200;
+	//original healtime = 1.426; 0.6
+	healtime = 1;
+	maneuverleashlength = 500;
+	//original maxdamage = 2400;
+	maxdamage = 5542;
+	//original maxvelocity = 1.25; 1.2
+	maxvelocity = 1.1;
+	movementclass = HOVER2;
+	name = (M)Rictus;
+	objectname = TARCAN;
+	pitchscale = 2.4;
+	//original no radardistance
+	radardistance = 500;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	//original sightdistance = 150;
+	sightdistance = 450;
+	soundcategory = TARCAN;
+	soundclass = TARCAN;
+	standingunitorder = 1;
+	stone = tarcan_stone;
+	totalallowed = 20;
+	tedclass = Taros;
+	//original turninplacerate = 500;
+	turninplacerate = 1000;
+	//original turnrate = 500;
+	turnrate = 700;
+	unitname = TARCAN;
+	unitnumber = 91;
+	version = 1;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	//original aimtolerance = 2000;
+	aimtolerance = 1024;
+	//original areaofeffect = 100; 110
+	areaofeffect = 80;
+	//original edgeeffectiveness = 0.1;
+	edgeeffectiveness = 0.2;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fireball;
+	//original range = 500; 320; 440
+	range = 480;
+	//original reloadtime = 2.2; 2
+	reloadtime = 1.75;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponart = FireballA;
+	//original weaponvelocity = 450;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		//original default = 1080;		
+		default = 520;
+		airship = 0.5;	  //dmg = 
+		archer = 1.5;
+		archer2 = 1.5;
+		dragon = 0.5;     //dmg = 520
+		fly = 0.5;	  //dmg = 0
+		flygod = 0.2;     //dmg = 208
+		factory = 0;      //dmg = 0
+		fort = 0;	  //dmg = 0
+		fort2 = 0;
+		god = 0.2;	  //dmg = 
+		lodestone = 0;
+		monarch = 0.2;
+		naval = 0.5;
+		stalwart = 0.6;   //dmg = 
+		support = 0.85;	  //dmg = 442 (253/s)
+		siege = 0.2;	  //dmg = 208
+		tier1 = 3.4;
+		undead = 0.35;
+	}
+}

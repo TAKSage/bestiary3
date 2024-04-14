@@ -1,0 +1,175 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                animatetype = VERDAGW;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 18230;
+	buildtime = 2010;
+                builder = 1;
+                builddistance = 250;
+                canreclaim = 1;
+	canattack = 1;
+                cananimate = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+               //cantbestoned = 1;
+                //cantbefrozen = 1;
+                //cantbeparalyzed = 1;
+	category = VER MAGIC ATTACK BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 185;
+               frozen = veraqdr_frozen;
+                healtime = 16.71;
+                immunetoparalyzer = 1;
+                floater = 0;
+	manarechargerate = 20;
+	maneuverleashlength = 1500;
+	maxdamage = 20946;
+	maxmana = 2000;
+	maxvelocity = 2.5;
+	movementclass = HOVER2;
+	name = Aquadraconus;
+	objectname = Veraqdr;
+                radardistance = 800;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 205;
+	soundcategory = VERAQDR;
+	soundclass = VERAQDR;
+	standingunitorder = 1;
+               stone = veraqdr_stone;
+	tedclass = Veruna;
+	totalallowed = 6;
+	turninplacerate = 1900;
+	turnrate = 1550;
+	unitname = Veraqdr;
+	unitnumber = 15698;
+	upright = 1;
+	version = 1;
+	waterline = 18;
+                watermultiplier = 0.81;
+	weaponswitching = 1;
+                workertime = 10;
+
+      [AdjustArmor]
+      {
+		adjustment = 0.5;
+		affectsenemy = 1;
+		edgeeffectiveness = 1;
+		radius = 500;    
+      }
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 25;
+	buttonimagedisabled = LightningPU;
+                buttonimagedown = LightningPU;
+               buttoniamgeselected = lightningSBh;
+               Buttonimageup = LightningSB;
+               edgeeffectiveness = 0.5;
+               emittime = 20;
+	explosionclass = blood explosion;
+                hweffect = lightning;
+	name = Soul Ripper;
+                outercolor = 180 30 5;
+	range = 450;
+	reloadtime = 2.2;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = line of sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 880;
+                monarch = 0.15;
+	}
+}
+[WEAPON2]
+{
+                 aimtolerance = 33000;
+                areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 0.5;
+	edgeeffectiveness = 0.45;
+	explosionclass = blood explosion;
+	manapershot = 750;
+	name = Blood Rain;
+	nimbus = 1;
+               outercolor = 180 30 5;
+	particlespersecond = 15;
+	range = 550;
+	reloadtime = 4.5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = large water explosion;
+	weaponart = mediumsplash2;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 450;
+		monarch = 0.1;
+                                fort = 0.5;
+                                factory = 0.5;
+
+       }
+}
+
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 550;
+	builduptime = 0.8;
+	buttonimagedisabled = EnergyBlastPU;
+	buttonimagedown = EnergyBlastPU;
+	buttonimageselected = EnergyBlastSBh;
+	buttonimageup = EnergyBlastSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 0.5;
+	manapershot = 1500;
+	name = Energy Blast;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = ring_fx_redC;
+	range = 600;
+	reloadtime = 3.5;
+	ringcount = 3;
+	ringdelay = 0.12;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = crestormlaunch7;
+	spritecount = 40;
+	type = Remote Effect;
+	//unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 4000;
+                                monarch = 0.1;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+}

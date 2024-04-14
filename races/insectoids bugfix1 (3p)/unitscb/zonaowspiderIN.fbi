@@ -1,0 +1,114 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 175 0;
+	bloodcolor2 = 10 140 70;
+	bloodcolor3 = 5 100 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1800;
+	buildtime = 205;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowspiderIN_dead;
+	damagecategory = goblin;		// not a goblin, but poison resistant
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 35;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxvelocity = 2;
+	mogriumincome = -7;
+	movementclass = GROUND3;
+	name = Black Spider;
+	objectname = ARAAOWSPIDERIN;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ZONSPIDE;
+	soundclass = ZONSPIDE;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONAOWSPIDERIN;
+	unitnumber = 15151523;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 35;
+	edgeeffectiveness = 0.6;
+	name = Poison Bite;
+	range = 300;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1980;	
+		spirit = 0.35;
+		firespirit = 0.35;
+		syron = 0.5;
+		goblin = 0.75;
+		dwarf = 0.75;
+		wyvern = 0.65;
+		undead = 0.65;
+		demon = 0.65;
+		dragon = 0.65;
+		spirit = 0.5;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	builduptime = 1;
+	damagetype = paralyzer;
+	decaytime = 5;
+	name = Web;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 200;
+	reloadtime = 10;
+	ringcount = 4;
+	ringdelay = 2;
+	ringduration = 10;
+	showeffect = 1;
+	soundhit = arrow08;
+	spritecount = 12;
+	type = Remote Effect;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 600;
+		city = 0;
+		building = 0;
+		factory = 0;
+		fort = 0;
+		mechanical = 0;
+		naval = 0;
+		dragon = 0;
+		syron = 0.25;
+	}
+}

@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	name = Axeman;
+	buildcost = 2900;
+	buildtime = 680;
+
+	healtime = 1.25;
+	maxdamage = 5900;
+
+	manarechargerate = 1;
+	maxmana = 20;
+
+	acceleration = 10;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	fireatwillrandom = 1;
+	category = AZU MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Azuaxe_dead;	
+	stone = Azuaxe_stone;
+	damagecategory = Stalwart;//Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 35;//25;
+	maneuverleashlength = 500;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	objectname = AZUAXE;
+	roadmultiplier = 1.1;
+	//shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 279;
+	soundcategory = AZUAXE;
+	soundclass = AZUAXE;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = AZUAXE;
+	unitnumber = 3502;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.05; // 5% adjustment
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 150;
+	}
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = swordpu;
+	buttonimagedown = swordpu;
+	buttonimageselected = swordsbh;
+	buttonimageup = swordsb;
+	name = Regular Swing;
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	range = 65;//55;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monster = 1.5;
+		human = 1.5;
+		fort = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	damagetype = paralyzer;
+	buttonimagedisabled = swordparalyzepu;
+	buttonimagedown = swordparalyzepu;
+	buttonimageselected = swordparalyzesbh;
+	buttonimageup = swordparalyzesb;
+	name = Paralyzing Swing;
+
+	explosionclass = green_shockring;
+	lightmap = small;
+	innercolor = 255 255 255;
+	middlecolor = 10 10 200;
+	outercolor = 0 0 255;
+
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	manapershot = 15;
+	range = 65;//55;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monster = 1.0;
+		human = 1.0;
+		airship = 0.0;
+		dragon = 1.0;
+		fort = 0.0;
+		monarch = 0.1;
+		god = 0.0;
+	}
+}

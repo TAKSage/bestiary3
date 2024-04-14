@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 782;
+//	original buildtime = 125; 63;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+//	original no canhover
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verbers_dead;
+	//original damagecategory = Human;
+	damagecategory = melee;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	//original experiencepoints = 15;
+	experiencepoints = 30;
+	//original no floater
+	floater = 1;
+	frozen = verbers_frozen;
+	healtime = 0.5625;
+	maneuverleashlength = 500;
+	maxdamage = 2884;
+	//original maxvelocity = 2.5; 2.9
+	maxvelocity = 3.9;
+	//original movementclass = GROUND2;
+	movementclass = HOVER2;
+	name = Berserker;
+	objectname = VERBERS;
+	//original roadmultiplier = 1.75;
+	roadmultiplier = 1.3;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 110;
+	soundcategory = VERBERS;
+	soundclass = VERBERS;
+	standingunitorder = 2;
+	stone = verbers_stone;
+	tedclass = Veruna;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = VERBERS;
+	unitnumber = 123;
+	upright = 1;
+	//based on Cavedog's Crusades Balance;
+	version = T1.1.0;
+//	original no waterline
+	waterline = 30;
+	//original watermultiplier = 0.81
+	watermultiplier = 0.272;              //maxvelocity = 1.0608
+}  
+
+[WEAPON1]
+{
+	areaofeffect = 76;
+	edgeeffectiveness = 0.7;
+	name = Axe/Sword;
+	range = 40;
+	//original reloadtime = 1.2;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 610;	//dmg = 339/s
+		//new stuff below
+		archer = 2;
+		archer2 = 1.5;
+		builder = 0.6;
+		fort = 1.25;	//dmg = 762
+		fort2 = 1.5;    //dmg = 915
+		factory = 1.4;
+		magic = 0.75;
+		melee = 0.75;
+		siege = 1.4;    //dmg = 854
+		siege2 = 1.6;   //dmg = 976
+		support = 0.5;
+		tier1 = 2.0;
+		monarch = 0.5;
+	}
+}

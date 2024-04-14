@@ -1,0 +1,130 @@
+[UNITINFO]
+{
+activatewhenbuilt = 0;
+bodytype = armor;
+MaxWaterDepth=10;
+MaxSlope=30;
+buildangle = 0;
+BMCode = 0;
+buildcost = 131;
+buildtime = 40;
+canattack = 1;
+cancloak = 1;
+canstop = 1;
+canguard = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL ATTACK MINE KAMIKAZE;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+DefaultMissionType = guard_nomove;
+Damagecategory = Siege;
+description = Illohir;
+experiencepoints = 5;
+floater = 0;
+footprintx = 1;
+footprintz = 1;
+healtime = 0;
+immunetoparalyzer = 1;
+init_cloaked = 1;
+maxdamage = 11;
+mogriumstorage = -25;
+mincloakdistance = 50;
+name = ChaosBundle;
+noveteran = 1;
+objectname = IllMINE;
+onoffable = 1;
+kamikaze = 1;
+kamikazedistance = 155;
+radardistance = 255;
+selfdestructas = SELDESTRUCTAS;//MineT;
+shadowgaf = shadows;
+shootme = 0;
+side = ILL;
+sightdistance = 155;
+soundcategory = ARANGATE;
+soundclass = ARANGATE;
+stealth = 1;
+tedclass = Illohir;
+ThreeD = 1;
+unitname = ILLMINE;
+unitnumber = 100034;
+firestandorders=1;
+StandingFireOrder=2;
+standingunitorder = 2;
+version = 1;
+canmove=0;
+canpatrol=0;
+waterline = 1;
+YardMap = c;//o;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 33000;
+areaofeffect = 300;
+duration = 3.0;
+weapontimer = 3.0;
+edgeeffectiveness = 1.0;
+range = 150;
+reloadtime = 1.0;
+name = Owww;
+TurnRate = 180;
+type = Guided;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 6;
+
+}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 1;
+	explosionclass = composite04flame;
+	name = MineA;
+    shakeduration = 1;
+    shakemagnitude = 2;
+    soundhit = TARSHIPDIE5;
+	type = Ballistic;
+	waterexplosionclass = composite04flame;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.5;
+        god = 0.5;
+        dragon = 0.5;
+        Stalwart = 0.5;
+	}
+}
+
+[SELDESTRUCTAS]
+{
+areaofeffect = 300;
+damagetype = fire;
+edgeeffectiveness = 1.0;
+explosionclass = megaflame;
+name = MineT;
+type = Ballistic;
+edgeeffectiveness = 1;
+firestarter = 1;
+soundhit = DEATH11;
+waterexplosionclass = megaflame;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 2000;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+}
+}

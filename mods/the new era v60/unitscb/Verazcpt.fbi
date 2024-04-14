@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 7500;
+	buildtime = 500;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Verazcpt_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	frozen = Verazcpt_frozen;
+	healtime = 1.2;
+	maxdamage = 9500;
+	maxwaterdepth = 0;
+	maxslope = 15;
+	name = Pandora Spire;
+	objectname = VERAZCPT;
+	radardistance = 950;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERAZCPT;
+	soundclass = VERAZCPT;
+	stone = Verazcpt_stone;
+	tedclass = Veruna;
+	unitname = VERAZCPT;
+	unitnumber = 3533;
+	version = 1;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+                areaofeffect = 100;
+	edgeeffectiveness = 1;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	//edgeeffectiveness = 0.3;
+	explosionclass = blue_shockring;
+	//minrange = 50;
+	lightmap = large;
+	name = Ice Burst;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = crefreeze;
+	//toairweapon = 1;
+	unitsonly = 1;
+	noairweapon = 1;
+	subtype = turntofrozen;
+	type = line of sight;
+	//wapongaf = projectiles;
+	//weaponart = fireballCa;
+	weaponart = iceburst;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 450;
+		factory = 0;
+		fort = 0;
+		god = 0;
+	}
+}

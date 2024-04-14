@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 579;
+	buildtime = 164;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = NPCDERN_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 18;
+	frozen = npcdern_frozen;
+	healtime = 0.43125;
+	maneuverleashlength = 500;
+	maxdamage = 3140;
+	maxvelocity = 3.1;
+	movementclass = GROUND2;
+	name = Light Cavalry;
+	objectname = VERLIG;
+	roadmultiplier = 1.51;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 275;
+	soundcategory = arapal;
+	soundclass = Arapal;
+	standingunitorder = 1;
+	stone = npcdern_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIG;
+	unitnumber = 2505;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.87;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	name = Spear;
+	range = 180;
+	reloadtime = 1.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 295;
+	}
+}

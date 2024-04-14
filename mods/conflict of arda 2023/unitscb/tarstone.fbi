@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 2732;
+	buildtime = 751;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 43;
+	healtime = 1.770833333;
+	maneuverleashlength = 500;
+	maxdamage = 7110;
+	maxvelocity = 0.8;
+	movementclass = GROUND2;
+	name = Stone Giant;
+	objectname = tarstone;
+	radardistance = 600;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 230;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = tarstone;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 5.25;
+	lobpreferred = 1;
+	model = zonrock.3do;
+	name = Hurl Rock;
+	noairweapon = 1;
+	range = 930;
+	reloadtime = 8.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 950;
+
+	[DAMAGE]
+	{
+		default = 1800;
+		factory = 1.25;
+		fort = 1.25;
+	}
+}

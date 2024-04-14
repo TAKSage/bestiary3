@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 745;
+	mogriumbounty = 74.5;
+	buildtime = 120;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vermusk_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 15;
+	frozen = vermusk_frozen;
+	fireatwillrandom = 1;
+	healtime = .508333333;
+	maneuverleashlength = 500;
+	maxdamage = 1400;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Musketeer;
+	objectname = VERMUSK;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 240;
+	soundcategory = VERMUSK;
+	soundclass = VERMUSK;
+	standingunitorder = 1;
+	stone = vermusk_stone;
+	tedclass = Veruna;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = VERMUSK;
+	unitnumber = 1;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = slug shot;
+	range = 550;
+	reloadtime = 6.2;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 700;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.5;
+		naval = 0.75;
+		shielded = 2;
+		steel = 0.75;
+		steelnaval = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+	}
+}

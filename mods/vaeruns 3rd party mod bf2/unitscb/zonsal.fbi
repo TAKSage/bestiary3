@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 5;
+	buildcost = 2978;
+	buildtime = 932;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON ATTACK;
+                cloakcost = 10;
+                cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonsal_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 34;
+                floater = 0;
+	healtime = 1.129166667;
+                manarechargerate = 15;
+                maneuverleashlength = 500;
+	maxdamage = 7500;
+                maxmana = 1000;
+	maxvelocity = 1.7;
+                mincloakdistance = 100;
+	movementclass = HOVER4;
+	name = Salamander;
+	objectname = zonsal;
+	shadowart = shadow15;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 202;
+	soundcategory = ZONBASIL;
+	soundclass = ZONBASIL;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = zonsal;
+	unitnumber = 157;
+	upright = 1;
+	version = 1;
+                waterline = 12;
+	watermultiplier = 0.75;	
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 60;
+                edgeeffectiveness = 0.5;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Real fire;
+	range = 350;
+	reloadtime = 3.5;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1110;
+	}
+}

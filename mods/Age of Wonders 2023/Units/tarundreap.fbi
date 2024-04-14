@@ -1,0 +1,159 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = bone;
+	brakerate = 10;
+	buildcost = 10650;
+	buildtime = 620;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundreap_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Undead;
+	experiencepoints = 85;
+	healtime = 1;
+	manarechargerate = 18;
+	maneuverleashlength = 500;
+	maxdamage = 28000;
+	maxmana = 1000;
+	maxvelocity = 1.15;
+	mogriumincome = -8;
+	movementclass = GROUND2;
+	name = Reaper;
+	objectname = TARUNDREAP;
+	radardistance = 1000;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 750;
+	soundcategory = UNDREAP;
+	soundclass = UNDREAP;
+	standingunitorder = 1;
+	tedclass = Undead;
+	totalallowed = 1;
+	turnrate = 2500;
+	turninplacerate = 3000;
+	unitname = TARUNDREAP;
+	unitnumber = 42526;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustArmor]		// Cause Fear
+	{
+		adjustment = 0.75;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.5;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = small smoke explosion;
+	name = Scythe;
+	range = 30;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1825;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.5;
+		naval = 0.5;
+		highman = 0.75;
+		syron = 0.5;
+		undead = 0.5;
+		demon = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathray_down;
+	buttonimagedown = deathray_down;
+	buttonimageselected = deathray_selected;
+	buttonimageup = deathray_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = medium smoke explosion;
+	hweffect = deathray;
+	manapershot = 325;
+	name = Death Ray;
+	range = 350;
+	reloadtime = 7.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1100;
+
+	[DAMAGE]
+	{
+		default = 4050;
+		highman = 0.75;
+		spirit = 0.5;
+		firespirit = 0.5;
+		syron = 0.25;
+		undead = 0.25;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = turnundead_down;
+	buttonimagedown = turnundead_down;
+	buttonimageselected = turnundead_selected;
+	buttonimageup = turnundead_up;
+	areaofeffect = 25;
+	edgeeffectiveness = 1.0;
+	explosionclass = soul stealer;
+	manapershot = 1000;
+	name = Invoke Death;
+	range = 35;
+	reloadtime = 15;
+	soundhit = enchn01;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 25000;
+		fort = 0;
+		city = 0;
+		building = 0;
+		factory = 0;
+		naval = 0;
+		mechanical = 0;
+		spirit = 0;
+		firespirit = 0;
+		syron = 0;
+		undead = 0;
+	}
+}
+

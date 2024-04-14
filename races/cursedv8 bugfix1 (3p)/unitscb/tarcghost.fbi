@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = .5;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .3;
+	buildcost = 1695;
+	buildtime = 160;
+	canattack = 1;
+	cancloak = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cloakcost = 12;
+	cloakcostmoving = 20;
+	category = TAR MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	ghost = 1;
+	healtime = 0.53;
+	manarechargerate = 10;
+	maneuverleashlength = 2000;
+	maxdamage = 3471;
+	maxmana = 1000;
+	maxvelocity = 2.4;
+	mincloakdistance = 40;
+	movementclass = HOVER2;
+	name = Ghost;
+	noshadow = 1;
+	objectname = tarcghost;
+	radardistance = 800;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = TARCGHOST;
+	soundclass = TARCGHOST;
+	standingunitorder = 2;
+	tedclass = taros;
+	turninplacerate = 1500;
+	turnrate = 500;
+	unitname = tarcghost;
+	unitnumber = 1922;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	watermultiplier = 0.7;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 2.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 640;
+	}
+}

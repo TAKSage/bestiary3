@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 10;
+buildcost = 114232;
+buildtime = 30640;
+canattack = 1;
+canhover = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+cantbecaptured = 1;
+category = ARA MAGIC ATTACK GOD;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = God;
+defaultmissiontype = Standby;
+description = Aramon;
+economybonus = 15;
+experiencepoints = 1112;
+healtime = 466.83;
+immunetofire = 1;
+immunetoparalyzer = 1;
+manarechargerate = 60;
+maneuverleashlength = 500;
+maxdamage = 29500;
+maxmana = 3000;
+maxvelocity = 2;
+mogriumincome = 5;
+mogriumstorage = 500;
+movementclass = HOVER3;
+name = Horus-Ra;
+//noveteran = 1;
+objectname = ARAHELL;
+radardistance = 2000;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+shootme = 1;
+side = ARA;
+sightdistance = 655;
+soundcategory = ARAGOD;
+soundclass = ARAGOD;
+standingunitorder = 2;
+tedclass = ETHIA;
+totalallowed = 1;
+turninplacerate = 2300;
+turnrate = 2200;
+unitname = ARAHELL;
+unitnumber = 11055;
+upright = 1;
+version = 1;
+watermultiplier = 0.81;
+//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 100;
+buttonimagedisabled = DeathSwordPU;
+buttonimagedown = DeathSwordPU;
+buttonimageselected = DeathSwordSBh;
+buttonimageup = DeathSwordSB;
+edgeeffectiveness = 0.5;
+explosionclass = LodeExplode;
+firestarter = 1;
+name = ForceStaff;
+nimbus = 1;
+range = 100;
+reloadtime = 3.55;
+smoketrail = 1;
+smokedelay = 6.5;
+soundhitclass = arrow08;
+turnrate = 180;
+type = guided;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 4750;
+monarch = 0.05;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 2048;
+areaofeffect = 250;
+buttonimagedisabled = FireBallGPU;
+buttonimagedown = FireBallGPU;
+buttonimageselected = FireBallGSBh;
+buttonimageup = FireBallGSB;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = megaflame;
+firestarter = 1;
+gravityadjustment = 2.25;
+guidance = 1;
+manapershot = 600;
+model = skull;
+name = Meteor;
+nimbus = 1;
+range = 1000;
+reloadtime = 4.5;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = fireball;//boom3;
+spinheading = 4500;
+soundwater = splash;
+tracks = 1;
+turnrate = 180;
+type = Guided;
+waterexplosionclass = large water explosion;
+weaponart = fireballb;
+//weapongaf = fx;
+weaponvelocity = 455;
+
+[DAMAGE]
+{
+default = 3000;
+monarch = 0.05;
+}
+
+}
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 300;
+builduptime = 0.25;
+buttonimagedisabled = FireRingPU;
+buttonimagedown = FireRingPU;
+buttonimageselected = FireRingSBh;
+buttonimageup = FireRingSB;
+decaytime = 1.1;
+edgeeffectiveness = 1.0;
+manapershot = 1200;
+name = Melt;
+nimbus = 1;
+radiusart0 = fireballa;
+radiusart1 = fireballb;
+radiusart2 = megaflame;
+range = 350;
+reloadtime = 5.75;
+ringcount = 4;
+ringdelay = 0.5;
+ringduration = 1.1;
+showeffect = 0;
+soundhitclass = fire;
+spritecount = 45;
+type = Remote Effect;
+unitsonly = 1;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 3500;
+monarch = 0.05;
+}
+}
+

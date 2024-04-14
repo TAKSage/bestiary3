@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildcost = 155;
+//mogriumbounty = 7.75;
+	buildtime = 55;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = tarzom_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 5;
+	frozen = tarzom_frozen;
+	healtime = .15;
+	maneuverleashlength = 500;
+	maxdamage = 3100;
+	maxvelocity = 0.8;
+	movementclass = GROUND2;
+	name = Zombie;
+	objectname = TARZOM;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 160;
+	soundcategory = TARZOM;
+	soundclass = TARZOM;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = TARZOM;
+	unitnumber = 116;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.5;
+	name = Knuckle Samwich;
+	range = 50;
+	reloadtime = 2.65;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 200;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.5;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		naval = 0.5;
+		shielded = 0.75;
+		steelnaval = 0.5;
+		giant = 0.5;
+		giantflamedemon = 0.5;
+		giantundead = 0.5;
+		steel = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 0.88;
+	//explosionclass = xlarge explosion;
+	name = plague;
+	//range = 150;
+	//soundhitclass = cresmcan;
+	type = Ballistic;
+	weaponvelocity = 500;
+	smoketrail = 1;
+	smokedelay = 4;
+
+	[DAMAGE]
+	{
+		default = 150;
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		steelnaval = 0;
+		naval = 0;
+		unshielded = 1.5;
+		antikingunshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		shielded = 1.5;
+		hardscale = 1.5;
+		mini = 1.5;
+		giant = 1.5;
+		antikingmounted = 1.5;
+		mounted = 1.5;
+		mechanical = 0;
+		antikingmechanical = 0;
+		undead = 0;
+		giantundead = 0;
+		skeleton = 0;
+		kingkiller = 0;
+		lodestone = 0;
+		steel = 0;
+	}
+
+}

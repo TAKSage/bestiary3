@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+acceleration = 0.15;
+//altfromsealevel = 10;
+//airtoairdistance = 200;
+amphibious = 1;
+attackrunlength = 1500;
+bankscale = 1.15;//0.5; //1.85;
+bmcode = 1;
+bodytype = armor;
+brakerate = 0.015;
+buildcost = 1833;
+buildtime = 445;
+canattack = 1;
+canguard = 1;
+canfly = 1;
+canhover = 0;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantransport = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+cantbetransported = 1;
+category = ILL ATTACK FLY MAGIC;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 225;
+damagecategory = Siege;
+defaultmissiontype = VTOL_Standby;
+description = Illohir;
+experiencepoints = 18;
+floater = 0;
+footprintx = 4;
+footprintz = 6;
+healtime = 0.1116745;
+hoverattack = 0;
+isairbase = 1;
+maneuverleashlength = 1500;
+maxdamage = 2750;
+maxvelocity = 2.8;
+maxwaterdepth = 255;
+//movementclass = HOVER4;
+//mobilestandorders = 1;
+name = ChaosArk;
+objectname = ILLISHIP;
+pitchscale = 0.5;//1.45;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 300;
+soundcategory = TARHSHIP;
+soundclass = TARHSHIP;
+standingunitorder = 2;
+tedclass = Illohir;
+ThreeD = 1;
+transmaxunits = 1;
+transportcapacity = 2;
+transportdistance = 200;
+transportsize = 3;
+transportsizecapacity = 4;
+turnrate = 200;
+turninplacerate = 0;
+unitname = ILLISHIP;
+unitnumber = 100029;
+version = 1;
+waterline = 2;
+wind = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 50;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = Medium Explosion;
+firestarter = 1;
+gravityadjustment = 3.0;
+//groundbounce = 1;
+model = skullshot; //model = Blue1CD;//Blue1D
+name = Fire Rock;
+nimbus = 1;
+range = 450;
+randomdecay = 1.0;
+reloadtime = 3.0;
+smoketrail = 1;
+smokedelay = 3.5;
+soundhitclass = fire;
+soundwater = splash;
+spinheading = 4000;
+turnrate = 180;
+tracks = 1;
+guidance = 1;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weaponart = fireballa;
+weaponvelocity = 750;
+
+
+[DAMAGE]
+{
+default = 500;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+fort = 0.5;
+factory = 0.5;
+naval = 1.5;
+Tier1 = 1.5;
+}
+}

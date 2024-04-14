@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2500;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonliz_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 8;
+	frozen = zonliz_frozen;
+	healtime = 0.479166667;
+	maneuverleashlength = 500;
+	maxdamage = 1254;
+	maxvelocity = 1.8;
+	movementclass = GROUND2;
+	name = Lizardman;
+	objectname = zonliz;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 188;
+	soundcategory = zondrake;
+	soundclass = zondrake;
+	standingunitorder = 1;
+	stone = zonliz_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = zonliz;
+	unitnumber = 188;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = zonterspear;
+	name = spear;
+	range = 422;
+	reloadtime = 1;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = zonterspearvet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}

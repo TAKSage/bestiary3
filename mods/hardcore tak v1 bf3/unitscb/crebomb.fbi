@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 20000;
+	//original buildcost = 6607; 
+	buildcost = 7207;
+	//original buildtime = 572;
+	buildtime = 992;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = mechanical;
+	damagecategory = fort2;
+	defaultmissiontype = guard_nomove;
+	description = Creon;
+	experiencepoints = 67;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.604167;
+	//original maxdamage = 3650;
+	maxdamage = 15000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Bomb Sprinkler;
+	objectname = CREBOMB;
+	radardistance = 1100;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	//original sightdistance = 260
+	sightdistance = 360;
+	soundcategory = CREBOMB;
+	soundclass = CREBOMB;
+	tedclass = Creon;
+	unitname = CREBOMB;
+	unitnumber = 35;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 60;
+	damagetype = explosion;
+	edgeeffectiveness = 0.65;
+	explosionclass = large explosion;
+	//original gravityadjustment = 7.5; 3.5
+	gravityadjustment = 1.5;
+	//original lobpreferred = 1;
+	lobpreferred = 0;
+	//original minrange = 180; 400
+	minrange = 150;
+	name = Cannonball;
+	noairweapon = 1;
+	//original range = 705;
+	range = 520;
+	//original reloadtime = 0.75; 5.0; 3.0;
+	reloadtime = 1;
+	soundhitclass = creballcan;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponart = cannbsm;
+	weaponart = cannbmed;
+	//original weaponvelocity = 800;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		
+		//original default = 441; 2760
+		default = 920;   //dmg = 920/s
+		//These are new
+		fort = 0.2;
+		monarch = 1.2;
+		stalwart = 0.8;  
+		siege = 0.5;
+		siege2 = 0.6;
+		god = 0.33;
+		tier1 = 1.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 320;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		fly = 2.0;
+		flygod = 0.2;
+		fort = 0.7;
+		god = 0.2;
+		monarch = 0.25;
+		stalwart = 0.6;  //dmg = 
+		support = 0.75;
+	}
+}

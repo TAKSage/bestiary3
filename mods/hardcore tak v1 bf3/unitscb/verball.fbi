@@ -1,0 +1,144 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	//original buildcost = 1611; 2255;
+	buildcost = 2578;
+	//original buildtime = 185; now (150%)
+//	original buildtime = 324; 162; 200
+	buildtime = 260;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	//original experiencepoints = 25;
+	experiencepoints = 29;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.513888889;
+	maneuverleashlength = 500;
+//	maxdamage 1.0 = 4079     maxdamage 2.0 = 2479;
+        maxdamage = 4379;
+//	original maxvelocity = 1.5; 1.6
+	maxvelocity = 2;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = (M) Dirigible;
+	objectname = VERBALL;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 350;
+	soundcategory = VERBALL;
+	soundclass = VERBALL;
+	standingunitorder = 1;
+	tedclass = Veruna;
+	//original no totalallowed
+	totalallowed = 30;
+	turninplacerate = 0;
+	//original turnrate = 100;
+	turnrate = 180;
+	unitname = VERBALL;
+	unitnumber = 121;
+	upright = 1;
+	// Based on Cavedog's Crusades Balance
+	version = M.1.0;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = large dust puff;
+	name = dropped cannonball of love;
+	noairweapon = 1;
+	//original range = 200;
+	range = 220;
+	reloadtime = 2.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	//original weaponart = cannbsm;
+	weaponart = cannbmed;
+	weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+		default = 1070; //dmg = 486/s
+		archer = 0.65;  //dmg = 696 (316/s)
+		archer2 = 0.7;
+		factory = 1.5;
+		fly = 0.5;
+		flygod = 0.3;
+		fort = 0.6;
+		naval = 0.5;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	gravityadjustment = 1.3;
+	model = Araarrow;
+	name = anti-air arrows;
+	noairweapon = 0;
+	range = 450;
+	reloadtime = 3.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		//original no airship;
+		airship = 2.0;
+		default = 161;
+		//These are new
+		fly = 2.5;        //403
+	}
+}
+
+[EXPLODEAS]
+{
+//	original areaofeffect = 313
+	areaofeffect = 250;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = medium explosion;
+	name = Die;
+//	range = 750;
+//	reloadtime = 6.5;
+	type = Ballistic;
+//	waterexplosionclass = medium water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monarch = 0.5;
+		airship = 4;
+	}
+}

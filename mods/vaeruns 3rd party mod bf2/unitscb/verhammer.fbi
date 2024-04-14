@@ -1,0 +1,137 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.25;
+	buildcost = 18500;
+	buildtime = 2050;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+               cantbefrozen = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = VER BALLISTIC ATTACK BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verhammer_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 255;
+	floater = 1;
+	healtime = 66.91;
+	maneuverleashlength = 500;
+	maxdamage = 25000;
+	maxvelocity = 4.2;
+	movementclass = WATER7;
+	name = Warhammer;
+	objectname = VERHAMMER;
+	pitchscale = 1.2;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 340;
+	soundcategory = VERHAMMER;
+	soundclass = VERHAMMER;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	transportcapacity = 40;
+	transportdistance = 500;
+	transportsize = 16;
+	transportsizecapacity = 80;
+	totalallowed = 6;
+	turnrate = 250;
+	unitname = VERHAMMER;
+	unitnumber = 10098;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+                edgeeffectiveness = 0.5;
+	explosionclass = medium explosion;
+	name = heavy cannon;
+	range = 950;
+	reloadtime = 4.6;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1650;
+                monarch = 0.25;
+                naval = 2.0;
+                dragon = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+                  edgeeffectiveness = 0.5;
+	explosionclass = medium explosion;
+	name = heavy cannon;
+	range = 1000;
+	reloadtime = 4.8;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1850;
+                monarch = 0.25;
+                naval = 2.0;
+                dragon = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+               edgeeffectiveness = 0.5;
+	explosionclass = medium explosion;
+	name = heavy cannon;
+	range = 1050;
+	reloadtime = 5.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2050;
+                monarch = 0.25;
+                naval = 2.0;
+                dragon = 1.5;
+	}
+}

@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 175;
+	buildtime = 72;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARORFIEN_dead;
+	damagecategory = Tier1;
+	defaultmissiontype = Standby;
+	description = TAR;
+	experiencepoints = 4;
+	healtime = 0.3125;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxvelocity = 1;
+	movementclass = GROUND2;
+	name = Fiend;
+	objectname = TARORFIEN;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 101;
+	soundcategory = TARORFIEN;
+	soundclass = TARORFIEN;
+	standingunitorder = 2;
+	stone = TARORFIEN_stone;
+	tedclass = Taros;
+	turnrate = 2500;
+	unitname = TARORFIEN;
+	unitnumber = 304;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 0.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 100;
+		fort = 0.75;
+		factory = 0.75;
+		mechanical = 0.75;
+		stalwart = 0.5;
+	}
+}

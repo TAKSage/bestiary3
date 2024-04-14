@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	
+	bodytype = stone;
+	buildangle = 30000;
+	buildcost = 3477;
+	buildtime = 563;
+	category = TAR;
+                cantbecaptured = 1;
+	cantbefrozen = 1;
+                cantbestoned = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 20;
+                floater = 0;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.2;
+                immunetoparalyzer = 1;
+	maxdamage = 3750;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	mogriumincome = 2;
+	mogriumstorage =  5000;
+	name = Mogrium Vault;
+	objectname = TARVAULT;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = TARVAULT;
+	soundclass = TARVAULT;
+	tedclass = Taros;
+                ThreeD = 1;
+                totalallowed = 5;
+	unitname = TARVAULT;
+	unitnumber = 411003;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+                waterline = 2;
+	yardmap = o;
+                 ZBuffer = 1;
+}

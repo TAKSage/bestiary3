@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 3008;
+	buildtime = 1899;
+	cantbestoned = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkpill_dead;
+	damagecategory = lodestone;
+	description = Zhon;
+	experiencepoints = 12;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 3.165;
+	maxdamage = 1800;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Life Crystal;
+	objectname = zonkpill;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 125;
+	soundcategory = verpill;
+	soundclass = verpill;
+	tedclass = Zhon;
+	unitname = zonkpill;
+	unitnumber = 26;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+
+	[AdjustJoy]
+	{
+		adjustment = 75;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 550;
+	}
+}

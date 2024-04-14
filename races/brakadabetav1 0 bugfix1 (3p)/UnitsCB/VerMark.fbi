@@ -1,0 +1,126 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = Flesh;
+	brakerate = 10;
+	buildcost = 1143;
+	buildtime = 189;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VerMark_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 26;
+	fireatwillrandom = 1;
+	healtime = 1.065;
+	maneuverleashlength = 500;
+	maxdamage = 1962;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Marksman;
+	objectname = VERMARK;
+	roadmultiplier = 1.1;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 147;
+	soundcategory = VERMARK;
+	soundclass = VERMARK;
+	standingunitorder = 1;
+	stone = Vermark_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERMARK;
+	unitnumber = 3219;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.5;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass =  small dust puff;
+	model = araarrow;
+	name = Standard Arrow;
+	range = 560;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 530;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 10;
+	edgeeffectivness = 0.2;
+	buttonimagedisabled = ArrowLobPU;
+	buttonimagedown = ArrowLobPU;
+	buttonimageselected = ArrowLobSBh;
+	buttonimageup = ArrowLobSB;
+	explosionclass =  small dust puff;
+	gravityadjustment = 2.5;
+	lobpreferred = 1;
+	model = araarrow;
+	name = Lob Arrow;
+	noairweapon = 1;
+	range = 650;
+	reloadtime = 1.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 680;
+
+	[DAMAGE]
+	{
+		default = 605;
+	}
+}
+
+[WEAPON3]
+{
+                 aimtolerance = 5000;
+                 buttonimagedisabled = ArrowTrackingPU;
+                 buttonimagedown = ArrowTrackingPU;
+                 buttonimageselected = ArrowTrackingSBh;
+                 buttonimageup = ArrowTrackingSB;
+                 explosionclass = teeny explosion;
+                 model = araarrow;
+                 name = Marksmanship;
+                 nimbus = 1;
+                 range = 762;
+                 reloadtime = 8.5;
+                 soundhitclass = arrow;
+                 type = ballistic;
+                 waterexplosion = small water explosion;
+                 weaponvelocity = 1000;
+
+                 [DAMAGE]
+                 {
+                               default = 1397;
+                 }
+}

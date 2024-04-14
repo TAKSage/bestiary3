@@ -1,0 +1,53 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 600;
+	buildtime = 120;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = building;
+	description = Building;
+	experiencepoints = 20;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.3;
+	maxdamage = 8000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 15;
+	mogriumstorage = 500;
+	name = Gold Mine;
+	objectname = ARAAOWMINE;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = AOWMINE;
+	soundclass = AOWMINE;
+	tedclass = Building;
+	unitname = ARAAOWMINE;
+	unitnumber = 42001;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

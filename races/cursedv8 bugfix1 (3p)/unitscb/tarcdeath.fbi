@@ -1,0 +1,96 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1323;
+	buildtime = 195;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcdeath_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 27;
+	healtime = 0.740833333;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 5011;
+	maxmana = 500;
+	maxvelocity = 3.1;
+	movementclass = GROUND3;
+	name = Death Knight;
+	objectname = tarcdeath;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 215;
+	soundcategory = tarcdeath;
+	soundclass = tarcdeath;
+	standingunitorder = 2;
+	stone = tarcdeath_stone;
+	tedclass = Taros;
+	turnrate = 1000;
+	unitname = tarcdeath;
+	unitnumber = 860;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = maceatkpu;
+	buttonimagedown = maceatkpu;
+	buttonimageselected = maceatkSBh;
+	buttonimageup = maceatkSB;
+	edgeeffectiveness = 0.1;
+	name = Black Mace;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 2.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 70;
+	buttonimagedisabled = bloodatkpu;
+	buttonimagedown = bloodatkpu;
+	buttonimageselected = bloodatkSBh;
+	buttonimageup = bloodatkSB;
+	edgeeffectiveness = 0.1;
+	explosionclass = blood explosion;
+	name = Blood Lust;
+	noairweapon = 1;
+	manapershot = 100;
+	range = 100;
+	reloadtime = 1.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 770;
+	}
+}

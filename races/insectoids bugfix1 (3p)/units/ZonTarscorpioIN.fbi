@@ -1,0 +1,122 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 250;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Zon MAGIC ATTACK;
+	cloakcost = 5;
+	cloakcostmoving = 10;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZontarscorpioIN_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 30;
+	healtime = 0.65;
+	manarechargerate = 5;
+	maneuverleashlength = 500;
+	maxdamage = 4800;
+	maxmana = 500;
+	maxvelocity = 1.4;
+	mincloakdistance = 100;
+	movementclass = GROUND4;
+	name = Deadly Scorpion;
+	objectname = ZonTARSCORPIOIN;
+	radardistance = 600;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 200;
+	soundcategory = ZonTARSCORPIOIN;
+	soundclass = ZonTARSCORPIOIN;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZonTARSCORPIOIN;
+	unitnumber = 15151521;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 55;
+	aimtolerance = 1024;
+	buttonimagedisabled = stingpu;
+	buttonimagedown = stingpu;
+	buttonimageselected = stingsbh;
+	buttonimageup = stingsb;
+                edgeeffectiveness = 0.5;
+	explosionclass = Volcblast;
+	nimbus = 1;
+	hweffect = red lightning;
+	//manapershot = 100;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 200 10 10;
+	name = Stinger Bolt;
+	outercolor = 255 0 0;
+	range = 400;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 535;
+		monarch = 0.01;
+
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 55;
+	aimtolerance = 1024;
+	buttonimagedisabled = paralyzestingpu;
+	buttonimagedown = paralyzestingpu;
+	buttonimageselected = paralyzestingSBh;
+	buttonimageup = paralyzestingSB;
+	explosionclass = green_shockring;
+	damagetype = paralyzer;
+	hweffect = green lightning;
+                manapershot = 150;
+	nimbus=1;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 10 200 10;
+	name = Paralyze Bolt;
+	outercolor = 0 255 0;
+	range = 400;
+	reloadtime = 2.0;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 150;
+                                lodestone = 0;
+                                factory = 0;
+
+	}
+}

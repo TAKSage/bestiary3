@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4500;
+	builddistance = 260;
+	builder = 1;
+	buildtime = 450;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canresurrect = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 30;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 3750;
+	maxvelocity = 1.2;
+	movementclass = GROUND3;
+	name = Warlock;
+	noveteran = 1;
+	objectname = TARZMAS;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 210;
+	soundcategory = TARZMAS;
+	soundclass = TARZMAS;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = TARZMAS;
+	unitnumber = 15;
+	upright = 1;
+	version = 1;
+	totalallowed = 1;
+	watermultiplier = 0.6;
+	workertime = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 15;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	middlecolor = 200 230 255;
+	name = Lightning;
+	outercolor = 180 200 255;
+	range = 280;
+	reloadtime = 2.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 625;
+	}
+}

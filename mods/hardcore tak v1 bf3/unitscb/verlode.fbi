@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 304;
+//	original buildtime = 123; 92; 64
+	buildtime = 32;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Veruna;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	//original healtime = 0.372727;
+	healtime = 0.322727;
+	maxdamage = 5680;
+	maxslope = 15;
+	maxwaterdepth = 0;
+//	original mogriumincome = 10; 14
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Lodestone;
+	objectname = verlode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 125;
+	soundcategory = verlode;
+	soundclass = verlode;
+	tedclass = Veruna;
+	unitname = verlode;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

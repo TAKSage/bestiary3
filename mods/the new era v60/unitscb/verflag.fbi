@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 0.33;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.066;
+	buildcost = 1237;
+	builddistance = 200;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 440;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER BUILDER BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verflag_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 12;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 1.833333333;
+	isairbase = 1;
+	maneuverleashlength = 500;
+	maxdamage = 6112;
+	maxvelocity = 3.5;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = WATER4;
+	name = Her Majesty Ship;
+	objectname = VERFLAG;
+	pitchscale = 1.5;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERFLAG;
+	soundclass = VERFLAG;
+	tedclass = Veruna;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 128;
+	turninplacerate = 210;
+	turnrate = 210;
+	unitname = VERFLAG;
+	unitnumber = 131;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = explosion;
+	explosionclass = Water Splash;
+	emittime = 60;
+	hweffect = frostbolt;
+ 	lightmap = large;
+	name = Hydro Blast;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = arrow08;
+	subtype = lightning;
+	type = line of sight;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 650;
+		fort = 0.5;
+		factory = 0.5;
+		stalwart = 0.5;
+	}
+}

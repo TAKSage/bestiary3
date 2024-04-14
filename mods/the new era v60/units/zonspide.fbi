@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	bodytype = flesh;
+	buildcost = 4500;
+	buildtime = 450;
+	canattack = 1;
+	cancloak = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK;
+	cloakcost = 10;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonspide_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	footprintx = 3;
+	footprintz = 3;
+	frozen = zonspide_frozen;
+	healtime = .8;
+	manarechargerate = 9;
+	maxdamage = 8000;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mincloakdistance = 50;
+	name = Trapdoor Spider;
+	objectname = zonspide;
+	radardistance = 1000;
+	shootme = 0;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = zonspide;
+	soundclass = zonspide;
+	standingunitorder = 2;
+	stone = zonspide_stone;
+	tedclass = Zhon;
+	unitname = zonspide;
+	unitnumber = 166;
+	version = 1;
+	yardmap = ccc ccc ccc;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 48;
+	aimtolerance = 1024;
+	buttonimagedisabled = LightHouseStunPU;
+	buttonimagedown = LightHouseStunPU;
+	buttonimageselected = LightHouseStunSBh;
+	buttonimageup = LightHouseStunSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	name = Paralyzing venom;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 7;
+	soundhit = arrow08;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 220;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		mechanical = 0.25;
+		monarch = 0.25;
+		trainer = 0.25;
+		naval = 0;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 60;
+	aimtolerance = 1024;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.75;
+	explosionclass = blue_shockring;
+	name = Claws;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 750;
+		mountedtier1 = 1.5;
+		tier1 = 1.5;
+		trainer = 0.2;
+		factory = 0.2;
+		fort = 0.2;
+		lodestone = 0.2;
+	}
+}

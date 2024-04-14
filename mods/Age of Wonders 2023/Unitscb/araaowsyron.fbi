@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 225 225 255;
+	bloodcolor2 = 200 200 225;
+	bloodcolor3 = 175 175 200;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 6500;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowsyron_dead;
+	damagecategory = syron;
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 40;
+	ghost = 1;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 27500;
+	maxvelocity = 1.175;
+	mogriumincome = -15;
+	movementclass = GROUND2;
+	name = Syron;
+	objectname = ARAAOWSYRON;
+	roadmultiplier = 1.35;
+	radardistance = 600;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 450;
+	soundcategory = AOWSYRON;
+	soundclass = AOWSYRON;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	totalallowed = 4;
+	unitname = ARAAOWSYRON;
+	unitnumber = 42652;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 35;
+	edgeeffectiveness = 0.65;
+	name = Sword;
+	range = 40;
+	reloadtime = 2.75;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2200;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

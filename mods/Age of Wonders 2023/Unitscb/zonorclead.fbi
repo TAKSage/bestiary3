@@ -1,0 +1,173 @@
+[UNITINFO]
+{
+	acceleration = 9;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 9;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = ZON MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = orc;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 525;
+	healtime = 75;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 32000;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = Warmaster;
+	noveteran = 1;
+	objectname = ZONORCLEAD;
+	radardistance = 650;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 500;
+	soundcategory = ORCLEAD;
+	soundclass = ORCLEAD;
+	standingunitorder = 1;
+	tedclass = Orc;
+	turninplacerate = 1400;
+	turnrate = 1400;
+	unitname = ZONORCLEAD;
+	unitnumber = 42511;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1655;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+[WEAPON2]
+{
+	buttonimagedisabled = flamingarrow_down;
+	buttonimagedown = flamingarrow_down;
+	buttonimageselected = flamingarrow_selected;
+	buttonimageup = flamingarrow_up;
+	aimtolerance = 1024;
+	areaofeffect = 65;
+	damagetype = fire;
+	explosionclass = fireball explosion;
+	edgeeffectiveness = 0.6;
+	firestarter = 1;
+	manapershot = 250;
+	model = araarrow2;
+	name = Flaming Arrow;
+	range = 500;
+	reloadtime = 5;
+	shadowgaf = shadows;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = fireballa;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		spirit = 1.5;
+		firespirit = 0;
+		dragon = 0.25;
+		demon = 0.25;
+		azrac = 0.75;
+		lizard = 1.25;
+		frostling = 1.1;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = diseasecloud_down;
+	buttonimagedown = diseasecloud_down;
+	buttonimageselected = diseasecloud_selected;
+	buttonimageup = diseasecloud_up;
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 3;
+	decaytime = 4;
+	edgeeffectiveness = 0.7;
+	manapershot = 950;
+	name = Disease Cloud;
+	radiusart0 = dustpuffa;
+	radiusart1 = dustpuffb;
+	radiusart2 = dustpuffc;
+	range = 380;
+	reloadtime = 1.5;
+	ringcount = 4;
+	ringdelay = 0.1;
+	ringduration = 5;
+	showeffect = 0;
+	soundhit = diseasecloud;
+	spritecount = 125;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 6500;
+		syron = 0.1;
+		spirit = 0.25;
+		firespirit = 0.25;
+		highman = 0.75;
+		undead = 0.1;
+		mechanical = 0.5;
+		city = 0.25;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}
+
+

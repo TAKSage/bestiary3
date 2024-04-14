@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.06;
+	buildcost = 3150;
+	buildtime = 325;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+              cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA ATTACK BALLISTIC BOAT ;
+	cloakcost = 15;
+	cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arasolwra_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 19;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 0.95125;
+	manarechargerate = 10;
+	maxdamage = 4450;
+	maxmana = 500;
+	maxvelocity = 2.5;
+	mincloakdistance = 40;
+	movementclass = water4;
+	name = Sea Wraith;
+	objectname = arasolwra;
+	pitchscale = 1.5;
+	radardistance = 651;
+	shadowart = shadow02;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = arasolwra;
+	soundclass = arasolwra;
+	standingunitorder = 2;
+	stone = arasolwra_stone;
+	tedclass = Aramon;
+	transportcapacity = 15;
+	transportdistance = 300;
+	transportsize = 12;
+	transportsizecapacity = 35;
+	turnrate = 250;
+	unitname = arasolwra;
+	unitnumber = 102012;
+	version = 1;
+	
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Arrow;
+	range = 580;
+	reloadtime = 1.8;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 420;
+
+	[DAMAGE]
+	{
+		default = 322;
+	}
+}

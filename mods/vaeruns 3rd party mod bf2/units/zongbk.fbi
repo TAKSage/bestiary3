@@ -1,0 +1,146 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                animatetype = ZONHGOB;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 21100;
+                builddistance = 300;
+	buildtime = 2050;
+                cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+                canreclaim = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+	category = ZON MELEE BALLISTIC ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+                economybonus = 10;
+	experiencepoints = 180;
+                floater = 0;
+	healtime = 41.72;
+                immunetoparalyzer = 1;
+                manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 29500;
+                maxmana = 1000;
+	maxvelocity = 2.3;
+	movementclass = HOVER3;
+	name = The Goblin King;
+	objectname = ZONGBK;
+	roadmultiplier = 1.21;
+	//shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 180;
+	soundcategory = ZONGBK;
+	soundclass = ZONGBK;
+	standingunitorder = 2;
+	stone = zongbk_stone;
+	tedclass = Zhon;
+                totalallowed = 1;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONGBK;
+	unitnumber = 180025;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                waterline = 18;
+                weaponswitching = 1;
+                workertime = 15;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+               buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.5;
+	name = Foul Sceptre;
+	range = 100;
+	reloadtime = 1.15;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1299;
+		monarch = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 250;
+	model = araarrow3;
+	name = Power Word Stun;
+	nimbus = 1;
+	range = 650;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	type = ballistic;
+                waterexplosionclass = small water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 500;
+		
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+                areaofeffect = 100;
+                buttonimagedisabled = fireballpu;
+	buttonimagedown = fireballpu;
+	buttonimageselected = fireballsbh;
+	buttonimageup = fireballsb;
+                edgeeffectiveness = 0.5;
+                explosionclass = fireball explosion;
+                manapershot = 25;
+	name = Deathspit;
+	range = 550;
+	reloadtime = 0.1;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = fireballA;
+                weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 400;
+		monarch = 0.25;
+		fort = 0.5;
+		factory = 0.5;
+		lodestone = 0.5;
+		naval = 0.5;
+		mechanical = 0.75;
+	}
+}
+

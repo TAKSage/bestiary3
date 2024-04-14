@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 10000;
+	buildcost = 3615;
+//	mogriumbounty = 361.5;
+	buildtime = 420;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERLIGHT_dead;
+	damagecategory = stone;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 32;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .875;
+	maxdamage = 10300;
+	maxslope = 20;
+	maxwaterdepth = 20;
+	name = Lighthouse;
+	objectname = VERLIGHT;
+	radardistance = 1280;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 725;
+	soundcategory = VERLIGHT;
+	soundclass = VERLIGHT;
+	tedclass = Veruna;
+	unitname = VERLIGHT;
+	unitnumber = 35;
+	version = 1;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1800;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	model = VerLight2;
+	name = Flame Beam;
+	range = 480;
+	reloadtime = 2.4;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 695;
+
+	[DAMAGE]
+	{
+		default = 75;// 1 = 0.035s
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+		steel = 0;
+		naval = 0;
+		steelnaval = 0;
+		god = 0;
+		monarch = 0;
+	}
+}

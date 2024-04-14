@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	animatetype = tartroop;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2000;
+	builddistance = 400;
+	//builder = 1;
+	buildtime = 500;
+	cananimate = 1;
+	canattack = 1;
+	//canbuild = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarwitch_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	frozen = tarwitch_frozen;
+	healtime = 2;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 4000;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	name = Weather Witch;
+	objectname = TARWITCH;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARWITCH;
+	soundclass = TARWITCH;
+	standingunitorder = 2;
+	stone = tarwitch_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARWITCH;
+	unitnumber = 114;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 50;
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;
+	duration = 9;
+	manapershot = 100;
+	maxvariation = 5;
+	name = Tornado;
+	nimbus = 1;
+	range = 150;
+	reloadtime = 3;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = tornadoend;
+	wanderloopart = tornadoloop;
+	wanderstartart = tornadostart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	manapershot = 0;
+	middlecolor = 200 230 255;
+	name = Thunderbolt;
+	outercolor = 180 200 255;
+	range = 400;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 400;
+		monarch = 0.3;
+		mechanical = 1.25;
+		god = 2;
+                Conjured = 2;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 250;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 2.5;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 800;
+	name = Ice Storm;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 400;
+	reloadtime = 3.5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 200;
+		Conjured = 2;
+	}
+}

@@ -1,0 +1,266 @@
+[UNITINFO]
+{
+	acceleration = 0.45;
+                amphibious = 1;
+                attractsgods = 1;
+                attackrunlength = 1000;
+	bankscale = 1.9;
+	bloodcolor1 = 255 0 0;
+	bloodcolor2 = 0 255 0;
+	bloodcolor3 = 0 0 255;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.15;
+	buildcost = 52752;
+	buildtime = 9684;
+	canattack = 1;
+	cancloak = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+               cantbecaptured = 1;
+               cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	cloakcost = 65;
+	cloakcostmoving = 67;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 250;
+	damagecategory = Dragon;
+                damagemodifer = 0.05;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 700;//400;
+                floater = 0;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = 17.484;
+                immunetoparalyzer = 1;
+	manarechargerate = 65;
+	maneuverleashlength = 250;
+	maxdamage = 16666;
+	maxvelocity = 10;
+	maxmana = 125;
+	mincloakdistance = 150;
+                mogriumincome = -10;
+                mogriumstorage = -1000;
+	name = Blood Wyvern;
+                noradar = 1;
+	objectname = TARBLDRA;
+                pitchscale = 0.55;
+	radardistance = 1800;
+                radardistancejam = 400;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 300;
+                stealth = 1;
+	soundcategory = TARBLDRA;
+	soundclass = TARBLDRA;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = TARBLDRA_stone;
+                ThreeD = 1;
+                totalallowed = 1;
+	tedclass = Taros;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = TARBLDRA;
+	unitnumber = 16666;
+	upright = 1;
+	version = 1;
+                waterline = 1;
+	watermultiplier = 0.75;
+                weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+                aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+                damagetype = fire;
+                edgeeffectiveness = 0.5;
+	explosionclass = blue_shockring;
+                firestarter = 1;
+                gravityadjustment = 1.9;
+                guidance = 1;
+                manapershot = 30;
+                model = GPulse1;// Blast1;
+	name = Pulse;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 0.15;
+	soundhitclass = fire;
+               soundwater = splash;
+               smoketrail = 1;
+               smokedelay = 4.5;
+               spinroll = 6000;
+               tracks = 1;
+	turnrate = 360;
+	type = Ballistic;
+               waterexplosionclass = small water explosion;
+	weaponart =  ltngball_2a;
+	weaponvelocity = 1500;
+	
+
+	[DAMAGE]
+	{
+		default = 350;
+                dragon = 0.4;
+                monarch = 0.3;
+                fort = 0.4;
+                god = 0.4;
+                airship = 0.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 1.5;
+                monster = 1.5;
+                human = 1.5;
+                undead = 0.4;
+                naval = 1.5;
+                siege = 0.4;
+                          
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 100;
+	buttonimagedisabled = LightningballPU;
+	buttonimagedown = LightningBallPU;
+	buttonimageselected = LightningBallSBh;
+	buttonimageup = LightningballSB;
+                damagetype = fire;
+	edgeeffectiveness = 0.5;
+	explosionclass = Large1a;
+	firestarter = 1;
+                gravityadjustment = 0.2;
+                guidance = 1;
+	manapershot = 140;
+                model = Plasma4A;//DPulseG1;
+	name = Guided Wisp;
+	nimbus = 1;
+                soundwater = splash;
+	range = 1500;
+	reloadtime = 1.5;
+                smoketrail = 1;
+                smokedelay = 0.1;
+	soundhitclass = fire;
+                tracks = 1;
+	turnrate = 360;
+	type = Guided;
+                //veteranlevel = 5;
+               waterexplosionclass = medium water explosion;
+	weaponart = zhonbuild;
+	weaponvelocity = 150;
+
+	[DAMAGE]
+	{
+		default = 600;
+                              dragon = 0.4;
+                monarch = 0.3;
+                fort = 0.4;
+                god = 0.4;
+                airship = 0.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 1.5;
+                monster = 1.5;
+                human = 1.5;
+                undead = 0.4;
+                naval = 1.5;
+                siege = 0.4;
+                          
+	}
+}
+
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 450;
+	builduptime = 0.15;
+	buttonimagedisabled = EnergyBlastPU;
+	buttonimagedown = EnergyBlastPU;
+	buttonimageselected = EnergyBlastSBh;
+	buttonimageup = EnergyBlastSB;
+	decaytime = 3;
+                damagetype = fire;
+	edgeeffectiveness = 1;
+	manapershot = 200;
+	name = StormWrath;
+	nimbus = 1;
+	radiusart0 = ltng_cloud_loop;
+	radiusart1 = pillaroflight;
+	radiusart2 = redburst2;
+	range = 350;
+	reloadtime = 4.5;
+	ringcount = 4;
+	ringdelay = 0.25;
+	ringduration = 1.4;
+                shadowart = weaponshad01;
+                shadowgaf = shadows;
+	shakeduration = 1;
+	shakemagnitude = 2;
+	showeffect = 1;
+	soundhit = Storm;
+                subtype = Earthquake;
+	spritecount = 50;
+	type = Remote Effect;
+                //veteranlevel = 10;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+	               default = 3000;
+                               dragon = 0.4;
+                monarch = 0.3;
+                fort = 0.4;
+                god = 0.4;
+                airship = 0.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 0.5;
+                monster = 1.5;
+                human = 1.5;
+                undead = 0.4;
+                naval = 1.5;
+                siege = 0.4;
+	}
+
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 1500;
+	edgeeffectiveness = 1;
+                explosionclass = MegaFlame;
+                damagetype = fire;
+                firestarter = 1;
+	name = Fire Wave;
+	nimbus = 1;
+	soundhit = TREX4;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+	               default = 500;
+                               dragon = 0.4;
+                               monarch = 0.3;
+                               fort = 0.5;
+                               factory = 0.5;
+                               stalwart = 0.5;
+                               god = 0.4;
+               
+	}
+}

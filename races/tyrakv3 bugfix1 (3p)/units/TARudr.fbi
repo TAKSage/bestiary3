@@ -1,0 +1,133 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6063;
+	buildtime = 1132;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarudr_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 100;
+	fireatwillrandom = 1;
+	healtime = 9;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 14134;
+	maxmana = 1300;
+	maxvelocity = 3;
+	movementclass = GROUND2;
+	name = Undead Ranger;
+	objectname = TARUDR;
+	roadmultiplier = 1.2;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 1;
+	stone = tarudr_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARUDR;
+	unitnumber = 11098;
+	upright = 1;
+	version = 1;
+	totalallowed = 5;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = araarrow;
+	name = Fast Attack Arrow;
+	range = 500;
+	reloadtime = 0.9;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	explosionclass = teeny explosion;
+	damagetype = fire;
+	manapershot = 150;
+	model = araarrow2;
+	name = Fire Arrow;
+	nimbus = 1;
+	firestarter = 1;
+	hweffect = fire;
+	range = 600;
+	reloadtime = 2;
+	soundhitclass = fire;
+	turnrate = 200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1600;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 250;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	damagetype = explosion;
+	explosionclass = large explosion;
+	manapershot = 650;
+	model = exarrow1;
+	firestarter = 1;
+	hweffect = fire;
+	name = Exploding Arrow;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 3;
+	soundhit = fire;
+	type = ballistic;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 3500;
+	}
+}

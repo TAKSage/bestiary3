@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	buildangle = 0;
+	buildcost = 4200;
+	buildtime = 370;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelfori_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	fireatwillrandom = 1;
+	description = Aramon;
+	experiencepoints = 31;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.45;
+	maxmana = 1000;
+	manarechargerate = 10;
+	maxdamage = 9500;
+	maxslope = 12;
+	maxwaterdepth = 0;
+	name = Alabaster Tower;
+	objectname = aradelfori;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = ARADELTOW;
+	soundclass = ARADELTOW;
+	tedclass = Aramon;
+	unitname = aradelfori;
+	unitnumber = 3299;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireballPU;
+	buttonimagedown = FireballPU;
+	buttonimageselected = FireballSBh;
+	buttonimageup = FireballSB;
+	explosionclass = green_shockring;
+	manapershot = 5;
+	model = araarrow3;
+	name = Magic Missle;
+	nimbus = 1;
+	range = 540;
+	reloadtime = 0.1;
+	soundhit = arrow08;
+	type = ballistic;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 100;
+		
+	}
+}

@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bodytype = wood;
+	buildangle = 4096;
+	buildcost = 11194;
+	buildtime = 675;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkhand_dead;
+	damagecategory = siege;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 61;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.40625;
+	maxdamage = 2975;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Titan Arm;
+	notargetcategory = FLY;
+	objectname = tarkhand;
+	pitchscale = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 200;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 1;
+	tedclass = Taros;
+	unitname = TARKHAND;
+	unitnumber = 41;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 4.2;
+	minrange = 200;
+	name = Rock;
+	noairweapon = 1;
+	range = 5000;
+	reloadtime = 3;
+	shadowart = weaponshad02;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1150;
+
+	[DAMAGE]
+	{
+		default = 2001;
+	}
+}

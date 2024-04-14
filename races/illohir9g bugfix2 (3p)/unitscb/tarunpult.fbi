@@ -1,0 +1,108 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = Stone;
+	brakerate = 0.02;
+	buildcost = 1822;
+	buildtime = 363;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	 corpse = tarunpult_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 25;
+              frozen = tarunpult_frozen;
+                floater = 0;
+	healtime =  0.9791667;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxvelocity = 0.75;
+	movementclass = GROUND3;
+	name = Skull Thrower;
+	notargetcategory = FLY;
+	objectname = TARUNPULT;
+	pitchscale = 1.5;
+	roadmultiplier = 1.45;
+              radardistance = 491;
+              shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 163;
+	soundcategory = VERASY;
+	soundclass = VERASY;
+             stone = tarunpult_stone;
+             standingfireorder = 2;
+              standingmoveorder = 2;
+	standingunitorder = 2;
+	tedclass = Taros;
+              ThreeD = 1;
+	turninplacerate = 350;
+	turnrate = 350;
+	unitname = TARUNPULT;
+	unitnumber = 421611;
+	version = 1;
+              waterline = 4;
+	watermultiplier = 0.5;
+                 ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 120;
+	damagetype = fire;
+	edgeeffectiveness = 0.5;
+	explosionclass = large1a;
+	firestarter = 1;
+	gravityadjustment = 4;
+	lobpreferred = 1;
+	minrange = 200;
+	model = skullrock;
+	name = Flaming Skull;
+                nimbus = 1;
+	noairweapon = 1;
+	range = 1000;
+	reloadtime = 7;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+                smoketrail = 1;
+                smokedelay = 2.5;
+	soundhitclass = crelgcan;
+	spinheading = 6500;
+	soundwater = splash;
+	type = Ballistic;
+                turnrate = 360;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 800;
+	weaponart = fireballa;
+
+	[DAMAGE]
+	{
+		default = 900;
+                            dragon = 0.4;
+                monarch = 0.3;
+                fort = 1.4;
+                factory = 1.4;
+                god = 0.4;
+                airship = 0.5;
+                stalwart = 0.4;
+                Tier1 = 1.4;
+                mechanical = 1.5;
+                monster = 0.4;
+                human = 0.4;
+                undead = 0.4;
+                naval = 1.5;
+                siege = 1.5;                 
+	}
+}

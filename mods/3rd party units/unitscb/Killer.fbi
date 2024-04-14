@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 486;
+	buildtime = 89;
+	canattack = 1;
+	canbuild = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	corpse = Killer_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 30;
+	healtime = 0.445;
+	maneuverleashlength = 500;
+	maxdamage = 3514;
+	maxvelocity = 1;
+	movementclass = GROUND2;
+	name = Killer;
+	objectname = Killer;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 170;
+	soundcategory = Killer;
+	soundclass = Killer;
+	standingunitorder = 2;
+	stone = Killer_stone;
+	tedclass = Veruna;
+	turninplacerate = 2200;
+	turnrate = 2200;
+	unitname = Killer;
+	unitnumber = 190;
+	upright = 1;
+	version = 1.1;
+	watermultiplier = 0.81;
+	ai_Weight = weight KILLER 1.7;
+	ai_Limit = limit KILLER 4;
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 29;
+	edgeeffectiveness = 0.9;
+	name = My Axe Thingy;
+	range = 36;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 920;
+	}
+}

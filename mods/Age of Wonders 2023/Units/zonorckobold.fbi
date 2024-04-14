@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 630;
+	buildtime = 99;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorckobold_dead;
+	damagecategory = goblin;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 15;
+	healtime = 0.45;
+	maneuverleashlength = 500;
+	maxdamage = 2010;
+	maxvelocity = 2.625;
+	mogriumincome = -4;
+	movementclass = GROUND2;
+	name = Kobold;
+	objectname = ZONORCKOBOLD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ORCKOBOLD;
+	soundclass = ORCKOBOLD;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 2800;
+	turnrate = 2800;
+	unitname = ZONORCKOBOLD;
+	unitnumber = 42514;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Poisoned Blade;
+	range = 30;
+	reloadtime = 1.35;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1025;
+		spirit = 0.35;
+		firespirit = 0.35;
+		syron = 0.5;
+		goblin = 0.5;
+		undead = 0.5;
+		dwarf = 0.75;
+		mechanical = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

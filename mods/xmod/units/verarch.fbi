@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 300;
+	buildtime = 104;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verarch_dead;
+	damagecategory = Tier1;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 7;
+	frozen = verarch_frozen;
+	fireatwillrandom = 1;
+	healtime = 0.43333;
+	maneuverleashlength = 1500;
+	maxdamage = 1600;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Crossbowman;
+	objectname = VERARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 180;
+	soundcategory = VERARCH;
+	soundclass = VERARCH;
+	standingunitorder = 1;
+	stone = verarch_stone;
+	tedclass = Veruna;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = VERARCH;
+	unitnumber = 117;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Bolt;
+	range = 431;
+	reloadtime = 4.7;
+	soundhitclass = arrow;
+	type = Line Of Sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 655;
+
+	[DAMAGE]
+	{
+		//default = 293;
+		  default = 439; //+50%
+		fort = 0.15;
+		factory = 0.15;
+		stalwart = 0.15;
+		mechanical = 0.5;
+		naval = 0.15;
+	}
+}

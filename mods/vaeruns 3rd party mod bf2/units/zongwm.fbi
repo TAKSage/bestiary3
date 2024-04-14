@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 1.2;
+               // bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.05;
+	buildcost = 15000;
+	buildtime = 1500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;
+                cantbetransported = 1;
+                cantransport = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = zongwm_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 200;
+	fireatwillrandom = 1;
+               // floater = 0;
+                 frozen = zongwm_frozen;
+	healtime = 4.441;
+	maneuverleashlength = 500;
+	maxdamage = 30000;
+	maxvelocity = 4.6;
+	movementclass = GROUND5;
+	name = Great War Mogrophant;
+	objectname = ZONGWM;
+               // pitchscale = 1.5;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = ZONGWM;
+	soundclass = ZONGWM;
+	standingunitorder = 1;
+	stone = zongwm_stone;
+	tedclass = Zhon;
+                transportcapacity = 10;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 40;
+	turninplacerate = 750;
+	turnrate = 750;
+	unitname = ZONGWM;
+	unitnumber = 74623;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.65;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                buttonimagedisabled = default_disabled;
+	buttonimagedown = default_down;
+	buttonimageselected = default_selected;
+	buttonimageup = default_up;
+	model = Araarrow;
+	name = Archers;
+	range = 500;
+	reloadtime = 1.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}

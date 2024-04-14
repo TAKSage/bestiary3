@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 3800;
+	buildtime = 355;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	cruisealt = 100;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 44;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 2;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 200;
+	maneuverleashlength = 500;
+	maxdamage = 8500;
+	maxvelocity = 4.2;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Imperial Dragon;
+	objectname = ZONKYL;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = ZONDRAG;
+	soundclass = ZONDRAG;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 550;
+	turnrate = 500;
+	unitname = ZONKYL;
+	unitnumber = 2006;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1600;
+	areaofeffect = 60;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Lightning Ball;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 820;
+		monarch = 0.5;
+	}
+}

@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 125 125 125;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 999;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 99;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA BUILDER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = aramon;
+	experiencepoints = 30;
+	healtime = 1;
+	maxmana = 3000;
+	manarechargerate = 50;
+	maneuverleashlength = 500;
+	maxdamage = 2600;
+	maxvelocity = 1.2;
+	mogriumincome = 2;
+	mogriumstorage = 200;
+	movementclass = GROUND2;
+	name = Sapphire Mage;
+	objectname = aragesore;
+	roadmultiplier = 1.2;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 200;
+	soundcategory = aragesore;
+	soundclass = aragesore;
+	standingunitorder = 1;
+	stone = aragesore_stone;
+	tedclass = aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aragesore;
+	unitnumber = 1993;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	wind = 1;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezebeamPU;
+	buttonimagedown = FreezebeamPU;
+	buttonimageselected = FreezebeamSBh;
+	buttonimageup = FreezebeamSB;
+	lightmap = small;
+	name = Magic freeze;
+ 	manapershot = 1000;
+	noairweapon = 1;
+	range = 410;
+	reloadtime = 4;
+	soundhitclass = crefreeze;
+	type = Line of Sight;
+	subtype = turntofrozen;
+	weaponart = iceburst;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 16000;
+	areaofeffect = 20;
+	buttonimagedisabled = fireballGPU;
+	buttonimagedown = fireballGPU;
+	buttonimageselected = fireballGSBh;
+	buttonimageup = fireballGSB;
+	explosionclass = fireball explosion;
+	name = FireBlast;
+	nimbus = 1;
+	range = 1200;
+	reloadtime = 4;
+	soundhitclass = fire;
+	type = Guided;
+	weaponart = fireballB;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}

@@ -1,0 +1,186 @@
+[UNITINFO]
+{
+	acceleration = 1.0;
+        airtoairdistance = 100;
+        attackrunlength = 500;
+        bankscale = 3;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 2000;
+	buildtime = 200;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantransport = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = CRE FLY BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cresti_dead;
+	cruisealt = 200;
+	damagecategory = airship;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 25;
+	fireatwillrandom = 1;
+	frozen = cresti_frozen;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.51388889;
+	//hoverattack = 1;
+	//hoverattackaltitude = 200;
+	//hoverattackdistance = 200;
+	isairbase = 1;
+        //maneuverleashlength = 500;
+	maxdamage = 2500;
+              maxvelocity = 4;
+	maxwaterdepth = 0;
+              moverate1 = 1.0;//acceleration?
+              moverate2 = 4.5;//bankscale?
+	name = Creon Stinger;
+	objectname = CRESTI;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CRESTI;
+	soundclass = CRESTI;
+	standingunitorder = 2;
+	stone = cresti_stone;
+	tedclass = Creon;
+	transmaxunits = 1;
+	transportcapacity = 1;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	turnrate = 1000;
+	unitname = CRESTI;
+	unitnumber = 1251996;
+              upright = 1;
+	version = 1.1;
+	//weaponswitching = 1;
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	//dontleadtargets = 1;
+	areaofeffect = 50;
+	damagetype = explosion;
+        edgeeffectiveness = 0.5;
+	explosionclass = miniflame;
+        gravityadjustment = 1.5;
+        model = AirBolt;
+	name = SteamBolt;
+	range = 400;
+	reloadtime = 3;
+        soundwater = splash;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium explosion;
+	turnRate = 360;
+	toairweapon = 1;
+        smoketrail = 1;
+        smokedelay = 4.5;
+        weaponvelocity = 400;
+        startvelocity=50;
+	weaponacceleration=50;
+
+	[DAMAGE]
+	{
+             default = 200;
+             airship = 1.5;
+             dragon = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	//dontleadtargets = 1;
+	areaofeffect = 50;
+	damagetype = explosion;
+        edgeeffectiveness = 0.5;
+	explosionclass = miniflame;
+        gravityadjustment = 1.5;
+        model = AirBolt;
+	name = SteamBolt;
+	range = 400;
+	reloadtime = 3;
+        soundwater = splash;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium explosion;
+	turnRate = 360;
+	toairweapon = 1;
+        smoketrail = 1;
+        smokedelay = 4.5;
+        weaponvelocity = 400;
+        startvelocity=50;
+	weaponacceleration=50;
+
+	[DAMAGE]
+	{
+             default = 200;
+             airship = 1.5;
+             dragon = 1.5;
+	}
+}
+
+[WEAPON1]
+{
+         aimtolerance = 2000;
+         areaofeffect = 100;
+         burst = 2;
+         burstrate = 0.5;
+         damagetype = explosion;
+         //dontleadtargets = 1;
+         edgeeffectiveness = 1.0;
+         explosionclass = large explosion;
+         model = Bomb1;
+         name = Bomb;
+         noairweapon = 1;
+	 range = 150;
+	 reloadtime = 3;
+	 shadowart = weaponshad01;
+	 shadowgaf = shadows;
+	 soundhitclass = creballcan;
+         soundwater = splash;
+	 subtype = Dropped;
+	 type = Ballistic;
+	 waterexplosionclass = large water explosion;
+         weapontimer = 1.0;
+         weaponart = cannbmed;
+	 weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+	             default = 1000;
+                     monarch = 0.3;
+	}
+} 
+
+[EXPLODEAS]
+{
+	areaofeffect = 25;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = medium explosion;
+	name = Stinger Explosion;
+	range = 25;
+	reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 50;
+	}
+}

@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 271;
+	buildtime = 98;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahuman_dead;
+	defaultmissiontype = Standby;
+	description = ARA;
+	experiencepoints = 7;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 1731;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	name = Gondor Soldier;
+	objectname = aragonsol;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARASWORD;
+	soundclass = ARASWORD;
+	standingunitorder = 2;
+	stone = NPCLEIM_stone;
+	tedclass = ARA;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aragonsol;
+	unitnumber = 62240;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	name = Pike;
+	range = 30;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 375;
+		monster = 1.3;
+	}
+}

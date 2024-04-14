@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 125 125 125;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5000;
+	builddistance = 200;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON BUILDER MAGIC ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = zonsman_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 89;
+                frozen = zonsman_frozen;
+	healtime = 0.21;
+	maxmana = 1500;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2600;
+	maxvelocity = 1.2;
+	mogriumincome = 2;
+	mogriumstorage = 200;
+	movementclass = GROUND2;
+	name = Sandman;
+	objectname = ZONSMAN;
+	roadmultiplier = 1.2;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONSMAN;
+	soundclass = ZONSMAN;
+	standingunitorder = 1;
+	stone = zonsman_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONSMAN;
+	unitnumber = 199493;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	wind = 1;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 248 254 203;
+	name = Desert Lightning;
+	outercolor = 197 251 153;
+	range = 600;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                  waterexplosionclass = medium water explosion;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1031;
+                monarch = 0.01;
+	}
+}
+
+[WEAPON2]
+{
+                 aimtolerance = 33000;
+	areaofeffect = 200;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 3;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 500;
+	name = Fire Storm;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 447;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+                  waterexplosionclass = medium water explosion;
+	weaponart = fireballB;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+                areaofeffect = 300;
+                buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+                edgeeffectiveness = 0.5;
+                 explosionclass = megaflame;
+                 manapershot = 300;
+	name = Wrath of the Desert;
+	range = 300;
+	reloadtime = 3.5;
+                shakeduration = 1;
+	shakemagnitude = 3;
+	soundhitclass = fire;
+                subtype = Earthquake;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+                 weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 2754;
+		monarch = 0.01;
+		naval = 0.1;
+		mechanical = 0.75;
+	}
+}

@@ -1,0 +1,48 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 10000;
+	buildtime = 2000;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Ara;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Araverpill_dead;
+	damagecategory = lodestone;
+	description = Light;
+	experiencepoints = 100;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.525;
+	maxdamage = 1800;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Protection Shrine;
+	objectname = Araverpill;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 125;
+	soundcategory = Araverpill;
+	soundclass = Araverpill;
+	tedclass = Light;
+	totalallowed = 3;
+	unitname = Araverpill;
+	unitnumber = 97979745;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+
+	[AdjustArmor]
+	{
+		adjustment = 2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 750;
+	}
+}

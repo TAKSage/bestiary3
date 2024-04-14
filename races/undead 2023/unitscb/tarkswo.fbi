@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 7500;
+	buildtime = 1200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkswo_dead;
+	damagecategory = MONSTER;
+	defaultmissiontype = Standby;
+	description = taros;
+	experiencepoints = 35;
+	healtime = 0.4125;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 16002;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	movementclass = GROUND2;
+	name = Death Knight;
+	objectname = TARKSWO;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 135;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 2;
+	stone = tarkswo_stone;
+	tedclass = taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARKSWO;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	manapershot = 200;
+	model = zonrock.3do;
+	name = Rock;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 1.5;
+	soundhitclass = rock;
+	spinheading = 100;
+	spinpitch = 300;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 2000;
+	}
+}

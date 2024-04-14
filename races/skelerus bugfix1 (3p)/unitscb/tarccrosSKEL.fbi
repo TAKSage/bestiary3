@@ -1,0 +1,60 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 32000;
+	buildcost = 4000;
+	buildtime = 250;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarccrosSKEL_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 26;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 1;
+	maxdamage = 5000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Grave Cross;
+	objectname = tarccrosSKEL;
+	radardistance = 1000;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = tarccrosSKEL;
+	soundclass = tarccrosSKEL;
+	tedclass = Taros;
+	totalallowed = 10;
+	unitname = tarccrosSKEL;
+	unitnumber = 804;
+	version = 1.2;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = small explosion;
+	model = crsh.3do;
+	name = Soul;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	turnrate = 400;
+	type = Guided;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 150;
+
+	[DAMAGE]
+	{
+		default = 500;
+		dragon = 3;
+	}
+}

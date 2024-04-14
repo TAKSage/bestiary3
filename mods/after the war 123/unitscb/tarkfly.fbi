@@ -1,0 +1,176 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	animatetype = tarKfly;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 930;
+mogriumbounty = 46.5;
+builddistance = 50;
+	cananimate = 1;
+	buildtime = 150;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = undead;
+	defaultmissiontype = VTOL_standby;
+	description = taros;
+	experiencepoints = 3;
+	fireatwillrandom = 1;
+	//firestandorder = 0;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.680555556;
+	hoverattack = 1;
+	hoverattackaltitude = 1;
+	hoverattackdistance = 30;
+	maneuverleashlength = 500;
+	maxdamage = 100;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	moverate1 = 0;
+	moverate2 = 2;
+	name = Giant fly;
+	objectname = tarKfly;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = tar;
+	sightdistance = 100;
+	soundcategory = zonmana;
+	soundclass = zonmana;
+	standingunitorder = 2;
+	tedclass = taros;
+	turninplacerate = 1500;
+	turnrate = 1000;
+	unitname = tarKfly;
+	unitnumber = 164;
+	upright = 1;
+	version = 1;
+	workertime = 10;
+selfdestructcountdown = 0;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 999999;
+	edgeeffectiveness = 0.7;
+	name = bug bite;
+	range = 31;
+	reloadtime = 2;
+	soundhitclass = fist;
+	turnrate = 999;
+	type = Guided;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	//damagetype = explosion;
+	edgeeffectiveness = 0.95;
+	explosionclass = xlarge smoke explosion;
+	name = plague;
+	range = 31;
+	soundhitclass = rock;
+	type = Ballistic;
+	weaponvelocity = 500;
+	smoketrail = 1;
+	smokedelay = 4;
+
+	[DAMAGE]
+	{
+		default = 1150;
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		steelnaval = 0;
+		naval = 0;
+		unshielded = 1.5;
+		antikingunshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		shielded = 1.5;
+		hardscale = 1.5;
+		mini = 1.5;
+		giant = 1.5;
+		antikingmounted = 1.5;
+		mounted = 1.5;
+		mechanical = 0;
+		antikingmechanical = 0;
+		undead = 0;
+		giantundead = 0;
+		skeleton = 0;
+		kingkiller = 0;
+		lodestone = 0;
+		steel = 0;
+	}
+
+}
+
+[SELFDESTRUCTAS]
+{
+	areaofeffect = 200;
+	//damagetype = explosion;
+	edgeeffectiveness = 0.95;
+	explosionclass = xlarge smoke explosion;
+	name = plague;
+	range = 30;
+	soundhitclass = rock;
+	type = Ballistic;
+	weaponvelocity = 500;
+	smoketrail = 1;
+	smokedelay = 4;
+
+	[DAMAGE]
+	{
+		default = 1150;
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		steelnaval = 0;
+		naval = 0;
+		unshielded = 1.5;
+		antikingunshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		shielded = 1.5;
+		hardscale = 1.5;
+		mini = 1.5;
+		giant = 1.5;
+		antikingmounted = 1.5;
+		mounted = 1.5;
+		mechanical = 0;
+		antikingmechanical = 0;
+		undead = 0;
+		giantundead = 0;
+		skeleton = 0;
+		kingkiller = 0;
+		lodestone = 0;
+		steel = 0;
+	}
+
+}

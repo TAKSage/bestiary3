@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	name = Sacred Lodestone;
+	buildcost = 3500;
+	buildtime = 875;
+
+	healtime = 1.5;
+	maxdamage = 7500;
+
+	mogriumincome = 15;
+	mogriumstorage = 2500;
+
+	bodytype = stone;
+	cantbestoned = 1;
+	category = AZU;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	description = Azurians;
+	experiencepoints = 25;
+	footprintx = 3;
+	footprintz = 3;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	objectname = AzuDivlode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 325;
+	soundcategory = Azulode;
+	soundclass = Azulode;
+	tedclass = Azurians;
+	unitname = AzuDivlode;
+	unitnumber = 3325;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

@@ -1,0 +1,134 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 4900;
+	buildtime = 845;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//Copyright 1999 Phoenix Design Group. All rights reserved.
+	corpse = ARAAA_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 90;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = 1.483333333;
+	maxdamage = 9750;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Avalanche;
+	objectname = ARAAA;
+                radardistance = 800;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 450;
+	soundcategory = ARAAA;
+	soundclass = ARAAA;
+	stone = araaa_stone;
+	tedclass = Aramon;
+	unitname = ARAAA;
+	unitnumber = 8002;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 75;
+	damagetype = explosion;
+	edgeeffectivness = 0.5;
+	explosionclass = large explosion;
+	name = AA;
+	range = 800;
+	reloadtime = 2.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	toairweapon = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 1200;
+                dragon = 1.25;
+                monster = 1.25;
+                god = 0.5;
+                mechanical = 1.15;
+                airship = 1.25;
+                human = 1.25;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectivness = 0.5;
+	explosionclass = large explosion;
+	name = AA;
+	range = 800;
+	reloadtime = 2.1;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	toairweapon = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 1400;
+                airship = 1.25;
+                dragon = 1.25;
+                monster = 1.25;
+                god = 0.25;
+                mechanical = 1.25;
+                human = 1.25;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectivness = 0.5;
+	explosionclass = large explosion;
+	name = AA;
+	range = 800;
+	reloadtime = 2.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	toairweapon = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 1600;
+                airship = 1.25;
+                dragon = 1.15;
+                monster = 1.25;
+                god = 0.25;
+                mechanical = 1.15;
+                human = 1.15;
+	}
+}

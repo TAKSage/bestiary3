@@ -1,0 +1,93 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 350;
+	buildtime = 205;
+	canstop = 1;
+	cantbestoned = 1;
+	category = VER;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERAZGATEH; // It's supposed to just disappear
+	damagecategory = fort;
+	description = Veruna;
+	experiencepoints = 22;
+	footprintx = 11;
+	footprintz = 3;
+	gate = 1;
+	maxmana = 80;
+	onoffable = 1;
+	healtime = 0.36;
+	maxdamage = 13000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Horizontal Gate;
+	objectname = VERAZGATEH;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 300;
+	soundcategory = VERMANA;
+	soundclass = VERMANA;
+	tedclass = Veruna;
+	unitname = VERAZGATEH;
+	unitnumber = 3276;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = ooocccccooo ooocccccooo ooocccccooo;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	areaofeffect = 20;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Gate Snowballers 1;
+	range = 350;
+	reloadtime = 0.8;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 100;
+		monarch = 0.65;
+		fort = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	areaofeffect = 20;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Gate Snowballers 2;
+	range = 350;
+	reloadtime = 0.8;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 100;
+		monarch = 0.65;
+		fort = 0.75;
+	}
+}

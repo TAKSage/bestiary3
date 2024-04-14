@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	attackrunlength = 0;
+	bankscale = 1.75;
+	bloodcolor1 = 160 0 150;
+	bloodcolor2 = 170 40 120;
+	bloodcolor3 = 180 0 110;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 4506;
+	buildtime = 1070;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 40;
+	footprintx = 4;
+	footprintz = 4;
+                ghost = 1;
+	healtime = 4.14167;
+	hoverattack = 1;
+	hoverattackdistance = 170;
+	maneuverleashlength = 500;
+	maxdamage = 10279;
+	maxvelocity = 5.2;
+	name = Lightning Giant;
+	objectname = ZONSTORM;
+	pitchscale = 0.25;
+	radardistance = 550;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 280;
+	soundcategory = ZONSTORM;
+	soundclass = ZONSTORM;
+	standingunitorder = 2;
+	stone = zonstorm_stone;
+	tedclass = Zhon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZONSTORM;
+	unitnumber = 4849;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+                areaofeffect = 50;
+                 edgeeffectiveness = 0.5;
+	emittime = 55;
+	explosionclass = green_shockring;
+	hweffect = lightning;
+	innercolor = 0 255 128;
+	lightmap = medium;
+	middlecolor = 24 230 128;
+	name = Stormlightning;
+	outercolor = 48 200 128;
+	range = 730;
+	reloadtime = 2;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1200;
+                dragon = 1.5;
+                monarch = 0.25;
+	}
+}
+

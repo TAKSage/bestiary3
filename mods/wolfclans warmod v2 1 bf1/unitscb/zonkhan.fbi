@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 20153;
+	buildtime = 2505;
+	cancloak = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	category = ZON;
+	cloakcost = 50;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkhan_dead;
+	damagecategory = fort;
+	description = ZON;
+	experiencepoints = 100;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 2.666666667;
+	manarechargerate = 50;
+	maxdamage = 170;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 50;
+	mincloakdistance = 65;
+	mogriumincome = 22;
+	mogriumstorage = 5000;
+	name = Kandran Ruby;
+	objectname = ZONKHAN;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 500;
+	soundcategory = ZONKHAN;
+	soundclass = ZONKHAN;
+	tedclass = zon;
+	transportcapacity = 2; 
+	transportdistance = 2400;
+	transportsize = 16;
+	transportsizecapacity = 16;
+	totalallowed = 1;
+	unitname = ZONKHAN;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+	[AdjustAttack]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = .1;
+		radius = 2000;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 2.0;
+	explosionclass = xlarge smoke explosion;
+	name = explosion;
+	type = ballistic;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 8000;
+		monarch = 0.1;
+	}
+}

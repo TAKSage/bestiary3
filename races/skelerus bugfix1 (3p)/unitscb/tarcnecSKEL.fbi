@@ -1,0 +1,163 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 9000;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1100;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canhover = 0;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = TAR Magic Attack;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcnecSKEL_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 40;
+	healtime = 4;
+	manarechargerate = 15;
+	maneuverleashlength = 200;
+	maxdamage = 5000;
+	maxmana = 2000;
+	maxvelocity = 2.5;
+	mogriumincome = 1;
+	mogriumstorage = 10;
+	movementclass = HOVER2;
+	name = Skeleton Warlock;
+	objectname = tarcnecSKEL;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = tarcnecSKEL;
+	soundclass = tarcnecSKEL;
+	standingunitorder = 1;
+	stone = tarcnecSKEL_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 8;
+	unitname = tarcnecSKEL;
+	unitnumber = 850;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+	//workertime = 100;
+	//workertime = 20;
+
+	[AdjustJoy]
+	{
+		adjustment = 200;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 100;
+	}
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;
+	duration = 9;
+	manapershot = 100;
+	maxvariation = 5;
+	name = Spectral Wind;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 4;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = tornadoend;
+	wanderloopart = tornadoloop;
+	wanderstartart = tornadostart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 100;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 10;
+	explosionclass = bloodlarge;
+	manapershot = 300;
+        model = cow.3do;
+	name = Decay Spray;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 2.6;
+	soundhit = splat;
+        spinheading = 120;
+        spinpitch = -2000;
+	turnrate = 200;
+	type = ballistic;
+	weaponvelocity = 220;
+
+	[DAMAGE]
+	{
+		default = 1100;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	builduptime = 1;
+        buttonimagedisabled = CaptureAreaPU;
+        buttonimagedown = CaptureAreaPU;
+        buttonimageselected = CaptureAreaSBh;
+        buttonimageup = CaptureAreaSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 500;
+	name = Rip Mind;
+	nimbus = 1;
+	range = 450;
+	reloadtime = 3;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		airship = 0;
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

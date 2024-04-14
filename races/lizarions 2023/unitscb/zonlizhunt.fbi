@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 276;
+	buildtime = 125;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = zon MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = npchunt_dead;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 4;
+	healtime = 0.52083333;
+	maneuverleashlength = 500;
+	maxdamage = 1952;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	name = Lizarion Hunter;
+	noveteran = 1;
+	objectname = zonLIZHUNT;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = zon;
+	sightdistance = 200;
+	soundcategory = ZONTER;
+	soundclass = ZONTER;
+	standingunitorder = 2;
+	stone = npchunt_stone;
+	tedclass = Lizarions;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = zonLIZHUNT;
+	unitnumber = 62;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	edgeeffectiveness = 1;
+	name = Hoe;
+	range = 30;
+	reloadtime = 1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 160;
+	}
+}

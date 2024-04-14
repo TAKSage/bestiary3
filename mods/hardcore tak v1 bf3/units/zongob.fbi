@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 183; 320
+	buildcost = 288;
+//	original buildtime = 108; 70; Now original;
+	buildtime = 108;
+	canattack = 1;
+	canguard = 1;
+//	original no canhover
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	//original experiencepoints = 3;
+	experiencepoints = 30;
+	//original no floater
+	floater = 1;
+	frozen = zongob_frozen;
+	healtime = 0.325;
+	maneuverleashlength = 500;
+	//original maxdamage = 1211; 1332
+	maxdamage = 1332;
+	//original maxvelocity = 1.4; 2.7
+	maxvelocity = 4.2;
+	//original movementclass = GROUND2;
+	movementclass = HOVER2;
+	name = Goblin;
+	objectname = ZONGOB;
+	roadmultiplier = 1.21;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	//original sightdistance = 110;
+	sightdistance = 170;
+	soundcategory = ZONGOB;
+	soundclass = ZONGOB;
+	standingunitorder = 2;
+	stone = zongob_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONGOB;
+	unitnumber = 167;
+	upright = 1;
+	version = 1;
+	// default = 0.81;
+//	original no waterline
+	waterline = 10;
+	watermultiplier = 0.3;   //maxvelocity = 0.75
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Dead Guy Bone;
+	range = 50;
+	//reloadtime = 1.15;
+	reloadtime = 1;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 181;
+		naval = 2.0;
+		fort = 2.0;    //dmg = 362 (362/s)
+		fort2 = 6.0;   //dmg = 1086
+		factory = 3.0;
+		magic = 0.8;
+		monarch = 0.6;
+		support = 0.4;
+		siege = 3.0;   //dmg = 543
+		siege2 = 4.5;  //dmg = 815
+		stalwart = 0.6;
+		tier1 = 1.3;   //dmg = 235
+		archer = 2.6;  //dmg = 470 (470/s)
+		archer2 = 2.6;
+		lodestone = 1.5;
+	}
+}

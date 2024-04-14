@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 2000;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 35;
+	healtime = 0.571966;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 1.4;
+	movementclass = GROUND4;
+	name = Treant;
+	objectname = ZonTreant;
+	roadmultiplier = 1;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 133;
+	soundcategory = ZonTreant;
+	soundclass = ZonTreant;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 1500;
+	turnrate = 800;
+	unitname = ZonTreant;
+	unitnumber = 100790;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	edgeeffectiveness = 0.7;
+	name = Branch Swat;
+	range = 100;
+	reloadtime = 1.8;
+	type = Melee;
+	soundhitclass = hammer;
+	
+	[DAMAGE]
+	{
+		default = 1110;
+		factory = 1.5;
+		fort = 1.5;
+	}
+}

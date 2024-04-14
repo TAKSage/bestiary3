@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 310;
+	buildtime = 100;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 14;
+	fireatwillrandom = 1;
+	ghost = 1;
+	healtime = 1.4;
+	maneuverleashlength = 500;
+	maxdamage = 3100;
+	maxvelocity = 3.1;
+	movementclass = GROUND2;
+	name = Risen Wolf;
+	noshadow = 1;
+	objectname = ZONWOLF2;
+	roadmultiplier = 1.21;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = LIFWOLF;
+	soundclass = LIFWOLF;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = ZONWOLF2;
+	unitnumber = 190;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 1.0;
+	name = Bite;
+	noairweapon = 1;
+	range = 250;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 355;
+		undead = 2.0;
+	}
+}

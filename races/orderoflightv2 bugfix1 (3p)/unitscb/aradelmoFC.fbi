@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 20000;
+	buildtime = 2500;
+	builddistance = 300;
+	builder = 1;
+	builderlimited = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA Builder;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Light;
+	economybonus = 200;
+	healtime = 3;
+	manarechargerate = 35;
+	maneuverleashlength = 200;
+	maxdamage = 12000;
+	maxmana = 2000;
+	maxvelocity = 2.5;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND2;
+	name = Archmage;
+	noveteran = 1;
+	objectname = aradelmoFC;
+	roadmultiplier = 1.4;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = aradelmoFC;
+	soundclass = aradelmoFC;
+	standingunitorder = 2;
+	tedclass = Light;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 1;
+	unitname = aradelmoFC;
+	unitnumber = 97979714;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 3;
+
+
+	[AdjustJoy]
+	{
+		adjustment = 35;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.25;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 150;
+	name = Ball of Light;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 1.25;
+	soundhitclass = lightning;
+	turnrate = 100;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 800;
+		Conjured = 2;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 300;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = green_shockring;
+        manapershot = 200;
+	model = grenorb;
+	name = Petrify;
+        nimbus = 1;
+	noairweapon = 1;
+	range = 600;
+	reloadtime = 2;
+        smoketrail = 1;
+        smokedelay = .01;
+	soundhitclass = arrow;
+	subtype = turntostone;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+	type = Line of Sight;
+	
+        [DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 300;
+        buttonimagedisabled = thunderboltPU;
+	buttonimagedown = thunderboltPU;
+	buttonimageselected = thunderboltSBh;
+	buttonimageup = thunderboltSB;
+	duration = 4;
+ 	edgeeffectiveness = 1;
+	explosionclass = lightning explosion;
+	manapershot = 1200;
+	name = Energy Storm;
+	particlespersecond = 20;
+	range = 800;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = ltngball_2a;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 80;
+		Conjured = 2;
+	}
+}
+
+

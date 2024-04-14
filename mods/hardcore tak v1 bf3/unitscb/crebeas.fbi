@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	//original buildcost = 3520; Now (133%)
+	buildcost = 4682;
+	//original buildtime = 422; 211;
+	buildtime = 158;
+	canattack = 1;
+	//original no cantbetransported
+	cantbetransported = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREBEAS_dead;
+	//original damagecategory = monster;
+	damagecategory = siege2;
+	defaultmissiontype = Standby;
+	description = Creon;
+	//original no edgeff.
+	edgeeffectiveness = 0.75;
+	experiencepoints = 41;
+	frozen = crebeas_frozen;
+	healtime = 0.59583;
+	maneuverleashlength = 500;
+	maxdamage = 7300;
+	//original maxvelocity = 1.2; 0.9
+	maxvelocity = 0.75;
+	//original movementclass = GROUND3
+	movementclass = GROUND5;
+	name = Beast Rider;
+	objectname = CREBEAS;
+	pitchscale = 1.9;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	//original sightdistance = 190;
+	sightdistance = 240;
+	soundcategory = CREBEAS;
+	soundclass = CREBEAS;
+	standingunitorder = 2;
+	stone = CREBEAS_stone;
+	tedclass = Creon;
+	turnrate = 250;
+	unitname = CREBEAS;
+	unitnumber = 4;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = CannonPU;
+	buttonimagedown = CannonPU;
+	buttonimageselected = CannonSBh;
+	buttonimageup = CannonSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	//original explosionclass = large explosion;
+	explosionclass = teeny explosion;
+	//original no gravityadjustment
+	gravityadjustment = 5.6;
+	minrange = 90;
+	name = Cannon;
+	//original no noairweapon
+	noairweapon = 1;
+	//original range = 850; 730; 700
+	range = 650;
+	//original reloadtime = 3.5;
+	reloadtime = 5.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 615;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		//these are new;
+        	factory = 1.335;   // dmg =
+		fort = 1.2;        //
+		fort2 = 1.3;       // dmg = 
+		lodestone = 1.6;   
+		stalwart = 0.5; 
+		support = 0.4;   
+		siege = 0.4;       // dmg = 
+		siege2 = 0.5;      // dmg = 
+		god = 0.3;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Beast Claws;
+	range = 300;
+	reloadtime = 2.75;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 12500;
+		dragon = 0.08;
+		factory = 0.69;   //dmg = 8625
+		fort = 0.32;
+		fort2 = 0.69;
+		god = 0.08;
+		monarch = 0.08;
+		naval = 0.08;
+		monster = 0.32;
+		human = 0.08;
+		mechanical = 0.08;
+		siege = 0.16;
+		stalwart = 0.06; //dmg = 750
+		tier1 = 0.05;    //dmg = 625
+		airship = 0.08;
+		archer = 0.18;
+		fly = 0.08;
+		siege2 = 0.32;
+	}
+}

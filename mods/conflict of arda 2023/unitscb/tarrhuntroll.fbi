@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1850;
+	buildtime = 1025;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmorgulorc_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 21;
+	healtime = 0.895833333;
+	maneuverleashlength = 500;
+	maxdamage = 7800;
+	maxvelocity = 1.05;
+	movementclass = GROUND2;
+	name = Rhun Troll;
+	objectname = tarrhuntroll;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 190;
+	soundcategory = ZONORC;
+	soundclass = ZONORC;
+	standingunitorder = 2;
+	stone = arasmith_stone;
+	tedclass = Taros;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = tarrhuntroll;
+	unitnumber = 4;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Handweapons;
+	range = 55;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}

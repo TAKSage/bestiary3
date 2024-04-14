@@ -1,0 +1,166 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 31190;
+	buildtime = 5060;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+	cantbefrozen = 1;
+              // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 15;
+	experiencepoints = 310;
+	healtime = 44.33;
+                immunetofire = 1;
+                immunetoparalyzer = 1;
+	manarechargerate = 40;
+	maneuverleashlength = 500;
+	maxdamage = 20400;
+	maxmana = 2000;
+	maxvelocity = 2.2;
+	mogriumincome = 15;
+	mogriumstorage = 2500;
+	movementclass = GROUND2;
+	name = Lord of Fire;
+	noveteran = 1;
+	objectname = TARMAGI;
+	radardistance = 400;
+	roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 205;
+	soundcategory = TARMAGI;
+	soundclass = TARMAGI;
+	standingunitorder = 1;
+	tedclass = Taros;
+                totalallowed = 6;
+	turninplacerate = 2300;
+	turnrate = 2200;
+	unitname = TARMAGI;
+	unitnumber = 1001294;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+                damagetype = fire;
+	edgeeffectiveness = 0.5;
+	explosionclass = Volcblast;
+	firestarter = 1;
+                model = fireball;
+	//manapershot = 200;
+	name = Fire Comet;
+	nimbus = 1;
+	range = 430;
+	reloadtime = 1.5;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1920;
+	                monarch = 0.2;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 300;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+                damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	manapershot = 400;
+               // minrange = 100;
+               // model = fireball;
+	name = Feel the Heat;
+	nimbus = 1;
+	range = 680;
+	reloadtime = 1.5;
+	soundhitclass = fire;
+	//turnrate = 180;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+                weaponart = FireballB;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 5300;
+                                monarch = 0.1;
+                }
+                           
+}
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 800;
+	builduptime = 0.8;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	decaytime = 1.1;
+	edgeeffectiveness = 1;
+	manapershot = 1700;
+               // minrange = 100;
+	name = Melt;
+	nimbus = 1;
+	radiusart0 = fireballa;
+	radiusart1 = fireballb;
+	radiusart2 = megaflame;
+	range = 550;
+	reloadtime = 2.5;
+	ringcount = 4;
+	ringdelay = 0.5;
+	ringduration = 1.1;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 28;
+	type = Remote Effect;
+	//unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3600;
+                fort = 0.5;
+                stalwart = 0.5;
+               // tar = 0.1;
+                siege = 0.5;
+                monarch = 0.1;
+                factory = 0.5;
+	}
+}

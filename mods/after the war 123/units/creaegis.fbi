@@ -1,0 +1,174 @@
+[UNITINFO]
+{
+
+bodytype = armor;
+buildcost = 7135;
+//mogriumbounty = 713.5;
+buildtime = 770;
+canattack = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+immunetoparalyzer = 1;
+category = CRE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = antikingmechanical;
+defaultmissiontype = guard_nomove;
+description = Creon;
+experiencepoints = 61;
+footprintx = 5;
+footprintz = 5;
+healtime = 1.364583333;
+maxdamage = 15000;
+//maxmana = 1000;
+maxslope = 20;
+//manarechargerate = 10;
+maxwaterdepth = 0;
+name = aegis tower;
+objectname = creaegis;
+radardistance = 800;
+shadowgaf = shadows;
+shootme = 1;
+side = CRE;
+sightdistance = 550;
+	soundcategory = CREGATL;
+	soundclass = CREGATL;
+tedclass = Creon;
+unitname = creaegis;
+unitnumber = 41314;
+version = 1;
+weaponswitching = 1;
+yardmap = o;
+}
+
+[WEAPON1]
+{
+aimtolerance = 1024;
+areaofeffect = 50;
+//burst = 5;
+//burstrate = 0.2;
+	buttonimagedisabled = both_down;
+	buttonimagedown = both_down;
+	buttonimageselected = both_use;
+	buttonimageup = both_up;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = small explosion;
+gravityadjustment = 1.0;
+minrange = 100;
+//model = cregatl1;//Plasma2a;
+weaponart = cannbsm;
+name = universal mode;
+range = 625;
+reloadtime = 0.2;
+//soundhit = vulcanhit;
+tracks = 1;
+type = Ballistic;
+//unitsonly = 1;
+weapontimer = 0.05;
+waterexplosionclass = medium water explosion;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 150;//100;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.5;
+		//mechanical = 0.75;
+		//antikingmechanical = 0.75;
+		naval = 0.5;
+		shielded = 2;
+		steel = 0.75;
+		steelnaval = 0.75;
+}
+}
+
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 50;
+//burst = 5;
+//burstrate = 0.2;
+	buttonimagedisabled = AA_down;
+	buttonimagedown = AA_down;
+	buttonimageselected = AA_use;
+	buttonimageup = AA_up;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = small explosion;
+gravityadjustment = 1.0;
+minrange = 100;
+//model = cregatl1;//Plasma2a;
+weaponart = cannbsm;
+name = anti-air mode;
+range = 675;
+reloadtime = 0.2;
+//soundhit = vulcanhit;
+tracks = 1;
+type = Ballistic;
+toairweapon = 1;
+//unitsonly = 1;
+weapontimer = 0.05;
+waterexplosionclass = medium water explosion;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 150;//100;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.5;
+		//mechanical = 0.75;
+		//antikingmechanical = 0.75;
+		naval = 0.5;
+		shielded = 2;
+		steel = 0.75;
+		steelnaval = 0.75;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 1024;
+areaofeffect = 50;
+//burst = 5;
+//burstrate = 0.2;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = small explosion;
+gravityadjustment = 1.0;
+minrange = 100;
+//model = cregatl1;//Plasma2a;
+weaponart = cannbsm;
+name = FOR THE AI;
+range = 625;
+reloadtime = 0.2;
+//soundhit = vulcanhit;
+tracks = 1;
+type = Ballistic;
+//unitsonly = 1;
+weapontimer = 0.05;
+waterexplosionclass = medium water explosion;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 150;//100;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.5;
+		//mechanical = 0.75;
+		//antikingmechanical = 0.75;
+		naval = 0.5;
+		shielded = 2;
+		steel = 0.75;
+		steelnaval = 0.75;
+}
+}

@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+                amphibious = 1;
+	bankscale = 1.85;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.05;
+	buildcost = 1219;
+	buildtime = 326;
+	canattack = 1;
+	canguard = 1;
+                canfly = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantransport = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR ATTACK FLY MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                cruisealt = 400;
+	damagecategory = Siege;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 30;
+	floater = 0;
+              footprintx = 5;
+              footprintz = 8;
+	healtime = 0.135;
+	maneuverleashlength = 800;
+	maxdamage = 3000;
+	maxvelocity = 4;
+	name = Chaos Ark;
+	objectname = TARISHIP;
+	pitchscale = 1.45;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARSHIP;
+	soundclass = TARSHIP;
+	standingfireorder = 2;
+               standingmoveorder = 2;
+	standingunitorder = 2;
+	tedclass = Taros;
+              ThreeD = 1;
+              transmaxunits = 30;
+              transportcapacity = 30;
+	transportdistance = 550;
+	transportsize = 20;
+	transportsizecapacity = 600;
+	turnrate = 200;
+	unitname = TARISHIP;
+	unitnumber = 9129135;
+	version = 1;
+                 waterline = 1;
+                 wind = 1;
+                 ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+                damagetype = fire;
+	edgeeffectiveness = 0.25;
+	explosionclass = Large2a;
+	firestarter = 1;
+                gravityadjustment = 0.5;
+                model = Blue1D;
+	name = Fire Ball;
+                nimbus = 1;
+	range = 600;
+	reloadtime = 4.5;
+                smoketrail = 1;
+                smokedelay = 3.5;
+	soundhitclass = fire;
+                soundwater = splash;
+                spinheading = 4000;
+	turnrate = 360;
+                tracks = 1;
+                guidance = 1;
+	type = Ballistic;
+                waterexplosionclass = medium water explosion;
+	weaponart = ltngball_2a;
+	weaponvelocity = 350;
+           
+
+	[DAMAGE]
+	{
+		default = 580;
+                            dragon = 0.4;
+                            airship = 0.5;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.4;
+                            human = 1.4;
+                            monster = 1.4;
+                            undead = 0.3;
+                            siege = 1.4;
+                            fort = 0.4;
+                            factory = 0.4;
+                            naval = 1.4;
+                            Tier1 = 1.5;
+	}
+}

@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6000;
+	buildtime = 1100;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canresurrect = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	category = ARA BUILDER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahmnpriestL_dead;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 175;
+	healtime = 3;
+	manarechargerate = 35;
+	maneuverleashlength = 200;
+	maxdamage = 3000;
+	maxmana = 2000;
+	maxvelocity = 2.5;
+	mogriumincome = 0;
+	movementclass = GROUND2;
+	name = The Saint;
+	objectname = ARAHMNPRIESTL;
+	roadmultiplier = 1.4;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = ARAHMNPRIESTL;
+	soundclass = ARAHMNPRIESTL;
+	standingunitorder = 1;
+	tedclass = Light;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = ARAHMNPRIESTL;
+	unitnumber = 97979724;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 20;
+
+
+	[AdjustJoy]
+	{
+		adjustment = 75;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = Volcblast;
+	hweffect = yellow lightning;
+	innercolor = 248 247 104;
+	lightmap = medium;
+	middlecolor = 238 196 0;
+	name = Holy Bolt;
+	nimbus = 1;
+	outercolor = 250 165 0;
+	range = 600;
+	reloadtime = 1;
+	soundhit = AraLAngelAta1;
+	subtype = lightning;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monarch = 0.25;
+		god = 4;
+                Conjured = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+    aimtolerance = 1024;
+    areaofeffect = 400;
+    builduptime = .2;
+    buttonimagedisabled = ArrowParalyzePU;
+    buttonimagedown = ArrowParalyzePU;
+    buttonimageselected = ArrowParalyzeSBh;
+    buttonimageup = ArrowParalyzeSB;
+    damagetype = paralyzer;
+    decaytime = 5;
+	duration = 10;
+    edgeeffectiveness = .9;
+    manapershot = 300;
+    name = Hold;
+    nimbus = 1;
+    radiusart0 = ring_fx_redA;
+    radiusart1 = ring_fx_redB;
+    radiusart2 = ring_fx_redC;
+    range = 700;
+    reloadtime = 1;
+    ringcount = 7;
+    ringdelay = 0.3;
+    ringduration = 5;
+    showeffect = 0;
+    spritecount = 9;
+    soundhit = arrow08;
+    type = Remote Effect;
+	unitsonly = 1;
+    weaponvelocity = 600;
+	weaponswitching = 1;
+
+    [DAMAGE]
+    {
+		default = 100;
+		factory = 0;
+		fort = 0;
+		monarch = 0;
+    }
+}

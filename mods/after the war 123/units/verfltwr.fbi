@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 4096;
+	buildcost = 3610;
+//	mogriumbounty = 361;
+	buildtime = 375;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = VER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verfltwr_dead;
+	damagecategory = wood;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 35;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = .779166667;
+	maxdamage = 9150;
+	name = Floating Tower;
+	noshadow = 1;
+	objectname = VERFLTWR;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 600;
+	soundcategory = VERFLTWR;
+	soundclass = VERFLTWR;
+	tedclass = Veruna;
+	unitname = VERFLTWR;
+	unitnumber = 132;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+	yardmap = w;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	damagetype = explosion;
+	explosionclass = small explosion;
+	minrange = 150;
+	model = verhpoon;
+	name = Explosive-tipped Harpoon;
+	range = 500;
+	reloadtime = 2.8;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 350;
+	waterweapon = 1;
+
+	[DAMAGE]
+	{
+		default = 1350;
+		naval = 1.25;
+		//steelnaval = 0.75;
+		dragon = 2;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		steel = 0.75;
+		seamonster = 1.25;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;		
+	}
+}

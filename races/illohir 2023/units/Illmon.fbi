@@ -1,0 +1,256 @@
+[UNITINFO]
+{
+acceleration = 10;
+animatetype = ILLHAND;
+attractsgods = 1;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 10;
+buildcost = 387633;
+builddistance = 500;
+builder = 1;
+buildtime = 41456;
+cananimate = 1;
+canattack = 1;
+cancapture = 1;
+cancloak = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canreclaim = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL MONARCH;
+cloakcost = 21;
+cloakcostmoving = 32;
+commander = 1;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Monarch;
+damagemodifier = 0.25;//0.25;
+defaultmissiontype = Standby;
+description = Illohir;
+economybonus = 45;
+experiencepoints = 500;
+floater = 0;
+healtime = 127.76;
+hidedamage = 1;
+immunetoparalyzer = 1;
+manarechargerate = 22;
+maneuverleashlength = 400;
+maxdamage = 15000;
+maxmana = 1100;
+maxvelocity = 1.5;
+mincloakdistance = 75;
+mogriumincome = 11;
+mogriumstorage = 5150;
+mogriumbounty = 10000;
+movementclass = HOVER2;
+name = Anharat;
+noveteran = 1;
+objectname = ILLMON;
+radardistance = 600;
+roadmultiplier = 1.21;
+selfdestructas = ExplosionMon;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 250;
+soundcategory = TARANH;
+soundclass = TARANH;
+standingunitorder = 2;
+stealth = 1;
+tedclass = ILLohir;
+ThreeD = 1;
+transportedsize = 3;
+TotalAllowed = 1;
+turninplacerate = 2400;
+turnrate = 2400;
+unitname = ILLMON;
+unitnumber = 1000011;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.4;
+weaponswitching = 1;
+workertime = 11;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+aimtolerance = 1024;
+areaofeffect = 100;
+buttonimagedisabled = ThunderboltPU;
+buttonimagedown = ThunderboltPU;
+buttonimageselected = ThunderboltSBh;
+buttonimageup = ThunderboltSB;
+boltcount = 3;
+jagginess = 1;
+edgeeffectiveness = 0.5;
+explosionclass = Lightning explosion;
+emittime = 30;
+firestarter = 1;
+hweffect = lightning3;
+innercolor = 0 255 0;
+middlecolor = 255 255 255;
+outercolor = 255 0 0;
+lightmap = large;
+name = Soul Eraser;
+nimbus = 1;
+range = 425;
+reloadtime = 2.35;
+//showeffect = 1;
+soundwater = splash;
+soundhit = MonarchSoulSteal;
+subtype = lightning;
+type = Line of Sight;
+unitsonly = 1;
+weaponart = Tarosbuild;
+weaponvelocity = 1500;
+
+[DAMAGE]
+{
+default = 890;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 150;
+buttonimagedisabled = NecroPU;
+buttonimagedown = NecroPU;
+buttonimageselected = NecroSB;
+buttonimageup = NecroSBH;
+damagetype = explosion;
+edgeeffectiveness = 1;
+explosionclass = Large Explosion;
+firestarter = 1;
+gravityadjustment = 2.5;
+guidance = 1;
+manapershot = 325;
+model = Blue1A;
+name = Wrath of Anharat;
+nimbus = 1;
+range = 420;//450;
+reloadtime = 1.55;
+smoketrail = 1;
+smokedelay = 0.5;
+soundhit = Explode6;
+soundwater = splash;
+spinheading = 3000;
+tracks = 1;
+turnrate = 180;
+type = Guided;
+unitsonly = 1;
+weaponart = manabomb;
+waterexplosionclass = medium water explosion;
+weaponvelocity = 800;
+
+
+[DAMAGE]
+{
+default = 1350;
+dragon = 2.0;
+airship = 1.5;
+Tier1 = 1.5;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 500;
+builduptime = 0.55;
+buttonimagedisabled = CaptureAreaPU;
+buttonimagedown = CaptureAreaPU;
+buttonimageselected = CaptureAreaSBh;
+buttonimageup = CaptureAreaSB;
+decaytime = 0.5;
+edgeeffectiveness = 1;
+manapershot = 1100;
+name = Will of Anharat;
+nimbus = 1;
+radiusart0 = ltngball_2a;
+radiusart1 = ring_fx_blueb;
+radiusart2 = lodeexplode;
+range = 175;//150;
+reloadtime = 1.55;
+ringcount = 3;
+ringdelay = 0.35;
+ringduration = 1.4;
+showeffect = 0;
+soundhit = GravityWave1;//Explode6;
+spritecount = 50;
+subtype = MindControl;
+type = Remote Effect;
+unitsonly = 1;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 1;
+monarch = 0;
+lodestone = 0;
+god = 0;
+fort = 0;
+factory = 0;
+dragon = 0;
+
+}
+
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 500;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = MegaFlame;
+name = Explosion;
+soundhit = TARPDIE1;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 2500;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+lodestone = 2.0;
+
+}
+}
+[SELFDESTRUCTAS]
+{
+areaofeffect = 1000;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = MegaFlame;
+name = ExplosionMon;
+soundhit = TARPDIE1;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 4500;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+lodestone = 2.0;
+
+}
+}

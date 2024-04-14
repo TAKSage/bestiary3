@@ -1,0 +1,40 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 10000;
+	buildcost = 20000;
+	buildtime = 3000;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Ara MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraVERLIGHTR_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 32;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .5;
+	maxdamage = 1250;
+	maxslope = 20;
+	maxwaterdepth = 20;
+	name = Scrying Tower;
+	objectname = AraVERLIGHTR;
+	radardistance = 4000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 100;
+	soundcategory = AraVERLIGHTR;
+	soundclass = AraVERLIGHTR;
+	tedclass = Aramon;
+	totalallowed = 3;
+	unitname = AraVERLIGHTR;
+	unitnumber = 35;
+	version = 1;
+	yardmap = o;
+}

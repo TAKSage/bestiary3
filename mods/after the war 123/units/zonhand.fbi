@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1685;
+//	mogriumbounty = 337;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 455;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = giant;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 20;
+	frozen = zonhand_frozen;
+	healtime = 1.895833333;
+	maneuverleashlength = 500;
+	maxdamage = 3400;
+	maxvelocity = 1.2;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Beast Handler;
+	objectname = ZONHAND;
+	radardistance = 420;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 225;
+	soundcategory = ZONHAND;
+	soundclass = ZONHAND;
+	standingunitorder = 1;
+	stone = zonhand_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2450;
+	unitname = ZONHAND;
+	unitnumber = 169;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = whip_down;
+	buttonimagedown = whip_down;
+	buttonimageselected = whip_use;
+	buttonimageup = whip_up;
+	edgeeffectiveness = 0.7;
+	name = Whip;
+	range = 100;
+	reloadtime = 2;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.75;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+		steel = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = LightHouseStunPU;
+	buttonimagedown = LightHouseStunPU;
+	buttonimageselected = LightHouseStunSBh;
+	buttonimageup = LightHouseStunSB;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.7;
+	name = Whip strangle;
+	range = 95;
+	reloadtime = 2;
+	soundhitclass = staff;
+	type = Line of Sight;//Melee;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 50;
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+		steel = 0;
+		naval = 0;
+		steelnaval = 0;
+		god = 0;
+		monarch = 0;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	edgeeffectiveness = 0.7;
+	name = FOR THE AI;
+	range = 100;
+	reloadtime = 2;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.75;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+		steel = 0.5;
+	}
+}

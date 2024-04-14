@@ -1,0 +1,135 @@
+[UNITINFO]
+{
+	name = War Mammoth;
+	buildcost = 12000;
+	buildtime = 3000;
+
+	healtime = 1.0;
+	maxdamage = 28800;	
+
+	totalallowed = 5;
+
+	acceleration = 10;
+	bankscale = 1.3;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbetransported = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantransport = 1;
+	category = AZU MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Azumammoth_dead;
+	damagecategory = fort;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 220;
+	floater=0;
+	fireatwillrandom = 1; //So it fires randomly
+	maneuverleashlength = 500;
+	maxvelocity = 0.7;
+	//movementclass = GROUND4;
+	movementclass = 	HOVER6;
+	objectname = AZUMAMMOTH;
+	//pitchscale = 1.1;
+	roadmultiplier = 1.1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 650;
+	soundcategory = AZUMAMMOTH;
+	soundclass = AZUMAMMOTH;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turnrate = 150;
+	//turninplacerate = 150;
+	transportcapacity = 10;
+	transportdistance = 350;
+	transportsize = 16;
+	transportsizecapacity = 128;
+	unitname = AZUMAMMOTH;
+	unitnumber = 4;	
+	upright = 1;
+	version = 1;
+	waterline = 60;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 65;
+
+	buttonimagedisabled = MainHOPPU;
+	buttonimagedown = MainHOPPU;
+	buttonimageselected = MainHOPSBh;
+	buttonimageup = MainHOPSB;
+
+	damagetype = explosion;
+	edgeeffectiveness = 0.3;
+	explosionclass = blue_shockring;
+	nimbus=1;
+	minrange = 50;
+	lightmap = small;
+	name = Pandora's Touch;
+	range = 620;
+	reloadtime = 3.25;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2750;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.5;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 90;
+	buttonimagedisabled = TUSKPU;
+	buttonimagedown = TUSKPU;
+	buttonimageselected = TUSKSBh;
+	buttonimageup = TUSKSB;
+	edgeeffectiveness = 0.7;
+	name = Siege Tusks;
+	range = 300;
+	reloadtime = 2.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3325;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}

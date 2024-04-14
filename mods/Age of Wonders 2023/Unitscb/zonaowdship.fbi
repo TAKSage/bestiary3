@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 1900;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ZON BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowdship_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Ship;
+	experiencepoints = 35;
+	floater = 1;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 7200;
+	maxvelocity = 3;
+	movementclass = WATER4;
+	name = Dragon Ship;
+	objectname = ARAAOWDSHIP;
+	pitchscale = 1.5;
+	radardistance = 650;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 300;
+	soundcategory = ARAWAR;
+	soundclass = ARAWAR;
+	standingunitorder = 2;
+	tedclass = Ship;
+	transportcapacity = 6;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 128;
+	turnrate = 150;
+	unitname = ZONAOWDSHIP;
+	unitnumber = 45022;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = small dust puff;
+	model = smallbolt;
+	name = Ballista;
+	range = 600;
+	reloadtime = 2.4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 750;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.5;
+		factory = 0.5;
+		building = 0.5;
+		fort = 0.5;
+		mechanical = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = medium smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 611;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 170;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cantbecaptured = 1;
+	canstop = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradwarf2_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 5;
+	healtime = 0.583333333;
+	maneuverleashlength = 500;
+	maxdamage = 1803;
+	maxvelocity = 1.35;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Dwarven Builder;
+	objectname = araerebuilder;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = ARABUILD;
+	soundclass = ARABUILD;
+	standingunitorder = 1;
+	stone = arabuild_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = araerebuilder;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	wind = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Hammer;
+	range = 30;
+	reloadtime = 1.5;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 210;
+	}
+}

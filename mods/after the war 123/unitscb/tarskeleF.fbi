@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 10 10 50;
+	bloodcolor2 = 15 15 55;
+	bloodcolor3 = 20 20 60;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1400;
+mogriumbounty = 140;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarskelef_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 20;
+frozen = tarskelef_frozen;
+	healtime = 0.4375;
+	maneuverleashlength = 500;
+	maxdamage = 6050;
+	maxvelocity = 1.85;//2.48;
+	movementclass = GROUND2;
+	name = Skeleton fighter;
+	objectname = tarskelef;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 245;
+	soundcategory = tarskelef;
+	soundclass = tarskelef;
+	standingunitorder = 2;
+	stone = tarskelef_stone;
+	tedclass = Taros;
+	turninplacerate = 1800;
+	turnrate = 1700;
+	unitname = tarskelef;
+	unitnumber = 6809;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 29;
+	edgeeffectiveness = 0.7;
+	name = Giant Flail;
+	range = 50;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		shielded = 2;
+		skeleton = 1.5;
+		kingkiller = 1.5;
+		hardscale = 0.75;
+	}
+}

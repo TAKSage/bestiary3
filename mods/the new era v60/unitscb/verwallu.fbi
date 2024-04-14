@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 100;
+	buildtime = 50;
+	//canguard = 1;
+	//canmove = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	//canpatrol = 1;
+	//canstop = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERWALL;
+	description = Veruna;
+	experiencepoints = 1;
+	footprintx = 3;
+	footprintz = 3;
+	floater = 1;
+	healtime = 0.5;
+	//isfeature = 1;
+	maxdamage = 10000;
+	maxslope = 15;
+	name = Wall;
+	//noshadow = 1;
+	objectname = VERWALL;
+	shadowgaf = shadows;
+	//shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERWALL;
+	tedclass = Veruna;
+	unitname = VERWALLU;
+	unitnumber = 155;
+	unitstandorders = 0;
+	version = 1;
+	//waterline = 1;
+	wind = 1;
+	yardmap = o;
+}

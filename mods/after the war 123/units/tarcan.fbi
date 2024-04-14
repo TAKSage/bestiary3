@@ -1,0 +1,155 @@
+[UNITINFO]
+{
+	acceleration = 0.66;
+	bankscale = 2.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.33;
+	buildcost = 2900;
+//mogriumbounty = 290;
+	buildtime = 380;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = skeleton;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 28;
+	frozen = tarcan_frozen;
+	healtime = 1.426;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 1.25;
+	movementclass = HOVER2;
+	name = Rictus;
+	objectname = TARCAN;
+	pitchscale = 2.4;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARCAN;
+	soundclass = TARCAN;
+	standingunitorder = 1;
+	stone = tarcan_stone;
+	tedclass = Taros;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = TARCAN;
+	unitnumber = 91;
+	version = 1;
+	watermultiplier = 1.65;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fireball;
+	range = 500;
+	reloadtime = 2.20;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponart = FireballA;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 800;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	areaofeffect = 100;
+	buttonimagedisabled = AA_down;
+	buttonimagedown = AA_down;
+	buttonimageselected = AA_use;
+	buttonimageup = AA_up;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Anti air mode;
+	range = 500;
+	reloadtime = 1.10;
+	soundhitclass = fire;
+	toairweapon = 1;
+	type = ballistic;
+	weaponart = FireballA;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 500;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}
+
+
+[WEAPON3]
+{
+	aimtolerance = 2000;
+	areaofeffect = 100;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = FOR THE AI;
+	range = 500;
+	reloadtime = 2.20;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponart = FireballA;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 800;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}

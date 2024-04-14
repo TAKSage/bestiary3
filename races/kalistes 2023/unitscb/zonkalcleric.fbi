@@ -1,0 +1,166 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2800;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 800;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+	//cantbefrozen = 1;
+	//cantbestoned = 1;
+	category = ZON ATTACK BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkalcleric_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 19;
+	frozen = zonkalcleric_frozen;
+	//healtime = 5;
+	healtime = 3.333333333;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 1240;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	mogriumincome = 2;
+	mogriumstorage = 200;
+	movementclass = GROUND2;
+	name = Night Cleric;
+	objectname = ZONkalCLERIC;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 180;
+	soundcategory = zonkalCLERIC;
+	soundclass = zonkalCLERIC;
+	standingunitorder = 1;
+	stone = zonkalcleric_stone;
+	tedclass = Zhon;
+	totalallowed = 20;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONkalCLERIC;
+	unitnumber = 12008;
+	upright = 1;
+	version = 1;
+	//watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 100;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	//aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	edgeeffectiveness = 1;
+	//explosionclass = Water Splash;
+	//lightmap = large;
+	//manapershot = 5;
+	name = Morning Star;
+	//nimbus = 1;
+	range = 100;
+	reloadtime = 2.2;
+	soundhit = hammer;
+	type = melee;
+	//weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 375;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	damagetype = paralyzer;
+	edgeeffectiveness = 1;
+	explosionclass = green_shockring;
+	lightmap = large;
+	manapershot = 500;
+	name = Hold Person;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 5;
+	soundhit = arrow08;
+	type = line of sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 60;
+		lodestone = 0;
+		factory = 0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 425;
+	builduptime = 1;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Turn Undead;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 120;
+	reloadtime = 1.75;
+	ringcount = 6;
+	ringdelay = 0.12;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 40;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		undead = 10.0;
+	}
+}

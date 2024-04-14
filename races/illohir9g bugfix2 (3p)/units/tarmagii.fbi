@@ -1,0 +1,211 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 9345;
+	buildtime = 1721;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//canhover = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Stalwart;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 15;
+	experiencepoints = 120;
+                floater = 0;
+	healtime = 5.20;
+                immunetoparalyzer = 1;
+	manarechargerate = 60;
+	maneuverleashlength = 200;
+	maxdamage = 6400;
+	maxmana = 4500;
+	maxvelocity = 1.4;
+	mogriumincome = 1;
+	mogriumstorage = 250;
+	movementclass = GROUND2;
+	name = SpellBinder;
+	objectname = TARMAGII;
+	radardistance = 500;
+	roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 178;
+	soundcategory = TARMAGII;
+	soundclass = TARMAGII;
+	standingunitorder = 2;
+	tedclass = Taros;
+                ThreeD = 1;
+                totalallowed = 50;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMAGII;
+	unitnumber = 10011294;
+	upright = 1;
+	version = 1;
+                waterline = 4;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	emittime = 35;
+	firestarter = 1;
+	hweffect = fire;
+	name = Lightning Breath;
+	range = 400;
+	reloadtime = 3.5;
+                smoketrail = 1;
+                smokedelay = 6.5;
+	soundhitclass = creflame;
+	subtype = BlueFire;
+	type = Line of Sight;
+	weaponvelocity = 400;
+	[DAMAGE]
+	{
+	            default = 900;
+                            dragon = 0.5;
+                            god = 0.5;
+                            monarch = 0.5;
+                            stalwart = 0.4;
+                            fort = 0.4;
+                            factory = 1.4;
+                            Tier1 = 1.4;
+                            airship = 0.6;
+                            human = 1.4;
+                            monster = 0.4;
+                            undead = 1.4;
+                            siege = 0.4;
+                            mechanical = 0.5;
+                            naval = 0.4;
+	}
+}
+[WEAPON2]
+{ 
+                        
+                aimtolerance = 1024;
+	areaofeffect = 200;
+                buttonimagedisabled = skullPU;
+	buttonimagedown = skullPU;
+	buttonimageselected = skullSBh;
+	buttonimageup = skullSB;
+               damagetype = fire;
+               edgeeffectiveness = 0.5;
+	explosionclass = Large1a;
+                firestarter = 1;
+                gravityadjustment = 0.65;
+                guidance = 1;
+	manapershot = 500;
+                model = Blue1B;
+	name = Annihilator;
+	nimbus = 1;
+	range = 900;
+	reloadtime = 4.5;
+               smoketrail = 1;
+               smokedelay = 6.5;
+                soundhit = boom3;
+                soundwater = splash;
+                spinheading = 4500;
+                tracks = 1;
+	turnrate = 360;
+	type = Guided;
+                waterexplosionclass = large water explosion;
+                weaponart =  manabomb;
+	weaponvelocity = 600;
+
+
+	[DAMAGE]
+	{
+		default = 1110;
+                            dragon = 0.5;
+                            god = 0.5;
+                            monarch = 0.4;
+                            stalwart = 1.4;
+                            fort = 1.4;
+                            factory = 0.4;
+                            Tier1 = 0.4;
+                            airship = 0.6;
+                            human = 1.3;
+                            monster = 0.4;
+                            undead = 0.4;
+                            mechanical = 1.4;
+                            siege = 0.4;
+                            lodestone = 2.0;
+                            naval = 0.5;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+                damagetype = fire;
+	decaytime = 1.5;
+	edgeeffectiveness = 1;
+               firestarter = 1;
+	manapershot = 4400;
+	name = ChaosMelt;
+	nimbus = 1;
+	radiusart0 = ring_fx_greena;
+	radiusart1 = redburst3;
+	radiusart2 = dieselflame;
+	range = 500;
+	reloadtime = 6;
+	ringcount = 3;
+	ringdelay = 0.5;
+	ringduration = 1.5;
+                shakeduration = 1;
+	shakemagnitude = 1;
+	showeffect = 0;
+	soundhit = Thunder3;
+	spritecount = 145;
+                subtype = Earthquake;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 150;
+
+	[DAMAGE]
+	{
+		default = 3000;
+                            dragon = 0.4;
+                            god = 0.4;
+                            monarch = 0.2;
+                            stalwart = 0.4;
+                            fort = 1.4;
+                            factory = 0.4;
+                            Tier1 = 0.3;
+                            airship = 0.5;
+                            human = 0.4;
+                            monster = 1.3;
+                            undead = 1.3;
+                            mechanical = 1.4;
+                            siege = 0.4;
+                            naval = 0.4;
+                            
+	}
+}

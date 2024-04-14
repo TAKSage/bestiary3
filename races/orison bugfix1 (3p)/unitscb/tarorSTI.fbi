@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+      attackrunlength = 125;
+	bankscale = 4.5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 3750;
+	buildtime = 550;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 220;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 35;
+	fireatwillrandom = 1;
+     	floater = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5;
+	maneuverleashlength = 600;
+	maxdamage = 4900;
+	maxvelocity = 2.3;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Alien Stinger;
+	objectname = TARORSTI;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 450;
+	soundcategory = TARSHIP;
+	soundclass = TARSHIP;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 0;
+	turnrate = 225;
+	unitname = TARORSTI;
+	unitnumber = 31520;
+     	upright = 1;
+	version = 1;
+     	waterline = 32;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Lite Cannon;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 250;
+		monarch = 0.2;
+		airship = 0.4;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Lite Cannon;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 250;
+		monarch = 0.2;
+		airship = 0.4;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.2;
+	explosionclass = medium explosion;
+	name = Large Airship Explosion;
+	range = 500;
+	reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 450;
+		monarch = 0.1;
+		dragon = 0.1;
+		airship = 10.0;
+	}
+}

@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1744;
+	buildtime = 247;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 33;
+               frozen = cremdem_frozen;
+	healtime = 1.358333333;
+	maneuverleashlength = 300;
+	maxdamage = 12500;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	name = Cyborg Knight;
+	objectname = CREMDEM;
+	radardistance = 300;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 160;
+	soundcategory = CREAUTO;
+	soundclass = CREAUTO;
+	standingunitorder = 2;
+	stone = cremdem_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREMDEM;
+	unitnumber = 77;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 1;
+	explosionclass = blue_shockring;
+	firestarter = 1;
+	name = Hell Hammer;
+	range = 100;
+	reloadtime = 1.7;
+	soundhitclass = cannon;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 770;
+	}
+}

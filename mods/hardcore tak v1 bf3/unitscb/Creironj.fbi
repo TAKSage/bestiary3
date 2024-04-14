@@ -1,0 +1,135 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.2;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	//original buildcost = 22500;
+	buildcost = 16000;
+	//original buildtime = 8000; 1200;
+	buildtime = 2400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = siege2;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 66;
+	fireatwillrandom = 1;
+	//original healtime = 1; 11
+	healtime = 4.075;
+	maneuverleashlength = 500;
+	//original maxdamage = 12500; 28000;
+	maxdamage = 25000;
+	maxvelocity = 0.9;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND5;
+	//original no moverates
+	moverate1 = 1;
+	moverate2 = 2;
+	//originl name =Iron Juggernaut;
+	name = Juggernaut;
+	objectname = CREIRONJ;
+	pitchscale = 1.2;
+	//original no radardist.
+	radardistance = 900;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 175;
+	soundcategory = CREIRONJ;
+	soundclass = CREIRONJ;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turnrate = 250;
+	unitname = CREIRONJ;
+	unitnumber = 4230;
+	version = 1;
+	upright = 1;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 16;
+	watermultiplier = 0.35;
+	totalallowed = 4;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	//original areaofeffect = 50;
+	areaofeffect = 70;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	//original = teeny;
+	explosionclass = large explosion;
+	name = Cannonball;
+	noairweapon = 1;
+	minrange = 55;
+	//original range = 450; 650
+	range = 550;
+	reloadtime = 4.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 615;
+
+	[DAMAGE]
+	{
+		//original default = 1350; 2000;
+		default = 3000;
+		dragon = 0.5;     //dmg = 1500
+		fly = 0;	  //dmg = 0
+		airship = 0;	  //dmg = 0
+		fort = 0.5;	  //dmg = 1500
+		fort2 = 0.3;
+		factory = 0.3;    //dmg = 900
+		flygod = 0.2;     //dmg = 600
+		god = 0.15;	  //dmg = 450
+		lodestone = 0;
+		monarch = 0.15;
+		naval = 0.5;
+		siege = 0.5;	  //dmg = 1500
+		siege2 = 0.5;
+		stalwart = 0.6;
+		tier1 = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 6500;
+		monarch = 0.2;
+		//These are new
+		god = 0.3;
+		flygod = 0.3;
+		naval = 0.4;
+		stalwart = 0.1;
+	}
+}

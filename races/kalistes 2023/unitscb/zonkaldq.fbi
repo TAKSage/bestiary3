@@ -1,0 +1,175 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	animatetype = zonkalcleric;
+	//attackrunlength = 0;
+	//attractsgods = 1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 7500;
+	builddistance = 180;
+	builder = 1;
+	buildtime = 1150;
+	cananimate = 1;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbetransported = 1;
+	category = ZON Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = Human;
+	defaultmissiontype = VTOL_Standby;
+	description = Zhon;
+	experiencepoints = 150;
+	footprintx = 3;
+	footprintz = 3;
+	//healtime = 2.446;
+	healtime = 4.7916666667;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 13000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	name = Kalistes;
+	noveteran = 1;
+	objectname = ZONkalDQ;
+	pitchscale = 0.25;
+	radardistance = 650;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 275;
+	soundcategory = ZONHUNT;
+	soundclass = ZONHUNT;
+	standingunitorder = 1;
+	stone = ZONkalDQ_stone;
+	tedclass = Zhon;
+	totalallowed = 1;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZONkalDQ;
+	unitnumber = 12006;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 20;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 30;
+	explosionclass = Purpleburst2;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 210 120 235;
+	name = Shade Lightning;
+	//toairweapon = 1;
+	outercolor = 100 20 115;
+	range = 375;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 775;
+                //monarch = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 50;
+	buttonimagedisabled = LightningBallPU;
+	buttonimagedown = LightningBallPU;
+	buttonimageselected = LightningBallSBh;
+	buttonimageup = LightningBallSB;
+	explosionclass = blue_shockring;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 200;
+	name = Ball Lightning;
+	range = 600;
+	reloadtime = 2.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = lightning;
+	turnrate = 1800;
+	type = Guided;
+	weaponart = LtngBall_2a;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1950;
+                //monarch = 0.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	buttonimagedisabled = EarthquakePU;
+	buttonimagedown = EarthquakePU;
+	buttonimageselected = EarthquakeSBh;
+	buttonimageup = EarthquakeSB;
+	damagetype = paralyzer;
+	decaytime = 3;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Ensnare;
+	nimbus = 1;
+	radiusart0 = ring_fx_blueA;
+	radiusart1 = ring_fx_blueB;
+	radiusart2 = ring_fx_blueC;
+	range = 500;
+	reloadtime = 4.5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 35;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		lodestone = 0;
+		factory = 0;
+	}
+}
+

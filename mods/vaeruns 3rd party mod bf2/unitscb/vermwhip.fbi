@@ -1,0 +1,105 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 350;
+	buildtime = 105;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Vermwhip_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 15;
+	healtime = 0.77;
+	maxmana = 50;
+	manarechargerate = 1;
+	maneuverleashlength = 500;
+	maxdamage = 1400;
+	maxvelocity = 1.4;
+	movementclass = GROUND3;
+	name = Mind Whiper;
+	objectname = VERMWHIP;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 144;
+	soundcategory = VERMWHIP;
+	soundclass = VERMWHIP;
+	standingunitorder = 2;
+	stone = Vermwhip_stone;
+	tedclass = Veruna;
+	turnrate = 2000;
+	unitname = VERMWHIP;
+	unitnumber = 3207;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	buttonimagedisabled = NormalwhipPU;
+	buttonimagedown = NormalwhipPU;
+	buttonimageselected = NormalwhipBh;
+	buttonimageup = NormalwhipSB;
+	manapershot = 2;
+	nimbus = 1;
+	name = Normal Whip;
+	edgeeffectiveness = 0.5;
+	range = 100;
+	reloadtime = 0.9;
+                soundhit = whip1;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 165;
+		factory = 0.5;
+		fort = 0.55;
+		god = 0.2;
+		monarch = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = ParalyzewhipPU;
+	buttonimagedown = ParalyzewhipPU;
+	buttonimageselected = ParalyzewhipBh;
+	buttonimageup = ParalyzewhipSB;
+	manapershot = 10;
+	nimbus = 1;
+	damagetype = paralyzer;
+	name = Paralyze Whip;
+	edgeeffectiveness = 0.5;
+	range = 100;
+	reloadtime = 0.9;
+	soundhit = whip2;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 300;
+		factory = 0;
+                                lodestone = 0;
+		god = 0;
+		monarch = 0.25;
+	}
+}

@@ -1,0 +1,147 @@
+[UNITINFO]
+{
+	acceleration = 0.55;
+	attackrunlength = 400;
+	bankscale = 1.3;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.18;
+	buildcost = 16604;
+	buildtime = 2858;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	damagecategory = Human;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 320;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 6.35;
+	manarechargerate = 10;
+	maneuverleashlength = 8;
+	maxdamage = 4250;
+	maxmana = 1000;
+	maxvelocity = 4.3;
+	maxwaterdepth = 0;
+	name = Fallen Angel;
+	objectname = TARANG;
+	pitchscale = 1.3;
+	radardistance = 666;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARANG;
+	soundclass = TARANG;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 1200;
+	turnrate = 240;
+	unitname = TARANG;
+	unitnumber = 77;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 8000;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = Soul Stealer;
+	firestarter = 1;
+	name = Soul Stealer;
+	range = 140;
+	reloadtime = 4.0;
+	soundhitclass = arrow08;
+	turnrate = 600;
+	type = guided;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		mechanical = 0;
+		undead = 0;
+		airship = 0;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 32000;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 200;
+	name = Fire Bomb;
+	range = 600;
+	reloadtime = 2.0;
+	soundhitclass = fire;
+	turnrate = 150;
+	type = guided;
+	weaponart = FireballA;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 987;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 32000;
+	areaofeffect = 600;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	duration = 2.0;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 1000;
+	name = Wrath;
+	nimbus = 1;
+	particlespersecond = 8;
+	range = 100;
+	reloadtime = 5.0;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = meteor;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}

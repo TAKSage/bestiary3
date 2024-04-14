@@ -1,0 +1,171 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canresurrect = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 30;
+	healtime = 0.041666667;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Renagon;
+	noveteran = 1;
+	objectname = aradelmo;
+	radardistance = 650;
+	roadmultiplier = 1.12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 232;
+	soundcategory = aradelmo;
+	soundclass = aradelmo;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = aradelmo;
+	unitnumber = 66600;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = redLightningPU;
+	buttonimagedown = redLightningPU;
+	buttonimageselected = redLightningSBh;
+	buttonimageup = redLightningSB;
+	emittime = 10;
+	explosionclass = teeny explosion;
+	hweffect = red lightning;
+	innercolor = 255 255 255;
+	middlecolor = 170 40 0;
+	name = Soul Drain;
+	outercolor = 180 30 5;
+	range = 500;
+	reloadtime = 2;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 125;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	firestarter = 1;
+	manapershot = 200;
+	name = Blaze;
+	nimbus = 1;
+	range = 450;
+	reloadtime = 2;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 2500;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	explosionclass = megaflame;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Fire Tempest;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 1000;
+	reloadtime = 5;
+	ringcount = 10;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	firetstarter = 1;
+	soundhitclass = fire;
+	spritecount = 30;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 100;
+	explosionclass = megaflame;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	firestarter = 1;
+	name = Exploding Death;
+	range = 100;
+	lightmap = large;
+	reloadtime = 1;
+	type = Remote Effect;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 10;
+		monarch = 0.5;
+	}
+}

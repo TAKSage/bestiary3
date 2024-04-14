@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1244;
+	buildtime = 214;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+                cloakcost = 5;
+                cloakcostmoving = 10;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 23;
+                frozen = tarunc_frozen;
+	healtime = 0.858333333;
+                manarechargerate = 8;
+	maneuverleashlength = 300;
+	maxdamage = 5200;
+                maxmana = 500;
+	maxvelocity = 2.3;
+                mincloakdistance = 90;
+	movementclass = GROUND2;
+	name = Unholy Clan;
+	objectname = TARUNC;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 110;
+	soundcategory = TARUNC;
+	soundclass = TARUNC;
+	standingunitorder = 2;
+	stone = tarunc_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARUNC;
+	unitnumber = 123454321;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+	edgeeffectiveness = 1;
+	name = Lochabre Axe;
+	range = 90;
+	reloadtime = 1.833;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 431;
+		fort = 1.2;
+		Tier1 = 2.0;
+	}
+}

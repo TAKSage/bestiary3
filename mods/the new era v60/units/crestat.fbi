@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+activatewhenbuilt = 1;
+bodytype = stone;
+buildcost = 7000;
+buildtime = 700;
+canattack = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbetransported = 1;
+category = CRE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = crestat_dead;
+damagecategory = fort;
+defaultmissiontype = guard_nomove;
+description = Creon;
+experiencepoints = 65;
+	fireatwillrandom = 1;
+floater = 0;
+frozen = crestat_frozen;
+footprintx = 3;
+footprintz = 3;
+healtime = 1.3;
+maxdamage = 19189;
+maxslope = 25;
+maxwaterdepth = 5;
+name = Tower Guardian;
+objectname = CRESTAT;
+radardistance = 1000;
+shadowgaf = shadows;
+shootme = 0;
+side = CRE;
+sightdistance = 400;
+soundcategory = CRESTAT;
+soundclass = CRESTAT;
+stone = crestat_stone;
+tedclass = Creon;
+ThreeD = 1;
+unitname = CRESTAT;
+unitnumber = 100041;
+version = 1;
+yardmap = o;
+//waterline = 2;
+	weaponswitching = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 2;
+	buttonimagedisabled = WindWavePU;
+	buttonimagedown = WindWavePU;
+	buttonimageselected = WindWaveSBh;
+	buttonimageup = WindWaveSB;
+	damagetype = paralyzer;
+	decaytime = 2;
+	edgeeffectiveness = 1.0;
+	explosionclass = blue_shockring;
+	lightmap = large;
+	name = Shock Wave;
+        noairweapon = 1;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 450;
+	reloadtime = 10;
+	ringcount = 3;
+	ringdelay = 0.2;
+	ringduration = 2;
+	showeffect = 0;
+	soundhit = Tarspoutdie1;
+	soundwater = Tarspoutdie1;
+	spritecount = 8;
+	subtype = paralyzer;
+	type = Remote Effect;
+	unitsonly = 1;
+	waterexplosionclass = blue_shockring;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 150;
+		god = 0;
+		monarch = 0.3;
+		naval = 0.5;
+	}
+}
+
+
+

@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 1744;
+	buildcost = 3136; //2x crusader
+	//original buildtime = 247; 124
+	buildtime = 247;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = monster;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Creon;
+	//original experiencepoints = 23;
+	experiencepoints = 43;
+	healtime = 1;
+	maneuverleashlength = 300;
+	//original maxdamage = 8575;
+	maxdamage = 7163;
+	maxvelocity = 1.3;
+	movementclass = GROUND2;
+	//original name = Cyborg Knight
+	name = Gladiator;
+	objectname = CREMDEM;
+	radardistance = 300;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	//original sightdistance = 160; (now 60% more)
+	sightdistance = 300;
+	soundcategory = CREAUTO;
+	soundclass = CREAUTO;
+	standingunitorder = 2;
+	stone = tardemon_stone;
+	tedclass = Creon;
+	turninplacerate = 1800;
+	turnrate = 2000;
+	unitname = CREMDEM;
+	unitnumber = 77;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 45;
+	edgeeffectiveness = 0.85;
+	//orig = blue_shockring
+	explosionclass = red_shockring;
+	firestarter = 1;
+	name = Hell Hammer;
+	//original range = 100;
+	range = 60;
+	reloadtime = 1.5;
+	soundhitclass = cannon;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 13800;
+		dragon = 0.08;
+		factory = 0.275;   //dmg = 3575
+		fort = 0.104; 	   //dmg = 1352
+		fort2 = 0.186;	   //dmg = 2418
+		god = 0.08;
+		monarch = 0.08;    //dmg = 1040
+		naval = 0.08;
+		melee = 0.27;	   //dmg = 3510
+		siege = 0.22;	   //dmg = 2860
+		siege2 = 0.2;
+		stalwart = 0.168;  //dmg = 2323 (1549/s)
+		support = 0.37;	   //dmg = 5106 (1196/s)
+		tier1 = 0.29;      //dmg = 3770
+		airship = 0.08;
+		archer = 0.22;
+		archer2 = 0.22;
+		fly = 0.08;
+	}
+}

@@ -1,0 +1,170 @@
+[UNITINFO]
+{
+	name = Sorceror;
+	buildcost = 3000;
+	buildtime = 750;
+
+	healtime = 1.0;
+	maxdamage = 2200;
+	manarechargerate = 10;
+	maxmana = 1000;
+
+	mogriumincome = 0;
+	mogriumstorage = 300;
+
+	animatetype = AZUSNB;	
+	cananimate = 1;
+
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	builddistance = 75;
+	builder = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	category = AZU BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Azuazdur_dead;
+	stone = Azuazdur_stone;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 40;
+	maneuverleashlength = 500;
+	maxvelocity = 1.3;
+	movementclass = HOVER2;
+	objectname = AZUAZDUR;
+	radardistance = 550;
+	//shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 260;
+	soundcategory = AZUAZDUR;
+	soundclass = AZUAZDUR;
+	standingunitorder = 1;
+	tedclass = Azurians;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = AZUAZDUR;
+	unitnumber = 3201;
+	upright = 1;
+	version = 1;
+	waterline = 42;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 3; //3% regen
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 90;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	edgeeffectiveness = 0.25;
+	explosionclass = Water Splash;
+	lightmap = large;
+	name = Water Ball;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	type = line of sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 350;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 200;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.5;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 600;
+	name = Hail Shower;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 400;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 70;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot = 750;
+	name = Turn To Stone;
+	nimbus = 1;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 5;
+	soundhit = arrow08;
+	subtype = turntostone;
+	type = line of sight;
+	weaponart = fireballA;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

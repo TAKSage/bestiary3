@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4905;
+	buildtime = 1075;
+	canattack = 1;
+	canguard = 1;
+                 canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK MELEE BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonsea_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 45;
+                frozen = zonsea_frozen;
+                floater = 0;
+	healtime = 1.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 15690;
+	maxvelocity = 1.4;
+               // maxwaterdepth = 60;
+	movementclass = HOVER5;
+	name = Sea Giant;
+	objectname = ZONSEA;
+	radardistance = 388;
+	roadmultiplier = 1.1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 144;
+	soundcategory = ZONSEA;
+	soundclass = ZONSEA;
+	standingunitorder = 2;
+                stone = zonsea_stone;
+	tedclass = Zhon;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = ZONSEA;
+	unitnumber = 4765;
+	upright = 1;
+	version = 1;
+                waterline = 64;
+	watermultiplier = 1.5;
+               weaponswitching = 1;
+       
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 60;
+               buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.7;
+	name = Slap;
+                noairweapon = 1;
+	range = 144;
+	reloadtime = 1.7;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1250;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+                buttonimagedisabled = StoneGazePU;
+	buttonimagedown = StoneGazePU;
+	buttonimageselected = StoneGazeSBh;
+	buttonimageup = StoneGazeSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = xlarge smoke explosion;
+                minrange = 180;
+	model = ship.3do;
+	name = Flying Ship;
+	range = 900;
+	reloadtime = 3.0;
+	soundhit = wood1;
+                spinheading = 120;
+                spinpitch = -2000;
+	type = ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 2679;
+		dragon = 0.7;
+                monarch = 0.1;
+	}
+}
+

@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 4096;
+	builddistance = 100;
+	builder = 1;
+	buildcost = 13574;
+	buildtime = 1900;
+                  canattack = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canattack = 1;
+	cantbestoned = 1;
+                  cantransport = 1;
+	category = VER ATTACK FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verdyn_dead;
+	corpseadjustx = 1;
+	corpseadjustz = 6;
+	damagecategory = factory;
+	description = Veruna;
+	experiencepoints = 200;
+	footprintx = 12;
+	footprintz = 23;
+	healtime = 3.5;
+	maxdamage = 32000;
+	maxslope = 12;
+	maxwaterdepth = 0;
+	mogriumincome = 4;
+	mogriumstorage = 1000;
+	name = Paladin Dynastie;
+	objectname = VERDYN;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	totalallowed = 1;
+	sightdistance = 275;
+	soundcategory = VERDYN;
+	soundclass = VERDYN;
+	tedclass = Veruna;
+                  transportcapacity = 100;
+                  transportdistance = 250;
+                  transportsize = 48;
+                  transportsizecapacity = 384;
+	unitname = VERDYN;
+	unitnumber = 3215;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ............ ............ ............ ............ oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 350;
+	reloadtime = 1.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}

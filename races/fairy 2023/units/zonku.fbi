@@ -1,0 +1,108 @@
+[UNITINFO]
+{
+	acceleration = .5;
+	bloodcolor1 = 180 35 5;
+	bloodcolor2 = 190 40 10;
+	bloodcolor3 = 200 50 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .3;
+	buildcost = 360000;
+	buildtime = 36000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = god;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 1000;
+	healtime = 600;
+	maneuverleashlength = 2000;
+	maxdamage = 29999;
+	maxvelocity = 5;
+	movementclass = HOVER3;
+	name = Unicorn;
+	noveteran = 1;
+	objectname = ZONKU;
+	radardistance = 25000;
+	roadmultiplier = 1.0;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 2500;
+	soundcategory = ARAFLY;
+	soundclass = ARAFLY;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONKU;
+	unitnumber = 6000;
+	upright = 1;
+	version = 1;
+	waterline = 65;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 200;
+	duration = 3;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Sun Storm;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 447;
+	reloadtime = 2;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 500;
+	builduptime = 0.25;
+	decaytime = 1.5;
+	edgeeffectiveness = 1;
+	name = Buzz;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 900;
+	reloadtime = 2;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = LIGHTWOD;
+	spritecount = 25;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 16000;
+		monarch = 0.01;
+	}
+}

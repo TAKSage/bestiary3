@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1136;
+	buildtime = 159;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verknigh_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 23;
+	healtime = 0.6625;
+	maneuverleashlength = 325;
+	maxdamage = 2200;
+	maxvelocity = 2.7;
+	movementclass = GROUND3;
+	name = Amazon Knight;
+	objectname = VERKNIGH;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 185;
+	soundcategory = VERKNIGH;
+	soundclass = VERKNIGH;
+	standingunitorder = 2;
+	stone = verknigh_stone;
+	tedclass = Veruna;
+	turnrate = 1000;
+	unitname = VERKNIGH;
+	unitnumber = 137;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 120;
+	areaofeffect = 20;
+	explosionclass = small dust puff;
+	model = verspear;
+	name = Spear;
+	range = 320;
+	reloadtime = 1.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 520;
+
+	[DAMAGE]
+	{
+		default = 301;
+	}
+}

@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = 0.01;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.01;
+	buildcost = 10000;
+	buildtime = 1000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Tar ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREFIRE_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 55;
+	fireatwillrandom = 1;
+	frozen = Aracreeng_frozen;
+	healtime = 4;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 1.75;
+	movementclass = GROUND3;
+	name = Dragon Engine;
+	objectname = TarCREENG;
+	pitchscale = 1.5;
+	roadmultiplier = 2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 200;
+	soundcategory = AraCREENG;
+	soundclass = AraCREENG;
+	standingunitorder = 2;
+	stone = Aracreeng_stone;
+	tedclass = Siege;
+	totalallowed = 1;
+	turninplacerate = 100;
+	turnrate = 50;
+	unitname = TarCREENG;
+	unitnumber = 1212123;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Destruction Spray;
+	range = 200;
+	reloadtime = 5;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = .25;
+		fort = 3;
+		factory = 3;
+		lodestone = 3;
+		naval = 3;
+		siege = 3;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Destruction;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		monarch = .25;
+		fort = 3;
+		factory = 3;
+		lodestone = 3;
+		naval = 3;
+		siege = 3;
+	}
+}

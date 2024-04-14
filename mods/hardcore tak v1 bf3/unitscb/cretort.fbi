@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	//original buildcost = 999; Now (250%)
+	buildcost = 2500;
+	//original buildtime = 315; 158;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRETORT_dead;
+	//original damagecategory = mechanical;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 26;
+	fireatwillrandom = 1;
+	healtime = 1.05;
+	maneuverleashlength = 500;
+	//original maxdamage = 3203; 4260
+	maxdamage = 3560;
+	//original maxvelocity = 1.25;
+	maxvelocity = 1;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND3;
+	name = (M)Tortoise;
+	objectname = CRETORT;
+	pitchscale = 1.8;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 160;
+	soundcategory = CRETORT;
+	soundclass = CRETORT;
+	standingunitorder = 1;
+	tedclass = Creon;
+	//original no totalallowed;
+	totalallowed = 15;
+	turnrate = 400;
+	unitname = CRETORT;
+	unitnumber = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	//original no gravityadjustment
+	gravityadjustment = 5.6;
+	minrange = 65;
+	name = Cannonball;
+	noairweapon = 1;
+	//original range = 600; 500; 400
+	range = 350;
+	//original reloadtime = 4.0; 3
+	reloadtime = 3.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbmed;
+	//original weaponvelocity = 750;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		//original default = 432;
+		default = 1000;
+		//these are new
+		archer2 = 0.55;
+		siege = 0.5;
+		siege2 = 1.5;
+		tier1 = 1.5;
+		stalwart = 0.5;
+		support = 0.5;
+		monarch = 0.6;
+		fort2 = 0.75;
+	}
+}

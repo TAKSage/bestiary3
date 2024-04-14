@@ -1,0 +1,150 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 302;//311
+buildtime = 105;//115
+canattack = 1;
+cancloak = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+category = ILL BALLISTIC ATTACK;
+cloakcost = 4;
+cloakcostmoving = 11;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illiarch_dead;
+damagecategory = Human;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 12;
+frozen = Illiarch_frozen;
+floater = 0;
+healtime = 0.5208333;
+immunetoparalyzer = 1;
+init_cloaked = 1;
+manarechargerate = 5;
+maneuverleashlength = 500;
+maxdamage = 900;
+maxmana = 500;
+maxvelocity = 2.5;
+mincloakdistance = 90;
+movementclass = GROUND2;
+name = DrowArcher;
+objectname = IllIARCH;
+roadmultiplier = 1.5;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 235;
+soundcategory = TARIARCH;
+soundclass = TARIARCH;
+standingunitorder = 2;
+stealth = 1;
+stone = Illiarch_stone;
+tedclass = Illohir;
+turninplacerate = 2400;
+turnrate = 2400;
+unitname = Illiarch;
+unitnumber = 100027;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.8;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 1024;
+//areaofeffect = 25;
+buttonimagedisabled = ArrowStandardPU;
+buttonimagedown = ArrowStandardPU;
+buttonimageselected = ArrowStandardSBh;
+buttonimageup = ArrowStandardSB;
+damagetype = fire;
+edgeeffectiveness = 1.0;
+//endsmoke = 1;
+//explosiongaf = MINEBOOM;
+//explosionart = MINEBOOM;
+explosionclass = teeny explosion;
+firestarter = 1;
+gravityadjustment = 3.0;
+guidance = 1;
+model = arapoisonA;//FireTallon1;
+name = Chaos1Arrow;
+nimbus = 1;
+range = 480;
+reloadtime = 2.7;
+soundhitclass = fire;
+soundwater = splash;
+startsmoke = 1;
+tracks = 1;
+turnrate = 180;
+type = Ballistic;
+//unitsonly = 1;
+waterexplosionclass = small water explosion;
+weaponart = tarosbuild;
+weaponvelocity = 750;
+
+[DAMAGE]
+{
+default = 155;
+fort = 0.5;
+factory = 0.5;
+stalwart = 0.5;
+naval = 0.5;
+mechanical = 0.5;
+monarch = 0.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 25;
+buttonimagedisabled = ArrowStandardPU;
+buttonimagedown = ArrowStandardPU;
+buttonimageselected = ArrowStandardSBh;
+buttonimageup = ArrowStandardSB;
+damagetype = fire;
+edgeeffectiveness = 1.0;
+explosionclass = small explosion;
+firestarter = 1;
+gravityadjustment = 3.0;
+guidance = 1;
+model = arapoisonA;//FireTallon1;
+name = Chaos2Arrow;
+nimbus = 1;
+range = 480;
+reloadtime = 2.4;
+startsmoke = 1;
+soundhitclass = fire;
+soundwater = splash;
+tracks = 1;
+turnrate = 180;
+type = Guided;
+//unitsonly = 1;
+waterexplosionclass = small water explosion;
+weaponart = verunabuild;
+weaponvelocity = 800;
+
+[DAMAGE]
+{
+default = 300;
+fort = 0.5;
+factory = 0.5;
+stalwart = 0.5;
+naval = 0.5;
+mechanical = 0.5;
+monarch = 0.5;
+}
+}
+
+

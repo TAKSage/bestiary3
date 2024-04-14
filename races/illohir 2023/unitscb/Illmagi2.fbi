@@ -1,0 +1,168 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 10;
+buildcost = 2232;//744
+builddistance = 500;
+buildtime = 417;//139
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canreclaim = 1;
+canstop = 1;
+cantbefrozen = 1;
+category = ILL MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Human;
+damagemodifier = 0.09;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 65;
+//fireatwillrandom = 1;
+floater = 0;
+frozen = IllMage2_frozen;
+healtime = 0.8041666;
+manarechargerate = 35;
+maneuverleashlength = 750;
+maxdamage = 1700;//1600;
+maxmana = 1500;
+maxvelocity = 1.45;
+mogriumincome = -1;
+mogriumstorage = -250;
+mogriumbounty = 250;
+movementclass = GROUND3;
+name = ChaosEvoker;
+roadmultiplier = 1.55;
+objectname = ILLMAGI2;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 155;
+soundcategory = TARMAGE2;
+soundclass = TARMAGE2;
+standingunitorder = 2;
+stone = Illmage2_stone;
+tedclass = Illohir;
+transportedsize = 3;
+ThreeD = 1;
+turninplacerate = 2400;
+turnrate = 2000;
+unitname = ILLMAGI2;
+unitnumber = 100030;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.75;
+workertime = 255;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 1024;
+//accuracy = 512;
+areaofeffect = 25;
+boltcount = 3;
+damagetype = fire;
+emittime = 15;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+firestarter = 1;
+hweffect = lightning1;
+jagginess = 1;
+innercolor = 255 255 255;
+lightmap = small;
+middlecolor = 255 0 255;
+manapershot = 85;
+name = ThunderStrike;
+nimbus = 1;
+//noexplode = 1;
+//noautorange = 1;
+outercolor = 255 255 255;
+range = 330;
+reloadtime = 1.7;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = gzzap;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 1500;
+
+[DAMAGE]
+{
+default = 550;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+tier1 = 1.5;
+undead = 1.25;
+mechanical = 1.5;
+}
+}
+[WEAPON2]
+{
+aimtolerance = 1024;
+//accuracy = 512;
+areaofeffect = 100;
+buttonimagedisabled = redLightningPU;
+buttonimagedown = redLightningPU;
+buttonimageselected = redLightningSBh;
+buttonimageup = redLightningSB;
+boltcount = 3;
+damagetype = fire;
+emittime = 15;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+firestarter = 1;
+hweffect = lightning1A;
+jagginess = 1;
+innercolor = 255 255 255;
+lightmap = small;
+manapershot = 195;
+middlecolor = 255 0 255;
+name = DragonStrike;
+//noexplode = 1;
+//noautorange = 1;
+nimbus = 1;
+outercolor = 255 255 255;
+range = 330;
+reloadtime = 1.7;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = gzzap;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 1500;
+
+[DAMAGE]
+{
+default = 1000;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+Tier1 = 1.25;
+mechanical = 1.5;
+monster = 1.25;
+}
+}
+
+
+
+
+
+

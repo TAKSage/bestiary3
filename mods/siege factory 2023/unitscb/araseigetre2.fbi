@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bodytype = wood;
+	buildangle = 4096;
+	buildcost = 25000;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araseigetre2_dead;
+	damagecategory = Siege;
+	defaultmissiontype = guard_nomove;
+	description = Siege;
+	experiencepoints = 40;
+	footprintx = 7;
+	footprintz = 7;
+	healtime = 3;
+	maxdamage = 5000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Siege Trebuchet;
+	notargetcategory = FLY;
+	objectname = araseigetre2;
+	pitchscale = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = aratreL;
+	soundclass = aratreL;
+	standingunitorder = 1;
+	stone = araseigetre2_stone;
+	totalallowed = 1;
+	tedclass = Siege;
+	unitname = araseigetre2;
+	unitnumber = 12121214;
+	version = 1.1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 4.2;
+	minrange = 60;
+	name = Cannon;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 7;
+	shadowart = weaponshad02;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1150;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .25;
+		fort = 3;
+		factory = 3;
+		lodestone = 3;
+		naval = 3;
+	}
+}

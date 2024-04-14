@@ -1,0 +1,144 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3500;
+	builddistance = 200;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = Zon BUILDER Attack;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraCREMECH_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 14;
+	frozen = Aracremech_frozen;
+	healtime = 4;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND2;
+	name = Demolitionist;
+	objectname = ZonCREMECH;
+	roadmultiplier = 1.4;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 200;
+	soundcategory = AraCREMECH;
+	soundclass = AraCREMECH;
+	standingunitorder = 1;
+	stone = AraCREMECH_stone;
+	tedclass = Siege;
+	totalallowed = 3;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = ZonCREMECH;
+	unitnumber = 5;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = SawDown;
+	buttonimagedown = SawDown;
+	buttonimageselected = SawSelected;
+	buttonimageup = SawUp;
+	edgeeffectiveness = 0.2;
+	name = Buzz Saw;
+	range = 30;
+	reloadtime = 1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;	
+		monarch = .25;
+		fort = 3;
+		factory = 3;
+		lodestone = 3;
+		naval = 3;
+		siege = 3;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = IgniteDown;
+	buttonimagedown = IgniteDown;
+	buttonimageselected = IgniteSelected;
+	buttonimageup = IgniteUp;
+	explosionclass = teeny explosion;
+	manapershot = 175;
+	model = firebomb;
+	name = Torch;
+	nimbus = 1;
+	range = 150;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	firestarter = 1;
+	turnrate = 262;
+	type = Guided;
+	weaponart = treefire1;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 32;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .25;
+		fort = 3;
+		factory = 3;
+		lodestone = 3;
+		naval = 3;
+		siege = 3;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = SabotageDown;
+	buttonimagedown = SabotageDown;
+	buttonimageselected = SabotageSelected;
+	buttonimageup = SabotageUp;
+	edgeeffectiveness = 0.8;
+	manapershot = 200;
+	name = Sabotage Siege;
+	range = 30;
+	reloadtime = 0.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 100;	
+		monarch = .25;
+		siege = 1000;
+	}
+}

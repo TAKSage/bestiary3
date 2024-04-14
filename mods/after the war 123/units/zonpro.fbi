@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+                bloodcolor1 = 160 35 0;
+               bloodcolor2 = 170 45 0;
+              bloodcolor3 = 180 30 5;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.14;
+	buildcost = 4000;
+//	mogriumbounty = 400;
+	buildtime = 290;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+		cantbecaptured = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;	
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ZON ATTACK BOAT MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpro_dead;
+	damagecategory = seamonster;
+	defaultmissiontype = Standby;
+	description = Zhon;	
+	experiencepoints = 50;
+	floater = 1;
+	healtime = 3.616;
+	maxdamage = 15000;
+	maxvelocity = 4.3;
+                movementclass = WATER4;
+	name = Sea Guardian;
+                noshadow = 1;
+	objectname = ZONPRO;	
+	radardistance = 305;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 300;
+	soundcategory = ZONPRO;
+	soundclass = ZONPRO;
+	standingunitorder = 1;	
+	tedclass = Zhon;
+	turninplacerate = 380;
+	turnrate = 310;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 16;
+	unitname = ZONPRO;
+	unitnumber = 1650;
+	version = 1;
+	waterline = 1;
+        //maxwaterdepth = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = WaterBallGPU;
+	buttonimagedown = WaterBallGPU;
+	buttonimageselected = WaterBallGSBh;
+	buttonimageup = WaterBallGSB;
+                edgeeffectiveness = 0.25;
+	explosionclass = Water Splash;//WaterBallExp;
+	lightmap = small;
+	//manapershot = 200;
+	name = Water Burst;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	//turnrate = 180;
+	type = ballistic;
+                waterexplosionclass = medium water explosion;
+	model = waterball.3do;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 800;
+		flamedemon = 2;
+		antikingflamedemon= 2;
+		giantflamedemon = 2;
+		naval = 1.5;
+		steelnaval = 1.5;
+		seamonster = 0.75;
+	}
+}

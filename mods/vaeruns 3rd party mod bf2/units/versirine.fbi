@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1200;
+	buildtime = 400;
+	canattack = 1;
+                cancapture = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//Copyright 1999 Phoenix Design Group. All rights reserved.
+	corpse = verSirine_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 29;
+                floater = 0;
+                frozen = versirine_frozen;
+	healtime = 1.462;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxmana = 1000;
+	maxvelocity = 1.4;
+	movementclass = HOVER2;
+	name = Sirine;
+	objectname = VERSirine;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 188;
+	soundcategory = VERSirine;
+	soundclass = VERSirine;
+	standingunitorder = 1;
+	stone = verSirine_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERSirine;
+	unitnumber = 8001;
+	upright = 1;
+	version = 1;
+                waterline = 12;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 200;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 55;
+	}
+}

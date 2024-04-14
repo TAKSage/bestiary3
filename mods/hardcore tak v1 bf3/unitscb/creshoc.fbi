@@ -1,0 +1,123 @@
+maxvelocity = 1.1;[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 999; Now (133%)
+	buildcost = 1329;
+	//original buildtime = 170;
+	buildtime = 85;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = human;
+	damagecategory = archer2;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 23;
+	fireatwillrandom = 1;
+	frozen = creshoc_frozen;
+	healtime = 0.708333333;
+	maneuverleashlength = 500;
+	//original maxdamage = 2325;
+	maxdamage = 1836;
+	//original maxvelocity = 1.1;
+	maxvelocity = 1.5;
+	//original movementclass = GROUND2;
+	movementclass = GROUND2B;
+	name = Shock Trooper;
+	objectname = CRESHOC;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 250;
+	soundcategory = CRESHOC;
+	soundclass = CRESHOC;
+	standingunitorder = 1;
+	stone = CRESHOC_stone;
+	tedclass = Creon;
+	//original turnrates = 2500
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CRESHOC;
+	unitnumber = 3;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1000;
+	areaofeffect = 40;
+	edgeeffectiveness = 1;
+	emittime = 50;
+	hweffect = creon lightning;
+	innercolor = 255 255 255;
+	middlecolor = 230 230 255;
+	//original no minrange
+	minrange = 100;
+	outercolor = 200 200 255;
+	lightmap = medium;
+	name = Taser;
+	//original range = 400;
+	range = 360;
+	//original reloadtime = 2.8;
+	reloadtime = 3.5;
+	soundhitclass = cretaser;
+	subtype = lightning;
+	type = Line of Sight;
+	//weaponvelocity = 1700;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		//original default = 452; Now (115%)
+		default = 728;  //dmg = 208/s
+		airship = 1.15;
+		archer = 2;
+		archer2 = 1.2;  //dmg = 250/s
+		factory = 0;
+		fly = 1.3;
+		fort = 0;
+		god = 0.05;
+		lodestone = 0;
+		magic = 0.5;
+		monarch = 0.1;
+		siege = 0.75;
+		siege2 = 1.25;
+		stalwart = 0.7;
+		support = 0.6;
+		undead = 0.85;
+	}
+}
+
+[EXPLODEAS]
+{
+	//original areaofeffect = 189;
+	areaofeffect = 89;
+	damagetype = explosion;
+	edgeeffectiveness = 0.6;
+	explosionclass = lightning explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		//original default = 500;
+		default = 300;
+		monarch = 0.5;
+		stalwart = 0.15;
+	}
+}

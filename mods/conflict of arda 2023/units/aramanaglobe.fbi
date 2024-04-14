@@ -1,0 +1,53 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 650;
+	buildtime = 145;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 13;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 4.175;
+	maxdamage = 10225;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 15;
+	mogriumstorage = 1500;
+	name = Mana Globe;
+	objectname = aramanaglobe;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 125;
+	soundcategory = ARAMANA;
+	soundclass = ARAMANA;
+	tedclass = Aramon;
+	unitname = aramanaglobe;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 350;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = green_shockring;
+	name = Explosion;
+	soundhitclass = crelbeam;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}

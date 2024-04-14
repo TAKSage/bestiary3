@@ -1,0 +1,40 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 100;
+	buildtime = 50;
+	//canmove = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	//canpatrol = 1;
+	//canstop = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = ARAWALL;
+	description = Aramon;
+	experiencepoints = 1;
+	footprintx = 7;
+	footprintz = 14;
+	healtime = 0.5;
+	isfeature = 1;
+	maxdamage = 10000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Ranch;
+	//noshadow = 1;
+	objectname = ARARANCH;
+	shadowgaf = shadows;
+	//shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARAWALL;
+	soundclass = ARAWALL;
+	tedclass = Aramon;
+	unitname = ARARANCH;
+	unitnumber = 42;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o....o o....o o....o o....o o....o o....o o....o;
+}

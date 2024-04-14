@@ -1,0 +1,57 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 5000;
+	buildtime = 700;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arachurch_dead;
+	damagecategory = Fort;
+	description = Aramon;
+	experiencepoints = 120;
+	footprintx = 7;
+	footprintz = 14;
+	healtime = 3;
+	manarechargerate = 10;
+	maxdamage = 25000;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Church;
+	objectname = ARACHURCH;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = ARA;
+	sightdistance = 800;
+	soundcategory = ARACHURCH;
+	soundclass = ARACHURCH;
+	tedclass = Aramon;
+	transmaxunits = 15;
+	transportcapacity = 30;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 120;
+	totalallowed =  3;
+	unitname = ARACHURCH;
+	unitnumber = 7714;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+	yardmap = oooooo oooooo oooooo oooooo oooooo oooooo oooooo;
+
+	[AdjustJoy]
+	{
+		adjustment = 20;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 120;
+	}
+}
+

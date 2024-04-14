@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 4000;
+	buildtime = 500;
+	canattack = 1;
+	canstop = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araat_deadL;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Light;
+	experiencepoints = 25;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 2;
+	maxdamage = 10000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Archer Tower;
+	objectname = ARAATL;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = ARAATL;
+	soundclass = ARAATL;
+	tedclass = Light;
+	totalallowed = 10;
+	unitname = ARAATL;
+	unitnumber = 97979701;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerence = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 500;
+		Air = 3;
+		factory = 0;
+		fort = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 500;
+		Air = 3;
+		factory = 0;
+		fort = 0;
+	}
+}

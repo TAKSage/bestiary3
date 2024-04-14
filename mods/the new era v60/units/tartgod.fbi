@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 100000;
+	buildtime = 30000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	immunetoparalyzer = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 989;
+	fireatwillrandom = 1;
+	frozen = tartgod_frozen;
+	healtime = 600;
+	maneuverleashlength = 500;
+	maxdamage = 32000;
+	maxvelocity = 3;
+	movementclass = HOVER4;
+	name = Spawn of Belial;
+	noveteran = 1;
+	objectname = TARGOD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 1000;
+	soundcategory = TARGOD;
+	soundclass = TARGOD;
+	standingunitorder = 2;
+	stone = tartgod_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARTGOD;
+	unitnumber = 1000;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 1;
+	name = Claws of Belial;
+	range = 80;
+	reloadtime = 2.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 5500;
+		monarch = 0.05;
+		God = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	decaytime = 1;
+	duration = 9;
+	maxvariation = 5;
+	name = Fire Vortex;
+	nimbus = 1;
+	range = 700;
+	reloadtime = 2;
+	soundhit = FIREFLSH;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 2321;
+		monarch = 0.05;
+		God = 0.1;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 600;
+	damagetype = explosion;
+	edgeeffectiveness = 0.8;
+	explosionclass = megaflame;
+	name = Explosion;
+	soundhitclass = fire;
+        shakeduration = 3;
+        shakemagnitude = 700;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+	default = 10000;
+	monarch = 0.05;
+	God = 0.2;
+	}
+}

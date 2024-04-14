@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 16384;
+	buildcost = 4217;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 505;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabuilding2_dead;
+	corpseadjustz = 4;
+	damagecategory = factory;
+	description = Taros;
+	experiencepoints = 100;
+	footprintx = 5;
+	footprintz = 14;
+	healtime = 1.039583333;
+	maxdamage = 21516;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	name = Moria Lair;
+	objectname = tarmorialair;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = VERKEEP;
+	soundclass = VERKEEP;
+	tedclass = Taros;
+	totalallowed = 4;
+	unitname = tarmorialair;
+	unitnumber = 136;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ..... ..... ..... ..... ooooo ooooo ooooo ooooo ooooo ooooo ccccc ccccc ccccc ccccc;
+}

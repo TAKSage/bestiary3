@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2329;
+	buildtime = 265;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araelf2_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 2150;
+	maxvelocity = 1.55;
+	movementclass = GROUND2;
+	name = Elf Longbow;
+	objectname = aralongbow;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 750;
+	soundcategory = VERLIEGE;
+	soundclass = VERLIEGE;
+	standingunitorder = 1;
+	stone = arabow_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aralongbow;
+	unitnumber = 3;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	gravityadjustment = 4.25;
+	guided = 1;
+	model = araarrowD;
+	name = Fire Arrow;
+	nimbus = 1;
+	lobpreferred = 1;
+	range = 900;
+	reloadtime = 4.65;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 385;
+		factory = 2.5;
+		fort = 2.5;
+		tarwitchking  = 7.5;
+	}
+}

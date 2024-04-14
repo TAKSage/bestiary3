@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 151;
+	healtime = 0.15;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 18500;
+	maxmana = 1000;
+	maxvelocity = 1.9;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Saruman;
+	noveteran = 1;
+	objectname = tarsaruman;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 232;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = tarsaruman;
+	unitnumber = 15000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.25;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 1000;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 25;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	manapershot = 200;
+	middlecolor = 200 230 255;
+	name = Lightning Storm;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 2.9;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1250;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	areaofeffect = 35;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	model = araarrowI;
+	name = Staff Jab;
+	range = 400;
+	reloadtime = 2.9;
+	soundhitclass = hammer;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 850;
+	}
+}
+
+
+[WEAPON3]
+{
+	areaofeffect = 400;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.5;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 800;
+	name = Hail Shower;
+	nimbus = 1;
+	particlespersecond = 12;
+	range = 400;
+	reloadtime = 5;
+	soundhitclass = arrow;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 120;
+	}
+}

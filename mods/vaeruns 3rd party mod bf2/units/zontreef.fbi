@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 45;
+	healtime = 1.771;
+	maneuverleashlength = 750;
+	maxdamage = 5500;
+	maxvelocity = 1.35;
+	movementclass = GROUND3;
+	name = Weatherseed;
+	objectname = ZONTREEF;
+	roadmultiplier = 1.25;
+	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 110;
+	soundcategory = ZONTREEF;
+	soundclass = ZONTREEF;
+	standingunitorder = 2;
+	stone = zontreef_stone;
+	tedclass = Zhon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ZONTREEF;
+	unitnumber = 3491204;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.7;
+	name = Titan Punch;
+	range = 70;
+	reloadtime = 1.7;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 855;
+		monarch = 0.4;
+	}
+}

@@ -1,0 +1,155 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	attackrunlength = 125;
+	bankscale = 1.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.005;
+	buildcost = 12570;
+	buildtime = 2510;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+             //cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = CRE FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Creon;
+	experiencepoints = 140;
+	fireatwillrandom = 1;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = 9.71;
+	maneuverleashlength = 600;
+                manarechargerate = 20;
+	maxdamage = 14500;
+                maxmana = 1000;
+	maxvelocity = 2.5;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 2;
+	name = Storm Bringer;
+	objectname = CRESTO;
+	pitchscale = 1.1;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 245;
+	soundcategory = CRESTO;
+	soundclass = CRESTO;
+	standingunitorder = 2;
+	tedclass = Creon;
+	transmaxunits = 50;
+	transportcapacity = 50;
+	transportdistance = 250;
+	transportsize = 50;
+	transportsizecapacity = 250;
+	turnrate = 100;
+	unitname = CRESTO;
+	unitnumber = 1960;
+	version = 1;
+      //weaponswitching = 1;
+      
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 30;
+                 edgeeffectiveness = 0.5;
+	emittime = 30;
+                explosionclass = lightning explosion;
+	hweffect = lightning;
+	name = Lightning;
+                innercolor = 255 255 255;
+                middlecolor = 230 230 255;
+                outercolor = 200 200 255;
+	range = 400;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = line of sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 33000;
+	areaofeffect = 500;
+               builduptime = 0.5;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+               manapershot = 200;
+	name = Ball Lightning;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+               range = 400;
+	reloadtime = 3;
+	ringcount = 5;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = Lightning;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 777;
+
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	decaytime = 0.9;
+	edgeeffectiveness = 0.5;
+                manapershot = 200;
+	name = Gail force;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 400;
+	reloadtime = 3;
+	ringcount = 7;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 40;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 666;
+      }
+}
+
+

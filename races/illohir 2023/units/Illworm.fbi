@@ -1,0 +1,122 @@
+[UNITINFO]
+{
+acceleration = 1;
+bloodcolor1 = 50 130 50;
+bloodcolor2 = 40 140 40;
+bloodcolor3 = 30 150 30;
+bmcode = 1;
+bodytype = scale;
+brakerate = 5;
+buildcost = 3509;//1784
+buildtime = 577;//240
+canattack = 1;
+cancloak = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL MELEE ATTACK;
+cloakcost = 36;
+cloakcostmoving = 47;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Monster;
+damagemodifier = 0.35;//0.35;
+defaultmissiontype = Standby;
+description = ILLohir;
+digger = 1;
+experiencepoints = 76;
+floater = 0;
+frozen = zonamoe_frozen;
+healtime = 1.5;
+init_cloaked = 1;
+immunetoparalyzer = 1;
+manarechargerate = 40;
+maneuverleashlength = 500;
+maxdamage = 5900;
+maxmana = 3000;
+maxvelocity = 0.85;
+mincloakdistance = 100;
+movementclass = GROUND4;
+name = ChaosGravoid;
+noshadow = 1;
+objectname = ILLWORM;
+roadmultiplier = 0.9;
+shootme = 1;
+side = ILL;
+sightdistance = 155;
+soundcategory = TARWORM;
+soundclass = TARWORM;
+standingunitorder = 2;
+stealth = 1;
+stone = zonamoe_stone;
+tedclass = ILLohir;
+ThreeD = 1;
+transportedsize = 4;
+turninplacerate = 800;
+turnrate = 400;
+unitname = ILLWORM;
+unitnumber = 100048;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.9;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+areaofeffect = 50;
+edgeeffectiveness = 0.5;
+explosionclass = blood explosion;
+name = GravoidBite;
+noairweapon = 1;
+range = 100;//75;
+reloadtime = 2.5;
+soundhitclass = hammer;
+type = Melee;
+
+[DAMAGE]
+{
+default = 1000;
+lodestone = 1.5;
+fort = 1.5;
+factory = 1.5;
+Tier1 = 0.5;
+Stalwart = 0.5;
+human = 1.5;
+undead = 0.5;
+monarch = 0.5;
+god = 0.5;
+naval = 0;
+mechanical = 0.5;
+siege = 1.5;
+}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 150;
+damagetype = explosion;
+explosionclass = BloodLarge;
+edgeeffectiveness = 1;
+firestarter = 1;
+name = Worm Guts;
+type = Ballistic;
+waterexplosionclass = BloodLarge;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 300;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+factory = 0.5;
+fort = 0.5;
+stalwart = 0.5;
+}
+}
+

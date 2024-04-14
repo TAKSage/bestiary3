@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3850;
+	buildtime = 550;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorclord_dead;
+	damagecategory = orc;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 35;
+	healtime = 3;
+	maneuverleashlength = 500;
+	maxdamage = 32000;
+	maxvelocity = 1.01;
+	mogriumincome = -8;
+	movementclass = GROUND2;
+	name = Warlord;
+	objectname = ZONORCLORD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 360;
+	soundcategory = ORCLEAD;
+	soundclass = ORCLEAD;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = ZONORCLORD;
+	unitnumber = 42516;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 125;
+	edgeeffectiveness = 0.675;
+	name = Broadsword;
+	range = 60;
+	reloadtime = 2.05;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3680;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

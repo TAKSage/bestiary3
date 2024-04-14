@@ -1,0 +1,88 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bloodcolor1 = 125 125 125;
+	bloodcolor2 = 130 130 130;
+	bloodcolor3 = 110 110 110;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 0.15;
+	buildcost = 9441;
+	buildtime = 1022;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	movementclass = GROUND3;
+	defaultmissiontype = standby;
+	description = Aramon;
+	experiencepoints = 91;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.1;
+	maneuverleashlength = 500;
+	maxdamage = 16065;
+	maxvelocity = 1.25;
+	maxwaterdepth = 5;
+	name = Stone Golem;
+	objectname = aragolem;
+	radardistance = 850;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = aragolem;
+	soundclass = aragolem;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	turnrate = 500;
+	unitname = aragolem;
+	unitnumber = 3131;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 110;
+	edgeeffectiveness = 1;
+	name = Righteous Blade;
+	range = 100;
+	reloadtime = 2.7;
+	shakeduration = 1;
+	shakemagnitude = 1;
+	soundhit = bigsword;
+	subtype = earthquake;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1341;
+		tier1 = 1.5;
+		fort = 1.2;
+		factory = 1.2;
+	}
+}
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large smoke explosion;
+	name = Explosion;
+	type = Ballistic;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

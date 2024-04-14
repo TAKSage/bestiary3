@@ -1,0 +1,56 @@
+[UNITINFO]
+{
+
+bodytype = stone;
+buildangle = 5460;//8190;
+buildcost = 5687;
+builddistance = 200;
+builder = 1;
+buildtime = 1411;
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL FACTORY;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLtempl_dead;
+damagecategory = factory;
+description = ILLohir;
+//digger = 1;
+experiencepoints = 200;
+floater = 0;
+footprintx = 8;
+footprintz = 15;
+healtime = 2.93958333;
+immunetoparalyzer = 1;
+maxdamage = 23020;
+maxslope = 15;
+maxwaterdepth = 5;
+mogriumincome = 2;
+mogriumstorage = 100;
+name = Chaopolis;
+objectname = ILLTEMPL;
+radardistance = 300;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 250;
+soundcategory = TARTEMPL;
+soundclass = TARTEMPL;
+tedclass = ILLOHIR;
+ThreeD = 1;
+unitname = ILLTEMPL;
+unitnumber = 100015;
+unitstandorders = 0;
+version = 1;
+wind = 1;
+workertime = 9;
+waterline = 2;
+yardmap = oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooocc cccccccc cccccccc;
+ZBuffer = 1;
+
+}

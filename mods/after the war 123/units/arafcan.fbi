@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.2;
+	buildcost = 8000;
+//	mogriumbounty = 800;
+	buildtime = 840;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+cantbecaptured = 1;
+	category = ARA ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arafcan_dead;
+	damagecategory = steel;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 36;
+	healtime = 1.1875;
+	maneuverleashlength = 500;
+	maxdamage = 2800;
+	maxvelocity = 0.55;
+	movementclass = GROUND4;
+	name = flame Cannon;
+	notargetcategory = FLY;
+	objectname = ARAFCAN;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 230;
+	soundcategory = ARAFCAN;
+	soundclass = ARAFCAN;
+	standingunitorder = 2;
+	stone = arafcan_stone;
+	tedclass = Aramon;
+	turninplacerate = 300;
+	turnrate = 250;
+	unitname = ARAFCAN;
+	unitnumber = 1097;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 225;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = megaflame;
+	firestarter = 1;
+	gravityadjustment = 10;
+	lightmap = large;
+	lobpreferred = 1;
+	minrange = 200;
+	model = zonfrock;
+	name = Flame cannon ball;
+	noairweapon = 1;
+	range = 950;
+	reloadtime = 8;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	shakeduration = 1;
+	shakemagnitude = 2;
+	soundhit = ARAFCANHIT1;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1100;
+
+	[DAMAGE]
+	{
+		default = 2400;
+		factory = 1.25;
+		stone = 1.5;
+		wood = 1.5;
+		naval = 1.5;
+		steelnaval = 1.5;
+		flamedemon = 0.75;
+		antikingflamedemon = 0.75;
+		giantflamedemon = 0.75;
+		god = 0.5;
+		monarch = 0.5;
+		skeleton = 2;
+		kingkiller = 2;
+		steel = 1.25;
+	}
+}

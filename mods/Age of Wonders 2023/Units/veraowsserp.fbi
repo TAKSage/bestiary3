@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.05;
+	buildcost = 6800;
+	buildtime = 410;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER BOAT MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lizard;
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 55;
+	floater = 1;
+	healtime = 1.2;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 14000;
+	maxmana = 1000;
+	maxvelocity = 3.215;
+	movementclass = WATER4;
+	name = Sea Serpent;
+	objectname = ARAAOWSSERP;
+	pitchscale = 1.5;
+	radardistance = 1000;
+	shootme = 1;
+	side = VER;
+	sightdistance = 450;
+	soundcategory = ZONKRAK;
+	soundclass = ZONKRAK;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turnrate = 750;
+	turninplacerate = 1000;
+	unitname = VERAOWSSERP;
+	unitnumber = 42757;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = tsunamiexp;
+	manapershot = 260;
+	name = Water Ball;
+	range = 395;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	type = Ballistic;
+	weaponart = waterball;
+	weaponvelocity = 420;
+
+	[DAMAGE]
+	{
+		default = 1510;
+		spirit = 0.75;
+		firespirit = 2.5;
+		demon = 1.5;
+		lizard = 0.75;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	name = Bite;
+	range = 200;
+	reloadtime = 3.1;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3350;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		naval = 0.65;
+	}
+}

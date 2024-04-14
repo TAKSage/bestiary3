@@ -1,0 +1,159 @@
+[UNITINFO]
+{
+	attractsgods = 1; // Probably temporary
+
+	name = Lord Azdurain;
+	buildcost = 1000;
+	builddistance = 100;
+
+	healtime = 0.01;
+	maxdamage = 15700;
+	manarechargerate = 7;
+	maxmana = 1000;
+
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+
+	mincloakdistance = 40;
+	cloakcost = 30;
+	cloakcostmoving = 50;
+
+	animatetype = AZUSNB;	
+	cananimate = 1;
+
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = AZU Monarch;
+	commander = 1;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Azurian;
+	economybonus = 30;
+	experiencepoints = 151;
+	maneuverleashlength = 500;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	noveteran = 0;
+	objectname = AZULORD;
+	radardistance = 650;
+	roadmultiplier = 1.3;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 432;
+	soundcategory = TARNECRO;
+	soundclass = TARNECRO;
+	standingunitorder = 1;
+	tedclass = Azurian;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname =AZULORD;
+	unitnumber = 3250;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 3; //3% regen
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 90;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	nimbus=1;
+	edgeeffectiveness = 0.7;
+	explosionclass = WaterBallExp;
+	lightmap = small;
+	firestarter = 1;
+	name = Ice Missile;	
+	nimbus = 1;
+	model = Weap_MMissile;
+	range = 400;
+	reloadtime = 2.0;
+	soundhitclass = rock;
+	type = Ballistic;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1750;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 400;
+	builduptime = 1;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 550;
+	name = Area Mind Harness;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 120;
+	reloadtime = 5;
+	ringcount = 5;
+	ringdelay = 0.35;
+	ringduration = 0.8;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 40;
+	subtype = mindcontrol;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

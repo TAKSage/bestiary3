@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 750;
+	buildtime = 132;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verelfnymph_dead;
+	damagecategory = elf;
+	defaultmissiontype = Standby;
+	description = Elf;
+	experiencepoints = 10;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 1900;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	manarechargerate = 20;
+	mogriumincome = -5;
+	movementclass = GROUND2;
+	name = Nymph;
+	objectname = VERELFNYMPH;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 325;
+	soundcategory = ZONHARP;
+	soundclass = ZONHARP;
+	standingunitorder = 2;
+	tedclass = Elf;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERELFNYMPH;
+	unitnumber = 42544;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 20;
+	edgeeffectiveness = 0.5;
+	name = Fists;
+	range = 25;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+		spirit = 0.5;	
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 800;
+	name = Seduce;
+	noairweapon = 1;
+	range = 120;
+	reloadtime = 2.5;
+	soundhit = seduce;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		mechanical = 0;
+		naval = 0;	
+		spirit = 0;
+		firespirit = 0;
+		syron = 0;
+		demon = 0;
+		undead = 0;
+	}
+}

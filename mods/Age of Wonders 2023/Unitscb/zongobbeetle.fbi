@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 175 0;
+	bloodcolor2 = 10 140 70;
+	bloodcolor3 = 5 100 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 2200;
+	buildtime = 195;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cancloak = 1;
+	cloakcost = 10;
+	cloakcostmoving = 15;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zongobbeetle_dead;
+	damagecategory = goblin;
+	defaultmissiontype = Standby;
+	description = Goblin;
+	experiencepoints = 35;
+	healtime = 0.8;
+	maneuverleashlength = 500;
+	maxdamage = 10400;
+	maxvelocity = 2.525;
+	mogriumincome = -7;
+	maxmana = 1000;
+	manarechargerate = 10;
+	movementclass = GROUND3;
+	name = Big Beetle;
+	objectname = ZONGOBBEETLE;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 450;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	standingunitorder = 2;
+	tedclass = Goblin;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONGOBBEETLE;
+	unitnumber = 42547;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 35;
+	edgeeffectiveness = 0.6;
+	name = Poison Bite;
+	range = 300;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1775;	
+		spirit = 0.35;
+		firespirit = 0.35;
+		syron = 0.5;
+		goblin = 0.75;
+		dwarf = 0.75;
+		wyvern = 0.65;
+		undead = 0.65;
+		demon = 0.65;
+		dragon = 0.65;
+		spirit = 0.5;
+		city = 0.45;			// More effective vs structures (Wall Crushing)
+		factory = 0.45;
+		fort = 0.45;
+		building = 0.45;	
+		mechanical = 0.65;
+		naval = 0.65;
+	}
+}

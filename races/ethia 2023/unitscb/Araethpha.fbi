@@ -1,0 +1,156 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = arasnakew;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 500000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 100000;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 30;
+	experiencepoints = 350;
+	healtime = 232;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 16400;
+	maxmana = 1000;
+	maxvelocity = 2.4;
+	mogriumincome = 15;
+	mogriumstorage = 7500;
+	movementclass = GROUND2;
+	name = Pharaoh;
+	noveteran = 1;
+	objectname = ARAETHPHA;
+	radardistance = 650;
+	roadmultiplier = 1.31;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 464;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Ethia;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ARAETHPHA;
+	unitnumber = 800;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 50;//12;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FirebreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	name = Desert Breath;
+	range = 375;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	unitsonly = 1;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 820;
+		undead = 2.0;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 160;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	explosionclass = TsunamiExp;
+	manapershot = 400;
+	name = Tsunami;
+	nimbus = 1;
+	particlespersecond = 15;
+	range = 400;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = bigburst;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 200;
+		//monarch = 0.5;
+	}
+}
+
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Desert Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = FireballA;
+	range = 120;
+	reloadtime = 1.4;
+	ringcount = 6;
+	ringdelay = 0.18;
+	ringduration = 1.4;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 50;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		//monarch = 0.5;
+		fort = 0.5;
+		factory = 0.5;
+	}
+}

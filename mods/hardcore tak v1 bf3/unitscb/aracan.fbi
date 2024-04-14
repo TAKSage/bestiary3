@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.2;
+//	original buildcost = 2009; 2210; Now (150%)
+	buildcost = 3467;	//124% x VerMusk
+	//orig buildtime = 285; 143;
+	buildtime = 253;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//orig no cantbecaptured
+	cantbecaptured = 1;
+	//orig no cantbestoned
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aracan_dead;
+	//original damagecategory = siege;
+	damagecategory = siege2;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	edgeeffectiveness = 0.75;
+	experiencepoints = 32;
+	fireatwillrandom = 1;
+	healtime = 1.1875;
+	maneuverleashlength = 500;
+//	original maxdamage = 2600; Now (110%)
+	maxdamage = 2860;
+//	original maxvelocity = 0.55; now (115%)
+	maxvelocity = 0.63;
+	movementclass = GROUND5;
+	name = Cannoneer;
+	notargetcategory = FLY;
+	objectname = ARACAN;
+	pitchscale = 1.5;
+	roadmultiplier = 1.3;
+	shadowart = shadow09;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = ARACAN;
+	soundclass = ARACAN;
+	standingunitorder = 1;
+	stone = aracan_stone;
+	tedclass = Aramon;
+	turninplacerate = 450;
+	turnrate = 200;
+	unitname = ARACAN;
+	unitnumber = 6;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 48;
+	//original areaofeffect = 90;
+	areaofeffect = 40;
+	damagetype = explosion;
+	explosionclass = large explosion;
+	name = Cannon;
+	noairweapon = 1;
+	//original range = 800; 750; 700
+	range = 650;
+	//original reloadtime = 4.5;
+	reloadtime = 5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	//original weaponvelocity = 750;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		//original default = 2000
+		default = 1850;	 //dmg = 370/s
+		//original fort/factory = 1.25
+		fort2 = 0.6;     //dmg = 1110 (222/s)
+		fort = 1.2;      //dmg = 2220 (444/s)
+		factory = 1.2;
+		god = 0.2;
+		magic = 0;
+		monarch = 0.15;
+		lodestone = 0.3;
+		naval = 0.5;
+		stalwart = 0.7;
+		siege = 0.5;
+		siege2 = 0.65;
+		support = 0.72;	 //dmg = 1332 (266/s ex 370/s)
+		tier1 = 2;
+		undead = 1.5;
+	}
+}

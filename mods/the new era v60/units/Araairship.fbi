@@ -1,0 +1,133 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	bankscale = 0.3;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 3000;
+	buildtime = 500;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Araairship_dead;
+	cruisealt = 220;
+	damagecategory = airship;
+	defaultmissiontype = standby;
+	description = Aramon;
+	experiencepoints = 60;
+	fireatwillrandom = 1;
+	frozen = araairship_frozen;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = 0.5;
+	isairbase = 1; 
+	//maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 2;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Airship;
+	objectname = ARAAIRSHIP;
+	radardistance = 1000;
+	stone = araairship_stone;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARAAIRSHIP;
+	soundclass = ARAAIRSHIP;
+	standingunitorder = 1;
+	stone = araairship_stone;
+	tedclass = Aramon;
+	transmaxunits = 18;
+	transportcapacity = 18;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 72;
+	turninplacerate = 0;
+	turnrate = 225;
+	unitname = ARAAIRSHIP;
+	unitnumber = 3151;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Airship Musketeers;
+	firestarter = 1;
+	range = 500;
+	reloadtime = 3.1;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 400;
+		monarch = 0.2;
+		airship = 0.4;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Airship Musketeers;
+	firestarter = 1;
+	range = 550;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 400;
+		monarch = 0.5;
+		god = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = xlarge explosion;
+	name = Large Airship Explosion;
+	range = 500;
+	reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 250;
+		monarch = 0.1;
+		dragon = 0.1;
+		airship = 10.0;
+	}
+}

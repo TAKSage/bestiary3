@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 0.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.5;
+	buildcost = 29000;
+	buildtime = 2300;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+               // canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+             // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 188;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = 6.20;
+	hoverattack = 1;
+	hoverattackdistance = 250;
+                immunetoparalyzer = 1;
+	//manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 27800;
+	//maxmana = 1000;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	name = Red Dragon;
+	objectname = tarlcrd;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 245;
+	soundcategory = tarlcrd;
+	soundclass = tarlcrd;
+                stone = tarlcrd_stone;
+	standingunitorder = 2;
+	tedclass = Taros;
+                totalallowed = 15;
+	turninplacerate = 600;
+	turnrate = 300;
+	unitname = tarlcrd;
+	unitnumber = 1305;
+	upright = 1;
+	version = 1;
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 150;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Real fire;
+	range = 600;
+	reloadtime = 3.0;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 1600;
+                monarch = 0.15;
+                fort = 1.5;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+               areaofeffect = 150;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Real fire;
+	range = 600;
+	reloadtime = 3.0;
+	soundhitclass = fire;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 1850;
+                monarch = 0.15;
+                fort = 1.5;
+	}
+}

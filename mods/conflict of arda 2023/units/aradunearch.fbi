@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1275;
+	buildtime = 300;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	cloakcost = 11;
+	cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahuman2_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 17;
+	fireatwillrandom = 1;
+	healtime = 0.520833333;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1581;
+	maxmana = 1000;
+	maxvelocity = 1.73;
+	mincloakdistance = 70;
+	movementclass = GROUND2;
+	name = Dunedain Ranger;
+	objectname = aradunearch;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 450;
+	soundcategory = ARABOW;
+	soundclass = ARABOW;
+	standingunitorder = 1;
+	stone = arabow_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aradunearch;
+	unitnumber = 3;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Standard Arrow;
+	range = 580;
+	reloadtime = 3.1;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 180;
+		tarmordororc = 2.5;
+		tarudunorc = 2.5;
+		tarosgorc = 2.5;
+		tarangmarorc = 2.5;
+		tarmoriagolbin = 2.5;
+		tarmoriaarch = 2.5;
+		tarmoriaaxe = 2.5;
+		tarmoriakey = 2.5;
+		tarmoriasword = 2.5;
+		tarmorgulorc = 2.5;
+		tarmorgulspear = 2.5;
+		tareasternorc = 2.5;
+		tarnurnorc = 2.5;
+		tartrollchief = 3.5;
+		tartroll = 3.5;
+		tarmordortroll = 3.5;
+	}
+}

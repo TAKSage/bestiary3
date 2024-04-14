@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1200;
+	buildtime = 170;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarorgren_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 18;
+	healtime = 1.0375;
+	maneuverleashlength = 500;
+	maxdamage = 1550;
+	maxvelocity = 1.3;
+	movementclass = GROUND2;
+	name = Saboteur;
+	objectname = tarorgren;
+	roadmultiplier = 1.4;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = tarorgren;
+	soundclass = tarorgren;
+	standingunitorder = 2;
+	stone = tarorgren_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarorgren;
+	unitnumber = 312;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = GrenadeExplosivePU;
+	buttonimagedown = GrenadeExplosivePU;
+	buttonimageselected = GrenadeExplosiveSBh;
+	buttonimageup = GrenadeExplosiveSB;
+	damagetype = explosion;
+	explosionclass = small explosion;
+	gravityadjustment = 6.5;
+	lobpreferred = 1;
+	model = aragren1;
+	name = Explosive;
+	noairweapon = 1;
+	range = 515;
+	reloadtime = 4;
+	soundhitclass = cannon;
+	spinheading = -100;
+	spinpitch = 1000;
+	type = Ballistic;
+	vetmodel = aragren1_vet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}

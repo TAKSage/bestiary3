@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 155 75;
+	bloodcolor2 = 0 120 60;
+	bloodcolor3 = 0 100 25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 225;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canhover = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verlizlurk_dead;
+	damagecategory = lizard;
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 25;
+	healtime = 0.95;
+	maneuverleashlength = 500;
+	maxdamage = 13500;
+	maxvelocity = 3;
+	mogriumincome = -7;
+	movementclass = HOVER2;
+	name = Lurker;
+	objectname = VERLIZLURK;
+	roadmultiplier = 1.25;
+	shootme = 1;
+	side = VER;
+	sightdistance = 325;
+	soundcategory = LIZLURK;
+	soundclass = LIZLURK;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIZLURK;
+	unitnumber = 42687;
+	upright = 1;
+	version = 1;
+	waterline = 10;
+	watermultiplier = 1.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Poison Bite;
+	range = 80;
+	reloadtime = 2.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2042;
+		goblin = 0.75;
+		dwarf = 0.75;
+		demon = 0.75;
+		wyvern = 0.5;
+		spirit = 0.35;
+		firespirit = 0.35;
+		syron = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}

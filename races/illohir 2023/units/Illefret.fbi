@@ -1,0 +1,185 @@
+[UNITINFO]
+{
+acceleration = 0.05;
+bankscale = 0.1;
+pitchscale = 0.15;
+bloodcolor1 = 160 40 20;
+bloodcolor2 = 170 0 60;
+bloodcolor3 = 0 10 0;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 2.5;
+buildcost = 4322;//4938;//3951
+buildtime = 550;//656;//525
+canattack = 1;
+canfly = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbefrozen = 1;
+category = ILL BALLISTIC FLY ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 55;
+damagecategory = Siege;
+defaultmissiontype = VTOL_Standby;
+damagemodifier = 0.4;
+description = Illohir;
+experiencepoints = 150;
+fireatwillrandom = 1;
+//flamable=1; 
+//burnweapon = TreeBurn;
+footprintx = 3;
+footprintz = 3;
+floater = 0;
+frozen = Illefret_frozen;
+healtime = 3.4895833;
+hoverattack = 1;
+hoverattackdistance = 150;
+immunetoparalyzer = 1;
+manarechargerate = 45;
+maneuverleashlength = 300;
+maxdamage = 5483; //7310
+maxmana = 3500;
+maxvelocity = 0.7;
+maxwaterdepth = 0;
+mobilestandorders = 1;
+name = ChaosEfreet;
+objectname = ILLEFRET;
+radardistance = 1000;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 250;
+soundcategory = TAREFRET;
+soundclass = TAREFRET;
+standingunitorder = 2;
+stone = Illefret_stone;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 4;
+turninplacerate = 1600;
+turnrate = 800;
+unitname = ILLEFRET;
+unitnumber = 100023;
+upright = 1;
+version = 1;
+waterline = 0;
+watermultiplier = 1.0;
+weaponswitching = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 100;
+buttonimagedisabled = FireBreathPU;
+buttonimagedown = FireBreathPU;
+buttonimageselected = FireBreathSBh;
+buttonimageup = FireBreathSB;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = FireBall explosion;
+emittime = 45;
+firestarter = 1;
+hweffect = fire;
+manapershot = 125;
+name = EfreetBreath;
+range = 475;
+reloadtime = 3.75;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhitclass = creflame;
+subtype = fire;
+type = Line of Sight;
+weaponvelocity = 250;
+lightmap = small;
+nimbus = 1;
+//showeffect = 1;
+
+[DAMAGE]
+{
+default = 900;
+stalwart = 0.5;
+siege = 1.5;
+fort = 1.5;
+dragon = 0.5;
+god = 0.5;
+undead = 1.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 2048;
+areaofeffect = 100;
+buttonimagedisabled = skullPU;
+buttonimagedown = skullPU;
+buttonimageselected = skullSBh;
+buttonimageup = skullSB;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = Bigburst;
+//explosiongaf=MINEBOOM;
+//explosionart=MINEBOOM;
+firestarter = 1;
+gravityadjustment = 0.75;
+guidance = 1;
+manapershot = 800;
+model = skull;
+name = BasaltBomb;
+nimbus = 1;
+range = 1250;
+reloadtime = 4.5;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = fireball;//boom3;
+spinheading = -4500;
+soundwater = splash;
+tracks = 1;
+turnrate = 180;
+type = Ballistic;
+//unitsonly = 1;
+waterexplosionclass = large water explosion;
+weaponart = fireballb;
+weaponvelocity = 350;
+
+[DAMAGE]
+{
+default = 1155;
+monarch = 0.5;
+dragon = 0.5;
+god = 0.5;
+stalwart = 0.5;
+undead = 1.5;
+fort = 1.5;
+}
+}
+
+
+[EXPLODEAS]
+{
+areaofeffect = 100;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = megaflame;
+name = Efreet Banished;
+shakeduration = 1;
+shakemagnitude = 2;
+soundhit = TARSHIPDIE1;
+type = Ballistic;
+waterexplosionclass = megaflame;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 250;
+monarch = 0.5;
+}
+}
+
+

@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+bodytype = stone;
+buildcost = 3399;
+buildtime = 555;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL;
+cantbefrozen = 1;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = lodestone;
+description = Illohir;
+experiencepoints = 30;
+floater = 0;
+footprintx = 2;
+footprintz = 2;
+healtime = 3.196969;
+immunetoparalyzer = 1;
+maxdamage = 15092;
+maxslope = 30;
+maxwaterdepth = 0;
+mogriumincome = 22;//22;
+mogriumstorage = 2150;//2150;
+name = ChaosMana;
+objectname = Illmana;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 125;
+soundcategory = tarilmana;
+soundclass = tarilmana;
+tedclass = Illohir;
+ThreeD = 1;
+unitname = Illmana;
+unitnumber = 100012;
+unitstandorders = 0;
+version = 1;
+wind = 1;
+waterline = 2;
+yardmap = S;
+ZBuffer = 1;
+}

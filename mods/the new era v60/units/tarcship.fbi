@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.35;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 3800;
+	buildtime = 350;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantransport = 1;
+	cantbeparalyzed = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcship_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 1.5;
+	isairbase = 1;
+	maneuverleashlength = 500;
+	maxdamage = 10000;
+	maxvelocity = 3.0;
+	movementclass = WATER3;
+	name = Cult of Lokken;
+	objectname = TARCSHIP;
+	pitchscale = 1.35;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARCSHIP;
+	soundclass = TARCSHIP;
+	standingunitorder = 1;
+	tedclass = Taros;
+	transportcapacity = 18;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 72;
+	turnrate = 500;
+	unitname = TARCSHIP;
+	unitnumber = 135;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1500;
+	areaofeffect = 110;
+	edgeeffectiveness = .25;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fire Ball;
+	range = 500;
+	reloadtime = 3.3;
+	soundhitclass = fire;
+	turnrate = 120;
+	type = Guided;
+	weaponart = FireballA;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1400;
+		factory = 2.0;
+		fort = 2.0;
+		lodestone = 2.0;
+		naval = 2.0;
+		air = .75;
+		airship = .75;
+		dragon = .75;
+	}
+}

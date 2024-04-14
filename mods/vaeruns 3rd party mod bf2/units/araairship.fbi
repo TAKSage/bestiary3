@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	bankscale = 0.3;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 2950;
+	buildtime = 465;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 220;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 35;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.57;
+	maneuverleashlength = 500;
+	maxdamage = 5900;
+	maxvelocity = 1.7;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Airship;
+	objectname = ARAAIRSHIP;
+	radardistance = 888;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARAAIRSHIP;
+	soundclass = ARAAIRSHIP;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	turninplacerate = 0;
+	turnrate = 225;
+	unitname = ARAAIRSHIP;
+	unitnumber = 3151;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+                areaofeffect = 20;
+                edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	name = Airship Musketeers;
+	range = 550;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 450;
+		monarch = 0.2;
+		airship = 0.7;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 640;
+               areaofeffect = 20;
+                edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	name = Airship Musketeers;
+	range = 550;
+	reloadtime = 3.1;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 550;
+		monarch = 0.2;
+		airship = 0.7;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 500;
+	damagetype = explosion;
+	edgeeffectiveness = 0.2;
+	explosionclass = medium explosion;
+	name = Large Airship Explosion;
+	//range = 500;
+	//reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 250;
+		monarch = 0.1;
+		dragon = 0.5;
+		airship = 10.0;
+	}
+}

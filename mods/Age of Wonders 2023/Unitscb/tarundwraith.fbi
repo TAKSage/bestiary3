@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = bone;
+	brakerate = 10;
+	buildcost = 1850;
+	buildtime = 210;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canhover = 1;
+	cancloak = 1;
+	cloakcost = 11;
+	cloakcostmoving = 5;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = spirit;
+	defaultmissiontype = Standby;
+	description = Undead;
+	experiencepoints = 35;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 11860;
+	maxvelocity = 1.1;
+	maxmana = 1000;
+	manarechargerate = 10;
+	mogriumincome = -7;
+	movementclass = HOVER2;
+	name = Wraith;
+	objectname = TARUNDWRAITH;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 325;
+	soundcategory = TARLICH;
+	soundclass = TARLICH;
+	standingunitorder = 2;
+	tedclass = Undead;
+	turninplacerate = 1600;
+	turnrate = 1600;
+	unitname = TARUNDWRAITH;
+	unitnumber = 42529;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 35;
+	explosionclass = small smoke explosion;
+	edgeeffectiveness = 0.7;
+	name = Death Strike;
+	range = 30;
+	reloadtime = 3.25;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2600;
+		syron = 0.5;
+		firespirit = 0.35;
+		spirit = 0.35;		
+		highman = 0.75;
+		undead = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}

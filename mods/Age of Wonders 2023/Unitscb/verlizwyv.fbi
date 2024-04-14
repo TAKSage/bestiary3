@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 0 175 75;
+	bloodcolor2 = 0 150 60;
+	bloodcolor3 = 0 125 25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 6000;
+	buildtime = 600;
+	canfly = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = wyvern;
+	defaultmissiontype = VTOL_standby;
+	description = Lizard;
+	experiencepoints = 40;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = 1;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 12900;
+	maxvelocity = 4;
+	maxwaterdepth = 0;
+	moverate1 = 5;
+	moverate2 = 10;
+	mogriumincome = -8;
+	name = Green Wyvern;
+	objectname = VERLIZWYV;
+	radardistance = 720;
+	shootme = 1;
+	side = VER;
+	sightdistance = 600;
+	soundcategory = LIZWYV;
+	soundclass = LIZWYV;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 630;
+	turnrate = 630;
+	unitname = VERLIZWYV;
+	unitnumber = 42589;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = green_shockring;
+	model = venomspit;
+	name = Venomous Spit;
+	range = 525;
+	reloadtime = 8;
+	soundhit = venomhit;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 2835;
+		spirit = 0.35;
+		firespirit = 0.35;	
+		syron = 0.25;
+		goblin = 0.75;
+		dwarf = 0.75;
+		undead = 0.25;
+		dragon = 0.5;
+		demon = 0.5;
+		wyvern = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		naval = 0.25;
+		mechanical = 0.25;
+	}
+}
+

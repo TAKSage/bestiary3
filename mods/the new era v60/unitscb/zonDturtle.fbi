@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 5;
+	buildcost = 3500;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+`	cantbefrozen = 1;
+	//floater = 1;
+	canhover = 1;
+	cantransport = 1;
+	cantbetransported = 1;
+	category = ZON BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonDturtle_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	footprintx = 8;
+	footprintz = 10;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	frozen = zondturtle_frozen;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 9500;
+	maxvelocity = 2;
+	movementclass = Hover5;
+	name = Dragon Turtle;
+	nochasecategory = FLY;
+	objectname = zonDturtle;
+	radardistance = 500;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = zonDturtle;
+	soundclass = zonDturtle;
+	standingunitorder = 1;
+	stone = zondturtle_stone;
+	tedclass = Zhon;
+	transmaxunits = 18;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 64;
+	turnrate = 400;
+	turninplacerate = 400;
+	unitname = zonDturtle;
+	unitnumber = 100814;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.5;
+	wpri_badtargetcategory = FLY;
+	maxwaterdepth = 1;
+	waterline = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	explosionclass = WaterBallExp;
+	//damagetype = paralyzer;
+	name = Water Burst;
+	range = 600;
+	reloadtime = 3;
+	soundhit = arrow08;
+	spinheading = 150;
+	spinpitch = -3000;
+	turnrate = 180;
+	type = ballistic;
+	model = pulsering;
+	weaponvelocity = 500;
+	waterexplosionclass = medium water explosion;
+	
+	[DAMAGE]
+	{
+		default = 910;
+		monarch = .3;
+	}
+}

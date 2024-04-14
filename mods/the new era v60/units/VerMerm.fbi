@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+    canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERMERM_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 15;
+	floater = 0;
+    frozen = vermerm_frozen;
+	healtime = 0.0625;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	maxvelocity = 1.5;
+	movementclass = HOVER2;
+	name = Mermaid;
+	objectname = VERMERM;
+	roadmultiplier = 0.9;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERMERM;
+	soundclass = VERMERM;
+	standingunitorder = 2;
+	stone = vermerm_stone;
+	tedclass = Veruna;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = VERMERM;
+	unitnumber = 443;
+	upright = 1;
+	version = 1;
+	waterline = 10;
+	watermultiplier = 1.4;
+}
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+    edgeeffectiveness = 0.25;
+	explosionclass = Medium water explosion;//WaterBallExp;
+	gravityadjustment = 0.5;
+	lightmap = small;
+	name = Water Burst;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 3.5;
+	soundhit = arrow08;//splash;
+	turnrate = 180;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 490;
+        stalwart = 0.5;
+        monarch = 0.5;
+        naval = 1.25;
+        god = 0.5;
+	}
+}

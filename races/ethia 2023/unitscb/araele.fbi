@@ -1,0 +1,131 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 4751;
+	buildtime = 879;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araele_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 75;
+	fireatwillrandom = 1;
+    frozen = verele_frozen;
+	healtime = 1.125833333;
+	maneuverleashlength = 500;
+	maxdamage = 11812;
+	maxvelocity = 2.85;
+	movementclass = GROUND4;
+	name = Ethian Elephant;
+	objectname = ARAELE;
+    radardistance = 500;
+	//shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 266;
+	soundcategory = araELE;
+	soundclass = araELE;
+	standingunitorder = 1;
+	standingfireorder = 2;
+	stone = araele_stone;
+	tedclass = Ethia;
+	turninplacerate = 500;
+	turnrate = 400;
+	unitname = ARAELE;
+	unitnumber = 4073;
+	upright = 1;
+	version = 1;
+	//watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+    areaofeffect = 30;
+    explosionclass = teeny explosion;
+    edgeeffectiveness = 0.5;
+	model = AirBolt;
+	//model = AraarrowA1;
+	name = Harpoon;
+	range = 500;
+	reloadtime = 2.25;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 425;
+		stalwart = 1.5;
+		god = 0.5;
+		monarch = 0.5;
+		dragon = 0.5;
+		tier1 = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+    areaofeffect = 30;
+    explosionclass = teeny explosion;
+    edgeeffectiveness = 0.5;
+	model = AirBolt;
+	//model = AraarrowA1;
+	name = Harpoon2;
+	range = 500;
+	reloadtime = 2.24;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 425;
+		stalwart = 0.5;
+		god = 0.5;
+		monarch = 0.5;
+		dragon = 0.5;
+		tier1 = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 100;
+	buttonimagedisabled = TUSKPU;
+	buttonimagedown = TUSKPU;
+	buttonimageselected = TUSKSBh;
+	buttonimageup = TUSKSB;
+	edgeeffectiveness = 0.75;
+	name = Siege Tusks;
+	range = 200;
+	reloadtime = 3;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2125;
+		monster = 0.5;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 0.5;
+	}
+}

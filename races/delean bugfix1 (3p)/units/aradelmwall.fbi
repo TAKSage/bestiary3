@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 80;
+	buildtime = 38;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelmwall;
+	description = Veruna;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+        ghost = 1;
+	healtime = 0.25;
+	isfeature = 1;
+	maxdamage = 4800;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Alabaster Wall;
+	noshadow = 1;
+	objectname = aradelmwall;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = VERWALL;
+	tedclass = Aramon;
+	unitname = aradelmwall;
+	unitnumber = 3510;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

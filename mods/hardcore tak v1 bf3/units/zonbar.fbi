@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 2268; Now (120%)
+	buildcost = 2948;
+	buildtime = 175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonbar_dead;
+	//original damagecategory = Monster;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 27;
+	floater = 1;
+	healtime = 1.31;
+	maneuverleashlength = 1000;
+	//original maxdamage = 4500; 8585
+	maxdamage = 7900;
+	//original maxvelocity = 5.0; 4.3
+	maxvelocity = 4;
+	movementclass = WATER3;
+	name = Giant Barracuda;
+	noshadow = 1;
+	objectname = ZONBAR;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 235;
+	soundcategory = ZONBAR;
+	soundclass = ZONBAR;
+	standingunitorder = 2;
+	stone = ZONBAR_stone;
+	tedclass = Zhon;
+	turninplacerate = 1600;
+	turnrate = 800;
+	unitname = ZONBAR;
+	unitnumber = 172;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	edgeeffectiveness = 1.0;
+	name = Teeth;
+	noairweapon = 1;
+	//original range = 45;
+	range = 85;
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1584; //(dmg=834/s)
+		//These are new
+		stalwart = 0.5;
+		melee = 0.5;
+		naval = 1.56;	//dmg=2471 (1301/s)
+	}
+}

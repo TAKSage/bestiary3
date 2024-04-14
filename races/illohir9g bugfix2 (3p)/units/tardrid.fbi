@@ -1,0 +1,196 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 175 0;
+	bloodcolor2 = 10 140 70;
+	bloodcolor3 = 5 100 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 2358;
+	buildtime = 343;
+	canattack = 1;
+              cancapture = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardrid_dead;
+	damagecategory = Monster;		
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 37;
+                floater = 0;
+               frozen = TarDrid_frozen;
+	healtime =  1.3666666;
+              immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxmana = 3000;
+	manarechargerate = 50;
+	maxvelocity = 1.15;
+	movementclass = GROUND3;
+	name = Drider;
+	objectname = TARDRID;
+	roadmultiplier = 1.35;
+	radardistance = 666;
+                shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARDRID;
+	soundclass = TARDRID;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stone = TarDrid_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDRID;
+	unitnumber = 4235791;
+	upright = 1;
+	version = 1;
+                waterline = 3;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+               damagetype = fire;
+               edgeeffectiveness = 0.5;
+	explosionclass = VBlast;
+               firestarter = 1;
+               gravityadjustment = 0.8;
+	manapershot = 250;
+               model = crystalshot;//FireCrystal;
+	name = Chaos Bolt;
+	nimbus = 1;
+	range = 950;
+	reloadtime = 3;
+               smoketrail = 1;
+               smokedelay = 5.5;
+	soundhit = orbhit;
+                soundwater = splash;
+                spinheading = 5000;
+	turnrate = 360;
+	type = Ballistic;
+               waterexplosionclass = medium water explosion;
+	weaponart = flamevortexloop;
+	weaponvelocity = 700;
+                tracks = 1;
+                guidance = 1;
+
+	[DAMAGE]
+	{
+		default = 350;
+                             dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            fort = 0.5;
+                            factory = 0.5;
+                            undead = 1.5;
+                            monster = 1.5;
+                            human = 0.4;
+                            mechanical = 0.4;
+                            siege = 1.5;
+                            naval = 0.5;
+		 
+	}
+
+}
+[WEAPON2]
+{
+	buttonimagedisabled = seduce_down;
+	buttonimagedown = seduce_down;
+	buttonimageselected = seduce_selected;
+	buttonimageup = seduce_up;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 500;
+                model = redcrystal;
+	name = Seduce;
+                nimbus = 1;
+	range = 350;
+	reloadtime = 3.5;
+               smoketrail = 1;
+               smokedelay = 4.5;
+	soundhit = DriderDom;
+	subtype = mindcontrol;
+	type = Line of Sight;
+                weaponart = FireBallCa;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1;
+                           lodestone = 0;
+                           monarch = 0;
+                           god = 0;
+                           dragon = 0;
+                           fort = 0;
+                           factory = 0;
+	}
+}
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 350;
+                builduptime = 0.15;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+               damagetype = fire;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 2800;
+	name = Hell Rain;
+	range = 350;
+	reloadtime = 6.5;
+	soundhitclass = fire;
+	type = Remote Effect;
+                waterexplosionclass = medium water explosion;
+	weaponart = FireBallB;
+	weaponvelocity = 300;
+                subtype = hailstorm;
+                duration = 3;
+                edgeeffectiveness = 0.5;
+                nimbus = 1;
+                particlespersecond = 15; 
+              
+
+	[DAMAGE]
+	{
+		default = 100;
+	                dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            fort = 0.5;
+                            factory = 0.5;
+                            undead = 1.5;
+                            monster = 1.5;
+                            human = 1.5;
+                            mechanical = 0.4;
+                            siege = 1.5;
+                            naval = 0.5;
+	}
+}

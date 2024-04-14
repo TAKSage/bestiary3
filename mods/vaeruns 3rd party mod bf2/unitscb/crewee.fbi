@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 0.16;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 2596;
+	buildtime = 859;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crewee_dead;
+	damagecategory = siege;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 45;
+	fireatwillrandom = 1;
+	frozen = crewee_frozen;
+	healtime = 1.4958333;
+	maneuverleashlength = 500;
+	maxdamage = 8840;
+	maxvelocity = 10.03;
+	movementclass = GROUND4;
+	name = Wheel Warrior;
+	objectname = crewee;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 144;
+	soundcategory = crewee;
+	soundclass = crewee;
+	standingunitorder = 1;
+	stone = crewee_stone;
+	tedclass = Creon;
+	turnrate = 200;
+	unitname = crewee;
+	unitnumber = 294009;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	name = saw;
+	noairweapon = 1;
+	range = 90;
+	reloadtime = 2.2;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1500;
+                                monarch = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Cre Arrow;
+	range = 520;
+	reloadtime = 2.35;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 396;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 350;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1760;
+		monarch = 1.5;
+	}
+}

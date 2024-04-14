@@ -1,0 +1,119 @@
+[UNITINFO]
+{
+	acceleration = 0.22;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.06;
+	buildcost = 1200;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbetransported = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmind_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	fireatwillrandom = 1;
+	frozen = tarmind_frozen;
+	healtime = 1;
+	isairbase = 1;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2700;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	movementclass = GROUND3;
+	name = Mind Mage;
+	objectname = TARMIND;
+	pitchscale = 1.5;
+	radardistance = 420;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARMIND;
+	soundclass = TARMIND;
+	standingunitorder = 1;
+	stone = tarmind_stone;
+	tedclass = Taros;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = TARMIND;
+	unitnumber = 92;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 150;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 300;
+	builduptime = 1;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 450;
+	name = Area Mind Control;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 199;
+	reloadtime = 3;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 25;
+	subtype = mindcontrol;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 12000;
+	buildtime = 1500;
+	canattack = 1;
+	cancapture = 1;
+	//cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = Ara BALLISTIC MAGIC ATTACK;
+	//cloakcost = 20;
+	//cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraVerRang_dead;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 200;
+	fireatwillrandom = 1;
+	frozen = Araverrang_frozen;
+	healtime = 2;
+	manarechargerate = 15;
+	maneuverleashlength = 300;
+	maxdamage = 10000;
+	maxmana = 1000;
+	maxvelocity = 3;
+	//mincloakdistance = 100;
+	movementclass = GROUND2;
+	name = Master Ranger;
+	objectname = AraVERRANG;
+	radardistance = 1500;
+	//roadmultiplier = 1.4;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 375;
+	soundcategory = AraVERRANG;
+	soundclass = AraVERRANG;
+	standingunitorder = 2;
+	stone = Araverrang_stone;
+	tedclass = Light;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = AraVERRANG;
+	unitnumber = 97979746;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = Normalarrow;
+	name = Bow;
+	range = 600;
+	reloadtime = 1.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 1.25;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	manapershot = 250;
+	model = Magicarrow;
+	name = Magic Bow;
+	nimbus = 1;
+	range = 800;
+	reloadtime = 1.5;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monarch = 1.25;
+		air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

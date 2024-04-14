@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3500;
+	buildtime = 400;
+	canfly = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 120;
+	damagecategory = azrac;
+	defaultmissiontype = VTOL_standby;
+	description = Azrac;
+	experiencepoints = 46;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.6;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 200;
+	maneuverleashlength = 500;
+	maxdamage = 8800;
+	maxvelocity = 2;
+	maxwaterdepth = 0;
+	moverate1 = 5;
+	moverate2 = 10;
+	mogriumincome = -7;
+	name = Djinn;
+	objectname = ZONAZRDJINN;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 450;
+	soundcategory = TARPRIES;
+	soundclass = TARPRIES;
+	standingunitorder = 2;
+	tedclass = Azrac;
+	turninplacerate = 1000;
+	turnrate = 3000;
+	unitname = ZONAZRDJINN;
+	unitnumber = 42598;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = mindspin;
+	hweffect = magicbolt;
+	lightmap = small;
+	name = Magic Bolt;
+	range = 490;
+	reloadtime = 8;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1900;
+		spirit = 2;
+		firespirit = 2;
+		syron = 0;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.35;
+		lizard = 1.25;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+

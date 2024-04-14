@@ -1,0 +1,185 @@
+[UNITINFO]
+{
+	acceleration = 10;
+               attractsgods = 1;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6475;
+	buildtime = 733;
+	builddistance = 200;
+	builder = 1;
+               canresurrect = 1;
+               canattack = 1;
+	canguard = 1;
+               canhover = 1;
+	canmove = 1;
+                canreclaim = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 45;
+                floater = 0;
+                frozen = tarmaguss_frozen;
+	healtime = 1.22;
+                immunetoparalyzer = 1;
+	manarechargerate = 25;
+	maneuverleashlength = 300;
+	maxdamage = 4850;
+	maxmana = 1000;
+	maxvelocity = 1.25;
+	mogriumincome = 3;
+                mogriumstorage = 300;
+	movementclass = HOVER2;
+	name = Cabalist;
+	objectname = TARMAGUS1;
+	radardistance = 480;
+                shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = TARMAGUSS;
+	soundclass = TARMAGUSS;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stone = tarmagus1_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+                totalallowed = 12;
+                turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMAGUS1;
+	unitnumber = 41257511;
+	upright = 1;
+	version = 1;
+                waterline = 4;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 8;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Staff;
+                nimbus = 1;
+	range = 90;
+	reloadtime = 3;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+                            default = 490;
+                            dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.5;
+                            Tier1 = 1.5;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 512;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+                damagetype = fire;
+	explosionclass = Death;
+                firestarter = 1;
+                gravityadjustment = 0.4;
+                model = Blue1F;
+	manapershot = 300;
+                nimbus = 1;
+	name = Chaos Sphere;
+	range = 600;
+	reloadtime = 3.25;
+                smoketrail = 1;
+                smokedelay = 0.01;
+	soundhitclass = fire;
+                tracks = 1;
+                guidance = 1;
+                spinheading = 4500;
+	turnrate = 360;
+	type = Ballistic;
+                waterexplosionclass = small water explosion;
+	weaponart = ltngball_1a;
+	weaponvelocity = 350;
+ 
+
+	[DAMAGE]
+	{
+		default = 740;
+                            dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.5;
+                            Tier1 = 1.5;
+                         
+                                
+	}
+}
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 0.2;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 3;
+                damagetype = paralyzer;
+	edgeeffectiveness = 1;
+	manapershot = 970;
+	name = Word of Anharat;
+	nimbus = 1;
+	radiusart0 = green_shockring;
+	radiusart1 = ring_fx_greena;
+	radiusart2 = ring_fx_blueb;
+	range = 400;
+	reloadtime = 6;
+	ringcount = 3;
+	ringdelay = 0.25;
+	ringduration = 1.4;
+                shotart = manabomb;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 100;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+	  default = 1200;
+                fort = 0.25;
+                factory = 0;
+                monarch = 0.25;
+                lodestone = 0;
+                god = 0.25;
+                dragon = 0.25;
+                airship = 0.25;
+                
+	}
+
+}

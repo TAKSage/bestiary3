@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildangle = 4096;
+	buildcost = 1189;
+	buildtime = 204;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonfir_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 32;
+	frozen = zonfir_frozen;
+	healtime = 0.85;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	maxvelocity = 1;
+	movementclass = GROUND3;
+	name = Harpoon Beast;
+	objectname = ZONFIR;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 156;
+	soundcategory = TARFIRE;
+	soundclass = TARFIRE;
+	standingunitorder = 1;
+	stone = zonfir_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONFIR;
+	unitnumber = 84;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 32;
+	explosionclass = medium dust puff;
+	model = araharp1;
+	name = harpoon;
+	range = 710;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = arrow;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1089;
+	}
+}

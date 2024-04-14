@@ -1,0 +1,128 @@
+[UNITINFO]
+{
+	acceleration =  10;
+	bloodcolor1 =  160 35 0;
+	bloodcolor2 =  170 40 0;
+	bloodcolor3 =  180 30 5;
+	bmcode =  1;
+	bodytype = flesh;
+	brakerate =  10;
+	buildcost =  375;
+	buildtime =  175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA ATTACK MAGIC ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =  araarch_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description =  Aramon;
+	description =  Aramon;
+	experiencepoints =  7;
+	fireatwillrandom =  1;
+              frozen = araarch_frozen;
+	healtime =  0.520833333;
+	manarechargerate =  1;
+	maxdamage =  1100;
+	maxmana =  100;
+	maxvelocity =  1.25;
+	mogriumincome =  0;
+	mogriumstorage =  0;
+	movementclass = GROUND2;
+	name =  Ranger;
+	objectname =  ARARANG;
+	roadmultiplier =  1.21;
+	shadowart =  shadow03;
+	shadowgaf =  shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance =  180;
+	soundcategory =  ARARANG;
+	soundclass =  ARARANG;
+	standingunitorder = 1;
+	stone =  araarch_stone;
+	tedclass =  Aramon;
+	turninplacerate =  2400;
+	turnrate =  2400;
+	unitname =  ARARANG;
+	unitnumber =  4387;
+	upright = 1;
+	version =  1;
+	watermultiplier =  0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1224;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = araarrow;
+	name = Arrow;
+	range = 425;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 355;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 10;
+	edgeeffectivness = 0.2;
+	buttonimagedisabled = ArrowLobPU;
+	buttonimagedown = ArrowLobPU;
+	buttonimageselected = ArrowLobSBh;
+	buttonimageup = ArrowLobSB;
+	gravityadjustment = 2.3;
+	lobpreferred = 1;
+	model = araarrow;
+	name = Lob Arrow;
+	noairweapon = 1;
+	range = 400;
+	reloadtime = 2.6;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 640;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1224;
+	buttonimagedisabled = ArrowTrackingsPU;
+	buttonimagedown = ArrowTrackingsPU;
+	buttonimageselected = ArrowTrackingsSBh;
+	buttonimageup = ArrowTrackingsSB;
+	manapershot = 50;
+	model = araarrow2;
+	name = Fire Arrow;
+	range = 425;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 457;
+	}
+}

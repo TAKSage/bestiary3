@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1069;
+	buildtime = 195;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcflayer_DEAD;
+	defaultmissiontype = Standby;
+	damagecategory = MONSTER;
+	description = Taros;
+	experiencepoints = 24;
+	healtime = 0.816666667;
+	maneuverleashlength = 500;
+	maxdamage = 3455;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Restless;
+	objectname = tarcflayer;
+	roadmultiplier = 1.25;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = tarcflayer;
+	soundclass = tarcflayer;
+	standingunitorder = 2;
+	stone = tarcflayer_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarcflayer;
+	unitnumber = 809;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 1;
+	name = Chains;
+	range = 80;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 715;
+	}
+}

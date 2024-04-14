@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2225;
+//mogriumbounty = 222.5;
+	buildtime = 205;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Vermwhip_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 14;
+	healtime = 0.7;
+	maxmana = 1000;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1600;
+	maxvelocity = 1.7;
+	movementclass = GROUND2;
+	name = Mind Whiper;
+	objectname = VERMWHIP;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 255;
+	soundcategory = VERLIEGE;
+	soundclass = VERLIEGE;
+	standingunitorder = 2;
+	stone = Vermwhip_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = VERMWHIP;
+	unitnumber = 3207;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 15;
+	buttonimagedisabled = whip_down;
+	buttonimagedown = whip_down;
+	buttonimageselected = whip_use;
+	buttonimageup = whip_up;
+	name = Whip;
+	edgeeffectiveness = 0.8;
+	name = Whip;
+	range = 100;
+	reloadtime = 1.2;
+	//type = Line of Sight;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 0.75;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+		steel = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	areaofeffect = 30;
+	buttonimagedisabled = love_down;
+	buttonimagedown = love_down;
+	buttonimageselected = love_use;
+	buttonimageup = love_up;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	noairweapon = 1;
+	name = Mind control (300);
+	nimbus = 1;
+	range = 95;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = Line of Sight;
+//	weaponart = FireballD;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1;
+		monarch = 0;
+		factory = 0;
+	}
+}

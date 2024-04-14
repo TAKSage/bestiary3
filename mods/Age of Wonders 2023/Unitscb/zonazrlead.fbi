@@ -1,0 +1,176 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = ZON MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = azrac;
+	defaultmissiontype = Standby;
+	description = Azrac;
+	experiencepoints = 525;
+	healtime = 70;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 29250;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = High Priest;
+	noveteran = 1;
+	objectname = ZONAZRLEAD;
+	radardistance = 750;
+	roadmultiplier = 1.35;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 600;
+	soundcategory = AZRSWORD;
+	soundclass = AZRSWORD;
+	standingunitorder = 1;
+	tedclass = Azrac;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ZONAZRLEAD;
+	unitnumber = 42591;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1625;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+[WEAPON2]
+{
+	buttonimagedisabled = flamingarrow_down;
+	buttonimagedown = flamingarrow_down;
+	buttonimageselected = flamingarrow_selected;
+	buttonimageup = flamingarrow_up;
+	aimtolerance = 1024;
+	areaofeffect = 65;
+	damagetype = fire;
+	explosionclass = fireball explosion;
+	edgeeffectiveness = 0.6;
+	firestarter = 1;
+	manapershot = 250;
+	model = araarrow2;
+	name = Flaming Arrow;
+	range = 500;
+	reloadtime = 5;
+	shadowgaf = shadows;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = fireballa;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		spirit = 1.5;
+		firespirit = 0;
+		syron = 0.1;
+		dragon = 0.25;
+		demon = 0.25;
+		azrac = 0.75;
+		lizard = 1.25;
+		frostling = 1.1;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+
+
+[WEAPON3]
+{
+	buttonimagedisabled = callflames_down;
+	buttonimagedown = callflames_down;
+	buttonimageselected = callflames_selected;
+	buttonimageup = callflames_up;
+	aimtolerance = 2000;
+	areaofeffect = 475;
+	builduptime = 0.2;
+	decaytime = 0.9;
+	damagetype = fire;
+	edgeeffectiveness = 1;
+	explosionclass = megaflame;
+	firestarter = 1;
+	manapershot = 1000;
+	name = Call Flames;
+	range = 550;
+	reloadtime = 8;
+	soundhit = flame2;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;	
+		spirit = 1.5;
+		firespirit = 0;
+		syron = 0.1;
+		azrac = 0.75;
+		lizard = 1.25;
+		frostling = 1.1;
+		dragon = 0.25;
+		demon = 0.25; 
+		spirit = 0.75;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+	

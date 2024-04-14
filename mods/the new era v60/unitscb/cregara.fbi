@@ -1,0 +1,156 @@
+[UNITINFO]
+{
+	acceleration = .5;
+	bloodcolor1 = 180 35 5;
+	bloodcolor2 = 190 40 10;
+	bloodcolor3 = 200 50 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .7;
+	builder = 1;
+	buildcost = 50000;
+	buildtime = 30000;
+	builddistance = 150;
+	canattack = 1;
+	//canhover = 1;
+	cancloak = 1;
+	cloakcost = 25;
+	cloakcostmoving = 50;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	//cantbetransported = 1;
+	category = CRE MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cregara_dead;
+	damagecategory = god;
+	defaultmissiontype = Standby;
+	description = Creon;
+	economybonus = 15;
+	experiencepoints = 500;
+	fireatwillrandom = 1;
+	frozen = cregara_frozen;
+	healtime = 200;
+     	//ghost = 1;
+	manarechargerate = 20;
+	maneuverleashlength = 2000;
+	maxmana = 1000;
+	maxdamage = 32700;
+	maxvelocity = 1.70;
+	mincloakdistance = 50;
+	movementclass = GROUND3;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	name = Garacaius;
+	noveteran = 1;
+	objectname = CREGARA;
+	radardistance = 1000;
+	roadmultiplier = 1.0;
+	shootme = 1;
+	shadowgaf = shadows;
+	side = CRE;
+	sightdistance = 600;
+	soundcategory = CREGOD;
+	soundclass = CREGOD;
+	standingunitorder = 1;
+	stone = cregara_stone;
+	tedclass = Creon;
+	totalallowed = 1.1;
+	turninplacerate = 1600;
+	turnrate = 600;
+	unitname = CREGARA;
+	unitnumber = 193;
+	upright = 1;
+	version = 1;
+	//waterline = 65;
+	watermultiplier = 1.0;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 200;
+	edgeeffectiveness = .9;
+	buttonimagedown = normalmancpu;
+	buttonimageselected = normalmancbh;
+	buttonimageup = normalmancsb;
+	name = Supernatural Staff;
+	range = 200;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3000;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 200;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 300;
+	builduptime = 1;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 450;
+	name = Area Mind Control;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 199;
+	reloadtime = 3;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 25;
+	subtype = mindcontrol;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+

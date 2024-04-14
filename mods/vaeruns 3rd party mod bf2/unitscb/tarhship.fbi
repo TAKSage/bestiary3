@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.35;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 4133;
+	buildtime = 1911;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantransport = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR BOAT ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarhship_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 50;
+	floater = 1;
+	healtime = 6.249;
+	maneuverleashlength = 500;
+	maxdamage = 11000;
+	maxvelocity = 2.8;
+	movementclass = WATER4;
+	name = Cult of Lokken Ship;
+	objectname = TARHSHIP;
+	pitchscale = 1.35;
+	radardistance = 388;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 215;
+	soundcategory = TARHSHIP;
+	soundclass = TARHSHIP;
+	standingunitorder = 1;
+	tedclass = Taros;
+                totalallowed = 15;
+                transmaxunits = 24;
+                transportcapacity = 24;
+	transportdistance = 500;
+	transportsize = 9;
+	transportsizecapacity = 96;
+	turnrate = 155;
+	unitname = TARHSHIP;
+	unitnumber = 929135;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 4000;
+	areaofeffect = 120;
+	edgeeffectiveness = 0.25;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fire Ball;
+	range = 800;
+	reloadtime = 5.5;
+	soundhitclass = fire;
+	turnrate = 120;
+	type = Guided;
+                waterexplosionclass = medium water explosion;
+	weaponart = FireballA;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monarch = 0.25;
+	}
+}

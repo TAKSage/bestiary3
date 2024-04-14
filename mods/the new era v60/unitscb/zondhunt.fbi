@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1001;
+	buildtime = 175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbefrozen = 1;
+	//cantbestoned = 1;
+	category = ZON ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zondhunt_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 20;
+	fireatwillrandom = 1;
+	frozen = zondhunt_frozen;
+	healtime = 0.6625;
+	manarechargerate = 15;
+	maneuverleashlength = 325;
+	maxdamage = 2000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	movementclass = GROUND3;
+	name = Demon Hunter;
+	objectname = ZONDHUNT;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = VERKNIGH;
+	soundclass = VERKNIGH;
+	standingunitorder = 2;
+	stone = zondhunt_stone;
+	tedclass = Zhon;
+	turnrate = 1000;
+	unitname = ZONDHUNT;
+	unitnumber = 137;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = araarrow;
+	name = Spear;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	explosionclass = teeny explosion;
+	manapershot = 200;
+	model = araarrow2;
+	name = Tracking Spear;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 550;
+	}
+}

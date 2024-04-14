@@ -1,0 +1,126 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 544;
+	buildtime = 145;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	category = ZON MELEE MAGIC BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zongol_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 15;
+	healtime = 0.72917;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	maxmana = 1000;
+	maxvelocity = 1.2;
+	movementclass = GROUND3;
+	name = Goliath Beetle;
+	objectname = ZONGOL;
+	radardistance = 500;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 180;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	standingunitorder = 1;
+	stone = zongol_stone;
+	tedclass = Zhon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZONGOL;
+	unitnumber = 107;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+                 weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+                buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Claws;
+	range = 70;
+	reloadtime = 1.15;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 275;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 30;
+                edgeeffectiveness = 0.5;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	explosionclass = green_shockring;
+	manapershot = 100;
+	model = araarrow3;
+	name = Venom Spit;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	type = ballistic;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 550;
+	}
+}
+
+[WEAPON3]
+{
+                aimtolerance = 512;
+	areaofeffect = 100;
+                buttonimagedisabled = LightningBallPU;
+	buttonimagedown = LightningBallPU;
+	buttonimageselected = LightningBallSBh;
+	buttonimageup = LightningBallSB;
+                damagetype = paralyzer;
+                edgeeffectiveness = 0.5;
+	explosionclass = green_shockring;
+                 manapershot = 200;
+                model = araarrow3;
+	name = Entangle;
+	range = 350;
+	reloadtime = 2;
+	soundhitclass = hammer;
+	type = Line Of Sight;
+                 waterexplosionclass = medium water explosion;
+                weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 50;
+               
+	}
+}

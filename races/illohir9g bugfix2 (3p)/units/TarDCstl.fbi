@@ -1,0 +1,51 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 14965;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 3422;
+                canattack = 1;
+                canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Factory;
+	description = Taros;
+	experiencepoints = 300;
+                floater = 0;
+	footprintx = 9;
+	footprintz = 12;
+	healtime = 3.17083;
+	maxdamage = 25116;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	mogriumincome = 7;//2;
+	mogriumstorage = 1500;//500;
+	name = Hell's Keep;
+	objectname = TARDCSTL;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 300;
+	soundcategory = TARDCSTL;
+	soundclass = TARDCSTL;
+	tedclass = Taros;
+                ThreeD = 1;
+	unitname = TARDCSTL;
+	unitnumber = 1457;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 45;//8;
+                waterline = 2;
+	yardmap = ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooooooooo ooccccccc ccccccccc ccccccccc ccccccccc;
+                ZBuffer = 1;
+}
+

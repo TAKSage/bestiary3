@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 10 10 50;
+bloodcolor2 = 15 15 55;
+bloodcolor3 = 20 20 60;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 1796;
+buildtime = 238;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbefrozen = 1;
+category = ILL MELEE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illskmc_dead;
+damagecategory = Undead;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 35;
+floater = 0;
+healtime = 0.4375;
+maneuverleashlength = 500;
+maxdamage = 6250;
+maxvelocity = 1.6;
+movementclass = HOVER3;
+name = ChaosSkeleton;
+objectname = Illskmc;
+roadmultiplier = 1.21;
+//shadowart = shadow07;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 165;
+soundcategory = tarskelef;
+soundclass = tarskelef;
+standingunitorder = 2;
+stone = Illskelef_stone;
+ThreeD = 1;
+tedclass = Illohir;
+turninplacerate = 1800;
+turnrate = 1700;
+unitname = Illskmc;
+unitnumber = 6809;
+upright = 1;
+version = 1;
+watermultiplier = 0.85;
+waterline = 2;
+}
+
+[WEAPON1]
+{
+areaofeffect = 30;
+edgeeffectiveness = 1;
+name = Dead Flail;
+range = 75;
+reloadtime = 1.4;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 520;
+stalwart = 0.5;
+Tier1 = 1.25;
+human = 1.25;
+undead = 0.5;
+monarch = 0.5;
+god = 0.5;
+}
+}

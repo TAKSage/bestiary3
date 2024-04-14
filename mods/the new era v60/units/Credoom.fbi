@@ -1,0 +1,149 @@
+[UNITINFO]
+{
+acceleration = 0.25;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 0.2;
+buildcost = 1400;
+buildtime = 225;
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+//canreclaim =1;
+canstop = 1;
+cantbestoned = 1;
+category = CRE MELEE BALLISTIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = CREDOOM_dead;
+damagecategory = Mechanical;
+defaultmissiontype = Standby;
+description = Creon;
+experiencepoints = 30;
+floater = 0;
+	fireatwillrandom = 1;
+frozen = credoom_frozen;
+healtime = .9;
+manarechargerate = 10;
+maneuverleashlength = 1000;
+maxdamage = 4000;
+maxmana = 1000;
+maxvelocity = 1.6;
+movementclass = GROUND3;
+name = Automaton II;
+objectname = CREDOOM;
+radardistance = 300;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+shootme = 1;
+side = CRE;
+sightdistance = 180;
+soundcategory = CREDOOM;
+soundclass = CREDOOM;
+standingunitorder = 2;
+stone = credoom_stone;
+tedclass = Creon;
+turninplacerate = 2000;
+turnrate = 2000;
+unitname = CREDOOM;
+unitnumber = 19155;
+upright = 1;
+version = 1;
+//waterline = 2;
+watermultiplier = 0.75;
+weaponswitching = 1;
+//workertime = 100;
+}
+
+[WEAPON1]
+{
+areaofeffect = 30;
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+edgeeffectiveness = 0.5;
+explosionclass = yellow_shockring;
+name = Blades;
+range = 60;
+reloadtime = 1.4;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 700;
+monarch = 0.5;
+god = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 100;
+buttonimagedisabled = FireBallGPU;
+buttonimagedown = FireBallGPU;
+buttonimageselected = FireBallGSBh;
+buttonimageup = FireBallGSB;
+damagetype = explosion;
+edgeeffectiveness = 1.0;
+explosionclass = medium explosion;
+firestarter = 1;
+gravityadjustment = 1.2;
+guidance = 1;
+manapershot = 400;
+model = FireTallonLg;
+name = Plasma Bolt;
+nimbus = 1;
+range = 600;
+reloadtime = 1;
+smoketrail = 1;
+smokedelay = 0.15;
+soundhitclass = fire;
+soundwater = splash;
+tracks = 1;
+turnrate = 360;
+type = Guided;
+waterexplosionclass = small water explosion;
+weaponart = creonbuild;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 500;
+airship = 1.25;
+monarch = 0.5;
+Tier1 = 1.5;
+naval = 1.25;
+}
+
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 200;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = xlarge smoke explosion;
+name = Explosion;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 500;
+monarch = 0.4;
+Tier1 = 1.25;
+Stalwart = 0.5;
+Fort = 0.5;
+Factory = 0.5;
+mechanical = 0.25;
+}
+}

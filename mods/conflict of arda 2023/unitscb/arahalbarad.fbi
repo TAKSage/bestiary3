@@ -1,0 +1,98 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 9500;
+	buildtime = 2500;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	cloakcost = 10;
+	cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabow_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	healtime = 0.520833333;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 13500;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	mincloakdistance = 20;
+	movementclass = GROUND2;
+	name = Halbarad;
+	noveteran = 1;
+	objectname = arahalbarad;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 790;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	stone = arabow_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = arahalbarad;
+	unitnumber = 3;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustJoy]
+	{
+		adjustment = 65;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 190;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Ranger Arrow;
+	range = 610;
+	reloadtime = 2.83;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 500;
+		tarmordororc = 2.5;
+		tarudunorc = 2.5;
+		tarosgorc = 2.5;
+		tarangmarorc = 2.5;
+		tarmoriagolbin = 2.5;
+		tarmoriaarch = 2.5;
+		tarmoriaaxe = 2.5;
+		tarmoriakey = 2.5;
+		tarmoriasword = 2.5;
+		tarmorgulorc = 2.5;
+		tarmorgulspear = 2.5;
+		tareasternorc = 2.5;
+		tarnurnorc = 2.5;
+		tartrollchief = 3.5;
+	}
+}

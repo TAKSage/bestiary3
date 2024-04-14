@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 0 0;
+	bloodcolor2 = 150 0 0;
+	bloodcolor3 = 100 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 150;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = firespirit;
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 16;
+	ghost = 1;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 2975;
+	maxvelocity = 1.7;
+	mogriumincome = -7;
+	movementclass = GROUND2;
+	name = Fire Sprite;
+	objectname = ARAAOWFSPRITE;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 375;
+	soundcategory = AOWFSPRITE;
+	soundclass = AOWFSPRITE;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONAOWFSPRITE;
+	unitnumber = 42750;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.35;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 35;
+	damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fire Strike;
+	range = 30;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 925;
+		azrac = 0.75;
+		demon = 0.5;
+		dragon = 0.5;
+		spirit = 0.75;
+		firespirit = 0.25;
+		syron = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 65;
+	damagetype = fire;
+	edgeeffectiveness = 0.7;
+	explosionclass = miniflame;
+	firestarter = 1;
+	name = Boom;
+	range = 250;
+	reloadtime = 2;
+	soundhit = flame1;
+	type = Ballistic;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 400;
+		spirit = 0.75;
+		firespirit = 0;
+		syron = 0.5;
+		azrac = 0.75;
+		demon = 0.75;	
+		dragon = 0.5;
+		lizard = 1.25;
+		mechanical = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

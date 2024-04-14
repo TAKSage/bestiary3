@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 950;
+	buildtime = 115;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aracav_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	frozen = aracav_frozen;
+	healtime = 0.783333333;
+	maneuverleashlength = 500;
+	maxdamage = 3050;
+	maxvelocity = 3.1;
+	movementclass = GROUND3;
+	name = Axe Cavalry;
+	objectname = aracav;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARAKNIGH;
+	soundclass = ARAKNIGH;
+	standingunitorder = 2;
+	stone = aracav_stone;
+	tedclass = Aramon;
+	turninplacerate = 900;
+	turnrate = 1000;
+	unitname = aracav;
+	unitnumber = 16;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.8;
+	model = throwaxe;
+	//minrange = 100;
+	//gravityadjustment = 2.5;
+	//lobpreferred = 1;
+	name = Throwing Axe;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 3.5;
+	shadowgaf = shadows;
+	soundhitclass = sword;
+	spinheading = 50;
+	spinpitch = -1000;
+	type = Ballistic;
+	veteranlevel = 6;
+	veteranmodel = throwaxe_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 0.5;
+		factory = 0.5;
+	}
+}

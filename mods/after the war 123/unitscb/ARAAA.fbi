@@ -1,0 +1,160 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 6580;
+	mogriumbounty = 658;
+	buildtime = 750;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//Copyright 1999 Phoenix Design Group. All rights reserved.
+	corpse = ARAAA_dead;
+	damagecategory = stone;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 52;
+	footprintx = 5;
+	footprintz = 5;
+	healtime = 1.483333333;
+	maxdamage = 11750;
+	maxmana = 450;
+	manarechargerate = 10;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Avalanche;
+	objectname = ARAAA;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 550;
+	soundcategory = ARAAA;
+	soundclass = ARAAA;
+	stone = araaa_stone;
+	tedclass = Aramon;
+	unitname = ARAAA;
+	unitnumber = 8002;
+	version = 1;
+	weaponswitching = 1;
+	yardmap = o;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = large explosion;
+	gravityadjustment = 2.3;
+	lobpreferred = 1;
+	minrange = 180;
+	manapershot = 150;
+	name = explosive mortar (150);
+	range = 900;
+	reloadtime = 3.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	noairweapon = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 640;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		wood = 0.75;
+		stone = 0.75;
+		factory = 0.75;
+		naval = 0.75;
+		steelnaval = 0.5;
+		steel = 0.5;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 135;
+	buttonimagedisabled = AA_down;
+	buttonimagedown = AA_down;
+	buttonimageselected = AA_use;
+	buttonimageup = AA_up;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = large explosion;
+	name = flak cannonball;
+	range = 625;
+	reloadtime = 3.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	toairweapon = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		wood = 0.75;
+		stone = 0.75;
+		factory = 0.75;
+		naval = 0.75;
+		steelnaval = 0.5;
+		steel = 0.5;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 135;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = large explosion;
+	name = FOR THE AI;
+	range = 625;
+manapershot = 1;
+	reloadtime = 3.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	toairweapon = 1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		wood = 0.75;
+		stone = 0.75;
+		factory = 0.75;
+		naval = 0.75;
+		steelnaval = 0.5;
+		steel = 0.5;
+		monarch = 0.5;
+	}
+}

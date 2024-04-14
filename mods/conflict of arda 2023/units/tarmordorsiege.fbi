@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = .50;
+	bankscale = 2.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = .25;
+	buildcost = 10225;
+	buildtime = 1917;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarsiege_dead;
+	damagecategory = fort;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 37;
+	healtime = 1.447916667;
+	maneuverleashlength = 500;
+	maxdamage = 27000;
+	maxvelocity = 0.45;
+	movementclass = GROUND4;
+	name = Siege Tower;
+	objectname = tarmordorsiege;
+	pitchscale = 2.5;
+	radardistance = 850;
+	roadmultiplier = 2.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 425;
+	soundcategory = ARASIEGE;
+	soundclass = ARASIEGE;
+	standingunitorder = 2;
+	tedclass = Taros;
+	transportcapacity = 25;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 128;
+	turnrate = 140;
+	unitname = tarmordorsiege;
+	unitnumber = 35;
+	version = 1;
+	watermultiplier = 0.25;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = large dust puff;
+	name = dropped cannonball of love;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 3.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+		default = 350;
+		factory = 1.95;
+		fort = 1.95;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrows;
+	range = 510;
+	reloadtime = 1.4;
+	soundhitclass = arrow;
+	type = line of sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 150;
+	}
+}

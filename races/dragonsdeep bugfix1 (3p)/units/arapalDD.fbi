@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapalDD_dead;
+	damagecategory = Mounted;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 27;
+	healtime = 3;
+	maneuverleashlength = 500;
+	maxdamage = 8000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name = Knight of Arcus;
+	objectname = ARAPALDD;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 225;
+	soundcategory = ARAPALDD;
+	soundclass = ARAPALDD;
+	standingunitorder = 2;
+	stone = arapalDD_stone;
+	tedclass = Aramon;
+	turninplacerate = 900;
+	turnrate = 700;
+	totalallowed = 9;
+	unitname = ARAPALDD;
+	unitnumber = 22;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 1.75;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

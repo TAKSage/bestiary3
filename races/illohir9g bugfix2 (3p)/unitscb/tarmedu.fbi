@@ -1,0 +1,138 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2586;
+	buildtime = 459;
+	canattack = 1;
+                canhover = 1;
+                canguard = 1;
+                canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = tarmedu_dead;
+	damagecategory = Tier1;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 35;
+                floater = 0;
+                 frozen = tarmedu_frozen;
+	 healtime = 1.77;
+                manarechargerate = 18;
+                maneuverleashlength = 500;
+                maxmana = 1500;
+	maxdamage = 7533;
+	maxvelocity = 1.25;
+	movementclass = HOVER3;
+	name = Gorgon;
+	objectname = tarmedu;
+	radardistance = 444;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 166;
+	soundcategory = tarmedu;
+	soundclass = tarmedu;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = tarmedu_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarmedu;
+	unitnumber = 628007;
+	upright = 1;
+	version = 1;
+                waterline = 14;
+                watermultiplier = 1.75;
+                weaponswitching = 1;
+                ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+	
+                buttonimagedisabled = sworddown;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;     
+               explosionclass = small smoke explosion;
+	name = Ochre Sword;
+                nimbus = 1;
+	range = 90;
+	reloadtime = 2.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 300;
+                           dragon = 0.4;
+                monarch = 1.3;
+                fort = 1.4;
+                factory = 0.4;
+                god = 1.4;
+                airship = 0.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 0.5;
+                monster = 1.5;
+                human = 0.5;
+                undead = 0.4;
+                naval = 0.5;
+                siege = 0.4;              
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+                buttonimagedisabled = MeduPU;
+	buttonimagedown = MeduPU;
+	buttonimageselected = MeduSB;
+	buttonimageup = MeduSBH;
+	explosionclass = green_shockring;
+                manapershot = 325;
+	model = grenorb;
+	name = Statue;
+                nimbus = 1;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 3.5;
+                soundstart = drkspiderdie1;
+	soundhitclass = arrow;
+	subtype = turntostone;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+                turnrate = 360;
+                tracks = 1;
+               guidance = 1;
+	type = Line of Sight;
+               weaponart = verunabuild;
+	
+              [DAMAGE]
+	{
+		default = 1;
+                                monarch = 0;
+                                fort = 0;
+                                factory = 0;
+                                lodestone = 0;
+                                naval = 0;
+                                god = 0;
+                                dragon = 0;
+                                airship = 0;
+		
+	}
+}

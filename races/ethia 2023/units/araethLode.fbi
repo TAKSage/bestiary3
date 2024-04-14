@@ -1,0 +1,35 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 280;
+	buildtime = 92;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 6;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.283333333;
+	maxdamage = 4980;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Lodestone;
+	objectname = ARAETHLODE;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 145;
+	soundcategory = ARALODE;
+	soundclass = ARALODE;
+	tedclass = Ethia;
+	unitname = ARAETHLODE;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

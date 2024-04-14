@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+	acceleration = 0.11;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.022;
+	buildcost = 2531;
+	//buildtime = 677;
+	  buildtime = 474;  //-30%
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratrans_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 44;
+	floater = 1;
+	//healtime = 2.808;
+	  healtime = 2.106;  //-25%
+	maneuverleashlength = 325;
+	maxdamage = 9111;
+	//maxvelocity = 1.02;
+      //maxvelocity = 1.377; +35%
+	maxvelocity = 1.65; //+20%
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = WATER5;
+	name = Ark;
+	objectname = ARATRANS;
+	pitchscale = 1.5;
+	radardistance = 510;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 325;
+	soundcategory = ARATRANS;
+	soundclass = ARATRANS;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	transportcapacity = 100;
+	transportdistance = 419;
+	transportsize = 16;
+	transportsizecapacity = 400;
+	turnrate = 65;
+	unitname = ARATRANS;
+	unitnumber = 43;
+	version = 1;
+	waterline = 10;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	//model = araarrow;
+	model = Araarrow2;
+	name = Anti-Air Arrows;
+	//range = 350;
+	range = 550;
+	//reloadtime = 3.1;
+	reloadtime = 3.65;
+	soundhitclass = arrow;
+	  turnrate = 180;
+	//type = Ballistic;
+	type = guided;
+	waterexplosionclass = small water explosion;
+	//weaponvelocity = 525;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		//default = 252;
+		default = 576;
+		//fort = 0.25;
+		//factory = 0.25;
+		//stalwart = 0.25;
+		//mechanical = 0.5;
+		//naval = 0.5;
+		  //rictus = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow2;
+	name = Anti-Air Arrows;
+	range = 550;
+	reloadtime = 3.65;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 576;
+		  rictus = 0.75;
+	}
+}

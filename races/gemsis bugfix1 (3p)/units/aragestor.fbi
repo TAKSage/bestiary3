@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 2500;
+	buildtime = 350;
+	cantbestoned = 1;
+	category = ara;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpill_dead;
+	damagecategory = lodestone;
+	description = aramon;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.4;
+	maxdamage = 6500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 2;
+	mogriumstorage = 10000;
+	name = Mana Storage;
+	objectname = aragestor;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 125;
+	soundcategory = aragestor;
+	soundclass = aragestor;
+	tedclass = aramon;
+	unitname = aragestor;
+	unitnumber = 3209;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+}

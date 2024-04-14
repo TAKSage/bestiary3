@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+
+bodytype = armor;
+buildcost = 6500;//7555;
+buildtime = 800;
+canattack = 1;
+canstop = 1;
+//cantransport = 1;
+cantbecaptured = 1;
+canbfrozen = 1;
+cantbestoned = 1;
+category = CRE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = creaegis_dead;
+damagecategory = mechanical;
+defaultmissiontype = guard_nomove;
+description = Creon;
+experiencepoints = 80;
+	fireatwillrandom = 1;
+footprintx = 4;
+footprintz = 4;
+	frozen = creaegis_frozen;
+healtime = 1.2;
+maxdamage = 5000;
+maxmana = 400;
+maxslope = 20;
+manarechargerate = 50;
+maxwaterdepth = 0;
+name = Aegis Tower;
+objectname = creaegis;
+radardistance = 950;
+shadowgaf = shadows;
+shootme = 1;
+side = CRE;
+sightdistance = 550;
+soundcategory = VERTOWER;
+soundclass = VERTOWER;
+	stone = creaegis_stone;
+tedclass = Creon;
+	//transmaxunits = 2;
+	//transportcapacity = 2;
+	//transportdistance = 300;
+	//transportsize = 4;
+	//transportsizecapacity = 8;
+unitname = creaegis;
+unitnumber = 41314;
+version = 1;
+yardmap = o;
+}
+
+[WEAPON1]
+{
+aimtolerance = 512;
+areaofeffect = 50;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = small explosion;
+gravityadjustment = 1.0;
+manapershot = 25;
+minrange = 50;
+model = cregatl1;//Plasma2a;
+name = AEGIS;
+range = 800;
+reloadtime = .25;
+soundhit = vulcanhit;
+tracks = 1;
+type = Ballistic;
+toairweapon = 1;
+//unitsonly = 1;
+weapontimer = 2; //3;
+waterexplosionclass = medium water explosion;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 500;
+Tier1= 1.2;
+}
+}
+

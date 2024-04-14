@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildcost = 854;
+	buildtime = 188;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpill_dead;
+	description = Aramon;
+	experiencepoints = 5;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.104166667;
+	maxdamage = 1250;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Eternal Statue;
+	noshadow = 1;
+	objectname = araorheal;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 130;
+	soundcategory = tarorheal;
+	soundclass = tarorheal;
+	tedclass = Ethia;
+	unitname = araheal;
+	unitnumber = 308;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 150;
+	}
+}

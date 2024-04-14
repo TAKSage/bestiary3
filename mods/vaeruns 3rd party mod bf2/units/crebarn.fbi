@@ -1,0 +1,53 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bankscale = 1.25;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.15;
+	buildcost = 293;
+	buildtime = 260;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Creon;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.9166667;
+	maneuverleashlength = 250;
+	maxdamage = 288;
+	maxvelocity = 5;
+	maxwaterdepth = 0;
+	name = Barnstormer;
+	objectname = CREBARN;
+	pitchscale = 1.25;
+	radardistance = 500;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREBARN;
+	soundclass = CREBARN;
+	standingunitorder = 0;
+	tedclass = Creon;
+	turnrate = 400;
+	unitname = CREBARN;
+	unitnumber = 72;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+}
+

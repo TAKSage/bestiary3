@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = ILLALIC;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2693;
+	builddistance = 500;
+	buildtime = 725;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ILL MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ILLhand_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Illohir;
+	experiencepoints = 31;
+	floater = 0;
+	healtime = 2.1875;
+	maneuverleashlength = 500;
+	maxdamage = 5544;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = ChaosHand;
+	objectname = ILLhand;
+	roadmultiplier = 1.21;
+	//shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ILL;
+	sightdistance = 131;
+	soundcategory = ILLhand;
+	soundclass = ILLhand;
+	standingunitorder = 2;
+	tedclass = Illohir;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ILLhand;
+	unitnumber = 11611;
+	upright = 1;
+	version = 1;
+	waterline = 2;
+	watermultiplier = 0.81;
+	workertime = 250;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 48;
+	edgeeffectiveness = 1;
+	name = Swinging Melee;
+	range = 150;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 911;
+		Tier1 = 1.5;
+	}
+}

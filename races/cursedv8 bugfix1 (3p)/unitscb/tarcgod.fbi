@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = .5;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .3;
+	buildcost = 360000;
+	buildtime = 36000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = god;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 1000;
+	healtime = 50;
+	maneuverleashlength = 2000;
+	maxdamage = 29999;
+	maxvelocity = 1.55;
+	movementclass = HOVER2;
+	name = Grim Ripper;
+	noveteran = 1;
+	objectname = tarcgod;
+	radardistance = 25000;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 2500;
+	soundcategory = tarcgod;
+	soundclass = tarcgod;
+	standingunitorder = 2;
+	tedclass = taros;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 500;
+	unitname = tarcgod;
+	unitnumber = 811;
+	upright = 1;
+	version = 1;
+	waterline = 40;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 8000;
+	areaofeffect = 100;
+	edgeeffectiveness = 0.7;
+	name = Sense;
+	range = 150;
+	reloadtime = 3.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 7000;
+		monarch = 0.01;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 1.5;
+	decaytime = 1.5;
+	edgeeffectiveness = 0.4;
+	name = Death Aura;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 500;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 4;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		monarch = 0.01;
+		undead = 0.01;
+	}
+}
+

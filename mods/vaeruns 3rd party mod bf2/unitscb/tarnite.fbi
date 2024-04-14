@@ -1,0 +1,165 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.6;
+	buildcost = 2799;
+	buildtime = 810;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+              // cantbeparalyzed = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = TAR FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 37;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 5.469444444;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+                immunetoparalyzer = 1;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 6000;
+	maxmana = 1000;
+	maxvelocity = 6.2;
+	maxwaterdepth = 0;
+	name = Nightmare;
+	objectname = TARNITE;
+	radardistance = 400;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 224;
+	soundcategory = TARNITE;
+	soundclass = TARNITE;
+	standingunitorder = 2;
+	stone = TARNITE_stone;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = TARNITE;
+	unitnumber = 12068;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                 edgeeffectiveness = 0.5;
+	emittime = 20;
+	explosionclass = Volcblast;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 210 120 235;
+	name = Soul Lightning;
+	outercolor = 100 20 115;
+	range = 400;
+	reloadtime = 3.0;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 775;
+                fort = 1.7;
+                monarch = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 100;
+	buttonimagedisabled = LightningBallPU;
+	buttonimagedown = LightningBallPU;
+	buttonimageselected = LightningBallSBh;
+	buttonimageup = LightningBallSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 200;
+	model = redbeam;
+	name = Fire Shard;
+	range = 600;
+	reloadtime = 2.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = lightning;
+	turnrate = 180;
+	type = Guided;
+                waterexplosionclass = medium water explosion;
+	//weaponart = LtngBall_2a;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1250;
+                fort = 1.7;
+                monarch = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.75;
+	buttonimagedisabled = EarthquakePU;
+	buttonimagedown = EarthquakePU;
+	buttonimageselected = EarthquakeSBh;
+	buttonimageup = EarthquakeSB;
+	damagetype = paralyzer;
+	decaytime = 3;
+	edgeeffectiveness = 1;
+	manapershot = 500;
+	name = Hellscream;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 550;
+	reloadtime = 4.5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = tarnitescream;
+	spritecount = 35;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 200;
+                                lodestone = 0;
+                                factory = 0;
+	}
+}
+

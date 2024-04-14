@@ -1,0 +1,185 @@
+[UNITINFO]
+{
+acceleration = 0.25;
+bankscale = 0.75;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 0.15;//0.75;
+buildcost = 4721;//3221
+buildtime = 662;//331
+canattack = 1;
+canfly = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+cantbetransported = 1;
+category = ILL MAGIC FLY ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 75;
+damagecategory = Monster; 
+damagemodifier = 0.35;//.25
+defaultmissiontype = VTOL_Standby;
+description = Illohir;
+experiencepoints = 60;
+footprintx = 4;
+footprintz = 4;
+hoverattack = 1;
+//hoverattackaltitude = 100;
+hoverattackdistance = 190;
+healtime = 2.7625;
+manarechargerate = 25;
+maneuverleashlength = 500;
+maxdamage = 4177;//4012
+maxmana = 1500;
+maxwaterdepth = 0;
+maxvelocity = 3.55;
+moverate1 = 1; //side to side movement
+moverate2 = 4; //forward to back movement
+name = ChaosChimera;
+objectname = ILLCHIM;
+pitchscale = 0.5;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 200;
+soundcategory = TARCHIM;
+soundclass = TARCHIM;
+standingunitorder = 2;
+stone = illchim_stone;
+tedclass = Illohir;
+ThreeD = 1;
+turninplacerate = 600;
+turnrate = 300;
+unitname = IllChim;
+unitnumber = 1000201;
+upright = 1;
+version = 1;
+weaponswitching = 1;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+aimtolerance = 6144;
+areaofeffect = 50;
+buttonimagedisabled = DeathSwordPU;
+buttonimagedown = DeathSwordPU;
+buttonimageselected = DeathSwordSBh;
+buttonimageup = DeathSwordSB;
+edgeeffectiveness = 0.5;
+explosionclass = Blood Explosion; //LodeExplode;
+firestarter = 1;
+name = Claws;
+nimbus = 1;
+range = 250;
+reloadtime = 3.0;
+smoketrail = 1;
+smokedelay = 6.5;
+soundhitclass = arrow08;
+turnrate = 360;
+type = guided;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 950;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 3072;
+areaofeffect = 150;
+buttonimagedisabled = FireBreathPU;
+buttonimagedown = FireBreathPU;
+buttonimageselected = FireBreathSBh;
+buttonimageup = FireBreathSB;
+damagetype = fire;
+edgeeffectiveness = 1.0;
+explosionclass = FireBall explosion;
+emittime = 35;
+firestarter = 1;
+hweffect = fire;
+manapershot = 500;
+name = RedDragonBreath;
+range = 590;
+reloadtime = 4.0;
+smoketrail = 1;
+smokedelay = 4.5;
+soundhitclass = creflame;
+subtype = DieselFlame;
+type = Line of Sight;
+weaponvelocity = 500;
+lightmap = small;
+nimbus = 1;
+//showeffect = 1;
+
+
+[DAMAGE]
+{
+default = 1100;
+stalwart = 0.5;
+siege = 1.5;
+fort = 1.5;
+dragon = 0.5;
+god = 0.5;
+undead = 1.5;
+monarch = 0.5;
+
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 3072;
+areaofeffect = 100;
+buttonimagedisabled = StoneGazePU;
+buttonimagedown = StoneGazePU;
+buttonimageselected = StoneGazeSBh;
+buttonimageup = StoneGazeSB;
+edgeeffectiveness = 1;
+explosionclass = green_shockring;
+manapershot = 500;
+model = grenorb;
+name = StoneBreath;
+nimbus = 1;
+noairweapon = 1;
+range = 450;
+reloadtime = 3.8;
+smoketrail = 1;
+smokedelay = 4.5;
+soundhit = Moo2;
+subtype = turntostone;
+waterexplosionclass = small water explosion;
+weaponvelocity = 500;
+weaponart = zhonbuild;
+type = Line of Sight;
+
+[DAMAGE]
+{
+default = 1;
+monarch = 0;
+fort = 0;
+factory = 0;
+lodestone = 0;
+dragon = 0;
+airship = 0;
+god = 0;
+naval = 0;
+
+}
+}
+

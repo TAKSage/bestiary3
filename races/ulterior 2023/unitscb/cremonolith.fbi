@@ -1,0 +1,47 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 10000;
+	buildcost = 10250;
+	buildtime = 1650;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Creon;
+	experiencepoints = 12;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 4.175;
+	maxdamage = 11680;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 20;
+	mogriumstorage = 2000;
+	name = Monolith;
+	objectname = cremonolith;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 125;
+	soundcategory = cremonolith;
+	soundclass = cremonolith;
+	tedclass = Creon;
+	unitname = cremonolith;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+
+	[AdjustJoy]
+	{
+		adjustment = 55;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 110;
+	}
+}
+

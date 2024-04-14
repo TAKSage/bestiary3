@@ -1,0 +1,192 @@
+[UNITINFO]
+{
+acceleration = 1;
+bloodcolor1 = 0 0 0;
+bloodcolor2 = 0 0 0;
+bloodcolor3 = 0 0 0;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 112667;
+buildtime = 33345;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL MELEE MAGIC ATTACK GOD;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = God;
+damagemodifier = 0.15;
+defaultmissiontype = Standby_Wander;
+description = Illohir;
+experiencepoints = 1100;
+floater = 0;
+healtime = 282.5432;
+immunetoparalyzer = 1;
+maneuverleashlength = 1000;
+maxdamage = 15700;//13700;
+maxvelocity = 1.35;
+movementclass = GHOST;
+name = Astaroth;
+notargetcategory = lodestone;
+noveteran = 1;
+objectname = ILLPRINCE1;
+radardistance = 5000;
+roadmultiplier = 1.15;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 650;//185;
+soundcategory = TARPRINCE1;
+soundclass = TARPRINCE1;
+standingunitorder = 2;
+stone = Illprince_stone;
+tedclass = Illohir;
+ThreeD = 1;
+totalallowed = 1;
+turninplacerate = 2000;
+turnrate = 1400;
+unitname = ILLPRINCE1;
+unitnumber = 100006;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.5;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 100;
+buttonimagedisabled = DeathSwordPU;
+buttonimagedown = DeathSwordPU;
+buttonimageselected = DeathSwordSBh;
+buttonimageup = DeathSwordSB;
+edgeeffectiveness = 0.5;
+firestarter = 1;
+nimbus = 1;
+smoketrail = 1;
+smokedelay = 6.5;
+turnrate = 180;
+//type = Melee;
+explosionclass = VolcBlast;
+name = Orcus Sword;
+range = 90;
+reloadtime = 3.75;
+soundhit = flame1;
+//turnrate = 180;
+type = guided;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 5500;
+lodestone = 0;
+monarch = 0.05;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 33000;
+areaofeffect = 350;
+decaytime = 1.5;
+edgeeffectiveness = 1.0;
+firestarter = 1;
+name = FeeltheBurn;
+nimbus = 1;
+radiusart0 = ltng_cloud_loop;//explodeb;
+radiusart1 = meteor;
+radiusart2 = flamestrike;
+range = 550;
+reloadtime = 4;
+ringcount = 3;
+ringdelay = 0.5;
+ringduration = 1.5;
+shakeduration = 1;
+shakemagnitude = 1;
+showeffect = 0;
+soundhit = storm1;
+spritecount = 200;
+subtype = Earthquake;
+type = Remote Effect;
+//unitsonly = 1;
+weaponvelocity = 250;
+
+[DAMAGE]
+{
+default = 3900;
+stalwart = 0.5;
+monarch = 0.05;
+}
+
+}
+
+[WEAPON3]
+{
+aimtolerance = 2048;
+areaofeffect = 250;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = VolcBlast;
+firestarter = 1;
+model = GodBall;
+name = DemonDiscus;
+range = 1600; //1000;
+reloadtime = 5;
+smoketrail = 1;
+smokedelay = 4;
+soundhitclass = creflame;
+spinheading = -4500;
+turnrate = 180;
+type = Guided;
+unitsonly = 1;
+weaponvelocity = 450;
+weaponart = flamevortexloop;
+lightmap = medium;
+nimbus = 1;
+
+[DAMAGE]
+{
+default = 2500;
+stalwart = 0.5;
+//lodestone = 0;
+monarch = 0.05;
+}
+}
+
+
+[EXPLODEAS]
+{
+areaofeffect = 1000;
+damagetype = fire;
+explosionclass = megaflame;
+edgeeffectiveness = 1.0;
+firestarter = 1;
+name = This will Hurt;
+shakeduration = 2;
+shakemagnitude = 2;
+soundhit = DEATH11;
+subtype = Earthquake;
+type = Ballistic;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 2000;
+monarch = 0.25;
+god = 0.5;
+dragon = 0.5;
+factory = 0.5;
+fort = 0.5;
+stalwart = 0.5;
+
+}
+}

@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARZOM;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildcost = 156;
+	builddistance = 60;
+	buildtime = 55;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	//cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarzom_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby_wander;
+	description = Taros;
+	experiencepoints = 5;
+	fireatwillrandom = 1;
+	frozen = tarzom_frozen;
+	healtime = 0.15;
+	maneuverleashlength = 500;
+	maxdamage = 3111;
+	maxvelocity = 1.3;
+	movementclass = GROUND2;
+	name = Zombie;
+	objectname = TARZOM;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARZOM;
+	soundclass = TARZOM;
+	standingunitorder = 2;
+	stone = tarzom_stone;
+	tedclass = Taros;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = TARZOM;
+	unitnumber = 116;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 50;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.5;
+	name = Knuckle Samwich;
+	range = 50;
+	reloadtime = 2.65;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 175;
+		fort = 0.5;
+		factory = 0.5;
+		stalwart = 0.5;
+		mechanical = 0.75;
+	}
+}

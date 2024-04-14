@@ -1,0 +1,119 @@
+[UNITINFO]
+{
+ 
+	bodytype = armor;
+	MaxWaterDepth=0;
+	MaxSlope=30;
+	buildangle = 30000;
+                BMCode = 0;
+	buildcost = 131;
+	buildtime = 40;
+                canattack = 1;
+	canstop = 0;
+                canguard = 0;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+                category = TAR MINE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	DefaultMissionType= guard_nomove;
+                Damagecategory=Siege;
+	description = Taros;
+	experiencepoints = 5;
+                floater = 0;
+	footprintx = 1;
+	footprintz = 1;
+	healtime = 0;
+                immunetoparalyzer = 1;
+                init_cloaked = 1;
+                //kamikaze = 1;
+                //kamikazedistance = 350;
+	maxdamage = 100;
+                mogriumincome = -1;
+                mogriumstorage = -50;
+                mincloakdistance = 200;
+	name = Bundle of Pain;
+	objectname = TARMINE;
+	radardistance = 400;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = TAR;
+	sightdistance = 350;
+	soundcategory = ARANGATE;
+	soundclass = ARANGATE;
+	tedclass = Taros;
+                ThreeD = 1;
+	unitname = TARMINE;
+	unitnumber = 66166088;
+                StandingFireOrder = 2;
+	version = 1;
+                canmove=0;
+	canpatrol=0;
+                waterline = 1;
+	YardMap = cccccccccc;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+                aimtolerance = 33000;
+	areaofeffect = 450;
+                edgeeffectiveness = 1;
+                range = 250;
+                reloadtime = 0.5;
+	name = Owww;
+                //soundhitclass = sword;
+                TurnRate = 180;
+	type = Guided;//Melee;
+                weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 150;
+		
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 450;
+	damagetype = explosion;
+	edgeeffectiveness = 1;
+	explosionclass = composite04flame;
+	name = Owwwy;
+               shakeduration = 1;
+               shakemagnitude = 2;
+                soundhit = TARSHIPDIE5;
+	type = Ballistic;
+	waterexplosionclass = megaflame;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.4;
+                                god = 0.5;
+                                dragon = 0.5;
+	}
+}
+
+[SELDESTRUCTAS]
+{
+	areaofeffect = 400;
+	damagetype = fire;
+	explosionclass = megaflame;
+	edgeeffectiveness = 1;
+                firestarter = 1;
+	name = This will Hurt a little;
+                soundhit = DEATH11;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.4;
+                                god = 0.5;
+                                dragon = 0.5;
+	}
+}

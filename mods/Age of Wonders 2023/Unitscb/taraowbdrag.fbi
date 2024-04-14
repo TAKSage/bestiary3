@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 19500;
+	buildtime = 1100;
+	canfly = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Creature;
+	experiencepoints = 150;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = 2;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 15000;
+	maxvelocity = 4.85;
+	maxwaterdepth = 0;
+	moverate1 = 5;
+	moverate2 = 10;
+	mogriumincome = -20;
+	name = Black Dragon;
+	objectname = TARAOWBDRAG;
+	radardistance = 720;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 600;
+	soundcategory = TARDRAG;
+	soundclass = TARDRAG;
+	standingunitorder = 0;
+	standingunitorder = 2; 
+	tedclass = Creature;
+	turninplacerate = 630;
+	turnrate = 630;
+	totalallowed = 1;
+	unitname = TARAOWBDRAG;
+	unitnumber = 44623;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = deathray;
+	name = Black Breath;
+	range = 600;
+	reloadtime = 4;
+	soundhitclass = fire;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		spirit = 0.75;
+		firespirit = 0.75;
+		syron = 0.25;
+		undead = 0.25;
+		demon = 0.75;
+		highman = 0.75;
+		city = 0.05;
+		factory = 0.05;
+		fort = 0.05;
+		building = 0.05;	
+		naval = 0.5;
+		mechanical = 0.5;
+	}
+}
+

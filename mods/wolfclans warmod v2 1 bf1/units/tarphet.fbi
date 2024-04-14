@@ -1,0 +1,204 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = tararch; 
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 20888;
+	builddistance = 400;
+	buildtime = 2666;
+	cananimate = 1; 
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;	
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 120;
+	healtime = 1.0;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 5666;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mogriumincome = -5;
+	mogriumstorage = -1000;
+	movementclass = GROUND2;
+	name = DoomSpeaker;
+	objectname = TARPHET;
+	radardistance = 520;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 380;
+	soundcategory = TARPHET;
+	soundclass = TARPHET;
+	standingunitorder = 1;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2300;
+	turnrate = 2200;
+	unitname = TARPHET;
+	unitnumber = 94;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 1000;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 350;
+	builduptime = 0.5;
+	buttonimagedisabled = WindWavePU;
+	buttonimagedown = WindWavePU;
+	buttonimageselected = WindWaveSBh;
+	buttonimageup = WindWaveSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 220;
+	name = Pain Lash;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_greenC;
+	range = 600;
+	reloadtime = 2.3;
+	ringcount = 3;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 800;
+		undead = 0.2;
+		mechanical = 1.4;
+		  rictus = 0.2;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 133;
+	builduptime = 2;
+	buttonimagedisabled = EnergyBlastPU;
+	buttonimagedown = EnergyBlastPU;
+	buttonimageselected = EnergyBlastSBh;
+	buttonimageup = EnergyBlastSB;
+	decaytime = 2.0;
+	duration = 269.0;
+	manapershot = 666;
+	maxvariation = 1;
+	name = Fire Wall;
+	nimbus = 1;
+	range = 140;
+	reloadtime = 3;
+	type = wandering;
+	variationtime = 2;
+	weaponvelocity = 1;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;	
+
+	[DAMAGE]
+	{
+		default = 333;
+		undead = 0.1;
+		rictus = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		stalwart = 0.1;
+		monarch = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 32000;
+	areaofeffect = 106;
+	builduptime = 4;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FirebreathSBh;
+	buttonimageup = FirebreathSB;
+	decaytime = 3;
+	duration = 16;
+	firestarter = 1;
+	manapershot = 900;
+	maxvariation = 1;
+	name = Word of Death;
+	nimbus = 1;
+	range = 2000;
+	reloadtime = 5;
+	soundhit = worddeth;
+	type = wandering;
+	variationtime = 2;
+	weaponvelocity = 185;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+
+	[DAMAGE]
+	{
+		default = 5555;
+		tier1 = 1.5;
+		monster = 1.5;
+		human = 1.5;
+		amphib = 1.5;
+		dragon = 0.0;
+		gate = 0.0;
+		factory = 0.0;
+		fort = 0.0;
+		monarch = 0.0;
+		lodestone = 0.0;
+		naval = 0.0;
+		mechanical = 0.0;
+		siege = 0.0;
+		stalwart = 0.0;
+		airship = 0.0;
+	}
+}
+[EXPLODEAS]
+{
+	areaofeffect = 66;
+	decaytime = 3;
+	duration = 6;
+	firestarter = 1;
+	maxvariation = 5;
+	nimbus = 1;
+	range = 2000;
+	reloadtime = 5;
+	soundhit = arrow08;
+	type = wandering;
+	variationtime = 2;
+	weaponvelocity = 100;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+
+	[DAMAGE]
+	{
+		default = 30;
+	}
+}

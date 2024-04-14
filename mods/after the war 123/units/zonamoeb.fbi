@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.35;
+	buildcost = 1985;
+//	mogriumbounty = 198.5;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+cantbecaptured = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZONAMOE_dead;
+	damagecategory = hardscale;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 28;
+	frozen = zonamoe_frozen;
+	healtime = 1.145;
+	maneuverleashlength = 500;
+	maxdamage = 7900;
+	maxvelocity = 0.8;
+	movementclass = GROUND5;
+	name = Giant Orm;
+	objectname = ZONAMOE;
+	roadmultiplier = 1.0;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 190;
+	soundcategory = ZONAMOE;
+	soundclass = ZONAMOE;
+	standingunitorder = 2;
+	stone = zonamoe_stone;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = ZONAMOEB;
+	unitnumber = 157;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	name = Bite;
+	noairweapon = 1;
+	range = 45;
+	reloadtime = 2.5;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		factory = 2;
+		stone = 2;
+		wood = 2;
+		kingkiller = 3;
+		antikingmounted = 3;
+		antikingmechanical = 3;
+		antikingflamedemon = 3;
+		antikingunshielded = 3;
+		lodestone = 20;
+		mini = 10;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 120;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	soundhitclass = cresmcan;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10000;
+		monarch = 0.2;
+	}
+}

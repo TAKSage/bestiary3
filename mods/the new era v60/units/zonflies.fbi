@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 2000;
+	buildtime = 220;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonflies_dead;
+	cruisealt = 50;
+	damagecategory = monster;
+	defaultmissiontype = standby;
+	description = Zhon;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	frozen = zonflies_frozen;
+	////firestandorder = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.680555556;
+	hoverattack = 1;
+	hoverattackaltitude = 45;
+	hoverattackdistance = 150;
+	//maneuverleashlength = 250;
+	maxdamage = 4000;
+	maxvelocity = 3;
+	maxwaterdepth = 0;
+	moverate1 = 8;
+	moverate2 = 8;
+	name = Wisp;
+	objectname = ZONFLIES;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ZONFLIES;
+	soundclass = ZONFLIES;
+	standingunitorder = 2;
+	stone = zonflies_stone;
+	tedclass = Zhon;
+	turninplacerate = 1000;
+	turnrate = 1000;
+	unitname = ZONFLIES;
+	unitnumber = 164;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = lightning explosion;
+	emittime = 35;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 200 230 255;
+	name = lightning;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 2.5;
+	soundclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2600;
+
+	[DAMAGE]
+	{
+		default = 600;
+		mechanical = 1.25;
+	}
+}

@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1410;
+	buildtime = 1215;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Zon MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZontarmanIN_dead;
+	defaultmissiontype = Standby;
+	description = Monster;
+	experiencepoints = 8;
+	healtime = 0.4375;
+	maneuverleashlength = 500;
+	maxdamage = 1425;
+	maxvelocity = 2.1;
+	movementclass = GROUND4;
+	name = Black Mantis;
+	objectname = ZonTARMANIN;
+	roadmultiplier = 1.41;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 200;
+	soundcategory = ZonTARMANIN;
+	soundclass = ZonTARMANIN;
+	standingunitorder = 1;
+	stone = ZontarmanIN_stone;
+	tedclass = Zhon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ZonTARMANIN;
+	unitnumber = 15151520;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 25;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 325;
+	reloadtime = 2.0;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 496;
+	}
+}
+

@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1025;
+	buildtime = 245;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                //cantbestoned = 1;
+                //cantbefrozen = 1;
+	category = VER MAGIC ATTACK;
+                cloakcost = 5;
+                cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 28;
+                floater = 0;
+                frozen = vermage2_frozen;
+                healtime = 0.482;
+	manarechargerate = 10;
+	maneuverleashlength = 100;
+	maxdamage = 3500;
+	maxmana = 140;
+	maxvelocity = 1.6;
+                mincloakdistance = 100;
+	movementclass = HOVER3;
+	name = Water Mage;
+	objectname = vermage2;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 188;
+	soundcategory = TARMAGE;
+	soundclass = TARMAGE;
+	standingunitorder = 1;
+                stone = vermage2_stone;
+	tedclass = Veruna;
+	//totalallowed = 40;
+	turninplacerate = 1900;
+	turnrate = 1550;
+	unitname = vermage2;
+	unitnumber = 1444000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+                waterline = 12;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 16000;
+	areaofeffect = 50;
+                edgeeffectiveness = 0.5;
+	explosionclass = blood explosion;
+	manapershot = 20;
+	name = Water Swirl;
+	range = 450;
+	reloadtime = 0.35;
+	soundhitclass = fire;
+	turnrate = 1900;
+	type = Guided;
+                waterexplosionclass = medium water explosion;
+	weaponart = seaspoutloop;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 200;
+                                monarch = 0.25;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+}

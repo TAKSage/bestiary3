@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 17000;
+	buildtime = 5000;
+	canattack = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+        cantransport = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraTelaraat_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 21;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .01;
+	maxdamage = 500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Teleport Tower;
+	objectname = AraTelARAAT;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = AraTelARAAT;
+	soundclass = AraTelARAAT;
+	tedclass = Aramon;
+        transportcapacity = 1;
+        transportdistance = 8000;
+        transportsize = 30;
+        transportsizecapacity = 100;
+	totalallowed = 1;
+	unitname = AraTelARAAT;
+	unitnumber = 35;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}

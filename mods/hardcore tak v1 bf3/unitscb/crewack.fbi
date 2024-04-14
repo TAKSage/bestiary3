@@ -1,0 +1,143 @@
+[UNITINFO]
+{
+	acceleration = 0.16;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 3106;
+	//original buildtime = 659; 420
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//orig no cantbecaptured/stoned
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	//original no cantbetransported
+	cantbetransported = 1;
+	//original no cantbefrozen
+	cantbefrozen = 1;
+	category = CRE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREWACK_dead;
+	//original damagecategory = siege;
+	damagecategory = stalwart;
+	defaultmissiontype = standby;
+	description = Creon;
+	experiencepoints = 21;
+	fireatwillrandom = 1;
+	//frozen = crewack_frozen;
+	healtime = 1.4958333;
+	maneuverleashlength = 500;
+	//original maxdamage = 6840
+	maxdamage = 16840;
+	//original maxvelocity = 0.9;
+	maxvelocity = 0.7;
+	//original movementclass = GROUND3;
+	movementclass = GROUND3B;
+	name = Wacker;
+	objectname = CREWACK;
+	pitchscale = 1.5;
+	//original roadmultiplier = 1.5;
+	roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 140;
+	soundcategory = CREWACK;
+	soundclass = CREWACK;
+	standingunitorder = 1;
+	stone = CREWACK_stone;
+	tedclass = Creon;
+	turnrate = 200;
+	unitname = CREWACK;
+	unitnumber = 4549;
+	version = 1;
+	watermultiplier = 0.5;
+	[AdjustJoy]
+	{
+		adjustment = -2000;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.9;
+		radius = 30;
+	}
+}
+
+[WEAPON1]
+{
+	name = saw;
+	noairweapon = 1;
+	range = 470;
+	reloadtime = 2.0;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 10000;
+		dragon = 0.08;
+		factory = 0.69;
+		fort = 0.32;
+		fort2 = 0.69;
+		god = 0.08;
+		monarch = 0.08;
+		naval = 0.08;
+		monster = 0.32;
+		human = 0.08;
+		siege = 0.16;
+		stalwart = 0.25;
+		tier1 = 0.29;    
+		airship = 0.08;
+		//These are new
+		archer = 0.18;
+		fly = 0.08;
+		siege2 = 0.32;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = Cre Arrow;
+	range = 520;
+	reloadtime = 2.35;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 396;
+	}
+}
+
+[EXPLODEAS]
+{
+	//original areaofeffect = 250;
+	areaofeffect = 180;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Die;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10000;
+		monarch = 0.2;
+		//These are new
+		god = 0.1;
+		fort = 0.2;
+		fort2 = 0.4;
+	}
+}

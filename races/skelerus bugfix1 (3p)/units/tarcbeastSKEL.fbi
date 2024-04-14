@@ -1,0 +1,102 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 8000;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcbeastSKEL_dead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 18;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 8500;
+	maxvelocity = 2.7;
+	movementclass = GROUND3;
+	name = Bone Beast;
+	objectname = tarcbeastSKEL;
+	roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = lifsaber;
+	soundclass = lifsaber;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 2000;
+	turnrate = 1500;
+	unitname = tarcbeastSKEL;
+	unitnumber = 801;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 60;
+	buttonimagedisabled = BeastBoltPU;
+	buttonimagedown = BeastBoltPU;
+	buttonimageselected = BeastBoltSBh;
+	buttonimageup = BeastBoltSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.3;
+	explosionclass = mind control;
+	lightmap = small;
+	name = Bolt;
+	noairweapon = 1;
+	range = 860;
+	reloadtime = 6;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 350;
+	waterexplosionclass = medium water explosion;
+
+	[DAMAGE]
+	{
+		default = 1400;
+		fort = 1.2;
+		factory = 1.2;
+	}
+}
+
+
+[WEAPON2]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Beast Claws;
+	range = 30;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1100;
+	}
+}

@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.14;
+	buildcost = 3451;
+	buildtime = 456;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = versem_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 48;
+	floater = 1;
+	healtime = 0.950;
+	maneuverleashlength = 314;
+	maxdamage = 16031;
+	maxvelocity = 4.3;
+	movementclass = WATER4;
+	name = Sea Serpent;
+	noveteran = 1;
+	objectname = zonsem;
+	pitchscale = 1.5;
+	radardistance = 905;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 310;
+	soundcategory = MONELEM;
+	soundclass = MONELEM;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 380;
+	turnrate = 310;
+	unitname = zonsem;
+	unitnumber = 165;
+	version = 1;
+	waterline = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1300;
+	areaofeffect = 25;
+	edgeeffectiveness = 0.3;
+	explosionclass = WaterBallExp;
+	gravityadjustment = 2.5;
+	name = Water Ball;
+	range = 790;
+	reloadtime = 3.1;
+	soundhit = monelemhit1;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 411;
+
+	[DAMAGE]
+	{
+		default = 1031;
+		dragon = 0.25;
+	}
+}

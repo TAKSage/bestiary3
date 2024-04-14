@@ -1,0 +1,164 @@
+[UNITINFO]
+{
+	acceleration = 0.8;
+	bankscale = 0.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 43944;
+	buildtime = 8755;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 300;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 9.7278;
+	hoverattack = 1;
+	hoverattackdistance = 400;
+	manarechargerate = 5;
+	maneuverleashlength = 300;
+	maxdamage = 23999;
+	maxmana = 1000;
+	maxvelocity = 7;
+	maxwaterdepth = 0;
+	name = Horror Queen;
+	objectname = TARCSKYQ;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 230;
+	soundcategory = TARCSKYQ;
+	soundclass = TARCSKYQ;
+	standingunitorder = 2;
+	tedclass = Taros;
+	totalallowed = 1;
+	turnrate = 500;
+	unitname = TARCSKYQ;
+	unitnumber = 814;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	aimtolerance = 1000;
+	areaofeffect = 90;
+	damagetype = explosion;
+	explosionclass = large explosion;
+	name = Bolt;
+	range = 500;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	model = tarcbolt.3do;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 200;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 2.6;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 300;
+	builduptime = 1.2;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 800;
+	name = Area Mind Control;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 400;
+	reloadtime = 6;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 25;
+	subtype = mindcontrol;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

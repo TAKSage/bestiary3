@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 10;
+	buildcost = 2967;
+	buildtime = 315;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verelfelem_dead;
+	damagecategory = elf;
+	defaultmissiontype = Standby;
+	description = Elf;
+	experiencepoints = 35;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 16250;
+	maxmana = 1000;
+	maxvelocity = 1.8;
+	manarechargerate = 20;
+	mogriumincome = -8;
+	movementclass = GROUND2;
+	name = Nature Elemental;
+	objectname = VERELFELEM;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 660;
+	soundcategory = ELFELEM;
+	soundclass = ELFELEM;
+	standingunitorder = 2;
+	tedclass = Elf;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERELFELEM;
+	unitnumber = 9550;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustJoy]	
+	{
+		adjustment = 125;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 220;
+	}
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 20;
+	edgeeffectiveness = 0.5;
+	lightmap = small;
+	name = Magic Strike;
+	range = 30;
+	reloadtime = 1.7;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1895;
+		spirit = 1.5;	
+		firespirit = 1.5;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		lizard = 1.25;
+		goblin = 1.325;
+		syron = 0.5;
+		demon = 0.75;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = acidballgpu;
+	buttonimagedown = acidballgpu;
+	buttonimageselected = acidballgsbh;
+	buttonimageup = acidballgsb;
+	aimtolerance = 1024;
+	damagetype = paralyser;
+	explosionclass = green_shockring;
+	manapershot = 800;
+	name = Entangle;
+	range = 120;
+	reloadtime = 2.5;
+	soundhit = summon2;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		naval = 0;	
+	}
+}

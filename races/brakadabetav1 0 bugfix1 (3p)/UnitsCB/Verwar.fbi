@@ -1,0 +1,98 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1469;
+	buildtime = 240;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verwar_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 36;
+	healtime = 0.816666667;
+                  manarechargerate = 12.5;
+	maneuverleashlength = 500;
+	maxdamage = 4425;
+                  maxmana = 1000;
+	maxvelocity = 1.45;
+	movementclass = GROUND2;
+	name = Warrior Mage;
+	objectname = VERWAR;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 175;
+	soundcategory = VERMAW;
+	soundclass = VERMAW;
+	standingunitorder = 2;
+	stone = vermaw_stone;
+	tedclass = Veruna;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = VERWAR;
+	unitnumber = 125;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 26;
+                  buttonimagedisabled = wmsworddisabled;
+                  buttonimagedown = wmsworddisabled;
+                  buttonimageselected = wmswordselected;
+                  buttonimageup = wmswordup;
+	edgeeffectiveness = 0.7;
+	name = Broad Sword;
+	range = 80;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 615;
+	}
+}
+
+[WEAPON2]
+{
+                  aimtolerance = 1024;
+                  areaofeffect = 75;
+                  buttonimagedisabled = WaterBallPU;
+                  buttonimagedown = WaterBallPU;
+                  buttonimageselected = WaterBallSBh;
+                  buttonimageup = WaterBallSB;
+                  explosionclass = WaterBallExp;
+                  lightmap = small;
+                  manapershot = 175;
+                  name = Water Ball;
+                  nimbus = 1;
+                  range = 400;
+                  reloadtime = 2.2;
+                  soundhit = arrow08;
+                  type = Guided;
+                  weaponart = waterball;
+                  weaponvelocity = 350;
+
+                  [DAMAGE]
+                  {
+                                default = 459;
+                  }
+}

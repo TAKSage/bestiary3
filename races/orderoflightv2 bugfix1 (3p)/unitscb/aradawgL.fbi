@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 170 45 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 500;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradawgL_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 10;
+	healtime = 1;
+	maneuverleashlength = 600;
+	maxdamage = 900;
+	maxvelocity = 3.5;
+	movementclass = GROUND2;
+	name = War Hound;
+	objectname = aradawgL;
+	roadmultiplier = 1.4;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 175;
+	soundcategory = AraDawgL;
+	soundclass = AraDawgL;
+	standingunitorder = 2;
+	stone = aradawgL_stone;
+	tedclass = Light;
+	totalallowed = 5;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aradawgL;
+	unitnumber = 97979706;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1;
+}
+
+[WEAPON1]
+{
+	name = Bite;
+	range = 50;
+	reloadtime = .5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 250;
+		fort = .25;
+		siege = .5;
+		factory = .25;
+		lodestone = .25;
+		naval = .25;
+		mechanical = .5;
+	}
+}

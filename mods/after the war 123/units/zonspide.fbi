@@ -1,0 +1,134 @@
+[UNITINFO]
+{
+	bodytype = flesh;
+	buildcost = 6682;
+//	mogriumbounty = 668.2;
+	buildtime = 655;
+	canattack = 1;
+	cancloak = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK;
+	cloakcost = 10;
+stealth = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonspide_dead;
+	damagecategory = antikingmonster;
+	defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 61;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.0;
+	maxdamage = 15800;
+maxmana = 10;
+manarechargerate = 10;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mincloakdistance = 100;
+	name = Trapdoor Spider;
+	objectname = zonspide;
+	radardistance = 1200;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 350;
+	soundcategory = zonspide;
+	soundclass = zonspide;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	unitname = zonspide;
+	unitnumber = 166;
+	version = 1;
+	yardmap = ccc ccc ccc;
+Init_Cloaked = 1;
+}
+
+	[AdjustArmor]
+	{
+		adjustment = 0.75;
+		affectsenemy = 1;
+		edgeeffectiveness = 1;
+		radius = 150;
+	}
+	[AdjustAttack]
+	{
+		adjustment = 0.75;
+		affectsenemy = 1;
+		edgeeffectiveness = 1;
+		radius = 150;
+	}
+
+[WEAPON1]
+{
+	areaofeffect = 80;
+	aimtolerance = 1024;
+	buttonimagedisabled = LightHouseStunPU;
+	buttonimagedown = LightHouseStunPU;
+	buttonimageselected = LightHouseStunSBh;
+	buttonimageup = LightHouseStunSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	name = Paralyzing venom;
+	range = 200;
+	reloadtime = 7;
+	soundhit = arrow08;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 200;
+		stone = 0;
+		factory = 0;
+		wood = 0;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+		steel = 0;
+		naval = 0;
+		steelnaval = 0;
+		god = 0;
+		monarch = 0;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 80;
+	aimtolerance = 1024;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.75;
+	explosionclass = blue_shockring;
+	name = Claws;
+	range = 200;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		stone = 0.75;
+		factory = 0.75;
+		monster = 1.5;
+		antikingunshielded = 1.5;
+		antikingmonster = 1.5;
+		unshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		steel = 0.75;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+		monarch = 0.25;
+		god = 0.5;
+	}
+}

@@ -1,0 +1,155 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 7356;
+                builder = 1;
+	builddistance = 200;
+	buildtime = 1255;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+               cantbefrozen = 1;
+	category = TAR BUILDER;
+	cloakcost = 25;
+	cloakcostmoving = 100;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 15;
+	experiencepoints = 151;
+                healtime = 7.71;
+	manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mincloakdistance = 50;
+	mogriumincome = 5;
+	mogriumstorage = 2000;
+	movementclass = GROUND2;
+	name = Lokken;
+	noveteran = 1;
+	objectname = TARNECROD;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 225;
+	soundcategory = TARNECRO;
+	soundclass = TARNECRO;
+	standingunitorder = 1;
+	tedclass = Taros;
+	totalallowed = 5;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = TARNECROD;
+	unitnumber = 255005;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Decoy Fire Ball;
+	nimbus = 1;
+	range = 420;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = Line of Sight;
+                  waterexplosionclass = medium water explosion;
+	weaponart = FireballA;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 950;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	manapershot = 200;
+	name = Decoy Guided Fire Ball;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 1.5;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+                  waterexplosionclass = medium water explosion;
+	weaponart = FireballB;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1200;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Decoy Fire Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 120;
+	reloadtime = 1.5;
+	ringcount = 2;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 14;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 2150;
+	}
+}

@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2860;
+	buildtime = 420;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = credev_dead;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 30;
+	floater = 0;
+	healtime = 2.3333333;
+	maneuverleashlength = 500;
+	maxdamage = 6250;
+	maxvelocity = 2.3;
+	movementclass = GROUND2;
+	name = Mutant;
+	objectname = CREDEV;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 160;
+	soundcategory = MONDEV;
+	soundclass = MONDEV;
+	standingunitorder = 2;
+	stone = credev_stone;
+	tedclass = Creon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CREDEV;
+	unitnumber = 56;
+	upright = 1;
+	version = 1;
+	watermultiplier = .48;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Arms;
+	range = 30;
+	reloadtime = 1.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 460;
+		tier1 = 1.5;
+		fort = 0.25;
+		factory = 0.25;
+		stalwart = 0.25;
+		mechanical = 0.75;
+		naval = 0.25;
+	}
+}

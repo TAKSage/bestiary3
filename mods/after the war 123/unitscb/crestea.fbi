@@ -1,0 +1,88 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 2605;
+	mogriumbounty = 260.5;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = CRE BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRESTEA_dead;
+	damagecategory = steelnaval;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 30;
+	floater = 1;
+	healtime = 1.4;
+	maneuverleashlength = 500;
+	maxdamage = 5500;
+	maxvelocity = 2.6;
+	movementclass = WATER3;
+	name = Steamer;
+	objectname = CRESTEA;
+	pitchscale = 1.5;
+	radardistance = 780;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 380;
+	soundcategory = CRESTEA;
+	soundclass = CRESTEA;
+	standingunitorder = 2;
+	tedclass = Creon;
+	transportcapacity = 1;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	turnrate = 160;
+	unitname = CRESTEA;
+	unitnumber = 501;
+	version = 1;
+	waterline = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Real fire;
+	range = 350;
+	reloadtime = 3.0;
+	soundhitclass = creflame;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 750;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}

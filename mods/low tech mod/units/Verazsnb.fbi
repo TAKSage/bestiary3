@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 95;
+	buildtime = 35;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verazsnb_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 3;
+	healtime = 4.0;
+	maneuverleashlength = 500;
+	maxdamage = 875;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	name = Snowballer;
+	objectname = VERAZSNB;
+	radardistance = 350;
+	roadmultiplier = 1.2;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 100;
+	soundcategory = VERAZSNB;
+	soundclass = VERAZSNB;
+	standingunitorder = 1;
+	stone = Verazsnb_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERAZSNB;
+	unitnumber = 3300;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Snowball;
+	range = 250;
+	reloadtime = 1.05;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = ASnowball10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 100;
+		fort = 1.2;
+		mechanical = 1.2;
+	}
+}

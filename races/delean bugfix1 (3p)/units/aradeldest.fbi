@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration =  0.35;
+	bankscale =  1.75;
+	bmcode =  1;
+	bodytype = wood;
+	brakerate =  0.07;
+	buildcost =  810;
+	builderlimited = 1;
+	buildtime =  120;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 0;
+	cantbetransported = 0;
+	category = ARADEL BOAT BALLISTIC ATTACK ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =  aradeldest_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description =  Aramon;
+	experiencepoints =  20;
+	floater = 1;
+	healtime =  0.93125;
+	maxdamage =  3200;
+	maxvelocity =  3.5;
+	movementclass = WATER3;
+	name = Elven Destroyer;
+	noveteran = 1;
+	objectname = aradeldest;
+	pitchscale =  1.5;
+	radardistance =  500;
+	shadowart =  shadow02;
+	shadowgaf =  shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance =  301;
+	soundcategory = VERSCOUT;
+	soundclass = VERSCOUT;
+	standingunitorder = 2;
+	stone =  aradeldest_stone;
+	tedclass =  Aramon;
+	turnrate =  210;
+	unitname = aradeldest;
+	unitnumber =  1203;
+	version =  1;
+	waterline =  1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Musket;
+	range = 550;
+	reloadtime = 6.2;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}

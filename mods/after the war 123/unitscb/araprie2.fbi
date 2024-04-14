@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5920;
+	mogriumbounty = 1184;
+	buildtime = 1110;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araprie2_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 35;
+	frozen = araprie2_frozen;
+	healtime = 4.616666667;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2300;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mogriumincome = 1;
+	mogriumstorage = 300;
+	movementclass = GROUND2;
+	name = Acolyte of Anu;
+	objectname = ARAPRIE2;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 265;
+	soundcategory = ARAPRIES;
+	soundclass = ARAPRIES;
+	standingunitorder = 1;
+	stone = araprie2_stone;
+	tedclass = Aramon;
+	turnrate = 2500;
+	unitname = ARAPRIE2;
+	unitnumber = 27;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+
+	[AdjustJoy]
+	{
+		adjustment = 25.0;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}

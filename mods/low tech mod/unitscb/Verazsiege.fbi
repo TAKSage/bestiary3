@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 1000;
+	buildtime = 155;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verazsiege_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 60;
+	healtime = 1.8;
+	maneuverleashlength = 640;
+	maxdamage = 3000;
+	maxvelocity = 1.1;
+	movementclass = GROUND3;
+	name = Crystal Pandora;
+	objectname = VERAZSIEGE;
+	pitchscale = 1.1;
+	roadmultplier = 1.4;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 150;
+	soundcategory = VERAZSIEGE;
+	soundclass = VERAZSIEGE;
+	standingunitorder = 1;
+	stone = verazsiege_stone;
+	tedclass = Veruna;
+	turninplacerate = 335;
+	turnrate = 335;
+	unitname = VERAZSIEGE;
+	unitnumber = 3500;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+	damagetype = explosion;
+	edgeeffectiveness = 0.3;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Crystal Pandora Shot;
+	range = 800;
+	reloadtime = 5.3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 950;
+		fort = 1.2;
+		tier1 = 1.2;
+	}
+}

@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 10000;
+	buildcost = 2755;
+	buildtime = 310;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = taroobi_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+                //digger = 1;
+	experiencepoints = 32;
+                floater = 0;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.625;
+	maxdamage = 5400;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	name = Shadow Obelisk;
+	objectname = taroobi;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 275;
+              soundcategory = TARILLODE;
+	soundclass = TARILLODE;
+	tedclass = taros;
+              ThreeD = 1;
+	unitname = taroobi;
+	unitnumber = 241011;
+	version = 1;
+	yardmap = o;
+                waterline = 2;
+              ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+               areaofeffect = 25;
+               edgeeffectiveness = 0.5;
+	explosionclass = Mindspin;
+                firestarter = 1;
+	gravityadjustment = 0.6;
+                guidance = 1;
+	model = spiker;
+	name = Crystal Sting;
+	nimbus = 1;
+	range = 510;
+	reloadtime = 2.75;
+                smoketrail = 1;
+               smokedelay = 3.5;
+               soundhitclass = cannon;
+               soundwater = splash;
+               spinheading = 5000;
+               tracks = 1;
+               turnrate = 360;
+	type = Ballistic;
+              waterexplosionclass = medium water explosion;
+               weaponart = ltngball_2a;
+	weaponvelocity = 600;
+            
+
+	[DAMAGE]
+	{
+		default = 400;
+                            dragon = 2.0;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 0.4;
+                god = 0.4;
+                airship = 2.0;
+                stalwart = 2.0;
+                Tier1 = 2.0;
+                mechanical = 0.4;
+                monster = 0.3;
+                human = 0.4;
+                undead = 2.0;
+                naval = 0.4;
+                siege = 0.4;
+	}
+}

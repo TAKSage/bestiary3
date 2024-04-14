@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+activatewhenbuilt = 1;
+bodytype = stone;
+buildcost = 8251;//7951
+buildtime = 745;//705
+canattack = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbetransported = 1;
+category = Ill MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illstat_dead;
+damagecategory = fort;
+defaultmissiontype = guard_nomove;
+description = Illohir;
+experiencepoints = 75;
+floater = 0;
+footprintx = 3;
+footprintz = 3;
+healtime = 13.567;
+maxdamage = 21189;
+maxslope = 15;
+maxwaterdepth = 5;
+name = ChaosGuardian;
+objectname = IllSTAT;
+radardistance = 750;
+shadowgaf = shadows;
+shootme = 1;
+side = Ill;
+sightdistance = 550;
+soundcategory = TARSTAT;
+soundclass = TARSTAT;
+tedclass = Illohir;
+ThreeD = 1;
+unitname = IllSTAT;
+unitnumber = 100041;
+version = 1;
+yardmap = o;
+waterline = 2;
+ZBuffer = 1;
+}
+
+
+[WEAPON1]
+{
+aimtolerance = 1024;
+areaofeffect = 75;
+boltcount = 2;
+damagetype = fire;
+emittime = 30;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+firestarter = 1;
+hweffect = lightning1;
+jagginess = 1;
+innercolor = 255 255 255;
+lightmap = small;
+middlecolor = 255 0 255;
+name = ThunderStrike;
+nimbus = 1;
+outercolor = 255 255 255;
+range = 600;
+reloadtime = 3.45;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = gzzap;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+unitsonly = 1;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 1500;
+
+
+[DAMAGE]
+{
+default = 1140;//1440;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+tier1 = 1.5;
+undead = 1.25;
+mechanical = 1.5;
+
+}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 400;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = megaflame;
+name = Return to Hell;
+soundhitclass = deathboom;
+type = Ballistic;
+waterexplosionclass = megaflame;
+weaponvelocity = 300;
+
+[DAMAGE]
+{
+default = 750;
+monarch = 0.5;
+fort = 0.5;
+factory = 0.5;
+}
+}
+
+
+

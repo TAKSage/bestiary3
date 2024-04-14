@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 1000;
+	buildtime = 300;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arangateL_dead;
+	damagecategory = fort;
+	description = Light;
+	experiencepoints = 15;
+	footprintx = 14;
+	footprintz = 4;
+	gate = 1;
+	healtime = .1;
+	maxdamage = 25000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Horizontal Gate;
+	objectname = aradelgatehL;
+	onoffable = 1;
+	radardistance = 450;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = aradelgatehL;
+	soundclass = aradelgatehL;
+	tedclass = Light;
+	totalallowed = 10;
+	unitname = aradelgatehL;
+	unitnumber = 97979709;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = ooooccccccoooo ooooccccccoooo ooooccccccoooo ooooccccccoooo;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	areaofeffect = 50;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Gate Cannon 1;
+	range = 350;
+	reloadtime = 1;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 300;
+		fort = 0;
+		factory = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	areaofeffect = 50;
+	explosionclass = small dust puff;
+	model = ASnowball;
+	name = Gate Cannon 2;
+	range = 350;
+	reloadtime = 1;
+	soundhitclass = hammer;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 300;
+		fort = 0;
+		factory = 0;
+	}
+}

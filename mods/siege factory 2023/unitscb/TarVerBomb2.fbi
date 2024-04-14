@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 15000;
+	buildtime = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Tar;
+	cloakcost = 10;
+	cloakcostmoving = 10;	
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Siege;
+	description = Siege;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .1;
+	manarechargerate = 50;	
+	maxdamage = 200;
+	maxmana = 500;	
+	maxslope = 100;
+	maxwaterdepth = 20;
+	mincloakdistance = 60;	
+	name = Targeter;
+	noshadow = 1;
+	objectname = TarVERBOMB2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 300;
+	soundcategory = AraVERBOMB;
+	tedclass = Siege;
+	totalallowed = 3;
+	unitname = TarVERBOMB2;
+	unitnumber = 12121250;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 350;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .5;
+		fort = 5;
+		factory = 5;
+		lodestone = 5;
+		naval = 5;
+		siege = 5;
+	}
+}

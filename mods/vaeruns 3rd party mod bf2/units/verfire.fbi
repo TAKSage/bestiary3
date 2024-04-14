@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.07;
+	buildcost = 2211;
+	buildtime = 176;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+               cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = VER BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verharp_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 18;
+	floater = 1;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 5254;
+	maxvelocity = 3.5;
+	movementclass = WATER4;
+	name = Fire Gally;
+	objectname = VERFIRE;
+	pitchscale = 1.5;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 190;
+	soundcategory = VERHARP;
+	soundclass = VERHARP;
+	standingunitorder = 1;
+	tedclass = Veruna;
+	transportcapacity = 16;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 64;
+	turnrate = 210;
+	unitname = VERFIRE;
+	unitnumber = 135;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Firecannon;
+	range = 450;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 600;
+                Naval = 1.3;
+	}
+}

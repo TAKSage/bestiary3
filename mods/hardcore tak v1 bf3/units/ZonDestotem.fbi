@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 5800;
+	buildtime = 600;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZonDestotem_dead;
+	damagecategory = fort2;
+	defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 70;
+	footprintx = 9;
+	footprintz = 5;
+	healtime = 1.270833333;
+	maxdamage = 12532;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Destruction Totem;
+	objectname = ZonDestotem;
+	radardistance = 2750;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 300;
+	soundcategory = ZonDestotem;
+	soundclass = ZonDestotem;
+	tedclass = Zhon;
+	unitname = ZonDestotem;
+	unitnumber = 4202;
+	version = M.1.1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = creon paralyzer;
+	innercolor = 180 235 255;
+	lightmap = medium;
+	middlecolor = 130 120 255;
+	name = lightning;
+	outercolor = 215 120 255;
+	range = 490;	//mage tower = 540
+	//original reloadtime = 2.4; 1.7;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1450; //dmg = 967/s
+		airship = 0.05;	//damage = 73;
+		dragon = 0.3;
+		fly = 0.1;	//damage = 145;
+		tier1 = 2.45;            //dmg = 
+		archer = 1.0;		 //dmg = 
+		monarch = 1.2;
+		monster = 1.3;  //damage = 1885
+		stalwart = 0.7;
+		support = 0.75;
+		scout = 0.02;
+		god = 0.45;	//dmg = 656
+		undead = 0.85;
+	}
+}

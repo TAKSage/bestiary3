@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 175 0;
+	bloodcolor2 = 10 140 70;
+	bloodcolor3 = 5 100 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2500;
+	buildtime = 325;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = goblin;
+	defaultmissiontype = Standby;
+	description = Goblin;
+	experiencepoints = 25;
+	healtime = 1.75;
+	maneuverleashlength = 500;
+	maxdamage = 11250;
+	maxvelocity = 1.05;
+	mogriumincome = -7;
+	movementclass = GROUND2;
+	name = Troll;
+	objectname = ZONGOBTROLL;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 425;
+	soundcategory = GOBTROLL;
+	soundclass = GOBTROLL;
+	standingunitorder = 2;
+	tedclass = Goblin;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONGOBTROLL;
+	unitnumber = 42550;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 35;
+	edgeeffectiveness = 0.5;
+	name = Club;
+	range = 150;
+	reloadtime = 3.1;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2685;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

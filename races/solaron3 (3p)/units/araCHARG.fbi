@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration =  10;
+	bloodcolor1 =  160 35 0;
+	bloodcolor2 =  170 40 0;
+	bloodcolor3 =  180 30 5;
+	bmcode =  1;
+	bodytype = stone;
+	brakerate =  10;
+	buildcost =  492;
+	buildtime =  212;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA MELEE ATTACK ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =  araCHARG_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description =  Aramon;
+	description =  Aramon;
+	experiencepoints =  3;
+	fireatwillrandom = 1;
+	healtime =  1.91;
+	maxdamage =  2350;
+	maxvelocity = 5;
+	movementclass = GROUND2;
+	name =  Charge;
+	noveteran = 1;
+	objectname =  araCharg;
+	roadmultiplier =  1;
+	shootme = 1;
+	side = ARA;
+	sightdistance =  200;
+	soundcategory =  araCHARGE;
+	soundclass =  araCHARGE;
+	standingunitorder = 2;
+	stone =  araCHARG_stone;
+	tedclass =  Charge;
+	turninplacerate =  2500;
+	turnrate =  2500;
+	unitname =  araCharg;
+	unitnumber =  99999913;
+	unitstandorders = 2;
+	upright = 1;
+	version =  1;
+	watermultiplier =  1;
+}
+[WEAPON1]
+{
+	name = Tusks;
+	range = 250;
+	reloadtime = 1.6;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 295;
+	}
+}
+
+// created by TDFEdit

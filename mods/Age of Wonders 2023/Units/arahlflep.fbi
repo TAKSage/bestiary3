@@ -1,0 +1,119 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1500;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cancloak = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahlflep_dead;
+	cloakcost = 10;
+	cloakcostmoving = 28;
+	damagecategory = halfling;
+	defaultmissiontype = Standby;
+	description = Halfling;
+	experiencepoints = 22;
+	healtime = 1.65;
+	maneuverleashlength = 500;
+	maxdamage = 4650;
+	maxmana = 1000;
+	manarechargerate = 20;
+	maxvelocity = 3.35;
+	mogriumincome = -6;
+	movementclass = GROUND2;
+	name = Leprechaun;
+	objectname = ARAHLFLEP;
+	roadmultiplier = 1.35;
+	radardistance = 400;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 160;
+	soundcategory = HLFSWORD;
+	soundclass = HLFSWORD;
+	standingunitorder = 2;
+	tedclass = Halfling;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = ARAHLFLEP;
+	unitnumber = 42537;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 30;
+	edgeeffectiveness = 0.7;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Strike;
+	range = 25;
+	reloadtime = 1.1;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.5;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		spirit = 1.1;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	explosionclass = small dust puff;
+	model = slingstone;
+	name = Sling;
+	range = 300;
+	reloadtime = 1.3;
+	soundhitclass = hammer;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 380;
+
+	[DAMAGE]
+	{
+		default = 350;
+		undead = 0.5;
+		spirit = 0.5;
+		firespirit = 0.5;
+		mechanical = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+	}
+}
+

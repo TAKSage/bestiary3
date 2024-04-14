@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 500;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 25;
+	healtime = 0.82917;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxmana = 1000;
+	maxvelocity = 2.9;
+	movementclass = GROUND3;
+	name = Mirkwood Spider;
+	objectname = tarmirkspider;
+	radardistance = 500;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 769;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	standingunitorder = 1;
+	stone = tarspout_stone;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = tarmirkspider;
+	unitnumber = 107;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Spider Tusks;
+	range = 300;
+	reloadtime = 1.15;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 100;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowParalyzePU;
+	buttonimagedown = ArrowParalyzePU;
+	buttonimageselected = ArrowParalyzeSBh;
+	buttonimageup = ArrowParalyzeSB;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	manapershot = 250;
+	name = Sting;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 300;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+	}
+
+}

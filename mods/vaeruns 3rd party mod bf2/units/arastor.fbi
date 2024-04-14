@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 4500;
+	buildtime = 1200;
+                 cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arastor_dead;
+	description = Aramon;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.4;
+	maxdamage = 6500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 5;
+	mogriumstorage = 15000;
+	name = Mana Pyramid;
+	objectname = ARASTOR;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 125;
+	soundcategory = verpill;
+	soundclass = verpill;
+	tedclass = Aramon;
+        totalallowed = 10;
+	unitname = ARASTOR;
+	unitnumber = 1085;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

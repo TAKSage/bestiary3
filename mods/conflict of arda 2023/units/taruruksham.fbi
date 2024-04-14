@@ -1,0 +1,155 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5292;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 911;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cantbecaptured = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = taruruk_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 29;
+	floater = 0;
+	healtime = 3.795833;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3155;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Uruk Shaman;
+	objectname = taruruksham;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = ZONTROLL;
+	soundclass = ZONTROLL;
+	standingunitorder = 1;
+	stone = verlihr_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = taruruksham;
+	unitnumber = 139;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 35;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	model = araarrowI;
+	name = Staff Jab;
+	range = 200;
+	reloadtime = 3.5;
+	soundhitclass = hammer;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 90;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 3;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 500;
+	name = Fire Storm;
+	nimbus = 1;
+	particlespersecond = 2;
+	range = 447;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 250;
+		targunpowder = 8000;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 2000;
+	damagetype = paralyzer;
+	buttonimagedisabled = LongTermStunPU;
+	buttonimagedown = LongTermStunPU;
+	buttonimageselected = LongTermStunSBh;
+	buttonimageup = LongTermStunSB;
+	emittime = 50;
+	hweffect = creon paralyzer;
+	innercolor = 0 255 128;
+	manapershot = 1000;
+	middlecolor = 24 230 128;
+	outercolor = 48 200 128;
+	lightmap = medium;
+	manapershot = 900;
+	name = Stun;
+	range = 450;
+	reloadtime = 2.1;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

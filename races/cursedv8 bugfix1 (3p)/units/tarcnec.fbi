@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARCPHAN;	
+	attractsgods = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 255 255 255;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6630;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 810;
+	cananimate = 1;
+	canattack = 1;
+	canbuild = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcnec_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 40;
+	healtime = 4;
+	immunetofire = 1;
+	immunetoparalyzer = 1;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 5600;
+	maxmana = 2000;
+	maxvelocity = 1.5;
+	mogriumincome = 3;
+	mogriumstorage = 800;
+	movementclass = HOVER2;
+	name = Infernal Mage;
+	objectname = tarcnec;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = tarcnec;
+	soundclass = tarcnec;
+	standingunitorder = 1;
+	stone = tarcnec_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarcnec;
+	unitnumber = 850;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	name = Fire Bolt;
+	range = 400;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = Line of Sight;
+	weaponart = FireballA;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 690;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 90;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = large explosion;
+	firestarter = 1;
+	lightmap = large;
+	manapershot = 600;
+	model = mfirebll.3do;
+	name = Fire Ball;
+	range = 500;
+	reloadtime = 2.8;
+	smoketrail = 1;
+	smokedelay = .01;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	weaponart = FireballB;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		fort = 1.2;
+		monarch = 0.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 32000;
+	areaofeffect = 600;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.0;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 1500;
+	name = Apocalypse;
+	nimbus = 1;
+	particlespersecond = 16;
+	range = 100;
+	reloadtime = 10.0;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = meteor;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 250;
+		fort = 0.5;
+		monarch = 0.5;
+	}
+}

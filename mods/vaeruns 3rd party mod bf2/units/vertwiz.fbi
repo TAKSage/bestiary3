@@ -1,0 +1,158 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4500;
+	buildtime = 1500;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//canhover = 1;
+	//corpse = verTWiz_dead;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 125;
+                 frozen = vertwiz_frozen;
+                floater = 0;
+	healtime = 2.443;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 9500;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	movementclass = HOVER2;
+	name = Tidal Wizard;
+	objectname = verTWiz;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 222;
+	soundcategory = verTWiz;
+	soundclass = verTWiz;
+	standingunitorder = 2;
+	stone = verTWiz_stone;
+	tedclass = Veruna;
+	turninplacerate = 1250;
+	turnrate = 750;
+	unitname = verTWiz;
+	unitnumber = 100817;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.1;
+	weaponswitching = 1;
+	waterline = 12;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = Waterballexp;
+	name = Water Stream;
+	range = 500;
+	reloadtime = 2.0;
+	soundhit = Twizata1;
+	turnrate = 180;
+	type = Guided;
+	model = verTwizshot1;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 100;
+                buttonimagedisabled = WaterBallGPU;
+	buttonimagedown = WaterBallGPU;
+	buttonimageselected = WaterBallGSBh;
+	buttonimageup = WaterBallGSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = water splash;
+	lightmap = medium;
+	manapershot = 200;
+	name = Water Projection;
+	range = 600;
+	reloadtime = 1.5;
+	soundhit = laser;
+	type = Line of Sight;
+	weaponart = waterball;
+                 waterexplosionclass = medium water explosion;
+               weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 2800;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 300;
+                buttonimagedisabled = WaterBurstPU;
+	buttonimagedown = WaterBurstPU;
+	buttonimageselected = WaterBurstSBh;
+	buttonimageup = WaterBurstSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = TsunamiExp;
+	manapershot = 750;
+	name = Tidal Wave;
+	nimbus = 1;
+	range = 700;
+	reloadtime = 1.8;
+	soundhit = laser;
+	turnrate = 180;
+	type = Guided;
+	model = VerTwizshot3;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 4100;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = water splash;
+	name = Watery Death;
+	//range = 750;
+	//reloadtime = 6;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.5;
+		//ver = 0;
+	}
+}

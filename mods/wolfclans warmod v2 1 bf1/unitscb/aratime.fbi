@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+        bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5856;
+	buildtime = 639;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+      	canresurrect = 1;
+	canstop = 1;
+      	cantbestoned = 1;
+	category = ARA MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 68;
+      	healtime = 0.9833333;
+	manarechargerate = 12;
+	maneuverleashlength = 500;
+	maxdamage = 4305;
+	maxmana = 1000;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = Time Lord;
+	noveteran = 1;
+	objectname = ARATIME;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 225;
+	soundcategory = ARATIME;
+	soundclass = ARATIME;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	totalallowed = 4;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = ARATIME;
+	unitnumber = 1403;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2048;
+	areaofeffect = 32;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 25;
+      	explosionclass = blood explosion;
+	hweffect = lightning;
+	manapershot = 65;
+	name = Wither;
+	range = 500;
+	reloadtime = 0.3;
+	soundhitclass = sword;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 500;
+	innercolor = 255 255 150;
+	middlecolor = 230 230 145;
+	outercolor = 255 128 64;
+
+	[DAMAGE]
+	{
+		default = 255;
+		mechanical = 0.5;
+		fort = 0.0;
+		factory = 0.0;
+		gate = 0.0;
+		lodestone = 0.0;
+		naval = 0.0;
+		airship = 0.0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 700;
+	builduptime = 2.25;
+	buttonimagedisabled = TimePU;
+	buttonimagedown = TimePU;
+	buttonimageselected = TimeSBh;
+	buttonimageup = TimeSB;
+	decaytime = 2;
+	damagetype = paralyzer;
+	manapershot = 800;
+	name = Timestop;
+	nimbus = 1;
+	radiusart0 = dustpuffc;
+	radiusart1 = dustpuffc;
+	radiusart2 = dustpuffc;
+	range = 600;
+	reloadtime = 10.0;
+	ringcount = 8;
+	ringdelay = .45;
+	ringduration = 2.5;
+	shotart = whirlwindloop;
+	soundhit = bell;
+	spritecount = 25;
+	turnrate = 250;
+	type = Remote Effect;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 2300;
+	}
+}
+

@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	bodytype = armor;
+	buildangle = 2800;
+	buildcost = 9000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 700;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Ara FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AraCRESMIT_dead;
+	damagecategory = Factory;
+	description = Siege;
+	experiencepoints = 200;
+	footprintx = 7;
+	footprintz = 8;
+	healtime = 2;
+	maxdamage = 12000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	name = Siege Factory;
+	objectname = AraCRESMIT;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 250;
+	soundcategory = AraCRESMIT;
+	soundclass = AraCRESMIT;
+	tedclass = Siege;
+	totalallowed = 2;
+	unitname = AraCRESMIT;
+	unitnumber = 1212126;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 8;
+	yardmap = ..ooo.. .ooooo. ooooooo ooooooo occccco occccco occccco occccco;
+}

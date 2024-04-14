@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 313;//354
+buildtime = 83;//89
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+//cantbestoned = 1;
+category = ILL MELEE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLuncm_dead;
+damagecategory = Monster;
+defaultmissiontype = Standby;
+description = ILLohir;
+experiencepoints = 10;
+floater = 0;
+healtime = 0.4375;
+immunetoparalyzer = 1;
+maneuverleashlength = 250;
+maxdamage = 2991;
+maxvelocity = 1.55;
+movementclass = GROUND2;
+name = KhazraWarrior;
+objectname = ILLUNCM;
+roadmultiplier = 2.75;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 160;
+soundcategory = TARUNCM;
+soundclass = TARUNCM;
+standingunitorder = 2;
+stone = ILLuncm_stone;
+tedclass = ILLohir;
+ThreeD = 1;
+turninplacerate = 2400;
+turnrate = 2400;
+unitname = ILLUNCM;
+unitnumber = 100045;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.85;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+//areaofeffect = 30;
+edgeeffectiveness = 0.5;
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+explosionclass = teeny explosion;
+name = Mallet;
+nimbus = 1;
+noairweapon = 1;
+range = 100;
+reloadtime = 1.5;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 415;
+monster = 0.5;
+stalwart = 1.25;
+mechanical = 0.5;
+fort = 0.5;
+factory = 0.5;
+monarch = 0.5;
+god = 0.5;
+undead = 1.25;
+
+}
+}
+[WEAPON2] //This is activated when health drops below 45%
+{
+areaofeffect = 50;
+edgeeffectiveness = 0.5;
+buttonimagedisabled = strengthdown;
+buttonimagedown = strengthdown;
+buttonimageselected = strengthsel;
+buttonimageup = strengthup;
+explosionclass = Small explosion;
+name = Lochabre Mallet;
+nimbus = 1;
+noairweapon = 1;
+range = 100;
+reloadtime = 1.4;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 900;
+IllUncm = 0.5;
+}
+}

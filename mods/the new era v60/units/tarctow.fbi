@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 16000;
+	buildcost = 16000;
+	buildtime = 800;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARCTOW_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 60;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.270833333;
+	fireatwillrandom = 1;
+	frozen = tarctow_frozen;
+	maxdamage = 16000;
+	maxslope = 15;
+	//maxwaterdepth = 0;
+	name = Meteorhand;
+	objectname = TARCTOW;
+	radardistance = 1000;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = TARCTOW;
+	soundclass = TARCTOW;
+	stone = tarctow_stone;
+	tedclass = Taros;
+	unitname = TARCTOW;
+	unitnumber = 806;
+	version = 1;
+	yardmap = o;
+	//waterline = 3;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	duration = 1.5;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+        firestarter = 1;
+	name = Meteor;
+	noairweapon = 1;
+	particlespersecond = 1;
+	range = 1500;
+	reloadtime = 5;
+	soundhit = nuke1;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = meteor;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		fort = 0.5;
+		monarch = 0.2;
+	}
+}

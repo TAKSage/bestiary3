@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 325;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardarch_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 7;
+	frozen = tardarch_frozen;
+	fireatwillrandom = 1;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 1100;
+	maxvelocity = 1.25;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND2;
+	name = Demon Archer;
+	objectname = TARDARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 180;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	standingunitorder = 1;
+	stone = tardarch_stone;
+	tedclass = Taros;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = TARDARCH;
+	unitnumber = 1;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Ghost Cannon;
+	range = 485;
+	reloadtime = 3.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 321;
+
+	[DAMAGE]
+	{
+		default = 311;
+	}
+}

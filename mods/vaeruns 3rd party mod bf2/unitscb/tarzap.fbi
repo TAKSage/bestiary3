@@ -1,0 +1,115 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 6999;
+	buildtime = 1888;
+	canattack = 1;
+	canstop = 1;
+                 cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarzap_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 78;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.270833333;
+	maxdamage = 8432;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Kandra's Claw;
+	objectname = TARZAP;
+	radardistance = 500;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 350;
+	soundcategory = TARZAP;
+	soundclass = TARZAP;
+	tedclass = Taros;
+	unitname = TARZAP;
+	unitnumber = 1086;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                emittime = 30;
+	explosionclass = teeny explosion;
+	hweffect = red lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 200 230 255;
+	name = lightning;
+	outercolor = 180 200 255;
+	range = 450;
+	reloadtime = 3;
+               // soundhit = lightning2;
+	soundhitclass = lightning;
+	subtype = lightning;
+                toairweapon = 1;
+	type = Line of Sight;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                emittime = 30;
+	explosionclass = teeny explosion;
+	hweffect = red lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 200 230 255;
+	name = lightning;
+	outercolor = 180 200 255;
+	range = 450;
+	reloadtime = 3.1;
+             // soundhit = lightning2;
+	soundhitclass = lightning;
+	subtype = lightning;
+               toairweapon = 1;
+	type = Line of Sight;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+                emittime = 30;
+	explosionclass = teeny explosion;
+	hweffect = red lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 200 230 255;
+	name = lightning;
+	outercolor = 180 200 255;
+	range = 450;
+	reloadtime = 3.2;
+             // soundhit = lightning2;
+	soundhitclass = lightning;
+	subtype = lightning;
+                 toairweapon = 1;
+	type = Line of Sight;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 900;
+               
+	}
+}

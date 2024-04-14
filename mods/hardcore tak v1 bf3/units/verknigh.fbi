@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1136;
+//	original buildtime = 159; 80
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verknigh_dead;
+	//original damagecategory = human;
+	damagecategory = archer2;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 23;
+	healtime = 0.6625;
+	maneuverleashlength = 325;
+	maxdamage = 3433;
+	//original maxvelocity = 2.7;
+	maxvelocity = 3.9;
+	//original movementclass = GROUND3;
+	movementclass = GROUND3B;
+	name = Amazon Knight;
+	objectname = VERKNIGH;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+//	original sightdistance = 185
+	sightdistance = 240;
+	soundcategory = VERKNIGH;
+	soundclass = VERKNIGH;
+	standingunitorder = 2;
+	stone = verknigh_stone;
+	tedclass = Veruna;
+	turnrate = 1000;
+	unitname = VERKNIGH;
+	unitnumber = 137;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 20;
+	explosionclass = small dust puff;
+	minrange = 100;
+	model = verspear;
+	name = Spear;
+	//original range = 380;
+	range = 365;
+	//original reloadtime = 1.5; 2
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 301;	//dmg = 150/s
+		fly = 1.4;      //damage = 421
+		dragon = 1.3;   //damage = 391
+		airship = 1.3;
+		archer = 2;
+		archer2 = 0.95;
+		fort = 0;
+		fort2 = 0;
+		factory = 0;
+		lodestone = 0;
+		god = 0.05;
+		flygod = 0.3;
+		siege = 0.75;
+		siege2 = 1.25;
+		magic = 0.4;
+		monarch = 0.1;
+		stalwart = 0.7;
+		support = 0.55;
+		undead = 0.8;
+	}
+}

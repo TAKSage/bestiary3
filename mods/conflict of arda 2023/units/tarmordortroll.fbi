@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3597;
+	buildtime = 1749;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 22;
+	healtime = 0.8125;
+	maneuverleashlength = 750;
+	maxdamage = 10225;
+	maxvelocity = 1.3;
+	movementclass = GROUND3;
+	name = Mordor Troll;
+	objectname = tarmordortroll;
+	roadmultiplier = 1.21;
+	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = ZONORC;
+	soundclass = ZONORC;
+	standingunitorder = 2;
+	stone = zonorc_stone;
+	tedclass = Taros;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = tarmordortroll;
+	unitnumber = 178;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 100;
+	edgeeffectiveness = 0.7;
+	name = Troll Sword;
+	range = 300;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1350;
+	}
+}

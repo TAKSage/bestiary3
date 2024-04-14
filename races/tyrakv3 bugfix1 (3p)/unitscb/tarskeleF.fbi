@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 10 10 50;
+	bloodcolor2 = 15 15 55;
+	bloodcolor3 = 20 20 60;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1396;
+	buildtime = 138;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarskelef_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	healtime = 0.4375;
+	maneuverleashlength = 500;
+	maxdamage = 6250;
+	maxvelocity = 2.48;
+	movementclass = GROUND2;
+	name = Skeleton Fighter;
+	objectname = tarskelef;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 165;
+	soundcategory = tarskelef;
+	soundclass = tarskelef;
+	standingunitorder = 2;
+	stone = tarskelef_stone;
+	tedclass = Taros;
+	turninplacerate = 1800;
+	turnrate = 1700;
+	unitname = tarskelef;
+	unitnumber = 6809;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 29;
+	edgeeffectiveness = 1;
+	name = Dead Flail;
+	range = 67;
+	reloadtime = 1.475;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 520;
+	}
+}

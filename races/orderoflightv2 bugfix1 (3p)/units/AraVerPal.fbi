@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 1;
+	buildcost = 40000;
+	buildtime = 7000;
+	canattack = 1;
+	canfly = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = Ara ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = Hero;
+	defaultmissiontype = VTOL_standby;
+	description = Light;
+	experiencepoints = 300;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 6;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 25;
+	maneuverleashlength = 400;
+	maxmana = 1000;
+	maxdamage = 25000;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	name = Sky Lord;
+	noveteran = 1;
+	objectname = AraVerPal;
+	radardistance = 650;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 425;
+	soundcategory = AraVERPAL;
+	soundclass = AraVERPAL;
+	standingunitorder = 2;
+	tedclass = Light;
+	totalallowed = 1;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = AraVERPAL;
+	unitnumber = 97979744;
+	upright = 1;
+	version = 1;
+	weaponswitching = 0;
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 30;
+	edgeeffectiveness = 0.5;
+	explosionclass = small dust puff;
+	model = dragonspear;
+	name = Sky Lance;
+	range = 700;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 1.25;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		Hero = 1.25;
+	}
+}

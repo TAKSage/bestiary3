@@ -1,0 +1,60 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 16384;
+	buildcost = 5000;
+	//builddistance = 100;
+	//builder = 1;
+	buildtime = 700;
+	//canmove = 1;
+	//canpatrol = 1;
+	//canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarhell_dead;
+	//corpseadjustz = 4;
+	damagecategory = Fort;
+	description = Taros;
+	experiencepoints = 120;
+	footprintx = 10;
+	footprintz = 9;
+	healtime = 3;
+	maxdamage = 25000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Jail;
+	objectname = TARJAIL;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = TAR;
+	sightdistance = 800;
+	soundcategory = TARWAGON;
+	soundclass = TARWAGON;
+	tedclass = Taros;
+	transportcapacity = 18;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 72;
+	totalallowed =  3;
+	unitname = TARJAIL;
+	unitnumber = 136;
+	unitstandorders = 0;
+	version = 1;
+	//wind = 1;
+	//workertime = 10;
+	yardmap = o;
+	
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 275;
+	}
+}

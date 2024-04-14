@@ -1,0 +1,119 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 150;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahlfsatyr_dead;
+	damagecategory = halfling;
+	defaultmissiontype = Standby;
+	description = Halfling;
+	experiencepoints = 20;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 7500;
+	maxmana = 1000;
+	maxvelocity = 1.25;
+	manarechargerate = 15;
+	mogriumincome = -6;
+	movementclass = GROUND2;
+	name = Satyr;
+	objectname = ARAHLFSATYR;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 335;
+	soundcategory = ZONHAND;
+	soundclass = ZONHAND;
+	standingunitorder = 2;
+	tedclass = Halfling;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = ARAHLFSATYR;
+	unitnumber = 42536;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustJoy]		// Bard's Skills
+	{
+		adjustment = 30;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 150;
+	}
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 30;
+	edgeeffectiveness = 0.7;
+	name = Club;
+	range = 25;
+	reloadtime = 2.1;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 975;
+		spirit = 0.5;
+		firespirit = 0.5;	
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+[WEAPON2]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 800;
+	name = Charm;
+	noairweapon = 1;
+	range = 120;
+	reloadtime = 2.5;
+	soundhit = charm;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		mechanical = 0;
+		naval = 0;	
+		spirit = 0;
+		firespirit = 0;	
+		syron = 0;
+		undead = 0;
+	}
+}

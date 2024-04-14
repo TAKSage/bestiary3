@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorcsword_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 11;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 2.5;
+	mogriumincome = 0;
+	movementclass = GROUND2;
+	name = Orc Swordsman;
+	noveteran = 1; 
+	objectname = ZONORCSWORD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 175;
+	soundcategory = ORCSWORD;
+	soundclass = ORCSWORD;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = ZONORCSWORD;
+	unitnumber = 42512;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

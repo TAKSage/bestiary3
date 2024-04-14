@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+                bloodcolor1 = 160 35 0;
+               bloodcolor2 = 170 45 0;
+              bloodcolor3 = 180 30 5;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.14;
+	buildcost = 3110;
+	buildtime = 620;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;	
+	cantbetransported = 1;
+	category = VER ATTACK BOAT MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpro_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Veruna;	
+	experiencepoints = 148;
+	floater = 1;
+	healtime = 3.616;
+	maxdamage = 16031;
+	maxvelocity = 4.3;
+                movementclass = WATER4;
+	name = Sea Guardian;
+                noshadow = 1;
+	noveteran = 1;
+	objectname = verpro;	
+	radardistance = 905;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 188;
+	soundcategory = VERPRO;
+	soundclass = VERPRO;
+	standingunitorder = 1;	
+	tedclass = Veruna;
+	turninplacerate = 380;
+	turnrate = 310;
+	unitname = verpro;
+	unitnumber = 1650;
+	version = 1;
+	waterline = 1;
+        //maxwaterdepth = 15;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 16000;
+	areaofeffect = 50;
+	buttonimagedisabled = WaterBallGPU;
+	buttonimagedown = WaterBallGPU;
+	buttonimageselected = WaterBallGSBh;
+	buttonimageup = WaterBallGSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = WaterBallExp;
+	lightmap = small;
+	//manapershot = 200;
+	name = Water Burst;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+                waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.15;
+	}
+}

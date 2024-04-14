@@ -1,0 +1,148 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1125;
+	mogriumbounty = 125.5;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CreMdem_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 23;
+	healtime = 1.358333333;
+	maneuverleashlength = 300;
+	maxdamage = 4000;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	name = Automaton II;
+	objectname = CREMDEM;
+	radardistance = 300;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 210;
+	soundcategory = CREAUTO;
+	soundclass = CREAUTO;
+	standingunitorder = 2;
+	stone = tardemon_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREMDEM;
+	unitnumber = 77;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	buttonimagedisabled = hammer_down;
+	buttonimagedown =hammer_down;
+	buttonimageselected = hammer_use;
+	buttonimageup = hammer_up;
+	edgeeffectiveness = 1;
+	explosionclass = medium dust puff;//blue_shockring;
+	name = demolition Hammer;
+	range = 100;
+	reloadtime = 1.7;
+	soundhitclass = rock;//cannon;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+		stone = 2;
+		factory = 2;
+		wood = 1.5;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		mini = 2;
+		shielded = 2;
+		skeleton = 2;
+		kingkiller = 2;
+		hardscale = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 200;
+	buttonimagedisabled = hammerQ_down;
+	buttonimagedown =hammerQ_down;
+	buttonimageselected = hammerQ_use;
+	buttonimageup = hammerQ_up;
+	edgeeffectiveness = 0.5;
+	explosionclass = green_shockring;
+	name = earthquake hit;
+	range = 100;
+	reloadtime = 3.4;
+	soundhit = Explode6;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 75;
+		stone = 4;
+		factory = 4;
+		wood = 3;
+		mechanical = 3;
+		antikingmechanical = 3;
+		mini = 4;
+		shielded = 2;
+		skeleton = 2;
+		kingkiller = 2;
+		hardscale = 0.5;
+		undead = 0;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 32;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	edgeeffectiveness = 1;
+	explosionclass = blue_shockring;
+	name = FOR THE AI;
+	range = 100;
+	reloadtime = 1.7;
+	soundhitclass = cannon;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+		stone = 2;
+		factory = 2;
+		wood = 1.5;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		mini = 2;
+		shielded = 2;
+		skeleton = 2;
+		kingkiller = 2;
+		hardscale = 0.5;
+	}
+}

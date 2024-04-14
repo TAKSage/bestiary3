@@ -1,0 +1,141 @@
+[UNITINFO]
+{
+	acceleration=12;
+	bloodcolor1=160 35 0;
+	bloodcolor2=170 40 0;
+	bloodcolor3=180 30 5;
+	bmcode=1;
+	bodytype=armor;
+	brakerate=10;
+	buildcost=3168;
+	buildtime=1000;
+	canattack=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	category=ARA MELEE ATTACK MAGIC;
+	corpse=araknight_dead;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory=human;
+	defaultmissiontype=Standby;
+	description=Aramon;
+	experiencepoints=10;
+	fireatwillrandom = 1;
+	footprintx=2;
+	healtime=1.170833;
+	manarechargerate=10;
+	maxdamage=4200;
+	maxmana=1000;
+	maxvelocity=3.1;
+	movementclass=GROUND2;
+	name=Dark Knight;
+	objectname=ARAKNIGHT;
+	roadmultiplier=1.90;
+	shadowart=shadow12;
+	shootme=1;
+	side=ARA;
+	sightdistance=321;
+	soundclass=ARAKNIGHT;
+	soundcategory=ARAKNIGHT;
+	standingunitorder=2;
+	stone=araknight_stone;
+	tedclass=Dark Knight;
+	turnrate=958;
+	unitname=ARAKNIGHT;
+	unitnumber=3201;
+	upright=1;
+	version=1;
+	watermultiplier=0.75;
+	weaponswitching=1;
+	[AdjustArmor]
+	{
+		adjustment=10;
+		edgeeffectiveness=10;
+		radius=10;
+	}
+	[AdjustAttack]
+	{
+		adjustment=10;
+		edgeeffectiveness=10;
+		radius=10;
+	}
+}
+[WEAPON1]
+{
+	areaofeffect = 150;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.2;
+	name = Dark Sword;
+	noairweapon = 1;
+	range = 105;
+	reloadtime = 0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 20;
+        buttonimagedisabled = waterballgpu2;
+        buttonimagedown = waterballgpu;
+        buttonimageselected = waterballgsbh; 
+        buttonimageup = waterballgsb;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 50;
+	name = WaterSpin;
+	nimbus = 0;
+	range = 400;
+	reloadtime = 0.1;
+	soundhit = arrow08;
+	turnrate = 190;
+	type = Melee;
+	waterexplosionclass = medium water explosion;
+	weaponart = WaterBall;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 220;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 4;
+	edgeeffectiveness = 1;
+	explosionclass = mind control;
+	firestarter = 5;
+	manapershot = 900;
+	name = Falling Dragonball III;
+	nimbus = 1;
+	particlespersecond = 9;
+	range = 450;
+	reloadtime = 0.1;
+	soundhitclass = lightning;
+        subtype = hailstorm;
+	type = Remote Effect;
+        weaponart = LtngBall_2a;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}
+

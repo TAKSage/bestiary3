@@ -1,0 +1,132 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3822;
+	buildtime = 1003;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = versor_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 23;
+	healtime = 1.45833333;
+                  manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 7100;
+                  maxmana = 1000;
+	maxvelocity = 2.4;
+	movementclass = GROUND3;
+	name =  Mage Horseman;
+	objectname = VERSOR;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 200;
+	soundcategory = VERSOR;
+	soundclass = VERSOR;
+	standingunitorder = 1;
+	stone = versor_stone;
+	tedclass = Veruna;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = VERSOR;
+	unitnumber = 73;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+                  buttonimageselected = warSBh;
+                  buttonimageup = warSB;
+                  edgeeffectiveness = 0.1;
+                  name  = Magic Hammer;
+                  range = 100;
+                  reloadtime = 2.3;
+                  soundhitclass = hammer;
+                  type = melee;
+
+	[DAMAGE]
+	{
+		default = 689;
+                                    undead = 1.4;
+	}
+}
+
+[WEAPON2]
+{
+                  aimtolerance = 1024;
+                  areaofeffect = 90;
+                  buttonimagedisabled = WaterBallPU;
+                  buttonimagedown = WaterBallPU;
+                  buttonimageselected = WaterBallSBh;
+                  buttonimageup = WaterBallSB;
+                  edgeeffectiveness = 0.25;
+                  explosionclass = Water Splash;
+                  lightmap = large;
+                  manapershot = 145;
+                  name = Water Burst;
+                  nimbus = 1;
+                  range = 500;
+                  reloadtime = 3.4;
+                  soundhit = arrow08;
+                  type = ballistic;
+                  weaponvelocity = 800;
+
+                  [DAMAGE]
+                  {
+                                 default = 782;
+                  }
+}
+
+[WEAPON3]
+{
+                  aimtolerance = 1024;
+                  areaofeffect = 350;
+                  builduptime = 1;
+                  buttonimagedisabled = EarthWavePU;
+                  buttonimagedown = EarthWavePU;
+                  buttonimageselected = EarthWaveSBh;
+                  buttonimageup = EarthWaveSB;
+                  decaytime = 0.9;
+                  edgeeffectiveness = 1;
+                  manapershot = 899;
+                  name = Wrath of the Earth;
+                  nimbus = 1;
+                  radiusart0 = ring_fx_redA;
+                  radiusart1 = ring_fx_redB;
+                  radiusart2 = ring_fx_redC;
+                  range = 450;
+                  reloadtime = 4;
+                  ringcount = 3;
+                  ringdelay = 0.12;
+                  ringduration = 1.2;
+                  shakeduration = 8;
+                  shakemagnitude = 6;
+                  showeffect = 0;
+                  soundhit = Explode6;
+                  spritecount = 40;
+                  type = remote effect;
+                  weaponvelocity = 1000;
+
+                  [DAMAGE]
+                  {
+                                default = 1540;
+                  }
+}

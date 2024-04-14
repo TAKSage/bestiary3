@@ -1,0 +1,51 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 4096;
+	builddistance = 200;
+	builder = 1;
+	buildcost = 12500;
+	buildtime = 1900;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//canattack = 1;
+                cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = VER FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Vercapit_dead;
+	corpseadjustx = 1;
+	corpseadjustz = 6;
+	damagecategory = factory;
+	description = Veruna;
+	experiencepoints = 400;
+	footprintx = 12;
+	footprintz = 23;
+	healtime = 3.5;
+	maxdamage = 32000;
+	maxslope = 12;
+	maxwaterdepth = 0;
+	mogriumincome = 4;
+	mogriumstorage = 1000;
+	name = Capital;
+	objectname = VERCAPIT;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	totalallowed = 6;
+	sightdistance = 275;
+	soundcategory = VERCAPIT;
+	soundclass = VERCAPIT;
+	tedclass = Veruna;
+	unitname = VERCAPIT;
+	unitnumber = 3215;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ............ ............ ............ ............ oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc cccccccccccc;
+}
+

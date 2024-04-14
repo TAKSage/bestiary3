@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 0.75;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 4600;
+//	mogriumbounty = 460;
+	buildtime = 350;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canhover = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagetype = angel;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 30;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = .925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3100;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = War Angel;
+	objectname = AraLAngel;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = AraLAngel;
+	soundclass = AraLAngel;
+	standingunitorder = 2;
+	stone = AraLAngel_stone;
+	tedclass = Aramon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = AraLAngel;
+	unitnumber = 100786;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = mindspin;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 200 230 255;
+	name = Holy Lightning Bolt;
+	nimbus = 1;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 750;
+		angel = 1.5;
+		undead = 2;
+		giantundead = 2;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+	}
+}

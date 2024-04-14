@@ -1,0 +1,123 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3100;
+	buildtime = 880;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbestoned = 1;
+                cantbefrozen = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verele_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 75;
+	fireatwillrandom = 1;
+                frozen = verele_frozen;
+	healtime = 1.125833333;
+	maneuverleashlength = 500;
+	maxdamage = 15450;
+	maxvelocity = 3.0;
+	movementclass = GROUND4;
+	name = War Elephant;
+	objectname = VERELE;
+                radardistance = 600;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 266;
+	soundcategory = VERELE;
+	soundclass = VERELE;
+	standingunitorder = 1;
+	stone = verele_stone;
+	tedclass = Veruna;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = VERELE;
+	unitnumber = 4073;
+	upright = 1;
+	version = 1;
+	//watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 30;
+                explosionclass = teeny explosion;
+               edgeeffectiveness = 0.5;
+	model = Araarrow2;
+	name = Bow and fire Arrows;
+	range = 550;
+	reloadtime = 2.4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 675;
+                            monarch = 0.5;
+                            dragon  = 2.0;
+                            monster = 2.0;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 30;
+                explosionclass = teeny explosion;
+                edgeeffectiveness = 0.5;
+	model = Araarrow2;
+	name = Bow and fire Arrows;
+	range = 550;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 775;
+                            monarch = 0.5;
+                            dragon = 2.0;
+                              monster = 2.0;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+               areaofeffect = 30;
+              edgeeffectiveness = 0.5;
+              explosionclass = teeny explosion;
+	model = Araarrow2;
+	name = Bow and fire Arrows;
+	range = 550;
+	reloadtime = 2.6;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 875;
+                            monarch = 0.5;
+                            dragon = 2.0;
+                              monster = 2.0;
+	}
+}

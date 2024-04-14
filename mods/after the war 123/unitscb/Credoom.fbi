@@ -1,0 +1,175 @@
+[UNITINFO]
+{
+acceleration = 0.25;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 0.2;
+buildcost = 1800;
+	mogriumbounty = 180;
+buildtime = 225;
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canreclaim =1;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+immunetoparalyzer = 1;
+category = CRE MELEE BALLISTIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = credoom_dead;
+damagemodifier = 0.2;
+damagecategory = antikingmechanical;
+defaultmissiontype = Standby;
+description = Creon;
+experiencepoints = 31;
+floater = 0;
+healtime = 1.32501;
+manarechargerate = 15;
+maneuverleashlength = 1000;
+maxdamage = 6250;
+maxmana = 1000;
+maxvelocity = 1.25;
+movementclass = GROUND3;
+name = war bot;
+objectname = CREDOOM;
+radardistance = 800;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+shootme = 1;
+side = CRE;
+sightdistance = 200;
+soundcategory = CREDOOM;
+soundclass = CREDOOM;
+standingunitorder = 2;
+stone = credoom_stone;
+tedclass = Creon;
+turninplacerate = 2000;
+turnrate = 1500;
+unitname = CREDOOM;
+unitnumber = 19155;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.75;
+weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+areaofeffect = 30;
+buttonimagedisabled = swordup;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+edgeeffectiveness = 0.5;
+explosionclass = mediflame;
+name = Blades;
+range = 102;
+reloadtime = 1.9;
+soundhitclass = sword;
+type = Melee;
+firestarter = 1;
+
+[DAMAGE]
+{
+default = 700;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 2;
+		naval = 1.5;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+		unshielded = 1.25;
+		antikingunshielded = 1.25;
+		berserker = 1.25;
+		shocky = 1.25;
+
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 1024;
+areaofeffect = 100;
+burst = 4;
+burstrate = 0.2;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	damagetype = fire;
+edgeeffectiveness = 0.75;
+explosionclass = Volcblast;//yellow_shockring;
+firestarter = 1;
+gravityadjustment = 1.2;
+//guidance = 1;
+manapershot = 900;
+model = FireTallonLg;
+name = Plasma Bolt (900);
+nimbus = 1;
+range = 500;
+reloadtime = 1;
+smoketrail = 1;
+smokedelay = 4;
+soundhitclass = fire;
+soundwater = splash;
+tracks = 1;
+turnrate = 360;
+type = ballistic;
+waterexplosionclass = small water explosion;
+weaponart = creonbuild;
+weaponvelocity = 300;
+weapontimer = 0.05;
+
+[DAMAGE]
+{
+default = 500;
+		stone = 0.75;
+		wood = 2;
+		naval = 1.5;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+}
+
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 150;
+damagetype = explosion;
+edgeeffectiveness = 0.75;
+explosionclass = large explosion;
+name = Explosion;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 1000;
+	soundhit = CRESENTDIE;
+
+[DAMAGE]
+{
+default = 1000;
+monarch = 0.5;
+		stone = 0.75;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+		antikingmechanical = 0;
+}
+}

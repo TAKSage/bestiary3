@@ -1,0 +1,464 @@
+//  Explosions.tdf
+//  Contains a list of all of the explosion classes that Kingdoms knows about
+//  Note that the first _9_ classes ( up to and including xlarge smoke explosion ) must remain 
+//  in the order they are in, since they are referenced by number by the scripts.
+
+
+// "Small Explosion" is the explosion class in the FBI file.
+
+[small explosion]
+{
+	[0]
+	{
+		gaf = small1;
+		anim = small1;
+	}
+	[1]
+	{
+		gaf = small2;
+		anim = small2;
+	}
+	[2]
+	{
+		gaf = small3;
+		anim = small3;
+	}
+	[3]
+	{
+		gaf = small4;
+		anim = small4;
+	}
+}
+
+[medium explosion]
+{
+	[0]
+	{
+		gaf = med1;
+		anim = med1;
+	}
+	[1]
+	{
+		gaf = med2;
+		anim = med2;
+	}
+	[2]
+	{
+		gaf = med3;
+		anim = med3;
+	}
+	[3]
+	{
+		gaf = med4;
+		anim = med4;
+	}
+}
+
+[large explosion]
+{
+	[0]
+	{
+		gaf = large1;
+		anim = large1;
+	}
+	[1]
+	{
+		gaf = large2;
+		anim = large2;
+	}
+	[2]
+	{
+		gaf = large3;
+		anim = large3;
+	}
+	[3]
+	{
+		gaf = large4;
+		anim = large4;
+	}
+}
+
+[xlarge explosion]
+{
+	[0]
+	{
+		gaf = explodeb;
+		anim = explodeb;
+	}
+}
+
+[blood explosion]
+{
+	[0]
+	{
+		gaf = bloodsmall;
+		anim = bloodsmall;
+	}
+}
+
+[small smoke explosion]
+{
+	[0]
+	{
+		gaf = dustpuffd;
+		anim = dustpuffd;
+	}
+}
+
+[medium smoke explosion]
+{
+	[0]
+	{
+		gaf = dustpuffb;
+		anim = dustpuffb;
+	}
+}
+
+[large smoke explosion]
+{
+	[0]
+	{
+		gaf = dustpuffc;
+		anim = dustpuffc;
+	}
+}
+
+[xlarge smoke explosion]
+{
+	[0]
+	{
+		gaf = dustpuffa;
+		anim = dustpuffa;
+	}
+}
+
+//BUGBUG - Need correct explosion for this
+[lava explosion]
+{
+	[0]
+	{
+		gaf = explodeb;
+		anim = explodeb;
+	}
+}
+
+[lightning explosion]
+{
+	[0]
+	{
+		gaf = lightning1;
+		anim = lightning1;
+	}
+	[1]
+	{
+		gaf = lightning2;
+		anim = lightning2;
+	}
+	[2]
+	{
+		gaf = lightning3;
+		anim = lightning3;
+	}
+}
+
+[fireball explosion]
+{
+	[0]
+	{
+		gaf = explodeb;
+		anim = explodeb;
+	}
+}
+
+[small water explosion]
+{
+	[0]
+	{
+		gaf = mediumsplash1;
+		anim = mediumsplash1;
+	}
+	[1]
+	{
+		gaf = mediumsplash2;
+		anim = mediumsplash2;
+	}
+}
+
+[medium water explosion]
+{
+	[0]
+	{
+		gaf = mediumsplash1;
+		anim = mediumsplash1;
+	}
+	[1]
+	{
+		gaf = mediumsplash2;
+		anim = mediumsplash2;
+	}
+}
+
+[large water explosion]
+{
+	[0]
+	{
+		gaf = bigsplash1;
+		anim = bigsplash1;
+	}
+}
+
+[death]
+{
+	[0]
+	{
+		gaf = explodea;
+		anim = explodea;
+	}
+}
+
+[flamey]  //TJ's test fire thingy
+{
+	[0]
+	{
+		gaf = explodeb;
+		anim = explodeb;
+	}
+}
+
+[mind control]
+{
+	[0]
+	{
+		gaf = lodeexplode;
+		anim = lodeexplode;
+	}
+}
+
+[small dust puff]
+{
+	[0]
+	{
+		gaf = DirtClodSm_A;
+		anim = DirtClodSm_A;
+	}
+	[1]
+	{
+		gaf = DirtClodSm_B;
+		anim = DirtClodSm_B;
+	}
+}
+
+[medium dust puff]
+{
+	[0]
+	{
+		gaf = DirtClodMed_A;
+		anim = DirtClodMed_A;
+	}
+	[1]
+	{
+		gaf = DirtClodMed_B;
+		anim = DirtClodMed_B;
+	}
+}
+
+[large dust puff]
+{
+	[0]
+	{
+		gaf = dustlg1;
+		anim = dustlg1;
+	}
+	[1]
+	{
+		gaf = dustlg2;
+		anim = dustlg2;
+	}
+	[2]
+	{
+		gaf = DirtClodLarge_A;
+		anim = DirtClodLarge_A;
+	}
+	[3]
+	{
+		gaf = DirtClodLarge_B;
+		anim = DirtClodLarge_B;
+	}
+}
+
+[teeny explosion]
+{
+	[0]
+	{
+		gaf = teeny1;
+		anim = teeny1;
+	}
+	[1]
+	{
+		gaf = teeny2;
+		anim = teeny2;
+	}
+	[2]
+	{
+		gaf = teeny3;
+		anim = teeny3;
+	}
+	[3]
+	{
+		gaf = teeny4;
+		anim = teeny4;
+	}
+}
+
+[blue_shockring]
+{
+	[0]
+	{
+	gaf = blue_shockring;
+	anim = blue_shockring;
+	}
+}
+
+[flamestrike]
+{
+	[0]
+	{
+	gaf = flamestrike;
+	anim = flamestrike;
+	}
+}
+
+[iceballexp]
+{
+	[0]
+	{
+	gaf = iceballexp;
+	anim = iceballexp;
+	}
+}
+
+[Volcblast]
+{
+	[0]
+	{
+	gaf = VBlast;
+	anim = VBlast;
+	}
+}
+
+[WaterBallExp]
+{
+	[0]
+	{
+	gaf = WaterBallExplode;
+	anim = WaterBallExplode;
+	}
+}
+
+[TsunamiExp]
+{
+	[0]
+	{
+	gaf = TsunamiExplode;
+	anim = TsunamiExplode;
+	}
+}
+
+[green_shockring]
+{
+	[0]
+	{
+	gaf = green_shockring;
+	anim = green_shockring;
+	}
+}
+
+[water splash]
+{
+	[0]
+	{
+	gaf = watersplash;
+	anim = watersplash;
+	}
+}
+
+[bloodlarge]
+{
+	[0]
+	{
+	gaf = bloodlarge;
+	anim = bloodlarge;
+	}
+}
+
+[megaflame]
+{
+	[0]
+	{
+	gaf = megaflame;
+	anim = megaflame;
+	}
+}
+
+[yellow_shockring]
+{
+	[0]
+	{
+	gaf = yellow_shockring;
+	anim = yellow_shockring;
+	}
+}
+
+[mindspin]
+{
+	[0]
+	{
+	gaf = mindspin;
+	anim = mindspin;
+	}
+}
+
+[vblast]
+{
+	[0]
+	{
+	gaf = vblast;
+	anim = vblast;
+	}
+}
+
+[redburst1]
+{
+	[0]
+	{
+	gaf = redburst1;
+	anim = redburst1;
+	}
+}
+
+[pillaroflight]
+{
+	[0]
+	{
+	gaf = pillaroflight;
+	anim = pillaroflight;
+	}
+}
+
+[lodeexplode]
+{
+	[0]
+	{
+	gaf = lodeexplode;
+	anim = lodeexplode;
+	}
+}
+
+[composite04flame]
+{
+	[0]
+	{
+	gaf = composite04flame;
+	anim = composite04flame;
+	}
+}

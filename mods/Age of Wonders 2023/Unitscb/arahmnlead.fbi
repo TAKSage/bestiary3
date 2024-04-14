@@ -1,0 +1,165 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = ARA MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Human;
+	experiencepoints = 525;
+	healtime = 70;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 30500;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = General;
+	noveteran = 1;
+	objectname = ARAHMNLEAD;
+	radardistance = 650;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 500;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Human;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ARAHMNLEAD;
+	unitnumber = 42501;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1625;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+[WEAPON2]
+{
+	buttonimagedisabled = lighting_down;
+	buttonimagedown = lightning_down;
+	buttonimageselected = lightning_selected;
+	buttonimageup = lightning_up;
+	aimtolerance = 1024;
+	emittime = 30;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	manapershot = 100;
+	name = Chain Lightning;
+	range = 350;
+	reloadtime = 0.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.5;
+		darkelf = 0.75;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+
+[WEAPON3]
+{
+	buttonimagedisabled = callflames_down;
+	buttonimagedown = callflames_down;
+	buttonimageselected = callflames_selected;
+	buttonimageup = callflames_up;
+	aimtolerance = 2000;
+	areaofeffect = 475;
+	builduptime = 0.2;
+	decaytime = 0.9;
+	damagetype = fire;
+	edgeeffectiveness = 0.75;
+	explosionclass = megaflame;
+	firestarter = 1;
+	manapershot = 1000;
+	name = Call Flames;
+	range = 550;
+	reloadtime = 8;
+	soundhit = flame2;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;	
+		spirit = 1.5;
+		firespirit = 0;
+		syron = 0.1;
+		azrac = 0.75;
+		lizard = 1.25;
+		frostling = 1.1;
+		dragon = 0.25;
+		demon = 0.25; 
+		spirit = 0.75;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+
+	

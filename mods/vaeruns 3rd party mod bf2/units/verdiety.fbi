@@ -1,0 +1,136 @@
+[UNITINFO]
+{
+	acceleration = 15;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	buildcost = 900000;
+	buildtime = 450000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                cantbefrozen = 1;
+               // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 2005;
+	floater = 1;
+	healtime = 9000.25;
+               immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 28900;
+	maxvelocity = 4.1;
+	movementclass = HOVER10;
+	name = Lihr;
+	noveteran = 1;
+	objectname = VERdiety;
+	radardistance = 15000;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = VER;
+	sightdistance = 3500;
+	soundcategory = VERDIETY;
+	soundclass = VERDIETY;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERdiety;
+	unitnumber = 53769;
+	upright = 1;
+	version = 1;
+	waterline = 34;
+       
+}
+
+[WEAPON1]
+{
+	areaofeffect = 1000;
+	edgeeffectiveness = 1.0;
+	explosionclass = tsunamiexp;
+	name = Trident of the Angel;
+        noairweapon = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 15600;
+		monarch = 0.1;
+                god = 0.1;
+                fort = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	decaytime = 3.0;
+	duration = 9;
+	maxvariation = 9;
+	name = Water Vortex;
+        //minrange = 300;
+	nimbus = 1;
+	range = 3000;
+	reloadtime = 2;
+	soundhitclass = arrow08;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = seaspoutend;
+	wanderloopart = seaspoutloop;
+	wanderstartart = seaspoutstart;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 20200;
+		monarch = 0.1;
+                god = 0.1;
+                dragon = 0.5;
+                fort = 0.25;
+	}
+}
+[WEAPON3]
+{
+        aimtolerance = 1024;
+	areaofeffect = 1000;
+        duration = 2.5;
+        edgeeffectiveness = 1;
+	explosionclass = Water Splash;
+	//firestarter = 1;
+	lightmap = small;
+        //model = waterball.3do;
+	name = Acid Rain;
+        nimbus = 1;
+        particlespersecond = 5;
+	range = 3000;
+	reloadtime = 2.5;
+	soundhitclass = cannon;
+        subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = waterball;
+	weaponvelocity = 1000;
+            
+	[DAMAGE]
+	{
+		default = 18000;
+		dragon = 0.5;
+                monarch = 0.1;
+                god = 0.1;
+                fort = 0.25;
+	}
+}
+

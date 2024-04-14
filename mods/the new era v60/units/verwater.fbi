@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3300;
+	buildtime = 550;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+        cantbetransported = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verwater_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	frozen = verwater_frozen;
+	healtime = 0.895833333;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 9124;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	movementclass = HOVER4;
+	name = Rain Master;
+	objectname = verwater;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	//soundcategory = verwater;
+	//soundclass = verwater;
+	standingunitorder = 1;
+	stone = verwater_stone;
+	tedclass = Veruna;
+	turninplacerate = 1800;
+	turnrate = 1800;
+	unitname = verwater;
+	unitnumber = 1433;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+	watermultiplier = 0.9;
+	waterline = 3;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Beast Claws;
+	range = 200;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		god = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 3;
+	edgeeffectiveness = 1;
+	explosionclass = large water explosion;
+	manapershot = 300;
+	name = Killer Rain;
+	nimbus = 1;
+	particlespersecond = 8;
+	range = 400;
+	reloadtime = 3;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = large water explosion;
+	weaponart = mediumsplash2;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 400;
+		monarch = .3;
+	}
+}

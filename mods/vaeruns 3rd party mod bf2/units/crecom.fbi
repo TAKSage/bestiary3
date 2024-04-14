@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 666;
+	buildtime = 133;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+                cantbestoned = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 26;
+	healtime = 0.816666667;
+	maneuverleashlength = 500;
+	maxdamage = 3200;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Mercenary;
+	objectname = CRECOM;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 80;
+	soundcategory = VERCRUS;
+	soundclass = VERCRUS;
+	standingunitorder = 2;
+	tedclass = Creon;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = CRECOM;
+	unitnumber = 1249815;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	edgeeffectiveness = 0.5;
+	name = Sword;
+	range = 90;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 615;
+	}
+}

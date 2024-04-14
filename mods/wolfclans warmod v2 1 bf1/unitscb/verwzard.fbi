@@ -1,0 +1,156 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//buildcost = 4072;
+	buildcost = 5972;
+	buildtime = 704;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen =1;
+	category = VER MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araknigh_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = VER;
+	experiencepoints = 62;
+	floater = 1;
+	healtime = 1.058333333;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 4200;
+	maxmana = 1000;
+	maxvelocity = 2.8;
+	movementclass = HOVER2;
+	name = Ice Wizard;
+	objectname = VERWZARD;
+	radardistance = 330;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 265;
+	soundcategory = VERWZARD;
+	soundclass = VERWZARD;
+	standingunitorder = 1;
+	stone = verwzard_stone;
+	tedclass = Veruna;
+	totalallowed = 5;
+	//totalallowed = 7;
+	turnrate = 1000;
+	unitname = VERWZARD;
+	unitnumber = 2937;
+	upright = 1;
+	version = 1;
+	waterline = 2;
+	watermultiplier = .85;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2048;
+	areaofeffect = 80;
+	buttonimagedisabled = FreezebeamPU;
+	buttonimagedown = FreezebeamPU;
+	buttonimageselected = FreezebeamSBh;
+	buttonimageup = FreezebeamSB;
+	damagetype = explosion;
+	edgeefectiveness = 0.8;
+	explosionclass = iceballexp;
+	lightmap = medium;
+	manapershot = 240;
+	name = Freezing Death;
+	noairweapon = 1;
+	range = 400;
+	reloadtime = 4.8;
+	soundhit = ice;
+	subtype = turntofrozen;
+	type = line of sight;
+	waterexplosionclass = large water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1390;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 4096;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	lightmap = medium;
+	innercolor = 0 0 0;
+	manapershot = 300;
+	middlecolor = 0 0 0;
+	name = Icebolt;
+	outercolor = 0 0 127;
+	range = 815;
+	reloadtime = 4.0;
+	soundhit = thunder;
+	subtype = lightning;
+	type = line of sight;
+	weaponvelocity = 1950;
+
+	[DAMAGE]
+	{
+		default = 951;
+		undead = 0.5;
+		monarch = 0.75;
+		lodestone = 0.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 4096;
+	areaofeffect = 115;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;	
+	duration = 14;
+	maxvariation = 1;
+	manapershot = 950;
+	name = Tempest;
+	range = 750;
+	reloadtime = 3;
+	soundhit = tempest;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = hurricaneend;
+	wanderloopart = hurricaneloop;
+	wanderstartart = hurricanestart;
+	weaponvelocity = 85;
+
+	[DAMAGE]
+	{
+		//default = 339;
+		//default = 199;
+		default = 215;
+		naval = 1.1;
+		undead = 0.25;
+		fort = 0.85;
+		factory = 0.85;
+		monarch = 0.1;
+	}
+}	

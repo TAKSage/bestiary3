@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 3.6;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3715;
+	buildtime = 898;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERELITE_DEAD;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 39;
+	healtime = 1.4375;
+	maneuverleashlength = 500;
+	maxdamage = 9650;
+	maxvelocity = 0.955;
+	movementclass = GROUND2;
+	name = Elite Guard;
+	objectname = VERELITE;
+	roadmultiplier = 1.5;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 130;
+	soundcategory = verelite;
+	soundclass = verelite;
+	standingunitorder = 1;
+	stone = Verelite_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERELITE;
+	unitnumber = 60;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 34;
+	name = Sword;
+	range = 90;
+	reloadtime = 2.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	               default = 985;
+	}
+}

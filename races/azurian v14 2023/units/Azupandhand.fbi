@@ -1,0 +1,146 @@
+[UNITINFO]
+{
+	name = Pandora's Hand;
+	buildcost = 9000;
+	buildtime = 2250;
+
+	maxdamage = 12750;
+	healtime = 0.5;
+
+	maxmana = 500;
+	manarechargerate = 1;
+
+	totalallowed = 1;
+
+
+	bodytype = stone;
+	standingunitorder = 1;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = AZU MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Azupandhand_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Azurians;
+	experiencepoints = 750;
+	footprintx = 6;
+	footprintz = 6;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	noveteran = 1;
+	objectname = Azupandhand;
+	radardistance = 4200;
+	totalallowed = 1;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 1000;
+	soundcategory = AZUPANDTWR;
+	soundclass = AZUPANDTWR;
+	tedclass = Azurians;
+	unitname = AZUPANDHAND;
+	unitnumber = 3554;
+	version = 1;
+	yardmap = o;
+	weaponswitching = 1;
+	
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 275;
+	}
+
+	[AdjustJoy]
+	{
+		adjustment = 5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 275;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 65;
+
+	buttonimagedisabled = MainHOPPU;
+	buttonimagedown = MainHOPPU;
+	buttonimageselected = MainHOPSBh;
+	buttonimageup = MainHOPSB;
+
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = blue_shockring;
+	nimbus=1;
+	minrange = 50;
+	lightmap = small;
+	name = Pandora's Touch;
+	range = 680;
+	reloadtime = 9.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Line of Sight;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 2975;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}
+
+[WEAPON2]
+	{
+	areaofeffect = 999;
+	buttonimagedisabled = BigHOPPU;
+	buttonimagedown = BigHOPPU;
+	buttonimageselected = BigHOPSBh;
+	buttonimageup = BigHOPSB;
+
+	edgeeffectiveness = 0.25;
+	manapershot = 500;
+	duration = 10.0;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Pandora's Wraith;
+	nimbus = 1;
+	firestarter = 1;
+	particlespersecond = 50;
+	range = 25555;
+	reloadtime = 5.0;	//Its alot longer than this due to requiring 500 mana
+
+	soundhit = arrow08;
+	subtype = hailstorm;
+	type = Remote Effect;
+
+	weaponart = fireballCa;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 200;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}

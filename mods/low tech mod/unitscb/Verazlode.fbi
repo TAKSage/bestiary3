@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 455;
+	buildtime = 195;
+	cantbestoned = 1;
+	category = VER;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Veruna;
+	experiencepoints = 9;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.5;
+	maxdamage = 5250;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 14;
+	mogriumstorage = 1000;
+	name = Lodestone;
+	objectname = Verazlode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 120;
+	soundcategory = verlode;
+	soundclass = verlode;
+	tedclass = Veruna;
+	unitname = Verazlode;
+	unitnumber = 3301;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

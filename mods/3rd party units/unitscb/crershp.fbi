@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 0.33;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.05;
+	buildcost = 2645;
+	buildtime = 308;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = CRE BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crershp_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 30;
+	floater = 1;
+	healtime = 1.6583333;
+	maneuverleashlength = 500;
+	maxdamage = 12864;
+	maxvelocity = 2.9;
+	movementclass = WATER3;
+	name = Repair Ship;
+	objectname = crershp;
+	pitchscale = 1.5;
+	radardistance = 620;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 280;
+	soundcategory = CREIRON;
+	soundclass = CREIRON;
+	standingunitorder = 2;
+	tedclass = Creon;
+	transportcapacity = 22;
+	transportdistance = 300;
+	transportsize = 24;
+	transportsizecapacity = 108;
+	turnrate = 216;
+	unitname = crershp;
+	unitnumber = 4315;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow2;
+	name = Tracking Arrow;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 3.65;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}

@@ -1,0 +1,60 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 2500;
+	buildtime = 500;
+	canattack = 1;
+	cantbestoned = 1;
+	canstop = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Light;
+	experiencepoints = 35;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .4;
+	maxdamage = 7000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	mogriumincome = 6;
+	mogriumstorage = 600;
+	name = Warstone;
+	objectname = aradellode2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = aradellode2;
+	soundclass = aradellode2;
+	tedclass = Light;
+	totalallowed = 10;
+	unitname = aradellode2;
+	unitnumber = 97979711;
+	unitstandorders = 2;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1800;
+	damagetype = explosion;
+	explosionclass = large explosion;
+	model = arapilse2;
+	name = Flame Beam;
+	range = 350;
+	reloadtime = 1;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 300;
+		factory = 0;
+		fort = 0;
+	}
+}

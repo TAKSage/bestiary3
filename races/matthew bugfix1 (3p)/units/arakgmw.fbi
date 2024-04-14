@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.5;
+	buildcost = 10;
+	buildtime = 10;
+	canattack = 1;
+	cancloak = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY MAGIC;
+	cloakcost = 0;
+	cloakcostmoving = 0;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.666;
+	hoverattack = 1;
+	hoverattackdistance = 175;
+	manarechargerate = 666;
+	maneuverleashlength = 1000;
+	maxdamage = 13666;
+	maxvelocity = 5;
+	maxmana = 999;
+	maxwaterdepth = 0;
+	mincloakdistance = 1;
+	mogriumincome = 111111;
+	mogriumstorage = 999999;
+	name = King Matthew;
+	objectname = ARAKGMW;
+	radardistance = 999;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 666;
+	soundcategory = ARAKGMW;
+	soundclass = ARAKGMW;
+	standingunitorder = 2;
+	stone = arakgmw_stone;
+	tedclass = Aramon;
+	transmaxunits = 1;
+	turninplacerate = 1000;
+	turnrate = 250;
+	unitname = ARAKGMW;
+	unitnumber = 666;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	manapershot = 10;
+	model = zonrock.3do;
+	name = Balefire;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = rock;
+	spinheading = 100;
+	spinpitch = 300;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 6699;
+	}
+}

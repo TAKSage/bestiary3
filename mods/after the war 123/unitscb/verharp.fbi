@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.07;
+	buildcost = 1710;
+	mogriumbounty = 171;
+	buildtime = 155;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = VER BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verharp_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 28;
+	floater = 1;
+	healtime = .65;
+	maneuverleashlength = 500;
+	maxdamage = 5250;
+	maxvelocity = 3.5;
+	movementclass = WATER4;
+	name = Harpoon Ship;
+	objectname = VERHARP;
+	pitchscale = 1.5;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 370;
+	soundcategory = VERHARP;
+	soundclass = VERHARP;
+	standingunitorder = 1;
+	tedclass = Veruna;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 16;
+	turnrate = 210;
+	unitname = VERHARP;
+	unitnumber = 135;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 500;
+	areaofeffect = 32;
+	explosionclass = medium dust puff;
+	model = araharp1;
+	name = harpoon;
+	range = 450;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+	waterweapon = 1;
+
+	[DAMAGE]
+	{
+		default = 700;
+		factory = 0.75;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		steelnaval = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		dragon = 2;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		steel = 0.5;
+		seamonster = 1.25;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+	}
+}

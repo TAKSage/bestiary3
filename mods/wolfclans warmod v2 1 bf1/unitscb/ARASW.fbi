@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration=10;
+	bankscale = 1.8;
+	bloodcolor1=160 35 0;
+	bloodcolor2=170 40 0;
+	bloodcolor3=180 30 5;
+	bmcode=1;
+	bodytype=wood;
+	brakerate=0.5;
+	buildcost=4514;
+	buildtime=680;
+	canattack=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbecaptured=1;
+	cantbestoned=1;
+	cantbefrozen=1;
+	category=ARA MELEE;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory=siege;
+	defaultmissiontype=Standby;
+	description=Aramon;
+	experiencepoints=50;
+	healtime=0;
+	maneuverleashlength=500;
+	maxdamage=1500;
+	maxvelocity=2.0;
+	movementclass=GROUND4;
+	name = Demo Wagon;
+	objectname=ARASW;
+	roadmultiplier=2;
+	shootme=1;
+	side=ARA;
+	sightdistance=150;
+	soundclass=ARASW;
+	soundcategory=ARASW;
+	standingunitorder=1;
+	tedclass = Demolition Wagon;
+	turninplacerate=800;
+	turnrate=800;
+	unitname=ARASW;
+	unitnumber = 1281;
+	upright=1;
+	version=1;
+	watermultiplier=0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Bite;
+	range = 500;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 20;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 750;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = xlarge explosion;
+	lightmap = medium;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 7000;
+		monarch = 0.1;
+		stalwart = 0.4;
+		fort = 1.4;
+		factory = 1.4;
+		lodestone = 1.5;
+		gate = 1.5;
+	}
+}

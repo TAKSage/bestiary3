@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 4888;
+	buildtime = 1666;
+	canattack = 1;
+	cancloak = 0;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MAGIC BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonsspt_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 150;
+                 frozen = zonsspt_frozen;
+	healtime = 0.72917;
+	maneuverleashlength = 500;
+                 manarechargerate = 10;
+	maxdamage = 9999;
+                maxmana = 125;
+	maxvelocity = 0.75;
+	movementclass = GROUND4;
+	name = Sandspout;
+                noveteran = 1;
+	objectname = ZONSSPT;
+	radardistance = 311;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 155;
+	soundcategory = ZONSSPT;
+	soundclass = ZONSSPT;
+	standingunitorder = 1;
+	stone = zonsspt_stone;
+	tedclass = Zhon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZONSSPT;
+	unitnumber = 1832279;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 100;
+               damagetype = fire;
+                 edgeeffectiveness = 0.5;
+               explosionclass = fireball explosion;
+               firestarter = 1;
+                manapershot = 25;
+	name = Sandspout fire;
+	range = 550;
+	reloadtime = 0.01;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = fireballB;
+                 weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}

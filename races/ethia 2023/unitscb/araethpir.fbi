@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 9383;
+	builddistance = 1460;
+	builder = 1;
+	buildtime = 1677;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araethpir_dead;
+	corpseadjustz = 3;
+	damagecategory = factory;
+	description = Aramon;
+	experiencepoints = 100;
+	footprintx = 7;
+	footprintz = 14;
+	healtime = 3.17083;
+	maxdamage = 27116;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 300;
+	name = Pyramid of Rali;
+	objectname = ARAETHPIR;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 450;
+	soundcategory = ARACASTL;
+	soundclass = ARACASTL;
+	tedclass = Ethia;
+	unitname = ARAETHPIR;
+	unitnumber = 805;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ....... ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}

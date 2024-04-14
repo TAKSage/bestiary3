@@ -1,0 +1,129 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 128 255 0;
+bloodcolor2 = 255 255 0;
+bloodcolor3 = 150 255 45;
+bmcode = 1;
+bodytype = scale;
+brakerate = 10;
+buildcost = 3318;
+buildtime = 725;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+category = ARA BALLISTIC ATTACK;
+cantbefrozen = 1;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = aramon_dead;
+damagecategory = Monster;
+defaultmissiontype = Standby;
+description = Aramon;
+experiencepoints = 18;
+floater = 0;
+healtime = 1.65;
+manarechargerate = 20;
+maneuverleashlength = 500;
+maxdamage = 6500;
+maxmana = 1000;
+maxvelocity = 1.5;
+movementclass = HOVER4;
+name = Sand Cray;
+objectname = ARAMON;
+radardistance = 500;
+roadmultiplier= 1.21;
+shootme = 1;
+side = ARA;
+sightdistance = 250;
+soundcategory = araMON;
+soundclass = araMON;
+standingunitorder = 2;
+stone = aramon_stone;
+tedclass = Ethia;
+turninplacerate = 1000;
+turnrate = 800;
+unitname = ARAMON;
+unitnumber = 13295;
+upright = 1;
+version = 1;
+waterline= 18;
+watermultiplier=0.81;
+weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+areaofeffect = 24;
+buttonimagedisabled = ClawGPU;
+buttonimagedown = ClawGPU;
+buttonimageselected = ClawGSBh;
+buttonimageup = ClawGSB;
+edgeeffectiveness = 0.7;
+name = Bite;
+range = 150;
+reloadtime = 1.7;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 925;
+naval = 2.5;
+}
+}
+[WEAPON2]
+{
+aimtolerance = 2048;
+areaofeffect = 200;
+buttonimagedisabled = AcidBallGPU;
+buttonimagedown = AcidBallGPU;
+buttonimageselected = AcidBallGSBh;
+buttonimageup = AcidBallGSB;
+damagetype = fire;
+explosionclass = green_shockring;
+gravityadjustment = 2.25;
+lobpreferred = 1;
+manapershot = 250;
+noairweapon = 1;
+nimbus = 1;
+edgeeffectiveness = 1.0;
+lightmap = large;
+model = acidball;
+name = Acid Spit;
+range = 1000;
+reloadtime = 2.5;
+soundhit = monspit;
+type = Ballistic;
+waterexplosionclass = green_shockring;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 1350;
+god = 0.5;
+monarch = 0.5;
+dragon = 0.5;
+}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 50;
+damagetype = fire;
+edgeeffectiveness = 0.25;
+explosionclass = large explosion;
+name = Explosion;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 1000;
+monarch = 0.5;
+}
+}
+

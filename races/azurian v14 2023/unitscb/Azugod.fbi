@@ -1,0 +1,141 @@
+[UNITINFO]
+{
+	name =Pandora's Knight;
+	buildcost = 150000;
+	buildtime = 45000;
+
+	healtime = 50;
+	maxdamage = 25000;	
+
+	totalallowed = 1;
+
+	acceleration = 10;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.3;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = AZU MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God; 
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 600;
+	maneuverleashlength = 500;
+	maxvelocity = 1.2;
+	movementclass = GHOST;
+	noveteran = 1;
+	objectname = AZUGOD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 289;
+	soundcategory = AZUGOD;
+	soundclass = AZUGOD;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turninplacerate = 1500;
+	turnrate = 500;
+	unitname = AZUGOD;
+	unitnumber = 3512;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 2.5; //250%
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 350;
+	}
+
+	[AdjustJoy]
+	{
+		adjustment = 15; //15% regen
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 350;
+	}
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = azugodsworddisabled;
+	buttonimagedown = azugodsworddisabled;
+	buttonimageselected = azugodswordselected;
+	buttonimageup = azugodswordup;
+	nimbus=1;
+	areaofeffect = 180;
+	edgeeffectiveness = 0.8;
+	name = Chaos Blade;
+	range = 90;
+	reloadtime = 3.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 8550;
+		monster = 1.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 0.5;
+		monarch = 1.0;
+		god = 1.0;
+	}
+}
+
+[WEAPON2]
+	{
+	buttonimagedisabled = BigHOPPU;
+	buttonimagedown = BigHOPPU;
+	buttonimageselected = BigHOPSBh;
+	buttonimageup = BigHOPSB;
+	aimtolerance = 1024;
+	areaofeffect = 600;
+	edgeeffectiveness = 0.3;
+	duration = 1;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Combined Powers;
+	nimbus = 1;
+	firestarter = 1;
+	particlespersecond = 80;
+	range = 200;
+	reloadtime = 5;
+
+	soundhit = arrow08;
+	subtype = hailstorm;
+	type = Remote Effect;
+
+	weaponart = fireballCa;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}
+

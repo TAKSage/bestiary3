@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 950;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araknigh_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 13;
+	fireatwillrandom = 1;
+	healtime = 0.783333333;
+	maneuverleashlength = 500;
+	maxdamage = 2500;
+	maxvelocity = 2.9;
+	movementclass = GROUND3;
+	name = Undead Cavalry;
+	objectname = arasolcav;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 195;
+	soundcategory = ARAKNIGH;
+	soundclass = ARAKNIGH;
+	standingunitorder = 2;
+	stone = araknigh_stone;
+	tedclass = Aramon;
+	turnrate = 1000;
+	unitname = arasolcav;
+	unitnumber = 16101;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = throwaxe;
+	name = Throwing Axe;
+	range = 600;
+	reloadtime = 3.2;
+	shadowgaf = shadows;
+	soundhitclass = sword;
+	spinheading = 50;
+	spinpitch = -3950;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = throwaxe_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}

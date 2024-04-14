@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 8666;
+	buildtime = 766;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecapture = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarslav_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 39;
+	frozen = tarslav_frozen;
+	healtime = 2.0;
+	maneuverleashlength = 500;
+	maxdamage = 13700;
+	maxvelocity = 1.7;
+	maxwaterdepth = 20;
+	movementclass = GROUND3;
+	name = PowerSlave;
+	noveteran = 1;
+	objectname = TARSLAV;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 266;
+	soundcategory = MONMUM;
+	soundclass = MONMUM;
+	standingunitorder = 2;
+	stone = tarslav_stone;
+	tedclass = Taros;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = TARSLAV;
+	unitnumber = 59;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 64;
+	edgeeffectiveness = 1.0;
+	explosionclass = Volcblast;
+	name = Fist;
+	range = 300;
+	reloadtime = 1.6;
+	soundhit = slavehit;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 923;
+		naval = 0.0;
+		stalwart = 1.5;
+		undead = 0.1;
+		rictus = 0.1;
+		human = 2.5;
+		mechanical = 0.0;
+		gate = 0.0;
+		god = 2.0;
+		fort = 0.0;
+		factory = 0.0;
+		lodestone = 0.0;
+	}
+}

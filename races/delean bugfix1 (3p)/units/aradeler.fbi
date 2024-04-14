@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2350;
+	buildtime = 208;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradeler_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 12;
+	//fireatwillrandom = 1;
+	healtime = 2.65;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1400;
+	//maxmana = 1000;
+	maxvelocity = 2.2;
+	movementclass = GROUND2;
+	name = Elven Ranger;
+	objectname = aradeler;
+	roadmultiplier = 1.3;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = aradeler;
+	soundclass = aradeler;
+	standingunitorder = 1;
+	stone = aradeler_stone;
+	tedclass = Aramon;
+	totalallowed = 16;
+	turninplacerate = 3000;
+	turnrate = 2500;
+	unitname = aradeler;
+	unitnumber = 12011;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass = small dust puff;
+	model = araarrow;
+	name = Arrow;
+	range = 950;
+	reloadtime = 2.2;
+	soundhitclass = arrow;
+	turnrate = 1200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 780;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}

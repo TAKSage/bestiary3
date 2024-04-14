@@ -1,0 +1,169 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+              bloodcolor4 = 40 140 40;
+              bloodcolor5 = 50 130 50;
+              bloodcolor6 = 30 150 30;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.5;
+	buildcost = 37880;
+	buildtime = 12220;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 220;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 113.34;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 29950;
+	maxmana = 2000;
+	maxvelocity = 11;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 5;
+	name = Darox;
+	objectname = TARDAROX;
+	radardistance = 870;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 360;
+	soundcategory = TARDAROX;
+	soundclass = TARDAROX;
+	standingunitorder = 2;
+	stone = tardrag_stone;
+	tedclass = Taros;
+	totalallowed = 3;
+	turninplacerate = 600;
+	turnrate = 400;
+	unitname = TARDAROX;
+	unitnumber = 79;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Flare;
+	range = 625;
+	reloadtime = 3;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1890;
+                                monarch = 0.25;
+                                dragon = 1.25;
+                                airship = 1.25;
+                                monster = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+                  aimtolerance = 33000;
+	areaofeffect = 300;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+               edgeeffectiveness = 0.5;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 1000;
+	name = Hell Rain;
+	range = 650;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 1350;
+              subtype = hailstorm;
+              duration = 3;
+              nimbus = 1;
+              particlespersecond = 25; 
+              waterexplosionclass = medium water explosion;
+              
+
+	[DAMAGE]
+	{
+		default = 300;
+		dragon = 0.5;
+                            monarch = 0.15;
+                                monster = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 450;
+	builduptime = 1.2;
+	buttonimagedisabled = FireRingTPU;
+	buttonimagedown = FireRingTPU;
+	buttonimageselected = FireRingTSBh;
+	buttonimageup = FireRingTSB;
+	decaytime = 1.2;
+	edgeeffectiveness = 0.5;
+	manapershot = 1800;
+	name = Lava Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 750;
+	reloadtime = 3;
+	ringcount = 5;
+	ringdelay = 0.45;
+	ringduration = 4.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 45;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 2725;
+                                monarch = 0.1;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+}

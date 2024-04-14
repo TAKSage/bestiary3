@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	buildcost = 3285;
+	buildtime = 585;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CRETORT_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 26;
+	fireatwillrandom = 1;
+	healtime = 0.77083;
+	manarechargerate = 27;
+	maneuverleashlength = 500;
+	maxdamage = 7986;
+	maxmana = 1000;
+	maxvelocity = 0.55;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND3;
+	name = Antaeus;
+	objectname = creultant;
+	pitchscale = 1.8;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 160;
+	soundcategory = creult2;
+	soundclass = creult2;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turnrate = 100;
+	unitname = creultant;
+	unitnumber = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = medium explosion;
+	gravityadjustment = 0.65;
+	lightmap = large;
+	lobpreffered = 1;
+	manapershot = 250;
+	name = Revolving Cannon;
+	noairweapon = 1;
+	range = 900;
+	reloadtime = 1.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	spinheading = 50;
+	spinpitch = -2950;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 270;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 585;
+		monarch = 0.5;
+	}
+}

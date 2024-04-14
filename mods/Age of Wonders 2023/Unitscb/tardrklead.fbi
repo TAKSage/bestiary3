@@ -1,0 +1,160 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = TAR MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = darkelf;
+	defaultmissiontype = Standby;
+	description = Dark Elf;
+	experiencepoints = 525;
+	healtime = 65;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 29500;
+	maxmana = 1000;
+	maxvelocity = 1.85;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = Stormlord;
+	noveteran = 1;
+	objectname = TARDRKLEAD;
+	radardistance = 900;
+	roadmultiplier = 1.35;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 865;
+	soundcategory = TARNECRO;
+	soundclass = TARNECRO;
+	standingunitorder = 1;
+	tedclass = Dark Elf;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = TARDRKLEAD;
+	unitnumber = 42571;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.325;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1405;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathray_down;
+	buttonimagedown = deathray_down;
+	buttonimageselected = deathray_selected;
+	buttonimageup = deathray_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = medium smoke explosion;
+	hweffect = deathray;
+	manapershot = 375;
+	name = Death Ray;
+	range = 365;
+	reloadtime = 7.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1100;
+
+	[DAMAGE]
+	{
+		default = 2050;
+		syron = 0.1;
+		spirit = 0.75;
+		firespirit = 0.75;
+		highman = 0.75;
+		undead = 0.1;
+		mechanical = 0.5;
+		city = 0.25;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 220;
+	builduptime = 0.5;
+	buttonimagedisabled = WindWavePU;
+	buttonimagedown = WindWavePU;
+	buttonimageselected = WindWaveSBh;
+	buttonimageup = WindWaveSB;
+	decaytime = 1;
+	edgeeffectiveness = 0.8;
+	manapershot = 800;
+	name = Thunderstorm;
+	nimbus = 1;
+	radiusart0 = ring_fx_blueA;
+	radiusart1 = ring_fx_blueB;
+	radiusart2 = ring_fx_blueC;
+	range = 400;
+	reloadtime = 5;
+	ringcount = 4;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = storm;
+	spritecount = 25;
+	turnrate = 250;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5200;
+		syron = 0.25;
+		spirit = 1.5;
+		firespirit = 1.5;
+	}
+}

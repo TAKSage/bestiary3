@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 4500;
+	buildtime = 1200;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpill_dead;
+	damagecategory = lodestone;
+	description = Zhon;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.4;
+	maxdamage = 6500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 5;
+	mogriumstorage = 15000;
+	name = Mana Jars;
+	objectname = ZONSTOR;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 125;
+	soundcategory = verpill;
+	soundclass = verpill;
+	tedclass = Zhon;
+        totalallowed = 10;
+	unitname = ZONSTOR;
+	unitnumber = 1087;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+}

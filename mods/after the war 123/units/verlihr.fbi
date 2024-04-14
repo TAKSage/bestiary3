@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4590;
+//	mogriumbounty = 918;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 710;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = VER BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verlihr_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 50;
+	floater = 0;
+	frozen = verlihr_frozen;
+	healtime = 2.9625;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2750;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mogriumincome = 5;
+	mogriumstorage = 300;
+	movementclass = HOVER2;
+	name = Priest of Lihr;
+	objectname = VERLIHR;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 270;
+	soundcategory = VERLIHR;
+	soundclass = VERLIHR;
+	standingunitorder = 1;
+	stone = verlihr_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIHR;
+	unitnumber = 139;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	workertime = 10;
+damagemodifier = 0.2;
+
+	[AdjustJoy]
+	{
+		adjustment = 25.0;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = tsunamiexp;
+	lightmap = small;
+	manapershot = 100;
+	name = Water Ball;
+	nimbus = 1;
+	range = 355;
+	reloadtime = 2.1;
+	soundhit = arrow08;
+	type = guided;
+	turnrate = 180;
+	weaponart = waterball;
+	weaponvelocity = 420;
+
+	[DAMAGE]
+	{
+		default = 800;
+		flamedemon = 2;
+		antikingflamedemon = 2;
+		giantflamedemon = 2;
+		seamonster = 0.75;
+	}
+}

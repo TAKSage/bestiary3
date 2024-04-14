@@ -1,0 +1,170 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 675;
+mogriumbounty = 67.5;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tararch_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	fireatwillrandom = 1;
+	frozen = tararch_frozen;
+	healtime = .520833;
+	maneuverleashlength = 500;
+	maxdamage = 1000;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = Skeleton Archer;
+	objectname = TARARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 290;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 1000;
+	unitname = TARARCH;
+	unitnumber = 70;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = arrow_down;
+	buttonimagedown = arrow_down;
+	buttonimageselected = arrow_use;
+	buttonimageup = arrow_up;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = araarrow2;
+	name = Flame Arrow;
+	range = 450;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+		default = 350;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 1.5;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		naval = 1.25;
+		shielded = 0.75;
+		steelnaval = 0.75;
+		giant = 0.5;
+		giantflamedemon = 0.5;
+		giantundead = 0.5;
+		flamedemon = 0.75;
+		antikingflamedemon = 0.75;
+		steel = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = lobbedA_down;
+	buttonimagedown = lobbedA_down;
+	buttonimageselected = lobbedA_use;
+	buttonimageup = lobbedA_up;
+	gravityadjustment = 4;
+	lobpreferred = 1;
+	noairweapon = 1;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = araarrow2;
+	name = Lobbed flame Arrow;
+	range = 450;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 437;
+
+	[DAMAGE]
+	{
+		default = 350;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 1.5;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		naval = 1.25;
+		shielded = 0.75;
+		steelnaval = 0.75;
+		giant = 0.5;
+		giantflamedemon = 0.5;
+		giantundead = 0.5;
+		flamedemon = 0.75;
+		antikingflamedemon = 0.75;
+		steel = 0.75;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = araarrow2;
+	name = FOR THE AI;
+	range = 450;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+		default = 350;
+		stone = 0.5;
+		factory = 0.5;
+		wood = 1.5;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		naval = 1.25;
+		shielded = 0.75;
+		steelnaval = 0.75;
+		giant = 0.5;
+		giantflamedemon = 0.5;
+		giantundead = 0.5;
+		flamedemon = 0.75;
+		antikingflamedemon = 0.75;
+		steel = 0.75;
+	}
+}

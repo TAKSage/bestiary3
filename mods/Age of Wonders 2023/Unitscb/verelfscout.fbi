@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1050;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verelfscout_dead;
+	damagecategory = elf;
+	defaultmissiontype = Standby;
+	description = elf;
+	experiencepoints = 19;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 5975;
+	maxvelocity = 4.15;
+	mogriumincome = -5;
+	movementclass = GROUND3;
+	name = Elven Scout;
+	objectname = VERELFSCOUT;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = VER;
+	sightdistance = 365;
+	soundcategory = ELFSCOUT;
+	soundclass = ELFSCOUT;
+	standingunitorder = 2;
+	stone = verelfscout_stone;
+	tedclass = Elf;
+	turnrate = 1000;
+	unitname = VERELFSCOUT;
+	unitnumber = 42546;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 120;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

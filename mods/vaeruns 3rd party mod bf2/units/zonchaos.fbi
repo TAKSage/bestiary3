@@ -1,0 +1,192 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3020;
+	buildtime = 1010;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	//canreclaim = 1;
+	//canheal = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = ZON MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 56;
+                floater = 0;
+	healtime = 5.61;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 7324;
+	maxmana = 1200;
+	maxvelocity = 1.9;
+	mogriumincome = 5;
+	mogriumstorage = 1000;
+	//maxwaterdeapth = 0;
+	movementclass = HOVER2;
+	name = CHAOS;
+	objectname = ZONCHAOS;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 221;
+	soundcategory = ZONCHAOS;
+	soundclass = ZONCHAOS;
+	standingunitorder = 1;
+	stone = zonchaos_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONCHAOS;
+	unitnumber = 12127;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	waterline = 12;
+	weaponswitching = 1;
+	//workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 50;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	damagetype = paralyzer;
+	emittime = 10;
+	explosionclass = pillaroflight;
+	hweffect = lightning;
+	innercolor = 175 249 91;
+	lightmap = medium;
+	manapershot = 50;
+	middlecolor = 12 255 5;
+	name = Shocking Grasp;
+	outercolor = 18 141 7;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 250;
+                                lodestone = 0;
+                                factory = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 125;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 300;
+	name = Demon Fire;
+	nimbus = 1;
+	range = 550;
+	reloadtime = 3;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+                waterexplosionclass = medium water explosion;
+	weaponart = FireballB;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 3000;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1.2;
+	buttonimagedisabled = FireRingPU;
+	buttonimagedown = FireRingPU;
+	buttonimageselected = FireRingSBh;
+	buttonimageup = FireRingSB;
+	//explosionclass = Volcblast;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 950;
+	name = Armageddon;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 400;
+	reloadtime = 5;
+	ringcount = 5;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	firetstarter = 1;
+	soundhitclass = fire;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3000;
+		monarch = 0.25;
+                                fort = 0.5;
+                                factory = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 100;
+	explosionclass = Volcblast;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	name = Exploding Death;
+	range = 100;
+	//reloadtime = 1;
+	type = Remote Effect;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.5;
+	}
+}

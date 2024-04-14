@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1500;
+	buildtime = 135;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonazrele_dead;
+	damagecategory = azrac;
+	defaultmissiontype = Standby;
+	description = Azrac;
+	experiencepoints = 25;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 12100;
+	maxvelocity = 2.05;
+	mogriumincome = -7;
+	movementclass = GROUND3;
+	name = Elephant;
+	objectname = ZONAZRELE;
+	roadmultiplier = 1.35;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 525;
+	soundcategory = AZRELE;
+	soundclass = AZRELE;
+	standingunitorder = 2;
+	tedclass = Azrac;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONAZRELE;
+	unitnumber = 42597;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 65;
+	edgeeffectiveness = 0.6;
+	name = Tusks;
+	range = 320;
+	reloadtime = 3.225;
+	soundhitclass = rock;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 920;	
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.85;			// More effective vs structures (Wall Crushing)
+		factory = 0.85;
+		fort = 0.85;
+		building = 0.85;	
+		mechanical = 1.2;
+		naval = 1.2;
+	}
+}

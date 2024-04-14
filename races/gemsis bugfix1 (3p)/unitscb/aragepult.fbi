@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 751;
+	buildtime = 165;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragepult_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	frozen = aragepult_frozen;
+	description = Aramon;
+	experiencepoints = 24;
+	healtime = 0.7875;
+	maneuverleashlength = 500;
+	maxdamage = 1600;
+	maxvelocity = 0.95;
+	movementclass = GROUND4;
+	name = Dark Catapult;
+	notargetcategory = FLY;
+	objectname = ARAGEPULT;
+	pitchscale = 1.5;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 160;
+	soundcategory = ARAGEPULT;
+	soundclass = ARAGEPULT;
+	standingunitorder = 1;
+	stone = araGEpult_stone;
+	tedclass = Aramon;
+	turninplacerate = 250;
+	turnrate = 250;
+	unitname = ARAGEPULT;
+	unitnumber = 8628;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	name = Cannonball;
+	noairweapon = 1;
+	range = 750;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	model = blackbom;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1350;
+	}
+}

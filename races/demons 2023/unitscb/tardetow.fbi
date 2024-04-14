@@ -1,0 +1,59 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 7951;
+	buildtime = 705;
+	canattack = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardetow_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 55;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.46875;
+	maxdamage = 17189;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Demon Tower;
+	objectname = TARDETOW;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 500;
+	soundcategory = TARSH;
+	soundclass = TARSH;
+	tedclass = Taros;
+	unitname = TARDETOW;
+	unitnumber = 102;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 25;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = FireBall;
+	range = 1200;
+	reloadtime = 1;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballA;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}

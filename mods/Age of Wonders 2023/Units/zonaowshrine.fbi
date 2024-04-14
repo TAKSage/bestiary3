@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 4300;
+	buildtime = 385;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	corpse = taraowshrine_dead;
+	category = ZON;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = building;
+	description = Building;
+	experiencepoints = 25;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.45;
+	maxdamage = 10000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Blood Shrine;
+	objectname = TARAOWSHRINE;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 250;
+	soundcategory = AOWSHRINE;
+	soundclass = AOWSHRINE;
+	tedclass = Building;
+	unitname = ZONAOWSHRINE;
+	unitnumber = 45008;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+
+	[AdjustAttack]
+	{
+		adjustment = 1.55;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 320;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 0.85;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 320;
+	}
+
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

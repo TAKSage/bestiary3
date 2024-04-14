@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 3250;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorccav_dead;
+	damagecategory = orc;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 26;
+	healtime = 3;
+	maneuverleashlength = 500;
+	maxdamage = 8750;
+	maxvelocity = 4.5;
+	mogriumincome = 0;
+	movementclass = GROUND3;
+	name = Orc Heavy Cavalry;
+	objectname = ZONORCCAV;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 225;
+	soundcategory = TARBLACK;
+	soundclass = TARBLACK;
+	standingunitorder = 2;
+	tedclass = Orc;
+	turninplacerate = 900;
+	turnrate = 700;
+	unitname = ZONORCCAV;
+	unitnumber = 42515;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 110;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

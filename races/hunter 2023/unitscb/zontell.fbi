@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	bmcode = 0;
+	bodytype = wood;
+	buildcost = 2598;
+	builderlimited=1;
+	buildtime = 287;
+	cantbestoned = 1;
+        cantransport = 1;
+	category = ZON;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zontell_dead;
+	description = Zhon;
+	experiencepoints = 5;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.104166667;
+	maxdamage = 845;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Fire Door;
+	noshadow = 1;
+	objectname = zontell;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 350;
+	soundcategory = TARCAN;
+	soundclass = TARCAN;
+	tedclass = Zhon;
+	totalallowed = 1;
+        transportcapacity = 10;
+        transportdistance = 8000;
+        transportsize = 20;
+        transportsizecapacity = 100;
+	unitname = zontell;
+	unitnumber = 2666;
+	version = 1;
+	yardmap = o;
+
+}

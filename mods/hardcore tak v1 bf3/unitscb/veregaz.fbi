@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	//original buildcost = 399;
+	buildcost = 534;
+	//original buildtime = 169;
+	buildtime = 198;
+	canstop = 1;
+	cantbestoned = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//copyright = Copyright 1999 Z-TA. All rights reserved.;
+	corpse = veregaz_dead;
+	damagecategory = fort2;
+	description = Veruna;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 14;
+	gate = 1;
+	healtime = 0.3520833;
+	//original maxdamage = 17000; 27200
+	maxdamage = 30200;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Side Gate;
+	noshadows = 0;
+	objectname = veregaz;
+	onoffable = 1;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 210;
+	soundcategory = VERNGATE;
+	soundclass = VERNGATE;
+	tedclass = Veruna;
+	unitname = veregaz;
+	unitnumber = 8007;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+	//ai_weight = weight veregaz 0;
+	//ai_limit = limit veregaz 0;
+}

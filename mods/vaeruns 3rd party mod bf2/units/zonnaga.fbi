@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 63 191 127;
+	bloodcolor2 = 50 212 132;
+	bloodcolor3 = 78 179 117;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 2100;
+	buildtime = 550;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = vergod_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 75;
+                floater = 0;
+	healtime = 0.379166667;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 2.05;
+	movementclass = HOVER4;
+	name = Naga Warrior;
+	objectname = ZonNaga;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 160;
+	soundcategory = ZONNAGA;
+	soundclass = ZONNAGA;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZonNaga;
+	unitnumber = 4579;
+	upright = 1;
+	version = 1;
+	waterline = 32;
+	watermultiplier = 2.05;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 56;
+	edgeeffectiveness = 0.5;
+	name = Multiple Weapons;
+	range = 100;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+                monarch = 0.1;
+	}
+}
+[WEAPON2]
+{
+	areaofeffect = 56;
+	edgeeffectiveness = 0.5;
+	name = Multiple Weapons;
+	range = 100;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 900;
+                monarch = 0.1;
+	}
+}
+[WEAPON3]
+{
+	areaofeffect = 56;
+	edgeeffectiveness = 0.5;
+	name = Multiple Weapons;
+	range = 100;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+                monarch = 0.1;
+	}
+}

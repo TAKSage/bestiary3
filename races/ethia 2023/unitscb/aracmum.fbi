@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2997;
+	buildtime = 545;
+	canattack = 1;	
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aracmum_dead;
+	frozen = monmum_frozen;
+	stone = aracmum_stone;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 66;
+	healtime = 0.77;
+	maneuverleashlength = 500;
+	maxdamage = 11612;
+	maxvelocity = 1.95;
+	maxwaterdepth = 25;
+	movementclass = GROUND3;
+	name = Crypt Mummy;
+	objectname = ARACMUM;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 245;
+	soundcategory = MONMUM;
+	soundclass = MONMUM;
+	standingunitorder = 2;
+	tedclass = Ethia;
+	turninplacerate = 1800;
+	turnrate = 1000;
+	unitname = ARACMUM;
+	unitnumber = 21820;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.25;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.5;
+		radius = 200;
+	}
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 45;
+	edgeeffectiveness = 1.0;
+	name = Fist;
+	range = 90;
+	reloadtime = 2.75;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2180;
+		monarch = 0.5;
+		god = 0.5;
+		stalwart = 0.5;
+	}
+}

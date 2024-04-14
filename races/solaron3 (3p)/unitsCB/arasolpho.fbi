@@ -1,0 +1,147 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bankscale = 2;
+	bloodcolor1 = 238 196 0;
+	bloodcolor2 = 238 136 0;
+	bloodcolor3 = 250 237 0;
+	bmcode = 1;
+	bodytype = Armor;
+	brakerate = 0.15;
+	buildcost = 6500;
+	buildtime = 1200;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+              cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 120;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 1.3666666;
+	hoverattack = 1;
+	hoverattackdistance = 120;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 5100;
+	maxvelocity = 3.5;
+	maxmana = 1000;
+	maxwaterdepth = 0;
+	name = Solaron Phoenix;
+	objectname = arasolpho;
+	radardistance = 300;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 275;
+	soundcategory = arasolpho;
+	soundclass = Vercphoe;
+	standingunitorder = 2;
+	standingmoveorder = standby;
+	stone = arasolpho_stone;
+	tedclass = Aramon;
+	totalallowed=20;
+	turnrate = 200;
+	turninplacerate = 1000;
+	unitname = arasolpho;
+	unitnumber = 101773;
+	upright = 1;
+	weaponswitching = 1;
+	version = 1.1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Flame Tongue;
+	range = 400;
+	reloadtime = 4.5;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 500;
+	showeffect = 1;
+
+	[DAMAGE]
+	{
+		default = 400;
+		}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowTrackingPU;
+	buttonimagedown = ArrowTrackingPU;
+	buttonimageselected = ArrowTrackingSBh;
+	buttonimageup = ArrowTrackingSB;
+	explosionclass = fireball explosion;
+	manapershot = 300;
+	firestarter = 1;
+	model = araarrow2;
+	name = Flaming Cinder;
+	nimbus = 1;
+	range = 800;
+	reloadtime = 4;
+	soundhit = Arrow01;
+	turnrate = 200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+	showeffect = 1;
+
+	[DAMAGE]
+	{
+		default = 600;
+		dragon = .5;
+	}
+}
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 10;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	explosionclass = flamestrike;
+	manapershot = 500;
+	firestarter = 1;
+	name = FireBall;
+	nimbus = 1;
+	range = 1200;
+	reloadtime = 4;
+	soundhitclass = fire;
+	turnrate = 200;
+	type = Ballistic;
+	weaponart = fireballB;
+	weaponvelocity = 800;
+	showeffect = 1;
+	waterexplosionclass = medium water explosion;
+	
+	[DAMAGE]
+	{
+		default = 800;
+		dragon = .5;
+		monarch = .2;
+	}
+}

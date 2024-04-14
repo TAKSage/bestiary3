@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 225 225 255;
+	bloodcolor2 = 200 200 225;
+	bloodcolor3 = 175 175 200;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 575;
+	buildtime = 92;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verhghspirit_dead;
+	damagecategory = spirit;
+	defaultmissiontype = Standby;
+	description = Highman;
+	experiencepoints = 15;
+	ghost = 1;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 2825;
+	maxvelocity = 1.75;
+	mogriumincome = -3;
+	movementclass = GROUND2;
+	name = Spirit Puppet;
+	objectname = VERHGHSPIRIT;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 350;
+	soundcategory = HGHSPIRIT;
+	soundclass = HGHSPIRIT;
+	standingunitorder = 2;
+	tedclass = Highman;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERHGHSPIRIT;
+	unitnumber = 42564;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	explosionclass = lightning explosion;
+	name = Magic Strike;
+	lightmap = small;
+	range = 30;
+	reloadtime = 1.9;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 850;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		demon = 0.5;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.25;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+		naval = 0.75;
+	}
+}

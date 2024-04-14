@@ -1,0 +1,88 @@
+[UNITINFO]
+{
+	acceleration=0.2;
+	bankscale=0.4;
+	bloodcolor1=160 35 0;
+	bloodcolor2=170 40 0;
+	bloodcolor3=180 30 5;
+	bmcode=1;
+	bodytype=scale;
+	brakerate=0.15;
+	buildcost=60000;
+	buildtime=4500;
+	canattack=1;
+	cancloak=1;
+	canfly=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbecaptured=1;
+	cantbefrozen = 1;
+	cantbestoned=1;
+	cantbetransported=1;
+	category=TAR ATTACK MAGIC FLY;
+	cloakcost=15;
+	cloakcostmoving=25;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt=100;
+	damagecategory=Undead;
+	defaultmissiontype=VTOL_Standby;
+	description=Taros;
+	experiencepoints=200;
+	footprintx=4;
+	footprintz=4;
+	healtime=8;
+	hoverattack=1;
+	hoverattackdistance=150;
+	manarechargerate=30;
+	maneuverleashlength=500;
+	maxdamage=29000;
+	maxmana=1000;
+	maxvelocity=7;
+	mincloakdistance = 100;
+	maxwaterdepth=0;
+	moverate1=1;
+	moverate2=5;
+	name=The Undead Dragon;
+	objectname=TARNDRAGSKEL;
+	radardistance=400;
+	shadowart=weaponshad01;
+	shootme=1;
+	side=TAR;
+	sightdistance=224;
+	soundclass=TARNDRAGSKEL;
+	soundcategory=TARNDRAGSKEL;
+	standingunitorder=2;
+	tedclass=Necro Dragon;
+	totalallowed=1;
+	turninplacerate=600;
+	turnrate=400;
+	unitname=TARNDRAGSKEL;
+	unitnumber=120079;
+	upright=1;
+	version=1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 425;
+	reloadtime = 3;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 2500;
+	}
+}
+

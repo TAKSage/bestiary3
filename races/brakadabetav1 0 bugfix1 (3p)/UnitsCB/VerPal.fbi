@@ -1,0 +1,111 @@
+[UNITINFO]
+{
+	acceleration = 1.75;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildcost = 360000;
+	buildtime = 36000;
+	canattack = 1;
+	canfly = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                  cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	damagecategory = God;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	experiencepoints = 999;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.003;
+                  hoverattack = 1;
+                  hoverattackdistance = 200;
+                  manarechargerate = 20;
+	maneuverleashlength = 500;
+                  maxmana = 1000;
+	maxdamage = 27500;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	name = Pal Dyn ;
+	noveteran = 1;
+	objectname = VerPal;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 290;
+	soundcategory = VERPAL;
+	soundclass = VERPAL;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	totalallowed = 1;
+	turninplacerate = 550;
+	turnrate = 320;
+	unitname = VERPAL;
+	unitnumber = 600;
+	upright = 1;
+	version = 1;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                  buttonimageselected = LightningSBh;
+                  buttonimageup = LightningSB;
+                  emittime = 15;
+                  explosionclass = lightning explosion;
+                  hweffect = lightning;
+                  innercolor = 255 255 255;
+                  middlecolor = 200 230 255;
+                  name = Heavenly Lightning;
+                  outercolor = 180 200 255;
+                  range = 500;
+                  reloadtime = 2.6;
+                  soundhitclass = lightning;
+                  subtype = lightning;
+                  type = Line of Sight;
+                  weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		monarch = 0.1;
+                                    undead = 10;
+	}
+}
+
+[WEAPON2]
+{
+                  areaofeffect = 300;
+                  buttonimagedown = thunderboltPU;
+                  buttonimageselected = thunderboltSBh;
+                  buttonimageup = thunderboltSB;
+                  duration = 5;
+                  edgeeffectiveness = 1;
+                  explosionclass = lightning explosion;
+                  manapershot = 450;
+                  name = Holy Judgement;
+                  particlespersecond = 20;
+                  range = 200;
+                  reloadtime = 5;
+                  soundhitclass = lightning;
+                  subtype = hailstorm;
+                  type = Remote Effect;
+                  weaponart = ltngball_2a;
+                  weaponvelocity = 1500;
+
+                  [DAMAGE]
+                  {
+                                 default = 76;
+                                 monarchs = 0.5;
+                                 undead = 2;
+                  }
+}

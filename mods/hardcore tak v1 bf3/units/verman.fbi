@@ -1,0 +1,93 @@
+[UNITINFO]
+{
+	acceleration = 0.31;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.062;
+	buildcost = 2656;
+//	original buildtime = 185; 93
+	buildtime = 185;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = VER BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verman_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 40;
+	floater = 1;
+	healtime = 0.770833333;
+	maneuverleashlength = 500;
+	maxdamage = 7630;
+	maxvelocity = 3.1;
+	movementclass = WATER4;
+	name = Man of War;
+	objectname = VERMAN;
+	pitchscale = 1.2;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 278;
+	soundcategory = VERMAN;
+	soundclass = VERMAN;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	transportcapacity = 8;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 32;
+	turnrate = 186;
+	unitname = VERMAN;
+	unitnumber = 141;
+	//based on Cavedog's Crusades Balance;
+	version = M.1.0;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	//original aimtolerance = 1024;
+	aimtolerance = 512;
+	//original areaofeffect = 60;
+	areaofeffect = 85;
+	damagetype = explosion;
+	edgeeffectiviness = 0.9;
+	explosionclass = medium explosion;
+	name = cannon;
+	noairweapon = 1;
+	//original range = 550;
+	range = 620;
+	reloadtime = 3.9;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 760;
+
+	[DAMAGE]
+	{
+		default = 1332; //dmg = 342/s
+		naval = 1.08;   //dmg = 1443 (370/s)
+		tier1 = 3.0;	
+		archer = 3.0;
+		melee = 1.2;    //dmg = 
+		monarch = 0.3;
+		siege = 1.2;
+		siege2 = 1.2;
+		god = 0.3;
+	}
+}

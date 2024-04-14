@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 6225;
+	buildtime = 825;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarsiege_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 24;
+	healtime = 1.9875;
+	maneuverleashlength = 500;
+	maxdamage = 27000;
+	maxvelocity = 0.81;
+	movementclass = GROUND4;
+	name = Battering Ram;
+	notargetcategory = FLY;
+	objectname = aramoriaram;
+	pitchscale = 1.5;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 160;
+	soundcategory = verpult;
+	soundclass = verpult;
+	standingunitorder = 1;
+	stone = arapult_stone;
+	tedclass = Aramon;
+	turninplacerate = 250;
+	turnrate = 250;
+	unitname = aramoriaram;
+	unitnumber = 28;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 86;
+	explosionclass = small dust puff;
+	model = araram.3do;
+	name = Ram;
+	range = 100;
+	reloadtime = 4.1;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = RHITRK05;
+	type = Ballistic;
+	veteranlevel = 10;
+	model = araram.3do;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 760;
+
+	[DAMAGE]
+	{
+		default = 200;
+		FACTORY = 19.5;
+		FORT = 19.5;
+	}
+}

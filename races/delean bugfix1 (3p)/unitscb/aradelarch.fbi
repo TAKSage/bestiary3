@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6385;
+	builddistance = 75;
+	builder = 1;
+	buildtime = 755;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelarch_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 40;
+	healtime = 4;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 2200;
+	maxmana = 2000;
+	maxvelocity = 1.3;
+	mogriumincome = 3;
+	mogriumstorage = 800;
+	movementclass = GROUND2;
+	name = Archmage;
+	objectname = aradelarch;
+	radardistance = 550;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = vermusk;
+	soundclass = vermusk;
+	standingunitorder = 1;
+	stone = aradelarch_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aradelarch;
+	unitnumber = 3201;
+	upright = 1;
+	version = 1;
+	waterline = 42;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+	workertime = 6;
+
+	[AdjustJoy]
+	{
+		adjustment = 200;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 100;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	edgeeffectiveness = 0.25;
+	explosionclass = Water Splash;
+	lightmap = large;
+	manapershot = 125;
+	name = Water Ball;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 2.2;
+	soundhit = arrow08;
+	type = line of sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 125;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = large explosion;
+	firestarter = 1;
+        guided = 1;
+	manapershot = 90;
+	name = Following Orb;
+	nimbus = 1;
+	range = 950;
+	reloadtime = 3;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 80;
+
+	[DAMAGE]
+	{
+		default = 2000;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 125;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	firestarter = 1;
+	manapershot = 2000;
+	name = Blaze;
+	nimbus = 1;
+	range = 450;
+	reloadtime = 2;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 2500;
+	}
+}

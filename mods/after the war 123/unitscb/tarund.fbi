@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	buildcost = 1350;
+mogriumbounty = 80;
+	buildtime = 185;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarund_dead;
+	damagecategory = skeleton;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 20;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 5500;
+	maxvelocity = 1.28;
+	movementclass = GROUND2;
+	name = unholy paladin;
+	objectname = TARUND;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 190;
+	soundcategory = TARUND;
+	soundclass = TARUND;
+	standingunitorder = 2;
+	stone = tarund_stone;
+	tedclass = Taros;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = TARUND;
+	unitnumber = 1095;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Unholy Sword;
+	range = 100;
+	reloadtime = 2.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1050;
+		stone = 0.75;
+		factory = 0.75;
+		steel = 0.75;
+		unshielded = 1.25;
+		antikingunshielded = 1.25;
+		berserker = 1.25;
+		flamedemon = 1.5;
+		antikingflamedemon = 1.5;
+		giantflamedemon = 1.5;
+		undead = 1.25;
+		giantundead = 1.25;
+	}
+}

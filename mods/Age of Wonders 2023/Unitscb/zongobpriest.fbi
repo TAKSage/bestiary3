@@ -1,0 +1,154 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 175 0;
+	bloodcolor2 = 10 140 70;
+	bloodcolor3 = 5 100 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 950;
+	buildtime = 300;
+	builddistance = 100;
+	builder = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BUILDER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zongobpriest_dead;
+	damagecategory = goblin;
+	defaultmissiontype = Standby;
+	description = Goblin;
+	experiencepoints = 16;
+	healtime = 0.9;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 4370;
+	maxmana = 1000;
+	maxvelocity = 1.35;
+	mogriumincome = -4;
+	movementclass = GROUND2;
+	name = Goblin Shaman;
+	objectname = ZONGOBPRIEST;
+	radardistance = 600;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 375;
+	soundcategory = ZONGOB;
+	soundclass = ZONGOB;
+	standingunitorder = 1;
+	tedclass = Goblin;
+	turnrate = 2500;
+	unitname = ZONGOBPRIEST;
+	unitnumber = 42545;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Strike;
+	range = 30;
+	reloadtime = 1.5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.5;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = magicbolt_down;
+	buttonimagedown = magicbolt_down;
+	buttonimageselected = magicbolt_selected;
+	buttonimageup = magicbolt_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = mindspin;
+	hweffect = magicbolt;
+	lightmap = large;
+	manapershot = 180;
+	name = Magic Bolt;
+	range = 350;
+	reloadtime = 6.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		spirit = 2;
+		firespirit = 2;
+		syron = 0;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = turnundead_down;
+	buttonimagedown = turnundead_down;
+	buttonimageselected = turnundead_selected;
+	buttonimageup = turnundead_up;
+	areaofeffect = 25;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.75;
+	explosionclass = yellow_shockring;
+	manapershot = 700;
+	name = Turn Undead;
+	range = 35;
+	reloadtime = 6;
+	soundhit = turnund;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1;
+		fort = 0;
+		city = 0;
+		factory = 0;
+		building = 0;
+		mechanical = 0;
+		naval = 0;
+		undead = 2500;
+	}
+}
+

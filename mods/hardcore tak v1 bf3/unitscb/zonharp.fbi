@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	//original acceleration = 0.25;
+	acceleration = 2.0;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+//	buildcost = 2762; Now (115%)
+	buildcost = 3176;
+//	original buildtime = 333;
+	buildtime = 400;
+	canattack = 1;
+	cancapture = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	//original damagecategory = monster;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 15;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 10;
+	//original maneuverleashlegth = 500;
+	maneuverleashlength = 2500;
+	//original maxdamage = 913;
+	maxdamage = 1100;
+	maxmana = 1000;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Harpy;
+	objectname = ZONHARP;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 190;
+	soundcategory = ZONHARP;
+	soundclass = ZONHARP;
+	standingunitorder = 2;
+	stone = zonharp_stone;
+	tedclass = Zhon;
+	//original turninplacerate = 400;
+	turninplacerate = 1600;
+	//original turnrate = 300;
+	turnrate = 1200;
+	unitname = ZONHARP;
+	unitnumber = 170;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	//original aimtolerance = 1024;
+	aimtolerance = 512;
+	explosionclass = mind control;
+	lightmap = small;
+	//original manapershot = 300;
+	manapershot = 450;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	//reloadtime = 1.5;
+	reloadtime = 3.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	turnrate = 180;
+	type = line of sight;
+	weaponart = FireballD;
+	//original weaponvelocity = 169;
+	weaponvelocity = 560;
+
+	[DAMAGE]
+	{
+		airship = 0;
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

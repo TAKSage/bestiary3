@@ -1,0 +1,136 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 1;
+	buildcost = 26778;
+	buildtime = 6357;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA MELEE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aramet_dead;
+	damagecategory = fort;
+	defaultmissiontype = Standby;
+	description = Aramon;
+                experiencepoints = 140;
+	healtime = 1.447916667;
+	maneuverleashlength = 500;
+	maxdamage = 23700;
+	maxvelocity = 1.2;
+	movementclass = GROUND4;
+	name = Metal Beast;
+                noveteran = 1;
+	objectname = ARAMET;
+	radardistance = 460;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 220;
+	soundcategory = ARAMET;
+	soundclass = ARAMET;
+	standingunitorder = 2;
+	tedclass = Aramon;
+                totalallowed = 6;
+                turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = ARAMET;
+	unitnumber = 4735634;
+                upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                weaponswitching = 1;
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 60;
+                buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.7;
+                explosionclass = blood explosion;
+	name = Battle Axe;
+	range = 140;
+	reloadtime = 1.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1010;
+                monarch = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 100;
+                buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Dragon Breath;
+	range = 400;
+	reloadtime = 4;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1300;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 480;
+	areaofeffect = 120;
+                 buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+	damagetype = explosion;
+	edgeeffectivness = 0.75;
+	explosionclass = large explosion;
+	name = Cannon Blast;
+	range = 850;
+	reloadtime = 3.3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1830;
+		god = 0.5;
+		monarch = 0.5;
+	}
+}
+
+
+

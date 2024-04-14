@@ -1,0 +1,108 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1100;
+	buildtime = 170;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creplas_dead;	
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	frozen = creplas_frozen;
+	healtime = .8;
+	maneuverleashlength = 500;
+	maxdamage = 3250;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Prismatic Trooper;
+	objectname = CREPLAS;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREPLAS;
+	soundclass = CREPLAS;
+	standingunitorder = 1;
+	stone = CREPLAS_stone;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CREPLAS;
+	unitnumber = 4110;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	areaofeffect = 10;
+                  //damagetype = explosion;
+	edgeeffectiveness = 1;
+    explosionclass = lightning explosion;
+    firestarter = 1;
+	emittime = 80;
+	hweffect = creon lightbeam;
+	innercolor = 255 255 150;
+	middlecolor = 230 230 145;
+	outercolor = 200 200 140;
+	lightmap = large;
+	//model = Plasma2a;
+	//name = Plasma;
+	name = Lightbeam;
+	creon lightbeam;
+                  nimbus = 1;
+	range = 550;
+	reloadtime = 3.0;
+	//soundhit = explode1;
+	soundhitclass = crelbeam;
+	subtype = lightning;	
+	type = Line of Sight;
+	//type = Guided;
+                  weaponart = LtngBall_2a;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 550;
+                stalwart = 0.5;
+                dragon = 0.5;
+                god = 0.5;
+                monarch = 0.5;
+                Tier1 = 1.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 199;
+	damagetype = explosion;
+	edgeeffectiveness = 0.6;
+	explosionclass = lightning explosion;
+	name = Die;
+                  soundhit = death1;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 300;
+		monarch = 0.5;
+	}
+}

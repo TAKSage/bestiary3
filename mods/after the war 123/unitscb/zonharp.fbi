@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 2762;
+	mogriumbounty = 276.2;
+	buildtime = 330;
+	canattack = 1;
+	cancapture = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 15;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1000;
+	maxmana = 1000;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Harpy;
+	objectname = ZONHARP;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 240;
+	soundcategory = ZONHARP;
+	soundclass = ZONHARP;
+	standingunitorder = 2;
+	stone = zonharp_stone;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = ZONHARP;
+	unitnumber = 170;
+	upright = 1;
+	version = 1;
+weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = love_down;
+	buttonimagedown = love_down;
+	buttonimageselected = love_use;
+	buttonimageup = love_up;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Mind Control (300);
+	nimbus = 1;
+	range = 300;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 270;
+	waterweapon = 1;
+
+	[DAMAGE]
+	{
+		default = 1;
+		monarch = 0;
+		factory = 0;
+		
+	}
+}

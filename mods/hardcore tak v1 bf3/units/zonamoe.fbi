@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.35;
+	//original buildcost = 1984;
+	buildcost = 2157;
+	//original buildtime = 275; 357
+	buildtime = 428;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//original no cantbecaptured/stoned
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	//original no cantbetransported
+	cantbetransported = 1;
+	//original no cantbefrozen
+	cantbefrozen = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZONAMOE_dead;
+	//original damagecategory = Monster;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 28;
+//	frozen = zonamoe_frozen;
+	healtime = 1.145;
+	maneuverleashlength = 500;
+	//original maxdamage = 7900; 9480; Now (180%)
+	maxdamage = 14220;
+	//original maxvelocity = 0.8;
+	maxvelocity = 0.6;
+	//original movementclass = GROUND5;
+	movementclass = GROUND3B;
+	name = Giant Orm;
+	objectname = ZONAMOE;
+	//original roadmultiplier = 1.0;
+	roadmultiplier = 1.2;
+	shootme = 1;
+	side = ZON;
+	//original sightdistance = 140;
+	sightdistance = 90;
+	soundcategory = ZONAMOE;
+	soundclass = ZONAMOE;
+	standingunitorder = 2;
+	stone = zonamoe_stone;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = ZONAMOE;
+	unitnumber = 157;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	name = Bite;
+	noairweapon = 1;
+	range = 45;
+	//original reloadtime = 2.5;
+	reloadtime = 1.7;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 25000; 12500;
+		default = 10000;
+		//All below were doubled from the original
+		airship = 0.08;
+		dragon = 0.08;
+		//original factory = 0.16;
+		factory = 0.69;
+		fly = 0.08;
+		//original fort = 0.16;
+		fort = 0.32;
+		fort2 = 0.69;
+		god = 0.08;
+		human = 0.08;
+		monarch = 0.08;
+		monster = 0.32;
+		naval = 0.08;
+		//original monster = 0.08;
+		siege = 0.16;
+		siege2 = 0.32;
+		stalwart = 0.25;
+		//original tier1 = 0.04; HTAK098 = 0.145;
+		tier1 = 0.29;
+		//These are new
+	}
+}
+
+[EXPLODEAS]
+{
+	//original areaofeffect = 100; Now (150%)
+	areaofeffect = 150;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10000;
+		monarch = 0.2;
+		//These are new
+		god = 0.1;
+		fort = 0.2;
+		fort2 = 0.4;
+	}
+}

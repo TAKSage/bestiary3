@@ -1,0 +1,119 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	ailimit = 20;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2520;
+	buildtime = 490;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 3;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 5210;
+	maxvelocity = 2.4;
+	movementclass = GROUND3;
+	name = Cerberus;
+	noveteran = 1;
+	objectname = tarbce;
+	roadmultiplier = 1.25;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 500;
+	soundcategory = LIFWOLF;
+	soundclass = LIFWOLF;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarbce;
+	unitnumber = 4320;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	name = Claws;
+	buttonimagedisabled = beastclawspu;
+	buttonimagedown = beastclawspu;
+	buttonimageselected = beastclawssbh;
+	buttonimageup = beastclawssb;
+	range = 250;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 625;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	areaofeffect = 50;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Fire Ball of Doom;
+	range = 400;
+	reloadtime = 1.85;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Line of Sight;
+	subtype = tracking;
+	weaponart = FireballA;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}

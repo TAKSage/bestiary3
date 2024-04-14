@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                  bloodcolor1 = 160 35 0;
+                  bloodcolor2 = 170 40 0;
+                  bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 6696;
+	buildtime = 1359;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Vercha_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = VERUNA;
+	experiencepoints = 18;
+	healtime = 1.03125;
+                  manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 9216;
+                  maxmana = 1000;
+	maxvelocity = 2.7;
+	movementclass = GROUND2;
+	name = Champion of Dyn;
+	objectname = VERCHA;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 135;
+	soundcategory = VERCHA;
+	soundclass = VERCHA;
+	standingunitorder = 1;
+	stone = Vercha_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERCHA;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+                  buttonimagedisabled = sworddown;
+                  buttonimagedown = sworddown;
+                  buttonimageselected = swordsel;
+                  buttonimageup = swordup;
+	name = Blessed Sword;
+	range = 250;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 895;
+                                    undead = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+                 aimtolerance = 1024;
+                 areaofeffect = 400;
+                 builduptime = 1;
+                 buttonimagedisabled = Slayerdown;
+                 buttonimagedown = Slayerdown;
+                 buttonimageselected = Slayersel;
+                 buttonimageup = Slayer;
+                 decaytime = 0.9;
+                 edgeeffectiveness = 1;
+                 manapershot = 999;
+                 name = Slayer of the Unholy;
+                 nimbus = 1;
+                 radiusart0 = ring_fx_blueA;
+                 radiusart1 = ring_fx_blueB;
+                 radiusart2 = ring_fx_blueC;
+                 range = 150;
+                 reloadtime = 4;
+                 ringcount = 6;
+                 ringdelay = 0.15;
+                 ringduration = 1.2;
+                 showeffect = 0;
+                 soundhit = arrow08;
+                 spritecount = 30;
+                 type = Remote Effect;
+                 unitsonly = 1;
+                 weaponvelocity = 100;
+
+                 [DAMAGE]
+                 {
+                                default = 1000;
+                                undead = 3.5;
+                                monster = 2;
+                 }
+}

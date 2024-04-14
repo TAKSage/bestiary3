@@ -1,0 +1,55 @@
+[UNITINFO]
+{
+	bodytype = armor;
+	buildangle = 0;
+	buildcost = 1500;
+	buildtime = 385;
+	cantbefrozen = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	description = Taros;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.4167;
+	maxdamage = 200;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Gunpowder;
+	noshadow = 1;
+	objectname = targunpowder;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 45;
+	soundcategory = CREWALL;
+	soundclass = CREWALL;
+	tedclass = Taros;
+	totalallowed = 1;
+	unitname = targunpowder;
+	unitnumber = 42;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 350;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	shakeduration = 2;
+	shakemagnitude = 6;
+	soundhit = Explode6;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 12000;
+		monarch = 0.2;
+	}
+}

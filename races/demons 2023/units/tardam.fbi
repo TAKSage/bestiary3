@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1403;
+	buildtime = 232;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardam_dead;
+	defaultmissiontype = Standby;
+	description = TAR;
+	experiencepoints = 6;
+	frozen = tardam_frozen;
+	healtime = 3.4375;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Amduscian;
+	noveteran = 1;
+	objectname = TARDAM;
+	roadmultiplier = 1.21;
+	shadowart = shadow02;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = NPCTRIBE;
+	soundclass = NPCTRIBE;
+	standingunitorder = 2;
+	stone = tardam_stone;
+	tedclass = NPC;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDAM;
+	unitnumber = 69;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	edgeeffectiveness = 0.7;
+	name = Punch;
+	range = 300;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 360;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 0 0;
+	lightmap = small;
+	manapershot = 100;
+	middlecolor = 200 0 0;
+	name = Thunderbolt;
+	outercolor = 180 0 0;
+	range = 225;
+	reloadtime = 2.2;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 492;
+	}
+}
+

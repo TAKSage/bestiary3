@@ -1,0 +1,111 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2400;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	//canhover = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ARA MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aramysticw_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 45;
+                floater = 1;
+	healtime = 2.69;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxmana = 1500;
+	maxvelocity = 2.0;
+	movementclass = HOVER3;
+	name = Mystic Warrior;
+	objectname = aramysticw;
+	radardistance = 600;
+	roadmultiplier = 1.11;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = aramysticw;
+	soundclass = aramysticw;
+	standingunitorder = 1;
+	stone = aramysticw_stone;
+	tedclass = Aramon;
+	turninplacerate = 1350;
+	turnrate = 1450;
+	unitname = aramysticw;
+	unitnumber = 6814;
+	upright = 1;
+	version = 1;
+                waterline = 22;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.45;
+	name = Battle Swords;
+	range = 70;
+	reloadtime = 1.78;
+	soundhitclass = sword;
+	type = Melee;
+	
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 768;
+	buttonimagedisabled = LightningSBy;
+	buttonimagedown = LightningSBy;
+	buttonimageselected = LightningSBhy;
+	buttonimageup = LightningPUy;
+	emittime = 5;
+	explosionclass = lightning explosion;
+	hweffect = yellow lightning;
+	innercolor = 235 235 235;
+	manapershot = 300;
+	middlecolor = 195 200 255;
+	name = Mystic Lightning;
+	outercolor = 175 180 255;
+	range = 500;
+	reloadtime = 2.75;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = small water explosion;
+	weaponvelocity = 730;
+
+	[DAMAGE]
+	{
+		default = 1715;
+	}
+}
+

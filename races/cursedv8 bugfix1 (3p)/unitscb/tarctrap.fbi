@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 931;
+	buildtime = 80;
+	canattack = 1;
+	canstop = 1;
+	cancloak = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.9;
+	manarechargerate = 5;
+	maxmana = 10;
+	cloakcost = 5;
+	cloakcostmoving = 5;
+	maxdamage = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Lightning Trap;
+	objectname = TARCTRAP;
+	radardistance = 200;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 150;
+	soundcategory = TARCTRAP;
+	soundclass = TARCTRAP;
+	tedclass = Taros;
+	unitname = TARCTRAP;
+	unitnumber = 853;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1000;
+	areaofeffect = 40;
+	edgeeffectiveness = 1;
+	emittime = 100;
+	hweffect = creon lightning;
+	innercolor = 255 255 255;
+	middlecolor = 230 230 255;
+	outercolor = 200 200 255;
+	lightmap = medium;
+	name = Lightning;
+	range = 350;
+	reloadtime = 2;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 200;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 150;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = medium explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}

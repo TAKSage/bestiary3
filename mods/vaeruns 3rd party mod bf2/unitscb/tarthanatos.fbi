@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	//animatetype = TARTHANATOS;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 54691;
+	buildtime = 11737;
+	canattack = 1;
+                cancloak = 1;
+	//canbuild = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+                //cantbeparalyzed = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+                cloakcost = 10;
+                cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = tarThanatos_dead;	
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 280;
+	healtime = 79.333;
+                immunetoparalyzer = 1;
+                manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 25000;
+                maxmana = 1000;
+	maxvelocity = 1.2;
+                mincloakdistance = 100;
+	movementclass = GROUND3;
+	name = Thanatos;
+	objectname = TARTHANATOS;
+                radardistance = 300;
+	roadmultiplier = 1.25;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 185;
+	soundcategory = TARTHANATOS;
+	soundclass = TARTHANATOS;
+	standingunitorder = 2;
+                stone = tarthanatos_stone;
+	tedclass = Taros;
+	totalallowed = 3;
+	turninplacerate = 2200;
+	turnrate = 2200;
+	unitname = TARTHANATOS;
+	unitnumber = 2101;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustArmor]
+	{
+		adjustment = 0.2;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.5;
+		radius = 300;
+	}
+	[AdjustAttack]
+	{
+		adjustment = 0.2;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.5;
+		radius = 350;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.5;
+	name = Demonic Axe;
+	range = 100;
+	reloadtime = 2.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2100;
+                            monarch = 0.15;
+                            god = 0.5;
+	}
+}

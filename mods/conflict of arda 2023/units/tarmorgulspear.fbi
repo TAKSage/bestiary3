@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 398;
+	buildtime = 99;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR ATTACK BALLISTIC;
+	cloakcost = 25;
+	cloakcostmoving = 30;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmorgulorc_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 33;
+	healtime = 0.570833333;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2754;
+	maxmana = 800;
+	maxvelocity = 2;
+	mincloakdistance = 80;
+	movementclass = GROUND2;
+	name = Morgul Spearman;
+	objectname = tarmorgulspear;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = ZONTROLL;
+	soundclass = ZONTROLL;
+	standingunitorder = 1;
+	stone = araspy_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarmorgulspear;
+	unitnumber = 34;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = zonterspear;
+	name = spear;
+	range = 422;
+	reloadtime = 2.9;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = zonterspearvet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 200;
+	}
+}

@@ -1,0 +1,155 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 17000;
+	buildtime = 2800;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+        cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verarcha_dead;
+	cruisealt = 50;
+	damagetype = Human;
+	defaultmissiontype = standby;
+	description = Veruna;
+	experiencepoints = 100;
+	fireatwillrandom = 1;
+	footprintx = 2;
+	footprintz = 2;
+	frozen = verarcha_frozen;
+	healtime = 3;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+                //immunetoparalyzer = 1;
+	manarechargerate = 10;
+	maxmana = 1000;
+	//maneuverleashlength = 500;
+	maxdamage = 10000;
+	maxvelocity = 6;
+	maxwaterdepth = 0;
+	name = ArchAngel;
+	objectname = VerArchA;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VerArchA;
+	soundclass = VerArchA;
+	standingunitorder = 2;
+	stone = VerArchA_stone;
+	tedclass = Veruna;
+                totalallowed = 1.1;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = VerArchA;
+	unitnumber = 111786;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	explosionclass = Volcblast;
+	hweffect = lightning;
+	innercolor = 248 247 104;
+	lightmap = medium;
+	middlecolor = 238 196 0;
+	name = Lightning Bolt;
+	nimbus = 1;
+	outercolor = 250 165 0;
+	range = 600;
+	reloadtime = 2.4;
+                soundhit = AraLAngelAta1;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.25;
+		god = 1.0;
+                dragon = 1.0;
+                airship = 2.0;
+                monster = 2.0;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 32000;
+	areaofeffect = 600;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 2.0;
+	edgeeffectiveness = 0.1;
+	explosionclass = iceballexp;
+	firestarter = 1;
+	manapershot = 900;
+	name = Frost Storm;
+	nimbus = 1;
+	particlespersecond = 8;
+	range = 300;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monarch = 0.5;
+		fort = 0.8;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Angel Explosion;
+	range = 500;
+	reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}

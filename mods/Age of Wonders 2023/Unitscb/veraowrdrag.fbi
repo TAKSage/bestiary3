@@ -1,0 +1,93 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 20500;
+	buildtime = 1100;
+	canfly = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Creature;
+	experiencepoints = 150;
+	footprintx = 6;
+	footprintz = 6;
+	healtime = 1.4;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	maneuverleashlength = 500;
+	maxdamage = 17000;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	moverate1 = 5;
+	moverate2 = 10;
+	mogriumincome = -20;
+	name = Red Dragon;
+	objectname = ARAAOWRDRAG;
+	radardistance = 720;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 600;
+	soundcategory = VERDRAG;
+	soundclass = VERDRAG;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 500;
+	turnrate = 500;
+	totalallowed = 1;
+	unitname = VERAOWRDRAG;
+	unitnumber = 43622;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 600;
+	reloadtime = 3;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 3000;
+		syron = 0.25;
+		spirit = 0.75;
+		firespirit = 0.25;
+		dragon = 0.25;
+		demon = 0.25;
+		azrac = 0.75;
+		lizard = 1.25;
+		mechanical = 1.2;		
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;	
+	}
+}

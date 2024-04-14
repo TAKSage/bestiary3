@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 4890;
+//	mogriumbounty = 489;
+	buildtime = 480;
+	canattack = 1;
+	canhover = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+        cantbefrozen = 1; 	
+	cantbestoned = 1;
+        cantbetransported = 1;
+	category = CRE MELEE ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vertwha_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 41;
+	floater = 0;
+        healtime = .89583;
+	maneuverleashlength = 500;
+        maxdamage = 12000;
+	maxvelocity = 1.2;
+	movementclass = HOVERCW;
+	name = Tera Whale;
+	objectname = CRETWHA;
+	pitchscale = 1.9;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 300;
+radardistance = 500;
+	soundcategory = CRETWHA;
+	soundclass = CRETWHA;
+	standingunitorder = 2;
+	tedclass = Creon;
+        //totalallowed = 36;
+	turnrate = 250;
+	unitname = CRETWHA;
+	unitnumber = 21914;
+	upright = 1;
+	version = 1;
+        waterline = 36;
+        watermultiplier = 1.25;
+//	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 35;
+	buttonimagedisabled = CannonPU;
+	buttonimagedown = CannonPU;
+	buttonimageselected = CannonSBh;
+	buttonimageup = CannonSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = medium explosion;
+        minrange = 100;//90;
+	name = Cannon;
+	range = 700;//750;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 615;
+
+	[DAMAGE]
+	{
+		default = 750;
+		hardscale = 0.75;
+		skeleton = 1.5;
+		kingkiller = 1.5;
+		stone = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Beast Claws;
+        noairweapon = 1;
+	range = 100;
+	reloadtime = 2.0;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;//250;//750;//
+		stone = 2.0;
+		factory = 2.0;
+		wood = 1.5;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		mini = 2;
+		shielded = 2;
+		skeleton = 2;
+		kingkiller = 2;
+		hardscale = 0.5;
+		naval = 1.25;
+		steelnaval = 1.25;
+	}
+}

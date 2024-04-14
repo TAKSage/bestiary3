@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 625;
+	buildtime = 120;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelaxm_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 12;
+	healtime = 0.34;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxvelocity = 1;
+	movementclass = GROUND2;
+	name = Axe Thrower;
+	objectname = aradelaxt;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 195;
+	soundcategory = aradelaxm;
+	soundclass = aradelaxm;
+	standingunitorder = 2;
+	stone = aradelaxm_stone;
+	tedclass = Aramon;
+	turninplacerate = 1800;
+	turnrate = 1800;
+	unitname = aradelaxt;
+	unitnumber = 6801;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = throwaxe;
+	name = Throwing Axe;
+	range = 600;
+	reloadtime = 2.5;
+	shadowgaf = shadows;
+	soundhitclass = sword;
+	spinheading = 50;
+	spinpitch = -3950;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = throwaxe_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 270;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}

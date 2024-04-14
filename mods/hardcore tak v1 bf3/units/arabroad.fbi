@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1;
+	//original buildcost = 695; 799; Now (169%)
+	buildcost = 1170;
+	//orig buildtime = 125; 63
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+//	original no canhover
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabroad_dead;
+	//original damagecategory = human
+	damagecategory = melee;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 13;
+	frozen = arabroad_frozen;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+//	original maxdamage = 3471; 4165; now (110%) 
+	maxdamage = 3818;
+//	original maxvelocity = 1.4; 2.9
+	maxvelocity = 2.2;
+//	original movementclass = GROUND2;
+	movementclass = HOVER2;
+	name = Barbarian;
+	objectname = ARABROAD;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 190;
+	soundcategory = ARABROAD;
+	soundclass = ARABROAD;
+	standingunitorder = 2;
+	stone = arabroad_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARABROAD;
+	unitnumber = 4;
+	upright = 1;
+	//based on Cavedog's Crusade's balance;
+	version = M1.0;
+//	original no waterline
+	waterline = 26;
+//	original watermultiplier = 0.81;
+	watermultiplier = 0.429;
+
+	//This is new
+	[AdjustAttack]
+	{
+		adjustment = 1.1;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+
+}
+
+[WEAPON1]
+{
+	//areaofeffect = 31;
+	areaofeffect = 41;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 55;
+	//original reloadtime = 1.65
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 850;	   //dmg = 567/s
+		//original tier1 = 2.0;
+		tier1 = 4.75;      //dmg = 
+		archer = 2.84;	   //dmg = 
+		archer2 = 2.84;	   //dmg = 
+		builder = 0.4;
+		lodestone = 0.8;
+		melee = 0.8;
+		monarch = 0.6;
+		siege = 1.3;       //dmg = 1235 (2*pult)
+		siege2 = 2;
+		stalwart = 0.82;
+		support = 0.5;
+		undead = 1.5;
+	}
+}

@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1690;
+	buildtime = 899;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = ZON MELEE ATTACK;
+                cloakcost = 10;
+                cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 24;
+	healtime = 1.67;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 5800;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+                mincloakdistance = 100;
+	movementclass = GROUND3;
+	name = The Unblooded;
+	objectname = ZONUNB;
+	roadmultiplier = 1.1;
+	radardistance = 277;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 110;
+	soundcategory = ZONUNB;
+	soundclass = ZONUNB;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	//totalallowed = 30;
+	turninplacerate = 1300;
+	turnrate = 1200;
+	unitname = ZONUNB;
+	unitnumber = 12010;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 1.0;
+	name = Blade;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+                                monarch = 0.25;
+	}
+}

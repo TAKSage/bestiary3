@@ -1,0 +1,237 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                animatetype = TARMAGUS1;
+                attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 300;
+	builder = 1;
+	buildtime = 100000;
+                cananimate = 1;
+	canattack = 1;
+                cancapture = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+                damagemodifier = 0.05;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 450;
+                floater = 0;
+	healtime = 216.67;
+                hidedamage = 1;
+                immunetoparalyzer = 1;
+	manarechargerate = 30;
+	maneuverleashlength = 300;
+	maxdamage = 12000;
+	maxmana = 1500;
+	maxvelocity = 1.5;
+	mogriumincome = 12;
+	mogriumstorage = 5100;
+	movementclass = HOVER3;
+	name = Anharat;
+	noveteran = 1;
+                noradar = 1;
+	objectname = TARUAMON;
+	radardistance = 650;
+                radardistancejam = 250;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 255;
+                sonardistance = 315;
+	soundcategory = TARANH;
+	soundclass = TARANH;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stealth = 1;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARUAMON;
+	unitnumber = 1092837465;
+	upright = 1;
+	version = 1;
+                waterline = 4;
+	watermultiplier = 0.85;
+	weaponswitching = 1;
+	workertime = 12;
+                ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+                boltcount = 3;
+                jagginess = 1;
+               edgeeffectiveness = 0.5;
+               explosionclass = RingWhiteB;
+	emittime = 30;
+               firestarter = 1;
+	hweffect =  lightning3;
+	innercolor = 0 255 0;
+	middlecolor = 255 255 255;
+	outercolor = 255 0 0;
+	lightmap = large;
+	name = Soul Eraser;
+                nimbus = 1;
+	range = 400;
+	reloadtime = 2.5;
+                showeffect = 1;
+                soundwater = splash;
+	soundhit = MonarchSoulSteal;
+	subtype = lightning;
+	type = Line of Sight;
+	unitsonly = 1;
+                //weaponart = FireBallCa;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+	            default = 1050;
+                            stalwart = 0.5;
+                            monarch = 0.5;
+                            dragon = 0.5;
+                            god = 0.5;
+                            Tier1 = 1.5; 
+                
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 1024;
+	areaofeffect = 120;
+	buttonimagedisabled = NecroPU;
+	buttonimagedown = NecroPU;
+	buttonimageselected = NecroSB;
+	buttonimageup = NecroSBH;
+	damagetype = explosion;
+	edgeeffectiveness = 1;
+	explosionclass = Large1a;
+                firestarter = 1;
+                gravityadjustment = 0.65;
+                guidance = 1;
+	manapershot = 250;
+	model = Blue1A;
+	name = Wrath of Anharat;
+                nimbus = 1;
+	range = 450;
+	reloadtime = 2.75;
+                smoketrail = 1;
+                smokedelay = 0.01;
+	soundhit = Explode6;
+                soundwater = splash;
+                spinheading = 3000;
+                tracks = 1;
+                turnrate = 360;
+	type = Guided;
+                weaponart = manabomb;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+ 
+
+	[DAMAGE]
+	{
+		default = 1400;
+                               dragon = 2.0;
+                               airship = 2.0;
+                               stalwart = 0.5;
+                               monarch = 0.5;
+                               god = 1.5;
+                               Tier1 = 1.5; 
+	}
+}
+
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 510;
+	builduptime = 0.15;
+	buttonimagedisabled = CaptureAreaPU;
+	buttonimagedown = CaptureAreaPU;
+	buttonimageselected = CaptureAreaSBh;
+	buttonimageup = CaptureAreaSB;
+	decaytime = 0.5;
+	edgeeffectiveness = 1;
+	manapershot = 1400;
+	name = Will of Anharat;
+	nimbus = 1;
+	radiusart0 = ltngball_2a;
+	radiusart1 = ring_fx_blueb;
+                radiusart2 = lodeexplode;
+	range = 250;
+	reloadtime = 4;
+	ringcount = 3;
+	ringdelay = 0.25;
+	ringduration = 1.4;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 250;
+	subtype = MindControl;
+	type = Remote Effect;
+                unitsonly = 1;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+	  default = 1;
+                monarch = 0;
+                lodestone = 0;
+                god = 0;
+                fort = 0;
+                factory = 0;
+                dragon = 0;
+                
+	}
+
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 1000;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	explosionclass = MegaFlame;
+	name = Explosion;
+                soundhit = TARPDIE1;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+                                monarch = 0.4;
+                                god = 0.4;
+                                dragon = 0.4;
+                                stalwart = 0.4;
+		
+	}
+}

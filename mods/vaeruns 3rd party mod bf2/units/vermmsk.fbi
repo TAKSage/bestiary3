@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1450;
+	buildtime = 165;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Vermmsk_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 28;
+                 frozen = vermmsk_frozen;
+	healtime = 0.65;
+	maneuverleashlength = 325;
+	maxdamage = 3900;
+	maxvelocity = 2.9;
+	movementclass = GROUND3;
+	name = Dragoon;
+	objectname = VERMMSK;
+	roadmultiplier = 1.21;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 240;
+	soundcategory = VERMUSK;
+	soundclass = VERMUSK;
+	standingunitorder = 2;
+	stone = verknigh_stone;
+	tedclass = Veruna;
+	turnrate = 900;
+	unitname = VERMMSK;
+	unitnumber = 3219;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+                areaofeffect = 30;
+                edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	name = Mounted Musket;
+	range = 450;
+	reloadtime = 2.8;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 850;
+
+	[DAMAGE]
+	{
+		default = 900;
+		monarch = 0.3;
+	}
+}

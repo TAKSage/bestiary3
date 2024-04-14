@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration=10;
+	bloodcolor1=160 35 0;
+	bloodcolor2=170 40 0;
+	bloodcolor3=180 30 5;
+	bmcode=1;
+	bodytype=flesh;
+	brakerate=10;
+	buildcost = 2350;
+	buildtime = 250;
+//	mogriumbounty = 235;
+	canattack=1;
+	canguard=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	category=ARA MELEE ATTACK;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = antikingunshielded;
+	defaultmissiontype=Standby;
+	description=Aramon;
+	experiencepoints=30;
+	healtime=.9;
+	maneuverleashlength=500;
+	maxdamage=8050;
+	maxvelocity=1.5;
+	movementclass=GROUND2;
+	name = royal guard;
+	objectname=AraFlame;
+	roadmultiplier= 1.21;
+	shadowart=shadow03;
+	shootme=1;
+	side=ARA;
+	sightdistance=300;
+	soundclass=VERCRUS;
+	soundcategory=VERCRUS;
+	standingunitorder=2;
+	stone=AraFlame_stone;
+	tedclass=Aramon;
+	turninplacerate=2300;
+	turnrate=2100;
+	unitname=AraFlame;
+	unitnumber=3218;
+	upright=1;
+	version=1;
+	watermultiplier=0.8;
+}
+[WEAPON1]
+{
+	areaofeffect = 1;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 85;
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		undead = 2;
+		giantundead = 2;
+		unshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		kingkiller = 2;
+		antikingmounted = 2;
+		antikingmechanical = 2;
+		antikingflamedemon = 2;
+		antikingunshielded = 2;
+		antikingmonster = 2;
+	}
+}

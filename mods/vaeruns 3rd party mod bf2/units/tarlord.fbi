@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5900;
+	buildtime = 2305;
+	canattack = 1;
+	cancloak = 1;
+                cancapture = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+	//cantbestoned = 1;
+	category = TAR ATTACK MAGIC;
+	cloakcost = 3;
+	cloakcostmoving = 5;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 88;
+                frozen = tarlord_frozen;
+	//ghost = 1;
+	healtime = 6.58333333;
+	manarechargerate = 8;
+	maneuverleashlength = 500;
+	maxdamage = 11000;
+	maxmana = 1000;
+	maxvelocity = 2.3;
+	movementclass = GROUND4;
+	name = Shadow Lord;
+	objectname = TARLORD;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 144;
+	soundcategory = TARLORD;
+	soundclass = TARLORD;
+	standingunitorder = 2;
+	stone = tarlord_stone;
+	tedclass = Taros;
+                totalallowed = 9;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARLORD;
+	unitnumber = 12077;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+                 aimtolerance = 33000;
+	areaofeffect = 300;
+	builduptime = 0.5;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+              // explosionclass = mind control;
+	manapershot = 250;
+	name = Mind Control;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 300;
+	reloadtime = 2.1;
+	ringcount = 3;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 30;
+                subtype = mindcontrol;
+	type = Remote Effect;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 50;
+                                lodestone = 0;
+                                factory = 0;
+                                fort = 0;
+	}
+}
+
+

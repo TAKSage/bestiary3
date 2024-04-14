@@ -1,0 +1,147 @@
+[UNITINFO]
+{
+	acceleration=12;
+	activatewhenbuilt=1;
+	bmcode=1;
+	bodytype=stone;
+	brakerate=10;
+	buildcost=5107;
+	builderlimited=1;
+	buildtime=2000;
+	canattack=1;
+	canguard=1;
+	canhover=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbecaptured=1;
+	cantbestoned=1;
+	category=ARA ATTACK MAGIC;
+	corpse=tararch_dead;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory=undead;
+	defaultmissiontype=Standby;
+	description=Aramon;
+	experiencepoints=10;
+	fireatwillrandom = 1;
+              frozen = tararch_frozen;
+	healtime=1.563892567993;
+	manarechargerate=15;
+	maneuverleashlength=100;
+	maxdamage=6500;
+	maxmana=1000;
+	maxvelocity=2;
+	maxwaterdepth=0;
+	mogriumincome=1;
+	mogriumstorage=10;
+	movementclass=GROUND2;
+	name=Skeleton Mage;
+	objectname=aramage;
+	onoffable=1;
+	roadmultiplier=2.5;
+	shootme=1;
+	side=ARA;
+	sightdistance=150;
+	soundclass=aramage;
+	soundcategory=aramage;
+	standingunitorder=1;
+	tedclass=Skeleton Mage;
+	totalallowed=7;
+	turninplacerate=2500;
+	turnrate=2500;
+	unitname=aramage;
+	unitnumber=2678190;
+	unitstandorders=1;
+	upright=1;
+	watermultiplier=1;
+	weaponswitching=1;
+	//yardmap=S;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1050;
+	areaofeffect = 70;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot = 0;
+	name = Solar Blast;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.1;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+        areaofeffect = 480;
+        buttonimagedisabled = nukePU;
+        buttonimagedown = nukePU;
+        buttonimageselected = nukeSBh;
+        buttonimageup = nukeSB;
+        damagetype = explosion;
+        edgeeffectiveness = 0.4;
+	explosionclass = megaflame;
+        firestarter = 1;
+	lightmap = medium;
+	manapershot = 400;
+	name = Sun Flare;
+	range = 900;
+	reloadtime = 1.7;
+        shakeduration = 2;
+        shakemagnitude = 5;
+	soundhit = nuke1;
+        turnrate = 180;
+	type = guided;
+        waterexplosionclass = large water explosion;
+	weaponart = meteor;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 900;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 220;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 1;
+	edgeeffectiveness = 1;
+	explosionclass = mind control;
+	firestarter = 5;
+	manapershot = 1000;
+	name = Star Dust;
+	nimbus = 1;
+	particlespersecond = 2;
+	range = 450;
+	reloadtime = 0.1;
+	soundhitclass = lightning;
+        subtype = hailstorm;
+	type = Remote Effect;
+        weaponart = LtngBall_2a;
+	weaponvelocity = 1500;
+	 
+	 [DAMAGE]
+	{
+		default = 2000;
+	}
+}
+
+// created by TDFEdit

@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 4250;
+	buildtime = 575;
+	cantbestoned = 1;
+	category = ARA;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 25;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 3.5;
+	maxdamage = 16500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 22;
+	mogriumstorage = 2000;
+	name = Divine Lodestone;
+	objectname = aradelmana;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 140;
+	soundcategory = ARAMANA;
+	soundclass = ARAMANA;
+	tedclass = Aramon;
+	unitname = aradelmana;
+	unitnumber = 3325;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

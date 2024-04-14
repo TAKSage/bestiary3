@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 12500;
+	buildtime = 3000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araknigh_dead;
+	damagecategory = Animal;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 50;
+	experiencepoints = 13;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 21500;
+	maxvelocity = 3.1;
+	mogriumincome = 35;
+	movementclass = GROUND3;
+	name = Theoden;
+	noveteran = 1;
+	objectname = aratheoden;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 195;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	stone = araknigh_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turnrate = 1000;
+	unitname = aratheoden;
+	unitnumber = 16;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+
+	[AdjustJoy]
+	{
+		adjustment = 75;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 400;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	range = 100;
+	reloadtime = 2.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1680;
+	}
+}

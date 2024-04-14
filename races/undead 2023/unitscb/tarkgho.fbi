@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1403;
+	buildtime = 232;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 22;
+	ghost = 1;
+	healtime = 0.96667;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 1000;
+	maxmana = 1000;
+	maxvelocity = 1.35;
+	movementclass = Hover3;
+	name = Ghost;
+	objectname = TARKGHO;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARMANA;
+	soundclass = TARMANA;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARKGHO;
+	unitnumber = 114;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;
+	duration = 9;
+	manapershot = 50;
+	maxvariation = 5;
+	name = Tornado;
+	nimbus = 1;
+	range = 150;
+	reloadtime = 1;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = tornadoend;
+	wanderloopart = tornadoloop;
+	wanderstartart = tornadostart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+

@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = tarcwwolf;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1540;
+	builddistance = 370;
+	buildtime = 245;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 23;
+	frozen = tarcwwolf_frozen;
+	healtime = 2.8;
+	maneuverleashlength = 500;
+	maxdamage = 3771;
+	maxvelocity = 2.4;
+	movementclass = GROUND2;
+	name = Werewolf;
+	objectname = tarcwwolf;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = ZONWOLF;
+	soundclass = ZONWOLF;
+	standingunitorder = 1;
+	stone = tarcwwolf_stone;
+	tedclass = Taros;
+	turninplacerate = 1300;
+	turnrate = 1200;
+	unitname = tarcwwolf;
+	unitnumber = 990;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 125;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 1.0;
+	name = Claws;
+	noairweapon = 1;
+	range = 300;
+	reloadtime =  1.8;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 718;
+		monster = 1.2;
+		human = 1.5;
+	}
+}

@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = 0.56;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.28;
+	buildcost = 1600;
+	buildtime = 155;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	cantransport = 1;
+	cancloak = 1;
+	category = TAR BOAT ATTACK;
+	corpse = TARORNAUT_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 24;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 0.55;
+	manarechargerate = 1;
+	maxmana = 66;
+	cloakcost = 2;
+	cloakcostmoving = 3;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 3.0;
+	movementclass = WATER4;
+	name = Nautilus;
+	objectname = TARORNAUT;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 170;
+	soundcategory = TARORNAUT;
+	soundclass =TARORNAUT;
+	standingunitorder = 2;
+	tedclass = Taros;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 16;
+	turnrate = 175;
+	unitname = TARORNAUT;
+	unitnumber = 103438;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+	edgeeffectivness = 0.2;
+	explosionclass = large explosion;
+	minrange = 40;
+	model = Vernaut_torp;
+	name = Torpedo;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 4.5;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 999;
+		monster = 1.45;
+		naval = 1.35;
+	}
+}

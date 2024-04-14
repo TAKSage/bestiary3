@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 0.06;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 2525;
+	buildtime = 300;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Creon;
+	experiencepoints = 43;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.513888889;
+	maneuverleashlength = 500;
+	maxdamage = 3375;
+	maxvelocity = 3;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Ornithopter;
+	objectname = CREORNI;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 350;
+	soundcategory = CREBARN;
+	soundclass = CREBARN;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 0;
+	turnrate = 80;
+	unitname = creorni;
+	unitnumber = 121;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 80;
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = medium explosion;
+	name = bomb;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 0.75;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+		default = 450;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Bow and Arrows;
+	range = 250;
+	reloadtime = 8;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 130;
+	}
+}

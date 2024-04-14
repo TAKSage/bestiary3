@@ -1,0 +1,109 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 255 255 255;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1220;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcbbeast_dead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 22;
+	frozen = tarcbbeast_frozen;
+	healtime = 0.25;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 1.2;
+	movementclass = GROUND3;
+	name = Bone Beast;
+	objectname = tarcbbeast;
+	roadmultiplier = 1.15;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = lifsaber;
+	soundclass = lifsaber;
+	standingunitorder = 2;
+	stone = tarcbbeast_stone;
+	tedclass = Taros;
+	turninplacerate = 500;
+	turnrate = 500;
+	unitname = tarcbbeast;
+	unitnumber = 801;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 60;
+	buttonimagedisabled = BeastBoltPU;
+	buttonimagedown = BeastBoltPU;
+	buttonimageselected = BeastBoltSBh;
+	buttonimageup = BeastBoltSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.3;
+	explosionclass = mind control;
+	lightmap = large;
+	name = Bolt;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 6;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 350;
+	waterexplosionclass = medium water explosion;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		fort = 1.2;
+		factory = 1.2;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 350;
+	reloadtime = 3;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 550;
+	}
+}

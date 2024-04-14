@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1100;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arabalL_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	frozen = arabalL_frozen;
+	healtime = 2;
+	maneuverleashlength = 200;
+	maxdamage = 4000;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Armored Archer;
+	objectname = ARABALL;
+	roadmultiplier = 1.4;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARABALL;
+	soundclass = ARABALL;
+	standingunitorder = 2;
+	stone = arabalL_stone;
+	tedclass = Light;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 15;
+	unitname = ARABALL;
+	unitnumber = 97979702;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = Normalarrow;
+	name = Bow;
+	range = 400;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 400;
+		air = 1.5;
+		factory = .5;
+		fort = .5;
+		lodestone = .5;
+		naval = .5;
+	}
+}

@@ -1,0 +1,128 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1500;
+	builddistance = 75;
+	builder = 1;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	//cantbestoned = 1;
+	//cantbefrozen = 1;
+	category = VER BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verlihr_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	floater = 0;
+	frozen = verlihr_frozen;
+	healtime = 2.95;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxmana = 1000;
+	maxvelocity = 1.8;
+	mogriumincome = 5;
+	mogriumstorage = 100;
+	movementclass = HOVER2;
+	name = T3 Priest of Lihr;
+	objectname = VERLIHR;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERLIHR;
+	soundclass = VERLIHR;
+	standingunitorder = 1;
+	stone = verlihr_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIHR;
+	unitnumber = 139;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	workertime = 10;
+	weaponswitching = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = WaterBallGPU;
+	buttonimagedown = WaterBallGPU;
+	buttonimageselected = WaterBallGSBh;
+	buttonimageup = WaterBallGSB;
+	explosionclass = tsunamiexp;
+	lightmap = small;
+	//manapershot = 100;
+	name = Water Ball;
+	nimbus = 1;
+	range = 400;
+	reloadtime = 2.0;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+	weaponart = waterball;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 799;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	manapershot = 250;
+	name = Freeze Blast;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 2.5;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponart = iceburst;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 450;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}

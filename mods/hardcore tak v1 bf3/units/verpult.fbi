@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	//original buildcost = 1367; now (110%)
+	buildcost = 1504; 
+	//original buildtime = 239; now (140%)
+//	original buildtime = 335;
+	buildtime = 168;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpult_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 25;
+	frozen = verpult_frozen;
+	healtime = 0.995833;
+	maneuverleashlength = 500;
+	//original maxdamage = 1289; 2191
+	maxdamage = 2491;
+	maxvelocity = 0.8;
+	movementclass = GROUND5;
+	name = (M) Catapult;
+	notargetcategory = tier1;
+	objectname = VERPULT;
+	pitchscale = 1.5;
+	roadmultplier = 1.5;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 160;
+	soundcategory = VERPULT;
+	soundclass = VERPULT;
+	standingunitorder = 1;
+	stone = verpult_stone;
+	tedclass = Veruna;
+	turninplacerate = 350;
+	turnrate = 350;
+	unitname = VERPULT;
+	unitnumber = 147;
+	// Based on Cavedog's Crusades Balance
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	damagetype = explosion;
+	explosionclass = large dust puff;
+//	original gravityadjustment = 4;
+	gravityadjustment = 5;
+	lobpreferred = 1;
+	minrange = 180;
+	name = Rocky in the Sky;
+	noairweapon = 1;
+	//original range = 800; 820
+	range = 640;
+	//original reloadtime = 5.5;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+//	original weaponvelocity = 800;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		//original default = 1013; Now (60%)
+		default = 760;   //dmg = 117/s
+		//original fort/factory = 1.25
+		archer = 0;
+		fort = 1.08;     //damage = 821  (126/s)
+		fort2 = 2.0;	 //damage = 1520 (233/s)
+		factory = 2.67;  //damage = 2029 (312/s)
+		god = 0.3;
+		lodestone = 1.6; //damage = 1216 (187/s)
+		melee = 0;
+		naval = 1.26;
+		siege = 0.45;    //damage = 342
+		siege2 = 2.1;    //damage = 1596
+		stalwart = 0;
+		support = 0;
+		tier1 = 0;
+		undead = 0;
+	}
+}

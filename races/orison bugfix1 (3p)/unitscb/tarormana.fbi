@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 8564;
+	buildtime = 1450;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 15;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 4.175;
+	maxdamage = 15092;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 20;
+	mogriumstorage = 2000;
+	name = Extreme Power;
+	objectname = TARORMANA;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 135;
+	soundcategory = TARORMANA;
+	soundclass = TARORMANA;
+	tedclass = Taros;
+	unitname = TARORMANA;
+	unitnumber = 315;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

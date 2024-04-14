@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 275;
+	buildtime = 75;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Light;
+	experiencepoints = 3;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .3;
+	maxdamage = 5000;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	mogriumincome = 12;
+	mogriumstorage = 1200;
+	name = Lodestone;
+	objectname = aradellodeL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 125;
+	soundcategory = aradellodeL;
+	soundclass = aradellodeL;
+	totalallowed = 25;
+	tedclass = Light;
+	unitname = aradellodeL;
+	unitnumber = 97979712;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

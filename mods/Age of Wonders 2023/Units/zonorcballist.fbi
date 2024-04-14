@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 40 135 0;
+	bloodcolor2 = 0 80 20;
+	bloodcolor3 = 50 150 50;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 1950;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonorcballist_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Orc;
+	experiencepoints = 35;
+	healtime = 0.2;
+	maneuverleashlength = 500;
+	maxdamage = 6500;
+	maxvelocity = 0.85;
+	mogriumincome = -6;
+	movementclass = GROUND4;
+	name = Shredder Bolt;
+	objectname = ZONORCBALLIST;
+	pitchscale = 1.5;
+	roadmultiplier = 1.75;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = VERBAL;
+	soundclass = VERBAL;
+	standingunitorder = 1;
+	tedclass = Orc;
+	turninplacerate = 280;
+	turnrate = 280;
+	unitname = ZONORCBALLIST;
+	unitnumber = 42622;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = small smoke explosion;
+	minrange = 40;
+	model = shredderbolt;
+	name = Black Javelin;
+	range = 675;
+	reloadtime = 6;
+	shadowgaf = shadows;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 2950;
+		spirit = 0.35;	
+		firespirit = 0.35;
+		syron = 0.5;
+		highman = 0.75;
+		undead = 0.5;
+		demon = 0.5;
+		dragon = 0.75;
+		mechanical = 0.4;
+		naval = 0.4;
+		city = 0.25;
+		fort = 0.25;
+		factory = 0.25;
+		building = 0.25;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = medium smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

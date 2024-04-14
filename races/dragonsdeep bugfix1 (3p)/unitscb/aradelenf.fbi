@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelenf_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 60;
+	healtime = 2;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Soldier of Arcus;
+	objectname = aradelenf;
+	roadmultiplier = 1.25;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 175;
+	//soundcategory = VERCRUS;
+	//soundclass = VERCRUS;
+	standingunitorder = 2;
+	stone = aradelenf_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 20;
+	unitname = aradelenf;
+	unitnumber = 3216;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 1;
+	edgeeffectiveness = 0.7;
+	name = Sword of Justice;
+	range = 55;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

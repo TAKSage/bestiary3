@@ -1,0 +1,166 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 38885;
+	buildtime = 9442;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY MAGIC ATTACK ;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Creon;
+	experiencepoints = 299;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 77.67;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 20946;
+	maxmana = 1000;
+	maxvelocity = 8;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 5;
+	name = Dragon Knight;
+	objectname = CREDKNI;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 250;
+	soundcategory = CREDKNI;
+	soundclass = CREDKNI;
+	standingunitorder = 2;
+	tedclass = Creon;
+	totalallowed = 6;
+	turninplacerate = 1600;
+	turnrate = 1400;
+	unitname = CREDKNI;
+	unitnumber = 12001;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 0.5;
+		affectsenemy = 1;
+		edgeeffectiveness = 1;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 650;
+	reloadtime = 3.0;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+
+	[DAMAGE]
+	{
+		default = 1900;
+                dragon = 1.5;
+                airship = 1.5;
+                monster = 1.5;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+                emittime = 15;
+                manapershot = 200;
+	name = Freezing Breath;
+	noairweapon = 1;
+	range = 600;
+	reloadtime = 1.5;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponart = iceburst;
+	weaponvelocity = 330;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}
+
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	buttonimagedisabled = FreezeStormPU;
+	buttonimagedown = FreezeStormPU;
+	buttonimageselected = FreezeStormSBh;
+	buttonimageup = FreezeStormSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+                firestarter = 1;
+	manapershot = 750;
+	name = Cold Fire;
+                noairweapon = 1;
+	radiusart0 = ring_fx_iceA;
+	radiusart1 = ring_fx_iceB;
+	radiusart2 = ring_fx_iceC;
+	range = 800;
+	reloadtime = 4.0;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 50;
+                type = Remote Effect;
+	subtype = turntofrozen;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1;
+		
+	}
+
+}

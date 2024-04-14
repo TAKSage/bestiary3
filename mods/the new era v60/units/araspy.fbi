@@ -1,0 +1,126 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1509;
+	buildtime = 377;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA ATTACK BALLISTIC;
+	cloakcost = 15;
+	cloakcostmoving = 21;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araspy_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 33;
+	fireatwillrandom = 1;
+	frozen = araspy_frozen;
+	healtime = 1.570833333;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxmana = 1500;
+	maxvelocity = 2;
+	mincloakdistance = 80;
+	movementclass = GROUND2;
+	name = Assassin;
+	objectname = ARASPY;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARASPY;
+	soundclass = ARASPY;
+	standingunitorder = 0;
+	stone = araspy_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARASPY;
+	unitnumber = 34;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+        buttonimagedisabled = DaggerDown;
+        buttonimagedown = DaggerDown;
+        buttonimageselected = DaggerSelected;
+        buttonimageup = knifeup;
+	model = aradag;
+	//manapershot = 500;
+	name = Assassinate;
+	range = 175;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	spinheading = 50;
+	spinpitch = -2950;
+	subtype = Guided;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = aradag10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		default = 710;
+		human = 6;
+		tier1 = 6;
+		monster = 6;
+		stalwart = 6;
+		monarch = .3;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	builduptime = 1;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 500;
+	name = Kidnap;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 1.5;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponart = FireballD;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1;
+		air = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

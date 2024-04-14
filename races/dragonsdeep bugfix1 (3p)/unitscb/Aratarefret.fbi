@@ -1,0 +1,194 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+        activatewhenbuilt = 1;
+        //bankscale = 1.75;
+	bloodcolor1 = 160 40 20;
+	bloodcolor2 = 170 0 60;
+	bloodcolor3 = 0 10 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 14000;
+	buildtime = 1;
+        canattack = 1;
+        //canfly = 1;
+	canguard = 1;
+        canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+        //cantbecaptured = 1;
+        cantbefrozen = 1;
+        cantbestoned = 1;
+        //cantbetransported = 1;
+	category = Ara MAGIC MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+        cruisealt = 20;
+        damagecategory = Conjured;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 65;
+        floater = 1;
+        frozen = Aratarefret_frozen;
+	healtime = 5;
+        //hoverattack = 1;
+        immunetofire = 1;
+        immunetoparalyzer = 1;
+        immunetoexplosion = 1;
+        manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+        maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = -40;
+        movementclass = HOVER4;
+	name = Efreet;
+	objectname = AraTAREFRET;
+        radardistance = 400;
+        shadowart = shadow14;
+        shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 200;
+	soundcategory = AraTAREFRET;
+	soundclass = AraTAREFRET;
+	standingunitorder = 2;
+        stone = Aratarefret_stone;
+	tedclass = Taros;
+	turninplacerate = 1200;
+	turnrate = 250;
+	totalallowed = 1;
+	unitname = AraTAREFRET;
+	unitnumber = 46032;
+        upright = 1;
+	version = 1;
+        //waterline = 12;
+        watermultiplier = 0.81;
+        weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+        aimtolerance = 8000;
+        areaofeffect = 10;
+        buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+        edgeeffectiveness = 0.2;
+        explosionclass = Green_ShockRing;
+	//firestarter = 1;
+	name = Claws;
+        nimbus = 1;
+	range = 150;
+	reloadtime = 3;
+        smoketrail = 1;
+        smokedelay = .01;
+	soundhitclass = arrow08;
+	turnrate = 600;
+	type = guided;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	areaofeffect = 100;
+        buttonimagedisabled = skullPU;
+	buttonimagedown = skullPU;
+	buttonimageselected = skullSBh;
+	buttonimageup = skullSB;
+        damagetype = fire;
+        edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+        firestarter = 1;
+	manapershot = 300;
+        model = skull.3do;
+	name = Skullbomb;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 5;
+        smoketrail = 1;
+        smokedelay = .01;
+	soundhit = boom3;
+        spinheading = 120;
+        spinpitch = -2000;
+	//turnrate = 200;
+	type = Ballistic;
+        waterexplosionclass = medium water explosion;
+        weaponart = fireballb;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 0.2;
+	buttonimagedisabled = sandPU;
+	buttonimagedown = sandPU;
+	buttonimageselected = sandSBh;
+	buttonimageup = sandSB;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Desert Heat;
+	nimbus = 1;
+	radiusart0 = dustpuffc;
+	radiusart1 = fireballa;
+	radiusart2 = dustpuffc;
+	range = 580;
+	reloadtime = 16;
+	ringcount = 4;
+	ringdelay = 0.45;
+	ringduration = 2.2;
+        shotart = whirlwindloop;
+        smoketrail = 1;
+        smokedelay = .01;
+	soundhit = Wind;
+	spritecount = 25;
+	turnrate = 250;
+	type = Remote Effect;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = megaflame;
+	name = Go back to Justy's Home;
+        shakeduration = 2;
+        shakemagnitude = 6;
+        soundhit = TARSHIPDIE5;
+	type = Ballistic;
+	waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.5;
+	}
+}
+
+

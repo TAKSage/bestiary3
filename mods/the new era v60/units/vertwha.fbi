@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 500;
+	canattack = 1;
+	canhover = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	immunetoparalyzer = 1;
+      cantbefrozen = 1; 	
+	cantbestoned=1;
+	cantransport = 1;
+      cantbetransported = 1;
+	cantbecaptured = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vertwha_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	floater = 0;
+	frozen = vertwha_frozen;
+      healtime = 0.89583;
+	isairbase = 1;
+	maneuverleashlength = 500;
+	manarechargerate = 30;
+      maxdamage = 9000;
+	maxvelocity = 1.43;
+	movementclass = HOVER5;
+	name = Tera Whale;
+	notargetcategory = FLY;
+	objectname = VERTWHA;
+	pitchscale = 1.9;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERTWHA;
+	soundclass = VERTWHA;
+	standingunitorder = 2;
+	stone = vertwha_stone;
+	tedclass = Veruna;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 16;
+	turnrate = 250;
+	unitname = VERTWHA;
+	unitnumber = 21914;
+	upright = 1;
+	version = 1;
+      waterline= 10;
+      watermultiplier = 1.5;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = CannonPU;
+	buttonimagedown = CannonPU;
+	buttonimageselected = CannonSBh;
+	buttonimageup = CannonSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	minrange = 100;
+	name = Cannon;
+	//toairweapon = 1;
+	range = 500;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cremdcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 615;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		god = 0.5;
+		air = 2;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.8;
+	name = Beast Claws;
+	range = 100;
+	reloadtime = 1.75;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		god = 0.5;
+		factory = 0.5;
+	}
+}

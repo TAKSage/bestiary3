@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4500;
+	builderlimited=1;
+	buildtime = 450;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zontribe_dead;
+	defaultmissiontype = Standby;
+	description = NPC;
+	experiencepoints = 40;
+	frozen = zontribe_frozen;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 5900;
+	maxvelocity = 3;
+	movementclass = GROUND2;
+	name = Wildman;
+	noveteran = 1;
+	objectname = ZONTRIBE;
+	roadmultiplier = 1.21;
+	shadowart = shadow02;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 300;
+	soundcategory = ZONSHAM;
+	soundclass = ZONSHAM;
+	standingunitorder = 2;
+	stone = zontribe_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONTRIBE;
+	unitnumber = 69;
+	upright = 1;
+	version = 1;
+	watermultiplier = 2;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	name = Axe;
+	range = 40;
+	reloadtime = 1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 999;
+	}
+}

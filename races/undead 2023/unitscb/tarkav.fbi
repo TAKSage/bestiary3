@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 1863;
+	buildtime = 352;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen =1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagetype = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 15;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 27;
+	maneuverleashlength = 500;
+	maxdamage = 920;
+	maxmana = 1000;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Damned Avian;
+	objectname = TARKAV;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 190;
+	soundcategory = TARMANA;
+	soundclass = TARMANA;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = TARKAV;
+	unitnumber = 170;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1000;
+	areaofeffect = 40;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	edgeeffectiveness = 1;
+	emittime = 100;
+	hweffect = creon lightning;
+	innercolor = 0 0 50;
+	middlecolor = 0 0 100;
+	outercolor = 0 0 255;
+	lightmap = medium;
+	name = Shocker;
+	range = 400;
+	reloadtime = 2.8;
+	soundhitclass = cretaser;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1700;
+
+	[DAMAGE]
+	{
+		default = 821;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	manapershot = 400;
+	name = Freeze;
+	noairweapon = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponart = iceburst;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

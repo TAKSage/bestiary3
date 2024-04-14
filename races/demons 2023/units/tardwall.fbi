@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 109;
+	buildtime = 95;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARDWALL;
+	description = Taros;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.1875;
+	isfeature = 1;
+	maxdamage = 4000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall;
+	objectname = TARDWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARWALL;
+	soundclass = TARWALL;
+	tedclass = Taros;
+	unitname = TARDWALL;
+	unitnumber = 113;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

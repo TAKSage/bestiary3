@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 2300;
+	buildtime = 350;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 43;
+	healtime = 1.770833333;
+	maneuverleashlength = 500;
+	maxdamage = 6310;
+	maxvelocity = 0.8;
+	movementclass = GROUND4;
+	name = Black Giant;
+	objectname = Tarbbg;
+	radardistance = 600;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 230;
+	soundcategory = Tarbbg;
+	soundclass = Tarbbg;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = Tarbbg;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = large dust puff;
+	model = zonrock.3do;
+	name = Flying Stones;
+	range = 1000;
+	reloadtime = 3.8;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 769;
+		dragon = 0.3;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Hammer;
+	range = 55;
+	reloadtime = 1.2;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+

@@ -1,0 +1,124 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	attackrunlength = 0;
+	attractsgods = 1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 2988;
+	builddistance = 200;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 577;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = Human;
+	defaultmissiontype = VTOL_Standby;
+	description = Zhon;
+	experiencepoints = 13;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 5.34167;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2277;
+	maxmana = 1000;
+	maxvelocity = 5;
+	mogriumincome = 1;
+	mogriumstorage = 150;
+	name = Sprite;
+	objectname = ZONKSPR;
+	pitchscale = 0.25;
+	radardistance = 550;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 145;
+	soundcategory = VERLIEGE;
+	soundclass = VERLIEGE;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = ZONKSPR;
+	unitnumber = 97;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;
+	duration = 9;
+	manapershot = 100;
+	maxvariation = 5;
+	name = Tornado;
+	nimbus = 1;
+	range = 150;
+	reloadtime = 4;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = tornadoend;
+	wanderloopart = tornadoloop;
+	wanderstartart = tornadostart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 50;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	manapershot = 100;
+	middlecolor = 200 230 255;
+	name = Thunderbolt;
+	outercolor = 180 200 255;
+	range = 225;
+	reloadtime = 2.2;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 492;
+	}
+}

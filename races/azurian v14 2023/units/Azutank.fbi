@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+
+	//Behold the hidden Azurian Tank Easter Egg Unit!
+
+	//Change the Azutank.hidden to Azutank.tdf in the AzuAzdur canbuild folder to make it buildable!
+
+	name = Azurian Tank;
+
+	buildcost = 4000;
+	buildtime = 1000;
+
+	healtime = 1.0;
+	maxdamage = 16000;
+
+	acceleration = 0.4;
+	bankscale = 1.8;
+
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	notargetcategory = FLY;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = AZU BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 21;
+	fireatwillrandom = 1;
+	maneuverleashlength = 500;
+	maxvelocity = 0.85;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND3;
+	objectname = AZUTANK;
+	pitchscale = 1.5;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 360;
+	soundcategory = VERDTANK;
+	soundclass = AZUTANK;
+	standingunitorder = 1;
+	tedclass = Azurians;
+	turnrate = 250;
+	unitname = AZUTANK;
+	unitnumber = 3590;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 70;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	minrange = 60;
+	name = Cannon;
+	noairweapon = 1;
+	range = 620;
+	reloadtime = 6.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 575;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.5;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}

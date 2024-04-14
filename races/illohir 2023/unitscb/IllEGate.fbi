@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+activatewhenbuilt = 0;
+bodytype = stone;
+buildangle = 0;
+buildcost = 1100;//200
+buildtime = 333;//130
+canattack = 1;
+canstop = 1;
+isairbase = 1;
+cantransport = 1;
+transmaxunits = 1;
+transportcapacity = 6;
+transportsize = 6;
+transportsizecapacity = 12;
+transportdistance = 400;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLEGATE_dead;
+damagecategory = fort;
+damagemodifier = 0.25;//.25
+description = Illohir;
+experiencepoints = 100;
+floater = 0;
+footprintx = 14;
+footprintz = 4;
+gate = 1;
+healtime = 0.541667;
+maxdamage = 16145;
+maxslope = 15;
+maxwaterdepth = 5;
+name = W/E ChaosGate;
+objectname = ILLEGATE;
+onoffable = 1;
+radardistance = 350;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 300;
+soundcategory = ARANGATE;
+soundclass = ARANGATE;
+tedclass = Illohir;
+ThreeD = 1;
+unitname = ILLEGATE;
+unitnumber = 100024;
+unitstandorders = 0;
+version = 1;
+waterline = 2;
+wind = 1;
+yardmap = ooooccccccoooo ooooccccccoooo ooooccccccoooo ooooccccccoooo;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 4000;
+	model = Araarrow;
+	name = Arrow;
+	range = 500;
+	reloadtime = 2.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 225;
+		tier1 = 1.5;
+		fort = 0.5;
+		factory = 0.5;
+		stalwart = 0.5;
+		monarch = 0.5;
+		god = 0.5;
+		dragon = 0.5;
+	}
+}

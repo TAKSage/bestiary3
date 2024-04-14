@@ -1,0 +1,117 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	builder = 1;
+	buildcost = 6000;
+	buildtime = 500;
+	builderlimited = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arapald_dead;
+	damagecategory = Mounted;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 77;
+	healtime = 3;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 9750;
+	maxmana = 1000;
+	maxvelocity = 4.5;
+	movementclass = GROUND3;
+	name = Paladin of Arcus;
+	objectname = ARAPALD;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 225;
+	soundcategory = ARAPALD;
+	soundclass = ARAPALD;
+	standingunitorder = 2;
+	stone = arapald_stone;
+	tedclass = Aramon;
+	totalallowed = 5;
+	turninplacerate = 900;
+	turnrate = 700;
+	unitname = ARAPALD;
+	unitnumber = 1093;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.5;
+	name = Paladin Sword;
+	noairweapon = 1;
+	range = 50;
+	reloadtime = 1.75;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1350;
+		Infantry = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	firestarter = 1;
+	manapershot = 200;
+	name = Blaze;
+	nimbus = 1;
+	range = 350;
+	reloadtime = 2;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+	weaponart = FireballB;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		Infantry = 1.5;
+		Air = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

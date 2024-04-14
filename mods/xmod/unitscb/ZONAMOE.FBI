@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.35;
+	buildcost = 1984;
+	buildtime = 275;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZONAMOE_dead;
+	//damagecategory = Monster;
+	  damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 28;
+	frozen = zonamoe_frozen;
+	healtime = 1.145;
+	maneuverleashlength = 500;
+	maxdamage = 7900;
+	maxvelocity = 1.0;
+	movementclass = GROUND5;
+	name = Giant Orm;
+	objectname = ZONAMOE;
+	roadmultiplier = 1.0;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 140;
+	soundcategory = ZONAMOE;
+	soundclass = ZONAMOE;
+	standingunitorder = 2;
+	stone = zonamoe_stone;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	//turnrate = 300;
+	  turnrate = 1000;
+	unitname = ZONAMOE;
+	unitnumber = 157;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	name = Bite;
+	noairweapon = 1;
+	range = 45;
+	reloadtime = 2.5;
+	soundhitclass = hammer;
+	type = Melee;
+	
+	[DAMAGE]
+	{
+		default = 25000;
+		dragon = 0.05;
+		factory = 0.1;
+		fort = 0.1;
+		god = 0.05;
+		monarch = 0.05;
+		naval = 0.1;
+		monster = 0.1;
+		human = 0.1;
+		mechanical = 0.1;
+		siege = 0.1;
+		stalwart = 0.1;
+		tier1 = 0.1;
+		airship = 0.1;
+		undead = 0.1;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 6000;
+		monarch = 0.1;
+	}
+}

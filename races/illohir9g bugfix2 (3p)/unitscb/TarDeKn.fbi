@@ -1,0 +1,187 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1961;
+	buildtime = 285;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARDEKN_dead;
+	damagecategory = Undead;
+                damagemodifier = 0.09;
+	defaultmissiontype = Standby;
+	description = TAROS;
+	experiencepoints = 57;
+                frozen = tardekn_frozen;
+                floater = 0;
+	healtime = 1.65;
+                maneuverleashlength = 500;
+	manarechargerate = 11;
+	maxdamage = 4780;
+	maxmana = 800;
+	maxvelocity = 3;
+	movementclass = GROUND3;
+	name = Shadow Knight;
+	objectname = TARDEKN;
+                radardistance = 415;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 215;
+	soundcategory = TARDEKN;
+	soundclass = TARDEKN;
+                standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = TarDeKn_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+                turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDEKN;
+	unitnumber = 345201;
+	upright = 1;
+	version = 1;
+                waterline = 3;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+                ZBuffer = 1;
+      
+}
+
+[WEAPON1]
+{
+                buttonimagedisabled = Hamdown;
+	buttonimagedown = Hamdown;
+	buttonimageselected = Hamsel;
+	buttonimageup = Hamup;	
+                explosionclass = medium smoke explosion;
+	name = Yitrium Mace;
+                nimbus = 1;
+	noairweapon = 1;
+	range = 95;
+	reloadtime = 3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	            default = 755;
+                            dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            fort = 0.5;
+                            factory = 0.5;
+                            undead = 1.5;
+                            monster = 1.5;
+                            human = 1.5;
+                            mechanical = 0.4;
+                            siege = 1.5;
+                            naval = 0;
+                                
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 150;
+	buttonimagedisabled = SymbPU;
+	buttonimagedown = SymbPU;
+	buttonimageselected = SymbSB;
+	 buttonimageup = SymbSBH;
+               damagetype = fire;
+               edgeeffectiveness = 0.5;
+	explosionclass = death;
+               firestarter = 1;
+               gravityadjustment = 0.8;
+               guidance = 1;
+               manapershot = 400;
+               model = Symb;
+	name = Symbol;
+               soundwater = splash;
+               nimbus = 1;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 4;
+              smoketrail = 1;
+              smokedelay = 5.5;
+	soundhitclass = fire;
+               waterexplosionclass = medium water explosion;
+              weaponart = FireballA;
+              Tracks = 1;
+              TurnRate = 360;
+	type = Ballistic;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 750;
+                              dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.3;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            fort = 0.5;
+                            factory = 0.5;
+                            undead = 0.5;
+                            monster = 1.5;
+                            human = 1.5;
+                            mechanical = 0.4;
+                            siege = 1.5;
+                            naval = 0.5;
+                
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = StunPU;
+	buttonimagedown = StunPU;
+	buttonimageselected = StunSBH;
+	buttonimageup = StunSB;
+	damagetype = paralyzer;
+               explosionclass = blue_shockring;
+	manapershot = 775;
+	name = Power Word Stun;
+	nimbus = 1;
+	range = 100;
+	reloadtime = 5;
+	//showeffect = 0;
+	soundhit = Bansheescream;
+	type = Melee;
+	//unitsonly = 1;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monarch = 0.15;
+		god = 0.15;
+                                naval = 0;
+                                fort = 0.25;
+                                lodestone = 0;
+                                factory = 0.25;
+                                dragon = 0.15;
+                                airship = 0.5;
+                                
+	}
+}
+
+
+

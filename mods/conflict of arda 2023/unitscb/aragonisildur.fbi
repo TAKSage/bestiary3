@@ -1,0 +1,125 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 8500;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 2750;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA Monarch;
+	cloakcost = 10;
+	cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 30;
+	experiencepoints = 151;
+	healtime = 0.015;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 17500;
+	maxmana = 1000;
+	maxvelocity = 2.1;
+	mincloakdistance = 5;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Isildur;
+	noveteran = 1;
+	objectname = aragonisildur;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 562;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = aragonisildur;
+	unitnumber = 15000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 95;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 210;
+	}
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	manapershot = 1000000000;
+	name = Gondor Sword;
+	range = 80;
+	reloadtime = 1.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+		tarsauron = 6;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	manapershot = 1000000000;
+	name = Gondor Sword;
+	range = 80;
+	reloadtime = 1.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+		tarsauron = 6;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Gondor Sword;
+	range = 80;
+	reloadtime = 1.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+		tarsauron = 6;
+	}
+}

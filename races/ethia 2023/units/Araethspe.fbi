@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 333;
+	buildtime = 115;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Araethspe_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	healtime = 0.63333;
+	maneuverleashlength = 1500;
+	maxdamage = 1404;
+	maxvelocity = 1.45;
+	movementclass = GROUND2;
+	name = Spear Thrower;
+	objectname = Araethspe;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = VERARCH;
+	soundclass = VERARCH;
+	standingunitorder = 1;
+	stone = araethspe_stone;
+	tedclass = Ethia;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = ARAETHSPE;
+	unitnumber = 803;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = zonterspearvet;
+	name = Desert Spear;
+	range = 390;
+	reloadtime = 1.7;
+	soundhitclass = arrow;
+	type = Line Of Sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 855;
+
+	[DAMAGE]
+	{
+		default = 162;
+        fort = 0.25;
+		factory = 0.25;
+		stalwart = 0.25;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}

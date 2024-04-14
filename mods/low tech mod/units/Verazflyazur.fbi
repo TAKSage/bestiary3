@@ -1,0 +1,93 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	brakerate = 0.1;
+	bodytype = scale;
+	brakerate = 0.25;
+	buildcost = 1500;
+	buildtime = 325;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 120;
+	damagetype = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	experiencepoints = 12;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 4.5;
+	hoverattack = 1;
+	hoverattackdistance = 220;
+	manarechargerate = 10;
+	maneuverleashlength = 640;
+	maxdamage = 1050;
+	maxvelocity = 3.5;
+	maxwaterdepth = 0;
+	name = Stunner;
+	objectname = VERAZFLYAZUR;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 220;
+	soundcategory = VERAZURIAN;
+	soundclass = VERAZURIAN;
+	yardmap = o;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	turninplacerate = 400;
+	turninplacerate = 1000;
+	turnrate = 350;
+	stone = Verazflyazur_stone;
+	unitname = VERAZFLYAZUR;
+	unitnumber = 3296;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 10 10 200;
+	name = Paralyze Bolt;
+	outercolor = 0 0 255;
+	range = 400;
+	reloadtime = 1.5;
+	soundclass = lightning;
+	soundhit = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1200;
+
+	[DAMAGE]
+	{
+		default = 99;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+		lodestone = 0;
+		airship = 0;
+	}
+}

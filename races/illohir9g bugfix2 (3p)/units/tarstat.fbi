@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+                activatewhenbuilt = 1;
+	bodytype = stone;
+	buildcost =  7556;
+	buildtime = 702;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarstat_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 70;
+                floater = 0;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 1.670833333;
+	maxdamage = 21500;
+	maxslope = 30;
+	maxwaterdepth = 0;
+	name = Tower Guardian;
+	objectname = TARSTAT;
+	radardistance = 1000;
+              shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 500;
+	soundcategory = TARSTAT;
+	soundclass = TARSTAT;
+	tedclass = Taros;
+                ThreeD = 1;
+	unitname = TARSTAT;
+	unitnumber = 410061;
+	version = 1;
+	yardmap = o;
+                waterline = 2;
+                ZBuffer = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 70;
+                boltcount = 1;
+                damagetype = fire;
+	emittime = 45;
+                edgeeffectiveness = 0.5;
+	explosionclass = light1;
+                firestarter = 1;
+	hweffect = lightning1;
+                jagginess = 1;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 255 0 255;
+                minrange = 150;
+	name = Thunder Light;
+                nimbus = 1;
+	outercolor = 255 255 255;
+	range = 610;
+	reloadtime = 3.55;
+                showeffect = 1;
+                smoketrail = 1;
+                smokedelay = 5.5;
+	soundhit = gzzap;
+                soundwater = splash;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+                weaponart = ltngball_2a;
+	weaponvelocity = 1000;
+           
+
+	[DAMAGE]
+	{
+		default = 1090;
+                            dragon = 0.4;
+                            airship = 0.5;
+                            god = 0.4;
+                            monarch = 0.5;
+                            stalwart = 0.4;
+	            tier1 = 1.5;
+                            human = 1.5;
+                            monster = 0.4;
+                            undead = 0.4;
+                            siege = 1.4;
+                            naval = 1.4;
+                            fort = 0.5;
+                            factory = 0.5;
+		
+               
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	name = return to hell;
+                soundhitclass = deathboom;
+	type = Ballistic;
+	waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 750;
+		monarch = 0.5;
+	}
+}
+
+
+

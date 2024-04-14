@@ -1,0 +1,225 @@
+[UNITINFO]
+{
+acceleration = 0.9;
+//airtoairdistance = 200;
+amphibious = 1;
+attractsgods = 1;
+bankscale = 2.5;//1.9
+bloodcolor1 = 255 0 0;
+bloodcolor2 = 155 0 0;
+bloodcolor3 = 55 0 0;
+bmcode = 1;
+bodytype = armor;
+brakerate = 1.8; //1.9
+buildcost = 32587;
+buildtime = 8888;
+canattack = 1;
+cancloak = 1;
+canfly = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+cantbetransported = 1;
+category = ILL FLY ATTACK MAGIC;
+cloakcost = 24;
+cloakcostmoving = 35;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 200;
+damagecategory = Dragon;
+damagemodifier = 0.2;
+defaultmissiontype = VTOL_Standby;
+description = Illohir;
+experiencepoints = 350;//600;
+floater = 0;
+footprintx = 5;
+footprintz = 5;
+healtime = 9.8756;
+hoverattack = 1;
+hoverattackdistance = 200;//175
+immunetoparalyzer = 1;
+manarechargerate = 25; 
+maneuverleashlength = 600;
+maxdamage = 16946;
+maxvelocity = 10;
+maxmana = 1000;
+mincloakdistance = 150;
+moverate1 = 1.5;//6
+moverate2 = 8.5;//7
+name = ChaosDragon;
+objectname = ILLBLDRA;
+pitchscale = 0.5;//.55
+radardistance = 1000;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 300;
+stealth = 1;
+soundcategory = TARBLDRA;
+soundclass = TARBLDRA;
+standingunitorder = 2;
+stone = ILLBLDRA_stone;
+ThreeD = 1;
+totalallowed = 1;
+tedclass = Illohir;
+turninplacerate = 900;//800;
+turnrate = 700;
+unitname = ILLBLDRA;
+unitnumber = 100007;
+upright = 1;
+version = 1;
+waterline = 1;
+watermultiplier = 0.75;
+weaponswitching = 1;
+ZBuffer = 1;
+}
+
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 50;
+buttonimagedisabled = redLightningPU;
+buttonimagedown = redLightningPU;
+buttonimageselected = redLightningSBh;
+buttonimageup = redLightningSB;
+boltcount = 3;//1
+damagetype = fire;
+emittime = 30;
+edgeeffectiveness = 0.75;
+explosionclass = lightning explosion;
+firestarter = 1;
+hweffect = lightning1A;
+jagginess = 1;
+innercolor = 255 255 255;
+lightmap = small;
+middlecolor = 255 0 255;
+name = Dragon Lightning;
+nimbus = 1;
+outercolor = 255 255 255;
+range = 595;
+reloadtime = 2.75;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhit = gzzap;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 1500;
+
+
+[DAMAGE]
+{
+default = 1155;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 4096;
+areaofeffect = 150;
+buttonimagedisabled = LightningballPU;
+buttonimagedown = LightningBallPU;
+buttonimageselected = LightningBallSBh;
+buttonimageup = LightningballSB;
+damagetype = fire;
+edgeeffectiveness = 0.75;
+explosionclass = Large explosion;
+firestarter = 1;
+//flighttime = 10;
+//gravityadjustment = 0.2;
+guidance = 1;
+manapershot = 1250;
+model = Plasma4A;//DPulseG1;
+name = Guided Wisp;
+nimbus = 1;
+soundwater = splash;
+range = 2500;
+reloadtime = 2.3;
+smoketrail = 1;
+smokedelay = 2.5;
+soundhitclass = fire;
+//twophase=1;
+tracks = 1;
+turnrate = 180;
+type = Guided;
+unitsonly = 1;
+waterexplosionclass = medium water explosion;
+weaponart = ltngball_2a;//zhonbuild;
+//weapontimer = 4;
+weaponvelocity = 750;
+//acceleration = 50;
+
+[DAMAGE]
+{
+default = 2000;
+dragon = 1.5;
+siege = 1.5;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 450;
+builduptime = 0.15;
+buttonimagedisabled = EnergyBlastPU;
+buttonimagedown = EnergyBlastPU;
+buttonimageselected = EnergyBlastSBh;
+buttonimageup = EnergyBlastSB;
+decaytime = 3;
+damagetype = fire;
+edgeeffectiveness = 1.0;
+manapershot = 1850;
+name = ChaosStorm;
+nimbus = 1;
+radiusart0 = ltng_cloud_loop;
+radiusart1 = pillaroflight;
+radiusart2 = redburst2;
+range = 350;
+reloadtime = 4.75;
+ringcount = 4;
+ringdelay = 0.25;
+ringduration = 1.4;
+shadowgaf = shadows;
+shakeduration = 1;
+shakemagnitude = 2;
+showeffect = 0;
+soundhit = Storm;
+subtype = Earthquake;
+spritecount = 50;
+type = Remote Effect;
+weaponvelocity = 100;
+
+[DAMAGE]
+{
+default = 2500;
+}
+
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 500;
+damagetype = explosion;
+edgeeffectiveness = 0.5;
+explosionclass = Large Explosion;
+lightmap = large;
+name = Vengeance;
+//nimbus = 1;
+soundhit = TREX4;
+type = Ballistic;
+weaponvelocity = 500;
+
+[DAMAGE]
+{
+default = 1000;
+}
+}
+

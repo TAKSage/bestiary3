@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 421;
+	buildtime = 165;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkgats_dead;
+	damagecategory = fort;
+	description = Taros;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 14;
+	gate = 1;
+	healtime = 0.34375;
+	maxdamage = 15666;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Side Bone Gate;
+	objectname = TARKGATS;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 300;
+	soundcategory = TARNGATE;
+	soundclass = TARNGATE;
+	tedclass = Taros;
+	unitname = TARKGATS;
+	unitnumber = 95;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+}

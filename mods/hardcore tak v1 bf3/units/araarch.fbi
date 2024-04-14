@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 325;
+	buildcost = 374;	//108% x Verarch
+	//orig buildtime = 125; 63
+	buildtime = 94;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araarch_dead;
+	//damagecategory = tier1;
+	damagecategory = archer;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	frozen = araarch_frozen;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+//	original maxdamage = 1100;
+	maxdamage = 1600;
+//	maxvelocity = 1.25;
+	maxvelocity = 1.375;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	//original movementclass = GROUND2;
+	movementclass = GROUND2B;
+	name = (M) Archer;
+	objectname = ARAARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	//original sightdistance = 180;
+	sightdistance = 195;
+	soundcategory = ARAARCH;
+	soundclass = ARAARCH;
+	standingunitorder = 1;
+	stone = araarch_stone;
+	tedclass = Aramon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ARAARCH;
+	unitnumber = 1;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	//original no gravadjust
+	gravityadjustment = 5.6;
+	model = Araarrow;
+	name = Bow and Arrows;
+	//original range = 450; 410
+	range = 443;
+	//original reloadtime = 3; (+20%)
+	reloadtime = 3.6;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 750;
+	weaponvelocity = 540;
+	[DAMAGE]
+	{
+		//default = 213; 223 (+20%)
+		default = 268;    //dmg=74/s
+		airship = 0.8;    // ol dmg=294 (82/s)
+		archer2 = 0.6;
+		fort = 0;
+		fort2 = 0;
+		factory = 0;
+		fly = 1;          // ol dmg=360 (100/s)
+		lodestone = 0;
+		magic = 0.2;
+		melee = 0.5;
+		monarch = 0.55;
+		siege = 0.5;      //dmg=
+		stalwart = 0.15;
+		support = 0.2;
+		undead = 0.85;
+	}
+}

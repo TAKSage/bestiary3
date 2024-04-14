@@ -1,0 +1,131 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4292;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 700;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = tar BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarkelm_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = taros;
+	experiencepoints = 20;
+	frozen = tarkelm_frozen;
+	healtime = 3.795833;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2851;
+	maxmana = 1000;
+	maxvelocity = 2;
+	mogriumincome = 1;
+	mogriumstorage = 200;
+	movementclass = GROUND2;
+	name = Vampire;
+	objectname = tarKELM;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = tar;
+	sightdistance = 220;
+	soundcategory = TARPRIES;
+	soundclass = TARPRIES;
+	standingunitorder = 1;
+	stone = tarkelm_stone;
+	tedclass = taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarkelm;
+	unitnumber = 139;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 45;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 0 0;
+	lightmap = small;
+	middlecolor = 200 0 0;
+	name = Lightning;
+	outercolor = 180 0 0;
+	range = 275;
+	reloadtime = 3.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 300;
+	name = Individual Mind Control;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2.6;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		monarch = 0;
+		naval = 0;
+	}
+}

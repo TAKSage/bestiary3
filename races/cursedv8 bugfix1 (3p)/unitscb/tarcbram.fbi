@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 0.05;
+	bankscale = 1.75;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 100 100 100;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 1000;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MELEE SIEGE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcbram_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 20;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 10500;
+	maxvelocity = 0.8;
+	movementclass = GROUND4;
+	name = Bone Ram;
+	noveteran = 1;
+	objectname = tarcbram;
+	pitchscale = 1.5;
+	roadmultiplier = 1.25;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 180;
+	soundcategory = TARSKWA;
+	soundclass = TARSKWA;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 225;
+	turnrate = 225;
+	unitname = tarcbram;
+	unitnumber = 889;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 5;
+	edgeeffectiveness = 0.1;
+	name = Bone Battering Ram;
+	range = 100;
+	reloadtime = 3;
+	soundhit = tarcrhit;
+	type = Melee;
+        	subtype=Ballistic;
+	
+	[DAMAGE]
+	{
+		default = 4500;
+		fort = 0.5;
+		factory = 0.5;
+		lodestone = 0.2;
+		airship = 0.1;
+		dragon = 0.1;
+		god = 0.1;
+		monarch = 0.1;
+		naval = 0.1;
+		mechanical = 0.1;
+		siege = 0.2; 
+		human = 0.1;
+		monster = 0.1;
+		undead = 0.1;
+	}
+}
+
+

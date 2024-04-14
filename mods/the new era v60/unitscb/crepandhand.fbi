@@ -1,0 +1,105 @@
+[UNITINFO]
+{
+	name = Pandora's Hand;
+	buildangle = 16384;
+	buildcost = 5000;
+	buildtime = 700;
+
+	maxdamage = 25000;
+	healtime = 3;
+
+	maxmana = 500;
+	manarechargerate = 1;
+
+	cantransport = 1;
+
+	bodytype = stone;
+	standingunitorder = 1;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = CRE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=crepandhand_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Creon;
+	experiencepoints = 120;
+	footprintx = 6;
+	footprintz = 6;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome =  10;
+	mogriumstorage =  1000;
+	noveteran = 1;
+	objectname = crepandhand;
+	radardistance = 4200;
+	totalallowed = 3;
+	shootme = 0;
+	side = CRE;
+	sightdistance = 600;
+	soundcategory = AZUPANDTWR;
+	soundclass = AZUPANDTWR;
+	tedclass = Creon;
+	transmaxunits = 15;
+	transportcapacity = 30;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 120;
+	unitname = CREPANDHAND;
+	unitnumber = 3554;
+	version = 1;
+	yardmap = o;
+	weaponswitching = 1;
+	
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 275;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 65;
+
+	buttonimagedisabled = MainHOPPU;
+	buttonimagedown = MainHOPPU;
+	buttonimageselected = MainHOPSBh;
+	buttonimageup = MainHOPSB;
+
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = blue_shockring;
+	nimbus=1;
+	minrange = 50;
+	lightmap = small;
+	name = Pandora's Touch;
+	range = 600;
+	reloadtime = 5.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Line of Sight;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 500;
+		monster = 1.0;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.0;
+		fort = 1.0;
+		monarch = 0.5;
+		god = 0.5;
+	}
+}
+

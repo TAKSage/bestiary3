@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3676;
+	buildtime = 898;
+	canattack = 1;
+                cancloak = 1;
+	canguard = 1;
+	//canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MAGIC ATTACK;
+                cloakcost = 5;
+                cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonsfright_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 38;
+               frozen = zonsfright_frozen;
+	healtime = 0.4152;
+                manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 7695;
+                maxmana = 1000;
+	maxvelocity = 2.3;
+                mincloakdistance = 100;
+	movementclass = GROUND3;
+	name = Shadow-Fright;
+	objectname = zonsfright;
+	radardistance = 350;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 160;
+	soundcategory = zonsfright;
+	soundclass = zonsfright;
+	standingunitorder = 1;
+	stone = zonsfright_stone;
+	tedclass = Zhon;
+	turninplacerate = 1600;
+	turnrate = 1450;
+	unitname = zonsfright;
+	unitnumber = 6810;
+	upright = 1;
+	version = 1;
+		
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+                areaofeffect = 60;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = Volcblast;
+	hweffect = purple lightning;
+	innercolor = 255 255 250;
+	lightmap = high;
+	middlecolor = 200 230 250;
+	name = Elementar Lightning;
+	outercolor = 180 200 250;
+	range = 510;
+	reloadtime = 2.8;
+	soundhit = Lshot;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 1165;
+
+	[DAMAGE]
+	{
+		default = 928;
+	}
+}

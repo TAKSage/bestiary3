@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 88 41 253;
+	bloodcolor2 = 91 112 249;
+	bloodcolor3 = 29 5 165;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2300;
+	//buildtime = 250;
+	buildtime = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cloakcost = 15;
+	cloakcostmoving = 25;
+	category = Ara ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Conjured;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 50;
+	floater = 0;
+	frozen = Araverunicorn_frozen;
+	healtime = .9;
+	maneuverleashlength = 400;
+	maxdamage = 3000;
+	manarechargerate = 20;
+	maxmana = 1000;
+	maxvelocity = 4.6;
+	mincloakdistance = 10;
+	mogriumincome = -20;
+	mogriumstorage = 0;
+	movementclass = HOVER2;
+	name = Unicorn;
+	objectname = Araverunicorn;
+	roadmultiplier = 1.4;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 225;
+	soundcategory = Araverunicorn;
+	soundclass = Araverunicorn;
+	standingunitorder = 0;
+	stone = Araverunicorn_stone;
+	tedclass = Light;
+	turnrate = 800;
+	totalallowed = 5;
+	unitname = Araverunicorn;
+	unitnumber = 97979751;
+	upright = 1;
+	version = 1;
+	waterline = 12;
+	watermultiplier = 0.81;
+	weaponswitching = 0;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = lightning explosion;
+	hweffect = yellow lightning;
+	innercolor = 54 168 255;
+	lightmap = medium;
+	middlecolor = 2 28 202;
+	name = Golden Bolt;
+	outercolor = 24 10 104;
+	range = 200;
+	reloadtime = 2;
+	soundhit = VERUNICORNATA1;
+	subtype = lightning;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 400;
+		fort = .5;
+		factory = .5;
+		lodestone = 2;
+		siege = .5;
+		naval = .5;
+		Conjured = .5;
+	}
+}
+

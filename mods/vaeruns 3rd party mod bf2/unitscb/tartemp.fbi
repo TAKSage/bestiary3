@@ -1,0 +1,131 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 14888;
+	buildtime = 1533;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = TAR MAGIC BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tartemp_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 170;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.670833333;
+               manarechargerate = 5;
+	maxdamage = 29432;
+                maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Tower of Belial;
+	objectname = TARTEMP;
+	radardistance = 700;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 625;
+	soundcategory = TARTEMP;
+	soundclass = TARTEMP;
+	tedclass = Taros;
+	unitname = TARTEMP;
+	unitnumber = 4006;
+	version = 1;
+        //weaponswitching = 1;
+	yardmap = o;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1864;
+	areaofeffect = 100;
+                edgeeffectiveness = 0.5;
+	explosionclass = volcblast;
+                firestarter = 1;
+                lightmap = medium;
+	model = laser;
+	name = Red laser;
+                nimbus = 1;
+	range = 1000;
+	reloadtime = 7.5;
+	soundhit = laser;
+               // soundhitclass = lightning;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 900;
+	type = Ballistic;
+	
+[DAMAGE]
+	{
+	default = 2900;
+                monarch = 0.25;
+                dragon = 0.75;
+                mechanical = 1.5;
+                airship = 1.25;
+                naval = 1.5;
+	god = 0.5;
+                Tier1 = 1.5;
+                monster = 1.5;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1864;
+	areaofeffect = 350;
+	explosionclass = fireball explosion;
+                 lightmap = medium;
+                manapershot = 300;
+	model = orb;
+	name = Red orb;
+                nimbus = 1;
+                noairweapon = 1;
+	range = 950;
+	reloadtime = 2.1;
+	soundhit = orbhit;
+               // soundhitclass = orbhit;
+                 spinheading = 4500;
+	subtype = turntostone;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+	type = Line of sight;
+	
+[DAMAGE]
+	{
+		default = 1;
+		
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	name = return to hell;
+//	range = 600;
+//	reloadtime = 6.5;
+        shakeduration = 2;
+        shakemagnitude = 6;
+        soundhitclass = deathboom;
+	type = Ballistic;
+//	waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 3200;
+		monarch = 0.7;
+	}
+}
+
+
+

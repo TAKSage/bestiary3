@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+	acceleration = 1.75;
+	bloodcolor1 = 55 135 50;
+	bloodcolor2 = 50 130 40;
+	bloodcolor3 = 45 125 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildcost = 360000;
+	buildtime = 36000;
+	canattack = 1;
+	canfly = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 100;
+	damagecategory = God;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 1000;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 600;
+	maneuverleashlength = 2000;
+	maxdamage = 25000;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	name = Guilea;
+	noveteran = 1;
+	objectname = ZONGON;
+	radardistance = 25000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 2000;
+	soundcategory = ZONGOD;
+	soundclass = ZONGOD;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	totalallowed = 1;
+	turninplacerate = 550;
+	turnrate = 320;
+	unitname = ZONGON;
+	unitnumber = 600;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 500;
+	builduptime = 0.25;
+	decaytime = 1.5;
+	edgeeffectiveness = 1;
+	name = Purple Haze;
+	nimbus = 1;
+	radiusart0 = ring_fx_purpleA;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = ring_fx_purpleC;
+	range = 900;
+	reloadtime = 2;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = LIGHTWOD;
+	spritecount = 25;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 16000;
+		monarch = 0.01;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 1.8;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	name = Ice Storms;
+	nimbus = 1;
+	particlespersecond = 8;
+	range = 500;
+	reloadtime = 2.0;
+	soundhit = crehailhit1;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		monarch = 0.1;
+	}
+}

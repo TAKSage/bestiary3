@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                activatewhenbuilt = 0;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 15;
+	buildcost = 456;
+	buildtime = 189;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+               canreclaim = 1;
+	canstop = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = tarmage2_dead;
+	damagecategory = Stalwart;
+                damagemodifer = 0.05;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 12;
+                floater = 0;
+                frozen = TarMage2_frozen;
+                healtime = 0.6231;
+                onoffable = 1;
+	manarechargerate = 7;
+	maneuverleashlength = 500;
+	maxdamage = 1514;
+	maxmana = 300;
+	maxvelocity = 1.25;
+	movementclass = GROUND2;
+	name = Chaos Evoker;
+                radardistance = 478;
+                roadmultiplier = 1.25;
+	objectname = TARMAGE2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 176;
+	soundcategory = TARMAGE;
+	soundclass = TARMAGE;
+	 standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = tarmage2_stone;
+	tedclass = Taros;
+                transportdistance = 1500;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMAGE2;
+	unitnumber = 143509;
+	upright = 1;
+	version = 1;
+                waterline = 2;
+	watermultiplier = 0.75;
+                workertime = 105;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+                damagetype = fire;
+                edgeeffectiveness = 0.5;
+	explosionclass = FireBall explosion;
+                firestarter = 1;
+                gravityadjustment = 0.75;
+                guidance = 1;
+	manapershot = 25;
+                model = Blue1C;//slicer;
+	name = Fire Swirl;
+	nimbus = 1;
+	range = 450;
+	reloadtime = 2.0;
+                spinheading = 5000;
+	soundhitclass = fire;
+                smoketrail = 1;
+                smokedelay = 6.5;
+                tracks = 1;
+	turnrate = 360;
+	type = Ballistic;
+                waterexplosionclass = small water explosion;
+	weaponart =  verunabuild;
+	weaponvelocity = 750;
+           
+
+	[DAMAGE]
+	{
+		default = 310;
+                            dragon = 1.5;
+                monarch = 0.3;
+                fort = 1.4;
+                factory = 0.4;
+                god = 1.5;
+                airship = 1.5;
+                stalwart = 0.4;
+                Tier1 = 1.5;
+                mechanical = 1.5;
+                monster = 0.5;
+                human = 1.5;
+                undead = 0.4;
+                naval = 0.5;
+                siege = 0.4;
+	}
+}
+
+
+
+

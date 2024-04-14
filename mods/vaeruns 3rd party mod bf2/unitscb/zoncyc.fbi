@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2011;
+	buildtime = 666;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zoncyc_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 33;
+                frozen = zoncyc_frozen;
+	healtime = 1.495833333;
+                manarechargerate = 5;
+	maneuverleashlength = 500;
+	maxdamage = 8310;
+               maxmana = 300;
+	maxvelocity = 1.55;
+	movementclass = GROUND3;
+	name = Cyclops;
+                noveteran = 1;
+	objectname = ZONCYC;
+	roadmultiplier = 1.21;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 144;
+	soundcategory = ZONCYC;
+	soundclass = ZONCYC;
+	standingunitorder = 2;
+	stone = zoncyc_stone;
+	tedclass = Zhon;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = ZONCYC;
+	unitnumber = 444792;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+                 buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	edgeeffectiveness = 0.7;
+	name = Hammers;
+	range = 75;
+	reloadtime = 2.2;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1200;
+                                monarch = 0.01;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 400;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+                edgeeffectiveness = 0.5;
+                emittime = 45;
+	explosionclass = megaflame;
+                hweffect = lightning;
+	innercolor = 239 80 12;
+	manapershot = 300;
+                middlecolor = 192 65 10;
+	name = Gaze of the Cyclops;
+                outercolor = 148 50 7;
+	range = 1200;
+	reloadtime = 5;
+	soundhitclass = fire;
+                subtype = lightning;
+	type = Line of Sight;
+                  waterexplosionclass = medium water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 4500;
+                monarch = 0.1;
+	}
+}

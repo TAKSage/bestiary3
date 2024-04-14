@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 1950;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowballist_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Machine;
+	experiencepoints = 35;
+	healtime = 0.2;
+	maneuverleashlength = 500;
+	maxdamage = 5500;
+	maxvelocity = 0.875;
+	mogriumincome = -6;
+	movementclass = GROUND4;
+	name = Ballista;
+	objectname = ARAAOWBALLIST;
+	pitchscale = 1.5;
+	roadmultiplier = 1.75;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = VERBAL;
+	soundclass = VERBAL;
+	standingunitorder = 1;
+	tedclass = Machine;
+	turninplacerate = 280;
+	turnrate = 280;
+	unitname = TARAOWBALLIST;
+	unitnumber = 44602;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = small dust puff;
+	minrange = 60;
+	model = ballistabolt;
+	name = Ballista;
+	range = 675;
+	reloadtime = 6;
+	shadowgaf = shadows;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 620;
+
+	[DAMAGE]
+	{
+		default = 2500;
+		undead = 0.5;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.5;
+		building = 0.5;
+		factory = 0.5;
+		fort = 0.5;
+		mechanical = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = medium smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

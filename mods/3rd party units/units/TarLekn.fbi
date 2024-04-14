@@ -1,0 +1,150 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3865;
+	buildtime = 319;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = UNDEAD;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 36;
+	healtime = 1.158333333;
+                  manarechargerate = 40;
+	maneuverleashlength = 500;
+	maxdamage = 4850;
+                  maxmana = 2000;
+	maxvelocity = 2.85;
+	movementclass = GROUND3;
+	name = Death Knight;
+	objectname = TARLEKN;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 235;
+	soundcategory = TARLEKN;
+	soundclass = TARLEKN;
+	standingunitorder = 1;
+	stone = zonhrs_stone;
+	tedclass = Taros;
+	turnrate = 1000;
+	unitname = TARLEKN;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	name = Soul Wand;
+	range = 50;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 574;
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 1024;
+                buttonimagedisabled = LightningPU;
+                buttonimagedown = LightningPU;
+                buttonimageselected = LightningSBh;
+                buttonimageup = LightningSB;
+                explosionclass = lightning Explosion;
+                hweffect = lightning;
+                innercolor = 0 0 0;
+                lightmap = medium;
+                manapershot = 390;
+                middlecolor = 0 0 0;
+                name = Death;
+                outercolor = 0 0 127;
+                range = 620;
+                reloadtime = 2.3;
+                soundhitclass = lightning;
+                subtype = lightning;
+                type = Line of Sight;
+                weaponvelocity = 695;
+
+                [DAMAGE]
+                {
+                                default = 756;
+                }
+}
+
+[WEAPON3]
+{
+                aimtolerance = 1600;
+                areaofeffect = 400;
+                builduptime = 1.5;
+                buttonimagedisabled = WaterBurstPU;
+                buttonimagedown = WaterburstPU;
+                buttonimageselected = WaterburstSBh;
+                buttonimageup = WaterBurstSB;
+                decaytime = 1;
+                edgeeffectiveness = 1;
+                innercolor = 0 0 0;
+                manapershot = 1999;
+                middlecolor = 0 0 0;
+                name = Wave of Death;
+                nimbus = 1;
+                outercolor = 0 0 0;
+                radiusart0 = TsunamiExplode;
+                radiusart1 = ring_fx_greenB;
+                radiusart2 = TsunamiExplode;
+                range = 405;
+                reloadtime = 5;
+                ringcount = 3;
+                ringdelay = 0.3;
+                ringduration = 2.5;
+                showeffect = 0;
+                soundhitclass = Lightning;
+                spritecount = 23;
+                subtype = paralyze;
+                type = remote effect;
+                weaponvelocity = 850;
+
+                [DAMAGE]
+                {
+                               default = 787;
+                               undead = 0.05;
+                }
+}
+
+[EXPLODEAS]
+{
+                areaofeffect = 200;
+                damagetype = explosion;
+                edgeeffectiveness = 0.25;
+                explosionclass = large explosion;
+                name = Curse of Death;
+                type = Ballistic;
+                waterexplosionclass = large water explosion;
+                weaponvelocity = 1000;
+
+                [DAMAGE]
+                {
+                               default = 10000;
+                               monarch = 0;
+                               undead =  0;
+                }
+}

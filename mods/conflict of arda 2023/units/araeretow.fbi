@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 3381;
+	buildtime = 382;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratower_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 35;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5979166;
+	maxdamage = 22500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Dwarven Tower;
+	objectname = araeretow;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 390;
+	soundcategory = VERAT;
+	soundclass = VERAT;
+	tedclass = Aramon;
+	totalallowed = 10;
+	unitname = araeretow;
+	unitnumber = 35;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 770;
+	reloadtime = 4.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 185;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 24;
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	explosionclass = small dust puff;
+	model = arathrowaxe;
+	name = Throwing Axe;
+	range = 500;
+	reloadtime = 3.1;
+	soundhitclass = sword;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = arathrowaxe;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 290;
+	}
+}
+

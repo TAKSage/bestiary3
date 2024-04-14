@@ -1,0 +1,164 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 8050;
+	buildtime = 405;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantransport = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = mechanical;
+	defaultmissiontype = VTOL_standby;
+	description = Human;
+	experiencepoints = 40;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5;
+	maneuverleashlength = 500;
+	maxdamage = 13250;
+	maxvelocity = 1.75;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Air Galley;
+	objectname = ARAHMNAIRSHIP;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 435;
+	soundcategory = CREAERI;
+	soundclass = CREAERI;
+	standingunitorder = 2;
+	tedclass = Human;
+	turninplacerate = 0;
+	turnrate = 135;
+	transportcapacity = 7;
+	transportdistance = 400;
+	transportsize = 16;
+	transportsizecapacity = 80;
+	unitname = ARAHMNAIRSHIP;
+	unitnumber = 42510;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = medium dust puff;
+	model = ballistabolt;
+	name = Ballista;
+	noairweapon = 1;
+	range = 675;
+	reloadtime = 7.5;
+	shadowgaf = shadows;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1800;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.5;
+		building = 0.5;
+		factory = 0.5;
+		fort = 0.5;
+		mechanical = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = aowhumanarrow;
+	name = Anti-Air Arrows;
+	range = 450;
+	reloadtime = 3.25;
+	soundhitclass = arrow;
+	type = Ballistic;
+	toairweapon = 1;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 400;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	model = aowhumanarrow;
+	name = Anti-Air Arrows;
+	range = 450;
+	reloadtime = 3.65;
+	soundhitclass = arrow;
+	type = Ballistic;
+	toairweapon = 1;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 400;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 75;
+	damagetype = explosion;
+	edgeeffectivness = 0.35;
+	explosionclass = xlarge explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = blast;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 800;
+		mechanical = 2;
+	}
+}
+
+

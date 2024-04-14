@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	name = Azur Drake;
+	buildcost = 2600;
+	buildtime = 650;
+
+	healtime = 0.5;
+	maxdamage = 2450;
+
+	maxmana = 100;
+	manarechargerate = 2;
+
+	//totalallowed = 10;
+
+	acceleration = 0.4;
+	bankscale = 1;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.1;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = AZU FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 180;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Azurians;
+	experiencepoints = 45;
+	footprintx = 4;
+	footprintz = 4;
+	hoverattack = 1;
+	hoverattackaltitude = 130;
+	hoverattackdistance = 130;
+	maneuverleashlength = 500;
+	maxvelocity = 3.4;
+	maxwaterdepth = 0;
+	objectname = AZUDRAKE;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 200;
+	soundcategory = ZONDRAKE;
+	soundclass = ZONDRAKE;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turninplacerate = 1000;
+	turnrate = 350;
+	unitname = AZUDRAKE;
+	unitnumber = 3208;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = WaterBallExp;
+	name = Aqua;
+	range = 600;
+	reloadtime = 0.3;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+	weaponart = WaterBall;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 125;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}

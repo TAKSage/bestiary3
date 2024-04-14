@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 10000;
+	buildcost = 24595;
+	buildtime = 4489;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Tar;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	description = Taros;
+	experiencepoints = 60;
+                floater = 0;
+	footprintx = 12;
+	footprintz = 12;
+	healtime = 2.175;
+	maxdamage = 5681;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	mogriumincome = -15;
+	mogriumstorage = -1500;
+	name = Focus;
+	objectname = Tarbloo;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 225;
+	soundcategory = Tarlode;
+	soundclass = Tarlode;
+	tedclass = Taros;
+                ThreeD = 1;
+                totalallowed = 3;
+	unitname = Tarbloo;
+	unitnumber = 46158008;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+                waterline = 2;
+                ZBuffer = 1;
+
+              [AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 1300;
+	}
+              [AdjustJoy]
+	{
+		adjustment = 300;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 1400;
+	}
+        
+              [AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 1350;
+	}
+
+}

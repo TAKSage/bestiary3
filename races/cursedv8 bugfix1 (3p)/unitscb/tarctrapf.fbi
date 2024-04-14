@@ -1,0 +1,93 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 884;
+	buildtime = 80;
+	canattack = 1;
+	canstop = 1;
+	cancloak = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.9;
+	manarechargerate = 5;
+	maxmana = 10;
+	cloakcost = 5;
+	cloakcostmoving = 5;
+	maxdamage = 1100;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Stun trap;
+	objectname = tarctrapf;
+	radardistance = 200;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 150;
+	soundcategory = tarctrapf;
+	soundclass = tarctrapf;
+	tedclass = Taros;
+	unitname = tarctrapf;
+	unitnumber = 852;
+	version = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	damagetype = paralyzer;
+	emittime = 50;
+	hweffect = creon paralyzer;
+	innercolor = 0 255 128;
+	middlecolor = 24 230 128;
+	outercolor = 48 200 128;
+	lightmap = medium;
+	name = Stun;
+	range = 350;
+	reloadtime = 2.0;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 100;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 150;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.25;
+	explosionclass = lightning explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 100;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+	}
+}

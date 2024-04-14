@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 2050;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARORSTEA_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 20;
+	floater = 1;
+	healtime = 1.4;
+	maneuverleashlength = 500;
+	maxdamage = 5500;
+	maxvelocity = 2.6;
+	movementclass = WATER3;
+	name = Pirated Steamer;
+	objectname = TARORSTEA;
+	pitchscale = 1.5;
+	radardistance = 780;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 330;
+	soundcategory = TARORSTEA;
+	soundclass = TARORSTEA;
+	standingunitorder = 2;
+	tedclass = Taros;
+	transportcapacity = 10;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 80;
+	turnrate = 160;
+	unitname = TARORSTEA;
+	unitnumber = 501;
+	version = 1;
+	waterline = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 60;
+	firestarter = 1;
+	hweffect = fire;
+	name = Real fire;
+	range = 400;
+	reloadtime = 3.0;
+	soundhitclass = creflame;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 750;
+	}
+}

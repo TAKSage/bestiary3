@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 1368; 1231
+	buildcost = 1031;
+	buildtime = 160;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonswamp_dead;
+	//original damagecategory = Monster;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 17;
+	frozen = zonswamp_frozen;
+	floater = 1;
+	healtime = 0.666;
+	maneuverleashlength = 750;
+	maxdamage = 3938;
+	//original maxvelocity = 1.04; 1.8
+	maxvelocity = 1.55;
+	movementclass = HOVER2;
+	name = Swamp Beast;
+	objectname = ZONSWAMP;
+	roadmultiplier = 1.21;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONSWAMP;
+	soundclass = ZONSWAMP;
+	standingunitorder = 2;
+	stone = zonswamp_stone;
+	tedclass = Zhon;
+	turninplacerate = 1000;
+	turnrate = 1000;
+	unitname = ZONSWAMP;
+	unitnumber = 178;
+	upright = 1;
+	version = 1;
+	//original waterline = 42
+	waterline = 25;
+	//original watermultiplier = 2.0; 1.16
+	watermultiplier = 1.3;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 36;
+	edgeeffectiveness = 1.0;
+	name = Claws;
+	range = 150;
+	//original reloadtime = 1.15;
+	reloadtime = 1.4;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 579;
+		naval = 0.5;
+		//These are new
+		siege = 1.5;
+		siege2 = 1.6;
+		stalwart = 0.6;
+		fort = 1.7;     //dmg = 984
+		fort2 = 2.0;    //dmg = 1158
+	}
+}

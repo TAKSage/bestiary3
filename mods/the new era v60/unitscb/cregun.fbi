@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	acceleration = 0.27;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 1300;
+	buildtime = 400;
+	builddistance = 200;
+	builderlimited = 1;
+	builder = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canheal = 1;
+	canreclaim = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = CRE BUILDER BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = cregun_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 20;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 1.8;
+	maneuverleashlength = 500;
+	maxdamage = 6002;
+	maxvelocity = 3;
+	movementclass = WATER3;
+	name = Gunboat;
+	objectname = cregun;
+	pitchscale = 1.5;
+	radardistance = 780;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CREMACHINA;
+	soundclass = CREMACHINA;
+	standingunitorder = 2;
+	tedclass = Creon;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 128;
+	turnrate = 200;
+	unitname = cregun;
+	unitnumber = 43;
+	version = 1;
+	waterline = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	gravityadjustment = 4.8;
+	lobpreferred = 1;
+	name = Marine Mortar;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 3.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 700;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

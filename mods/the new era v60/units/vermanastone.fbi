@@ -1,0 +1,47 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bodytype = stone;
+	buildcost = 7000;
+	buildtime = 1500;
+	cantbestoned = 1;
+	//cancloak = 1;
+	category = VER;
+	//cloakcost = 2050;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Veruna;
+	experiencepoints = 25;
+	//init_cloaked = 1;
+	footprintx = 2;
+	footprintz = 2;
+	floater = 1;
+	healtime = 2.3;
+	//manarechargerate = 2020;
+	maxdamage = 30000;
+	maxmana = 5000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	//mincloakdistance = 20;
+	mogriumincome = 30;
+	mogriumstorage = 3000;
+	name = Tidal Turbine;
+	objectname = vermanastone;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERMANASTONE;
+	soundclass = VERMANASTONE;
+	tedclass = Veruna;
+	totalallowed =  5;
+	unitname = vermanastone;
+	unitnumber = 3325;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	waterline = 1;
+	yardmap = w;
+}

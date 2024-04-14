@@ -1,0 +1,34 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildcost = 3064;
+	buildtime = 520;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 4.175;
+	maxdamage = 10092;
+	maxslope = 10;
+	maxwaterdepth = 0;
+	mogriumincome = 22;
+	mogriumstorage = 2200;
+	name = Ancient Tree;
+	objectname = araficmanasuper;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 125;
+	soundcategory = zonlode;
+	soundclass = zonlode;
+	tedclass = Ethia;
+	unitname = araficmanasuper;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = S;
+}

@@ -1,0 +1,35 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 304;
+	buildtime = 123;
+	cantbestoned = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Veruna;
+	experiencepoints = 5;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.472727;
+	maxdamage = 5680;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Mana Purifyer;
+	objectname = verpuri;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 125;
+	soundcategory = vermana;
+	soundclass = vermana;
+	tedclass = Veruna;
+	unitname = verpuri;
+	unitnumber = 17;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

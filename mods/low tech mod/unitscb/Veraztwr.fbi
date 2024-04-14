@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	buildangle = 0;
+	buildcost = 2600;
+	buildtime = 270;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = VER ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Veraztwr_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	fireatwillrandom = 1;
+	description = Veruna;
+	experiencepoints = 31;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.45;
+	maxmana = 1000;
+	manarechargerate = 10;
+	maxdamage = 6200;
+	maxslope = 12;
+	maxwaterdepth = 0;
+	name = Azurian Tower;
+	objectname = VERAZTWR;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 350;
+	soundcategory = VERAZURIAN;
+	soundclass = VERAZURIAN;
+	tedclass = Veruna;
+	unitname = VERAZTWR;
+	unitnumber = 3299;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+
+	buttonimagedisabled = spearstandardpu;
+	buttonimagedown = spearstandardpu;
+	buttonimageselected = spearstandardsbh;
+	buttonimageup = spearstandardsb;
+
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Spear;
+	range = 600;
+	reloadtime = 2.3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 645;
+		monarch = 0.6;
+	}
+}
+
+[WEAPON2]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+
+	buttonimagedisabled = speartrackingpu;
+	buttonimagedown = speartrackingpu;
+	buttonimageselected = speartrackingsbh;
+	buttonimageup = speartrackingsb;
+	manapershot = 100;
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Spear;
+	range = 600;
+	reloadtime = 2.4;
+	soundhitclass = arrow;
+	type = Guided;
+	veteranlevel = 10;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 655;
+		monarch = 0.6;
+	}
+}

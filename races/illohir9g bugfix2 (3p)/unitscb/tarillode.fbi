@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 290;
+	buildtime = 95;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = taros;
+	experiencepoints = 5;
+                floater = 0;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.472727;
+                immunetoparalyzer = 1;
+	maxdamage = 5680;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	mogriumincome = 11;
+	mogriumstorage = 1100;
+	name = Firey Lodestone;
+	objectname = tarillode;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = tarillode;
+	soundclass = tarillode;
+	tedclass = taros;
+                ThreeD = 1;
+	unitname = tarillode;
+	unitnumber = 521360;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+                waterline = 2;
+	yardmap = S;
+               ZBuffer = 1;
+}

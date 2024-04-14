@@ -1,0 +1,209 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	attackrunlength = 150;
+	bankscale = 0.4;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 150 75 0;
+	bloodcolor3 = 100 100 100;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	//original buildcost = 8756;
+	buildcost = 7840;
+	//original builtime = 875; 438
+	buildtime = 638;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = CRE FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original cruisealt = 150;
+	cruisealt = 200;
+	//original damagecategory = airship;
+	damagecategory = fly;
+	defaultmissiontype = VTOL_standby;
+	description = Creon;
+	experiencepoints = 55;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 2.91;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	//original manarechargerate = 27;
+	manarechargerate = 17;
+	maneuverleashlength = 500;
+	//original maxdamage = 6435; 6000;
+	maxdamage = 8500;
+	maxmana = 1000;
+	//original maxvelocity = 5.5;
+	maxvelocity = 7;
+	maxwaterdepth = 0;
+	//original no moverates
+	moverate1 = 1.5;
+	moverate2 = 9;
+	name = Neo Dragon;
+	objectname = CREDRAG;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 230;
+	soundcategory = CREDRAG;
+	soundclass = CREDRAG;
+	standingunitorder = 2;
+	tedclass = Creon;
+	//original no totalallowed
+	totalallowed = 12;
+	//original turnrate = 600;
+	turnrate = 900;
+	//original no turninplacerate
+	turninplacerate = 1200;
+	unitname = CREDRAG;
+	unitnumber = 9;
+	upright = 1;
+	version = 1;
+	//original weaponswitching = 1;
+	weaponswitching = 0;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 600;
+	reloadtime = 3;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 330;
+
+	[DAMAGE]
+	{
+		default = 800;
+		archer = 0.7;
+		archer2 = 0.4;
+		dragon = 1.15;
+		fly = 0.9;       //dmg = 720
+		monarch = 0.5;	
+		melee = 1.3;
+	   	naval = 0.8;
+		support = 0.6;     
+		tier1 = 2.0;     //1600
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	damagetype = paralyzer;
+	buttonimagedisabled = LongTermStunPU;
+	buttonimagedown = LongTermStunPU;
+	buttonimageselected = LongTermStunSBh;
+	buttonimageup = LongTermStunSB;
+	emittime = 50;
+	hweffect = creon paralyzer;
+	innercolor = 0 255 128;
+	middlecolor = 24 230 128;
+	outercolor = 48 200 128;
+	lightmap = medium;
+	manapershot = 200;
+	name = Long Term Stun;
+	range = 450;
+	reloadtime = 2.1;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 120;	//ex 85
+		archer = 0.3;
+		archer2 = 0.3;
+		airship = 1.35; 
+		fly = 1.6;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		fort2 = 0;
+		lodestone = 0;
+		siege = 0.75;
+		siege2 = 0.75;
+		god = 0.05;
+		melee = 0.5;
+		monarch = 0;
+		stalwart = 0.35;
+		support = 0.6;
+		naval = 0;
+	}
+}
+
+[WEAPON3]
+{
+	//original areaofeffect = 350;
+	areaofeffect = 100;
+	builduptime = 3;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 0.75;
+	manapershot = 700;
+	name = Shockwave;
+	nimbus = 1;
+	//original = ring_fx_redA/B/C
+	radiusart0 = ring_fx_blueA;
+	radiusart1 = ring_fx_blueB;
+	radiusart2 = ring_fx_blueC;
+	range = 250;
+	reloadtime = 6;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 2;
+	shotart = cannbsm;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 16;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		//original default = 450; 125
+		default = 400;
+		archer = 0.5;
+		archer2 = 0.3;
+		god = 0.3;
+		tier1 = 1.5;
+		melee = 0.7;
+		monarch = 0.5;
+		naval = 0.6;
+		factory = 1.7;
+		fort2 = 2.1;
+		lodestone = 0.5;
+		stalwart = 0.3;
+		support = 0.75;
+	}
+}

@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+bodytype = stone;
+buildangle = 0;
+buildcost = 209;
+buildtime = 75;
+cantbecaptured = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLWAL;
+damagecategory = fort;
+description = Illohir;
+experiencepoints = 2;
+floater = 0;
+footprintx = 2;
+footprintz = 2;
+healtime = 0.1875;
+isfeature = 1;
+maxdamage = 12000;
+maxslope = 30;
+maxwaterdepth = 5;
+name = ChaosWall;
+objectname = ILLWAL;
+shadowgaf = shadows;
+shootme = 1;
+side = Ill;
+sightdistance = 145;
+soundcategory = ARAWALL;
+soundclass = ARAWALL;
+ThreeD = 1;
+tedclass = Illohir;
+unitname = ILLWAL;
+unitnumber = 100013;
+unitstandorders = 0;
+version = 1;
+yardmap = o;
+waterline = 2;
+ZBuffer = 1;
+}
+
+
+
+

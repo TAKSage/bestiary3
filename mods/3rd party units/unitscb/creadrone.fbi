@@ -1,0 +1,100 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 255;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 944;
+	buildtime = 175;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE BALLISTIC ATTACK;
+	cloakcost = 15;
+	cloakcostmoving = 25;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creadrone_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 14;
+	footprintx = 12;
+	footprintz = 12;
+	healtime = 0.72917;
+      manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 3055;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mincloakdistance = 10;
+	movementclass = GROUND3;
+	name = Attack Drone;
+	objectname =CREADRONE;
+	radardistance = 500;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 169;
+	soundcategory = CREADRONE;
+	soundclass = CREADRONE;
+	standingunitorder = 1;
+	tedclass =Creon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = CREADRONE;
+	unitnumber = 12047;
+	upright = 1;
+	version = 1;
+	waterline = 4;
+      watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	damagetype = fire;
+      emittime = 80;
+	firestarter = 1;
+      hweffect = creon lightbeam;
+	innercolor = 255 255 150;
+	middlecolor = 230 230 145;
+	outercolor = 255 128 64;
+	lightmap = large;
+	minrange = 1;
+	nimbus = 1;
+      name = HeatRay;
+	range = 995;
+	reloadtime = 3.5;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 1042;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 210;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 180;
+		monarch = 0.5;
+	}
+}
+

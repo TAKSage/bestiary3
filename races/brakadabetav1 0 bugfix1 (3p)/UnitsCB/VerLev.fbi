@@ -1,0 +1,150 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 0.45;
+	bloodcolor1 = 0 0 45;
+	bloodcolor2 = 0 0 75;
+	bloodcolor3 = 0 0 105;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 44000;
+	buildtime = 5040;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = VER FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 155;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	experiencepoints = 325;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.675;
+	hoverattack = 1;
+	hoverattackdistance = 165;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 23502;
+	maxmana = 1100;
+	maxvelocity = 9.15;
+	maxwaterdepth = 0; 
+	moverate1 = 1.5;
+	moverate2 = 7.5;
+	name = Leviathan;
+	objectname = VERLEV;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 210;
+	soundcategory = VERDRAG;
+	soundclass = VERDRAG;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	totalallowed = 1;
+	turninplacerate = 2000;
+	turnrate = 1000;
+	unitname = VERLEV;
+	unitnumber = 3274;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 75;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	emittime = 20;
+	hweffect = fire;
+	name = Aqua Breath;
+	range = 450;
+	reloadtime = 0.9;
+	soundhit = arrow08;
+	subtype = bluefire;
+	type = line of sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 878;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 160;
+	buttonimagedisabled = LightningballPU;
+	buttonimagedown = LightningballPU;
+	buttonimageselected = LightningballSBh;
+	buttonimageup = LightningBallSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 200;
+	name = Ball of Light;
+	nimbus = 1;
+	range = 650;
+	reloadtime = 4;
+	soundhitclass = Lightning;
+	type = Guided;
+	weaponart = Ltngball_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1405;
+		monarch = 0.4;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 700;
+	builduptime = 0.45;
+	buttonimagedisabled = Cataclysmdisabled;
+	buttonimagedown = Cataclysmdisabled;
+	buttonimageselected = Cataclysmselected;
+	buttonimageup = Cataclysmup;
+	decaytime = 3.5;
+	edgeeffectiveness = 1;
+	manapershot = 1100;
+	name = Holy Wave of Dyn;
+	nimbus = 1;
+	radiusart0 = Ltngball_1a;
+	radiusart1 = Ltngball_2a;
+	radiusart2 = Ltngball_1a;
+	range = 450;
+	reloadtime = 5.5;
+	ringcount = 5;
+	ringdelay = 0.35;
+	ringduration = 1.35;
+	shakeduration = 4;
+	shakemagnitude = 10;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 50;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3600;
+		monarch = 0.75;
+		fort = 0.9;
+	}
+}

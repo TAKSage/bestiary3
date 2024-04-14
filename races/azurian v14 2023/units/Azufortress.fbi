@@ -1,0 +1,48 @@
+[UNITINFO]
+{
+	name = T2 Fortress;
+	buildcost = 5500;
+	buildtime = 1375;
+
+	healtime = 0.5;
+	maxdamage = 20500;
+
+	mogriumincome = 2;
+	mogriumstorage = 200;
+
+	bodytype = stone;
+	buildangle = 6000;
+	builddistance = 100;
+	builder = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = AZU FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Azufortress_dead;
+	damagecategory = fort;
+	description = Azurians;
+	experiencepoints = 200;
+	footprintx = 8;
+	footprintz = 14;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	objectname = AZUFORTRESS;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 475;
+	soundcategory = VERCASTL;
+	soundclass = VERCASTL;
+	tedclass = Azurians;
+	unitname = AZUFORTRESS;
+	unitnumber = 1696;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ....... ....... ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}

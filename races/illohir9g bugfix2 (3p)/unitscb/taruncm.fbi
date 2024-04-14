@@ -1,0 +1,132 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 304;
+	buildtime = 90;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                corpse = taruncm_dead;
+	damagecategory = Stalwart;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 10;
+                floater = 0;
+	healtime = 0.445;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+                manarechargerate = 2;
+                maxmana = 50;
+	maxdamage = 3750;
+	maxvelocity = 1.15;
+	movementclass = GROUND2;
+	name = Goatman;
+	objectname = TARUNCM;
+                radardistance = 449;
+	roadmultiplier = 1.35;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 142;
+	soundcategory = TARUNCM;
+	soundclass = TARUNCM;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+	stone = taruncm_stone;
+                stealth = 1;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARUNCM;
+	unitnumber = 123454321;
+	upright = 1;
+	version = 1;
+                waterline = 2;
+	watermultiplier = 0.85;
+                 weaponswitching = 1;
+                ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = sworddown;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+                explosionclass = Small smoke explosion;
+	name = Mallet;
+                nimbus = 1;
+	range = 90;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 400;
+	            dragon = 1.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 0.4;
+                god = 0.4;
+                airship = 1.5;
+                stalwart = 0.4;
+                Tier1 = 1.4;
+                mechanical = 1.5;
+                monster = 0.5;
+                human = 1.4;
+                undead = 1.4;
+                naval = 0;
+                siege = 0.4;                 	
+         
+	}
+}
+[WEAPON2]
+{
+                buttonimagedisabled = strengthdown;
+	buttonimagedown = strengthdown;
+	buttonimageselected = strengthsel;
+	buttonimageup = strengthup;
+                explosionclass = Small explosion;
+                manapershot = 50;
+	name = Lochabre Mallet;
+                nimbus = 1;
+	range = 100;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	            dragon = 1.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 0.4;
+                god = 0.4;
+                airship = 1.5;
+                stalwart = 0.4;
+                Tier1 = 1.4;
+                mechanical = 1.5;
+                monster = 0.5;
+                human = 1.4;
+                undead = 1.4;
+                naval = 0;
+                siege = 0.4;                 	
+         
+	}
+}

@@ -1,0 +1,107 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 1150;
+	buildtime = 225;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = TAR BALLISTIC ATTACK;
+	cantbestoned=1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcscorpio_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 18;
+	fireatwillrandom = 1;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxvelocity = 1.15;
+	movementclass = GROUND4;
+	name = Tomb Scorpion;
+	objectname = TARCSCORPIO;
+	radardistance = 500;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 175;
+	soundcategory = TARCSCORPIO;
+	soundclass = TARCSCORPIO;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = TARCSCORPIO;
+	unitnumber = 822;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 55;
+	aimtolerance = 1024;
+	buttonimagedisabled = stingpu;
+	buttonimagedown = stingpu;
+	buttonimageselected = stingsbh;
+	buttonimageup = stingsb;
+	model = tarcboltr.3do;
+	explosionclass = blood explosion;
+	lightmap = small;
+	name = Sting Bolt;
+	range = 400;
+	reloadtime = 2.4;
+	soundhit = arrow;
+	type = Line of Sight;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 435;
+		human = 1.2;
+
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 55;
+	aimtolerance = 1024;
+	buttonimagedisabled = paralyzestingpu;
+	buttonimagedown = paralyzestingpu;
+	buttonimageselected = paralyzestingSBh;
+	buttonimageup = paralyzestingSB;
+	model = tarcboltg.3do;
+	explosionclass = green_shockring;
+	damagetype = paralyzer;
+	lightmap = small;
+	name = Paralyze Bolt;
+	range = 255;
+	reloadtime = 1.6;
+	soundhit = arrow08;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 300;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+
+	}
+}

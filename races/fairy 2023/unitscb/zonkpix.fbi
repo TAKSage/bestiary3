@@ -1,0 +1,147 @@
+[UNITINFO]
+{
+	acceleration = 0.55;
+	attackrunlength = 400;
+	bankscale = 1.3;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.18;
+	buildcost = 2400;
+	buildtime = 300;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = Human;
+	defaultmissiontype = VTOL_Standby;
+	description = Zhon;
+	experiencepoints = 320;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 41.075;
+	manarechargerate = 8;
+	maneuverleashlength = 100;
+	maxdamage = 4250;
+	maxmana = 1000;
+	maxvelocity = 4.3;
+	maxwaterdepth = 0;
+	name = Pixie;
+	objectname = ZONKPIX;
+	pitchscale = 1.3;
+	radardistance = 1280;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 125;
+	soundcategory = TARANG;
+	soundclass = TARANG;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 1200;
+	turnrate = 240;
+	unitname = ZONKPIX;
+	unitnumber = 77;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	builduptime = 2.25;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 3;
+	duration = 9;
+	manapershot = 100;
+	maxvariation = 5;
+	name = Whirlwind;
+	nimbus = 1;
+	range = 150;
+	reloadtime = 4;
+	soundhit = joe_evilwind2;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = tornadoend;
+	wanderloopart = tornadoloop;
+	wanderstartart = tornadostart;
+	weaponvelocity = 45;
+
+	[DAMAGE]
+	{
+		default = 50;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	manapershot = 100;
+	middlecolor = 200 230 255;
+	name = Lightning Bolt;
+	outercolor = 180 200 255;
+	range = 225;
+	reloadtime = 2.2;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1420;
+
+	[DAMAGE]
+	{
+		default = 492;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 300;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 900;
+	name = Ice Storm;
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 300;
+	reloadtime = 4;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 555;
+	}
+}

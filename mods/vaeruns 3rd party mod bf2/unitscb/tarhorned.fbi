@@ -1,0 +1,111 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3966;
+	buildtime = 1022;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+               cantbestoned = 1;
+            // cantbeparalyzed = 1;
+	category = TAR MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 50;
+	healtime = 1.8333333;
+                immunetoparalyzer = 1;
+                manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 17500;
+                maxmana = 1000;
+	maxvelocity = 1.4;
+	movementclass = GROUND3;
+	name = Horned Reaper;
+	objectname = TARhorned;
+                radardistance = 370;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 150;
+	soundcategory = TARDEMON;
+	soundclass = TARDEMON;
+	standingunitorder = 2;
+	stone = tarhorned_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARHorned;
+	unitnumber = 6977;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 46;
+               buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 1;
+	firestarter = 1;
+	name = DeadHalberd;
+                noairweapon = 1;
+	range = 150;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1400;
+                monarch = 0.1;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+                 buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	explosionclass = Volcblast;
+	hweffect = red lightning;
+	innercolor = 0 0 0;
+	lightmap = medium;
+                manapershot = 250;
+                minrange = 170;
+	middlecolor = 200 0 0;
+	name = Dead Ray;
+	outercolor = 180 0 0;
+	range = 580;
+	reloadtime = 1.8;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1970;
+	}
+}

@@ -1,0 +1,99 @@
+[UNITINFO]
+{
+	acceleration = 0.56;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 0.28;
+	buildcost = 2500;
+//mogriumbounty = 250;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	cantransport = 1;
+	cancloak = 1;
+	cloakcost = 30;
+	cloakcostmoving = 50;
+	category = VER BOAT ATTACK;
+	corpse = VERNAUT_dead;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 0.55;
+	manarechargerate = 10;
+	maxmana = 1000;
+	maneuverleashlength = 500;
+	maxdamage = 4800;
+	maxvelocity = 2.5;
+	movementclass = WATER4;
+	mincloakdistance = 100;
+	name = Nautilus;
+	objectname = VERNAUT;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 250;
+	soundcategory = VERNAUT;
+	soundclass = VERNAUT;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	transportcapacity = 1;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 4;
+	turnrate = 175;
+	turninplacerate = 200;
+	unitname = VERNAUT;
+	unitnumber = 3256;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+	damagetype = explosion;
+	edgeeffectivness = 0.2;
+	explosionclass = large water explosion;//large explosion;
+//	minrange = 40;
+	model = Vernaut_torp;
+	name = water torpedo;
+	noairweapon = 1;
+	range = 350;
+	reloadtime = 3.5;
+	soundhitclass = creballcan;
+	type = line of sight;
+	waterweapon = 1;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 250;
+//	turnrate = 180;
+minbarrelrange = 10;
+
+	[DAMAGE]
+	{
+		default = 1350;
+		stone = 1.75;
+		factory = 1.5;
+		wood = 1.25;
+		god = 0.5;
+		monarch = 0.5;
+		hardscale = 0.5;
+		skeleton = 2;
+		kingkiller = 2;
+		naval = 1.5;
+		steelnaval = 1.5;
+	}
+}

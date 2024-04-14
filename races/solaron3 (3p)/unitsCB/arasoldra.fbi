@@ -1,0 +1,77 @@
+[UNITINFO]
+{
+	acceleration =  0.35;
+	bankscale =  1.75;
+	bmcode =  1;
+	bodytype = wood;
+	brakerate =  0.07;
+	buildcost =  2310;
+	//builderlimited = 1;
+	buildtime =  505;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+              cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BOAT BALLISTIC ATTACK ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =  arasoldra_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description =  Aramon;
+	experiencepoints =  25;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime =  0.93125;
+	maxdamage =  5524;
+	maxvelocity =  3.5;
+	movementclass = WATER3;
+	name =  Sea Drake;
+	objectname = arasoldra;
+	pitchscale =  1.5;
+	radardistance =  500;
+	shadowart =  shadow02;
+	shadowgaf =  shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance =  301;
+	soundcategory =  arasoldra;
+	soundclass = arasoldra;
+	standingunitorder = 2;
+	stone =  arasoldra_stone;
+	tedclass =  Aramon;
+	turnrate =  210;
+	unitname = arasoldra;
+	unitnumber =  102001;
+	version =  1;
+	waterline =  1;
+}
+
+[WEAPON1]
+{
+
+
+	explosionclass = medium explosion;
+	name = Cannon;
+	range = 1455;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	aimtolerance = 1024;
+	areaofeffect = 150;
+	edgeeffectiveness = 0.7;
+	firestarter = 1;
+	name = Greek Fire;
+	reloadtime = 4.8;
+	soundhitclass = fire;
+	weaponart = FireballA;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 750;
+		naval = 1.5;	
+}
+}

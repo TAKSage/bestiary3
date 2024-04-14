@@ -1,0 +1,163 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 2308; 2458
+	buildcost = 3200;
+//	original buildtime = 328; 164;
+	buildtime = 228;
+	canattack = 1;
+	canguard = 1;
+//	original no canhover
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = monster;
+	damagecategory = magic;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 28;
+	frozen = tarmage_frozen;
+	healtime = 1.3666666;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxmana = 1000;
+	//original maxvelocity = 1.9
+	maxvelocity = 1.6;
+	//original movementclass = GROUND5;
+	movementclass = HOVER2;
+	name = Fire Mage;
+	objectname = TARMAGE;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = TARMAGE;
+	soundclass = TARMAGE;
+	standingunitorder = 1;
+	stone = tarmage_stone;
+	tedclass = Taros;
+	turninplacerate = 400;
+	turnrate = 350;
+	unitname = TARMAGE;
+	unitnumber = 91;
+	upright = 1;
+	version = 1;
+	//original no waterline
+	waterline = 26;
+	//original watermultiplier = 0.75;
+	watermultiplier = 0.5;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Death Breath;
+	range = 250;
+	//original reloadtime = 1.9;
+	reloadtime = 1.2;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 569;
+		archer = 2;
+		tier1 = 2;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 10;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	explosionclass = fireball explosion;
+	manapershot = 300;
+	name = Fire Swirl;
+	nimbus = 1;
+	//original range = 1200;
+	range = 600;
+	//original reloadtime = 4;
+	reloadtime = 5;
+	soundhitclass = fire;
+	turnrate = 200;
+	type = Guided;
+	weaponart = fireballB;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+		stalwart = 0.6;
+		tier1 = 0.75;
+		scout = 0;
+	}
+}
+
+[WEAPON3]
+{
+	//original areaofeffect = 200; 160
+	areaofeffect = 120;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 3;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 750;
+	name = Fire Storm;
+	nimbus = 1;
+	//original particlespersecond = 5;
+	particlespersecond = 10;
+	//original range = 450;
+	range = 490;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		//original default = 350; 150
+		default = 175;
+		//These are new
+		factory = 0;
+		fort = 0;
+		fort2 = 0;
+		monarch = 0.25;
+		stalwart = 0.7;
+		support = 0.6;
+		tier1 = 2.5;
+		archer = 1.2;
+		naval = 1.5;
+	}
+}

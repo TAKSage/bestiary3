@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = ZONWOLF2;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+//	original buildcost = 1685; Now (90%)
+	buildcost = 1516;
+	builddistance = 400;
+//	original buildtime = 240; 120;
+	buildtime = 190;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = Monster;
+	damagecategory = melee;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 23;
+	frozen = zonwolf_frozen;
+	//original healtime = 2.0;
+	healtime = 1.2;
+	maneuverleashlength = 500;
+	//maxdamage = 3471; 3250
+	maxdamage = 3575;
+	//original maxvelocity = 2.4; 2.8; 3
+	maxvelocity = 3.8;
+	movementclass = GROUND2;
+	name = Spirit Wolf;
+	objectname = ZONWOLF;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	//original sightdistance = 210; 240
+	sightdistance = 220;
+	soundcategory = ZONWOLF;
+	soundclass = ZONWOLF;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turninplacerate = 1300;
+	turnrate = 1200;
+	unitname = ZONWOLF;
+	unitnumber = 190;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	workertime = 1000;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 1.0;
+	name = Blade;
+	noairweapon = 1;
+	//original range = 250. It seems a typo.
+	range = 100;
+	reloadtime = 1.6;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 818; 695
+		default = 764;    //dmg = 477/s
+		//new stuff below
+		archer = 2.0;
+		archer2 = 1.5;
+		builder = 0.4;
+		fort = 1.3;	  //dmg = 
+		fort2 = 1.1;	  //dmg = 
+		factory = 1.5;
+		lodestone = 0.8;
+		magic = 0.4;
+		melee = 0.8;	  //dmg = 478/s
+		monarch = 0.6;
+		siege = 1.85;     //1286
+		siege2 = 3.0;
+		stalwart = 0.82;
+		support = 0.5;
+		tier1 = 2.16;     //1500
+		undead = 1.5;
+	}
+}

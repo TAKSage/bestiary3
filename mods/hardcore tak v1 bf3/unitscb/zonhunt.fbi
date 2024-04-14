@@ -1,0 +1,170 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 100000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 100000;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monarch;
+	defaultmissiontype = VTOL_Standby;
+	description = Zhon;
+	economybonus = 30;
+	experiencepoints = 350;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 216.67;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 9500;
+	maxmana = 1000;
+	//original maxvelocity = 2.5;
+	maxvelocity = 2.2;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	name = Thirsha;
+	noveteran = 1;
+	objectname = ZONHUNT;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 275;
+	soundcategory = ZONHUNT;
+	soundclass = ZONHUNT;
+	standingunitorder = 1;
+	tedclass = Zhon;
+	//original turninplace = 1000; turnrate = 400;
+	turninplacerate = 1500;
+	turnrate = 600;
+	unitname = ZONHUNT;
+	unitnumber = 171;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+	//original workertime = 10; 8
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 200 230 255;
+	name = Lightning;
+	//original nimbus = 1;
+	nimbus = 0;
+	outercolor = 180 200 255;
+	//original range = 500;
+	range = 450;
+	//original reloadtime = 4;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1231;
+		tier1 = 3.0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	manapershot = 300;
+	name = Lightning Ball;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1655;
+		dragon = 2.5;   //dmg = 4138;
+		monarch = 0.57; //dmg = 943;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = WindWavePU;
+	buttonimagedown = WindWavePU;
+	buttonimageselected = WindWaveSBh;
+	buttonimageup = WindWaveSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Wind Wave;
+	nimbus = 1;
+	radiusart0 = ring_fx_blueA;
+	radiusart1 = ring_fx_blueB;
+	radiusart2 = ring_fx_blueC;
+	range = 150;
+	reloadtime = 1.5;
+	ringcount = 3;
+	ringdelay = 0.15;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		monarch = 0.35;
+		fort = 0.25;
+		factory = 0.25;
+		god = 0.5;
+	}
+}

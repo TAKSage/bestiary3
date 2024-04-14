@@ -1,0 +1,69 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1310;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardrkrider_dead;
+	damagecategory = darkelf;
+	defaultmissiontype = Standby;
+	description = Dark Elf;
+	experiencepoints = 24;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 7975;
+	maxvelocity = 3.8;
+	mogriumincome = -5;
+	movementclass = GROUND3;
+	name = Dark Elf Rider;
+	objectname = TARDRKRIDER;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 470;
+	soundcategory = DRKSWORD;
+	soundclass = DRKSWORD;
+	standingunitorder = 2;
+	tedclass = Dark Elf;
+	turnrate = 1000;
+	unitname = TARDRKRIDER;
+	unitnumber = 42576;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 140;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1150;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

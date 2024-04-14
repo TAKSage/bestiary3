@@ -1,0 +1,115 @@
+[UNITINFO]
+{
+	acceleration = 3;
+	//attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1200;
+mogriumbounty = 120;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON ATTACK MELEE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonmonger_dead;
+	damagecategory = mounted;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 25;
+                frozen = zonmonger_frozen;
+	healtime = 1.62;
+manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 5000;
+maxmana = 40;
+	maxvelocity = 3.5;
+	movementclass = GROUND3;
+	name = charger;
+	objectname = ZONMONGER;
+	radardistance = 350;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = zonMONGER;
+	soundclass = zonMONGER;
+	standingunitorder = 2;
+	stone = zonMONGER_stone;
+	tedclass = Zhon;
+	//totalallowed = 30;
+	turninplacerate = 2500;
+	turnrate = 1500;
+	unitname = ZONMONGER;
+	unitnumber = 12015;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	//aimtolerance = 1024;
+	areaofeffect = 30;
+	edgeeffectiveness = 1;
+	//explosionclass = Water Splash;
+	//lightmap = large;
+	//manapershot = 5;
+	name = Scythe;
+	//nimbus = 1;
+	range = 150;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = melee;
+	//weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		stone = 0.75;
+		factory = 0.75;
+		steel = 0.75;
+		unshielded = 1.25;
+		shocky = 1.25;
+		antikingunshielded = 1.25;
+		berserker = 1.25;
+	}
+}
+
+
+[WEAPON2]
+{
+	//aimtolerance = 1024;
+	areaofeffect = 30;
+	edgeeffectiveness = 1;
+	explosionclass = blood explosion;
+	//lightmap = large;
+	manapershot = 40;
+	name = bloody bite;
+	//nimbus = 1;
+	range = 150;
+	reloadtime = 0.5;
+	soundhitclass = sword;
+	type = melee;
+	//weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 500;
+		stone = 0.75;
+		factory = 0.75;
+		steel = 0.75;
+		unshielded = 1.25;
+		shocky = 1.25;
+		antikingunshielded = 1.25;
+		berserker = 1.25;
+	}
+}

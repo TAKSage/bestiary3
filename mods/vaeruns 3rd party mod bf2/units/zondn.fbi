@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 800;
+	buildtime = 220;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zondn_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 14;
+                frozen = zondn_frozen;
+	fireatwillrandom = 1;
+	healtime = 0.720833333;
+	maneuverleashlength = 500;
+	maxdamage = 1900;
+	maxvelocity = 2.4;
+	//mogriumincome = 0;
+	//mogriumstorage = 0;
+	movementclass = GROUND2;
+	name = Desert Nomad;
+	objectname = ZONDN;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 225;
+	soundcategory = ZONDN;
+	soundclass = ZONDN;
+	standingunitorder = 1;
+	stone = zondn_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ZONDN;
+	unitnumber = 133830;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 20;
+                damagetype = fire;
+                firestarter = 1;
+	model = Araarrow2;
+	name = Nomad bow and arrows;
+	range = 650;
+	reloadtime = 3.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 1100;
+                monarch = 0.1;
+	}
+}

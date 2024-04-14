@@ -1,0 +1,196 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 255 255 255;
+bloodcolor2 = 255 255 255;
+bloodcolor3 = 255 255 255;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 1703;
+buildtime = 322;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+category = ILL MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 25;
+damagecategory = Undead;
+damagemodifier = 0.4;
+defaultmissiontype = Standby;
+description = ILLohir;
+experiencepoints = 45;
+floater = 0;
+//ghost = 1;
+healtime = 0.96667;
+immunetoparalyzer = 1;
+manarechargerate = 25;
+maneuverleashlength = 500;
+maxdamage = 1750;
+maxmana = 1000;
+maxvelocity = 1.85;
+movementclass = HOVER3;
+name = ChaosBanshee;
+objectname = ILLBAN;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 200;
+soundcategory = TARWITCH;
+soundclass = TARWITCH;
+standingunitorder = 2;
+stone = tarwitch_stone;
+tedclass = ILLohir;
+ThreeD = 1;
+transportedsize = 2;
+turninplacerate = 2400;
+turnrate = 2000;
+unitname = ILLBAN;
+unitnumber = 100042;
+upright = 1;
+version = 1;
+waterline = 10;
+watermultiplier = 0.5;
+weaponswitching = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+areaofeffect = 25;
+edgeeffectiveness = 1.0;
+aimtolerance = 2048;
+buttonimagedisabled = ArrowStandardPU;
+buttonimagedown = ArrowStandardPU;
+buttonimageselected = ArrowStandardSBh;
+buttonimageup = ArrowStandardSB;
+damagetype = fire;
+explosionclass = lightning explosion;
+firestarter = 1;
+gravityadjustment = 3.0;//0.9
+guidance = 1;
+model = Shazer;//Electric1;
+name = Witching Bolt;
+nimbus = 1;
+range = 355;
+reloadtime = 3.5;
+smoketrail = 1;
+smokedelay = 6.5;
+soundhitclass = fire;
+soundwater = splash;
+spinroll = 4000; //spins like clock numbers
+tracks = 1;
+turnrate = 180;
+type = Ballistic;
+unitsonly = 1;
+waterexplosionclass = small water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 850;
+
+[DAMAGE]
+{
+default = 410;
+dragon = 0.5;
+monarch = 0.5;
+god = 0.5;
+stalwart = 0.5;
+Tier1 = 1.25;
+mechanical = 1.25;
+undead = 0.25;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 2048;
+//areaofeffect = 50;
+buttonimagedisabled = paralyzestingpu;
+buttonimagedown = paralyzestingpu;
+buttonimageselected = paralyzestingSBh;
+buttonimageup = paralyzestingSB;
+damagetype = paralyzer;
+//edgeeffectiveness = 1.0;
+explosionclass = green_shockring;
+manapershot = 400;
+model = wpulse;//greencrystal;
+name = Scream;
+nimbus = 1;
+range = 600;
+reloadtime = 4.5;
+smoketrail = 1;
+smokedelay = 2.5;
+soundhit = Scream11;
+spinroll = 3000;
+waterexplosionclass = small water explosion;
+weaponart = ltngball_2a;
+weaponvelocity = 900;
+guidance = 1;
+tracks = 1;
+TurnRate = 180;
+//unitsonly = 1;
+type = Ballistic;
+
+
+[DAMAGE]
+{
+default = 350;
+monarch = 0.25;
+fort = 0;
+factory = 0;
+lodestone = 0;
+god = 0.25;
+dragon = 0.25;
+airship = 0.5;
+stalwart = 0.5;
+
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 200;
+builduptime = 0.2;
+buttonimagedisabled = FireStingPU;
+buttonimagedown = FireStingPU;
+buttonimageselected = FireStingSBh;
+buttonimageup = FireStingSB;
+damagetype = paralyzer;
+decaytime = 0.75;
+edgeeffectiveness = 1.0;
+//firestarter = 1;
+manapershot = 1000;
+name = Freezing Scream;
+nimbus = 1;
+radiusart0 = ring_fx_greena;
+radiusart1 = ring_fx_greenb;
+radiusart2 = ring_fx_greenc;
+range = 250;
+reloadtime = 6;
+ringcount = 3;
+ringdelay = 0.45;
+ringduration = 1.4;
+showeffect = 0;
+soundhit = Bansheescream1;
+spritecount = 150;
+type = Remote Effect;
+weaponvelocity = 100;
+
+[DAMAGE]
+{
+default = 450;
+fort = 0;
+factory = 0;
+lodestone = 0;
+monarch = 0.25;
+god = 0.25;
+dragon = 0.25;
+airship = 0.5;
+stalwart = 0.5;
+}
+}

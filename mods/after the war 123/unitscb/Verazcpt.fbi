@@ -1,0 +1,126 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 12000;
+	mogriumbounty = 1200;
+	buildtime = 1200;
+//builder = 1;
+//workertime = 10;
+//builddistance = 100;
+//builderlimited = 1;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Verazcpt_dead;
+	damagecategory = stone;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 100;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.2;
+	maxdamage = 8000;
+	maxmana=1000;
+	manarechargerate = 10;
+	maxslope = 15;
+	name = weather spire;
+	objectname = VERAZCPT;
+	radardistance = 950;
+	shootme = 1;
+	side = VER;
+	sightdistance = 600;
+	soundcategory = VERAZCPT;
+	soundclass = VERAZCPT;
+	tedclass = Veruna;
+	unitname = VERAZCPT;
+	unitnumber = 3533;
+	version = 1;
+	//waterline = 3;
+	yardmap = o;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 175;
+	buttonimagedisabled = hailstormpu;
+	buttonimagedown = hailstormpu;
+	buttonimageselected = hailstormsbh;
+	buttonimageup = hailstormsb;
+	duration = 3;
+	edgeeffectiveness = 0.75;
+	explosionclass = large water explosion;
+//	manapershot = 1000;
+	name = magic rain;
+	nimbus = 1;
+	noairweapon = 1;
+	particlespersecond = 5;
+	range = 550;
+	reloadtime = 3.5;
+//	soundhit = arrow08;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = large water explosion;
+	weaponart = mediumsplash2;
+	weaponvelocity = 1500;
+	smoketrail = 1;
+	smokedelay = 100;
+
+	[DAMAGE]
+	{
+		default = 50;
+		monarch = .5;
+		seamonster = 0.75;
+		lodestone = 0;
+		factory = 0.75;
+		flamedemon = 1.5;
+		antikingflamedemon = 1.5;
+		giantflamedemon = 1.5;
+		
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 800;
+	buttonimagedisabled = IceStormPU;
+	buttonimagedown = IceStormPU;
+	buttonimageselected = IceStormSBh;
+	buttonimageup = IceStormSB;
+	duration = 10;
+	edgeeffectiveness = 0.75;
+	explosionclass = large water explosion;
+	manapershot = 1000;
+	name = magic downpour (1000);
+	nimbus = 1;
+	particlespersecond = 10;
+	range = 550;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = large water explosion;
+	weaponart = mediumsplash2;
+	weaponvelocity = 1500;
+	smoketrail = 1;
+	smokedelay = 100;
+
+	[DAMAGE]
+	{
+		default = 50;
+		monarch = .5;
+		seamonster = 0.75;
+		lodestone = 0;
+		factory = 0.75;
+		flamedemon = 1.5;
+		antikingflamedemon = 1.5;
+		giantflamedemon = 1.5;
+		
+	}
+}

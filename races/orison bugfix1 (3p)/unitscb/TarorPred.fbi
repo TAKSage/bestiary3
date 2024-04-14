@@ -1,0 +1,96 @@
+[UNITINFO]
+{
+	acceleration=4;
+	 
+	attackrunlength=200;
+	bloodcolor1=160 35 0;
+	bloodcolor2=170 40 0;
+	bloodcolor3=180 30 5;
+	bmcode=1;
+	bodytype=armor;
+	brakerate=4;
+	buildcost=8500;
+	builderlimited=1;
+	buildtime=575;
+	canattack=1;
+	canfly=1;
+	canguard=1;
+	canhover=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	cantbestoned=1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category= TAR FLY ATTACK;
+	corpse=TARORpred_dead;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpseadjustx=2;
+	corpseadjustz=2;
+	cruisealt=200;
+	damagecategory=airship;
+	defaultmissiontype=VTOL_Standby;
+	description=taros;
+	experiencepoints=65;
+	footprintx=2;
+	footprintz=2;
+	healtime=1.4444;
+	hoverattack=1;
+	hoverattackaltitude=200;
+	hoverattackdistance=150;
+	maneuverleashlength=500;
+	maxdamage=7500;
+	maxvelocity=6;
+	movementclass=HOVER2;
+	moverate1=1;
+	moverate2=1;
+	name= Predator;
+	noshadow=1;
+	noveteran=0;
+	objectname=TARORpred;
+	radardistance=200;
+	shootme=1;
+	side=TAR;
+	sightdistance=250;
+	soundclass=TARORpred;
+	soundcategory=TARORpred;
+	standingunitorder=3;
+	standingmoveorder=standby;
+	tedclass= Taros;
+	totalallowed = 5;
+	turninplacerate=300;
+	turnrate=300;
+	unitname=TARORpred;
+	unitnumber=60003;
+	upright=1.1;
+	version=1;
+	wind=2;
+}
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 90;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = green_shockring;
+	lightmap = small;
+	name =Lunar Cannon;
+	range = 485;
+	reloadtime = 1.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 620;
+                        human=650;
+                        fort=750;
+	}
+}
+
+// created by TDFEdit

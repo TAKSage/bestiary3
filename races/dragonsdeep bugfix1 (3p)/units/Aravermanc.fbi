@@ -1,0 +1,137 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1400;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = Ara MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Aravermanc_dead;
+	damagecategory = Hero;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 55;
+        frozen = Aravermanc_frozen;
+	healtime = 2.5;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Sark;
+	objectname = AraVERMANC;
+	roadmultiplier = 1.25;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 250;
+	soundcategory = VERBERS;
+	soundclass = VERBERS;
+	standingunitorder = 2;
+	stone = Aravermanc_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	totalallowed = 1;
+	unitname = AraVERMANC;
+	unitnumber = 3215;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+
+
+	[AdjustJoy]
+	{
+		adjustment = 45;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 300;
+	}
+
+	[AdjustArmor]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 300;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.5;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 300;
+	}
+
+
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	edgeeffectiveness = 0.5;
+	name = Twohanded Sword;
+	range = 50;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 1.25;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 5;
+	aimtolerance = 1024;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	firestarter = 1;
+	model = araarrowB;
+	name = Arrow bomb;
+	range = 400;
+	reloadtime = 4;
+	soundhit = bomb2;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 600;
+		monarch = 1.25;
+		dragon = 1.5;
+		airship = 1.5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}
+

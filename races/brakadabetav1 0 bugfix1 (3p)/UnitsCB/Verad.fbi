@@ -1,0 +1,97 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	brakerate = 10;
+	bodytype = Flesh;
+	brakerate = 0.25;
+	buildcost = 641;
+                  builddistance = 100;
+                  builder = 1;
+                  builderlimited = 1;
+	buildtime = 325;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+                  canreclaim = 1;
+	canstop = 1;
+	category = VER BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verad_dead;
+                  damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 12;
+	healtime = 2.5;
+	manarechargerate = 25;
+	maneuverleashlength = 300;
+	maxdamage = 1250;
+                  maxmana = 1000;
+	maxvelocity = 1.35;
+	maxwaterdepth = 0;
+                  mogriumincome = 1;
+                  mogriumstorage = 100;
+                  movementclass = GROUND2;
+	name = Adviser;
+	objectname = VERAD;
+	radardistance = 195;
+                  roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 190;
+	soundcategory = VERAD;
+	soundclass = VERAD;
+	yardmap = o;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 1000;
+	stone = Verad_stone;
+	unitname = VERAD;
+	unitnumber = 3296;
+                  unitstandorders = 0;
+	upright = 1;
+	version = 1;
+                  watermultiplier = 0.85;
+                  workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	damagetype = paralyzer;
+	explosionclass = green_shockring;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+                  manapershot = 200;
+	middlecolor = 10 10 200;
+	name = Paralyze Bolt;
+	outercolor = 0 0 255;
+	range = 300;
+	reloadtime = 2.7;
+	soundclass = lightning;
+	soundhit = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 99;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+		lodestone = 0;
+		airship = 0;
+	}
+}

@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4292;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 700;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkelm_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 20;
+	frozen = zonkelm_frozen;
+	healtime = 3.795833;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2851;
+	maxmana = 1000;
+	maxvelocity = 2;
+	mogriumincome = 1;
+	mogriumstorage = 200;
+	movementclass = GROUND2;
+	name = Elven Mage;
+	objectname = ZONKELM;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 220;
+	soundcategory = ARABUILD;
+	soundclass = ARABUILD;
+	standingunitorder = 1;
+	stone = zonkelm_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = zonkelm;
+	unitnumber = 139;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 250;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Death Breath;
+	range = 200;
+	reloadtime = 1.9;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 483;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 10;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	explosionclass = fireball explosion;
+	manapershot = 300;
+	name = Fire Swirl;
+	nimbus = 1;
+	range = 1200;
+	reloadtime = 4;
+	soundhitclass = fire;
+	turnrate = 200;
+	type = Guided;
+	weaponart = fireballB;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}

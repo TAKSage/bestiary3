@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	attractsgods = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2599;
+	buildtime = 300;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+        cantbecaptured = 1;
+        cantbefrozen = 1;
+        cantbestoned = 1;
+	category = CRE MEELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creclock_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 16;
+	healtime = 3.7708333;
+	maneuverleashlength = 500;
+	maxdamage = 8752;
+	maxvelocity = 1.9;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND3;
+	name = Clockwork Beast;
+	objectname = creclock;
+	radardistance = 756;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 200;
+	soundcategory = CREDRAG;
+	soundclass = CREDRAG;
+	standingunitorder = 1;
+	stone = creclock_stone;
+	tedclass = Creon;
+	turninplacerate = 1100;
+	turnrate = 1100;
+	unitname = creclock;
+	unitnumber = 156;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 31;
+	name = Automatic Staff;
+	range = 30;
+	reloadtime = 3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}

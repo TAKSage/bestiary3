@@ -1,0 +1,103 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+        bankscale = 4.5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 3885;
+	buildtime = 550;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	cantransport = 1;
+	category = CRE FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Creon;
+	experiencepoints = 35;
+	//floater = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5;
+	manarechargerate = 10;
+        maneuverleashlength = 600;
+	maxdamage = 3405;
+	maxmana = 1000;
+        maxvelocity = 2.05;
+	moverate1 = 0.01;
+	moverate2 = 4.02;
+	name = Condor;
+	objectname = CREBLIMP;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 350;
+	soundcategory = CREAERI;
+	soundclass = CREAERI;
+	standingunitorder = 1;
+	tedclass = Creon;
+	transportcapacity = 5;
+	transportdistance = 200;
+	transportsize = 6;
+	transportsizecapacity = 16;
+	turninplacerate = 100;
+	turnrate = 325;
+	unitname = CREBLIMP;
+	unitnumber = 2529;
+        upright = 1;
+	version = 1;
+	waterline = 42;
+	amphibious = 1;
+	altfromsealevel = 50;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;
+	lightmap = medium;
+	manapershot = 90;
+	name = laser;
+	range = 270;
+	reloadtime = 0.7;
+	soundhit = laser;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	model = greenlaser;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 305;
+		monarch = 0.25;
+		fort = 0.5;
+		factory = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 313;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = medium explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}

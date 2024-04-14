@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+acceleration = 0.5;
+//amphibious = 1;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 0.25;
+buildcost = 1868;
+buildtime = 155;
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbefrozen = 1;
+category = ILL BOAT ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illss_dead;
+damagecategory = Monster;
+defaultmissiontype = Standby_Wander;
+description = Illohir;
+experiencepoints = 20;
+floater = 1;
+healtime = 0.604166667;
+maneuverleashlength = 1000;
+maxdamage = 4255;
+maxvelocity = 3;
+mobilestandorders = 1;
+movementclass = WATER3;
+name = ChaosGarp;
+objectname = ILLSS;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 185;
+sonardistance = 500;
+soundcategory = TARSS;
+soundclass = TARSS;
+standingunitorder = 2;
+stone = verserp_stone;
+tedclass = ILL;
+ThreeD = 1;
+turninplacerate = 800;
+turnrate = 600;
+unitname = ILLSS;
+unitnumber = 100040;
+version = 1;
+waterline = 7;//9
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 2048;
+areaofeffect = 50;
+edgeeffectiveness = 0.5;
+explosionclass = TsunamiExp;
+gravityadjustment = 3.0;
+guidance = 1;
+//model = redcrystal1;
+name = Water Shot;
+range = 500;
+reloadtime = 3.2;
+soundhit = monelemhit1;
+soundwater = splash;
+spinheading = 6000;
+turnrate = 180;
+tracks = 1;
+type = Ballistic;
+waterexplosionclass = medium water explosion;
+weaponart = WaterBall;
+weaponvelocity = 850;
+
+[DAMAGE]
+{
+default = 500;
+monarch = 0.5;
+naval = 2.0;
+dragon = 0.5;
+god = 0.5;
+}
+}

@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.1;
+	buildcost = 3800;
+	buildtime = 400;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 180;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Veruna;
+	experiencepoints = 30;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.1;
+	hoverattack = 1;
+	hoverattackaltitude = 130;
+	hoverattackdistance = 130;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	manarechargerate = 2;
+	maxmana = 100;
+	maxvelocity = 3.7;
+	maxwaterdepth = 0;
+	name = Azur Drake;
+	objectname = VERDRAKE;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 240;
+	soundcategory = ZONDRAKE;
+	soundclass = ZONDRAKE;
+	standingunitorder = 2;
+	stone = Verdrake_stone;
+	tedclass = Veruan;
+	turninplacerate = 1000;
+	turnrate = 350;
+	unitname = VERDRAKE;
+	unitnumber = 3208;
+	upright = 1;
+	version = 1;
+	weaponswitching=1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	explosionclass = WaterBallExp;
+	name = Aqua;
+	range = 400;
+	reloadtime = 0.1;
+	manapershot = 1;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+	weaponart = WaterBall;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 30;
+		monarch = 3;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	duration = 2.75;
+	edgeeffectiveness = 0.75;
+	manapershot = 95;
+	model = zonrock.3do;
+	name = Divine Meteor;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 1.5;
+	soundhitclass = rock;
+	spinheading = 100;
+	spinpitch = 300;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 1100;
+		monarch = 185;
+	}
+}

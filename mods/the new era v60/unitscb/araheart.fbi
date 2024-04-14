@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 0;
+	bodytype = stone;
+	buildcost = 2500;
+	buildtime = 350;
+	cancloak = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ARA;
+	cloakcost = 30;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = npcthesh_dead;
+	damagecategory = lodestone;
+	description = Aramon;
+	experiencepoints = 20;
+	//init_cloaked = 1;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.5;
+	manarechargerate = 25;
+	maxdamage = 11498;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mincloakdistance = 20;
+	mogriumincome = 5;
+	mogriumstorage = 5000;
+	name = Heart of Anu;
+	objectname = NPCTHESH;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = NPCTHESH;
+	soundclass = NPCTHESH;
+	tedclass = Aramon;
+	totalallowed =  3;
+	unitname = ARAHEART;
+	unitnumber = 1085;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

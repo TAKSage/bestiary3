@@ -1,0 +1,61 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 658;
+	buildtime = 115;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelcham_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 15;
+	healtime = 0.93125;
+	maneuverleashlength = 500;
+	maxdamage = 3240;
+	maxvelocity = 1.44;
+	movementclass = GROUND2;
+	name = Man at Arms;
+	objectname = aradelcham;
+	roadmultiplier = 0.81;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 135;
+	soundcategory = versword;
+	soundclass = versword;
+	standingunitorder = 1;
+	stone = aradelcham_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aradelcham;
+	unitnumber = 37;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	name = Sword;
+	range = 55;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 665;
+	}
+}

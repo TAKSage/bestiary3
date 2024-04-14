@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 4500;
+	buildtime = 1200;
+                 cantbecaptured = 1;
+	cantbestoned = 1;
+	category = TAR;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Tarmanv_dead;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 50;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.3;
+	maxdamage = 5500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 2;
+	mogriumstorage = 5000;
+	name = Mana Vault;
+	objectname = Tarmanv;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = Tarmanv;
+	soundclass = Tarmanv;
+	tedclass = Taros;
+                totalallowed = 10;
+	unitname = Tarmanv;
+	unitnumber = 3210;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+}

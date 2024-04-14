@@ -1,0 +1,161 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3350;
+mogriumbounty = 335;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+		cantbecaptured = 1;
+		cantbestoned = 1;
+                cantbefrozen = 1;
+	category = VER MELEE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verdagw_dead;
+	damagecategory = shielded;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 35;
+	healtime = 0.816666667;
+	manarechargerate = 10;
+                maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxmana = 900;
+                maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Lihr Warrior;
+	objectname = VERDAGW;
+                radardistance = 300;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 205;
+	soundcategory = VERDAGW;
+	soundclass = VERDAGW;
+                stone = verdagw_stone;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = VERDAGW;
+	unitnumber = 120075;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	explosionclass = tsunamiexp;
+	buttonimagedisabled = lihrsceptre_down;
+	buttonimagedown = lihrsceptre_down;
+	buttonimageselected = lihrsceptre_use;
+	buttonimageup = lihrsceptre_up;
+	name = water mace strike;
+	noairweapon = 1;
+	range = 90;
+	reloadtime = 2.1;
+	soundhit = arrow08;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		shielded = 2;
+		skeleton = 1.5;
+		kingkiller = 1.5;
+		hardscale = 0.75;
+		flamedemon = 2;
+		antikingflamedemon = 2;
+		giantflamedemon = 2;
+		seamonster = 0.75;
+
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;//512;
+	areaofeffect = 30;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = iceballexp;
+	name = freezing strike (150);
+hweffect = frostbeam;
+	noairweapon = 1;
+	manapershot = 150;
+	subtype = turntofrozen;
+	type = Line of Sight;
+	range = 100;
+	reloadtime = 2.1;
+	soundhitclass = crefreeze;
+	//weaponart = iceburst;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		shielded = 2;
+		skeleton = 1.5;
+		kingkiller = 1.5;
+		hardscale = 0.75;
+		flamedemon = 2;
+		antikingflamedemon = 2;
+		giantflamedemon = 2;
+		seamonster = 0.75;
+
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+        areaofeffect = 100;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+        edgeeffectiveness = 0.5;
+	explosionclass = Water Splash;
+     	model = waterball.3do;
+        manapershot = 300;
+	name = Water Blast (300);
+	range = 300;
+	reloadtime = 2.1;
+	soundhit = arrow08;
+	type = Ballistic;
+        waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1250;
+                monarch = 0.5;
+		flamedemon = 2;
+		antikingflamedemon = 2;
+		giantflamedemon = 2;
+		seamonster = 0.75;
+	}
+}
+

@@ -1,0 +1,83 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 362;
+	buildtime = 101;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = Zon FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 20;
+	damagecategory = monster;
+	defaultmissiontype = standby;
+	description = Zhon;
+	experiencepoints = 3;
+	firestandorder = 0;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.480555556;
+	hoverattack = 1;
+	hoverattackaltitude = 20;
+	hoverattackdistance = 95;
+	maneuverleashlength = 500;
+	maxdamage = 500;
+	maxvelocity = 5;
+	maxwaterdepth = 0;
+	moverate1 = 0;
+	moverate2 = 2;
+	name = Swarm;
+	objectname = ZonaraswarmIN;
+	radardistance = 92;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 122;
+	soundcategory = ZonARASWARMIN;
+	soundclass = ZonARASWARMIN;
+	standingunitorder = 1;
+	stone = ZonaraswarmIN_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 3000;
+	unitname = ZonaraswarmIN;
+	unitnumber = 1515153;
+	upright = 1;
+	version = 1.1;
+}
+
+[WEAPON1]
+{
+	explosionclass = lightning explosion;
+	aimtolerance = 1600;
+	area of effect = 10;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 200 230 255;
+	name = lightning;
+	outercolor = 180 200 255;
+	range = 300;
+	reloadtime = .5;
+	soundclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 6000;
+
+	[DAMAGE]
+	{
+		default = 32;
+	}
+}

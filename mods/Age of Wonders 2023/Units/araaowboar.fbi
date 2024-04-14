@@ -1,0 +1,68 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = dwarf;
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 19;
+	healtime = 0.8;
+	maneuverleashlength = 500;
+	maxdamage = 12250;
+	maxvelocity = 2.65;
+	mogriumincome = -6;
+	movementclass = GROUND3;
+	name = Wild Boar;
+	objectname = ARAAOWBOAR;
+	roadmultiplier = 1.5;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = MONBOAR;
+	soundclass = MONBOAR;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ARAAOWBOAR;
+	unitnumber = 42654;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 25;
+	edgeeffectiveness = 0.7;
+	name = Tusks;
+	range = 100;
+	reloadtime = 2.7;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}

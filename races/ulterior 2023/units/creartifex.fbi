@@ -1,0 +1,148 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canresurrect = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Creon;
+	economybonus = 30;
+	experiencepoints = 135;
+	healtime = 0.041666667;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 15750;
+	maxmana = 1000;
+	maxvelocity = 1.8;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Artifex;
+	noveteran = 1;
+	objectname = CREARTIFEX;
+	radardistance = 650;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 232;
+	soundcategory = CREULTANY;
+	soundclass = CREULTANY;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CREARTIFEX;
+	unitnumber = 15;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Divine Storm;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1055;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1640;
+	areaofeffect = 130;
+	buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+	explosionclass = teeny explosion;
+	manapershot = 180;
+	name = Revolver;
+	range = 365;
+	reloadtime = 0.4;
+	soundhit = revolver;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 1105;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 1;
+	buttonimagedisabled = EarthWavePU;
+	buttonimagedown = EarthWavePU;
+	buttonimageselected = EarthWaveSBh;
+	buttonimageup = EarthWaveSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Vortex;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 120;
+	reloadtime = 1.5;
+	ringcount = 3;
+	ringdelay = 0.12;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 40;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;
+	}
+
+}

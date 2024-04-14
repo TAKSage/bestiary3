@@ -1,0 +1,169 @@
+[UNITINFO]
+{
+	acceleration=0.5;
+	//activatewhenbuilt=1;
+	//attractsgods=1;
+	bloodcolor1=255 255 255;
+	bloodcolor2=254 250 192;
+	bloodcolor3=253 242 104;
+	bmcode=1;
+	bodytype=flesh;
+	brakerate=.2;
+	buildcost= 17000;
+	//builderlimited=1;
+	buildtime=2800;
+	canattack=1;
+	canfly=1;
+	canguard=1;
+	canhover=1;
+	canmove=1;
+	canpatrol=1;
+	canstop=1;
+	immunetoparalyzer = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category=ARA ATTACK FLY MAGIC;
+	copyright=Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araang_dead;
+	cruisealt=50;
+	damagecategory=air;
+	defaultmissiontype=Standby;
+	description=Aramon;
+	experiencepoints=100;
+	fireatwillrandom = 1;
+	frozen = araang_frozen;
+	footprintx=2;
+	footprintz=2;
+	healtime=3;
+	hoverattack=1;
+	hoverattackdistance = 200;
+	manarechargerate=10;
+	//maneuverleashlength=500;
+	maxdamage=10000;
+	maxmana=1000;
+	maxvelocity=6;
+	name=Angel;
+	objectname=araang;
+	radardistance=700;
+	shadowngaf=shadows;
+	shootme=1;
+	side=ARA;
+	sightdistance= 400;
+	radardistance = 700;
+	soundclass=VERLIEGE;
+	soundcategory=VERLIEGE;
+	standingunitorder=1;
+	stone = araang_stone;
+	tedclass=Aramon;
+	totalallowed = 1.1;
+	turninplacerate=500;
+	turnrate=500;
+	unitname=araang;
+	unitnumber=984357382749213;
+	upright=1;
+	version=1;
+	weaponswitching=1;
+
+}
+[WEAPON1]
+{
+	areaofeffect = 300;
+	builduptime = 3;
+	buttonimagedisabled = EarthQuakePU;
+	buttonimagedown = EarthQuakePU;
+	buttonimageselected = EarthQuakeSBh;
+	buttonimageup = EarthQuakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 0.8;
+	//manapershot = 250;
+	name = Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 300;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 1;
+	shakemagnitude = 3;
+	shotart = cannbsm;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 8;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}
+
+[WEAPON2]
+{
+	//aimtolerance = 2048;
+	aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.45;
+	buttonimagedisabled = EnergyBlastPU;
+	buttonimagedown = EnergyBlastPU;
+	buttonimageselected = EnergyBlastSBh;
+	buttonimageup = EnergyBlastSB;
+	decaytime = 3.5;
+	edgeeffectiveness = 1;
+	firestarter = 1;
+	manapershot = 900;
+	noairweapon = 1;
+	//name = Cataclysm;
+	name = Area Mind Control;
+	nimbus = 1;
+	radiusart0 = ring_fx_redC;
+	radiusart1 = ring_fx_whiteC;
+	radiusart2 = TsunamiExplode;
+	range = 300;
+	reloadtime = 4;
+	ringcount = 5;
+	ringdelay = 0.35;
+	ringduration = 1.35;
+	subtype = mindcontrol;
+	shakeduration = 2.2;
+	shakemagnitude = 3.5;
+	showeffect = 0;
+	//soundhit = Explode6;
+	soundhit = freeze01;
+	spritecount = 40;
+	type = Remote Effect;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 1;
+		//default = 1500;
+		//monarch = 0.5;
+		//fort = 0.9;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	name = Angel Explosion;
+	range = 500;
+	reloadtime = 20;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 250;
+	}
+}

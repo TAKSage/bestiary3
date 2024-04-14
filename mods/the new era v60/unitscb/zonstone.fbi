@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 7500;
+	buildtime = 500;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	cantbecaptured = 1;
+	category = ZON ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonstone_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Zhon;
+	experiencepoints = 30;
+	fireatwillrandom = 1;
+	footprintx = 3;
+	footprintz = 3;
+	frozen = zonstone_frozen;
+	healtime = 1.270833333;
+	manarechargerate = 20;
+	maxdamage = 9500;
+	maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Obelisk;
+	objectname = ZONSTONE;
+	radardistance = 700;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 800;
+	soundcategory = ZONSTONE;
+	soundclass = ZONSTONE;
+	stone = zonstone_stone;
+	tedclass = Zhon;
+	unitname = ZONSTONE;
+	unitnumber = 816;
+	version = 1;
+	yardmap = o;
+	weaponswitching = 1;
+
+	[AdjustAttack]
+	{
+		adjustment = 2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.8;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 33000;
+                areaofeffect = 500;
+	edgeeffectiveness = .5;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	duration = 3;
+	damagetype = paralyzer;
+	explosionclass = lightning explosion;
+	//hweffect = lightning;
+	lightmap = small;
+	manapershot = 600;
+	name = Paralyzer;
+	//noairweapon = 1;
+	nimbus = 1;
+	particlespersecond = 8;
+	range = 680;
+	reloadtime = 5;
+	soundhitclass = lightning;
+	subtype = hailstorm;
+	type = Remote Effect;
+	//unitsonly = 1;
+	noairweapon = 1;
+	weaponart = aramonbuild;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 50;
+		factory = 0;
+		fort = 0;
+		god = 0;
+	}
+}

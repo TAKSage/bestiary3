@@ -1,0 +1,220 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildcost = 1200;
+	mogriumbounty = 120;
+	buildtime = 190;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAGREN_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 33;
+	frozen = aragren_frozen;
+	healtime = .791;
+	maneuverleashlength = 500;
+	maxdamage = 1650;
+	maxvelocity = 1.4;
+	movementclass = GROUND2;
+	name = Grenadier;
+	objectname = ARAGRENA;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = ARAGREN;
+	soundclass = ARAGREN;
+	standingunitorder = 1;
+	stone = ARAGREN_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 1500;
+	unitname = ARAGRENA;
+	unitnumber = 34;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 150;
+	buttonimagedisabled = GrenadeIncendiaryPU;
+	buttonimagedown = GrenadeIncendiaryPU;
+	buttonimageselected = GrenadeIncendiarySBh;
+	buttonimageup = GrenadeIncendiarySB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = volcblast;//small explosion;
+	firestarter = 1;
+	model = aragren1;
+	name = hot shrapnel G;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	spinheading = -100;
+	spinpitch = 1000;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	type = Ballistic;
+	vetmodel = aragren1_vet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1150;
+		wood = 1.75;
+		stone = 0.75;
+		factory = 0.75;
+		naval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		monarch = 0.5;
+		
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	areaofeffect = 150;
+	edgeeffectiveness = 0.75;
+//	buttonimagedisabled = GrenadeConcussionPU;
+//	buttonimagedown = GrenadeConcussionPU;
+//	buttonimageselected = GrenadeConcussionSBh;
+//	buttonimageup = GrenadeConcussionSB;
+		buttonimagedisabled = hammerQ_down;
+		buttonimagedown =hammerQ_down;
+		buttonimageselected = hammerQ_use;
+		buttonimageup = hammerQ_up;
+	decaytime = 1;
+	radiusart0 = ring_fx_redA;
+	ringcount = 1;
+	ringdelay = 0.45;
+	ringduration = 1;
+	explosionclass = green_shockring;
+	gravityadjustment = 6.5;
+	lobpreferred = 1;
+	model = aragren1;
+	name = shockwave G;
+	noairweapon = 1;
+	range = 500;
+	reloadtime = 3;
+	soundhit = Explode6;
+	spinheading = -100;
+	spinpitch = 1000;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	type = Ballistic;
+	subtype = Earthquake;
+	vetmodel = aragren1_vet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 250;
+		dragon = 0;
+		factory = 10;
+		stone = 10;
+		wood = 7.5;
+		monarch = 0;
+		naval = 0;
+		steelnaval = 0;
+		lodestone = 5;
+		angel = 0;
+		antikingmechanical = 7.5;
+		mechanical = 7.5;
+		skeleton = 7.5;
+		kingkiller = 7.5;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 512;
+	areaofeffect = 150;
+	buttonimagedisabled = GrenadeIncendiaryPU;
+	buttonimagedown = GrenadeIncendiaryPU;
+	buttonimageselected = GrenadeIncendiarySBh;
+	buttonimageup = GrenadeIncendiarySB;
+	edgeeffectiveness = 0.75;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = volcblast;//flamestrike;
+	firestarter = 1;
+	model = aragren1;
+	name = lobbed hot shrapnel G;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	spinheading = -100;
+	spinpitch = 1000;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	type = Ballistic;
+	vetmodel = aragren1_vet;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 600;
+	gravityadjustment = 6.5;
+	lobpreferred = 1;
+
+	[DAMAGE]
+	{
+		default = 1150;
+		wood = 1.75;
+		stone = 0.75;
+		factory = 0.75;
+		naval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		monarch = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 189;
+	damagetype = explosion;
+	edgeeffectiveness = 0.6;
+	explosionclass = medium explosion;
+	name = Explosion;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = 0.5;
+		wood = 1.5;
+		stone = 0.5;
+		factory = 0.5;
+		steelnaval = 0.75;
+		steel = 0.75;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+	}
+}

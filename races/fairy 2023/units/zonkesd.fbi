@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 682;
+	buildtime = 115;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Zon MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonkesd_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 15;
+	frozen = zonkesd_frozen;
+	healtime = 0.479166667;
+	maneuverleashlength = 500;
+	maxdamage = 2884;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Elven Sword Dancer;
+	objectname = zonkesd;
+	roadmultiplier = 1.75;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 90;
+	soundcategory = tarwitch;
+	soundclass = tarwitch;
+	standingunitorder = 2;
+	stone = zonkesd_stone;
+	tedclass = Zhon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = zonkesd;
+	unitnumber = 123;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 76;
+	edgeeffectiveness = 0.7;
+	name = Axe/Sword;
+	range = 40;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 760;
+	}
+}

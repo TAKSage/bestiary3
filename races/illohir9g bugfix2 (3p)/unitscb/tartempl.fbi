@@ -1,0 +1,53 @@
+[UNITINFO]
+{
+
+	bodytype = stone;
+	buildcost = 5687;
+	builddistance = 200;
+	builder = 1;
+	buildtime = 1411;
+                canattack = 1;
+                canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tartempl_dead;
+	damagecategory = factory;
+	description = Taros;
+	experiencepoints = 200;
+                floater = 0;
+	footprintx = 8;
+	footprintz = 15;
+	healtime = 4;
+	maxdamage = 29999;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	mogriumincome = 3;
+	mogriumstorage = 300;
+	name = Necropolis;
+	objectname = TARTEMPL;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARTEMPL;
+	soundclass = TARTEMPL;
+	tedclass = Taros;
+                ThreeD = 1;
+	unitname = TARTEMPL;
+	unitnumber = 212111;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 11;
+                waterline = 2;
+	yardmap = oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooocc cccccccc cccccccc;
+              ZBuffer = 1;
+
+}

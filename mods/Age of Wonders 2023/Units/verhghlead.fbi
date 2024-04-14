@@ -1,0 +1,172 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = VERHGHSPIRIT;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	cananimate = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = VER MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = highman;
+	defaultmissiontype = Standby;
+	description = Highman;
+	experiencepoints = 525;
+	healtime = 70;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 31000;
+	maxmana = 1000;
+	maxvelocity = 1.8;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = Templar;
+	noveteran = 1;
+	objectname = VERHGHLEAD;
+	radardistance = 900;
+	roadmultiplier = 1.35;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 700;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Highman;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = VERHGHLEAD;
+	unitnumber = 42561;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1325;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = solarflare_down;
+	buttonimagedown = solarflare_down;
+	buttonimageselected = solarflare_selected;
+	buttonimageup = solarflare_up;
+	aimtolerance = 1024;
+	areaofeffect = 75;
+	emittime = 60;
+	edgeeffectiveness = 0.4;
+	explosionclass = volcblast;
+	hweffect = solarflare;
+	lightmap = large;
+	manapershot = 150;
+	name = Solar Flare;
+	range = 350;
+	reloadtime = 8;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 2150;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.1;
+		highman = 0.75;
+		undead = 1.5;
+		orc = 1.15;
+		goblin = 1.15;
+		darkelf = 1.15;
+		city = 0.25;
+		factory = 0.25;
+		fort = 0.25;
+		building = 0.25;
+	}
+}
+	
+[WEAPON3]
+{
+	areaofeffect = 450;
+	buttonimagedisabled = solarflare_down;
+	buttonimagedown = solarflare_down;
+	buttonimageselected = solarflare_selected;
+	buttonimageup = solarflare_up;
+	duration = 2;
+	edgeeffectiveness = 0.75;
+	explosionclass = small explosion;
+	manapershot = 925;
+	name = Divine Storm;
+	particlespersecond = 20;
+	range = 650;
+	reloadtime = 10;
+	soundhitclass = fire;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = aramonbuild;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 150;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.1;
+		highman = 0.75;
+		undead = 1.5;
+		darkelf = 1.25;
+		orc = 1.25;
+		goblin = 1.25;
+		city = 0.5;
+		building = 0.5;
+		factory = 0.5;
+		fort = 0.5;
+		naval = 0.75;
+		mechanical = 0.75;
+	}
+}

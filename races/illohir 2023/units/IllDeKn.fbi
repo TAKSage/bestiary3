@@ -1,0 +1,173 @@
+[UNITINFO]
+{
+acceleration = 2.5;
+activatewhenbuilt = 0;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 5;
+buildcost = 1542;//1142
+buildtime = 270;//185
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+category = ILL MELEE ATTACK MAGIC;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLDEKN_dead;
+damagecategory = Tier1;
+damagemodifier = 0.2;//.25
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 58;
+//fireatwillrandom = 1;
+frozen = tardekn_frozen;
+floater = 0;
+healtime = 1.3489525;
+immunetoparalyzer = 1;
+maneuverleashlength = 500;
+manarechargerate = 5;
+maxdamage = 4511;//5911
+maxmana = 1000;
+maxvelocity = 3.0;
+movementclass = GROUND3;
+name = ChaosKnight;
+objectname = ILLDEKN;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 175;
+soundcategory = TARDEKN;
+soundclass = TARDEKN;
+standingunitorder = 2;
+stone = ILLDeKn_stone;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 3;
+turnrate = 1100;
+unitname = ILLDEKN;
+unitnumber = 100021;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.75;
+weaponswitching = 1;
+ZBuffer = 1;
+
+
+}
+
+[WEAPON1]
+{
+areaofeffect = 50;
+edgeeffectiveness = 0.5;
+buttonimagedisabled = Hamdown;
+buttonimagedown = Hamdown;
+buttonimageselected = Hamsel;
+buttonimageup = Hamup;
+explosionclass = small explosion;
+name = Yitrium Mace;
+nimbus = 1;
+noairweapon = 1;
+range = 100; //75;
+reloadtime = 1.85;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 575;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+naval = 0;
+Tier1 = 1.75;
+human = 1.25;
+
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 3000;
+areaofeffect = 150;
+buttonimagedisabled = SymbPU;
+buttonimagedown = SymbPU;
+buttonimageselected = SymbSBH;
+buttonimageup = SymbSB;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = death;
+firestarter = 50;
+gravityadjustment = 2.5;
+guidance = 1;
+manapershot = 750;
+model = Symb;
+name = Symbol;
+soundwater = splash;
+nimbus = 1;
+range = 500;
+reloadtime = 4;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhitclass = fire;
+waterexplosionclass = medium water explosion;
+weaponart = tarosbuild; //FireballA;
+Tracks = 1;
+TurnRate = 180;
+type = Guided;
+//unitsonly = 1;
+weaponvelocity = 600;
+
+[DAMAGE]
+{
+default = 870;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+Tier1 = 1.5;
+naval = 0.5;
+human = 1.5;
+}
+}
+
+[WEAPON3]
+{
+//aimtolerance = 6000;
+buttonimagedisabled = StunPU;
+buttonimagedown = StunPU;
+buttonimageselected = StunSBH;
+buttonimageup = StunSB;
+damagetype = paralyzer;
+explosionclass = green_shockring;
+manapershot = 1200;
+name = Power Word Stun;
+noairweapon = 1;
+nimbus = 1;
+range = 150;
+reloadtime = 3.5;
+soundhit = Bansheescream;
+type = Melee;
+//turnrate = 180;
+
+[DAMAGE]
+{
+default = 2000;
+monarch = 0.1;
+god = 0.1;
+naval = 0;
+fort = 0.25;
+lodestone = 0;
+factory = 0.25;
+
+}
+}
+
+
+

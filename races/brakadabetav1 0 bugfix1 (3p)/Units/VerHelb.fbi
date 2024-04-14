@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1225;
+	buildtime = 214;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tartroop_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 21;
+	healtime = 1.080;
+	maneuverleashlength = 500;
+	maxdamage = 4750;
+	maxvelocity = 1.55;
+	movementclass = GROUND2;
+	name = Halberdier;
+	objectname = VERHELB;
+	roadmultiplier = 1.2;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 115;
+	soundcategory = ARASWORD;
+	soundclass = ARASWORD;
+	standingunitorder = 2;
+	stone = tartroop_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERHELB;
+	unitnumber = 3437;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 36;
+	edgeeffectiveness = 1;
+	name = Halberd;
+	range = 80;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 745;
+	}
+}

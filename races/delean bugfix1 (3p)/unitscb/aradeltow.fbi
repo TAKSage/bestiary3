@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	bloodcolor1 =  160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bodytype = stone;
+	buildcost = 3455;
+	buildtime = 250;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	category = ARA ATTACK ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradeltow_dead;
+	damagecategory = fort;
+	description =  Aramon;
+	experiencepoints = 66;
+	footprintx =  4;
+	footprintz =  4;
+	healtime = 0.3444;
+	maxdamage = 5544;
+	maxslope =  15;
+	maxwaterdepth =  0;
+	name = Border Guard;
+	objectname = aradeltow;
+	radardistance = 1350;
+	shadowgaf =  shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 380;
+	soundcategory = aradeltow;
+	soundclass = aradeltow;
+	stone =  1;
+	tedclass =  Aramon;
+	unitname = aradeltow;
+	unitnumber = 6806;
+	version =  1;
+	wind = 1;
+	yardmap =  o;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 600;
+	reloadtime = 1.8;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 260;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 600;
+	reloadtime = 2.1;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 240;
+	}
+}
+

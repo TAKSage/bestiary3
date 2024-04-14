@@ -1,0 +1,165 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 5000;
+//mogriumbounty = 500;
+	buildtime = 680;
+	canattack = 1;
+	//cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK MAGIC;
+	//cloakcost = 1;
+	//cloakcostmoving = 5;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = giantflamedemon;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 61;
+	//ghost = 1;
+	healtime = 5;
+	manarechargerate = 15;
+	maneuverleashlength = 300;
+	maxdamage = 11000;
+	maxmana = 1000;
+	maxvelocity = 2.1;
+	movementclass = GROUND2;
+	name = Shadow Lord;
+	objectname = TARLORD;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 380;
+	soundcategory = TARLORD;
+	soundclass = TARLORD;
+	standingunitorder = 2;
+	stone = tarlord_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARLORD;
+	unitnumber = 12077;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 36;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 1;
+	explosionclass = lightning explosion;//blue_shockring;
+	name = shock Blade;
+	nimbus = 1;
+	range = 100;
+	reloadtime = 1.2;
+	soundhit = wave;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1250;
+		stone = 0.75;
+		factory = 0.75;
+		steel = 0.75;
+		unshielded = 1.25;
+		antikingunshielded = 1.25;
+		berserker = 1.25;
+		shocky = 1.25;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+		mini = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 120;
+	buttonimagedisabled = fireringpu;
+	buttonimagedown = fireringpu;
+	buttonimageselected = fireringsbh;
+	buttonimageup = fireringsb;
+	duration = 1;
+	edgeeffectiveness = 0.75;
+	edgeeffectiveness = 1;
+	firestarter = 1;
+	explosionclass = flamestrike;
+	manapershot = 150;
+	weaponart = FireballA;
+	name = Immolation (150);
+	nimbus = 1;
+	range = 60;
+	reloadtime = 1.2;
+	soundhitclass = fire;
+	subtype = hailstorm;
+	type = Remote Effect;
+	nimbus = 1;
+	particlespersecond = 5;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 200;
+		stone = 0.75;
+		wood = 2;
+		naval = 1.5;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 30;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 1;
+	manapershot = 300;
+	soundhitclass = fist;
+	name = Rage (300);
+	range = 100;
+	reloadtime = 0.4;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1250;
+		stone = 1.5;
+		factory = 1.5;
+		wood = 1.5;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		mini = 2;
+		shielded = 2;
+		skeleton = 2;
+		kingkiller = 2;
+		hardscale = 0.5;
+	}
+}

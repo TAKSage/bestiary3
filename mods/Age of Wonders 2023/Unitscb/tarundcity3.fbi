@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 12000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 2000;
+	canattack = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = TAR FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowcity3_dead;
+	corpseadjustz = 2;
+	damagecategory = city;
+	description = Undead;
+	experiencepoints = 400;
+	footprintx = 16;
+	footprintz = 10;
+	healtime = 0.65;
+	maxdamage = 22500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 30;
+	mogriumstorage = 2000;
+	name = City;
+	objectname = TARUNDCITY3;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 600;
+	soundcategory = AOWUNDEADCITY;
+	soundclass = AOWUNDEADCITY;
+	tedclass = Undead;
+	totalallowed = 1;
+	unitname = TARUNDCITY3;
+	unitnumber = 42023;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 15;
+	yardmap = ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = xlarge smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

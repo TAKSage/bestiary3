@@ -1,0 +1,42 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = wood;
+	buildcost = 17000;
+	buildtime = 5000;
+	cantbestoned = 1;
+        cantransport = 1;
+	category = ara;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragefireL_dead;
+	description = Light;
+	experiencepoints = 100;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = .1;
+	maxdamage = 100;
+	maxslope = 100;
+	maxwaterdepth = 5;
+	name = Astral Mirror;
+	noshadow = 1;
+	objectname = aragefireL;
+	onoffable = 1;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = aragefireL;
+	soundclass = aragefireL;
+	tedclass = Light;
+        transportcapacity = 1;
+        transportdistance = 8000;
+        transportsize = 30;
+        transportsizecapacity = 100;
+	totalallowed = 1;
+	unitname = aragefireL;
+	unitnumber = 97979722;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

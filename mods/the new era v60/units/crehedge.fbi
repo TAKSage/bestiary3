@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.8;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.3;
+	buildcost = 880;
+	buildtime = 330;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+	//cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = crehedge_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 10;
+	fireatwillrandom = 1;
+	frozen = crehedge_frozen;
+	healtime = 0.77083;
+	maneuverleashlength = 500;
+	maxdamage = 3203;
+	maxvelocity = 2.2;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND3;
+	name = Hedgehog;
+	objectname = CREHEDGE;
+	pitchscale = 1.8;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 400;
+	soundcategory = CRETORT;
+	soundclass = CRETORT;
+	standingunitorder = 1;
+	stone = crehedge_stone;
+	tedclass = Creon;
+	turnrate = 400;
+	unitname = CREHEDGE;
+	unitnumber = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	minrange = 90;
+	name = Mortar;
+	noairweapon = 1;
+	range = 600;
+	reloadtime = 4.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 432;
+	}
+}

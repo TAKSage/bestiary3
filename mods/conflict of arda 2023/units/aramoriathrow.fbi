@@ -1,0 +1,79 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 381;
+	buildtime = 285;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradwarf2_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = ARA;
+	experiencepoints = 7;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 1954;
+	maxvelocity = 1.1;
+	movementclass = GROUND2;
+	name = Axethrower;
+	objectname = aramoriathrow;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 380;
+	soundcategory = VERCRUS;
+	soundclass = VERCRUS;
+	standingunitorder = 2;
+	stone = NPCLEIM_stone;
+	tedclass = ARA;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = aramoriathrow;
+	unitnumber = 62240;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	aimtolerance = 1024;
+	edgeeffectiveness = 0.7;
+	explosionclass = small dust puff;
+	model = arathrowaxe;
+	name = Throwing Axe;
+	range = 400;
+	reloadtime = 3.1;
+	soundhitclass = sword;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = arathrowaxe;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 290;
+		tarmoriaarch = 4.5;
+		tarmoriaaxe = 4.5;
+		tarmoriacrawler = 4.5;
+		tarmoriagoblin = 4.5;
+		tarmoriakey = 4.5;
+	}
+}

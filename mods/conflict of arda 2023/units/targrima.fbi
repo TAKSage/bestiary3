@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 7950;
+	buildtime = 3100;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbecaptured = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	cloakcost = 5;
+	cloakcostmoving = 10;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 16;
+	healtime = 0.916666667;
+	manarechargerate = 5;
+	maneuverleashlength = 500;
+	maxdamage = 6500;
+	maxmana = 1000;
+	maxvelocity = 1.7;
+	mincloakdistance = 20;
+	movementclass = GROUND2;
+	name = Grima;
+	noveteran = 1;
+	objectname = targrima;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 730;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	stone = vercrus_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = targrima;
+	unitnumber = 125;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	edgeeffectiveness = 0.7;
+	name = Dagger;
+	range = 80;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 550;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 350;	
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	explosionclass = mind control;
+	lightmap = small;
+	manapershot = 950;
+	name = Poison Mind;
+	nimbus = 1;
+	range = 300;
+	reloadtime = 2.6;
+	soundhit = arrow08;
+	subtype = mindcontrol;
+	type = line of sight;
+	unitsonly = 1;
+	weaponart = FireballD;
+	weaponvelocity = 169;
+
+	[DAMAGE]
+	{
+		default = 1;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		lodestone = 0;
+		naval = 0;
+		BUILDER = 0;
+	}
+}

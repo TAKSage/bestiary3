@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1439;
+	buildtime = 214;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERCA_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 18;
+	frozen = Arapal_frozen;
+	healtime = 1.13125;
+	maneuverleashlength = 500;
+	maxdamage = 6240;
+	maxvelocity = 2.75;
+	movementclass = GROUND2;
+	name = Cataphract;
+	noveteran = 1;
+	objectname = VERCA;
+	roadmultiplier = 1.51;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 135;
+	soundcategory = VERCA;
+	soundclass = VERCA;
+	standingunitorder = 1;
+	stone = arapal_stone;
+	tedclass = Veruna;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERCA;
+	unitnumber = 2505;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.87;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	name = Sword;
+	noairweapon = 1;
+	range = 200;
+	reloadtime = 2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 815;
+	}
+}

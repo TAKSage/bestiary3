@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = bone;
+	brakerate = 10;
+	buildcost = 325;
+	buildtime = 65;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundarch_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = undead;
+	experiencepoints = 8;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 1700;
+	maxvelocity = 0.9;
+	mogriumincome = -3;
+	movementclass = GROUND2;
+	name = Undead Archer;
+	objectname = TARUNDARCH;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 275;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 2;
+	tedclass = Undead;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = TARUNDARCH;
+	unitnumber = 42523;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = aowundeadarrow;
+	name = Bow and Arrows;
+	range = 410;
+	reloadtime = 6.25;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 635;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+

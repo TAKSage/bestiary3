@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	activatewhenbuilt = 1;
+	bmcode = 0;
+	bodytype = stone;
+	buildangle = 4096;
+	buildcost = 10000;
+	buildtime = 2000;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verpill_dead;
+	damagecategory = lodestone;
+	description = Light;
+	experiencepoints = 100;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = .01;
+	maxdamage = 250;
+	maxslope = 100;
+	maxwaterdepth = 0;
+	name = Shrine of Healing;
+	objectname = ararelicL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 100;
+	soundcategory = ararelicL;
+	soundclass = ararelicL;
+	tedclass = Light;
+	totalallowed = 3;
+	unitname = ararelicL;
+	unitnumber = 97979729;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = o;
+
+	[AdjustJoy]
+	{
+		adjustment = 100;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.3;
+		radius = 750;
+	}
+}

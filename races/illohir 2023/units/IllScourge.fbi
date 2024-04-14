@@ -1,0 +1,144 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 795;//665
+buildtime = 198;//188
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbecaptured = 1;
+category = ILL MAGIC MELEE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = ILLscourge_dead;
+damagecategory = Tier1;
+defaultmissiontype = Standby;
+description = ILLohir;
+experiencepoints = 15;
+frozen = ILLscourge_frozen;
+floater = 0;
+healtime =  0.84583333;
+immunetoparalyzer = 1;
+manarechargerate = 2;
+maneuverleashlength = 500;
+maxdamage = 4050;
+maxmana = 100;
+maxvelocity = 3.2;
+movementclass = GROUND3;
+name = DrowScourge;
+objectname = ILLSCOURGE;
+//radardistance = 321;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 222;
+soundcategory = TARUASCOURGE;
+soundclass = TARUASCOURGE;
+standingunitorder = 2;
+stealth = 1;
+stone = ILLscourge_stone;
+tedclass = ILLohir;
+ThreeD = 1;
+transportedsize = 3;
+turninplacerate = 2400;
+turnrate = 2000;
+unitname = ILLSCOURGE;
+unitnumber = 100044;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.75;
+weaponswitching = 1;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+//areaofeffect = 25;
+edgeeffectiveness = 1.0;
+buttonimagedisabled = DeathswordPU;
+buttonimagedown = DeathswordPU;
+buttonimageselected = DeathswordsBh;
+buttonimageup = DeathswordsB;
+explosionclass = small explosion;
+name = Chaos Scythe;
+nimbus = 1;
+range = 90;//100;
+reloadtime = 2.0;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 225;
+Stalwart = 0.5;
+fort = 0.5;
+factory = 0.5;
+naval = 0;
+mechanical = 0.5;
+monarch = 0.5;
+god = 0.5;
+monster = 1.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 2048;
+areaofeffect = 50;
+buttonimagedisabled = redLightningPU;
+buttonimagedown = redLightningPU;
+buttonimageselected = redLightningSBh;
+buttonimageup = redLightningSB;
+boltcount = 3;
+damagetype = fire;
+emittime = 30;
+edgeeffectiveness = 0.5;
+explosionclass = fireball explosion;
+firestarter = 1;
+hweffect = redbeamweapon;
+jagginess = 1;
+innercolor = 255 255 165;
+lightmap = small;
+manapershot = 90;
+middlecolor = 255 255 0;
+name = Infernal Light;
+nimbus = 1;
+outercolor = 255 0 0;
+range = 375;
+reloadtime = 2.5;
+//showeffect = 1;
+smoketrail = 1;
+smokedelay = 5.5;
+soundhitclass = lightning;
+soundwater = splash;
+subtype = lightning;
+type = Line of Sight;
+waterexplosionclass = medium water explosion;
+weaponart = Tarosbuild;//ltngball_2a;
+weaponvelocity = 1500;
+
+
+
+[DAMAGE]
+{
+default = 450;
+Stalwart = 0.5;
+fort = 0.5;
+factory = 0.5;
+naval = 0.5;
+mechanical = 1.5;
+dragon = 0.5;
+monarch = 0.5;
+god = 0.5;
+
+}
+}

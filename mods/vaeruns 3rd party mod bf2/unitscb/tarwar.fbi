@@ -1,0 +1,113 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 3590;
+	buildtime = 1020;
+	canattack = 1;
+                canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                cruisealt = 50;
+	damagecategory = undead;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 45;
+                 fireatwillrandom = 1;
+                 footprintx = 3;
+                 footprintz = 3;
+                 ghost = 1;
+	healtime = 0.93125;
+                // hoverattack = 1;
+                // hoverattackdistance = 200;
+	maneuverleashlength = 500;
+	maxdamage = 10900;
+	maxvelocity = 1.5;
+	name = Ghost Warship;
+                noshadow = 1;
+	objectname = TARWAR;
+	pitchscale = 1.5;
+	radardistance = 500;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 205;
+	soundcategory = TARWAR;
+	soundclass = TARWAR;
+	standingunitorder = 2;
+	tedclass = Taros;
+	transportcapacity = 24;
+	transportdistance = 500;
+	transportsize = 9;
+	transportsizecapacity = 96;
+	turnrate = 220;
+	unitname = TARWAR;
+	unitnumber = 4111;
+	version = 1;
+	wind = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+                damagetype = explosion;
+                 edgeeffectiveness = 0.5;
+	explosionclass = mind control;
+                firestarter = 1;
+	lightmap = medium;
+	name = ghostbomb;
+                nimbus = 1;
+	range = 700;
+	reloadtime = 5;
+                soundhit = Cannon5;
+	//soundhitclass = Cannon;
+	turnrate = 190;
+	type = Ballistic;
+                waterexplosionclass = medium water explosion;
+	weaponart = ltngball_1a;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 1900;
+                                dragon = 1.2;
+                                airship = 1.2;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	name = boom;
+//	range = 600;
+//	reloadtime = 6.5;
+                shakeduration = 2;
+                 shakemagnitude = 6;
+                soundhit = TARSHIPDIE5;
+	type = Ballistic;
+//	waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2500;
+		monarch = 0.5;
+	}
+}
+

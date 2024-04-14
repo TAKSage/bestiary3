@@ -1,0 +1,129 @@
+[UNITINFO]
+{
+	name = Spearman;
+	buildcost = 560;
+	buildtime = 140;
+
+	healtime = 0.75;
+	maxdamage = 1450;
+
+	manarechargerate = 10;
+	maxmana = 1000;
+
+
+	acceleration = 10;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = AZU BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Azuspear_dead;
+	stone = Azuspear_stone;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 12;
+	maneuverleashlength = 500;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	objectname = AZUSPEAR;
+	roadmultiplier = 1.1;
+	//shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 210;
+	soundcategory = AZUSPEAR;
+	soundclass = AZUSPEAR;
+	standingunitorder = 1;
+	tedclass = Azurians;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = AZUSPEAR;
+	unitnumber = 3260;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+
+	buttonimagedisabled = spearstandardpu;
+	buttonimagedown = spearstandardpu;
+	buttonimageselected = spearstandardsbh;
+	buttonimageup = spearstandardsb;
+
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Spear;
+	range = 550;
+	reloadtime = 5.5;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 5;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 590;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}
+
+[WEAPON2]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+
+	buttonimagedisabled = speartrackingpu;
+	buttonimagedown = speartrackingpu;
+	buttonimageselected = speartrackingsbh;
+	buttonimageup = speartrackingsb;
+	manapershot = 100;
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Azurian Tracking Spear;
+	range = 550;
+	reloadtime = 5.0;
+	soundhitclass = arrow;
+	type = Guided;
+	veteranlevel = 5;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 650;
+		monster = 0.75;
+		human = 1.0;
+		airship = 1.5;
+		dragon = 1.5;
+		fortified = 0.35;
+		monarch = 0.5;
+		god = 0.75;
+	}
+}

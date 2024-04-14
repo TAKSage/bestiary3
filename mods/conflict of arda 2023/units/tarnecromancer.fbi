@@ -1,0 +1,157 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 15500;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 3250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 151;
+	healtime = 0.15;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 19500;
+	maxmana = 1000;
+	maxvelocity = 1.9;
+	mogriumincome = 10;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Necromancer;
+	noveteran = 1;
+	objectname = tarnecromancer;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 232;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = tarnecromancer;
+	unitnumber = 15000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 95;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.4;
+		radius = 210;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1800;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	damagetype = paralyzer;
+	manapershot = 400;
+	model = VerLight2;
+	name = Bestow Fear;
+	range = 480;
+	reloadtime = 2.9;
+	soundhitclass = fire;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 695;
+
+	[DAMAGE]
+	{
+		default = 1225;
+		airship = 0;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		araarwen = 0;
+		aragaladriel = 0;
+		araeowyn = 0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 8000;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	explosionclass = Soul Stealer;
+	firestarter = 1;
+	manapershot = 600;
+	name = Soul Steal;
+	range = 140;
+	reloadtime = 4.0;
+	soundhitclass = arrow08;
+	turnrate = 600;
+	type = guided;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 9000;
+		human = 1.0;
+		monster = 1.0;
+		undead = 1.0;
+		airship = 0;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+		naval = 0;
+		siege = 1.0;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 80;
+	buttonimagedisabled = Mace_disabled;
+	buttonimagedown = Mace_down;
+	buttonimageselected = Mace_selected;
+	buttonimageup = Mace_up;
+	edgeeffectiveness = 0.7;
+	name = Mace;
+	range = 300;
+	reloadtime = 1.7;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1250;
+	}
+}

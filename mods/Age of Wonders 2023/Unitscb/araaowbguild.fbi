@@ -1,0 +1,61 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildcost = 3750;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 625;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ARA FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowbguild_dead;
+	corpseadjustz = 2;
+	damagecategory = factory;
+	description = Building;
+	experiencepoints = 150;
+	footprintx = 10;
+	footprintz = 10;
+	healtime = 0.5;
+	maxdamage = 10000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 8;
+	mogriumstorage = 600;
+	name = Builder's Guild;
+	objectname = ARAAOWBGUILD;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = AOWBGUILD;
+	soundclass = AOWBGUILD;
+	tedclass = Building;
+	unitname = ARAAOWBGUILD;
+	unitnumber = 42004;
+	unitstandorders = 0;
+	version = 1;
+	workertime = 10;
+	yardmap = ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

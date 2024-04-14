@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	acceleration =      10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode =      1;
+	bodytype = armor;
+	brakerate =      10;
+	buildcost = 5500;
+	buildtime = 400;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Tar MELEE ATTACK ;
+	copyright =      Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	healtime = 2;
+	maxdamage = 5000;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Elite Skeleton Soldier;
+	objectname = TarARABONESKEL;
+	roadmultiplier =      1.25;
+	shadowgaf =      shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance =      140;
+	soundcategory =    TARTROOP;
+	soundclass =    TARTROOP;
+	standingunitorder = 2;
+	tedclass =     Taros;
+	turninplacerate =      2500;
+	turnrate =      2500;
+	unitname = TarARABONESKEL;
+	unitnumber = 6830;
+	upright = 1;
+	version = 1.1;
+	watermultiplier =      0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Mace;
+	range = 35;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1700;
+	}
+}

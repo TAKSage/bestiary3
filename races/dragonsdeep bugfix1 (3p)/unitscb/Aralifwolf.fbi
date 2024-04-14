@@ -1,0 +1,72 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 500;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Ara MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Aralifwolf_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 3;
+	frozen = Aralifwolf_frozen;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 900;
+	maxvelocity = 3.5;
+	movementclass = GROUND3;
+	name = War Wolf;
+	noveteran = 1;
+	objectname = AraLIFWOLF;
+	roadmultiplier = 1.25;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 175;
+	soundcategory = AraLIFWOLF;
+	soundclass = AraLIFWOLF;
+	standingunitorder = 2;
+	stone = Aralifwolf_stone;
+	tedclass = Aramon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	totalallowed = 10;
+	unitname = AraLIFWOLF;
+	unitnumber = 54;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	name = Bite;
+	range = 50;
+	reloadtime = .5;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 250;
+		fort = .25;
+		siege = .5;
+		factory = .25;
+		lodestone = .25;
+		naval = .25;
+		mechanical = .5;
+	}
+}

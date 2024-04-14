@@ -1,0 +1,88 @@
+[UNITINFO]
+{
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bodytype = wood;
+	buildcost = 4225;
+	buildtime = 417;
+	canattack = 1;
+	canguard = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAETHTWR_dead;
+	damagecategory = fort;
+	defaultmissiontype = Guard_NOMOVE;
+	description = Aramon;
+	experiencepoints = 27;
+	footprintx = 4;
+	footprintz = 5;
+	maxslope = 15;
+	maxwaterdpeth = 0;
+	healtime = 1.447916667;
+	maxdamage = 16000;
+	name = Spear Tower;
+	objectname = ARAETHTWR;
+	radardistance = 850;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 425;
+	soundcategory = ARASIEGE;
+	soundclass = ARASIEGE;
+	standingunitorder = 2;
+	tedclass = ETHIA;
+	unitname = ARAETHTWR;
+	unitnumber = 935;
+	version = 1;
+    yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1600;
+	areaofeffect = 30;
+	explosionclass = medium dust puff;
+	model = arabolt;
+	name = Mounted Ballista;
+	range = 555;
+	reloadtime = 4.00;
+	soundhitclass = arrow;
+	type = ballistic;
+	unitsonly = 1;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 405;
+		stalwart = 0.5;
+		naval = 0.5;
+		mechanical = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Anti-Air Arrows;
+	range = 550;
+	reloadtime = 1.4;
+	soundhitclass = arrow;
+	type = line of sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 190;
+		stalwart = 0.5;
+		mechanical = 0.5;
+	}
+}

@@ -1,0 +1,173 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                animatetype = TARZOM;
+                attractsgods = 1;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 4475;
+	buildtime = 832;
+	builddistance = 200;
+	builder = 1;
+              builderlimited = 1;
+              cananimate = 1;
+              canattack = 1;
+	canguard = 1;
+              canhover = 1;
+	canmove = 1;
+              canreclaim = 1;
+                cantbecaptured = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmaguss_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 45;
+              floater = 0;
+              frozen = tarmaguss_frozen;
+	healtime = 1.2;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 2850;
+	maxmana = 1000;
+	maxvelocity = 1.05;
+	mogriumincome = 9;//3;
+              mogriumstorage = 1250;//250;
+	movementclass = HOVER2;
+	name = Chaos Magi;
+	objectname = TARMAGUSS;
+	radardistance = 480;
+             shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = TARMAGUSS;
+	soundclass = TARMAGUSS;
+	standingfireorder = 2;
+              standingmoveorder = 2;
+	standingunitorder = 2;
+              stone = tarmaguss_stone;
+	tedclass = Taros;
+               ThreeD = 1;
+              turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMAGUSS;
+	unitnumber = 425751;
+	upright = 1;
+	version = 1;
+              waterline = 2;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 35;//11;
+              ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	//areaofeffect = 35;
+	//edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Strike;
+               nimbus = 1;
+	range = 90;
+	reloadtime = 3.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+                            dragon = 0.4;
+                            airship = 0.4;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.5;
+                            Tier1 = 1.5;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = lightning_down;
+	buttonimagedown = lightning_down;
+	buttonimageselected = lightning_selected;
+	buttonimageup = lightning_up;
+	aimtolerance = 512;
+                boltcount = 3;
+                //jagginess = 1;
+	emittime = 45;
+	explosionclass = lightning explosion;
+	hweffect = redbeamweapon;
+                innercolor = 255 0 0;
+                middlecolor = 255 255 255;
+                outercolor = 0 0 255;
+	manapershot = 500;
+	name = Lightning;
+                nimbus = 1;
+	range = 450;
+	reloadtime = 4;
+                showeffect = 1;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+              //weaponart = ltngball_2a;
+
+	[DAMAGE]
+	{
+		default = 900;
+                            dragon = 0.4;
+                            airship = 0.6;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.5;
+                            Tier1 = 1.5;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = turnundead_down;
+	buttonimagedown = turnundead_down;
+	buttonimageselected = turnundead_selected;
+	buttonimageup = turnundead_up;
+	areaofeffect = 50;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.75;
+	explosionclass = yellow_shockring;
+	lightmap = large;
+	manapershot = 900;
+	name = Hold Person;
+                nimbus = 1;
+	range = 100;
+	reloadtime = 2;
+	soundhit = turnund;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1000;
+                                fort = 0;
+                                factory = 0;
+                                lodestone = 0;
+                                monarch = 0.35;
+                                god = 0.25;
+                                airship = 0;
+                                naval = 0;
+                                dragon = 0;
+	}
+
+}
+

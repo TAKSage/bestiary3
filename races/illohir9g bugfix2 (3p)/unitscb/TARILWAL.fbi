@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 75;
+	buildtime = 65;
+              cantbecaptured = 1;
+              cantbefrozen = 1;
+              cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARILWAL;
+              damagecategory = fort;
+	description = Taros;
+	experiencepoints = 1;
+              floater = 0;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.416666667;
+	isfeature = 1;
+	maxdamage = 9000;
+	maxslope = 30;
+              maxwaterdepth = 10;
+	name = Chaos Wall;
+	objectname = TARILWAL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 45;
+	soundcategory = ARAWALL;
+	soundclass = ARAWALL;
+              ThreeD = 1;
+	tedclass = Taros;
+	unitname = TARILWAL;
+	unitnumber = 6662071;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+              waterline = 2;
+              ZBuffer = 1;
+}
+
+
+
+

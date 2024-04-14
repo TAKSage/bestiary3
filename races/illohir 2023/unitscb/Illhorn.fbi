@@ -1,0 +1,90 @@
+[UNITINFO]
+{
+acceleration = 10;
+bloodcolor1 = 0 0 0;
+bloodcolor2 = 0 0 0;
+bloodcolor3 = 0 0 0;
+bmcode = 1;
+bodytype = armor;
+brakerate = 10;
+buildcost = 26440;
+buildtime = 2258;
+canattack = 1;
+canguard = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbestoned = 1;
+cantbefrozen = 1;
+category = ILL MELEE ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+damagecategory = Monster;
+damagemodifier = 0.04; 
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 125;
+floater = 0;
+healtime = 4.08332;
+maneuverleashlength = 500;
+maxdamage = 5200;//5200;
+maxvelocity = 1.25;
+mogriumincome = -15;
+mogriumstorage = -2500;
+mogriumbounty = 1750;
+movementclass = GROUND3;
+name = ChaosMolydeus;
+notargetcategory = naval;
+objectname = ILLHORN;
+roadmultiplier = 1.05;
+shadowgaf = shadows;
+shootme = 1;
+side = ILL;
+sightdistance = 190;
+soundcategory = TARHORN;
+soundclass = TARHORN;
+standingunitorder = 2;
+stone = Illhorn_stone;
+tedclass = Illohir;
+ThreeD = 1;
+transportedsize = 6;
+turninplacerate = 2500;
+turnrate = 2400;
+unitname = ILLHORN;
+unitnumber = 100026;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.70;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+areaofeffect = 50;
+buttonimagedisabled = sworddown;
+buttonimagedown = sworddown;
+buttonimageselected = swordsel;
+buttonimageup = swordup;
+explosionclass = small explosion;
+edgeeffectiveness = 0.5;
+firestarter = 1;
+name = Molydei Axe;
+noairweapon = 1;
+range = 105;//100 for Blade demons
+reloadtime = 2;
+soundhitclass = sword;
+type = Melee;
+
+[DAMAGE]
+{
+default = 250;
+god = 5.5;//God Killers
+Tier1 = 1.5;
+naval = 0;
+monarch = 2.5;
+}
+}
+
+
+
+

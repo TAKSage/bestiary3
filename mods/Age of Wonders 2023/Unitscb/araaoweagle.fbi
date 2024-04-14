@@ -1,0 +1,54 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 311;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = human;
+	defaultmissiontype = VTOL_standby;
+	description = Creature;
+	experiencepoints = 20;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.25;
+	maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxvelocity = 4;
+	maxwaterdepth = 0;
+	mogriumincome = -4;
+	moverate1 = 5;
+	moverate2 = 10;
+	name = Great Eagle;
+	objectname = ARAAOWEAGLE;
+	radardistance = 850;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 650;
+	soundcategory = ARAFAST;
+	soundclass = ARAFAST;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 1500;
+	turnrate = 3000;
+	unitname = ARAAOWEAGLE;
+	unitnumber = 42655;
+	upright = 1;
+	version = 1;
+}
+

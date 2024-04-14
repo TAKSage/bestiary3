@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 384;
+	buildtime = 225;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = VER BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verscout_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 12;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = 0.9375;
+	maneuverleashlength = 500;
+	maxdamage = 2750;
+	maxvelocity = 4;
+	movementclass = WATER3;
+	name = Repair Skiff;
+	objectname = VERSCOUT;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 320;
+	soundcategory = VERSCOUT;
+	soundclass = VERSCOUT;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 16;
+	turnrate = 240;
+	unitname = VERSCOUT;
+	unitnumber = 148;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+
+	[AdjustJoy]
+	{
+		adjustment = 350;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 500;
+	}
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = araarrow;
+	name = arrow;
+	range = 580;
+	reloadtime = 1.4;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 244;
+	}
+}

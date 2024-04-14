@@ -1,0 +1,73 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//old buildcost=677;
+	buildcost = 800;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tararch_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 13;
+	fireatwillrandom = 1;
+	healtime = 0.520833;
+	maneuverleashlength = 500;
+	maxdamage = 900;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	name = Skeleton Archer-C;
+	objectname = TARARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 240;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 750;
+	turnrate = 1000;
+	unitname = TARARCH;
+	unitnumber = 70;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = araarrow;
+	name = Flame Arrow;
+	//old range=450;
+	range = 480;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+		//old default=355;
+		default = 420;
+	}
+}

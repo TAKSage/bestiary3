@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	name = Crystal Siege;
+	buildcost = 440;
+	buildtime = 110;
+
+	healtime = 1.0;
+	maxdamage = 1300;
+
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	cantbefrozen = 1;
+	canstop = 1;
+	category = AZU BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Azusiege_dead;
+	stone = Azusiege_stone;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Azurians;
+	experiencepoints = 36;
+	maneuverleashlength = 640;
+	maxvelocity = 0.95;
+	movementclass = GROUND4;
+	objectname = AZUSIEGE;
+	pitchscale = 1.1;
+	roadmultplier = 1.4;
+	//shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 250;
+	soundcategory = AZUSIEGE;
+	soundclass = AZUSIEGE;
+	standingunitorder = 2;
+	tedclass = Azurians;
+	turninplacerate = 270;
+	turnrate = 270;
+	unitname = AZUSIEGE;
+	unitnumber = 3500;
+	version = 1;
+	watermultiplier = 0.6;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Crystal Pandora Shot;
+	range = 750;
+	reloadtime = 8.0;
+	noairweapon = 1;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Line of Sight;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 1350;
+		monster = 0.5;
+		human = 1.0;
+		airship = 1.0;
+		dragon = 1.0;
+		fort = 1.5;
+		monarch = 0.5;
+		god = 1.5;
+	}
+}

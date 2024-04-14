@@ -1,0 +1,180 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 900;
+	buildcost = 1100;
+	buildtime = 82;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ZON BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//corpse = Zonearch_dead;
+	//original damagecategory = Human;
+	damagecategory = archer2;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 20;
+	fireatwillrandom = 1;
+	healtime = 0.65;
+	manarechargerate = 5.5;
+	maneuverleashlength = 500;
+	maxdamage = 1100;
+	maxmana = 120;
+	maxvelocity = 1.5;
+	//original movementclass = GROUND2;
+	movementclass = GROUND2B;
+	name = Elvish Archer;
+	objectname = ZONEARCH;
+	roadmultiplier = 1.3;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 300;
+	soundcategory = ZONEARCH;
+	soundclass = ZONEARCH;
+	standingunitorder = 1;
+	stone = Zonearch_stone;
+	tedclass = Zhon;
+	turninplacerate = 3000;
+	turnrate = 2500;
+	unitname = ZONEARCH;
+	unitnumber = 3208;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	//default aimtolerance = 1024;
+	aimtolerance = 512;
+	buttonimagedisabled = TripleArrowPU;
+	buttonimagedown = TripleArrowPU;
+	buttonimageselected = TripleArrowSBh;
+	buttonimageup = TripleArrowSB;
+	model = Zonearcharrow;
+	name = Triple Arrow;
+	//original range = 550;
+	range = 490;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 540;
+
+	[DAMAGE]
+	{
+		default = 541;  //dmg = 133/s (180/s)
+		// These are new
+		airship = 1.18;
+		archer = 2;
+		archer2 = 0.72; //dmg = 390
+		fly = 1.4;	//damage = 666
+		dragon = 1.3;   //damage = 618
+		fort = 0;
+		factory = 0;
+		lodestone = 0;
+		magic = 0.2;
+		stalwart = 0.85;
+		support = 0.5;
+		undead = 0.85;
+	}
+}
+
+[WEAPON2]
+{
+	//default aimtolerance = 1024;
+	aimtolerance = 512;
+	buttonimagedisabled = TripleArrowTrackingPU;
+	buttonimagedown = TripleArrowTrackingPU;
+	buttonimageselected = TripleArrowTrackingSBh;
+	buttonimageup = TripleArrowTrackingSB;
+	explosionclass = teeny explosion;
+	manapershot = 10;
+	model = Zonearchtarrow;
+	name = Tracking Triple Arrow;
+	nimbus = 1;
+	//original range = 550;
+	range = 450;
+	reloadtime = 3.5;
+	soundhitclass = arrow;
+	turnrate = 220;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		default = 720;  //dmg = 164/s (205/s)
+		airship = 1.1;
+		archer = 2;
+		archer2 = 0.875;
+		fly = 1.3;
+		god = 0.5;
+		magic = 0.5;
+		monarch = 0.5;
+		dragon = 1.2;
+		fort = 0.15;
+		factory = 0.15;
+		lodestone = 0;
+		stalwart = 0.7;
+		support = 0.6;
+		undead = 0.85;
+	}
+}
+
+[WEAPON3]
+{
+	//default aimtolerance = 1024;
+	aimtolerance = 512;
+	buttonimagedisabled = TripleArrowSnipingPU;
+	buttonimagedown = TripleArrowSnipingPU;
+	buttonimageselected = TripleArrowSnipingSBh;
+	buttonimageup = TripleArrowSnipingSB;
+	explosionclass = teeny explosion;
+	manapershot = 50;
+	model = zonearchsarrow;
+	name = Sniping Arrow;
+	nimbus = 1;
+	//original range = 550; 500
+	range = 620;
+	//original reloadtime = 3.65;
+	reloadtime = 5;
+	soundhitclass = arrow;
+	turnrate = 180;
+	//type = Guided;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 750; 550
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		//original default = 576
+		default = 601;  //dmg = 240/s
+		archer2 = 0.4;   //dmg = 480
+		fort = 0;	 //can't target
+		fort2 = 0;
+		factory = 0;
+		god = 0.2;
+		flygod = 0.2;
+		lodestone = 0;
+		magic = 0.3;	 //dmg = 360
+		monarch = 0.2;
+		stalwart = 0.4;  //dmg = 
+		support = 0.2;  //dmg = 
+		undead = 0.85;
+	}
+}

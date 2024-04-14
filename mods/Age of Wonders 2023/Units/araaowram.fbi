@@ -1,0 +1,88 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.02;
+	buildcost = 1000;
+	buildtime = 300;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaowram_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Machine;
+	experiencepoints = 40;
+	healtime = 0.2;
+	maneuverleashlength = 500;
+	maxdamage = 13000;
+	maxvelocity = 0.725;
+	mogriumincome = -6;
+	movementclass = GROUND4;
+	name = Battering Ram;
+	objectname = ARAAOWRAM;
+	pitchscale = 1.5;
+	roadmultiplier = 1.75;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = ARASIEGE;
+	soundclass = ARASIEGE;
+	standingunitorder = 1;
+	tedclass = Machine;
+	turninplacerate = 225;
+	turnrate = 225;
+	unitname = ARAAOWRAM;
+	unitnumber = 42603;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 45;
+	edgeeffectiveness = 0.1;
+	explosionclass = medium dust puff;
+	name = Battering Ram;
+	range = 150;
+	reloadtime = 7;
+	soundhitclass = rock;
+	type = Ballistic;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 300;
+		city = 8;
+		fort = 8;
+		factory = 8;
+		building = 8;
+	}
+}
+
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = medium smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

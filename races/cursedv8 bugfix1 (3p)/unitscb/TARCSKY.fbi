@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 5;
+	bankscale = 1;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 2562;
+	buildtime = 333;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagetype = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 15;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 500;
+	maneuverleashlength = 500;
+	maxdamage = 1913;
+	maxvelocity = 1.8;
+	maxwaterdepth = 0;
+	name = Horror;
+	objectname = tarcsky;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 190;
+	soundcategory = tarcsky;
+	soundclass = tarcsky;
+	standingunitorder = 2;
+	stone = tarcsky_stone;
+	tedclass = taros;
+	totalallowed = 25;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = tarcsky;
+	unitnumber = 813;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 3000;
+	areaofeffect = 80;
+	damagetype = explosion;
+	explosionclass = medium explosion;
+	name = Bolt;
+	noairweapon = 1;
+	range = 500;
+	reloadtime = 5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Line of Sight;
+	waterexplosionclass = large water explosion;
+	model = tarcboltg.3do;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 800;
+		monarch = 0.5;
+		factory = 1.25;
+		fort = 1.5;
+	}
+}

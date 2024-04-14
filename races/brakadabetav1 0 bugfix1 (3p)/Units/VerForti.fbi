@@ -1,0 +1,34 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 75;
+	buildtime = 65;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAWALL;
+	description = Veruna;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.416666667;
+	isfeature = 1;
+	maxdamage = 5500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Fortification;
+	noshadow = 1;
+	objectname = VerForti;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 45;
+	soundcategory = ARAWALL;
+	soundclass = ARAWALL;
+	tedclass = Veruna;
+	unitname = VerForti;
+	unitnumber = 42;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

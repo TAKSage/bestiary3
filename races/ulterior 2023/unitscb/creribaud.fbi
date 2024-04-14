@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 0.4;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.2;
+	buildcost = 4515;
+	buildtime = 485;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creribaud_dead;
+	damagecategory = siege;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 28;
+	fireatwillrandom = 1;
+	healtime = 1.1875;
+	maneuverleashlength = 500;
+	manarechargerate = 27;
+	maneuverleashlength = 500;
+	maxdamage = 3800;
+	maxmana = 1000;
+	maxvelocity = 0.65;
+	movementclass = GROUND4;
+	name = Ribaud;
+	notargetcategory = FLY;
+	objectname = creribaud;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowart = shadow09;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 180;
+	soundcategory = creult2;
+	soundclass = creult2;
+	standingunitorder = 1;
+	stone = creribaud_stone;
+	tedclass = Creon;
+	turninplacerate = 450;
+	turnrate = 200;
+	unitname = creribaud;
+	unitnumber = 6;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	areaofeffect = 40;
+	explosionclass = teeny explosion;
+	manapershot = 125;
+	name = Ribuadequin;
+	range = 500;
+	reloadtime = 0.15;
+	soundhit = gatlshot;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 620;
+	}
+}

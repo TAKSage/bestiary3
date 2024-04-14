@@ -1,0 +1,234 @@
+[UNITINFO]
+{
+acceleration = 0.5;
+attackrunlength = 1000;
+bankscale = 0.1;
+bloodcolor1 = 160 35 0;
+bloodcolor2 = 170 40 0;
+bloodcolor3 = 180 30 5;
+bmcode = 1;
+bodytype = armor;
+brakerate = 5.0;
+buildcost = 6924;
+buildtime = 1315;
+canattack = 1;
+canfly = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canstop = 1;
+cantbefrozen = 1;
+cantbestoned = 1;
+//canteleport = 1;
+category = ILL FLY MAGIC ATTACK;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+cruisealt = 100;
+damagecategory = Human;
+damagemodifier = 0.25;//0.4;
+defaultmissiontype = VTOL_Standby;
+description = Illohir;
+experiencepoints = 150;
+footprintx = 2;
+footprintz = 2;
+floater = 0;
+healtime = 3.41667;
+isairbase = 1;
+manarechargerate = 32;
+maneuverleashlength = 1000;
+maxdamage = 6500;
+maxmana = 1600;
+maxvelocity = 2.0;
+maxwaterdepth = 0;
+mogriumincome = -4;
+mogriumstorage = -750;
+name = ChaosNexus;
+objectname = ILLMAGII;
+roadmultiplier = 1.25;
+shadowgaf = shadows;
+selfdestructas = MageExplosion;
+shootme = 1;
+side = ILL;
+sightdistance = 270;
+soundcategory = TARMAGII;
+soundclass = TARMAGII;
+standingunitorder = 2;
+tedclass = Illohir;
+//teleporter = 1;
+ThreeD = 1;
+turninplacerate = 2400;
+turnrate = 2000;
+unitname = IllMAGII;
+unitnumber = 100031;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.81;
+weaponswitching = 1;
+ZBuffer = 1;
+}
+
+[WEAPON1]
+{
+aimtolerance = 8000;
+areaofeffect = 50;
+buttonimagedisabled = DeathSwordPU;
+buttonimagedown = DeathSwordPU;
+buttonimageselected = DeathSwordSBh;
+buttonimageup = DeathSwordSB;
+edgeeffectiveness = 0.5;
+explosionclass = GreenRing;
+firestarter = 1;
+name = ForceStaff;
+nimbus = 1;
+range = 300;
+reloadtime = 2.0;
+smoketrail = 1;
+smokedelay = 6.5;
+soundhitclass = arrow08;
+turnrate = 180;
+type = guided;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 1250;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.5;
+stalwart = 0.5;
+monster = 1.25;
+Tier1 = 1.5;
+mechanical = 0.5;
+}
+}
+
+[WEAPON2]
+{
+aimtolerance = 33000;
+areaofeffect = 200;
+buttonimagedisabled = IceStormPU;
+buttonimagedown = IceStormPU;
+buttonimageselected = IceStormSBh;
+buttonimageup = IceStormSB;
+duration = 3;
+edgeeffectiveness = 0.5;
+explosionclass = lightning explosion;
+manapershot = 750;
+name = Mana Storm;
+nimbus = 1;
+particlespersecond = 20;
+range = 300;
+reloadtime = 3.5;
+soundhitclass = rock;
+subtype = hailstorm;
+type = Remote Effect;
+waterexplosionclass = large water explosion;
+weaponart = tarosbuild;//manabomb;
+weaponvelocity = 400;
+
+[DAMAGE]
+{
+default = 350;
+stalwart = 0.5;
+Tier1 = 1.25;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+}
+}
+
+[WEAPON3]
+{
+aimtolerance = 33000;
+areaofeffect = 325;
+buttonimagedisabled = FireRingPU;
+buttonimagedown = FireRingPU;
+buttonimageselected = FireRingSBh;
+buttonimageup = FireRingSB;
+damagetype = fire;
+decaytime = 1.5;
+edgeeffectiveness = 1;
+firestarter = 1;
+manapershot = 1500;
+name = Chaos Melt;
+nimbus = 1;
+radiusart0 = ring_fx_greena;
+radiusart1 = redburst3;
+radiusart2 = dieselflame;
+range = 350;
+reloadtime = 5.0;
+ringcount = 3;
+ringdelay = 0.5;
+ringduration = 1.5;
+shakeduration = 1;
+shakemagnitude = 1;
+showeffect = 0;
+soundhit = Thunder3;
+spritecount = 50;
+subtype = Earthquake;
+type = Remote Effect;
+unitsonly = 1;
+weaponvelocity = 150;
+
+[DAMAGE]
+{
+default = 4500;
+dragon = 0.5;
+god = 0.5;
+monarch = 0.25;
+stalwart = 0.5;
+mechanical = 1.25;
+siege = 1.25;
+naval = 0.5;
+
+}
+}
+
+[SELFDESTRUCTAS]
+{
+areaofeffect = 250;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = XLarge Explosion;
+name = MageExplosion;
+soundhit = TARPDIE1;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 500;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+lodestone = 2.0;
+
+}
+}
+
+[EXPLODEAS]
+{
+areaofeffect = 250;
+damagetype = fire;
+edgeeffectiveness = 0.5;
+explosionclass = Mind Control;
+name = MageExplosion1;
+soundhit = TARPDIE1;
+type = Ballistic;
+waterexplosionclass = large water explosion;
+weaponvelocity = 1000;
+
+[DAMAGE]
+{
+default = 500;
+monarch = 0.5;
+god = 0.5;
+dragon = 0.5;
+stalwart = 0.5;
+lodestone = 2.0;
+
+}
+}

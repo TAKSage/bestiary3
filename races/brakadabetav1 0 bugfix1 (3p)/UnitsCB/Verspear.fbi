@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 50 0;
+	bloodcolor2 = 170 75 0;
+	bloodcolor3 = 180 35 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 497;
+	buildtime = 175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = Verspear_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 12;
+	healtime = 1.15;
+	maneuverleashlength = 500;
+	maxdamage = 1970;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	name = Javelineer;
+	objectname = VERSPEAR;
+	roadmultiplier = 1.1;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 210;
+	soundcategory = VERSPEAR;
+	soundclass = VERSPEAR;
+	standingunitorder = 1;
+	tedclass = Veruna;
+	stone = Verspear_stone;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERSPEAR;
+	unitnumber = 3260;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{	
+	aimtolerance = 1024;
+	areaofeffect = 20;
+	buttonimagedisabled = spearstandardpu;
+	buttonimagedown = spearstandardpu;
+	buttonimageselected = spearstandardsbh;
+	buttonimageup = spearstandardsb;
+	explosionclass = small dust puff;
+	nimbus = 1;
+	model = verspear;
+	name = Javelin;
+	range = 575;
+	reloadtime = 4.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	veteranlevel = 5;
+	veteranmodel = verspear_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 395;
+	}
+}

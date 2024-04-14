@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 255;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2500;
+	buildtime = 250;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE MAGIC ATTACK;
+	cloakcost = 10;
+	cloakcostmoving = 20;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = creadrone_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 35;
+                frozen = creadrone_frozen;
+	healtime = 0.72917;
+                manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 4555;
+	maxmana = 1200;
+	maxvelocity = 1.3;
+	mincloakdistance = 100;
+	movementclass = GROUND4;
+	name = Attack Drone;
+	objectname = CREADRONE;
+	radardistance = 900;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 310;
+	soundcategory = CREADRONE;
+	soundclass = CREADRONE;
+	standingunitorder = 1;
+                stone = creadrone_stone;
+	tedclass = Creon;
+	turninplacerate = 750;
+	turnrate = 500;
+	unitname = CREADRONE;
+	unitnumber = 12047;
+	upright = 1;
+	version = 1;
+	//waterline = 4;
+                watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+                areaofeffect = 50;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+                emittime = 60;
+                explosionclass = Volcblast;
+	firestarter = 1;
+                hweffect = creon heatray;
+	innercolor = 255 0 0;
+	middlecolor = 0 0 160;
+	outercolor = 255 255 0;
+	lightmap = small;
+                manapershot = 200;
+	minrange = 100;
+	nimbus = 1;
+                name = HeatRay;
+	range = 1100;
+	reloadtime = 2.0;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		default = 1042;
+                monarch = 0.1;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 210;
+	damagetype = explosion;
+	edgeeffectiveness = 0.1;
+	explosionclass = fireball explosion;
+	name = Die;
+	type = Ballistic;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.5;
+	}
+}
+

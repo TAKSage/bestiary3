@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 125 125 125;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 1;
+	buildangle = 4096;
+	buildcost = 1189;
+	buildtime = 204;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARYMIST_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 30;
+	healtime = 0.85;
+	maneuverleashlength = 500;
+	maxdamage = 3100;
+	maxvelocity = 1.2;
+	movementclass = GROUND3;
+	name = Mist Demon;
+	objectname = TARYMIST;
+	roadmultiplier = 1.21;
+	shadowart = shadow08;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	ghost = 1;
+	sightdistance = 156;
+	soundcategory = TARYFIRE;
+	soundclass = TARYFIRE;
+	standingunitorder = 1;
+	stone = tarfire_stone;
+	tedclass = Taros;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = TARYMIST;
+	unitnumber = 66610;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	name = Bleh;
+	range = 900;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	type = Line of Sight;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}

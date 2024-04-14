@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	//attackrunlength = 100;
+	bankscale = 0.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1.5;
+	buildcost = 8000;
+	buildtime = 1200;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	//cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 300;
+	damagecategory = Air;
+	defaultmissiontype = VTOL_standby;
+	description = Light;
+	experiencepoints = 100;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 3;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	immunetoparalyzer = 1;
+	maneuverleashlength = 400;
+	maxdamage = 8500;
+	maxvelocity = 6.5;
+	maxwaterdepth = 0;
+	name = Griffon Rider;
+	objectname = ARADRSL;
+	radardistance = 400;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 275;
+	soundcategory = ARADRSL;
+	soundclass = ARADRSL;
+	standingunitorder = 2;
+	stone = aradrsL_stone;
+	tedclass = Light;
+	totalallowed = 5;
+	turninplacerate = 800;
+	turnrate = 500;
+	unitname = ARADRSL;
+	unitnumber = 97979719;
+	upright = 1;
+	version = 1;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 30;
+	edgeeffectiveness = 0.5;
+	explosionclass = small dust puff;
+	model = dragonspear;
+	name = Throwing Lance;
+	range = 500;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 512;
+	areaofeffect = 30;
+	edgeeffectiveness = 0.5;
+	explosionclass = small dust puff;
+	model = dragonspear;
+	name = Throwing Lance;
+	range = 500;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		monarch = .5;
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+	}
+}

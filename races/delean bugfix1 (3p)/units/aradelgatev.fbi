@@ -1,0 +1,41 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 200;
+	buildtime = 130;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//copyright = Copyright 1999 Z-TA. All rights reserved.;
+	corpse = aradelgatev_dead;
+	damagecategory = fort;
+	description = Aramon;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 14;
+	gate = 1;
+	healtime = 0.2708;
+	maxdamage = 16145;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Alabaster Gate;
+	objectname = aradelgatev;
+	onoffable = 1;
+	radardistance = 999;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = ARANGATE;
+	soundclass = ARANGATE;
+	tedclass = Aramon;
+	unitname = aradelgatev;
+	unitnumber = 8005;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = oooo oooo oooo oooo cccc cccc cccc cccc cccc cccc oooo oooo oooo oooo;
+	ai_weight = weight araegax 0;
+	ai_limit = limit araegax 0;
+}

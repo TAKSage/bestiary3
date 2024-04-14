@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 0.02;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 18500;
+	buildtime = 4000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmumak_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 50;
+	healtime = 10.25;
+	maneuverleashlength = 500;
+	maxdamage = 28500;
+	maxvelocity = 2.1;
+	movementclass = GROUND3;
+	name = Mumak;
+	objectname = tarmumakil;
+	radardistance = 600;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 530;
+	soundcategory = ZONGIANT;
+	soundclass = ZONGIANT;
+	standingunitorder = 1;
+	tedclass = Taros;
+	transportcapacity = 10;
+	transportdistance = 200;
+	transportsize = 5;
+	transportsizecapacity = 32;
+	totalallowed = 10;
+	turninplacerate = 1200;
+	turnrate = 150;
+	unitname = tarmumakil;
+	unitnumber = 165;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	areaofeffect = 100;
+	model = araarrowI;
+	name = Tusks;
+	range = 150;
+	reloadtime = 1.55;
+	soundhit = RHITRK05;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 2950;
+		undead = 0.2;
+		monarch = 0.2;
+	}
+}

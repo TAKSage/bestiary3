@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bankscale = 0.4;
+	bloodcolor1 = 128 255 0;
+	bloodcolor2 = 255 255 0;
+	bloodcolor3 = 150 255 45;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 1214;
+	buildtime = 855;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+                 cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 45;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 2.3941;
+	hoverattack = 1;
+	hoverattackdistance = 250;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 9988;
+	maxmana = 1000;
+	maxvelocity = 8;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Locust;
+	objectname = ZONLOCU;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 233;
+	soundcategory = ZONLOCU;
+	soundclass = ZONLOCU;
+	standingunitorder = 2;
+	stone = zondrag_stone;
+	tedclass = Zhon;
+	totalallowed = 40;
+	turninplacerate = 800;
+	turnrate = 400;
+	unitname = ZONLOCU;
+	unitnumber = 12006;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 30;
+                edgeeffectiveness = 0.5;
+	explosionclass = green_shockring;
+	hweffect = lightning;
+	innercolor = 0 255 128;
+	lightmap = medium;
+	manapershot = 150;
+	middlecolor = 24 230 128;
+	name = Lightning;
+	nimbus = 1;
+	outercolor = 48 200 128;
+	range = 750;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+               waterexplosionclass = medium water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1021;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+                edgeeffectiveness = 0.5;
+	explosionclass = green_shockring;
+	lightmap = small;
+	manapershot = 300;
+	name = Lightning Ball;
+	range = 900;
+	reloadtime = 3;
+	soundhitclass = lightning;
+	turnrate = 180;
+	type = Guided;
+	weaponart = LtngBall_1a;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 2800;
+		dragon = 1.5;
+	}
+}
+

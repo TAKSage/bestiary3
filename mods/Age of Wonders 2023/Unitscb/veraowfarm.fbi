@@ -1,0 +1,53 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildcost = 1350;
+	buildtime = 240;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = building;
+	description = Building;
+	experiencepoints = 20;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.3;
+	maxdamage = 5500;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 6;
+	mogriumstorage = 100;
+	name = Farm;
+	objectname = ARAAOWFARM;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 350;
+	soundcategory = AOWFARM;
+	soundclass = AOWFARM;
+	tedclass = Building;
+	unitname = VERAOWFARM;
+	unitnumber = 43002;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = citydie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 500;
+	mogriumbounty = 25;
+	builddistance = 50;
+	buildtime = 130;
+	builder = 1;
+	builderlimited = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canreclaim = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	corpse = zonant_dead;
+	damagecategory = mini;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 6;
+	healtime = .325;
+noveteran = 1;
+	maneuverleashlength = 500;
+	maxdamage = 1500;
+	maxvelocity = 1.85;
+	movementclass = SPIDER2;
+	name = Army Ant;
+	objectname = ZONANT;
+	radardistance = 170;
+	roadmultiplier = 1.25;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 170;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turnrate = 1000;
+	unitname = ZONANT;
+	unitnumber = 2010;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+	frozen = zonant_frozen;
+	stone = zonant_stone;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	edgeeffectiveness = 0.7;
+	//explosionclass = blood explosion;
+	noairweapon = 1;
+	range = 10;
+	reloadtime = 2.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 400;
+		stone = 3.0;
+		factory = 3.0;
+		wood = 3.0;
+		mechanical = 2.0;
+		antikingmechanical = 2.0;
+		steel = 0.5;
+		giant = 0.75;
+		giantflamedemon = 0.75;
+		giantundead = 0.75;
+	}
+}

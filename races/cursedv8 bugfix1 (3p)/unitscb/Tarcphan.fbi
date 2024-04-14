@@ -1,0 +1,131 @@
+[UNITINFO]
+{
+	acceleration = .5;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = .3;
+	buildcost = 3695;
+	buildtime = 400;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	ghost = 1;
+	healtime = 0.53;
+	manarechargerate = 10;
+	maneuverleashlength = 2000;
+	maxdamage = 2871;
+	maxmana = 1000;
+	maxvelocity = 2.0;
+	movementclass = HOVER2;
+	name = Phantom;
+	noshadow = 1;
+	objectname = TARCPHAN;
+	radardistance = 600;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = TARCPHAN;
+	soundclass = TARCPHAN;
+	standingunitorder = 2;
+	tedclass = taros;
+	turninplacerate = 1500;
+	turnrate = 500;
+	unitname = TARCPHAN;
+	unitnumber = 1923;
+	upright = 1;
+	version = 1;
+	waterline = 1;
+	watermultiplier = 0.7;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.5;
+	name = Claws;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 1.65;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 400;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	damagetype = paralyzer;
+	buttonimagedisabled = LongTermStunPU;
+	buttonimagedown = LongTermStunPU;
+	buttonimageselected = LongTermStunSBh;
+	buttonimageup = LongTermStunSB;
+	lightmap = small;
+	manapershot = 200;
+	name = Paralysing Touch;
+	noairweapon = 1;
+	range = 50;
+	reloadtime = 2.1;
+	soundhitclass = crelbeam;
+	type = Line of Sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 900;
+		undead = 500;
+		dragon = 0;
+		factory = 0;
+		fort = 0;
+		god = 0;
+		monarch = 0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FreezeBeamPU;
+	buttonimagedown = FreezeBeamPU;
+	buttonimageselected = FreezeBeamSBh;
+	buttonimageup = FreezeBeamSB;
+	explosionclass = lightning explosion;
+	manapershot = 350;
+	name = Freezing Touch;
+	noairweapon = 1;
+	range = 50;
+	reloadtime = 2.5;
+	soundhitclass = crefreeze;
+	subtype = turntofrozen;
+	type = line of sight;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 1;
+	}
+}

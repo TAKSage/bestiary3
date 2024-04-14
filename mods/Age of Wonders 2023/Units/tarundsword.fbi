@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = bone;
+	brakerate = 10;
+	buildcost = 285;
+	buildtime = 60;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarundsword_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Undead;
+	experiencepoints = 9;
+	healtime = 1.5;
+	maneuverleashlength = 500;
+	maxdamage = 3500;
+	maxvelocity = 0.85;
+	mogriumincome = -2;
+	movementclass = GROUND2;
+	name = Undead Swordsman;
+	objectname = TARUNDSWORD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 275;
+	soundcategory = TARARCH;
+	soundclass = TARARCH;
+	standingunitorder = 2;
+	tedclass = Undead;
+	turninplacerate = 1900;
+	turnrate = 1900;
+	unitname = TARUNDSWORD;
+	unitnumber = 42522;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 30;
+	reloadtime = 2.75;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 595;
+		spirit = 0.5;
+		firespirit = 0.5;		
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}

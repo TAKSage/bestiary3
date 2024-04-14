@@ -1,0 +1,40 @@
+[UNITINFO]
+{
+	name = Wall;
+	buildcost = 100;
+	buildtime = 25;
+
+	healtime = 0.5;
+	maxdamage = 4000;
+
+	bodytype = stone;
+	buildangle = 0;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = AZU;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = AZUWALL;
+	description = Azurian;
+	experiencepoints = 1;
+	footprintx = 3;
+	footprintz = 3;
+	isfeature = 1;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	noshadow = 1;
+	objectname = AZUWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 100;
+	soundcategory = VERWALL;
+	tedclass = Azurian;
+	unitname = AZUWALL;
+	unitnumber = 3510;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

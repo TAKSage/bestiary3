@@ -1,0 +1,153 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 0.15;
+	buildcost = 24600;
+	buildtime = 2050;
+	canattack = 1;
+	canguard = 1;
+                 canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                cantbefrozen = 1;
+              // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	movementclass = HOVER2;
+	defaultmissiontype = standby;
+	description = Aramon;
+	experiencepoints = 115;
+                floater = 0;
+	healtime = 33.36;
+                immunetoparalyzer = 1;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 25000;
+	maxmana = 2000;
+	maxvelocity = 2.6;
+	//maxwaterdepth = 5;
+	name = Golden Warrior;
+                noveteran = 1;
+	objectname = aragold;
+	radardistance = 800;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 130;
+	soundcategory = aragod;
+	soundclass = aragod;
+	standingunitorder = 2;
+	stone = aragold_stone;
+	tedclass = Aramon;
+	totalallowed = 10;
+	turnrate = 500;
+	unitname = aragold;
+	unitnumber = 56764;
+	upright = 1;
+	version = 1;
+                waterline = 12;
+                watermultiplier = 0.75;
+	//weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.7;
+	buttonimagedisabled = LightningBallPU;
+	buttonimagedown = LightningBallPU;
+	buttonimageselected = LightningBallSBh;
+	buttonimageup = LightningBallSB;
+	explosionclass = blue_shockring;
+	name = Magical Sword;
+	range = 120;
+	reloadtime = 1.3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3400;
+		monarch = 0.25;
+	}
+}
+[WEAPON2]
+{
+                aimtolerance = 33000;
+	areaofeffect = 300;
+	builduptime = 0.5;
+	buttonimagedisabled = EarthquakePU;
+	buttonimagedown = EarthquakePU;
+	buttonimageselected = EarthquakeSBh;
+	buttonimageup = EarthquakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 1;
+	manapershot = 500;
+                minrange = 120;
+	name = ShockWave;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 700;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 2;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 35;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+                aimtolerance = 33000;
+	areaofeffect = 300;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2.5;
+	edgeeffectiveness = 0.75;
+	explosionclass = iceballexp;
+	manapershot = 500;
+                minrange = 120;
+	name = Rain of Ice;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 700;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = iceballspin;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 750;
+                                monarch = 0.25;
+	}
+}

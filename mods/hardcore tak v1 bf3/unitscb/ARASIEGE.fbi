@@ -1,0 +1,135 @@
+[UNITINFO]
+{
+	acceleration = .50;
+	bankscale = 2.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = .25;
+	//original buildcost = 10225; 9203
+	buildcost = 5000;
+	//original buildtime = 1217; Now (70%)
+	//orig buildtime = 852; 426
+	buildtime = 626;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//orig no cantbecaptured
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARASIEGE_dead;
+	//original damagecategory = fort;
+	damagecategory = fort2;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 47;
+	healtime = 1.447916667;
+	maneuverleashlength = 500;
+	maxdamage = 16000;
+	maxvelocity = 0.55;
+	movementclass = GROUND4;
+	name = Rolling Tower;
+	objectname = ARASIEGE;
+	pitchscale = 2.5;
+	radardistance = 850;
+	roadmultiplier = 2.0;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	// original sightdistance = 425; 550; 
+	sightdistance = 600;
+	soundcategory = ARASIEGE;
+	soundclass = ARASIEGE;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	transportcapacity = 4;
+	transportdistance = 200;
+	transportsize = 9;
+	transportsizecapacity = 16;
+	turnrate = 140;
+	unitname = ARASIEGE;
+	unitnumber = 35;
+	version = 1;
+	watermultiplier = 0.25;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1600;
+	areaofeffect = 30;
+	explosionclass = medium dust puff;
+	model = arabolt;
+	name = Mounted Ballista;
+	range = 525;
+	//original reloadtime = 4.0;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 1105;
+		archer = 1.1;
+		dragon = 1.1;    //damage = 1216 (405/s)
+		fort = 0;
+		fort2 = 0;
+		factory = 0;
+		naval = 0.5;
+		//these are new
+		airship = 1.2;
+		fly = 1.57;	 //damage = 1735 (578/s)
+		flygod = 0.25;
+		god = 0.25;
+		melee = 0.6;
+		monarch = 0.7;
+		stalwart = 0.2;
+		siege = 0.5;
+		siege2 = 0.3;
+		tier1 = 3.2;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Anti-Air Arrows;
+	range = 510;
+	//original reloadtime = 1.4;
+	reloadtime = 1.3;
+	soundhitclass = arrow;
+	type = line of sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 550;
+		airship = 1;   //dmg = 550; (423/s)
+		archer = 0;
+		fort = 0;
+		fort2 = 0;
+		factory = 0;
+		fly = 1.2;     //dmg = 660; (508/s)
+		flygod = 0.3;
+		god = 0;
+		melee = 0;
+		monarch = 0;
+		siege = 0;
+		siege2 = 0;
+		stalwart = 0;
+		tier1 = 0;
+	}
+}

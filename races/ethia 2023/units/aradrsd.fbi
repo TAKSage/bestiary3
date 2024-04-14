@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 29859;
+	buildtime = 7055;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Dragon;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 300;
+	floater = 0;
+	//footprintx = 5;
+	//footprintz = 5;
+	healtime = 53.86944;
+	immunetoparalyzer = 1;
+	manarechargerate = 30;
+	maneuverleashlength = 600;
+	maxdamage = 22911;
+	maxmana = 2000;
+	maxvelocity = 4;
+	maxslope = 45;
+	maxwaterdepth = 30;
+	mogriumincome = 5;
+	mogriumstorage = 2500;
+	movementclass = GROUND5;
+	name = Sand Dragon;
+	objectname = ARADRSD;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ZONDRAG;
+	soundclass = ZONDRAG;
+	standingunitorder = 2;
+	stone = aradrs_stone;
+	tedclass = Ethia;
+	totalallowed = 1;
+	turninplacerate = 2400;
+	turnrate = 1200;
+	unitname = ARADRSD;
+	unitnumber = 10925;
+	upright = 1;
+	version = 1;
+	waterline = 2;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.5;
+	name = Bite;
+	range = 200;
+	reloadtime = 1.75;
+	soundhitclass = fist;
+	type = Melee;
+	
+	[DAMAGE]
+	{
+		default = 840;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 200;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	firestarter = 1;
+	lightmap = large;
+	manapershot = 600;
+	model = mfirebal.3do;
+	name = Fire Ball;
+	range = 750;
+	reloadtime = 2.75;
+	smoketrail = 1;
+	smokedelay = .01;
+	soundhitclass = cannon;
+	turnrate = 180;
+	type = Guided;
+	unitsonly = 1;
+	weaponart = FireballB;
+	weaponvelocity = 300;
+	
+	[DAMAGE]
+	{
+		default = 1350;
+		
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 8000;
+	areaofeffect = 400;
+	builduptime = 0.5;
+	buttonimagedisabled = nukePU;
+	buttonimagedown = nukePU;
+	buttonimageselected = nukeSBh;
+	buttonimageup = nukeSB;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 2100;
+	name = Sand Wave;
+	nimbus = 1;
+	radiusart0 = LtngBall_2a;
+	radiusart1 = ring_fx_purpleB;
+	radiusart2 = fireballB;
+	range = 300;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 25;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 2825;
+		
+	}
+}

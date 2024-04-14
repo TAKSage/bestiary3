@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	acceleration = 0.2;
+//
+	attackrunlength = 100;
+	bankscale = 2;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	//brakerate = 0.03; 0.15
+	brakerate = 10;
+	buildcost = 266;
+	//orig buildtime = 260;
+	buildtime = 130;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ARA FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original cruisealt = 200;
+	cruisealt = 500;
+	//original no damagecategory;
+	damagecategory = scout;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 30;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.5416;
+	//original maneuverleashlength = 250; 500
+	maneuverleashlength = 100;
+	//original maxdamage = 20;
+	maxdamage = 200;
+	//original maxvelocity = 5; 6.5;
+	maxvelocity = 9;
+	maxwaterdepth = 0;
+	name = Spyhawk;
+	objectname = arafast;
+	radardistance = 500;
+	shootme = 1;
+	side = ARA;
+	//original sightdistance = 225; 300;
+	sightdistance = 350;
+	soundcategory = arafast;
+	soundclass = arafast;
+	standingunitorder = 0;
+	stone = arafast_stone;
+	tedclass = Aramon;
+	//original no totalallowed
+	totalallowed = 10;
+	//original turninplacerate = 2500;
+	turninplacerate = 5000;
+	turnrate = 1200;
+	unitname = arafast;
+	unitnumber = 72;
+	unitstandorders = 0;
+	upright = 1;
+	version = 1;
+}

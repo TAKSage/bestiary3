@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 10 10 50;
+	bloodcolor2 = 15 15 55;
+	bloodcolor3 = 20 20 60;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 8000;
+	buildtime = 350;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarskelefSKEL_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 2;
+	movementclass = GROUND2;
+	name = Giant Skeleton;
+	objectname = tarskelefSKEL;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 165;
+	soundcategory = tarskelefSKEL;
+	soundclass = tarskelefSKEL;
+	standingunitorder = 2;
+	stone = tarskelefSKEL_stone;
+	tedclass = Taros;
+	turninplacerate = 1800;
+	turnrate = 1700;
+	unitname = tarskelefSKEL;
+	unitnumber = 6809;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 29;
+	edgeeffectiveness = 1;
+	name = Dead Flail;
+	range = 67;
+	reloadtime = 4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 2000;
+	}
+}

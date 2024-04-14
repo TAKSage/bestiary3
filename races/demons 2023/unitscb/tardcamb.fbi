@@ -1,0 +1,64 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1500;
+	buildtime = 650;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardcamb_dead;
+	defaultmissiontype = Standby;
+	description = TAR;
+	experiencepoints = 6;
+	frozen = tardcamb_frozen;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 4000;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Cambion;
+	noveteran = 1;
+	objectname = TARDCAMB;
+	roadmultiplier = 1.21;
+	shadowart = shadow02;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = NPCTRIBE;
+	soundclass = NPCTRIBE;
+	standingunitorder = 2;
+	stone = tardcamb_stone;
+	tedclass = TAR;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDCAMB;
+	unitnumber = 69;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	name = Axe;
+	range = 300;
+	reloadtime = 1.05;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 505;
+	}
+}

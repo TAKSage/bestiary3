@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 2134;
+	buildtime = 214;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratower_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 35;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5979166;
+	maxdamage = 16200;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Mordor Tower;
+	objectname = tarmordortow;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 350;
+	soundcategory = VERAT;
+	soundclass = VERAT;
+	tedclass = Taros;
+	unitname = tarmordortow;
+	unitnumber = 35;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = Araarrow2;
+	name = Bow and Arrows;
+	range = 580;
+	reloadtime = 4.3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 125;
+		wood = 1.75;
+	}
+}
+
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow2;
+	name = Arrow;
+	range = 580;
+	reloadtime = 5.2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 150;
+	}
+}

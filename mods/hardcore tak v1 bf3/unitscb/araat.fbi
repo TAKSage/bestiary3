@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	//original buildcost = 2751; T-mod cost = 688; now (90%) 
+	buildcost = 2476;
+	//original buildtime = 300; 180; 90;  (now 40% of the original)
+	buildtime = 120;
+	canattack = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araat_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	//original experiencepoints = 21;
+	experiencepoints = 63;
+	footprintx = 3;
+	footprintz = 3;
+	healtime = 0.625;
+	maxdamage = 5200;
+	//original maxslope = 15;
+	maxslope = 25;
+	maxwaterdepth = 0;
+	name = (M)Watch Tower;
+	//original no notargetcategory
+	notargetcategory = scout;
+	objectname = ARAAT;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+//	original = 250 (now 120%); 300
+	sightdistance = 380;
+	soundcategory = ARAAT;
+	soundclass = ARAAT;
+	tedclass = Aramon;
+	unitname = ARAAT;
+	unitnumber = 35;
+	//based on Cavedog's Crusades Balance;
+	version = 1.0;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+//      	original = 500; now (105%)
+	range = 525;
+//		original = 2.5; now (75%)
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		// original = 225; now (133%)
+		default = 300;
+		airship = 1.55;  //dmg = 372 (186/s)
+		archer = 1.5;
+		archer2 = 1.5;
+		dragon = 1.5;    //dmg = 450
+		fort = 0.25;
+		factory = 0.25;
+		fly = 1.8;       //dmg = 540 (270/s)
+		flygod = 1.8;
+		stalwart = 0.25;
+		tier1 = 2.92;	//dmg = 875 (438/s)
+		undead = 0.85;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 500;
+//	original = 2.4; 1.8
+	reloadtime = 1;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 900;
+
+	[DAMAGE]
+	{
+		// original = 225; now (133%)
+		default = 300;
+		airship = 1.2;  //damage = 360
+		archer = 2;
+		archer2 = 2;
+		dragon = 1.6;   //damage = 480
+		fort = 0.25;
+		factory = 0.25;
+		fly = 2.0;	//damage = 600 (600/s)
+		flygod = 2.0;
+		monarch = 1.2;
+		stalwart = 0.25;
+		tier1 = 2.92;   //dmg = 
+		undead = 0.85;
+	}
+}

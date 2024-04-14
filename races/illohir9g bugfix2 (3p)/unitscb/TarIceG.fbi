@@ -1,0 +1,140 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 0;
+	bloodcolor2 = 235 215 0;
+	bloodcolor3 = 215 235 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 5497;
+	buildtime = 745;
+	canattack = 1;
+                canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+               cantbefrozen = 1;
+	category = TAR MELEE ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+                //corpse = TarIceG_dead;
+	damagecategory = Stalwart;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 31;
+                floater = 0;
+	healtime = 1.225333;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+                manarechargerate = 6;
+	maxdamage = 15912;
+                maxmana = 1000;
+	maxvelocity = 1.45;
+	movementclass = GROUND3;
+	name = Ice Giant;
+	objectname = TarIceG;
+	radardistance = 450;
+                roadmultiplier = 1.25;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 165;
+	soundcategory = TARICEG;
+	soundclass = TARICEG;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stone = TarIceG_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARICEG;
+	unitnumber = 11193099;
+	upright = 1;
+	version = 1;
+                waterline = 5;
+                watermultiplier = 0.81;
+                 weaponswitching = 1;
+                 ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = MacePU;
+	buttonimagedown = MacePU;
+	buttonimageselected = MaceSB;
+	buttonimageup = MaceSBH;
+                explosionclass = iceballexp;
+	name = Icy Mace;
+                nimbus = 1;
+	range = 95;
+	reloadtime = 3;
+	soundhit = IGWACK;
+	type = Melee;
+
+	[DAMAGE]
+	{
+                default = 1500;
+                dragon = 0.4;
+                monarch = 0.3;
+                fort = 0.4;
+                factory = 0.4;
+                god = 0.4;
+                airship = 0.5;
+                stalwart = 0.5;
+                Tier1 = 2.0;
+                mechanical = 0.5;
+                monster = 1.5;
+                human = 0.5;
+                undead = 0.4;
+                naval = 0;
+                siege = 2.0;
+               
+	}
+}
+
+[WEAPON2]
+{
+                aimtolerance = 33000;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	buttonimagedisabled = FreezeStormPU;
+	buttonimagedown = FreezeStormPU;
+	buttonimageselected = FreezeStormSBh;
+	buttonimageup = FreezeStormSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name =  Blizzard;
+                noairweapon = 1;
+	radiusart0 = ring_fx_iceA;
+	radiusart1 = ring_fx_iceB;
+	radiusart2 = ring_fx_iceC;
+	range = 450;
+	reloadtime = 4.0;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 50;
+                type = Remote Effect;
+	subtype = turntofrozen;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1;
+                            fort = 0;
+                            factory = 0;
+                            lodestone = 0;
+                            monarch = 0;
+                            god = 0;
+                            dragon = 0;
+                            airship = 0;
+		
+	}
+
+}

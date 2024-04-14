@@ -1,0 +1,157 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 30000;
+	builddistance = 100;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 6000;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = HUman;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 151;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 4.6167;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 20000;
+	maxmana = 2500;
+	maxvelocity = 2.5;
+	name = Major Devil;
+	noveteran = 1;
+	objectname = TARDMAD;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 275;
+	soundcategory = ARADRAG;
+	soundclass = ARADRAG;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 1000;
+	turnrate = 400;
+	unitname = TARDMAD;
+	unitnumber = 666;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 0 200 0;
+	lightmap = medium;
+	middlecolor = 0 150 0;
+	name = Lightning;
+	nimbus = 1;
+	outercolor = 0 100 0;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 999;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 45;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 300;
+	name = Fire Ball;
+	range = 700;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = guided;
+	weaponart = fireballB;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		dragon = 2;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 500;
+	builduptime = 0.5;
+	buttonimagedisabled = EarthquakePU;
+	buttonimagedown = EarthquakePU;
+	buttonimageselected = EarthquakeSBh;
+	buttonimageup = EarthquakeSB;
+	decaytime = 3;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Earthquake;
+	nimbus = 1;
+	radiusart0 = ring_fx_redA;
+	radiusart1 = ring_fx_redB;
+	radiusart2 = ring_fx_redC;
+	range = 450;
+	reloadtime = 5;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	shakeduration = 2;
+	shakemagnitude = 3;
+	showeffect = 0;
+	soundhit = Explode6;
+	spritecount = 35;
+	subtype = Earthquake;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1500;
+	}
+}

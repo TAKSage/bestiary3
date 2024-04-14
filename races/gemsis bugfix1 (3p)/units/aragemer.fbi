@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1103;
+	buildtime = 120;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ara MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aragemer_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = aramon;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	floater = 0;
+	frozen = aragemer_frozen;
+	healtime = 0.5;
+	maneuverleashlength = 1500;
+	maxdamage = 3284;
+	maxvelocity = 1.08;
+	movementclass = HOVER2;
+	name = Aqaumarir;
+	objectname = arageMER;
+	roadmultiplier = 1.21;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 110;
+	soundcategory = arageMER;
+	soundclass = arageMER;
+	standingunitorder = 2;
+	stone = arageMER_stone;
+	tedclass = aramon;
+	turninplacerate = 1300;
+	turnrate = 900;
+	unitname = arageMER;
+	unitnumber = 4517;
+	upright = 1;
+	version = 1;
+	waterline = 26;
+	watermultiplier = 1.90;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Trident;
+	range = 55;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}

@@ -1,0 +1,114 @@
+[UNITINFO]
+{
+	acceleration = 0.36;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.72;
+	//original buildcost = 2667; 3467
+	buildcost = 3014;
+	//original buildtime = 351; 150;
+	buildtime = 270; 
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//original no cantransport
+	cantransport = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verbal_dead;
+	//original damagecategory = siege
+	damagecategory = siege2;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	//original experiencepoints = 27;
+	experiencepoints = 32;
+	frozen = verbal_frozen;
+	healtime = 1.412;
+	maneuverleashlength = 500;
+	//original maxdamage = 3689; 
+	maxdamage = 2780;
+	//original maxvelocity = 0.70
+	maxvelocity = 0.78;
+	movementclass = GROUND5;
+	name = Ballista;
+	objectname = VERBAL;
+	pitchscale = 1.5;
+	//original roadmultplier = 1.0;
+	roadmultiplier = 1.2;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 195;
+	soundcategory = VERBAL;
+	soundclass = VERBAL;
+	standingunitorder = 1;
+	stone = verbal_stone;
+	tedclass = Veruna;
+	//original no transport tags
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 4;
+	transportsizecapacity = 16;
+	//original no totalallowed
+	totalallowed = 40;
+	turninplacerate = 390;
+	turnrate = 390;
+	unitname = VERBAL;
+	unitnumber = 147;	
+	//original version Cavedog TAK CB 3.0
+	version = M.1.0;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 20;
+	damagetype = explosion;
+	explosionclass = medium dust puff;
+	model = verbal1;
+	name = Bolt;
+	//original no noairweapon
+	noairweapon = 1;
+	//original range = 650; 700;
+	range = 660;
+	//original reloadtime = 3.4; 4
+	reloadtime = 3.7;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = Ballistic;
+	veteranlevel = 10;
+	veteranmodel = verbal1_vet;
+	waterexplosionclass = small water explosion;
+	//original weaponvelocity = 350
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		//original default = 900;
+		default = 1500;  //dmg/sec = 405
+		//original fort/factory = 1.25
+		fort2 = 0.6;
+		fort = 1.2;
+		factory = 1.2;
+		god = 0.2;
+		magic = 0;
+		monarch = 0.15;
+		lodestone = 0.3;
+		naval = 0.5;
+		stalwart = 0.7;
+		siege = 0.5;
+		siege2 = 0.65;
+		support = 1.17;
+		tier1 = 2;
+		undead = 1.5;
+	}
+}

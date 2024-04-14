@@ -1,0 +1,104 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2511;
+	buildtime = 988;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	category = VER MELEE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verdagw_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 35;
+	healtime = 0.816666667;
+	manarechargerate = 10;
+                maneuverleashlength = 500;
+	maxdamage = 7000;
+	maxmana = 1000;
+                maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Dagon Warrior;
+	objectname = VERDAGW;
+                radardistance = 300;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 155;
+	soundcategory = VERDAGW;
+	soundclass = VERDAGW;
+                stone = verdagw_stone;
+	standingunitorder = 2;
+	tedclass = Veruna;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = VERDAGW;
+	unitnumber = 120075;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+                weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	buttonimagedisabled = swordup;
+	buttonimagedown = sworddown;
+	buttonimageselected = swordsel;
+	buttonimageup = swordup;
+	edgeeffectiveness = 0.5;
+	name = Dagon Spear;
+	noairweapon = 1;
+	range = 90;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 950;
+                monarch = 0.25;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 1024;
+                areaofeffect = 50;
+                buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+               edgeeffectiveness = 0.5;
+	explosionclass = Water Splash;
+               // minrange = 80;
+     	model = waterball.3do;
+                 manapershot = 200;
+	name = Water Blast;
+	range = 475;
+	reloadtime = 1.2;
+	soundhitclass = lightning;
+	type = Ballistic;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 2190;
+                monarch = 0.2;
+	}
+}
+

@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 0 0;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 745;
+//mogriumbounty = 74.5;
+	buildtime = 140;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 18;
+	frozen = tarlich_frozen;
+	floater = 1;
+	healtime = .571966;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 3600;
+	maxmana = 1000;
+	maxvelocity = 1.3;
+	movementclass = HOVER2;
+	name = Lich;
+	objectname = TARLICH;
+	roadmultiplier = 1;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 160;
+	soundcategory = TARLICH;
+	soundclass = TARLICH;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 1500;
+	turnrate = 650;
+	unitname = TARLICH;
+	unitnumber = 90;
+	upright = 1;
+	version = 1;
+	waterline = 32;
+	watermultiplier = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 350;
+	buttonimagedisabled = ELEblast_down;
+	buttonimagedown = ELEblast_down;
+	buttonimageselected = ELEblast_use;
+	buttonimageup = ELEblast_up;
+	builduptime = 0.5;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 250;
+	name = Death thunder blast (250);
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = ring_fx_greenB;
+	radiusart2 = ring_fx_greenC;
+	range = 60;
+	reloadtime = 2.7;
+	ringcount = 3;
+	ringdelay = 0.2;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = Lightng3;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 800;
+		undead = 0.2;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+	}
+}

@@ -1,0 +1,158 @@
+[UNITINFO]
+{
+	acceleration = 0.01;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.01;
+	buildcost = 3423;
+	buildtime = 325;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Zon ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelfcan2_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 45;
+	healtime = 3;
+	maneuverleashlength = 100;
+	maxdamage = 8000;
+	maxvelocity = 1.5;
+	movementclass = GROUND4;
+	name = Heavy Bombard;
+	notargetcategory = FLY;
+	objectname = Zondelfcan2;
+	pitchscale = 1.5;
+	roadmultiplier = 2;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Zon;
+	sightdistance = 200;
+	soundcategory = AraVERMMORT;
+	soundclass = AraVERMMORT;
+	standingunitorder = 2;
+	stone = aradelfcan2_stone;
+	totalallowed = 1;
+	tedclass = Siege;
+	turninplacerate = 100;
+	turnrate = 50;
+	unitname = Zondelfcan2;
+	unitnumber = 1212129;
+	version = 1;
+	watermultiplier = 0.5;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 200;
+	buttonimagedisabled = MortarDown;
+	buttonimagedown = MortarDown;
+	buttonimageselected = MortarSelected;
+	buttonimageup = MortarUp;
+	damagetype = explosion;
+	edgeeffectivness = 0.5;
+	explosionclass = large explosion;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	minrange = 200;
+	name = Mortar Shell;
+	noairweapon = 1;
+	range = 800;
+	reloadtime = 5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannblg;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 2000;
+		monarch = .25;
+		fort = 4;
+		factory = 4;
+		lodestone = 4;
+		naval = 4;
+		siege = .25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 400;
+	buttonimagedisabled = FireMortarDown;
+	buttonimagedown = FireMortarDown;
+	buttonimageselected = FireMortarSelected;
+	buttonimageup = FireMortarUp;
+	damagetype = fire;
+	edgeeffectiveness = 0.55;
+	explosionclass = megaflame;
+	firestarter = 1;
+	gravityadjustment = 4.25;
+	lobpreferred = 1;
+	minrange = 200;
+	model = skullrock;
+	name = Flaming Shell;
+        nimbus = 1;
+	noairweapon = 1;
+	range = 600;
+	reloadtime = 6;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+        smoketrail = 1;
+        smokedelay = .01;
+	soundhitclass = crelgcan;
+	spinheading = 150;
+	spinpitch = -3000;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 600;
+	weaponart = fireballa;
+
+	[DAMAGE]
+	{
+		default = 2500;
+                fort = 4;
+		factory = 4;
+		lodestone = 4;
+		monarch = .25;
+		naval = 4;
+		siege = .25;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large dust puff;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		monarch = .25;
+		fort = 3;
+		factory = 3;
+		lodestone = 3;
+		naval = 3;
+		//siege = .25;
+	}
+}

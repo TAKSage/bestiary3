@@ -1,0 +1,175 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 325;
+//	mogriumbounty = 65;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araarch_dead;
+	damagecategory = unshielded;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 7;
+	fireatwillrandom = 1;
+	frozen = araarch_frozen;
+	healtime = .520833333;
+	maneuverleashlength = 500;
+	maxdamage = 1100;
+	maxvelocity = 1.25;
+	mogriumincome = 0;
+	mogriumstorage = 0;
+	movementclass = GROUND2;
+	name = Archer;
+	objectname = ARAARCH;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 230;
+	soundcategory = ARAARCH;
+	soundclass = ARAARCH;
+	standingunitorder = 1;
+	stone = araarch_stone;
+	tedclass = Aramon;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ARAARCH;
+	unitnumber = 1;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = arrow_down;
+	buttonimagedown = arrow_down;
+	buttonimageselected = arrow_use;
+	buttonimageup = arrow_up;
+	model = Araarrow;
+	name = Bow and Arrows;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 400;
+		stone = 0.25;
+		factory = 0.25;
+		wood = 0.25;
+		mechanical = 0.5;
+		antikingmechanical = 0.5;
+		naval = 0.5;
+		shielded = 0.5;
+		steelnaval = 0.25;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		giant = 0.25;
+		giantflamedemon = 0.25;
+		giantundead = 0.25;
+		lodestone = 0.5;
+		steel = 0.25;
+		dragon = 0.75;
+		hardscale = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = lobbedA_down;
+	buttonimagedown = lobbedA_down;
+	buttonimageselected = lobbedA_use;
+	buttonimageup = lobbedA_up;
+	gravityadjustment = 4;
+	lobpreferred = 1;
+//	minrange = 50;
+	model = Araarrow;
+	name = Lobbed Arrows;
+	noairweapon = 1;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 400;
+		stone = 0.25;
+		factory = 0.25;
+		wood = 0.25;
+		mechanical = 0.5;
+		antikingmechanical = 0.5;
+		naval = 0.5;
+		shielded = 0.5;
+		steelnaval = 0.25;
+		skeleton = 0.75;
+		giant = 0.25;
+		giantflamedemon = 0.25;
+		giantundead = 0.25;
+		lodestone = 0.5;
+		steel = 0.25;
+		dragon = 0.75;
+		hardscale = 0.75;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = AI_down;
+	buttonimagedown = AI_down;
+	buttonimageselected = AI_use;
+	buttonimageup = AI_up;
+	model = Araarrow;
+	name = FOR THE AI;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 400;
+		stone = 0.25;
+		factory = 0.25;
+		wood = 0.25;
+		mechanical = 0.5;
+		antikingmechanical = 0.5;
+		naval = 0.5;
+		shielded = 0.5;
+		steelnaval = 0.25;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		giant = 0.25;
+		giantflamedemon = 0.25;
+		giantundead = 0.25;
+		lodestone = 0.5;
+		steel = 0.25;
+		dragon = 0.75;
+		hardscale = 0.75;
+	}
+}

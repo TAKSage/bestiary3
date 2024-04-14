@@ -1,0 +1,149 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 900000;
+	buildtime = 450000;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                cantbefrozen = 1;
+              // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY MAGIC ATTACK GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	cruisealt = 100;
+	damagecategory = God;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+                footprintx = 10;
+                footprintz = 10;
+	experiencepoints = 2000;
+	healtime = 9000.25;
+	hoverattack = 1;
+	hoverattackdistance = 250;
+               immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 26500;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Tammuz;
+               noveteran = 1;
+	objectname = ZONDIETY;
+	radardistance = 15000;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = ZON;
+	sightdistance = 3500;
+	soundcategory = ZONDIETY;
+	soundclass = ZONDIETY;
+	standingunitorder = 2;
+	tedclass = Zhon;
+                totalallowed = 1;
+	turninplacerate = 1000;
+	turnrate = 750;
+	unitname = ZONDIETY;
+	unitnumber = 297108;
+	upright = 1;
+	version = 1;
+        
+}
+
+[WEAPON1]
+{
+	aimtolerance = 8000;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	name = Soul Stealer;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = cannon;
+	turnrate = 600;
+	type = guided;
+	weaponvelocity = 600;
+
+	[DAMAGE]
+	{
+		default = 14500;
+		god = 0.1;
+                monarch = 0.1;
+                fort = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 500;
+	builduptime = 0.5;
+	decaytime = 2.5;
+	edgeeffectiveness = 1;
+	name = Gail force;
+	nimbus = 1;
+	radiusart0 = ring_fx_greenA;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 3000;
+	reloadtime = 2;
+	ringcount = 3;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 60;
+	type = Remote Effect;
+	//unitsonly = 0;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 19420;
+                god = 0.1;
+                monarch = 0.1;
+                dragon = 0.25;
+                fort = 0.25;
+      }
+}
+[WEAPON3]
+{
+        aimtolerance = 1024;
+	areaofeffect = 1000;
+        duration = 2.5;
+        edgeeffectiveness = 1;
+	explosionclass = flamestrike;
+	firestarter = 1;
+	lightmap = small;
+	name = Meteor Storm;
+        nimbus = 1;
+        particlespersecond = 5;
+	range = 3000;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+        subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 1000;
+            
+	[DAMAGE]
+	{
+		default = 18000;
+		dragon = 0.25;
+                monarch = 0.1;
+                god = 0.1;
+                fort = 0.25;
+	}
+}

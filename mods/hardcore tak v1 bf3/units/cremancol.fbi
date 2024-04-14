@@ -1,0 +1,46 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 10000;
+	//Divine buildcost = 4693; This (313%)
+	buildcost = 686;
+	//Divine buildtime = 2240; 4240
+	buildtime = 3489;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE;
+	//copyright = 2001 Hardcore Gamers and HTAK team.
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = fort;
+	description = Creon;
+	experiencepoints = 30;
+	//divine footprint = 3;
+	footprintx = 12;
+	footprintz = 12;
+	healtime = 2.175;
+	//divine maxdamage = 16681;
+	maxdamage = 15681;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	//Divine mogriumincome = 42; 72
+	mogriumincome = 52;
+	//Divine mogriumstorage = 2000;
+	mogriumstorage = 3200;
+	name = Mana Colector;
+	objectname = CREMANCOL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 225;
+	soundcategory = CREMANA;
+	soundclass = CREMANA;
+	tedclass = Creon;
+	totalallowed = 4;
+	unitname = CREMANCOL;
+	unitnumber = 8008;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = ooooooooooo ooooooooooo ooooooooooo ooooooooooo ooooooooooo ooooooooooo ooooooooooo ooooooooooo ooooooooooo ooooooooooo;
+}

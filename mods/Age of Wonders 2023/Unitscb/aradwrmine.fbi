@@ -1,0 +1,35 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 600;
+	buildtime = 120;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	category = ARA;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = building;
+	description = Building;
+	experiencepoints = 20;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.4;
+	maxdamage = 9000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 22;
+	mogriumstorage = 600;
+	name = Dwarven Gold Mine;
+	objectname = ARAAOWMINE;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 200;
+	soundcategory = AOWMINE;
+	soundclass = AOWMINE;
+	tedclass = Building;
+	unitname = ARADWRMINE;
+	unitnumber = 4242;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

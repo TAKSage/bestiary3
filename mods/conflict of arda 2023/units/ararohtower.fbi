@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 2245;
+	buildtime = 278;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratower_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 35;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.5979166;
+	maxdamage = 15800;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Rohan Tower;
+	objectname = ararohtower;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = VERAT;
+	soundclass = VERAT;
+	tedclass = Aramon;
+	unitname = ararohtower;
+	unitnumber = 35;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 710;
+	reloadtime = 3.9;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 195;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	model = Araarrow;
+	name = Arrow;
+	range = 710;
+	reloadtime = 4.3;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 205;
+	}
+}

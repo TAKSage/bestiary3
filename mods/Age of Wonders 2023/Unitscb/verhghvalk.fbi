@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 8;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 8;
+	buildcost = 4200;
+	buildtime = 376;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 175;
+	damagecategory = highman;
+	defaultmissiontype = VTOL_standby;
+	description = Highman;
+	experiencepoints = 35;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 1.05;
+	maneuverleashlength = 500;
+	maxdamage = 12000;
+	maxvelocity = 3.8;
+	maxwaterdepth = 0;
+	mogriumincome = -7;
+	moverate1 = 5;
+	moverate2 = 10;
+	name = Valkyrie;
+	objectname = VERHGHVALK;
+	shootme = 1;
+	side = VER;
+	sightdistance = 500;
+	soundcategory = VERKNIGH;
+	soundclass = VERKNIGH;
+	standingunitorder = 2;
+	tedclass = Highman;
+	turnrate = 1900;
+	unitname = VERHGHVALK;
+	unitnumber = 42568;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = volcblast;
+	model = highmanspear;
+	name = Holy Spear;
+	range = 480;
+	reloadtime = 7.35;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = aramonbuild;
+	weaponvelocity = 513;
+
+	[DAMAGE]
+	{
+		default = 1950;
+		spirit = 1.25;
+		firespirit = 1.25;
+		highman = 0.75;
+		syron = 0.75;
+		undead = 1.5;
+		darkelf = 1.2;
+		orc = 1.2;
+		goblin = 1.2;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}

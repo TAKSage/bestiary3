@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+	acceleration = 8;
+	animatetype = TARUNDSWORD;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 8;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	cananimate = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	category = TAR MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Undead;
+	experiencepoints = 525;
+	healtime = 125;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 27500;
+	maxmana = 1000;
+	maxvelocity = 1.5;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = GROUND2;
+	name = Necromancer;
+	noveteran = 1;
+	objectname = TARUNDLEAD;
+	radardistance = 650;
+	roadmultiplier = 1.3;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 600;
+	soundcategory = TARNECRO;
+	soundclass = TARNECRO;
+	standingunitorder = 1;
+	tedclass = Undead;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = TARUNDLEAD;
+	unitnumber = 42521;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.85;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Sword;
+	range = 250;
+	reloadtime = 2.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1755;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathray_down;
+	buttonimagedown = deathray_down;
+	buttonimageselected = deathray_selected;
+	buttonimageup = deathray_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = medium smoke explosion;
+	hweffect = deathray;
+	manapershot = 325;
+	name = Death Ray;
+	range = 365;
+	reloadtime = 7.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1100;
+
+	[DAMAGE]
+	{
+		default = 2550;
+		syron = 0.1;
+		spirit = 0.75;
+		firespirit = 0.75;
+		highman = 0.75;
+		undead = 0.1;
+		mechanical = 0.5;
+		city = 0.25;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = diseasecloud_down;
+	buttonimagedown = diseasecloud_down;
+	buttonimageselected = diseasecloud_selected;
+	buttonimageup = diseasecloud_up;
+	aimtolerance = 33000;
+	areaofeffect = 400;
+	builduptime = 3;
+	decaytime = 4;
+	edgeeffectiveness = 0.7;
+	manapershot = 950;
+	name = Disease Cloud;
+	radiusart0 = dustpuffa;
+	radiusart1 = dustpuffb;
+	radiusart2 = dustpuffc;
+	range = 380;
+	reloadtime = 1.5;
+	ringcount = 4;
+	ringdelay = 0.1;
+	ringduration = 5;
+	showeffect = 0;
+	soundhit = diseasecloud;
+	spritecount = 125;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 6750;
+		syron = 0.1;
+		spirit = 0.25;
+		firespirit = 0.25;
+		highman = 0.75;
+		undead = 0.1;
+		mechanical = 0.5;
+		city = 0.25;
+		fort = 0.25;
+		factory = 0.25;
+	}
+}
+
+

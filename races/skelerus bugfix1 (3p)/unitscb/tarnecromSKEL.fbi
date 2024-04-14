@@ -1,0 +1,152 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARCSKWASKEL;
+	bloodcolor1 = 15 15 15;
+	bloodcolor2 = 25 25 25;
+	bloodcolor3 = 40 40 40;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 9500;
+	buildtime = 1200;
+	builddistance = 200;
+	builder = 1;
+        builderlimited = 1;
+	cananimate = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+        canreclaim = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarnecromSKEL_dead;
+	damagecategory = Undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 55;
+	healtime =  3.3425;
+	manarechargerate = 12;
+	maneuverleashlength = 300;
+	maxdamage = 5000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 25;
+	mogriumstorage = 200;
+	movementclass = GROUND2;
+	name = Skeleton Necromancer;
+	objectname = TARNECROMSKEL;
+	radardistance = 575;
+        shadowart = shadow03;
+        shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = TARNECROMSKEL;
+	soundclass = TARNECROMSKEL;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turnrate = 2500;
+	totalallowed = 3;
+	unitname = TARNECROMSKEL;
+	unitnumber = 412525;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	//workertime = 15;
+	workertime = 10;
+}
+
+[WEAPON1]
+{	
+	buttonimagedisabled = deathstrike_down;
+	buttonimagedown = deathstrike_down;
+	buttonimageselected = deathstrike_selected;
+	buttonimageup = deathstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	name = Death Strike;
+        nimbus = 1;
+	range = 65;
+	reloadtime = 2.6;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+                fort = 0.2;
+                factory = 0.2;
+                mechanical = 0.3;
+		
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathbolt_down;
+	buttonimagedown = deathbolt_down;
+	buttonimageselected = deathbolt_selected;
+	buttonimageup = deathbolt_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = medium smoke explosion;
+	hweffect = black lightning;
+	manapershot = 250;
+	name = Gaze of Death;
+        nimbus = 1;
+	range = 450;
+	reloadtime = 2.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 999;
+                Human = 2.5;
+                monster = 2.0;
+                fort = 0.2;
+                factory = 0.2;
+                mechanical = 0.4;
+	
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = dominate_down;
+	buttonimagedown = dominate_down;
+	buttonimageselected = dominate_selected;
+	buttonimageup = dominate_up;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 975;
+	name = Dominate;
+        nimbus = 1;
+	//noairweapon = 1;
+	range = 300;
+	reloadtime = 2.5;
+	soundhit = dominate;
+	subtype = mindcontrol;
+        veteranlevel = 10;
+	type = line of sight;
+        weaponart = FireballCa;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 1;
+                monarch = 0;
+                fort = 0;
+                factory = 0;
+                lodestone = 0;
+		
+	}
+}

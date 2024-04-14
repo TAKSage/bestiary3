@@ -1,0 +1,98 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = zonLIZZOM;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 6899;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1010;
+	cananimate = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonsham_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 36;
+	healtime = 3.7708333;
+	maneuverleashlength = 500;
+	maxdamage = 2341;
+	maxvelocity = 1.3;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND3;
+	name = Lizarion Warlock;
+	objectname = zonLIZLOK;
+	radardistance = 756;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = zon;
+	sightdistance = 200;
+	soundcategory = TARPREIS;
+	soundclass = TARPREIS;
+	standingunitorder = 1;
+	stone = zonsham_stone;
+	frozen = zonsham_stone;
+	tedclass = Lizarions;
+	turninplacerate = 1100;
+	turnrate = 1100;
+	unitname = zonLIZLOK;
+	unitnumber = 156;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	workertime = 10;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+
+	[AdjustAttack]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.1;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	emittime = 34;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 102 122 122;
+	lightmap = medium;
+	middlecolor = 100 110 122;
+	name = lightning;
+	outercolor = 40 100 122;
+	range = 407;
+	reloadtime = 3.2;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 626;
+	}
+}

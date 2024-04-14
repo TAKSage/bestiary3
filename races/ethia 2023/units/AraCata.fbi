@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 0.51;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.097;
+	buildcost = 2639;
+	buildtime = 457;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratrans_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 41;
+	floater = 1;
+	healtime = 0.79167;
+	maneuverleashlength = 325;
+	maxdamage = 10311;
+	maxvelocity = 1.52;
+	movementclass = WATER5;
+	name = Fire Galley;
+	objectname = ARACATA;
+	pitchscale = 1.5;
+	radardistance = 510;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 245;
+	soundcategory = VERMAN;
+	soundclass = VERMAN;
+	standingunitorder = 1;
+	tedclass = Ethia;
+	transportcapacity = 50;
+	transportdistance = 419;
+	transportsize = 16;
+	transportsizecapacity = 200;
+	turnrate = 400;
+	unitname = ARACATA;
+	unitnumber = 43;
+	version = 1;
+	waterline = 10;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Siphon;
+	range = 560;
+	reloadtime = 2;
+	soundhitclass = fire;
+	type = Line of Sight;
+	subtype = fire;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 1096;
+		naval = 2.5;
+		god = 0.5;
+		monarch = 0.5;
+		stalwart = 0.5;
+	}
+}
+

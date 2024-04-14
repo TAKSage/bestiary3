@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2100;
+	buildtime = 225;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+              //cantbecaptured = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araverkn_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 45;
+                frozen = araverkn_frozen;
+	healtime = 0.770833333;
+	maneuverleashlength = 500;
+	maxdamage = 8300;
+	maxvelocity = 3.9;
+	movementclass = GROUND3;
+	name = Cavalier;
+	objectname = araverkn;
+	roadmultiplier = 1.45;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 155;
+	soundcategory = araverkn;
+	soundclass = araverkn;
+	standingunitorder = 2;
+	stone = araverkn_stone;
+	tedclass = Aramon;
+	turnrate = 1000;
+	unitname = araverkn;
+	unitnumber = 4200;
+	upright = 1;
+	version = 1.1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Sword;
+	noairweapon = 1;
+	range = 100;
+	reloadtime = 2.0;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 990;
+	}
+}

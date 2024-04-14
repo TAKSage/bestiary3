@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 0.38;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.022;
+	buildcost = 2316;
+	buildtime = 220;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratrans_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 41;
+	floater = 1;
+	healtime = 0.79167;
+	maneuverleashlength = 325;
+	maxdamage = 6111;
+	maxvelocity = 3.62;
+	movementclass = WATER3;
+	name = Catamaran;
+	objectname = aradelcat;
+	pitchscale = 1.5;
+	radardistance = 510;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 325;
+	soundcategory = VERHARP;
+	soundclass = VERHARP;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	transportcapacity = 27;
+	transportdistance = 419;
+	transportsize = 16;
+	transportsizecapacity = 200;
+	turnrate = 210;
+	unitname = aradelcat;
+	unitnumber = 43;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	model = Araarrow;
+	name = Anti-Air Arrows;
+	range = 680;
+	reloadtime = 1.55;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}

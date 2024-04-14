@@ -1,0 +1,106 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 780;
+//	mogriumbounty = 78;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verbers_dead;
+	damagecategory = berserker;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 15;
+	frozen = verbers_frozen;
+	healtime = .5625;
+	maneuverleashlength = 500;
+	maxdamage = 2900;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Berserker;
+	objectname = VERBERS;
+	roadmultiplier = 1.75;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 160;
+	soundcategory = VERBERS;
+	soundclass = VERBERS;
+	standingunitorder = 2;
+	stone = verbers_stone;
+	tedclass = Veruna;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = VERBERS;
+	unitnumber = 123;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = axe_down;
+	buttonimagedown = axe_down;
+	buttonimageselected = axe_use;
+	buttonimageup = axe_up;
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Axe/Sword slash;
+	range = 40;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 600;
+		stone = 0.75;
+		factory = 0.75;
+		unshielded = 1.25;
+		antikingunshielded = 1.25;
+		shocky = 1.25;
+		steel = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = baxe_down;
+	buttonimagedown = baxe_down;
+	buttonimageselected = baxe_use;
+	buttonimageup = baxe_up;
+	areaofeffect = 80;
+	edgeeffectiveness = 0.7;
+	name = AOE slash;
+	range = 40;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+	explosionclass = blue_shockring;
+
+	[DAMAGE]
+	{
+		default = 600;
+		stone = 0.75;
+		factory = 0.75;
+		berserker = 0.2;
+		unshielded = 1.25;
+		antikingunshielded = 1.25;
+		shocky = 1.25;
+		steel = 0.75;
+	}
+}

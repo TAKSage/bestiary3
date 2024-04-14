@@ -1,0 +1,162 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 155 75;
+	bloodcolor2 = 0 120 60;
+	bloodcolor3 = 0 100 25;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 10000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 5000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	immunetoparalyzer = 1;
+	cantbestoned = 1;
+	canhover = 1;
+	category = VER MONARCH;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lizard;
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 525;
+	healtime = 60;
+	manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 27500;
+	maxmana = 1000;
+	maxvelocity = 2;
+	mogriumincome = 25;
+	mogriumstorage = 1500;
+	movementclass = HOVER2;
+	name = Overlord;
+	noveteran = 1;
+	objectname = VERLIZLEAD;
+	radardistance = 700;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 700;
+	soundcategory = VERMER;
+	soundclass = VERMER;
+	standingunitorder = 1;
+	tedclass = Lizard;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = VERLIZLEAD;
+	unitnumber = 42581;
+	upright = 1;
+	version = 1;
+	waterline = 25;	
+	watermultiplier = 1.4;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 25;
+	name = Trident;
+	range = 300;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1900;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = iceshards_down;
+	buttonimagedown = iceshards_down;
+	buttonimageselected = iceshards__selected;
+	buttonimageup = iceshards_up;
+	aimtolerance = 1024;
+	explosionclass = lightning explosion;
+	model = iceshard;
+	manapershot = 25;
+	name = Ice Shards;
+	range = 420;
+	reloadtime = 0.18;
+	soundhitclass = ice;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 675;
+
+	[DAMAGE]
+	{
+		default = 310;
+		spirit = 1.5;
+		firespirit = 3;
+		syron = 0.1;
+		lizard = 0.75;
+		frostling = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+	
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 180;
+	builduptime = 0.5;
+	buttonimagedisabled = WaterBurstTPU;
+	buttonimagedown = WaterBurstTPU;
+	buttonimageselected = WaterBurstTSBh;
+	buttonimageup = WaterBurstTSB;
+	decaytime = 1;
+	edgeeffectiveness = 0.8;
+	manapershot = 800;
+	name = Water Spout;
+	nimbus = 1;
+	radiusart0 = TsunamiExplode;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 400;
+	reloadtime = 5;
+	ringcount = 4;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	soundhit = arrow08;
+	spritecount = 25;
+	turnrate = 250;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 4650;
+		lizard = 0.75;
+		syron = 0.25;
+		spirit = 1.5;
+		firespirit = 3;
+	}
+}

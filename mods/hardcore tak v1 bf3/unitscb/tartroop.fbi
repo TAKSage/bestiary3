@@ -1,0 +1,85 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 10 10 50;
+	bloodcolor2 = 15 15 55;
+	bloodcolor3 = 20 20 60;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+//	original buildcost = 326; 426
+	buildcost = 380;
+//	original buildtime = 119; 60
+	buildtime = 63;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TarTroop_dead;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Taros;
+	//original experiencepoints = 8;
+	experiencepoints = 11;
+	healtime = 0.4375;
+	maneuverleashlength = 500;
+	maxdamage = 2611;
+//	original maxvelocity = 1.15; 1.5225
+	maxvelocity = 1.85;
+	movementclass = GROUND2;
+	name = Executioner;
+	objectname = TARTROOP;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 145;
+	soundcategory = TARTROOP;
+	soundclass = TARTROOP;
+	standingunitorder = 2;
+	stone = tartroop_stone;
+	tedclass = Taros;
+	turninplacerate = 2200;
+	turnrate = 2200;
+	unitname = TARTROOP;
+	unitnumber = 112;
+	upright = 1;
+	//based on Cavedog's Crusades balance;
+	version = M.1.0;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	//areaofeffect = 36;
+	areaofeffect = 56;
+	edgeeffectiveness = 1;
+	name = Glaive of Death;
+	//original range = 85;
+	range = 95;
+	//original reloadtime = 1.5;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 420;  //dmg = 300/s
+		archer = 2.6;		//dmg = 1092
+		archer2 = 2.6;
+		fort = 0.5;
+		factory = 0.5;
+		//original tier1 = 1.1; 
+		melee = 0.65;
+		siege = 1.52;
+		siege2 = 2.0;
+		stalwart = 0.6;
+		support = 0.2;
+		tier1 = 3;              //dmg = 900/s
+	}
+}

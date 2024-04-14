@@ -1,0 +1,66 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 7500;
+	buildtime = 725;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = VER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse=Verazcpt_dead;
+	damagecategory = fort;
+	defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.35;
+	maxdamage = 16000;
+	maxslope = 15;
+	maxwaterdepth = 40;
+	name = Pandora Spire;
+	objectname = VERAZCPT;
+	radardistance = 950;
+	shootme = 1;
+	side = VER;
+	sightdistance = 250;
+	soundcategory = VERAZCPT;
+	soundclass = VERAZCPT;
+	tedclass = Veruna;
+	unitname = VERAZCPT;
+	unitnumber = 3533;
+	version = 1;
+	waterline = 3;
+	yardmap = o;
+	totalallowed = 2;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 65;
+	damagetype = explosion;
+	edgeeffectiveness = 0.3;
+	explosionclass = blue_shockring;
+	minrange = 50;
+	lightmap = small;
+	name = Pandora Spire Shot;
+	range = 840;
+	reloadtime = 4.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhit = arrow08;
+	type = Ballistic;
+	wapongaf = projectiles;
+	weaponart = fireballCa;
+	weaponvelocity = 450;
+
+	[DAMAGE]
+	{
+		default = 1000;
+		tier1 = 1.2;
+	}
+}

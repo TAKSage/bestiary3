@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1550;
+	//original buildtime = 170;
+	buildtime = 220;		
+	canattack = 1;
+	//original no canhover
+	canhover = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	//original damagecategory = Human;
+	damagecategory = melee;
+	defaultmissiontype = Standby;
+	description = Creon;
+	//experiencepoints = 23;
+	experiencepoints = 35;
+	//original no floater
+	floater = 1;
+	fireatwillrandom = 1;
+	healtime = 0.7;
+	maneuverleashlength = 500;
+	//ex maxdamage = 3650;
+	maxdamage = 4650;
+	//original maxvelocity = 1.1; 
+	maxvelocity = 3.5;
+	//original movementclass = GROUND2;
+	movementclass = HOVER2;
+	//original name = Buzz;
+	name = Buzzer;
+	objectname = CRECSAW;
+	//original roadmultiplier = 1.2;
+	roadmultiplier = 1.4;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 200;
+	soundcategory = CRECSAW;
+	soundclass = CRECSAW;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CRECSAW;
+	unitnumber = 500;
+	upright = 1;
+	version = 1;
+//	original no waterline
+	waterline = 30;
+	//original watermultiplier = 0.81
+	watermultiplier = 0.272;              //maxvelocity = 0.952
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	edgeeffectiveness = 0.8;
+	name = Buzz's Saw Attack;
+	range = 30;
+	reloadtime = 0.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 310;	//dmg = 620/s
+		archer = 2.84;
+		archer2 = 2.84;
+		builder = 0.4;
+		fort = 1.45;	//dmg =
+		fort2 = 1.75;   //dmg =
+		factory = 1.4;
+		lodestone = 0.8;
+		melee = 0.8;
+		monarch = 0.6;
+		siege = 1.4;    //dmg =
+		siege2 = 1.6;   //dmg =
+		stalwart = 0.82;
+		tier1 = 4.75;
+	}
+}

@@ -1,0 +1,88 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	//original buildcost = 7258; 10161
+	buildcost = 8561;
+	//original buildtime = 695 (now 180%)
+	//orig buildtime = 1251; 626
+	buildtime = 1090;
+	canattack = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ARA ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arassh_dead;
+	damagecategory = fort2;
+	defaultmissiontype = guard_nomove;
+	description = Aramon;
+	experiencepoints = 57;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.447916667;
+	//original maxdamage = 23500; now (112%)
+	maxdamage = 26320;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	//original no notargetcategory
+	notargetcategory = FLY;
+	name = (M) Stronghold;
+	objectname = ARASSH;
+	//original radardistance = 1000
+	radardistance = 1350;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 500;
+	soundcategory = ARASSH;
+	soundclass = ARASSH;
+	tedclass = Aramon;
+	unitname = ARASSH;
+	unitnumber = 35;
+	//based on Cavedog's Darien Crusades;
+	version = M.1.0;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	// original areaofeffect = 65; 300; 100;
+	areaofeffect = 75;
+	damagetype = explosion;
+	//original edgeeffectiveness = 0.1; 0.4
+	edgeeffectiveness = 1;
+	explosionclass = large explosion;
+	//original minrange = 180;
+	minrange = 150;
+	name = ARASSH Cannonballs;
+	noairweapon = 1;
+	//original range = 600; 640; 
+	range = 540;
+	//original reloadtime = 3; 3.5
+	reloadtime = 2.7;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = cannon;
+	type = Line of Sight;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	//original weaponvelocity = 1500;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		//efficiency calculus: eff = dmgps/bt
+		//eff(arassh)=1225/1090=1.1238
+		// original default = 1225; now (300%)
+		default = 3675;  //dmg = 1225/s
+		fort = 0.2;
+		monarch = 1.2;
+		stalwart = 0.6;  //dmg = 
+		support = 0.75;
+		god = 0.33;	 //dmg = 1213
+		tier1 = 1.8;
+	}
+}

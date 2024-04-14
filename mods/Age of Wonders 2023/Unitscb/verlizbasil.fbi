@@ -1,0 +1,117 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 155 75;
+	bloodcolor2 = 0 120 60;
+	bloodcolor3 = 0 100 25;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 4350;
+	buildtime = 350;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canhover = 1;
+	category = VER MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verlizbasil_dead;
+	damagecategory = wyvern;		// not really a wyvern, but highly resistant to poison
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 35;
+	healtime = 1.2;
+	maneuverleashlength = 500;
+	maxdamage = 17000;
+	maxvelocity = 0.95;
+	maxmana = 1000;
+	manarechargerate = 20;
+	mogriumincome = -8;
+	movementclass = HOVER3;
+	name = Basilisk;
+	objectname = VERLIZBASIL;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = LIZBASIL;
+	soundclass = LIZBASIL;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIZBASIL;
+	unitnumber = 42588;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.2;
+	waterline = 35;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = sword_down;
+	buttonimagedown = sword_down;
+	buttonimageselected = sword_selected;
+	buttonimageup = sword_up;
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Claws;
+	range = 45;
+	reloadtime = 1.975;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1576;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		naval = 0.75;	
+		mechanical = 0.75;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = deathray_down;
+	buttonimagedown = deathray_down;
+	buttonimageselected = deathray_selected;
+	buttonimageup = deathray_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = medium smoke explosion;
+	hweffect = deathray;
+	manapershot = 900;
+	name = Doom Gaze;
+	range = 450;
+	reloadtime = 7.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1100;
+
+	[DAMAGE]
+	{
+		default = 5784;
+		spirit = 0.75;
+		firespirit = 0.75;
+		syron = 0.25;
+		highman = 0.75;
+		undead = 0.1;
+		mechanical = 0.5;
+		naval = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+

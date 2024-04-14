@@ -1,0 +1,84 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 1069;
+	buildcost = 1569;
+//	original buildtime = 196; 83; 150; 196 (-15%)
+	buildtime = 167;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbecaptured = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vercrus_dead;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	//experiencepoints = 16;
+	experiencepoints = 40;
+	healtime = 0.816666667;
+	maneuverleashlength = 500;
+	maxdamage = 4725;
+	//original maxvelocity = 1.3;
+	maxvelocity = 1.45;
+	movementclass = GROUND2;
+	name = Crusader;
+	objectname = VERCRUS;
+//	original roadmultiplier = 1.21; Now (110%)
+	roadmultiplier = 1.33; 
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 150;
+	soundcategory = VERCRUS;
+	soundclass = VERCRUS;
+	standingunitorder = 2;
+	stone = vercrus_stone;
+	tedclass = Veruna;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = VERCRUS;
+	unitnumber = 125;
+	upright = 1;
+	//based on Cavedog's Crusades Balance;
+	version = M.1.0;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 80;
+	reloadtime = 1.8;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 715;
+		//original tier1 = 2.0;
+		tier1 = 3.0;     //dmg=1500
+		archer = 3.0;	 //dmg = 2145
+		fort = 1.1;      //dmg=787
+		fort2 = 1.3; 
+		stalwart = 1.92; //dmg = 1373 (763/s)
+		support = 3.65;	 //dmg = 2609 (1449/s)
+		lodestone = 0.8;
+		undead = 1.25;
+		siege = 1.91;	 //dmg = ~1360
+		siege2 = 1.3;
+	}
+}

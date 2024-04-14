@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bloodcolor1 = 50 130 50;
+	bloodcolor2 = 40 140 40;
+	bloodcolor3 = 30 150 30;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.35;
+	buildcost = 12235;
+	buildtime = 1000;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	cloakcost = 10;
+	cloakcostmoving = 15;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZONAMOEIN_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 155;
+	frozen = zonamoeIN_frozen;
+	healtime = 1.145;
+	manarechargerate = 12;
+	maneuverleashlength = 500;
+	maxdamage = 29900;
+	maxmana = 1000;
+	maxvelocity = 2;
+	mincloakdistance = 150;
+	movementclass = GROUND5;
+	name = Death Slug;
+	objectname = ZONAMOEIN;
+	roadmultiplier = 1.15;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONAMOEIN;
+	soundclass = ZONAMOEIN;
+	standingunitorder = 2;
+	stone = zonamoeIN_stone;
+	tedclass = Zhon;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = ZONAMOEIN;
+	unitnumber = 1515151;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1.0;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.5;
+	name = Bite;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 3.5;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 4000;
+		fort = 1.5;
+		lodestone = 1.5;
+		factory = 1.5;
+		monarch = 0.2;
+		
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 300;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 8000;
+		monarch = 0.2;
+	}
+}

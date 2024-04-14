@@ -1,0 +1,45 @@
+[UNITINFO]
+{
+	bodytype = wood;
+	buildangle = 16384;
+	buildcost = 1951;
+	builddistance = 600;
+	builder = 1;
+	buildtime = 415;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ZON FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verkeep_dead;
+	corpseadjustz = 4;
+	damagecategory = factory;
+	description = Zohn;
+	experiencepoints = 100;
+	footprintx = 5;
+	footprintz = 14;
+	healtime = 1.039583333;
+	maxdamage = 12516;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	name = Treehouse;
+	objectname = arafictree;
+	radardistance = 750;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 450;
+	soundcategory = VERKEEP;
+	soundclass = VERKEEP;
+	tedclass = Zohn;
+	unitname = zonfictree;
+	unitnumber = 136;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ..... ..... ..... ..... ooooo ooooo ooooo ooooo ooooo ooooo ccccc ccccc ccccc ccccc;
+}

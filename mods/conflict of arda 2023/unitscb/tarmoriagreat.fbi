@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 14500;
+	buildtime = 3200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 16;
+	healtime = 0.916666667;
+	maneuverleashlength = 500;
+	maxdamage = 19500;
+	maxvelocity = 1.9;
+	movementclass = GROUND2;
+	name = Great Goblin;
+	noveteran = 1;
+	objectname = tarmoriagreat;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 790;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	stone = vercrus_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = tarmoriagreat;
+	unitnumber = 125;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.2;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 200;
+	}
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 80;
+	reloadtime = 2.1;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1715;
+	}
+}

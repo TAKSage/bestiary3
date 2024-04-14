@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.15;
+	buildcost = 1500;
+	buildtime = 200;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	experiencepoints = 26;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.919444444;
+	hoverattack = 1;
+	hoverattackdistance = 175;
+	maneuverleashlength = 1000;
+	maxdamage = 4400;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	name = Imp;
+	objectname = ZONKIMP;
+	radardistance = 666;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 200;
+	soundcategory = ZONGOB;
+	soundclass = ZONGOB;
+	standingunitorder = 2;;
+	tedclass = Zhon;
+	transmaxunits = 1;
+	turninplacerate = 1000;
+	turnrate = 200;
+	unitname = ZONKIMP;
+	unitnumber = 88;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = fire;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 600;
+	reloadtime = 3;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 230;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}

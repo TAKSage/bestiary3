@@ -1,0 +1,63 @@
+[UNITINFO]
+{
+	acceleration = 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 650;
+	buildtime = 130;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	corpse = zonantIN_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 20;
+	healtime = 0.8;
+	maneuverleashlength = 500;
+	maxdamage = 3000;
+	maxvelocity = 2.5;
+	movementclass = HOVER3;
+	name = Army Ant;
+	objectname = ZONANTIN;
+	radardistance = 200;
+	roadmultiplier = 1.25;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 150;
+	soundcategory = TARSPOUT;
+	soundclass = TARSPOUT;
+	standingunitorder = 2;
+	tedclass = Zhon;
+	turnrate = 1000;
+	unitname = ZONANTIN;
+	unitnumber = 1515152;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	edgeeffectiveness = 0.1;
+	explosionclass = blood explosion;
+	noairweapon = 1;
+	range = 10;
+	reloadtime = 3;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+	}
+}

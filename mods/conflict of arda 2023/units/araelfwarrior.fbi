@@ -1,0 +1,65 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 10 10 50;
+	bloodcolor2 = 15 15 55;
+	bloodcolor3 = 20 20 60;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 961;
+	buildtime = 175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araelf_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 8;
+	healtime = 0.220833333;
+	maneuverleashlength = 500;
+	maxdamage = 3125;
+	maxvelocity = 1.35;
+	movementclass = GROUND2;
+	name = High Elf Warrior;
+	objectname = araelfwarrior;
+	roadmultiplier = 1.21;
+	shadowart = shadow07;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 215;
+	soundcategory = ARABOW;
+	soundclass = ARABOW;
+	standingunitorder = 2;
+	stone = tartroop_stone;
+	tedclass = Aramon;
+	turninplacerate = 2200;
+	turnrate = 2200;
+	unitname = araelfwarrior;
+	unitnumber = 1332;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 1;
+	name = Elven Blade;
+	range = 85;
+	reloadtime = 1.2;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 525;
+	}
+}

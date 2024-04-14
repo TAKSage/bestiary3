@@ -1,0 +1,129 @@
+[UNITINFO]
+{
+	acceleration =  10;
+	bloodcolor1 =  255 255 255;
+	bloodcolor2 =  0 0 0;
+	bloodcolor3 =  0 0 0;
+	bmcode =  1;
+	bodytype = flesh;
+	brakerate =  10;
+	buildcost =  677;
+	buildtime =  125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA ATTACK MAGIC ;
+	copyright =  Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse =  tararch_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description =  Aramon;
+	description =  Aramon;
+	experiencepoints =  13;
+	fireatwillrandom =  1;
+	healtime =  0.520833;
+	manarechargerate =  10.9;
+	maxdamage =  900;
+	maxmana =  500;
+	maxvelocity =  1.2;
+	movementclass = GROUND2;
+	name =  Skeleton Hunter ;
+	objectname =  ARASPEAR;
+	roadmultiplier =  1.21;
+	shadowart =  shadow06;
+	shadowgaf =  shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance =  240;
+	soundcategory =  ARASPEAR;
+	soundclass =  ARASPEAR;
+	standingunitorder = 1;
+	stone =  1;
+	tedclass =  Aramon;
+	turninplacerate =  750;
+	turnrate =  1000;
+	unitname =  ARASPEAR;
+	unitnumber =  8152;
+	upright = 1;
+	version =  1;
+	watermultiplier =  0.81;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = spearstandardPU;
+	buttonimagedown = spearstandardPU;
+	buttonimageselected = spearstandardSBh;
+	buttonimageup = spearstandardSB;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = spear1.3do;
+	name = Spear;
+	range = 450;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+		default = 600;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = spearstandardfPU;
+	buttonimagedown = spearstandardfPU;
+	buttonimageselected = spearstandardfSBh;
+	buttonimageup = spearstandardfSB;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	manapershot = 100;
+	model = spear2.3do;
+	name = Flame Spear;
+	range = 450;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+		default = 850;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = spearstandardaPU;
+	buttonimagedown = spearstandardaPU;
+	buttonimageselected = spearstandardaSBh;
+	buttonimageup = spearstandardaSB;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	model = spear3.3do;
+	manapershot = 250;
+	name = Acid Spear;
+	range = 450;
+	reloadtime = 2.7;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 820;
+
+	[DAMAGE]
+	{
+		default = 1000;
+	}
+}
+

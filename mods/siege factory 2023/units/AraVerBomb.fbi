@@ -1,0 +1,62 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 5000;
+	buildtime = 140;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = Ara;
+	cloakcost = 10;
+	cloakcostmoving = 10;	
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Siege;
+	description = Siege;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = .1;
+	manarechargerate = 50;	
+	maxdamage = 200;
+	maxmana = 500;	
+	maxslope = 100;
+	maxwaterdepth = 20;
+	mincloakdistance = 85;	
+	name = Mine;
+	noshadow = 1;
+	objectname = AraVERBOMB;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Ara;
+	sightdistance = 200;
+	soundcategory = AraVERBOMB;
+	tedclass = Siege;
+	totalallowed = 5;
+	unitname = AraVERBOMB;
+	unitnumber = 12121219;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 350;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10000;
+		monarch = .25;
+		hero = .25;
+	}
+}

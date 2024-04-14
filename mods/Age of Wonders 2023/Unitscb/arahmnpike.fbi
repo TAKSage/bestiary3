@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 725;
+	buildtime = 90;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahmnpike_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Human;
+	experiencepoints = 10;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxvelocity = 1.175;
+	mogriumincome = -3;
+	movementclass = GROUND2;
+	name = Human Pikeman;
+	objectname = ARAHMNPIKE;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = HMNPIKE;
+	soundclass = HMNPIKE;
+	standingunitorder = 2;
+	tedclass = Human;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = ARAHMNPIKE;
+	unitnumber = 42504;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 29;
+	edgeeffectiveness = 0.7;
+	name = Pike;
+	range = 185;
+	reloadtime = 2.2;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1038;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+		naval = 0.75;
+	}
+}

@@ -1,0 +1,122 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.07;
+	buildcost = 8645;
+	buildtime = 898;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = TAR BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarship_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 18;
+	floater = 1;
+	healtime = 0.65;
+	maneuverleashlength = 500;
+	maxdamage = 16540;
+	maxvelocity = 0.7;
+	movementclass = WATER4;
+	name = Dreadnaught;
+	objectname = tarumbardread;
+	pitchscale = 1.5;
+	radardistance = 900;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 370;
+	soundcategory = ARATRANS;
+	soundclass = ARATRANS;
+	standingunitorder = 1;
+	tedclass = Taros;
+	transportcapacity = 12;
+	transportdistance = 300;
+	transportsize = 9;
+	transportsizecapacity = 48;
+	turnrate = 96;
+	unitname = tarumbardread;
+	unitnumber = 135;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	model = Araarrow;
+	name = Anti-Air Arrows;
+	range = 520;
+	reloadtime = 2.55;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 205;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	explosionclass = small dust puff;
+	gravityadjustment = 4.25;
+	guided = 1;
+	model = araarrow;
+	name = Lob Arrow;
+	nimbus = 1;
+	lobpreferred = 1;
+	range = 900;
+	reloadtime = 3.1;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 305;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	explosionclass = small dust puff;
+	gravityadjustment = 4.25;
+	guided = 1;
+	model = araarrow;
+	name = Lob Arrow;
+	nimbus = 1;
+	lobpreferred = 1;
+	range = 900;
+	reloadtime = 3.1;
+	soundhitclass = arrow;
+	turnrate = 180;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 750;
+
+	[DAMAGE]
+	{
+		default = 305;
+	}
+}

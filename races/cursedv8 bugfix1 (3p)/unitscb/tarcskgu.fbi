@@ -1,0 +1,67 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 255 255 255;
+	bloodcolor2 = 0 0 0;
+	bloodcolor3 = 0 0 0;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 5;
+	buildcost = 997;
+	buildtime = 180;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarcskgu_dead;
+	damagecategory = undead;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+                frozen = tarcskgu_frozen;
+	healtime = 0.520833333;
+	maneuverleashlength = 500;
+	maxdamage = 3912;
+	maxvelocity = 1.2;
+	movementclass = GROUND2;
+	name = Skeleton Warchief;
+	objectname = tarcskgu;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 140;
+	soundcategory = tarcskgu;
+	soundclass = tarcskgu;
+	standingunitorder = 2;
+	stone = tarcskgu_stone;
+	tedclass = Taros;
+	turninplacerate = 2000;
+	turnrate = 2000;
+	unitname = tarcskgu;
+	unitnumber = 855;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	edgeeffectiveness = 0.5;
+	name = Hammerfall;
+	range = 80;
+	reloadtime = 3.1;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	default = 900;
+                monarch = 0.33;
+	}
+}

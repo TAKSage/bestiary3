@@ -1,0 +1,39 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 0;
+	buildcost = 89;
+	buildtime = 45;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERWALL;
+	description = Veruna;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	//old healtime=0.1875;
+	healtime = 0;
+	isfeature = 1;
+	maxdamage = 4000;
+	maxslope = 15;
+	//old maxwaterdepth=0
+	maxwaterdepth = 4;
+	name = Wall-C;
+	noshadow = 1;
+	objectname = VERWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 100;
+	soundcategory = VERWALL;
+	tedclass = Veruna;
+	unitname = VERWALL;
+	unitnumber = 155;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

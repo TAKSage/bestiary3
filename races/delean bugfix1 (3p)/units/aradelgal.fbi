@@ -1,0 +1,127 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.06;
+	buildcost = 2050;
+	buildtime = 160;
+	canattack = 1;
+        canguard = 1;
+	canload = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA ATTACK BALLISTIC BOAT ;
+        copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelgal_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 19;
+	floater = 1;
+	healtime = 0.95125;
+	manarechargerate = 10;
+	maxdamage = 5860;
+	maxmana = 500;
+	maxvelocity = 2.7;
+        movementclass = water4;
+	name = Gally;
+	objectname = aradelgal;
+	pitchscale = 1.5;
+	radardistance = 651;
+	shadowart = shadow02;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = VERMAN;
+	soundclass = VERMAN;
+	standingunitorder = 2;
+	stone = aradelgal_stone;
+	tedclass = Aramon;
+	transportcapacity = 15;
+	transportdistance = 300;
+	transportsize = 12;
+	transportsizecapacity = 35;
+	turnrate = 250;
+	unitname = aradelgal;
+	unitversion = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	model = Zonearcharrow;
+	name = Triple Arrow;
+	range = 550;
+	reloadtime = 0.5;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 780;
+
+	[DAMAGE]
+	{
+		default = 200;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass = small dust puff;
+	model = araarrow;
+	name = Range Arrow;
+	range = 950;
+	reloadtime = 4.2;
+	soundhitclass = arrow;
+	turnrate = 1200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 780;
+
+	[DAMAGE]
+	{
+		default = 300;
+	}
+}
+
+
+[WEAPON3]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	explosionclass = small dust puff;
+	model = araarrow;
+	name = Fast Arrow;
+	range = 400;
+	reloadtime = 1.9;
+	soundhitclass = arrow;
+	turnrate = 1200;
+	type = Guided;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 780;
+
+	[DAMAGE]
+	{
+		default = 50;
+	}
+}

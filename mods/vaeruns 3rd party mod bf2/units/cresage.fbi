@@ -1,0 +1,175 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 250;
+	builder = 1;
+	buildtime = 100000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+                cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = CRE Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Creon;
+	economybonus = 30;
+	experiencepoints = 350;
+	healtime = 216.67;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 25000;
+	maxmana = 1000;
+	maxvelocity = 1.6;
+	mogriumincome = 20;
+	mogriumstorage = 25000;
+	movementclass = GROUND2;
+	name = Sage;
+	noveteran = 1;
+	objectname = CRESAGE;
+	radardistance = 650;
+	roadmultiplier = 1.0;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 350;
+	soundcategory = CRESAGE;
+	soundclass = CRESAGE;
+	standingunitorder = 1;
+	tedclass = Creon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = CRESAGE;
+	unitnumber = 15;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 20;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                 areaofeffect = 100;
+	buttonimagedisabled = BlueFlamePU;
+	buttonimagedown = BlueFlamePU;
+	buttonimageselected = BlueFlameSBh;
+	buttonimageup = BlueFlameSB;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Blue Flame;
+	range = 350;
+	reloadtime = 3;
+	soundhitclass = creflame;
+	subtype = bluefire;
+	type = Line of Sight;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 2300;
+                god = 1.5;
+                dragon = 2.0;
+                airship = 2.0;
+                tier1 = 2.0;
+                monarch = 0.15;
+                monster = 2.0;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 100;
+	buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = large explosion;
+	//gravityadjustment = 2.3;
+	//lobpreferred = 1;
+	manapershot = 150;
+	//minrange = 100;
+	name = Scud;
+	//noairweapon = 1;
+	range = 1000;
+	reloadtime = 1.25;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbmed;
+	weaponvelocity = 640;
+
+	[DAMAGE]
+	{
+		default = 3800;
+                god = 1.5;
+                dragon = 2.0;
+                airship = 2.0;
+                tier1 = 2.0;
+                 monarch = 0.15;
+                monster = 2.0;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 1000;
+	builduptime = 0.25;
+	buttonimagedisabled = EnergyBlastPU;
+	buttonimagedown = EnergyBlastPU;
+	buttonimageselected = EnergyBlastSBh;
+	buttonimageup = EnergyBlastSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 850;
+	name = Energy Blast;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = ring_fx_whiteA;
+	range = 150;
+	reloadtime = 2;
+	ringcount = 3;
+	ringdelay = 0.12;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = crestormlaunch7;
+	spritecount = 40;
+	type = Remote Effect;
+	//unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 8000;
+		monarch = 0.15;
+		fort = 0.25;
+		factory = 0.25;
+                god = 0.5;
+                dragon = 0.5;
+                airship = 0.5;
+	}
+}

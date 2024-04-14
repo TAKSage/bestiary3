@@ -1,0 +1,57 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 2.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 186;
+	buildtime = 91;
+                canattack = 0;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 250;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 4;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0.677777778;
+	maneuverleashlength = 100;
+	maxdamage = 45;
+	maxvelocity = 4;
+	maxwaterdepth = 0;
+	name = Chaos Crow;
+	objectname = TARRAVEN;
+	radardistance = 600;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 350;
+	soundcategory = TARRAVEN;
+	soundclass = TARRAVEN;
+	unitstandorders = 0;
+	stone = tarraven_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 500;
+	turnrate = 600;
+	unitname = tarraven;
+	unitnumber = 142121;
+	upright = 1;
+	version = 1;
+                 ZBuffer = 1;
+}
+

@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	//original brakerate = 0.25;
+	brakerate = 0.15;
+	//original buildcost = 1359; 1563; 
+	buildcost = 3900;
+	//original buildtime = 199; 151; 301;
+	buildtime = 450;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ZON FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	//original damagecategory = monster
+	damagecategory = airship;
+	defaultmissiontype = VTOL_standby;
+	description = Zhon;
+	//original experiencepoints = 26;
+	experiencepoints = 80;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.552777777;
+//	original maneuverleashlength = 500;
+	maneuverleashlength = 1300;
+	//original maxdamage = 1721; 5150
+	maxdamage = 6180;
+	//original maxvelocity = 3.7; 2
+	maxvelocity = 2.15;
+	maxwaterdepth = 0;
+	name = Gryphon;
+	objectname = ZONGRYP;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	//original sightdistance = 200; 225;
+	sightdistance = 300;
+	soundcategory = ZONGRYP;
+	soundclass = ZONGRYP;
+	standingunitorder = 2;
+	stone = zongryp_stone;
+	tedclass = Zhon;
+	//original no totalallowed
+	totalallowed = 10;
+	//original turninplacerate = 750;
+	turninplacerate = 1800;
+	//original turnrate = 500;
+	turnrate = 1800;
+	unitname = ZONGRYP;
+	unitnumber = 168;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 20;
+	damagetype = explosion;
+	//original explosionclass = teeny explosion;
+	explosionclass = large explosion;
+	firestarter = 1;
+	model = araarrow2;
+	name = Flaming spear;
+	//original range = 510;
+	range = 380;
+	//original reloadtime = 3.4; 4.0;
+	reloadtime = 3.7;
+	//original soundhitclass = arrow; fire;
+	soundhitclass = rock;
+	//original type = Ballistic;
+	turnrate = 180;
+	type = guided;
+	//wec = small water explosion;
+	waterexplosionclass = medium water explosion;
+	weaponart = FireballA;
+	weaponvelocity = 875;
+
+	[DAMAGE]
+	{
+		//original default = 350; 400
+		default = 500;
+		//new stuff below
+		siege = 1.5;    //damage = 750
+		siege2 = 2.5;
+		airship = 0.9;  //damage = 
+		fly = 1.7;      //damage = 
+		//original fort = 1.1;
+		fort = 1.6;     //damage = 
+		fort2 = 4.0;    //damage = 
+		factory = 3.0;  //damage = 
+		god = 0.3;      //damage = 
+		flygod = 1.2;
+		magic = 0;
+		monarch = 0.5;
+		scout = 0.1;
+		tier1 = 3.0;
+	}
+}

@@ -1,0 +1,164 @@
+[UNITINFO]
+{
+	acceleration = 0.15;
+	animatetype = MONGHOUL;
+	attackrunlength = 0;
+	attractsgods = 1;
+	bankscale = 1.75;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 1600;
+	builddistance = 150;
+	builder = 1;
+	buildtime = 350;
+	cananimate = 1;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	//cantbefrozen = 1;
+	//cantbestoned = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 50;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 50;
+	fireatwillrandom = 1;
+	frozen = tarpries_frozen;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 3;
+	hoverattack = 1;
+	hoverattackdistance = 150;
+	manarechargerate = 10;
+	//maneuverleashlength = 500;
+	maxdamage = 2000;
+	maxmana = 1000;
+	maxvelocity = 3;
+	mogriumincome = 5;
+	mogriumstorage = 200;
+	name = T3 Dark Priest;
+	objectname = TARPRIES;
+	pitchscale = 0.25;
+	radardistance = 550;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARPRIES;
+	soundclass = TARPRIES;
+	stone = tarpries_stone;
+	standingunitorder = 1;
+	tedclass = Taros;
+	turninplacerate = 1000;
+	turnrate = 1000;
+	unitname = TARPRIES;
+	unitnumber = 97;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 15;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = small;
+	middlecolor = 200 230 255;
+	name = Lightning;
+	outercolor = 180 200 255;
+	range = 300;
+	reloadtime = 3.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 700;
+		mechanical = 1.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 50;
+	buttonimagedisabled = LightningBallPU;
+	buttonimagedown = LightningBallPU;
+	buttonimageselected = LightningBallSBh;
+	buttonimageup = LightningBallSB;
+	explosionclass = blue_shockring;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 300;
+	name = Ball Lightning;
+	range = 600;
+	reloadtime = 1.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = lightning;
+	turnrate = 180;
+	type = Guided;
+	weaponart = LtngBall_2a;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 800;
+		mechanical = 1.25;
+		monarch = 0.75;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 50;
+	builduptime = 2.0;
+	buttonimagedisabled = TornadoPU;
+	buttonimagedown = TornadoPU;
+	buttonimageselected = TornadoSBh;
+	buttonimageup = TornadoSB;
+	decaytime = 1;
+        damagetype = fire;
+	duration = 8;
+        firestarter = 1;
+	maxvariation = 3;
+	manapershot = 400;
+	name = Fire Vortex;
+	nimbus = 1;
+	range = 600;
+	reloadtime = 2;
+	soundhit = arrow08;
+	type = wandering;
+	variationtime = 5;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+	weaponvelocity = 50;
+
+	[DAMAGE]
+	{
+		default = 900;
+		monarch = 0.3;
+	}
+}

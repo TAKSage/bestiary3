@@ -1,0 +1,114 @@
+[UNITINFO]
+{
+	acceleration = 0.75;
+	bankscale = 1;
+	bloodcolor1 = 160 35 150;
+	bloodcolor2 = 170 40 110;
+	bloodcolor3 = 180 30 85;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.25;
+	buildcost = 1621;
+	buildtime = 223;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canhover = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = VER FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagetype = Human;
+	defaultmissiontype = VTOL_standby;
+	description = Veruna;
+	experiencepoints = 20;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.925;
+	hoverattack = 1;
+	hoverattackdistance = 200;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+                  maxmana = 1000;
+	maxdamage = 2470;
+	maxvelocity = 2.9;
+	maxwaterdepth = 0;
+	name = Water Nimph;
+	objectname = VERNIM;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 200;
+	soundcategory = VERNIM;
+	soundclass = VERNIM;
+	standingunitorder = 2;
+	stone = Vernim_stone;
+	tedclass = Veruna;
+	turninplacerate = 400;
+	turnrate = 300;
+	unitname = VERNIM;
+	unitnumber = 100786;
+	upright = 1;
+	version = 1;
+                  weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = WaterBallPU;
+	buttonimagedown = WaterBallPU;
+	buttonimageselected = WaterBallSBh;
+	buttonimageup = WaterBallSB;
+	explosionclass = tsunamiexp;
+	lightmap = small;
+	name = Water Ball;
+	nimbus = 1;
+	range = 455;
+	reloadtime = 2.5;
+	soundhit = arrow08;
+	type = Line of Sight;
+                  weaponart = waterball;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 530;
+	}
+}
+
+[WEAPON2]
+{
+                 aimtolerance = 1024;
+                 areaofeffect = 240;
+                 builduptime = 0.5;
+                 decaytime = 1;
+                 edgeeffectiveness = 1;
+                 manapershot = 500;
+                 name = Tsunami;
+                 nimbus = 1;
+                 radiusart0 = TsunamiExplode;
+                 radiusart1 = TsunamiExplode;
+                 radiusart2 = TsunamiExplode;
+                 range = 200;
+                 reloadtime = 2.75;
+                 ringcount = 4;
+                 ringdelay = 0.45;
+                 ringduration = 1.2;
+                 soundhit = arrow08;
+                 spritecount = 100;
+                 turnrate = 250;
+                 type = Remote Effect;
+                 unitsonly = 1;
+                 weaponvelocity = 1000;
+
+                 [DAMAGE]
+                 {
+                               default = 724;
+                  }
+}

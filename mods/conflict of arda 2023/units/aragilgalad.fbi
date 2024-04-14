@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 12500;
+	buildtime = 3000;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 30;
+	experiencepoints = 16;
+	healtime = 0.616666667;
+	maneuverleashlength = 500;
+	maxdamage = 21500;
+	maxvelocity = 1.6;
+	movementclass = GROUND2;
+	name = Gil-Galad;
+	noveteran = 1;
+	objectname = aragilgalad;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 679;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 2;
+	stone = vercrus_stone;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 2300;
+	turnrate = 2300;
+	unitname = aragilgalad;
+	unitnumber = 125;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+
+	[AdjustArmor]
+	{
+		adjustment = 1.6;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.6;
+		radius = 240;
+	}
+}
+
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	edgeeffectiveness = 0.7;
+	name = Aeglos;
+	range = 80;
+	reloadtime = 1.4;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1235;
+	}
+}

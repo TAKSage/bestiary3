@@ -1,0 +1,167 @@
+[UNITINFO]
+{
+	acceleration = 0.75;
+	bankscale = 0.3;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.5;
+	buildcost = 440000;
+	buildtime = 50025;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+               // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR FLY ATTACK MAGIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Taros;
+	experiencepoints = 1550;
+	footprintx = 12;
+	footprintz = 12;
+	healtime = 5127.88;
+	hoverattack = 1;
+	hoverattackdistance = 300;
+               immunetoparalyzer = 1;
+	manarechargerate = 30;
+	maneuverleashlength = 500;
+	maxdamage = 30000;
+	maxmana = 1000;
+	maxvelocity = 9.5;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 5;
+	name = Ancient Black Dragon;
+	objectname = TARANCD;
+	radardistance = 2000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 600;
+	soundcategory = TARANCD;
+	soundclass = TARANCD;
+	standingunitorder = 2;
+	stone = tardrag_stone;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 800;
+	turnrate = 600;
+	unitname = TARANCD;
+	unitnumber = 990992;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 400;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+                edgeeffectiveness = 0.5;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Fire Breath;
+	range = 650;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 3595;
+                god = 0.5;
+                monarch = 0.25;
+                airship = 0.5;
+                 fort = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2048;
+	areaofeffect = 300;
+	buttonimagedisabled = FireBallPU;
+	buttonimagedown = FireBallPU;
+	buttonimageselected = FireBallSBh;
+	buttonimageup = FireBallSB;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	lightmap = small;
+	manapershot = 150;
+	name = Fire Ball;
+	range = 725;
+	reloadtime = 1.5;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = fire;
+	turnrate = 180;
+	type = Guided;
+                waterexplosionclass = large water explosion;
+	weaponart = fireballB;
+	weaponvelocity = 700;
+
+	[DAMAGE]
+	{
+		default = 6200;
+		dragon = 0.5;
+                god = 0.5;
+                monarch = 0.25;
+                airship = 0.5;
+                fort = 0.25;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 900;
+	builduptime = 0.25;
+	buttonimagedisabled = FireRingTPU;
+	buttonimagedown = FireRingTPU;
+	buttonimageselected = FireRingTSBh;
+	buttonimageup = FireRingTSB;
+	decaytime = 1;
+	edgeeffectiveness = 1;
+	manapershot = 700;
+	name = Ring of Fire;
+	nimbus = 1;
+	radiusart0 = ring_fx_whiteA;
+	radiusart1 = ring_fx_whiteB;
+	radiusart2 = ring_fx_whiteC;
+	range = 450;
+	reloadtime = 3.5;
+	ringcount = 6;
+	ringdelay = 0.45;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhitclass = fire;
+	spritecount = 65;
+	type = Remote Effect;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3125;
+                                monarch = 0.25;
+                                fort = 0.25;
+	}
+}

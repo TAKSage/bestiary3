@@ -1,0 +1,116 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 0 155 75;
+	bloodcolor2 = 0 120 60;
+	bloodcolor3 = 0 100 25;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 400;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verlizslug_dead;
+	damagecategory = wyvern;		// not really a wyvern, but highly resistant to poison
+	defaultmissiontype = Standby;
+	description = Lizard;
+	experiencepoints = 8;
+	healtime = 0.8;
+	maneuverleashlength = 500;
+	maxdamage = 3740;
+	maxvelocity = 0.635;
+	mogriumincome = -2;
+	movementclass = GROUND2;
+	name = Giant Slug;
+	objectname = VERLIZSLUG;
+	roadmultiplier = 1.35;;
+	shootme = 1;
+	side = VER;
+	sightdistance = 200;
+	soundcategory = LIZSLUG;
+	soundclass = LIZSLUG;
+	standingunitorder = 2;
+	tedclass = Lizard;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = VERLIZSLUG;
+	unitnumber = 42584;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Poison Bite;
+	range = 35;
+	reloadtime = 2;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 700;
+		spirit = 0.35;
+		firespirit = 0.35;
+		syron = 0.5;
+		goblin = 0.75;
+		dwarf = 0.75;
+		lizard = 0.9;
+		undead = 0.5;
+		wyvern = 0.5;
+		demon = 0.5;
+		dragon = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		naval = 0.5;	
+		mechanical = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 40;
+	explosionclass = green_shockring;
+	edgeeffectiveness = 0.4;
+	model = venomspit;
+	name = Venomous Spit;
+	range = 225;
+	reloadtime = 4;
+	soundhit = venomhit;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 800;
+		spirit = 0.35;	
+		firespirit = 0.35;
+		syron = 0.25;
+		goblin = 0.75;
+		dwarf = 0.75;
+		undead = 0.25;
+		dragon = 0.5;
+		demon = 0.5;
+		wyvern = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		naval = 0.25;
+		mechanical = 0.25;
+	}
+}

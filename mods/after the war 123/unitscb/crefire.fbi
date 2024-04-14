@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 0.16;
+	bankscale = 1.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.08;
+	buildcost = 830;
+	mogriumbounty = 83;
+	buildtime = 175;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREFIRE_dead;
+	damagecategory = mechanical;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 11;
+	fireatwillrandom = 1;
+	frozen = crefire_frozen;
+	healtime = 1.375;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 1.1;
+	movementclass = GROUND3;
+	name = Fire Wagon;
+	objectname = CREFIRE;
+	pitchscale = 1.5;
+	roadmultiplier = 1.5;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 230;
+	soundcategory = CREFIRE;
+	soundclass = CREFIRE;
+	standingunitorder = 1;
+	stone = CREFIRE_stone;
+	tedclass = Creon;
+	turnrate = 200;
+	unitname = CREFIRE;
+	unitnumber = 6;
+	version = 1;
+	watermultiplier = 0.5;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	damagetype = fire;
+	edgeeffectiveness = 0.25;
+	emittime = 45;
+	firestarter = 1;
+	hweffect = fire;
+	name = Real fire;
+	range = 350;
+	reloadtime = 3.0;
+	soundhitclass = creflame;
+	subtype = dieselflame;
+	type = Line of Sight;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 600;
+		wood = 2;
+		naval = 1.5;
+		stone = 0.75;
+		steelnaval = 1.25;
+		flamedemon = 0.5;
+		antikingflamedemon = 0.5;
+		giantflamedemon = 0.5;
+		steel = 1.25;
+	}
+}

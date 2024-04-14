@@ -1,0 +1,148 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	animatetype = TARCSKWASKEL;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 20000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 700;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	cananimate = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = Tar Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Taros;
+	economybonus = 30;
+	experiencepoints = 151;
+	healtime = 5;
+	manarechargerate = 25;
+	maneuverleashlength = 500;
+	maxdamage = 16000;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 30;
+	//mogriumincome = 9000;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = The Skeleton King;
+	noveteran = 1;
+	objectname = TarARATISKEL;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 232;
+	soundcategory = TarARATISKEL;
+	soundclass = TarARATISKEL;
+	standingunitorder = 1;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = TarARATISKEL;
+	unitnumber = 7492;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	//workertime = 10;
+	workertime = 10;
+	//workertime = 9000;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1050;
+	areaofeffect = 70;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot = 0;
+	name = Solar Blast;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+	[DAMAGE]
+	{
+		default = 950;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 10;
+	buttonimagedisabled = MeteorPU;
+	buttonimagedown = MeteorPU;
+	buttonimageselected = MeteorSBh;
+	buttonimageup = MeteorSB;
+	edgeeffectivness = 0.2;
+	explosionclass = megaflame;
+	 firestarter = 1;
+	gravityadjustment = 1.5;
+	lobpreferred = 1;
+	manapershot = 200;
+	model = meteor.3Do;
+	name = Meteor;
+	range = 400;
+	reloadtime = 2.6;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 640;
+
+	[DAMAGE]
+	{
+		default = 2000;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 220;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 2;
+	edgeeffectiveness = 1;
+	explosionclass = mind control;
+	firestarter = 5;
+	manapershot = 1000;
+	name = Star Dust;
+	nimbus = 1;
+	particlespersecond = 3;
+	range = 450;
+	reloadtime = 0.1;
+	soundhitclass = lightning;
+        subtype = hailstorm;
+	type = Remote Effect;
+        weaponart = LtngBall_2a;
+	weaponvelocity = 1500;
+	 
+	 [DAMAGE]
+	{
+		default = 1500;
+	}
+}

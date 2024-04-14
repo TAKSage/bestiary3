@@ -1,0 +1,92 @@
+[UNITINFO]
+{
+	acceleration = 0.11;
+	bankscale = 1.75;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.022;
+//	original buildcost = 4131; Now 91% x creiron
+	buildcost = 4975;
+//	original buildtime = 380;
+	buildtime = 190;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BOAT ATTACK BALLISTIC;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aratrans_dead;
+	damagecategory = naval;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 41;
+	floater = 1;
+	healtime = 0.79167;
+	maneuverleashlength = 325;
+	//original maxdamage = 6111;
+	maxdamage = 10000;
+	//original maxvelocity = 1.02;
+	maxvelocity = 1.2;
+	movementclass = WATER5;
+	name = Ark;
+	objectname = ARATRANS;
+	pitchscale = 1.5;
+	radardistance = 510;
+	shadowart = shadow01;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 325;
+	soundcategory = ARATRANS;
+	soundclass = ARATRANS;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	transportcapacity = 50;
+	transportdistance = 419;
+	transportsize = 16;
+	transportsizecapacity = 200;
+	//original turnrate = 65
+	turnrate = 95;
+	unitname = ARATRANS;
+	unitnumber = 43;
+	version = 1;
+	waterline = 10;
+	wind = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 2000;
+	//orig model = Araarrow;
+	model = verhpoon;
+	//orig name = Anti-Air Arrows;
+	name = harpoon;
+	//original range = 350;
+	range = 425;
+	//original reloadtime = 1.35;
+	reloadtime = 2;
+	soundhitclass = arrow;
+	type = Ballistic;
+	//orig wexpclass = small
+	waterexplosionclass = medium water explosion;
+	//original weaponvelocity = 725;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 826;
+		airship = 1.83;
+		dragon = 2.26;
+		fly = 2.78;
+		naval = 2.83; //2345 
+		fort = 1.8;
+		factory = 0.25;
+		fort2 = 2.0;
+	}
+}

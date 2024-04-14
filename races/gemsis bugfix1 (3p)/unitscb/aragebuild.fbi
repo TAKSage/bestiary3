@@ -1,0 +1,121 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.2;
+	buildcost = 3500;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 200;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = ara magic atack;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 150;
+	damagecategory = Monster;
+	defaultmissiontype = VTOL_Standby;
+	description = Aramon;
+	economybonus = 5;
+	experiencepoints = 51;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 2.85;
+	hoverattack = 1;
+	hoverattackaltitude = 150;
+	hoverattackdistance = 150;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 9244;
+	maxmana = 1000;
+	maxvelocity = 2.5;
+	mogriumincome = 5;
+	mogriumstorage = 250;
+	name = Fly Builder;
+	noveteran = 1;
+	objectname = aragebuild;
+	radardistance = 700;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 275;
+	soundcategory = ZONHUNT;
+	soundclass = ZONHUNT;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	turninplacerate = 1000;
+	turnrate = 400;
+	unitname = ARAGEBUILD;
+	unitnumber = 171;
+	upright = 1;
+	version = 1;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 200 230 255;
+	name = Lightning;
+	nimbus = 1;
+	outercolor = 180 200 255;
+	range = 500;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 831;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	areaofeffect = 60;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = small;
+	manapershot = 300;
+	name = Lightning Ball;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1055;
+	}
+}

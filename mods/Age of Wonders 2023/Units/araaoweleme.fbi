@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 70 70 60;
+	bloodcolor2 = 25 25 20;
+	bloodcolor3 = 35 40 30;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 26000;
+	buildtime = 550;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araaoweleme_dead;
+	damagecategory = darkelf;	// lightning-resistant
+	defaultmissiontype = Standby;
+	description = Creature;
+	experiencepoints = 50;
+	healtime = 1.0;
+	maneuverleashlength = 500;
+	maxdamage = 31000;
+	maxvelocity = 0.675;
+	mogriumincome = -15;
+	movementclass = MOUNTAIN2;
+	name = Earth Elemental;
+	objectname = ARAAOWELEME;
+	roadmultiplier = 1.35;
+	radardistance = 900;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = AOWELEME;
+	soundclass = AOWELEME;
+	standingunitorder = 2;
+	tedclass = Creature;
+	turninplacerate = 1400;
+	turnrate = 1200;
+	totalallowed = 2;
+	unitname = ARAAOWELEME;
+	unitnumber = 42660;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 40;
+	edgeeffectiveness = 0.75;
+	explosionclass = medium dust puff;
+	name = Stone Fists;
+	range = 40;
+	reloadtime = 4;
+	soundhitclass = rock;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 3580;
+		spirit = 0.5;	
+		firespirit = 0.5;
+		city = 0.5;
+		factory = 0.5;
+		fort = 0.5;
+		building = 0.5;
+		mechanical = 1.2;
+		naval = 1.2;
+	}
+}

@@ -1,0 +1,134 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2308;
+	buildtime = 328;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmage_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 15;
+	fireatwillrandom = 1;
+	frozen = tarmage_frozen;
+	healtime = 1.3666666;
+	isairbase = 1;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 4500;
+	maxmana = 1000;
+	maxvelocity = 1.9;
+	movementclass = GROUND3;
+	name = Fire Mage;
+	objectname = TARMAGE;
+	shadowart = shadow12;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 400;
+	soundcategory = TARMAGE;
+	soundclass = TARMAGE;
+	standingunitorder = 1;
+	stone = tarmage_stone;
+	tedclass = Taros;
+	turninplacerate = 400;
+	turnrate = 350;
+	unitname = TARMAGE;
+	unitnumber = 91;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = FireBreathPU;
+	buttonimagedown = FireBreathPU;
+	buttonimageselected = FireBreathSBh;
+	buttonimageup = FireBreathSB;
+	damagetype = fire;
+	emittime = 30;
+	firestarter = 1;
+	hweffect = fire;
+	name = Death Breath;
+	range = 250;
+	reloadtime = 1.9;
+	soundhitclass = fire;
+	subtype = fire;
+	type = Line of Sight;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 569;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 16000;
+	areaofeffect = 10;
+	buttonimagedisabled = FireBallGPU;
+	buttonimagedown = FireBallGPU;
+	buttonimageselected = FireBallGSBh;
+	buttonimageup = FireBallGSB;
+	explosionclass = fireball explosion;
+	manapershot = 300;
+	name = Fire Swirl;
+	nimbus = 1;
+	range = 1200;
+	reloadtime = 4;
+	soundhitclass = fire;
+	turnrate = 200;
+	type = Guided;
+	weaponart = fireballB;
+	weaponvelocity = 350;
+
+	[DAMAGE]
+	{
+		default = 800;
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 200;
+	buttonimagedisabled = HailStormPU;
+	buttonimagedown = HailStormPU;
+	buttonimageselected = HailStormSBh;
+	buttonimageup = HailStormSB;
+	duration = 3;
+	edgeeffectiveness = 1;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	manapershot = 750;
+	name = Fire Storm;
+	nimbus = 1;
+	particlespersecond = 5;
+	range = 450;
+	reloadtime = 5;
+	soundhitclass = rock;
+	subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = meteor;
+	weaponvelocity = 1500;
+
+	[DAMAGE]
+	{
+		default = 350;
+	}
+}

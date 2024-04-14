@@ -1,0 +1,37 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 32000;
+	buildcost = 299;
+	buildtime = 85;
+	cantbestoned = 1;
+	category = TAR;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 5;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.25757575;
+	maxdamage = 5680;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 10;
+	mogriumstorage = 1000;
+	name = Lodestone;
+	objectname = tarcmanaSKEL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 125;
+	soundcategory = tarlode;
+	soundclass = tarlode;
+	tedclass = Taros;
+	totalallowed = 15;
+	unitname = tarcmanaSKEL;
+	unitnumber = 818;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

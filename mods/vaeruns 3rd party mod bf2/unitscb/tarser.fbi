@@ -1,0 +1,89 @@
+[UNITINFO]
+{
+	acceleration = 0.5;
+	bankscale = 0.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 0.15;
+	buildcost = 4000;
+	buildtime = 1150;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//cantbecaptured = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	cantbetransported = 1;
+	category = TAR FLY MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	// Kylin 1999;
+	cruisealt = 100;
+	damagecategory = Dragon;
+	defaultmissiontype = VTOL_standby;
+	description = Taros;
+	experiencepoints = 44;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 2;
+	hoverattack = 1;
+	//hoverattackaltitude = 150;
+	hoverattackdistance = 200;
+	maneuverleashlength = 500;
+	maxdamage = 8500;
+	maxvelocity = 4.5;
+	maxwaterdepth = 0;
+	moverate1 = 1;
+	moverate2 = 4;
+	name = Tricular Dragon;
+	objectname = TARSER;
+	radardistance = 400;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 220;
+	soundcategory = TARDRAG;
+	soundclass = TARDRAG;
+	standingunitorder = 2;
+	tedclass = Taros;
+	turninplacerate = 550;
+	turnrate = 500;
+	unitname = TARSER;
+	unitnumber = 2005;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1600;
+	areaofeffect = 60;
+	damagetype = fire;  
+                edgeeffectiveness = 0.5;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	lightmap = medium;
+	name = Fire Ball;
+	range = 675;
+	reloadtime = 3;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = fire;
+	turnrate = 250;
+	type = Guided;
+	weaponart = fireballA;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 845;
+		monarch = 0.5;
+	}
+}

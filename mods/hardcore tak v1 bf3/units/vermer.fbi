@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 535; Now (115%)
+	buildcost = 615;
+	//original buildtime = 120; 80; Now original;
+	buildtime = 120;
+	canattack = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = VERMER_dead;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	//original experiencepoints = 15;
+	experiencepoints = 40;
+	floater = 0;
+	frozen = vermer_frozen;
+	fireatwillrandom = 1;
+	frozen = vermer_frozen;
+	healtime = 0.5;
+	maneuverleashlength = 1500;
+	//original maxdamage = 3284; 2227
+	maxdamage = 2927;
+	//original maxvelocity = 1.08; 2.2; 2.7
+	maxvelocity = 3.7;
+	movementclass = HOVER2;
+	name = Mer Warrior;
+	objectname = VERMER;
+	roadmultiplier = 1.21;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	//original sightdistance = 110;
+	sightdistance = 200;
+	soundcategory = VERMER;
+	soundclass = VERMER;
+	standingunitorder = 2;
+	stone = VERMER_stone;
+	tedclass = Veruna;
+	turninplacerate = 1300;
+	turnrate = 900;
+	unitname = VERMER;
+	unitnumber = 117;
+	upright = 1;
+	version = 1;
+	//original waterline = 26;
+	waterline = 20;
+	//original watermultiplier = 1.9;
+	watermultiplier = 1.1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.5;
+	name = Trident;
+	range = 50;
+	//original reloadtime = 2.0; 1.5
+	reloadtime = 1.9;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		//original default = 460; 303
+		default = 360;
+		archer = 2.6;    //dmg = 936 (492/s)
+		builder = 0.7;
+		fort = 2;        //dmg = 720 (378/s)
+		fort2 = 5.0;     //dmg = 
+		factory = 2.0;
+		god = 0.3;
+		monarch = 0.5;
+		support = 0.3;
+		magic = 0.5;
+		lodestone = 1.5;
+		siege = 1.82;    //dmg = 653 
+		siege2 = 3.7;    //dmg = 
+		stalwart = 0.6;
+		naval = 0.5;     //dmg = 161
+	}
+}

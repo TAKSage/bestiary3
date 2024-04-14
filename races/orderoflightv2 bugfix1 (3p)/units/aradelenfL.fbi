@@ -1,0 +1,71 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 125;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aradelenfL_dead;
+	damagecategory = Infantry;
+	defaultmissiontype = Standby;
+	description = Light;
+	experiencepoints = 30;
+	healtime = 2;
+	maneuverleashlength = 300;
+	maxdamage = 5000;
+	maxvelocity = 2.5;
+	movementclass = GROUND2;
+	name = Armored Soldier;
+	objectname = aradelenfL;
+	roadmultiplier = 1.4;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 175;
+	soundcategory = aradelenfL;
+	soundclass = aradelenfL;
+	standingunitorder = 2;
+	stone = aradelenfL_stone;
+	tedclass = Light;
+	totalallowed = 20;
+	turninplacerate = 2500;
+	turnrate = 2000;
+	unitname = aradelenfL;
+	unitnumber = 97979708;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 1;
+	edgeeffectiveness = 0.7;
+	name = Sword;
+	range = 55;
+	reloadtime = 1.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;	
+		fort = .5;
+		factory = .5;
+		lodestone = .5;
+		siege = .5;
+		naval = .5;
+	}
+}

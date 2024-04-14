@@ -1,0 +1,35 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 100;
+	buildtime = 55;
+	cantbefrozen = 1;
+	category = ZON;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ZONWALL;
+	description = Zhon;
+	experiencepoints = 1;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 0;
+	isfeature = 1;
+	maxdamage = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Wall;
+	noshadow = 1;
+	objectname = ZONWALL;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 45;
+	soundcategory = ZONWALL;
+	soundclass = ZONWALL;
+	tedclass = Zhon;
+	unitname = ZONWALL;
+	unitnumber = 225013;
+	unitstandorders = 0;
+	version = 1;
+	yardmap = o;
+}

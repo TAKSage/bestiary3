@@ -1,0 +1,91 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	//original buildcost = 3270;
+	buildcost = 1470;
+	buildtime = 100;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	category = ARA ATTACK MELEE;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 2;
+	healtime = 0.8;
+	maneuverleashlength = 10000;
+	maxdamage = 161;
+	//original maxvelocity = 2.3;
+	maxvelocity = 4;
+	movementclass = GROUND2B;
+	name = Martyr;
+	noveteran = 1;
+	objectname = NPCPOW1;
+	roadmultiplier = 1.2;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 150;
+	soundcategory = NPCPOW2;
+	soundclass = NPCPOW;
+	standingunitorder = 2;
+	stone = NPCPOW1_stone;
+	tedclass = Aramon;
+	totalallowed = 10;
+	turninplacerate = 3000;
+	turnrate = 2500;
+	unitname = Araepeas;
+	unitnumber = 3410;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 26;
+	edgeeffectiveness = 1;
+	name = Head Butt;
+	range = 45;
+	reloadtime = 2.5;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 360;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 200;
+	damagetype = explosion;
+	edgeeffectiveness = 0.25;
+	explosionclass = large explosion;
+	name = Explosion;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 8000;
+		monarch = 0.2;
+		god = 0.1;
+		flygod = 0.1;
+		stalwart = 0.02;
+	}
+}

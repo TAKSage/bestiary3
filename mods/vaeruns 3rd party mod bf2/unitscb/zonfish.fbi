@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 0.66;
+	bankscale = 2.4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 0.33;
+	buildcost = 970;
+	buildtime = 210;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+                cantbefrozen = 1;
+	category = ZON BALLISTIC ATTACK BOAT;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 28;
+                floater = 1;
+               //  footprinty = 2;
+               // footprintx = 2;
+	healtime = 1.426;
+	maneuverleashlength = 500;
+	maxdamage = 2400;
+	maxvelocity = 3.25;
+	movementclass = WATER2;
+	name = Fishman;
+                noshadow = 1;
+                noveteran = 1;
+	objectname = ZONFISH;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 210;
+               //sonardistance = 500;
+	soundcategory = ZONFISH;
+	soundclass = ZONFISH;
+	standingunitorder = 1;
+	stone = zonfish_stone;
+	tedclass = Zhon;
+	turninplacerate = 1000;
+	turnrate = 500;
+	unitname = ZONFISH;
+	unitnumber = 910091;
+	version = 1;
+	waterline = 18;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = WaterBallExp;
+	name = Water Ball;
+	range = 400;
+	reloadtime = 2.1;
+	soundhit = arrow08;
+	turnrate = 180;
+	type = Guided;
+	weaponart = WaterBall;
+                 waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 790;
+                monarch = 0.01;
+	}
+}

@@ -1,0 +1,170 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1600;
+	buildtime = 300;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahmnchar_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Human;
+	experiencepoints = 15;
+	healtime = 0.6;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 6750;
+	maxmana = 1000;
+	maxvelocity = 1.25;
+	mogriumincome = -6;
+	movementclass = GROUND2;
+	name = Charlatan;
+	objectname = ARAHMNCHAR;
+	radardistance = 550;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = CRECHIE;
+	soundclass = CRECHIE;
+	standingunitorder = 1;
+	tedclass = Human;
+	turnrate = 2500;
+	unitname = ARAHMNCHAR;
+	unitnumber = 42508;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+
+	[AdjustJoy]		// Bard's Skills
+	{
+		adjustment = 40;
+		affectsenemy = 0;
+		edgeeffectiveness = 0.75;
+		radius = 180;
+	}
+
+	[AdjustAttack]		// Parry
+	{
+		adjustment = 0.675;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.75;
+		radius = 85;
+	}
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Strike;
+	range = 30;
+	reloadtime = 2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 800;
+		syron = 0.5;
+		spirit = 1.5;
+		firespirit = 1.5;
+		elf = 0.85;
+		darkelf = 0.85;
+		halfling = 0.75;
+		lizard = 1.2;
+		goblin = 1.325;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = magicbolt_down;
+	buttonimagedown = magicbolt_down;
+	buttonimageselected = magicbolt_selected;
+	buttonimageup = magicbolt_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = mindspin;
+	hweffect = magicbolt;
+	lightmap = large;
+	manapershot = 180;
+	name = Magic Bolt;
+	range = 350;
+	reloadtime = 6.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 750;
+		syron = 0;
+		spirit = 2;
+		firespirit = 2;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	aimtolerance = 1024;
+	explosionclass = mind control;
+	manapershot = 800;
+	name = Charm;
+	noairweapon = 1;
+	range = 120;
+	reloadtime = 2.5;
+	soundhit = charm;
+	subtype = mindcontrol;
+	type = line of sight;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		mechanical = 0;
+		naval = 0;	
+		spirit = 0;
+		firespirit = 0;
+		syron = 0;
+		undead = 0;
+	}
+}

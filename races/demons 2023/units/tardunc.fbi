@@ -1,0 +1,70 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3000;
+	buildtime = 600;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardunc_dead;
+	defaultmissiontype = Standby_wander;
+	description = Taros;
+	experiencepoints = 3;
+	frozen = tardunc_frozen;
+	healtime = 3.4375;
+	maneuverleashlength = 500;
+	maxdamage = 4608;
+	maxvelocity = 3;
+	movementclass = GROUND2;
+	name = Demon Unleashed;
+	noveteran = 1;
+	objectname = TARDUNC;
+	radardistance = 1000;
+	roadmultiplier = 1.5;
+	shadowart = shadow04;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 250;
+	soundcategory = TARCAGE;
+	soundclass = TARCAGE;
+	standingunitorder = 2;
+	stone = tardunc_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDUNC;
+	unitnumber = 56;
+	upright = 1;
+	version = 1;
+	watermultiplier = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = fireball;
+	range = 1500;
+	reloadtime = 2.3;
+	soundhitclass = fire;
+	type = ballistic;
+	weaponart = FireballA;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 305;
+	}
+}

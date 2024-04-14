@@ -1,0 +1,111 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bankscale = 1.25;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.05;
+	buildcost = 1300;
+	buildtime = 270;
+	builddistance = 200;
+	builderlimited = 1;
+	builder = 1;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	canheal = 1;
+	canreclaim = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	cantbetransported = 1;
+	cantransport = 1;
+	category = ARA BOAT ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vertrans_dead;
+	damagecategory = naval;
+	defaultmissiontype = standby;
+	description = Aramon;
+	experiencepoints = 12;
+	fireatwillrandom = 1;
+	floater = 1;
+	healtime = .65;
+	maneuverleashlength = 500;
+	maxdamage = 6200;
+	maxvelocity = 3;
+	movementclass = WATER4;
+	name = Dragon Ship;
+	objectname = ARAAOWDSHIP;
+	pitchscale = 1.5;
+	radardistance = 650;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = ARAWAR;
+	soundclass = ARAWAR;
+	standingunitorder = 2;
+	tedclass = Aramon;
+	transportcapacity = 4;
+	transportdistance = 300;
+	transportsize = 16;
+	transportsizecapacity = 128;
+	turninplacerate = 210;
+	turnrate = 210;
+	unitname = ARAAOWDSHIP;
+	unitnumber = 42022;
+	version = 1;
+	waterline = 1;
+	wind = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = xlarge smoke explosion;
+	emittime = 60;
+	firestarter = 1;
+	//model = smallbolt;
+	firestarter = 1;
+	innercolor = 255 255 0;
+	middlecolor = 255 155 0;
+	hweffect = blueblocker;
+	outercolor = 255 0 0;
+	name = Dragon Breath;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = fire;
+	subtype = lightning;
+	type = line of sight;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 250;
+
+	[DAMAGE]
+	{
+		default = 700;
+		fort = 0.5;
+		factory = 0.5;
+		stalwart = 0.5;
+		mechanical = 0.5;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 50;
+	edgeeffectivness = 0.35;
+	explosionclass = large smoke explosion;
+	name = Kaboom;
+	range = 100;
+	soundhit = siegedie;
+	type = Ballistic;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 10;
+	}
+}

@@ -1,0 +1,137 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 2516;
+	buildtime = 475;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canhover = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	category = ARA MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aralight_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 26;
+	fireatwillrandom = 1;
+	healtime = 0.1012;
+	manarechargerate = 12;
+	maneuverleashlength = 500;
+	maxdamage = 5850;
+	maxmana = 1500;
+	maxvelocity = 2;
+	movementclass = HOVER3;
+	name = Light Elemental;
+	objectname = aralight;
+	radardistance = 250;
+	roadmultiplier = 1.11;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = aralight;
+	soundclass = aralight;
+	standingunitorder = 1;
+	stone = aralight_stone;
+	tedclass = Aramon;
+	totalallowed=7;
+	turninplacerate = 1350;
+	turnrate = 1450;
+	unitname = aralight;
+	unitnumber =4813;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = ArrowStandardPU;
+	buttonimagedown = ArrowStandardPU;
+	buttonimageselected = ArrowStandardSBh;
+	buttonimageup = ArrowStandardSB;
+	manapershot= 1;
+	model = Araarrow3;
+	explosionclass = fireball explosion;
+	firestarter = 1;
+	name = Lightning Bolts;
+	range = 500;
+	reloadtime = 1;
+	soundhitclass = lightning;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 200;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 15;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	manapershot = 750;
+	middlecolor = 200 230 255;
+	name = Chain Lightning;
+	outercolor = 180 200 255;
+	range = 250;
+	reloadtime = 2.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1150;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 1050;
+	areaofeffect = 70;
+	buttonimagedisabled = LightningBallGPU;
+	buttonimagedown = LightningBallGPU;
+	buttonimageselected = LightningBallGSBh;
+	buttonimageup = LightningBallGSB;
+	explosionclass = blue_shockring;
+	lightmap = medium;
+	manapershot =1000;
+	name = Lightning Bomb;
+	nimbus = 1;
+	range = 500;
+	reloadtime = 1.1;
+	soundhitclass = lightning;
+	type = Guided;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 500;
+	[DAMAGE]
+	{
+		default =2000;
+	}
+}

@@ -1,0 +1,44 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 8192;
+	buildcost = 15000;
+	builddistance = 2200;
+	builder = 1;
+	buildtime = 1522;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA FACTORY;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aracastlDD_dead;
+	corpseadjustz = 3;
+	damagecategory = factory;
+	description = Aramon;
+	experiencepoints = 100;
+	footprintx = 7;
+	footprintz = 14;
+	healtime = 3.17083;
+	maxdamage = 25116;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 1;
+	mogriumstorage = 200;
+	name = Citadel;
+	objectname = ARACASTLDD;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = ARACASTLDD;
+	soundclass = ARACASTLDD;
+	tedclass = Aramon;
+	unitname = ARACASTLDD;
+	unitnumber = 7;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	workertime = 10;
+	yardmap = ....... ....... ....... ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ccccccc ccccccc ccccccc ccccccc;
+}

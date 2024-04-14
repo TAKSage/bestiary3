@@ -1,0 +1,94 @@
+[UNITINFO]
+{
+acceleration = 10;
+animatetype = ILLUNDW;
+attractsgods = 1;
+bloodcolor1 = 70 10 0;
+bloodcolor2 = 90 15 2;
+bloodcolor3 = 50 5 1;
+bmcode = 1;
+bodytype = flesh;
+brakerate = 10;
+buildcost = 543;
+builder = 1;
+builderlimited = 1;
+builddistance = 500;
+buildtime = 150;
+cananimate = 1;
+canattack = 1;
+canguard = 1;
+canhover = 1;
+canmove = 1;
+canpatrol = 1;
+canreclaim = 1;
+//cantbecaptured = 1;
+canstop = 1;
+category = Ill BUILDER;
+copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = Illmonk_dead;
+damagecategory = Human;
+defaultmissiontype = Standby;
+description = Illohir;
+experiencepoints = 7;
+floater = 0;
+frozen = Illmonk_frozen;
+healtime =  0.583333333;
+maneuverleashlength = 350;
+maxdamage = 2300;
+maxvelocity = 1.4;
+//mobilestandorders = 1;
+mogriumincome = 1;
+mogriumstorage = 100;
+movementclass = HOVER2;
+name = ChaosMonk;
+objectname = IllMONK;
+radardistance = 199;
+roadmultiplier = 1.35;
+shadowgaf = shadows;
+shootme = 1;
+side = Ill;
+sightdistance = 188;
+soundcategory = TARMONK;
+soundclass = TARMONK;
+standingunitorder = 2;
+stone = Illmonk_stone;
+tedclass = Illohir;
+ThreeD = 1;
+turninplacerate = 2500;
+turnrate = 2500;
+unitname = IllMONK;
+unitnumber = 100004;
+upright = 1;
+version = 1;
+waterline = 2;
+watermultiplier = 0.4;
+workertime = 11;
+ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+areaofeffect = 30;
+edgeeffectiveness = 1.0;
+buttonimagedisabled = strike_down;
+buttonimagedown = strike_down;
+buttonimageselected = strike_selected;
+buttonimageup = strike_up;
+explosionclass = small smoke explosion;
+name = Bo Staff;
+nimbus = 1;
+range = 90;
+reloadtime = 2.5;
+soundhitclass = staff;
+type = Melee;
+
+[DAMAGE]
+{
+default = 400;
+lodestone = 2.0;
+
+}
+}
+
+

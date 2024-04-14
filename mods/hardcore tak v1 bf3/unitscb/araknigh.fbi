@@ -1,0 +1,86 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 765;
+	//orig buildtime = 198; 84; Now original;
+	buildtime = 198;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	//original no cantbefrozen
+	cantbefrozen = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = araknigh_dead;
+	damagecategory = tier1;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 13;
+	//original no frozen;
+	frozen = arapal_frozen;
+	healtime = 0.783333333;
+	maneuverleashlength = 500;
+	//original maxdamage = 4050;
+	maxdamage = 3550;
+	//original maxvelocity = 2.9;
+	maxvelocity = 4;
+	movementclass = GROUND3;
+	name = (M) Horseman;
+	objectname = ARAKNIGH;
+	shadowart = shadow10;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+//	original sightdistance = 195; 250; now (54%) more
+	sightdistance = 300;
+	soundcategory = ARAKNIGH;
+	soundclass = ARAKNIGH;
+	standingunitorder = 2;
+	stone = araknigh_stone;
+	tedclass = Aramon;
+	turnrate = 1000;
+	unitname = ARAKNIGH;
+	unitnumber = 16;
+	upright = 1;
+	//Based on Cavedog's Crusade's balance;
+	version = M1.0;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 32;
+	edgeeffectiveness = 0.1;
+	name = Flail;
+	range = 100;
+	//original reloadtime = 1.9;
+	reloadtime = 1.7;
+	soundhitclass = hammer;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 435;
+		builder = 0.7;
+		fort = 1.5;		//dmg = 653 (384/s)
+		factory = 0.25;
+		magic = 0.5;
+		monarch = 0.5;
+		support = 0.3;
+		stalwart = 0.5;
+		//this is new
+		tier1 = 2.0;            //dmg = 870
+		archer = 2.6;		//dmg = 1131
+		archer2 = 2;
+		siege = 1.5;		//dmg = 653 (5*pult) 
+		siege2 = 2.5;
+	}
+}

@@ -1,0 +1,80 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildangle = 16000;
+	buildcost = 11100;
+//mogriumbounty = 1110;
+	buildtime = 800;
+	canattack = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	cantbefrozen = 1;
+	category = TAR ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = TARCTOW_dead;
+	damagecategory = skeleton;
+	defaultmissiontype = guard_nomove;
+	description = Taros;
+	experiencepoints = 20;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 1.270833333;
+	fireatwillrandom = 1;
+	maxdamage = 4100;
+	maxslope = 15;
+	//maxwaterdepth = 0;
+	name = Thunderhand;
+	objectname = TARCTOW;
+	radardistance = 600;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 400;
+	soundcategory = TARCTOW;
+	soundclass = TARCTOW;
+	tedclass = Taros;
+	unitname = TARCTOW;
+	unitnumber = 806;
+	version = 1;
+	yardmap = o;
+	waterline = 3;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 30;
+	buttonimagedisabled = ThunderboltPU;
+	buttonimagedown = ThunderboltPU;
+	buttonimageselected = ThunderboltSBh;
+	buttonimageup = ThunderboltSB;
+	duration = 1;
+	edgeeffectiveness = 1;
+	explosionclass = lightning explosion;
+	name = Thunderstorm;
+	noairweapon = 1;
+	particlespersecond = 10;
+	range = 1450;
+	reloadtime = 5;
+	soundhitclass = lightning;
+	subtype = hailstorm;
+	type = Remote Effect;
+	waterexplosionclass = medium water explosion;
+	weaponart = LtngBall_1a;
+	weaponvelocity = 1000000;
+	smoketrail = 1;
+	smokedelay = 100;
+
+	[DAMAGE]
+	{
+		default = 150;
+		mechanical = 1.5;
+		antikingmechanical = 1.5;
+		seamonster = 1.5;
+		steel = 0.5;
+		steelnaval = 0.75;
+		monarch = 0.25;
+	}
+}

@@ -1,0 +1,76 @@
+[UNITINFO]
+{
+	acceleration = 0.35;
+	bmcode = 1;
+	bodytype = stone;
+	brakerate = 10;
+	buildcost = 4500;
+	buildtime = 1200;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+                cantbefrozen = 1;
+	//cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = aralava_dead;
+	damagecategory = monster;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	experiencepoints = 70;
+	healtime = 3.43;
+	maneuverleashlength = 500;
+	maxdamage = 14000;
+	maxvelocity = 1;
+	movementclass = GROUND4;
+	name = Lava Giant;
+	objectname = ARALAVA;
+	radardistance = 700;
+	roadmultiplier = 1.1;
+	shadowart = shadow14;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 235;
+	soundcategory = ARALAVA;
+	soundclass = ARALAVA;
+	standingunitorder = 2;
+                stone = aralava_stone;
+	tedclass = Aramon;
+	turninplacerate = 1200;
+	turnrate = 250;
+	unitname = ARALAVA;
+	unitnumber = 1001;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.9;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	areaofeffect = 50;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = mediflame;
+	model = ararock.3do;
+	name = Flying Stones;
+	range = 1000;
+	reloadtime = 5.0;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	type = ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1550;
+		dragon = 0.5;
+                monarch = 0.25;
+	}
+}

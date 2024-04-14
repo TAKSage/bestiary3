@@ -1,0 +1,141 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 8000;
+//	mogriumbounty = 800;
+	buildtime = 735;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ZON MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zondev_dead;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 35;
+	healtime = 6.0;
+	maneuverleashlength = 500;
+	maxdamage = 12500;
+	maxvelocity = 2.1;
+	movementclass = GROUND3;
+	name = Devourer;
+	objectname = ZONDEV;
+	roadmultiplier = 1.1;
+//	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 250;
+	soundcategory = ZONDEV;
+	soundclass = ZONDEV;
+	standingunitorder = 2;
+	stone = mondev_stone;
+	tedclass = Zhon;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = ZONDEV;
+	unitnumber = 1089;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 24;
+	edgeeffectiveness = 0.7;
+	name = Claw Attack;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 1.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;
+		stone = 0.75;
+		factory = 0.75;
+		monster = 1.5;
+		antikingunshielded = 1.5;
+		antikingmonster = 1.5;
+		unshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		steel = 0.75;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+		mini = 2;
+		
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 75;
+	edgeeffectiveness = 0.7;
+	name = Claw Attack;
+	noairweapon = 1;
+	range = 150;
+	reloadtime = 1.0;
+	soundhitclass = fist;
+	type = Melee;
+explosionclass = blue_shockring;
+
+	[DAMAGE]
+	{
+		default = 750;
+		stone = 0.75;
+		factory = 0.75;
+		monster = 1.5;
+		antikingunshielded = 1.5;
+		antikingmonster = 1.5;
+		unshielded = 1.5;
+		berserker = 1.5;
+		shocky = 1.5;
+		steel = 0.75;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+		mini = 2;
+		
+	}
+}
+
+[WEAPON3]
+{
+	areaofeffect = 75;
+	edgeeffectiveness = 0.7;
+	name = Claw Attack;
+	noairweapon = 1;
+	range = 300;
+	reloadtime = 1.0;
+	soundhitclass = sword;
+	type = Melee;
+explosionclass = yellow_shockring;
+
+	[DAMAGE]
+	{
+		default = 750;
+		monster = 1.75;
+		antikingunshielded = 1.75;
+		antikingmonster = 1.75;
+		unshielded = 1.75;
+		berserker = 1.75;
+		shocky = 1.75;
+		flamedemon = 1.5;
+		antikingflamedemon = 1.5;
+		mini = 2.25;
+		
+	}
+}

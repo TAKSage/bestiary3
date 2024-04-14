@@ -1,0 +1,77 @@
+
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 260;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = VER BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = vermusketeer_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = Veruna;
+	experiencepoints = 15;
+	frozen = vermusketeer_frozen;
+	fireatwillrandom = 1;
+	healtime = 1;
+	maneuverleashlength = 500;
+	maxdamage = 1550;
+	maxvelocity = 1.5;
+	movementclass = GROUND2;
+	name = Musketeer;
+	objectname = VERMUSK;
+	roadmultiplier = 1.21;
+	shadowart = shadow06;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERMUSK;
+	soundclass = VERMUSK;
+	standingunitorder = 1;
+	stone = vermusketeer_stone;
+	tedclass = Veruna;
+	turninplacerate = 2400;
+	turnrate = 2400;
+	unitname = vermusketeer;
+	unitnumber = 1;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Musket;
+	range = 450;
+	reloadtime = 3;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 530;
+
+	[DAMAGE]
+	{
+		default = 506;
+                dragon = 1.1;
+		factory = 1.2;
+		fort = 1.2;
+		god = 0.8;
+		monarch = 0.7;
+		naval = 1.2;
+	}
+}

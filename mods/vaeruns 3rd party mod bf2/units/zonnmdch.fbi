@@ -1,0 +1,101 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 3000;
+	builddistance = 125;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 500;
+	canattack = 1;
+	canguard = 1;
+	//canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	category = ZON MAGIC ATTACK BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonnmdch_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 29;
+	//floater = 0;
+                frozen = zonnmdch_frozen;
+	healtime = 3.795833;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 2755;
+	maxmana = 1000;
+	maxvelocity = 1.71;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = Nomad Chief;
+	objectname = ZONNMDCH;
+	radardistance = 550;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 205;
+	soundcategory = ZONNMDCH;
+	soundclass = ZONNMDCH;
+	standingunitorder = 1;
+	stone = zonnmdch_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONNMDCH;
+	unitnumber = 142831;
+	upright = 1;
+	version = 1;
+	//waterline = 1;
+	workertime = 10;
+
+	[AdjustJoy]
+	{
+		adjustment = 25;
+		affectsenemy = 0;
+		edgeeffectiveness = 1;
+		radius = 200;
+	}
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+                 areaofeffect = 25;
+	buttonimagedisabled = LightningPU;
+	buttonimagedown = LightningPU;
+	buttonimageselected = LightningSBh;
+	buttonimageup = LightningSB;
+	emittime = 10;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 255 255 255;
+	lightmap = medium;
+	middlecolor = 248 254 203;
+	name = Desert Lightning;
+	outercolor = 197 251 153;
+	range = 600;
+	reloadtime = 4;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+                waterexplosionclass = medium water explosion;
+	weaponvelocity = 5000;
+
+	[DAMAGE]
+	{
+		default = 1031;
+                monarch = 0.1;
+	}
+}

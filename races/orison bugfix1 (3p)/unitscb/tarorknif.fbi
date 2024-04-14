@@ -1,0 +1,82 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1720;
+	buildtime = 395;
+	canattack = 1;
+	cancloak = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR MELEE ATTACK;
+	cloakcost = 14;
+	cloakcostmoving = 21;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarorknif_dead;
+	damagecategory = HUMAN;
+	defaultmissiontype = Standby;
+	description = taros;
+	experiencepoints = 33;
+	healtime = 11.5625;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 750;
+	maxmana = 1000;
+	maxvelocity = 2;
+	mincloakdistance = 80;
+	movementclass = GROUND2;
+	name = Externinator;
+	objectname = tarorknif;
+	radardistance = 450;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 200;
+	soundcategory = tarorknif;
+	soundclass = tarorknif;
+	standingunitorder = 0;
+	stone = tarorknif_stone;
+	tedclass = Taros;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = tarorknif;
+	unitnumber = 313;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = aradag;
+	name = Deadly Dagger;
+	range = 180;
+	reloadtime = 3.1;
+	soundhitclass = arrow;
+	spinheading = 50;
+	spinpitch = -2950;
+	subtype = Guided;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 550;
+
+	[DAMAGE]
+	{
+		default = 710;
+		human = 6;
+		tier1 = 6;
+		monster = 6;
+		stalwart = 6;
+
+	}
+}

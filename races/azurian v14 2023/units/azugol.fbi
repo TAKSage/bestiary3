@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	animatetype = AZUKNT;
+	cananimate = 1;
+	canreclaim = 1;
+	builddistance = 350;
+	workertime = 100;
+
+	//ghost=1;
+	acceleration = 10;
+	bloodcolor1 = 0 0 150;
+	bloodcolor2 = 0 0 120;
+	bloodcolor3 = 0 0 110;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 2500;
+	buildtime = 525;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = AZU MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monster;
+	defaultmissiontype = Standby;
+	description = Azurian;
+	experiencepoints = 42;
+	healtime = 0.55;
+	maneuverleashlength = 750;
+	maxdamage = 18888;
+	maxvelocity = 0.9;
+	movementclass = GROUND3;
+	name = Crystal Golem;
+	objectname = AZUGOL;
+	roadmultiplier = 1.1;
+	shadowart = shadow11;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = AZU;
+	sightdistance = 230;
+	soundcategory = AZUGOL;
+	soundclass = AZUGOL;
+	standingunitorder = 2;
+	tedclass = Azurian;
+	turninplacerate = 1200;
+	turnrate = 1200;
+	unitname = AZUGOL;
+	unitnumber = 3208;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.8;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 30;
+	edgeeffectiveness = 0.7;
+	name = Golem Punch;
+	range = 45;
+	reloadtime = 1.8;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1150;
+		monarch = 0.7;
+		tier1 = 2.0;
+	}
+}

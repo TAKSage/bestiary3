@@ -1,0 +1,115 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 20000;
+mogriumbounty = 2000;
+	buildtime = 1800;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+canguard = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+        cantbefrozen = 1;
+	cantbetransported = 1;
+	category = CRE MELEE MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+corpse = cresent_dead;
+	damagecategory = Mechanical;
+	defaultmissiontype = Standby;
+	description = creon;
+	experiencepoints = 255;
+                floater = 0;
+	healtime = 5;
+                immunetoparalyzer = 1;
+               // manarechargerate = 15;
+	maneuverleashlength = 500;
+	maxdamage = 25000;
+	//maxmana = 1400;
+                maxvelocity = 1.5;
+	movementclass = GROUND3;//HOVER4;
+	name = Sentinel;
+//	noveteran = 1;
+	objectname = CreSent;
+	radardistance = 356;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Cre;
+	sightdistance = 350;
+	soundcategory = CRESENT;
+	soundclass = CRESENT;
+	standingunitorder = 2;
+	tedclass = Creon;
+	//totalallowed = 40;
+                turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = CRESENT;
+	unitnumber = 1000;
+	upright = 1;
+	version = 1;
+	waterline = 25;
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 80;
+	edgeeffectiveness = 1;
+	name = Giant steel axe;
+	range = 150;
+	reloadtime = 3;
+	soundhitclass = sword;
+	type = Melee;
+	explosionclass = blue_shockring;
+
+	[DAMAGE]
+	{
+		default = 3500;
+		monarch = 0.5;
+		wood = 1.25;
+		naval = 1.25;
+		unshielded = 1.25;
+		antikingunshielded = 1.25;
+		berserker = 1.25;
+		shocky = 1.25;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 350;
+	damagetype = explosion;
+	edgeeffectiveness = 0.75;
+	explosionclass = megaflame;//xlarge smoke explosion
+	name = boom;
+	firestarter = 1;
+        shakeduration = 2;
+        shakemagnitude = 4;
+	soundhit = nuke1;//ARAFCANHIT1;
+	type = Ballistic;
+         waterexplosionclass = megaflame;//large water explosion
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 5000;
+		factory = 1.25;
+		stone = 1.5;
+		wood = 1.5;
+		naval = 1.5;
+		steelnaval = 1.5;
+		flamedemon = 0.75;
+		antikingflamedemon = 0.75;
+		giantflamedemon = 0.75;
+		god = 0.5;
+		monarch = 0.5;
+		skeleton = 2;
+		kingkiller = 2;
+		steel = 1.25;
+	}
+}

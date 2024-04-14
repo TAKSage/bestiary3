@@ -1,0 +1,78 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 365;
+	buildtime = 80;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahlfsword_dead;
+	damagecategory = halfling;
+	defaultmissiontype = Standby;
+	description = Halfling;
+	experiencepoints = 9;
+	healtime = 0.7;
+	maneuverleashlength = 500;
+	maxdamage = 3400;
+	maxvelocity = 1.64;
+	mogriumincome = -2;
+	movementclass = GROUND2;
+	name = Halfling Swordsman;
+	objectname = ARAHLFSWORD;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 250;
+	soundcategory = HLFSWORD;
+	soundclass = HLFSWORD;
+	standingunitorder = 2;
+	tedclass = Halfling;
+	turninplacerate = 2700;
+	turnrate = 2700;
+	unitname = ARAHLFSWORD;
+	unitnumber = 42532;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+
+	[AdjustAttack]		// Parry
+	{
+		adjustment = 0.675;
+		affectsenemy = 1;
+		edgeeffectiveness = 0.75;
+		radius = 85;
+	}
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	edgeeffectiveness = 0.7;
+	name = Short Sword;
+	range = 25;
+	reloadtime = 1.05;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 399;
+		spirit = 0.5;
+		firespirit = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+		mechanical = 0.75;
+	}
+}

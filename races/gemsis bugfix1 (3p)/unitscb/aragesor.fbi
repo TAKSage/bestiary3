@@ -1,0 +1,110 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 1;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	brakerate = 10;
+	bodytype = Flesh;
+	brakerate = 0.25;
+	buildcost = 641;
+        builddistance = 100;
+        builder = 1;
+        builderlimited = 1;
+	frozen = aragesor_frozen;
+	buildtime = 325;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+        canreclaim = 1;
+	canstop = 1;
+	category = ARA BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARAGESOR_dead;
+        damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = aragesor;
+	experiencepoints = 12;
+	healtime = 2.5;
+	manarechargerate = 25;
+	maneuverleashlength = 300;
+	maxdamage = 3250;
+        maxmana = 2000;
+	maxvelocity = 1.35;
+	maxwaterdepth = 0;
+        mogriumincome = 1;
+        mogriumstorage = 100;
+        movementclass = GROUND2;
+	name = Miner;
+	objectname = aragesor;
+	radardistance = 195;
+        roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ara;
+	sightdistance = 190;
+	soundcategory = aragesor;
+	soundclass = aragesor;
+	yardmap = o;
+	standingunitorder = 2;
+	tedclass = aragesor;
+	turninplacerate = 2500;
+	turnrate = 1000;
+	stone = aragesor_stone;
+	unitname = aragesor;
+	unitnumber = 3296;
+        unitstandorders = 0;
+	upright = 1;
+	version = 1;
+        watermultiplier = 0.85;
+        workertime = 10;
+	weaponswitching = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 31;
+	adgeeffectiveness = 0.7;
+	name = Hamer Of Hell;
+	range = 55;
+	reloadtime = 1.65;
+	soundhitclass = sword;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 1024;
+	emittime = 34;
+	buttonimagedisbaled = lightningPU;
+	buttonimagedown = lightningPU;
+	buttonimageselected = lightningSBh;
+	buttonimageup = lightningSB;
+	explosionclass = lightning explosion;
+	hweffect = lightning;
+	innercolor = 29 252 255;
+	lightmap = medium;
+	middlecolor = 118 0 250;
+	name = Cristal Beam;
+	outercolor = 238 45 0;
+	range = 427;
+	reloadtime = 2.8;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 400;
+
+	[DAMAGE]
+	{
+		default = 726;
+	}
+}
+

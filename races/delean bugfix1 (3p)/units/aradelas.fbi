@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 0.1;
+	bankscale = 0.2;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = 0.075;
+	buildcost = 2894;
+	buildtime = 275;
+	canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 200;
+	damagecategory = aradelas;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 33;
+	fireatwillrandom = 1;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 0.513888889;
+	maneuverleashlength = 500;
+	maxdamage = 3079;
+	maxvelocity = 1.5;
+	maxwaterdepth = 0;
+	moverate1 = 0.01;
+	moverate2 = 0.02;
+	name = Airship;
+	objectname = ARADELAS;
+	radardistance = 1000;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 350;
+	soundcategory = ARADELAS;
+	soundclass = ARADELAS;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	turninplacerate = 0;
+	turnrate = 100;
+	unitname = ARADELAS;
+	unitnumber = 121;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 20;
+	damagetype = explosion;
+	dontleadtargets = 1;
+	explosionclass = large dust puff;
+	name = dropped cannonball of love;
+	range = 200;
+	reloadtime = 2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = rock;
+	subtype = Dropped;
+	type = Ballistic;
+	waterexplosionclass = medium water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 15;
+
+	[DAMAGE]
+	{
+		default = 1370;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 640;
+	explosionclass = teeny explosion;
+	name = Musket;
+	range = 550;
+	reloadtime = 4.1;
+	soundhitclass = cannon;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 800;
+
+	[DAMAGE]
+	{
+		default = 693;
+	}
+}

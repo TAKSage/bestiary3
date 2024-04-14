@@ -1,0 +1,129 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bankscale = 4;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = scale;
+	brakerate = 10;
+	buildcost = 3545;
+	mogriumbounty = 354.5;
+	buildtime = 350;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = CRE MELEE ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = CREDINO_dead;
+	damagecategory = mounted;
+	defaultmissiontype = Standby;
+	description = Creon;
+	experiencepoints = 31;
+	frozen = credino_frozen;
+	healtime = 1.29583;
+	maneuverleashlength = 500;
+	maxdamage = 6250;
+	maxvelocity = 1.20;
+	movementclass = GROUND3;
+	name = Dino Rider;
+	objectname = CREDINO;
+	pitchscale = 1.9;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = CRE;
+	sightdistance = 300;
+	soundcategory = CREDINO;
+	soundclass = CREDINO;
+	standingunitorder = 2;
+	stone = CREDINO_stone;
+	tedclass = Creon;
+	turnrate = 250;
+	unitname = CREDINO;
+	unitnumber = 4229;
+	version = 1;
+	watermultiplier = 0.81;
+//	weaponswitching = 1;
+}
+
+
+[WEAPON1]
+{
+	aimtolerance = 1024;//2000;
+	areaofeffect = 40;
+        buttonimagedisabled = MortarPU;
+	buttonimagedown = MortarPU;
+	buttonimageselected = MortarSBh;
+	buttonimageup = MortarSB;
+	damagetype = explosion;
+	edgeeffectiveness = 0.5;
+	explosionclass = teeny explosion;
+	minrange = 100;//90;
+	gravityadjustment = 2.8;
+	lobpreferred = 1;
+	name = Dino Mortar;
+	noairweapon = 1;
+	range = 850;
+	reloadtime = 2.2;
+	shadowart = weaponshad01;
+	shadowgaf = shadows;
+	soundhitclass = creballcan;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponart = cannbsm;
+	weaponvelocity = 520;
+
+	[DAMAGE]
+	{
+		default = 650;
+		stone = 1.25;
+		factory = 1.25;
+		steelnaval = 0.75;
+		hardscale = 0.5;
+	}
+}
+
+[WEAPON2]
+{
+	areaofeffect = 28;
+	buttonimagedisabled = BeastClawsPU;
+	buttonimagedown = BeastClawsPU;
+	buttonimageselected = BeastClawsSBh;
+	buttonimageup = BeastClawsSB;
+	edgeeffectiveness = 0.7;
+	name = Dino horns;
+	range = 100;//260;
+	reloadtime = 1.75;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 750;//210;//750;
+		monster = 1.5;
+		antikingmonster = 1.5;
+		giant = 1.75;
+		giantundead = 1.5;
+		mechanical = 0.75;
+		antikingmechanical = 0.75;
+		mounted = 2;
+		antikingmounted = 2;
+		stone = 0.75;
+		factory = 0.75;
+		wood = 0.75;
+		skeleton = 0.75;
+		kingkiller = 0.75;
+		shielded = 0.75;
+		steel = 0.75;
+		flamedemon = 1.25;
+		antikingflamedemon = 1.25;
+		giantflamedemon = 1.5;
+		hardscale = 1.25;
+		mini = 2;
+		
+	}
+}

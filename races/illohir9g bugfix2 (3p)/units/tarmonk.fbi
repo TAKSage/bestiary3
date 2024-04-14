@@ -1,0 +1,95 @@
+[UNITINFO]
+{
+	acceleration = 10;
+                attractsgods = 1;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 763;
+                builder = 1;
+                builderlimited = 1;
+                builddistance = 200;
+	buildtime = 191;
+	canattack = 1;
+	canguard = 1;
+                canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+                canreclaim = 1;
+                cantbecaptured = 1;
+	canstop = 1;
+	category = TAR BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tarmonk_dead;
+	damagecategory = Human;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 8;
+                floater = 0;
+                frozen = tarmonk_frozen;
+	healtime =  1.166666666;
+	maneuverleashlength = 300;
+	maxdamage = 1750;
+	maxvelocity = 1.4;
+	mogriumincome = 5;//1;
+                mogriumstorage = 1000;//500;
+	movementclass = HOVER2;
+	name = Chaos Monk;
+	objectname = TARMONK;
+                radardistance = 424;
+	roadmultiplier = 1.35;
+                shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 188;
+	soundcategory = TARMONK;
+	soundclass = TARMONK;
+	standingfireorder = 2;
+                standingmoveorder = 2;
+	standingunitorder = 2;
+                stone = tarmonk_stone;
+	tedclass = Taros;
+                ThreeD = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARMONK;
+	unitnumber = 425744;
+	upright = 1;
+	version = 1;
+                waterline = 2;
+	watermultiplier = 0.75;
+                workertime = 35;//12;
+                ZBuffer = 1;
+
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = strike_down;
+	buttonimagedown = strike_down;
+	buttonimageselected = strike_selected;
+	buttonimageup = strike_up;
+               explosionclass = small smoke explosion;
+	name = Staff;
+                nimbus = 1;
+	range = 90;
+	reloadtime = 2.5;
+	soundhitclass = staff;
+	type = Melee;
+
+	[DAMAGE]
+	{
+	            default = 300;
+                            god = 0.4;
+                            monarch = 0.4;
+                            stalwart = 0.4;
+                            Tier1 = 1.5;
+                            lodestone = 2.0;
+		
+	}
+}
+
+

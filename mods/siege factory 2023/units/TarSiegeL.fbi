@@ -1,0 +1,81 @@
+[UNITINFO]
+{
+	acceleration = .01;
+	bankscale = 2.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = wood;
+	brakerate = .01;
+	buildcost = 1000;
+	buildtime = 1500;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	category = Tar BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = ARASIEGE_dead;
+	damagecategory = Siege;
+	defaultmissiontype = Standby;
+	description = Siege;
+	experiencepoints = 55;
+	healtime = 4;
+	maneuverleashlength = 100;
+	maxdamage = 10000;
+	maxvelocity = 1.25;
+	movementclass = GROUND4;
+	name = Ballista Tower;
+	objectname = TarSIEGEL;
+	pitchscale = 2.5;
+	radardistance = 450;
+	roadmultiplier = 2;
+	shadowart = shadow13;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = Tar;
+	sightdistance = 325;
+	soundcategory = ARASIEGEL;
+	soundclass = ARASIEGEL;
+	standingunitorder = 2;
+	totalallowed = 2;
+	tedclass = Siege;
+	turninplacerate = 90;
+	turnrate = 45;
+	unitname = TarSIEGEL;
+	unitnumber = 12121215;
+	version = 1;
+	watermultiplier = 0.25;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1600;
+	areaofeffect = 25;
+	explosionclass = large dust puff;
+	model = arabolt;
+	name = Mounted Ballista;
+	range = 800;
+	reloadtime = 3;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 650;
+
+	[DAMAGE]
+	{
+		default = 1500;
+		monarch = .25;
+		fort = 2;
+		factory = 2;
+		lodestone = 2;
+		naval = 2;
+		siege = .25;
+		airship = 2;
+		dragon = 2;
+	}
+}

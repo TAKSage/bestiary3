@@ -1,0 +1,87 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 7000;
+	builddistance = 75;
+	builder = 1;
+	builderlimited = 1;
+	buildtime = 1000;
+	canattack = 1;
+	canbuild = 1;
+	canguard = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = ZON BUILDER;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = zonlord_dead;
+	damagecategory = stalwart;
+	defaultmissiontype = Standby;
+	description = Zhon;
+	experiencepoints = 100;
+	fireatwillrandom = 1;
+	frozen = zonlord_frozen;
+	healtime = 3;
+	maneuverleashlength = 500;
+	maxdamage = 10000;
+	maxvelocity = 1.75;
+	mogriumincome = 1;
+	mogriumstorage = 100;
+	movementclass = GROUND2;
+	name = T3 Beast Lord;
+	objectname = ZONLORD;
+	radardistance = 600;
+	roadmultiplier = 1.21;
+	shadowart = shadow03;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ZON;
+	sightdistance = 400;
+	soundcategory = ZONLORD;
+	soundclass = ZONLORD;
+	standingunitorder = 2;
+	stone = zonlord_stone;
+	tedclass = Zhon;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = ZONBEASTLORD;
+	unitnumber = 174;
+	upright = 1;
+	version = 1;
+	waterline = 15;
+	watermultiplier = 0.81;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = zonbolo;
+	name = bolo;
+	range = 400;
+	reloadtime = 1.6;
+	soundhitclass = arrow;
+	spinheading = 4500;
+	turnrate = 180;
+	type = Guided;
+	veteranlevel = 10;
+	veteranmodel = zonbolo_10;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 500;
+	}
+}

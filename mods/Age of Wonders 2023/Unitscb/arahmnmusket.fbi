@@ -1,0 +1,74 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 1375;
+	buildtime = 250;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = arahmnmusket_dead;
+	damagecategory = human;
+	defaultmissiontype = Standby;
+	description = Human;
+	experiencepoints = 17;
+	healtime = 0.6;
+	maneuverleashlength = 500;
+	maxdamage = 3250;
+	maxvelocity = 1.15;
+	mogriumincome = -7;
+	movementclass = GROUND2;
+	name = Musketeer;
+	objectname = ARAHMNMUSKET;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 300;
+	soundcategory = VERMUSK;
+	soundclass = VERMUSK;
+	standingunitorder = 2;
+	tedclass = Human;
+	turninplacerate = 2750;
+	turnrate = 2750;
+	unitname = ARAHMNMUSKET;
+	unitnumber = 42507;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	explosionclass = teeny explosion;
+	name = Musket;
+	range = 700;
+	reloadtime = 8.75;
+	soundhitclass = cannon;
+	type = Ballistic;
+	weaponart = cannbsm;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 1750;
+		spirit = 0.5;
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+

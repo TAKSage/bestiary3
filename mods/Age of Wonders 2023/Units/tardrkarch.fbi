@@ -1,0 +1,75 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 70 10 0;
+	bloodcolor2 = 90 15 2;
+	bloodcolor3 = 50 5 1;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 600;
+	buildtime = 95;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = TAR BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = tardrkarch_dead;
+	damagecategory = darkelf;
+	defaultmissiontype = Standby;
+	description = Dark Elf;
+	experiencepoints = 10;
+	healtime = 0.75;
+	maneuverleashlength = 500;
+	maxdamage = 3100;
+	maxvelocity = 1.22;
+	mogriumincome = -3;
+	movementclass = GROUND2;
+	name = Dark Elf Archer;
+	objectname = TARDRKARCH;
+	roadmultiplier = 1.35;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 450;
+	soundcategory = DRKARCH;
+	soundclass = DRKARCH;
+	standingunitorder = 2;
+	tedclass = Dark Elf;
+	turninplacerate = 2600;
+	turnrate = 2600;
+	unitname = TARDRKARCH;
+	unitnumber = 42573;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 1024;
+	model = aowdarkelfarrow;
+	name = Bow and Arrows;
+	range = 500;
+	reloadtime = 5.35;
+	soundhitclass = arrow;
+	type = Ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 840;
+
+	[DAMAGE]
+	{
+		default = 950;
+		spirit = 0.5;	
+		firespirit = 0.5;
+		undead = 0.5;
+		city = 0.035;
+		factory = 0.035;
+		fort = 0.035;
+		building = 0.035;
+		mechanical = 0.5;
+		naval = 0.5;
+	}
+}
+

@@ -1,0 +1,135 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 900000;
+	buildtime = 450000;
+	canattack = 1;
+	canhover = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+	cantbefrozen = 1;
+       // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = TAR MELEE ATTACK MAGIC GOD;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = God;
+	defaultmissiontype = Standby;
+	description = Taros;
+	experiencepoints = 2000;
+	healtime = 9000.25;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 1000;
+	maxdamage = 29999;
+	maxvelocity = 3.4;
+	movementclass = HOVER5;
+	name = Belial;
+	noveteran = 1;
+	objectname = TARDIETY;
+	radardistance = 10000;
+	shadowgaf = shadows;
+	shootme = 0;
+	side = TAR;
+	sightdistance = 3500;
+	soundcategory = TARDIETY;
+	soundclass = TARDIETY;
+	standingunitorder = 2;
+	tedclass = Taros;
+	totalallowed = 1;
+	turninplacerate = 2500;
+	turnrate = 2500;
+	unitname = TARDIETY;
+	unitnumber = 1797541;
+	upright = 1;
+	version = 1;
+	waterline = 32;
+
+}
+
+[WEAPON1]
+{
+	areaofeffect = 1000;
+                damagetype = explosion;
+	edgeeffectiveness = 1;
+	name = War Hammer;
+                noairweapon = 1;
+	range = 500;
+	reloadtime = 1.5;
+	soundhitclass = cannon;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 15000;
+		monarch = 0.1;
+                god = 0.1;
+                dragon = 0.25;
+                fort = 0.25;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 33000;
+	areaofeffect = 550;
+	builduptime = 0.5;
+	decaytime = 2.5;
+	duration = 18;
+                edgeeffectiveness = 1;
+	maxvariation = 9;
+	name = Fire Vortex;
+	nimbus = 1;
+	range = 3000;
+	reloadtime = 2;
+              // soundhit = crelbeam;
+	soundhitclass = crelbeam;
+	type = wandering;
+	variationtime = 2;
+	wanderendart = flamevortexend;
+	wanderloopart = flamevortexloop;
+	wanderstartart = flamevortexstart;
+	weaponvelocity = 100;
+
+	[DAMAGE]
+	{
+		default = 20321;
+		monarch = 0.1;
+                god = 0.1;
+                dragon = 0.25;
+                fort = 0.25;
+	}
+}
+[WEAPON3]
+{
+                aimtolerance = 1024;
+	areaofeffect = 1000;
+                duration = 2.5;
+                edgeeffectiveness = 1;
+	explosionclass = Volcblast;
+	firestarter = 1;
+	lightmap = small;
+	name = Belial's Hell;
+                nimbus = 1;
+                particlespersecond = 5;
+	range = 3000;
+	reloadtime = 2.5;
+	soundhitclass = fire;
+                subtype = hailstorm;
+	type = Remote Effect;
+	weaponart = FireballB;
+	weaponvelocity = 1000;
+            
+	[DAMAGE]
+	{
+		default = 18000;
+		dragon = 0.25;
+                monarch = 0.1;
+                god = 0.1;
+                fort = 0.25;
+	}
+}

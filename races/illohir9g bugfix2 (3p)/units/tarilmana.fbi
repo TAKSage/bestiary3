@@ -1,0 +1,43 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 3645;
+	buildtime = 531;
+                cantbecaptured = 1;
+                cantbefrozen = 1;
+	cantbestoned = 1;
+	category = TAR;
+	cantbefrozen = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Taros;
+	experiencepoints = 30;
+                floater = 0;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 3.5;
+                immunetoparalyzer = 1;
+	maxdamage = 16500;
+	maxslope = 30;
+	maxwaterdepth = 10;
+	mogriumincome = 40;//22;
+	mogriumstorage = 8100;//2100;
+	name = Chaos Lodestone;
+	objectname = Tarilmana ;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = TAR;
+	sightdistance = 140;
+	soundcategory = tarilmana;
+	soundclass = tarilmana;
+	tedclass = taros;
+                 ThreeD = 1;
+	unitname = tarilmana;
+	unitnumber = 451255;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+                waterline = 2;
+	yardmap = S;
+               ZBuffer = 1;
+}

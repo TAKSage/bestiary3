@@ -1,0 +1,36 @@
+[UNITINFO]
+{
+	bodytype = stone;
+	buildcost = 8564;
+	buildtime = 1450;
+	cantbestoned = 1;
+	cantbefrozen = 1;
+	category = zon;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = lodestone;
+	description = Zhon;
+	experiencepoints = 13;
+	footprintx = 2;
+	footprintz = 2;
+	healtime = 4.175;
+	maxdamage = 15092;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	mogriumincome = 20;
+	mogriumstorage = 2000;
+	name = Divine Lodestone;
+	objectname = zonLIZmana;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = zon;
+	sightdistance = 145;
+	soundcategory = ARALODE;
+	soundclass = ARALODE;
+	tedclass = Lizarions;
+	unitname = zonLIZmana;
+	unitnumber = 15817;
+	unitstandorders = 0;
+	version = 1;
+	wind = 1;
+	yardmap = S;
+}

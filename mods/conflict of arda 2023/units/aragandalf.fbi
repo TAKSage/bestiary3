@@ -1,0 +1,151 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 10;
+	buildcost = 100000;
+	builddistance = 100;
+	builder = 1;
+	buildtime = 10;
+	canattack = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canreclaim = 1;
+	canstop = 1;
+	cantbestoned = 1;
+	category = ARA Monarch;
+	commander = 1;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = Monarch;
+	defaultmissiontype = Standby;
+	description = Aramon;
+	economybonus = 80;
+	experiencepoints = 151;
+	healtime = 0.015;
+	manarechargerate = 20;
+	maneuverleashlength = 500;
+	maxdamage = 18500;
+	maxmana = 1000;
+	maxvelocity = 2.1;
+	mogriumincome = 20;
+	mogriumstorage = 5000;
+	movementclass = GROUND2;
+	name = Gandalf;
+	noveteran = 1;
+	objectname = aragandalf;
+	radardistance = 650;
+	roadmultiplier = 1.21;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 232;
+	soundcategory = ARAKING;
+	soundclass = ARAKING;
+	standingunitorder = 1;
+	tedclass = Aramon;
+	totalallowed = 1;
+	turninplacerate = 1500;
+	turnrate = 1500;
+	unitname = aragandalf;
+	unitnumber = 15000;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.81;
+	weaponswitching = 1;
+	workertime = 10;
+}
+
+[WEAPON1]
+{
+	areaofeffect = 50;
+	aimtolerance = 2000;
+	buttonimagedisabled = CapturePU;
+	buttonimagedown = CapturePU;
+	buttonimageselected = CaptureSBh;
+	buttonimageup = CaptureSB;
+	emittime = 80;
+	explosionclass = teeny explosion;
+	firestarter = 1;
+	hweffect = creon lightbeam;
+	innercolor = 255 255 150;
+	manapershot = 200;
+	middlecolor = 230 230 145;
+	outercolor = 200 200 140;
+	lightmap = large;
+	minrange = 50;
+	name = Flame of Anor;
+	range = 500;
+	reloadtime = 3.2;
+	soundhitclass = crelbeam;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1250;
+	}
+}
+
+[WEAPON2]
+{
+	aimtolerance = 2000;
+	areaofeffect = 35;
+	buttonimagedisabled = DeathSwordPU;
+	buttonimagedown = DeathSwordPU;
+	buttonimageselected = DeathSwordSBh;
+	buttonimageup = DeathSwordSB;
+	model = araarrowI;
+	name = Staff Jab;
+	range = 400;
+	reloadtime = 2.9;
+	soundhitclass = hammer;
+	type = Ballistic;
+	waterexplosionclass = large water explosion;
+	weaponvelocity = 725;
+
+	[DAMAGE]
+	{
+		default = 850;
+	}
+}
+
+[WEAPON3]
+{
+	aimtolerance = 33000;
+	areaofeffect = 600;
+	builduptime = 1;
+	buttonimagedisabled = WaterBurstPU;
+	buttonimagedown = WaterBurstPU;
+	buttonimageselected = WaterBurstSBh;
+	buttonimageup = WaterBurstSB;
+	decaytime = 0.9;
+	edgeeffectiveness = 1;
+	manapershot = 900;
+	name = Power Blast;
+	nimbus = 1;
+	radiusart0 = TsunamiExplode;
+	radiusart1 = TsunamiExplode;
+	radiusart2 = TsunamiExplode;
+	range = 120;
+	reloadtime = 1.5;
+	ringcount = 2;
+	ringdelay = 0.15;
+	ringduration = 1.2;
+	showeffect = 0;
+	soundhit = arrow08;
+	spritecount = 23;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 1000;
+
+	[DAMAGE]
+	{
+		default = 3000;
+	}
+}

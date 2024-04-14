@@ -1,0 +1,154 @@
+[UNITINFO]
+{
+	acceleration = 10;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = flesh;
+	brakerate = 10;
+	buildcost = 1000;
+	buildtime = 260;
+	builddistance = 100;
+	builder = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	category = ARA BUILDER MAGIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	damagecategory = dwarf;
+	defaultmissiontype = Standby;
+	description = Dwarf;
+	experiencepoints = 18;
+	healtime = 1;
+	manarechargerate = 10;
+	maneuverleashlength = 500;
+	maxdamage = 7750;
+	maxmana = 1000;
+	maxvelocity = 1.1;
+	mogriumincome = -4;
+	movementclass = MOUNTAIN2;
+	name = Dwarf Cleric;
+	objectname = ARADWRPRIEST;
+	radardistance = 500;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 260;
+	soundcategory = ARABUILD;
+	soundclass = ARABUILD;
+	standingunitorder = 1;
+	tedclass = Dwarf;
+	turnrate = 2500;
+	unitname = ARADWRPRIEST;
+	unitnumber = 42555;
+	upright = 1;
+	version = 1;
+	watermultiplier = 0.75;
+	weaponswitching = 1;
+	workertime = 20;
+}
+
+[WEAPON1]
+{
+	buttonimagedisabled = magicstrike_down;
+	buttonimagedown = magicstrike_down;
+	buttonimageselected = magicstrike_selected;
+	buttonimageup = magicstrike_up;
+	areaofeffect = 35;
+	edgeeffectiveness = 0.75;
+	explosionclass = lightning explosion;
+	lightmap = small;
+	name = Magic Strike;
+	range = 30;
+	reloadtime = 2.2;
+	soundhitclass = fist;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 650;
+		spirit = 1.5;
+		firespirit = 1.5;
+		syron = 0.5;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON2]
+{
+	buttonimagedisabled = magicbolt_down;
+	buttonimagedown = magicbolt_down;
+	buttonimageselected = magicbolt_selected;
+	buttonimageup = magicbolt_up;
+	aimtolerance = 1024;
+	emittime = 60;
+	explosionclass = mindspin;
+	hweffect = magicbolt;
+	lightmap = large;
+	manapershot = 180;
+	name = Magic Bolt;
+	range = 350;
+	reloadtime = 6.5;
+	soundhitclass = lightning;
+	subtype = lightning;
+	type = Line of Sight;
+	weaponvelocity = 2000;
+
+	[DAMAGE]
+	{
+		default = 1050;
+		spirit = 2;
+		firespirit = 2;
+		syron = 0;
+		halfling = 0.75;
+		elf = 0.85;
+		darkelf = 0.85;
+		goblin = 1.325;
+		lizard = 1.2;
+		city = 0.1;
+		factory = 0.1;
+		fort = 0.1;
+		building = 0.1;
+	}
+}
+
+[WEAPON3]
+{
+	buttonimagedisabled = turnundead_down;
+	buttonimagedown = turnundead_down;
+	buttonimageselected = turnundead_selected;
+	buttonimageup = turnundead_up;
+	areaofeffect = 25;
+	damagetype = paralyzer;
+	edgeeffectiveness = 0.75;
+	explosionclass = yellow_shockring;
+	lightmap = large;
+	manapershot = 700;
+	name = Turn Undead;
+	range = 35;
+	reloadtime = 6;
+	soundhit = turnund;
+	type = Melee;
+
+	[DAMAGE]
+	{
+		default = 1;
+		undead = 2500;
+		fort = 0;
+		building = 0;
+		city = 0;
+		factory = 0;
+		naval = 0;
+		mechanical = 0;
+	}
+}
+

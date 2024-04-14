@@ -1,0 +1,112 @@
+[UNITINFO]
+{
+	acceleration = 0.25;
+	//attackrunlength = 100;
+	bankscale = 0.5;
+	bloodcolor1 = 160 35 0;
+	bloodcolor2 = 170 40 0;
+	bloodcolor3 = 180 30 5;
+	bmcode = 1;
+	bodytype = armor;
+	brakerate = 1.5;
+	buildcost = 33567;
+	buildtime = 5133;
+               canattack = 1;
+	canfly = 1;
+	canguard = 1;
+	canmove = 1;
+	canpatrol = 1;
+	canstop = 1;
+	cantbecaptured = 1;
+                cantbefrozen = 1;
+            // cantbeparalyzed = 1;
+	cantbestoned = 1;
+	cantbetransported = 1;
+	category = ARA FLY BALLISTIC ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	cruisealt = 125;
+	damagecategory = monster;
+	defaultmissiontype = VTOL_standby;
+	description = Aramon;
+	experiencepoints = 200;
+	footprintx = 4;
+	footprintz = 4;
+	healtime = 88.29;
+                hoverattack = 1;
+                hoverattackdistance = 200;
+                immunetoparalyzer = 1;
+	maneuverleashlength = 500;
+	maxdamage = 25666;
+	maxvelocity = 9.0;
+	maxwaterdepth = 0;
+	name = DragonBane;
+	objectname = ARADRS;
+	radardistance = 500;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = ARA;
+	sightdistance = 210;
+	soundcategory = ARADRS;
+	soundclass = ARADRS;
+	standingunitorder = 2;
+	stone = aradrs_stone;
+	tedclass = Aramon;
+	totalallowed = 3;
+	turninplacerate = 1000;
+	turnrate = 1000;
+	unitname = ARADRS;
+	unitnumber = 1092;
+	upright = 1;
+	version = 1;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 512;
+	areaofeffect = 30;
+                edgeeffectiveness = 0.5;
+	explosionclass = small dust puff;
+	model = dragonspear;
+	name = DragonSlayer Spear;
+	range = 700;
+	reloadtime = 3.4;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1440;
+		god = 0.25;
+		monarch = 0.15;
+		dragon = 2.0;
+                                airship = 2.0;
+                                monster = 2.0;
+	}
+}
+[WEAPON2]
+{
+	aimtolerance = 512;
+	areaofeffect = 30;
+                edgeeffectiveness = 0.5;
+	explosionclass = small dust puff;
+	model = dragonspear;
+	name = DragonSlayer Spear;
+	range = 700;
+	reloadtime = 3.6;
+	soundhitclass = arrow;
+	type = ballistic;
+	waterexplosionclass = small water explosion;
+	weaponvelocity = 500;
+
+	[DAMAGE]
+	{
+		default = 1640;
+		god = 0.25;
+		monarch = 0.15;
+		dragon = 1.5;
+                                airship = 1.5;
+                                monster = 1.5;
+	}
+}

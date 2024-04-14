@@ -1,0 +1,120 @@
+[UNITINFO]
+{
+        bmcode = 0;
+	bodytype = stone;
+	buildcost = 51070;
+	buildtime = 9850;
+        canattack = 1;
+        canstop = 1;
+	cantbefrozen = 1;
+	cantbestoned = 1;
+	cantbecaptured = 1;
+	cantbetransported = 1;
+	category = VER ATTACK;
+	copyright = Copyright 1999 Humongous Entertainment. All rights reserved.;
+	corpse = verora_dead;
+        damagecategory = fort;
+        defaultmissiontype = guard_nomove;
+	description = Veruna;
+	experiencepoints = 60;
+	footprintx = 4;
+	footprintz = 4;
+	frozen = verora_frozen;
+	healtime = 1;
+        //manarechargerate = 4;
+	maxdamage = 16000;
+        //maxmana = 1000;
+	maxslope = 15;
+	maxwaterdepth = 0;
+	name = Golden Oracle;
+        //noveteran = 1;
+	objectname = VERORA;
+	shadowgaf = shadows;
+	shootme = 1;
+	side = VER;
+	sightdistance = 400;
+	soundcategory = VERORA;
+	soundclass = VERORA;
+        standingunitorder = 0;
+	stone = verora_stone;
+	tedclass = Veruna;
+	unitname = VERORA;
+        unitnumber = 4237;
+	version = 1;
+	wind = 1;
+	yardmap = o;
+}
+
+[WEAPON1]
+{
+	aimtolerance = 33000;
+	areaofeffect = 550;
+	builduptime = 1;
+	decaytime = 5;
+	edgeeffectiveness = 1;
+        firestarter = 1;
+        lightmap = medium;
+	//manapershot = 1000;
+	name = shock wave;
+	noairweapon = 1;
+	nimbus = 1;
+	radiusart0 = whirlwindend;
+	radiusart1 = whirlwindend;
+	radiusart2 = whirlwindend;
+	range = 1500;
+	reloadtime = 10;
+	ringcount = 5;
+	ringdelay = 0.10;
+	ringduration = 4.6;
+	showeffect = 0;
+	soundhit = shockwave;
+        shakeduration = 3;
+        shakemagnitude = 6;
+	spritecount = 30;
+	type = Remote Effect;
+	unitsonly = 1;
+	weaponvelocity = 200;
+
+	[DAMAGE]
+	{
+		default = 1550;
+		flesh = 1;
+		armor = 0.9;
+		fly = 0.9;
+		dragon = 0.8;
+		factory = 1.1;
+		fort = 1.1;
+		lodestone = 0.8;
+		naval = 1;
+		undead = 0.9;
+		siege = 1;
+		monarch = 0.3;
+		builder = 0.8;
+	}
+}
+
+[EXPLODEAS]
+{
+	areaofeffect = 250;
+	damagetype = explosion;
+	edgeeffectiveness = 0.7;
+	explosionclass = megaflame;
+	name = boom;
+//	range = 600;
+//	reloadtime = 6.5;
+        shakeduration = 2;
+        shakemagnitude = 6;
+        soundhit = die;
+	type = Ballistic;
+//	waterexplosionclass = megaflame;
+	weaponvelocity = 300;
+
+	[DAMAGE]
+	{
+		default = 1200;
+		monarch = 0.6;
+	}
+}
+
+
+
