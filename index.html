@@ -1,96 +1,172 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Maximus presents... The Total Annihilation: Kingdoms Bestiary</title>
+    <title>Maximus presents... The Total Annihilation: Kingdoms Bestiary</title>
 </head>
 
-<body style="margin-left: 20px; margin-right: 20px; margin-top: 0px; margin-bottom: 0px; background-color: white; color: black; font: 10pt verdana, sans-serif; background-image: url(../images/bg.gif);">
+<body style="margin-left: 20px; margin-right: 20px; margin-top: 0; margin-bottom: 0; background-color: white; color: black; font-family: verdana, sans-serif; font-size: 10pt; background-image: url(../images/bg.gif);">
+    <center><a href="index.html"><img src="../images/zhondrake.gif" alt="Click the Beast to send you back Home" width="700" height="133" border="0"></a></center>
+    <div align="center">
+        <font size="1">Maximus presents...</font><br /><br />
+        <font size="3"><u>The Total Annihilation: Kingdoms Bestiary</u></font><br /><br />
+        Version: 3.0<br /><br />
+    </div>
 
-<!-- google analytics code -->
-<script>
-  function loadAnalytics() {
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-    ga.src = '//www.google-analytics.com/analytics.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-  }
-  loadAnalytics();
-</script>
-<!-- ends google analytics -->
+    <div align="center">
+        <!-- google adds -->
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9736993425945945";
+            /* takingdoms_net1 */
+            google_ad_slot = "3329110711";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        <!-- ends google adds -->
+    </div>
 
-<style>
-	body {
-		background-color: white;
-		color: black;
-		font: 10pt verdana, sans-serif;
-		background-image: url(../images/bg.gif);
-	}
-	td {
-		color: black;
-		font: 8pt verdana, sans-serif;
-	}
-	a:link, a:visited, a:active {
-		background: none;
-		font-weight: bold;
-		color: #1F44CD;
-		font-size: 10pt;
-		font-family: "Times New Roman", Times, Serif;
-		text-decoration: none;
-	}
-	a:hover {
-		color: #0000FF;
-		text-decoration: underline;
-	}
-	table {
-		width: 100%;
-		font: 8pt;
-		background-color: #555555;
-	}
-	table tr td {
-		background-color: white;
-		background-image: url(../images/bg.gif);
-	}
-	.storytitle {
-		background: none;
-		color: #00009E;
-		font-size: 10pt;
-		font-weight: bold;
-		font-family: "Times New Roman", Times, Serif;
-		text-decoration: none;
-	}
-</style>
+    <?php
+    function getmicrotime(){  
+        list($usec, $sec) = explode(" ",microtime());
+        return ((float)$usec + (float)$sec);  
+    }
+    $time_start = getmicrotime();
+    if(!@$lib) require("library.html");
+    // parse query string
+    $lib->get = $_GET;
+    function strip_slashes(&$item,$key) {
+        if(is_array($item))
+            return array_walk($item, 'strip_slashes');
+        $item = stripslashes($item);
+    }
+    array_walk($lib->get, 'strip_slashes'); 
+    //$lib->parse_get();
+    // end of parse
+    if(@$lib->get['opt']['notice'])error_reporting(E_ALL);
+    else error_reporting(E_ALL & ~E_NOTICE);
 
-<center>
-	<a href="index.html">
-		<img src="../images/zhondrake.gif" alt="Click the Beast to send you back Home" width="700" height="133" border="0">
-	</a>
-</center>
-<div align="center">
-	<font size="1">Maximus presents...</font><br /><br />
-	<font size="3"><u>The Total Annihilation: Kingdoms Bestiary</u></font><br /><br />Version: 3.0<br /><br />
-</div>
+    if(@$lib->get['opt'])
+        foreach(@$lib->get['opt'] as $key=>$opt)
+            $lib->get['opt'][$opt] = 1;
+    $panel_mode = @$lib->get['panel_mode'];
 
-<div align="center">
-	<!-- google adds -->
-		<script>
-			(function() {
-				var adScript = document.createElement('script');
-				adScript.type = 'text/javascript';
-				adScript.async = true;
-				adScript.src = 'http://pagead2.googlesyndication.com/pagead/show_ads.js';
-				document.head.appendChild(adScript);
-			})();
-		</script>
-	<!-- ends google adds -->
-</div>
+    // parse all directories
+    $lib->parse_directories();
+    // end of parsing all directories
 
-<div>
-	<?php
-		// PHP code goes here
-	?>
-</div>
+    if(!@$lib->get['opt']['no_panel'] == 1)include("bestiary_panel.html");
 
+    // fbi debug
+    if(@$lib->get['opt']['debug_fbi']) $lib->debug_code = true;
+    // end of
+    // limit filter
+    $mods = 0;
+    $races = 0;
+    $selected = "Selected Sets/Mods/Races:<br><Br>\n\n";
+    $race_select = @count($lib->get['race']);
+
+    if($race_select != 0 && $lib->get['race'][0] == "All") $race_select = 5;
+    $len = @count($lib->get["path"]);
+    for($i = 0; $i < $len; $i++) {
+        $path = $lib->get["path"][$i];
+        $paths = explode("/",$path);
+        if($paths[0] == "sets" || $paths[0] == "mods") {
+            $races += $race_select;
+            $selected .= "$path [$race_select race(s)]<Br>\n";
+            $mods++;
+        }
+        else if($paths[0] == "races") {
+            $races++;
+            $selected .= "$path: [1 race]<Br>\n";
+        }
+    }
+    if($races > $lib->races_limit || $mods > $lib->mods_limit) {
+        echo ($races>$lib->races_limit?"<b>Too many races selected [$races] must be {$lib->races_limit} or less!</b><br><Br>\n\n":"").($mods>$lib->mods_limit?"<b>Too many sets/mods selected [$mods] must be {$lib->mods_limit} or less!</b><Br><br>\n\n":"").$selected."<br><br>";
+        @$lib->get['path'] = "";
+    }
+    // end of
+
+    // parse race filter
+    $race_filter = "";
+    if( @$lib->get['race'] && $lib->get['race'][0] != "All" )
+        foreach($lib->get['race'] as $race)
+            $race_filter .= "race=\"$race\" or ";
+    $race_filter = $lib->remove_last_chars($race_filter,4);
+    // end of parsing
+
+    // parse object filter
+    $object_filter = "";
+    if( @$lib->get['object'] )
+        foreach($lib->get['object'] as $object)
+            $object_filter .= "object=\"$object\" or ";
+    $object_filter = $lib->remove_last_chars($object_filter,4);
+    // end of parsing
+
+    // number of the results per page
+    $num_results = $lib->num_results_per_page;
+    $current_page = $lib->get_current_page();
+    $start = ($current_page - 1) * $num_results;
+    // end of
+    $time_end = getmicrotime();
+    $time = $time_end - $time_start;
+    if($lib->debug_code)echo "<font size=\"1\">Elapsed time: $time seconds</font><br><Br>\n\n";
+    // query
+    $where = "";
+    if($race_filter) $where .= "($race_filter) and ";
+    if($object_filter) $where .= "($object_filter) and ";
+    if(!$lib->debug_code) $where .= "object!='' and ";
+    $where = $lib->remove_last_chars($where,5);
+    $result = $lib->select("objects","*",$where,"object");
+    if(!$result) {
+        $message = "<b>No Records</b>";
+        echo "<font size=\"1\">".$message."</font><br><Br>\n\n";
+    }
+    else {
+        $num_results = $lib->num_results;
+        $total_results = $lib->count("objects");
+        echo "<font size=\"1\">Found: $total_results object(s)</font><br><Br>\n\n";
+        $pagination = $lib->pagination("objects");
+        echo "<font size=\"1\">$pagination</font><br><Br>\n\n";
+        echo "<table border=\"0\" cellspacing=\"0\" cellpadding=\"1\" width=\"100%\">";
+        $rowcount = 0;
+        $half = ceil($num_results / 2);
+        for($i = 0; $i < $num_results; $i++) {
+            $row = $lib->fetch_array($result);
+            if($rowcount == 0) echo "<tr>";
+            $rowcount++;
+            echo "<td valign=\"top\">";
+            $lib->show_object($row);
+            echo "</td>";
+            if($rowcount == $half || $rowcount == $num_results) {
+                echo "</tr>\n";
+                $rowcount = 0;
+            }
+        }
+        echo "</table>";
+        echo "<font size=\"1\"><Br>$pagination</font><br><Br>\n\n";
+    }
+    ?>
+    <div align="center">
+        <!-- google adds -->
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-9736993425945945";
+            /* takingdoms_net2 */
+            google_ad_slot = "4146777682";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        <!-- ends google adds -->
+    </div>
+    <br /><br />
+    <div align="center"><font size="1"><a href="mailto:maximus@takingdoms.net">contact the Bestiary developer</a></font></div>
+    <br /><br /><br />
+    <center>
+        <font size="1">All rights reserved - 2004 - Maximus </font>
+        <br /><br />
+        <font size="1">Last updated: September 29th, 2004 - v3.0 </font>
+    </center>
 </body>
 </html>
