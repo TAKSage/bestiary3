@@ -1,0 +1,9 @@
+<div class="bz-field">
+    <span class="bz-label">@Label</span>
+    <span class="bz-value">@(string.IsNullOrEmpty(Value) ? "—" : Value)</span>
+</div>
+
+@code {
+    [Parameter] public string Label { get; set; } = "";
+    [Parameter] public string? Value { get; set; }
+}

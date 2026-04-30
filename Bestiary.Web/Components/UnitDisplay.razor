@@ -1,0 +1,265 @@
+@using System.Text
+@using Bestiary.Core.Models
+@using Bestiary.Core.Utilities
+@using Bestiary.Core.Services
+@using Microsoft.AspNetCore.Components
+
+@if (Unit is null || Set is null || Cave is null)
+{
+    <p>Missing unit data.</p>
+}
+else
+{
+    var ui = FbiDataUtilities.GetDict(Unit!.Data.GetValueOrDefault("UNITINFO"));
+    var name = FbiDataUtilities.GetString(ui, "name") ?? Unit.FileStem;
+    var anchor = $"{Unit.UnitsPath}/{Unit.FileStem}";
+    var buildPicUrl = MediaResolver.ResolveBuildpic(Unit.FileStem, FbiDataUtilities.GetString(ui, "unitname"), Set!, Cave!);
+    var keys = AllKeys ?? new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+    var trees = BuildMenuList(Unit, Set!);
+
+    <article class="bz-unit-card" id="@anchor">
+        <header class="bz-unit-header">
+            <div class="bz-unit-portrait">
+                @if (!NoImages && buildPicUrl is not null)
+                {
+                    <img src="@buildPicUrl" width="80" height="60" alt="" />
+                }
+                else if (!NoImages)
+                {
+                    <span class="bz-warn">No image</span>
+                }
+                else
+                {
+                    <span class="bz-portrait-fallback">@FbiDataUtilities.GetString(ui, "unitname")</span>
+                }
+            </div>
+            <div class="bz-unit-heading">
+                <h3 class="bz-unit-name">@name</h3>
+                <p class="bz-unit-meta">
+                    <span class="bz-meta-pill">@Unit.SetDisplayName</span>
+                    <span class="bz-meta-pill">@Unit.Balance</span>
+                    @if (FbiDataUtilities.GetString(ui, "description") is { } side)
+                    {
+                        <span class="bz-meta-pill">@side</span>
+                    }
+                </p>
+            </div>
+        </header>
+
+        <section class="bz-section" aria-label="Core stats">
+            <h4 class="bz-section-title">Unit</h4>
+            <div class="bz-stat-grid">
+                <BzField Label="Unit No" Value="@FbiDataUtilities.GetString(ui, "unitnumber")" />
+                <BzField Label="Unit name" Value="@FbiDataUtilities.GetString(ui, "unitname")" />
+                <BzField Label="Type" Value="@FbiDataUtilities.GetString(ui, "damagecategory")" />
+                <BzField Label="Cost" Value="@FbiDataUtilities.GetString(ui, "buildcost")" />
+                <BzField Label="Build time" Value="@FbiDataUtilities.GetString(ui, "buildtime")" />
+                <BzField Label="Health" Value="@FbiDataUtilities.GetString(ui, "maxdamage")" />
+                <BzField Label="Speed" Value="@FbiDataUtilities.GetString(ui, "maxvelocity")" />
+            </div>
+        </section>
+
+        <section class="bz-section" aria-label="Sensors and economy">
+            <h4 class="bz-section-title">Sensors &amp; resources</h4>
+            <div class="bz-stat-grid">
+                <BzField Label="Radar" Value="@FbiDataUtilities.GetString(ui, "radardistance")" />
+                <BzField Label="Sight" Value="@FbiDataUtilities.GetString(ui, "sightdistance")" />
+                <BzField Label="Mana storage" Value="@FbiDataUtilities.GetString(ui, "maxmana")" />
+                <BzField Label="Mana regen" Value="@FbiDataUtilities.GetString(ui, "manarechargerate")" />
+                <BzField Label="Mogrium storage" Value="@FbiDataUtilities.GetString(ui, "mogriumstorage")" />
+                <BzField Label="Mogrium gen" Value="@FbiDataUtilities.GetString(ui, "mogriumincome")" />
+                <BzField Label="Health regen time" Value="@FbiDataUtilities.GetString(ui, "healtime")" />
+                <BzField Label="Experience" Value="@FbiDataUtilities.GetString(ui, "experiencepoints")" />
+            </div>
+        </section>
+
+        @if (HasWeapon(Unit.Data, 1) || HasWeapon(Unit.Data, 2) || HasWeapon(Unit.Data, 3))
+        {
+            <section class="bz-section" aria-label="Weapons">
+                <h4 class="bz-section-title">Weapons</h4>
+                @for (var i = 1; i <= 3; i++)
+                {
+                    if (!HasWeapon(Unit.Data, i)) continue;
+                    var wep = FbiDataUtilities.GetDict(Unit.Data[$"WEAPON{i}"]);
+                    var dmg = wep is not null ? FbiDataUtilities.GetDict(wep.GetValueOrDefault("DAMAGE")) : null;
+                    var defaultDmg = dmg is not null ? FbiDataUtilities.GetString(dmg, "default") : null;
+                    var weaponPic = !NoImages ? MediaResolver.ResolveWeaponpic(FbiDataUtilities.GetString(wep, "buttonimageup"), Set!, Cave!) : null;
+                    var extraMarkup = WeaponTypeExtra(wep);
+                    <div class="bz-weapon-block">
+                        <div class="bz-weapon-main">
+                            <div class="bz-weapon-icon">
+                                @if (weaponPic is not null && !NoImages)
+                                {
+                                    <img src="@weaponPic" width="40" height="40" alt="" />
+                                }
+                            </div>
+                            <div class="bz-stat-grid bz-stat-grid--weapon">
+                                <BzField Label="Weapon" Value="@FbiDataUtilities.GetString(wep, "name")" />
+                                <BzField Label="Type" Value="@FbiDataUtilities.GetString(wep, "type")" />
+                                <BzField Label="Damage" Value="@defaultDmg" />
+                                <BzField Label="Range" Value="@FbiDataUtilities.GetString(wep, "range")" />
+                                <BzField Label="Velocity" Value="@FbiDataUtilities.GetString(wep, "weaponvelocity")" />
+                                <BzField Label="Reload" Value="@FbiDataUtilities.GetString(wep, "reloadtime")" />
+                                <BzField Label="Area of effect" Value="@FbiDataUtilities.GetString(wep, "areaofeffect")" />
+                                <BzField Label="Mana / shot" Value="@FbiDataUtilities.GetString(wep, "manapershot")" />
+                                <div class="bz-field bz-field--wide">
+                                    <span class="bz-label">Damage modifiers</span>
+                                    <div class="bz-value bz-dmg-mods">@((MarkupString)DamageModsHtml(dmg, defaultDmg))</div>
+                                </div>
+                            </div>
+                        </div>
+                        @if (!string.IsNullOrEmpty(extraMarkup))
+                        {
+                            <div class="bz-weapon-extra">
+                                @((MarkupString)extraMarkup)
+                            </div>
+                        }
+                    </div>
+                }
+            </section>
+        }
+
+        @foreach (var aura in new[] { "Joy", "Attack", "Armor" })
+        {
+            var key = $"Adjust{aura}";
+            if (ui is null || !ui.TryGetValue(key, out var adjObj)) continue;
+            var adj = FbiDataUtilities.GetDict(adjObj);
+            if (adj is null) continue;
+            var mult = aura == "Joy" ? 1d : 100d;
+            var edge = double.TryParse(FbiDataUtilities.GetString(adj, "edgeeffectiveness"), System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out var e) ? e * 100 : 0;
+            var adjVal = double.TryParse(FbiDataUtilities.GetString(adj, "adjustment"), System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out var ad) ? ad * mult : ad;
+            <section class="bz-section" aria-label="@aura aura">
+                <h4 class="bz-section-title">@aura aura</h4>
+                <div class="bz-stat-grid">
+                    <BzField Label="@($"{aura} adjustment")" Value="@($"{adjVal}{(aura == "Joy" ? " (Mogrium → Health)" : "%")}")" />
+                    <BzField Label="Radius" Value="@FbiDataUtilities.GetString(adj, "radius")" />
+                    <BzField Label="Affects enemies" Value="@FbiDataUtilities.GetString(adj, "affectsenemy")" />
+                    <BzField Label="Edge effectiveness" Value="@($"{edge.ToString("0.##")}%")" />
+                </div>
+            </section>
+        }
+
+        @if (ShowCanBuild && trees.Count > 0)
+        {
+            <section class="bz-section" aria-label="Can build">
+                <h4 class="bz-section-title">Can build</h4>
+                <p class="bz-section-hint">From build menu folders; game may interpret menus differently.</p>
+                <div class="bz-canbuild">
+                    @foreach (var tree in trees)
+                    {
+                        var targetKey = $"{Unit.UnitsPath}/{tree}.fbi".ToLowerInvariant();
+                        var picUrl = MediaResolver.ResolveBuildpic(tree, null, Set!, Cave!);
+                        if (keys.Contains(targetKey) && picUrl is not null && !NoImages)
+                        {
+                            <a class="bz-canbuild-item" href="#@($"{Unit.UnitsPath}/{tree}")" title="@tree"><img src="@picUrl" width="64" height="48" alt="@tree" /></a>
+                        }
+                        else if (keys.Contains(targetKey) && !NoImages && picUrl is null)
+                        {
+                            <span class="bz-canbuild-item bz-warn">@tree</span>
+                        }
+                        else if (keys.Contains(targetKey) && NoImages)
+                        {
+                            <a class="bz-canbuild-item" href="#@($"{Unit.UnitsPath}/{tree}")">@tree</a>
+                        }
+                        else if (!NoImages && picUrl is not null)
+                        {
+                            <span class="bz-canbuild-item"><img src="@picUrl" width="64" height="48" alt="@tree" /></span>
+                        }
+                        else
+                        {
+                            <span class="bz-canbuild-item">@tree</span>
+                        }
+                    }
+                </div>
+            </section>
+        }
+    </article>
+}
+
+@code {
+    [Parameter] public UnitViewModel? Unit { get; set; }
+    [Parameter] public SetResourceBundle? Set { get; set; }
+    [Parameter] public SetResourceBundle? Cave { get; set; }
+    [Parameter] public bool NoImages { get; set; }
+    [Parameter] public bool ShowCanBuild { get; set; }
+    [Parameter] public IReadOnlySet<string>? AllKeys { get; set; }
+
+    static List<string> BuildMenuList(UnitViewModel u, SetResourceBundle set)
+    {
+        var menus = u.IsCrusadesBalance ? set.CanbuildCbMenus : set.CanbuildMenus;
+        return menus.TryGetValue(u.FileStem, out var t) ? t : new List<string>();
+    }
+
+    static bool HasWeapon(Dictionary<string, object?> data, int n) =>
+        data.TryGetValue($"WEAPON{n}", out var w) && w is Dictionary<string, object?>;
+
+    static string DamageModsHtml(Dictionary<string, object?>? dmg, string? defVal)
+    {
+        if (dmg is null || !double.TryParse(defVal, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out var defNum))
+            return "<span class=\"bz-muted\">—</span>";
+        var sb = new StringBuilder();
+        sb.Append("<ul class=\"bz-dmg-list\">");
+        foreach (var kv in dmg)
+        {
+            if (kv.Key.Equals("default", StringComparison.OrdinalIgnoreCase)) continue;
+            if (kv.Value is not string s) continue;
+            if (!double.TryParse(s, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out var m)) continue;
+            var line = $"{System.Math.Round(m * defNum)} ({m * 100}%) — {DisplayFormatting.ToDisplayTitleCase(kv.Key)}";
+            sb.Append("<li>").Append(System.Net.WebUtility.HtmlEncode(line)).Append("</li>");
+        }
+        sb.Append("</ul>");
+        var html = sb.ToString();
+        return html == "<ul class=\"bz-dmg-list\"></ul>" ? "<span class=\"bz-muted\">—</span>" : html;
+    }
+
+    static string WeaponTypeExtra(Dictionary<string, object?>? wep)
+    {
+        if (wep is null) return "";
+        var name = FbiDataUtilities.GetString(wep, "type") ?? "";
+        var t = name.ToLowerInvariant();
+        string Edge() => EdgePct(FbiDataUtilities.GetString(wep, "edgeeffectiveness"));
+        void Row(StringBuilder sb, string label, string? val)
+        {
+            if (string.IsNullOrEmpty(val)) return;
+            sb.Append("<div class=\"bz-kv\"><span class=\"bz-kv-label\">").Append(System.Net.WebUtility.HtmlEncode(label)).Append("</span>")
+              .Append("<span class=\"bz-kv-value\">").Append(System.Net.WebUtility.HtmlEncode(val)).Append("</span></div>");
+        }
+        var sb = new StringBuilder();
+        if (t == "remote effect" && FbiDataUtilities.GetString(wep, "ringcount") is { } rc)
+        {
+            sb.Append("<div class=\"bz-substats\"><p class=\"bz-substats-title\">Remote effect (rings)</p><div class=\"bz-kv-grid\">");
+            Row(sb, "Buildup time", FbiDataUtilities.GetString(wep, "builduptime"));
+            Row(sb, "Decay time", FbiDataUtilities.GetString(wep, "decaytime"));
+            Row(sb, "Ring count", rc);
+            Row(sb, "Ring duration", FbiDataUtilities.GetString(wep, "ringduration"));
+            Row(sb, "Ring delay", FbiDataUtilities.GetString(wep, "ringdelay"));
+            Row(sb, "Edge effectiveness", Edge() + "%");
+            sb.Append("</div></div>");
+        }
+        else if (t == "remote effect" && FbiDataUtilities.GetString(wep, "particlespersecond") is not null)
+        {
+            sb.Append("<div class=\"bz-substats\"><p class=\"bz-substats-title\">Remote effect (particles)</p><div class=\"bz-kv-grid\">");
+            Row(sb, "Buildup time", FbiDataUtilities.GetString(wep, "builduptime"));
+            Row(sb, "Decay time", FbiDataUtilities.GetString(wep, "decaytime"));
+            Row(sb, "Duration", FbiDataUtilities.GetString(wep, "duration"));
+            Row(sb, "Particles/s", FbiDataUtilities.GetString(wep, "particlespersecond"));
+            Row(sb, "Edge effectiveness", Edge() + "%");
+            sb.Append("</div></div>");
+        }
+        else if (t == "wandering")
+        {
+            sb.Append("<div class=\"bz-substats\"><p class=\"bz-substats-title\">Wandering effect</p><div class=\"bz-kv-grid\">");
+            Row(sb, "Buildup time", FbiDataUtilities.GetString(wep, "builduptime"));
+            Row(sb, "Decay time", FbiDataUtilities.GetString(wep, "decaytime"));
+            Row(sb, "Duration", FbiDataUtilities.GetString(wep, "duration"));
+            Row(sb, "Edge effectiveness", Edge() + "%");
+            sb.Append("</div></div>");
+        }
+        return sb.ToString();
+    }
+
+    static string EdgePct(string? s) =>
+        double.TryParse(s, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out var e)
+            ? (e * 100).ToString("0.##")
+            : "?";
+}
