@@ -1,0 +1,406 @@
+﻿@page "/"
+@using System.Diagnostics
+@using System.IO
+@using Bestiary.Core.Models
+@using Bestiary.Core.Services
+@using Bestiary.Core.Utilities
+@inject BestiaryBrowseService Browse
+@inject HttpClient Http
+@inject NavigationManager Nav
+
+<PageTitle>Total Annihilation: Kingdoms Bestiary</PageTitle>
+
+<div class="bz-body">
+    <h1 class="text-center bz-title">Total Annihilation: Kingdoms Bestiary</h1>
+    <p class="text-center small">Version 3.0</p>
+
+    @if (_loadError is not null)
+    {
+        <p class="text-danger">@_loadError</p>
+    }
+    else if (_manifest is null)
+    {
+        <p>Loading manifest…</p>
+    }
+    else
+    {
+        <div class="bz-panel bz-panel--sheet @(_filterPanelExpanded ? "" : "bz-panel--collapsed")">
+            <div class="bz-panel-header">
+                <h2 class="bz-panel-main-title" id="filter-panel-title">Show by: Set / Rebalance / Mod</h2>
+                <button type="button"
+                        class="bz-btn-go bz-panel-toggle"
+                        aria-expanded="@_filterPanelExpanded"
+                        aria-controls="filter-panel-body"
+                        title="@(_filterPanelExpanded ? "Collapse panel" : "Expand panel")"
+                        @onclick="ToggleFilterPanel">
+                    @if (_filterPanelExpanded)
+                    {
+                        <svg class="bz-panel-toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <polyline points="6 15 12 9 18 15" />
+                        </svg>
+                        <span class="visually-hidden">Collapse filter panel</span>
+                    }
+                    else
+                    {
+                        <svg class="bz-panel-toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                        <span class="visually-hidden">Expand filter panel</span>
+                    }
+                </button>
+            </div>
+            <div id="filter-panel-body" class="bz-panel-body" hidden="@(!_filterPanelExpanded)">
+            <div class="bz-panel-col">
+                <div class="bz-col">
+                    <h3 class="bz-col-title">Original TA: Kingdoms</h3>
+                    <div class="bz-path-list">
+                        @foreach (var p in OriginalPaths)
+                        {
+                            <div class="bz-check-row">
+                                <label class="bz-check-label">
+                                    <input type="checkbox" class="bz-check" checked="@_selectedPaths.Contains(p.Path)"
+                                           @onchange="@(e => TogglePath(p.Path, e))" />
+                                    <span>@DisplayFormatting.ToDisplayTitleCase(p.SetFolder) / @p.Path.Split('/').Last()</span>
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="bz-col">
+                    <h3 class="bz-col-title">Crusades Balance</h3>
+                    <div class="bz-path-list">
+                        @foreach (var p in CrusadePaths)
+                        {
+                            <div class="bz-check-row">
+                                <label class="bz-check-label">
+                                    <input type="checkbox" class="bz-check" checked="@_selectedPaths.Contains(p.Path)"
+                                           @onchange="@(e => TogglePath(p.Path, e))" />
+                                    <span>@DisplayFormatting.ToDisplayTitleCase(p.SetFolder) / @p.Path.Split('/').Last()</span>
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="bz-col bz-col--controls">
+                    <div class="bz-control-group">
+                        <h3 class="bz-col-title">Race selection</h3>
+                        <p class="bz-control-hint">Leave &ldquo;All&rdquo; checked to include every side. Uncheck &ldquo;All&rdquo; to filter.</p>
+                        <div class="bz-check-stack">
+                            <label class="bz-check-label"><input type="checkbox" class="bz-check" checked="@_allRaces" @onchange="OnAllRaces" /><span>All</span></label>
+                            @foreach (var r in new[] { "Aramon", "Veruna", "Taros", "Zhon", "Creon" })
+                            {
+                                <label class="bz-check-label@( _allRaces ? " bz-check-label--muted" : "" )"><input type="checkbox" class="bz-check" checked="@_races.Contains(r)" disabled="@_allRaces" @onchange="@(e => ToggleRace(r, e))" /><span>@r</span></label>
+                            }
+                        </div>
+                    </div>
+                    <div class="bz-control-group">
+                        <h3 class="bz-col-title">Sort</h3>
+                        <label class="bz-field-label" for="order-preset">Order by</label>
+                        <select id="order-preset" class="bz-select" @bind="_orderPreset">
+                            <option value="@OrderPresets.UnitName">Unit name</option>
+                            <option value="@OrderPresets.UnitHealth">Unit health</option>
+                            <option value="@OrderPresets.Weapon1Damage">Weapon 1 damage</option>
+                            <option value="custom">Custom…</option>
+                        </select>
+                        @if (_orderPreset == "custom")
+                        {
+                            <label class="bz-field-label bz-mt-1" for="custom-order">Custom path</label>
+                            <input id="custom-order" class="bz-input" placeholder="e.g. UNITINFO.buildcost" @bind="_customOrder" />
+                        }
+                        <fieldset class="bz-fieldset-reset bz-mt-1">
+                            <legend class="bz-legend-inline">Direction</legend>
+                            <label class="bz-radio-label"><input type="radio" class="bz-radio" name="dir" checked="@(!_descending)" @onchange="@(_ => _descending = false)" /><span>Ascending</span></label>
+                            <label class="bz-radio-label"><input type="radio" class="bz-radio" name="dir" checked="@_descending" @onchange="@(_ => _descending = true)" /><span>Descending</span></label>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="bz-actions-bar" role="group" aria-label="Display options and run query">
+                <span class="bz-actions-bar-label">Display</span>
+                <label class="bz-check-label bz-check-label--inline"><input type="checkbox" class="bz-check" @bind="_noImages" /><span>Disable images</span></label>
+                <label class="bz-check-label bz-check-label--inline"><input type="checkbox" class="bz-check" @bind="_showCanBuild" /><span>Enable build menus</span></label>
+                <label class="bz-check-label bz-check-label--inline"><input type="checkbox" class="bz-check" @bind="_showSystem" /><span>System messages</span></label>
+                @* <label class="bz-check-label bz-check-label--inline"><input type="checkbox" class="bz-check" @bind="_showAllDownloads" /><span>Show all downloads</span></label> *@
+                <span class="bz-actions-bar-spacer" aria-hidden="true"></span>
+                <button class="bz-btn-go" type="button" disabled="@_busy" @onclick="RunQueryAsync">Go &gt;&gt;</button>
+            </div>
+            <p class="bz-limits-note bz-limits-note--below-bar">At most @BestiaryConstants.ModsLimit unit-folder selections and @BestiaryConstants.RacesLimit race-weight.</p>
+            </div>
+        </div>
+
+        @if (_showAllDownloads && _manifest.Downloads is { Count: > 0 } dl)
+        {
+            <h2>All downloads</h2>
+            @foreach (var c in dl)
+            {
+                <h4>@c.Category</h4>
+                foreach (var f in c.Files)
+                {
+                    var href = f.RelativeUrl.StartsWith('/') ? f.RelativeUrl : "/" + f.RelativeUrl;
+                    <div><a href="@href" target="_blank">@f.Name</a> (@f.SizeText)</div>
+                }
+            }
+            <hr />
+        }
+
+        @if (_error is not null)
+        {
+            <div class="alert alert-danger">@_error</div>
+        }
+        @if (_showSystem && _systemMsg is not null)
+        {
+            <div class="alert alert-secondary small"><b>System:</b><br />@((MarkupString)_systemMsg)</div>
+        }
+
+        @if (_results.Count > 0 && _cave is not null)
+        {
+            <h3 class="bz-results-heading">Selected units (@_results.Count)</h3>
+            <div class="bz-results">
+                @foreach (var u in _results)
+                {
+                    <UnitDisplay Unit="u" Set="@ResolveSet(u)" Cave="@_cave" NoImages="@_noImages" ShowCanBuild="@_showCanBuild" AllKeys="@_allKeys" />
+                }
+            </div>
+        }
+        else if (_queriedOnce && !_busy && _error is null)
+        {
+            <p>No units to display. Choose folders and click Go.</p>
+        }
+    }
+</div>
+
+@code {
+    BestiaryManifest? _manifest;
+    SetResourceBundle? _cave;
+    readonly HashSet<string> _selectedPaths = new(StringComparer.OrdinalIgnoreCase);
+    readonly HashSet<string> _races = new(StringComparer.OrdinalIgnoreCase);
+    bool _allRaces = true;
+    string? _loadError;
+    string? _error;
+    string? _systemMsg;
+    bool _busy;
+    bool _queriedOnce;
+    string _orderPreset = OrderPresets.UnitName;
+    string _customOrder = "";
+    bool _descending;
+    bool _noImages;
+    bool _showCanBuild;
+    bool _showSystem;
+    bool _showAllDownloads;
+    bool _filterPanelExpanded = true;
+    List<UnitViewModel> _results = new();
+    HashSet<string> _allKeys = new(StringComparer.OrdinalIgnoreCase);
+
+    IEnumerable<SelectablePathInfo> OriginalPaths =>
+        _manifest is null ? [] : _manifest.SelectablePaths.Where(p => p.BalanceLabel == "Original TAK").OrderBy(p => p.SetFolder, StringComparer.OrdinalIgnoreCase);
+
+    IEnumerable<SelectablePathInfo> CrusadePaths =>
+        _manifest is null ? [] : _manifest.SelectablePaths.Where(p => p.BalanceLabel == "Crusades Balance").OrderBy(p => p.SetFolder, StringComparer.OrdinalIgnoreCase);
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _manifest = await Browse.GetManifestAsync();
+            if (!_manifest.Sets.TryGetValue(_manifest.CavedogResourcePath, out _cave))
+                _cave = new SetResourceBundle { SetPath = _manifest.CavedogResourcePath };
+
+            var bookmark = BrowseBookmarkQuery.TryParse(Nav.ToAbsoluteUri(Nav.Uri), _manifest);
+            if (bookmark is not null)
+                ApplyBookmarkSnapshot(bookmark);
+
+            if (_selectedPaths.Count > 0)
+                await RunQueryAsync();
+        }
+        catch (Exception ex)
+        {
+            _loadError = ex.Message;
+        }
+    }
+
+    void ToggleFilterPanel() => _filterPanelExpanded = !_filterPanelExpanded;
+
+    void ApplyBookmarkSnapshot(BrowseBookmarkSnapshot s)
+    {
+        _selectedPaths.Clear();
+        foreach (var p in s.Paths)
+            _selectedPaths.Add(p);
+        _races.Clear();
+        foreach (var r in s.Races)
+            _races.Add(r);
+        _allRaces = s.AllRaces;
+        _orderPreset = s.OrderPreset;
+        _customOrder = s.CustomOrder;
+        _descending = s.Descending;
+        _noImages = s.NoImages;
+        _showCanBuild = s.ShowCanBuild;
+        _showSystem = s.ShowSystem;
+        _showAllDownloads = s.ShowAllDownloads;
+        _filterPanelExpanded = s.FilterExpanded;
+    }
+
+    void SyncBookmarkToUrl()
+    {
+        if (_manifest is null) return;
+        var q = BrowseBookmarkQuery.ToQuery(
+            _selectedPaths,
+            _allRaces,
+            _races,
+            _orderPreset,
+            _customOrder,
+            _descending,
+            _noImages,
+            _showCanBuild,
+            _showSystem,
+            _showAllDownloads,
+            _filterPanelExpanded);
+
+        var uri = Nav.Uri;
+        var i = uri.IndexOf('?', StringComparison.Ordinal);
+        var withoutQuery = i < 0 ? uri : uri[..i];
+        var cur = i < 0 ? "" : uri[(i + 1)..];
+        if (string.Equals(cur, q, StringComparison.Ordinal))
+            return;
+
+        Nav.NavigateTo(q.Length == 0 ? withoutQuery : $"{withoutQuery}?{q}", replace: true);
+    }
+
+    void TogglePath(string path, ChangeEventArgs e)
+    {
+        if (e.Value is bool on && on)
+            _selectedPaths.Add(path);
+        else
+            _selectedPaths.Remove(path);
+    }
+
+    void ToggleRace(string race, ChangeEventArgs e)
+    {
+        if (e.Value is bool on && on)
+            _races.Add(race);
+        else
+            _races.Remove(race);
+    }
+
+    void OnAllRaces(ChangeEventArgs e)
+    {
+        _allRaces = e.Value is bool b && b;
+        if (_allRaces)
+            _races.Clear();
+    }
+
+    SetResourceBundle ResolveSet(UnitViewModel u)
+    {
+        if (_manifest!.Sets.TryGetValue(u.SetPath, out var s))
+            return s;
+        return new SetResourceBundle { SetPath = u.SetPath };
+    }
+
+    string EffectiveOrder()
+    {
+        if (_orderPreset != "custom")
+            return _orderPreset;
+        if (OrderSpecUtility.TryNormalize(_customOrder, out var d))
+            return d;
+        return OrderPresets.UnitName;
+    }
+
+    async Task RunQueryAsync()
+    {
+        _busy = true;
+        _error = null;
+        _systemMsg = null;
+        _queriedOnce = true;
+        var sw = Stopwatch.StartNew();
+        try
+        {
+            if (_manifest is null) return;
+
+            var raceList = _allRaces ? new List<string>() : _races.ToList();
+            var paths = _selectedPaths.ToList();
+            var (ok, err) = SelectionLimits.Validate(paths, raceList);
+            if (!ok)
+            {
+                _error = err;
+                _results = new();
+                return;
+            }
+
+            var merged = new Dictionary<string, (Dictionary<string, object?> Data, SelectablePathInfo? Inf)>(StringComparer.OrdinalIgnoreCase);
+            foreach (var path in paths)
+            {
+                var cref = _manifest.UnitChunks.FirstOrDefault(c => c.UnitsPath.Equals(path, StringComparison.OrdinalIgnoreCase));
+                if (cref is null) continue;
+                var chunk = await BestiaryBrowseService.LoadChunkAsync(Http, cref.ChunkFile);
+                var inf = _manifest.SelectablePaths.FirstOrDefault(s => s.Path.Equals(path, StringComparison.OrdinalIgnoreCase));
+                foreach (var kv in chunk)
+                    merged[kv.Key] = (kv.Value, inf);
+            }
+
+            var orderKey = EffectiveOrder();
+            var list = new List<UnitViewModel>();
+            foreach (var (key, (data, inf)) in merged)
+            {
+                var vm = ToVm(key, data, inf);
+                if (!PassesRaceFilter(vm, raceList))
+                    continue;
+                list.Add(vm);
+            }
+
+            list.Sort((a, b) => CompareVm(a, b, orderKey, _descending));
+            _results = list;
+            _allKeys = new HashSet<string>(merged.Keys, StringComparer.OrdinalIgnoreCase);
+            sw.Stop();
+            if (_showSystem)
+                _systemMsg = $"{list.Count} units displayed. Loaded {merged.Count} rows in {sw.Elapsed.TotalSeconds:F2}s.";
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+            _results = new();
+        }
+        finally
+        {
+            _busy = false;
+            SyncBookmarkToUrl();
+        }
+    }
+
+    static bool PassesRaceFilter(UnitViewModel vm, List<string> raceSelection)
+    {
+        if (raceSelection.Count == 0)
+            return true;
+        var ui = FbiDataUtilities.GetDict(vm.Data.GetValueOrDefault("UNITINFO"));
+        var desc = FbiDataUtilities.GetString(ui, "description");
+        return desc is not null && raceSelection.Any(r => r.Equals(desc, StringComparison.OrdinalIgnoreCase));
+    }
+
+    static UnitViewModel ToVm(string key, Dictionary<string, object?> data, SelectablePathInfo? inf)
+    {
+        var li = key.LastIndexOf('/');
+        var unitsPath = key[..li];
+        var li2 = unitsPath.LastIndexOf('/');
+        var setPath = unitsPath[..li2];
+        var stem = Path.GetFileNameWithoutExtension(key).ToLowerInvariant();
+        var balance = inf?.BalanceLabel ??
+                      (unitsPath.EndsWith("unitscb", StringComparison.OrdinalIgnoreCase) ? "Crusades Balance" : "Original TAK");
+        var setName = inf?.SetFolder ?? unitsPath.Split('/', StringSplitOptions.RemoveEmptyEntries).Skip(1).FirstOrDefault() ?? "?";
+        return new UnitViewModel
+        {
+            Key = key,
+            Data = data,
+            UnitsPath = unitsPath,
+            SetPath = setPath,
+            SetDisplayName = setName,
+            Balance = balance,
+            FileStem = stem,
+            IsCrusadesBalance = unitsPath.EndsWith("unitscb", StringComparison.OrdinalIgnoreCase)
+        };
+    }
+
+    static int CompareVm(UnitViewModel a, UnitViewModel b, string orderKey, bool desc)
+    {
+        var va = FbiDataUtilities.GetAtPath(a.Data, orderKey);
+        var vb = FbiDataUtilities.GetAtPath(b.Data, orderKey);
+        return FbiDataUtilities.CompareValues(va, vb, desc);
+    }
+}

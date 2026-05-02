@@ -1,0 +1,26 @@
+Static deployment (GitHub Pages, Netlify, any static host)
+============================================================
+
+1. From the repository root, publish the Blazor WebAssembly app:
+
+   dotnet publish Bestiary.Web/Bestiary.Web.csproj -c Release
+
+   This runs Bestiary.Indexer automatically (unless you set SkipBestiaryIndexer=true) and refreshes
+   Bestiary.Web/wwwroot/data/* plus copies images from sets/, mods/, races/, images/, and downloads/.
+
+2. Upload the contents of:
+
+   Bestiary.Web/bin/Release/net10.0/publish/wwwroot/
+
+   to your static host document root.
+
+3. Large content: the game asset tree can be very large. Zip/exe files are not copied into wwwroot.
+   If the site exceeds host limits, publish only selected sets or host assets elsewhere and adjust paths.
+
+4. To skip the indexer during publish (e.g. you already ran it manually):
+
+   dotnet publish Bestiary.Web/Bestiary.Web.csproj -c Release -p:SkipBestiaryIndexer=true
+
+5. To regenerate data only:
+
+   dotnet run --project Bestiary.Indexer -- --repo <path-to-this-repo> --out <path-to>/Bestiary.Web/wwwroot
